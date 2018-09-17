@@ -1,0 +1,9 @@
+{
+  "wishListTitle":                         "cssSelector, div#wishListTitle",
+  "productNameLink":                       "cssSelector, a#href_productName",
+  "productId":                             "cssSelector, div#productId",
+  "productPrice":                          "cssSelector, div.wlColorwayPrice>div",
+  "productImg":                            "cssSelector, .productThumb>a",
+  "deleteListBtn":                         "cssSelector, a[id^=deleteWishList]",
+  "confirmDeleteBtn":                      "cssSelector, div.uidialog div#bt1"
+}

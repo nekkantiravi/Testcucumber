@@ -1,0 +1,4 @@
+{
+  "url": "/bag/checkout/merge.ognc||/bag/index.ognc",
+  "verify_page": "id, mb-j-checkout-btn"
+}

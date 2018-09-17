@@ -1,0 +1,7 @@
+{
+
+
+  "select_template": "id, project_template",
+  "close_verlay": "class,bootbox-close-button "
+
+}

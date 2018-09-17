@@ -1,0 +1,9 @@
+{
+    "url":                        "/shop/product",
+
+    "verify_page":        "className, m-checkout||id, btnCheckout",
+    "add_to_bag_model":   "id, m-addtobag-modal",
+    "checkout":           "className, m-checkout||id, btnCheckout||id, mb-j-checkout-btn",
+    "continue":           "className, mb-j-overlay-continue||id, btnContinueShopping"
+
+}

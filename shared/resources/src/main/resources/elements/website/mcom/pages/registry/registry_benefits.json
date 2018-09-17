@@ -1,0 +1,7 @@
+{
+  "url": "/registry/top10-registry||/ce/registry/top10-registry",
+  "verify_page": "xpath, //*[@class='small-16 columns']/map/area[@alt='book an appointment'] || cssSelector, #Map area[alt='access your registry'] || xpath, //*[@class='small-16 columns']/map/area[@alt='Wedding Perks']",
+
+  "access_your_registry": "cssSelector, #Map area[alt='access your registry']",
+  "create_a_registry":    "cssSelector, #Map area[alt='create a registry']"
+}

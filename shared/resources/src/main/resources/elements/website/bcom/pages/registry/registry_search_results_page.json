@@ -1,0 +1,8 @@
+{
+    "url":                                          "registry/wedding/registrysearch",
+    "error_message":                                "className, b_errorMessage",
+    "verify_page":                                  "id, registrySearchContainer",
+    "search_first_name":                            "name, searchCriteria.firstName",
+    "search_last_name":                             "name, searchCriteria.lastName",
+    "go_button":                                    "className, r_button"
+}

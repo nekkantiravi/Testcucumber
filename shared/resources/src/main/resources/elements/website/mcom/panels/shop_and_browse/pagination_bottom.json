@@ -1,0 +1,3 @@
+{
+    "show_all_items":    "xpath, //*[@id='paginateBottom']/span||xpath, //*[@id='filterResultsBottom']//li[contains(@class, 'showingAll')]"
+}

@@ -1,0 +1,21 @@
+{
+  "url": "/",
+
+  "yesterdays_list":				"id, yesterdaysList",
+  "yesterdays_header":				"class, yesterdaysSummaryHeader",
+  "client_sales_text":              "xpath, //*[@id='yesterdaysSummary']/div[1]",
+  "client_sales_value":             "xpath, //*[@id='yesterdaysSummary']/div[2]",
+  "potential_clients_text":         "xpath, //*[@id='yesterdaysSummary']/div[3]",
+  "potential_clients_value":        "xpath, //*[@id='yesterdaysSummary']/div[4]",
+  "clients_shopped_text":           "xpath, //*[@id='yesterdaysSummary']/div[5]",
+  "clients_shopped_value":          "xpath, //*[@id='yesterdaysSummary']/div[6]",
+  "new_book_text":                  "xpath, //*[@id='yesterdaysSummary']/div[7]",
+  "new_book_value":                 "xpath, //*[@id='yesterdaysSummary']/div[8]",
+  "recent_customer_list":           "id, customerList",
+  "customer_name_field":            "id, rcHeader_0",
+  "sa_field":                       "id, rcHeader_2",
+  "last_visit_field":               "id, rcHeader_4",
+  "visits_field":                   "id, rcHeader_6",
+  "dollars_SA_field":               "id, rcHeader_8"
+
+}

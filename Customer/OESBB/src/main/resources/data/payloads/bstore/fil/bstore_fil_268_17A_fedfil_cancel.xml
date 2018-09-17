@@ -1,0 +1,104 @@
+<mailMessagePayload>
+	<reservationNumber>268_17A_bstore</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>11/21/2015</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0024</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 LOWER KINGTOWN RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>PITTSTOWN</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08867</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>133.92</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 LOWER KINGTOWN RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>PITTSTOWN</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08867</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>DRIFTER BOAT SHOE</description>
+			<price>133.92</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>133.92</totalAmount>
+			<expectedDate>11/25/2015</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>VOIDED</status>
+			<vendor>STAR USA</vendor>
+			<cancelledQuantity>005</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

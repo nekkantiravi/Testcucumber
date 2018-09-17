@@ -1,0 +1,131 @@
+<mailMessagePayload>
+  <reservationNumber>1111112</reservationNumber>
+  <internetOrderNumber>245_5D_BWEDD</internetOrderNumber>
+  <orderDate>04/08/2016</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>28.32</orderSubtotalAmt>
+  <baseShippingAmt>10.00</baseShippingAmt>
+  <addtShipAddAmt>20.00</addtShipAddAmt>
+  <shipUpgradeAmt>30.00</shipUpgradeAmt>
+  <giftWrapAmt>40.00</giftWrapAmt>
+  <taxAmt>12.00</taxAmt>
+  <orderTotal>128.32</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>28.32</amount>
+    <paymentCategoryFlag>C</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>04/10/2016</shippedDate>
+    <returnSubmittedDate>04/08/2016</returnSubmittedDate>
+    <mailFlag />
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>2 BREMERTONEEE RD</addressLine1>
+    <addressLine2>07 BREMIII RD</addressLine2>
+    <addressLine3>6668 BREMOOO</addressLine3>
+    <city>MADISON</city>
+    <state>CT</state>
+    <country>USA</country>
+    <zipcode>06443</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>28000648512345</giftRegistryNumber>
+    <giftWrapFlag>Y</giftWrapFlag>
+    <giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>Y</giftReceiptFlag>
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>COMERC STEAMR IS9100</description>
+      <price>122.39</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>003</shippedQuantity>
+      <totalAmount>122.39</totalAmount>
+      <expectedDate>04/12/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>000000492031403361</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+	<itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>COMERC STEAMR IS9100</description>
+      <price>122.39</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>003</shippedQuantity>
+      <totalAmount>122.39</totalAmount>
+      <expectedDate>04/12/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

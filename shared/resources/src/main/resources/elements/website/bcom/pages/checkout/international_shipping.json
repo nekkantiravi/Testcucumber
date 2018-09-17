@@ -1,0 +1,21 @@
+{
+    "include": [
+        "panel.header_and_footer",
+        "panel.left_navigation_category",
+        "panel.category_splash",
+        "panel.browse_preview"
+    ],
+
+    "country":                  "id, shippingCountry",
+    "country_options":          "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(1)>.current",
+    "country_list":             "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(1)>ul>li",
+    "currency":                 "id, shippingCurrency",
+    "currency_options":         "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(2)>.current",
+    "currency_list":            "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(2)>ul>li",
+    "save_continue":            "id, saveNContinueBtn",
+    "ship_to_us_address":       "id, shipToUs",
+    "us_billing_address":       "id, iShip_addressRequired",
+    "us_billing_container":     "id, addressRequiredContainer",
+    "iship_container":          "className, iShip_contextPageContainer",
+    "close_billingPanel":       "className, container-close"
+}

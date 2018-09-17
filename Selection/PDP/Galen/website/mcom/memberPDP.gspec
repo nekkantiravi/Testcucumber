@@ -1,0 +1,87 @@
+@objects
+
+
+    product_sidebar                     id      productSidebar
+    product_header_box                  id      productHeaderBox
+    product_title                       css     [data-auto='productTitle']
+    product_price_info                  css     .priceInfo
+    call_to_action                      css     .callToAction
+    product_quantity                    css     .productQuantity
+    zoomer                              css     [data-auto='zoomer']
+    close_zoomer                        css     .ui-dialog-titlebar-close
+    hero_image                          css     .mainImage
+    pinterest_icon                      id      socialIcon_pi2
+    email_icon                          id      socialIcon_email2
+    add_to_bag                          css     [data-auto='addToBag']
+    add_to_list                         css     [data-auto='addToList']
+    shop_collection_cta                 id      shopCollectionCTA
+    shop_collection_image               css     .collectionThumbnail
+    vertical_pros                       id      verticalPros
+    product_details_header              css     [data-auto='product-details-header']
+    product_shipping_returns            css     [data-auto='product-shipping-returns-header']
+    bottom_tabs                         css     [aria-controls='product-collection-content']
+
+
+
+= Product Sidebar =
+    = Product Section =
+        product_header_box:
+            width ~ 507 px
+            height > 100 px
+
+        product_title:
+            inside product_header_box
+            width ~274 px
+            height ~55 px
+
+        product_price_info:
+            inside product_header_box
+            width 507 px
+            height 26 px
+
+    = Order Panel Section =
+
+        hero_image:
+            inside product_header_box
+            width 400 px
+            height ~489 px
+
+        product_quantity:
+            width 50 px
+            height ~ 44 px
+
+        add_to_bag:
+            width  ~ 180 px
+            height ~ 43 px
+
+        add_to_list:
+            width ~ 180 px
+            height ~ 43 px
+
+        call_to_action:
+            width ~ 507 px
+            height >= 110 px
+
+    = Shop Collection CTA =
+        shop_collection_cta:
+            width 507 px
+            height 91 px
+
+        shop_collection_image:
+            width 62 px
+            height 66 px
+
+    = Zoomer =
+        zoomer:
+            width 25px
+            height 25px
+
+    = Vertical PROS =
+        vertical_pros:
+            width ~ 117 px
+            height <= 700 px
+
+    = Bottom Tabs =
+        bottom_tabs:
+            width ~ 159 px
+            height ~ 28 px

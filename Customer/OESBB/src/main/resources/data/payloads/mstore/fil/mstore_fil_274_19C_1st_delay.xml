@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19C_MSTORE</reservationNumber>
+	<internetOrderNumber>274_19C_MSTORE</internetOrderNumber>
+	<orderDate>11/27/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>75.72</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>7.19</taxAmt>
+	<orderTotal>82.91</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0428</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title>MS</title>
+		<firstName>VICKI</firstName>
+		<middleName />
+		<lastName>MAR</lastName>
+		<attnLine />
+		<addressLine1>11906 SE 78TH ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>NEWCASTLE</city>
+		<state>WA</state>
+		<country>USA</country>
+		<zipcode>98056</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************9818</accountNumber>
+		<amount>82.91</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title>MS</title>
+		<firstName>VICKI</firstName>
+		<middleName />
+		<lastName>MAR</lastName>
+		<attnLine />
+		<addressLine1>11906 SE 78TH ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>NEWCASTLE</city>
+		<state>WA</state>
+		<country>USA</country>
+		<zipcode>98056</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>LILY PAD &amp; FROGS</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/14/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>12/10/2016</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>STAR HOME DESIGNS LLC</vendor>
+			<cancelledQuantity />
+			<upcId>000000876140008509</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>TIDBIT PL</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

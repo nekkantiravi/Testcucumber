@@ -1,0 +1,243 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "442757450",
+			"orderStatusCode": "6",
+			"orderStatusDescription": "IN_PROCESS",
+			"orderConfirmTimestamp": "2017-09-05T17:45:55.703-04:00",
+			"orderConfirmUtcTimestamp": "2017-09-05T21:45:55.703Z",
+			"sellingChannelCode": "BLCOM",
+			"sellLegacyDivisionNbr": "72",
+			"sellLegacyLocationNbr": "139",
+			"salesAssociateId": "72000101",
+			"messageCreateTimestamp": "2017-09-05T17:53:50.837-04:00",
+			"messageCreateUtcTimestamp": "2017-09-05T21:53:50.837Z",
+			"eventType": "SHPSCF",
+			"eventTimestamp": "2017-09-05T17:52:51.869-04:00",
+			"eventUtcTimestamp": "2017-09-05T21:52:51.869Z",
+			"partnerRefList": {
+				"partnerRef": [
+					{
+						"partnerOrderId": "264_14R_BLCOM"
+					}
+				]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"customerId": "65278216",
+					"firstName": "HARI",
+					"lastName": "HARI",
+					"addressLine1": "919 MOWRY AVE",
+					"addressLine2": "APT 9",
+					"cityName": "FREMONT",
+					"stateName": "CA",
+					"zipCode": "94536-4139",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "510-770-4064",
+					"homePhoneNbr": "510-770-4064",
+					"alternatePhoneNbr": "510-770-4064",
+					"smsPhoneNbr": "510-770-4064",
+					"sendSmsMessageFlag": "false",
+					"emailId": "oes.macys@gmail.com"
+				}
+			},
+			"orderManagementApplicationCode": "FIL"
+		},
+		"lineItemList": {
+			"lineItem": [
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "72",
+					"fulfillmentLegacyLocationNbr": "1",
+					"salesCreditLegacyDivisionNbr": "72",
+					"salesCreditLegacyStoreNbr": "1",
+					"itemSkuUpc": "3145891074505",
+					"productGroupCode": "BEAUTY",
+					"itemDepartmentNbr": "354",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "75.01",
+					"originalPriceAmount": "75.01",
+					"retailPriceAmount": "75.01",
+					"surchargeAmount": "0.0",
+					"deliveryType": "5",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-09-06-04:00"
+				},
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "9",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "23",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "23",
+					"itemSkuUpc": "3145891074505",
+					"productGroupCode": "ELECT2",
+					"itemDepartmentNbr": "691",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "179.09",
+					"originalPriceAmount": "179.09",
+					"retailPriceAmount": "179.09",
+					"surchargeAmount": "0.0",
+					"deliveryType": "5",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-21-04:00"
+				}
+			]
+		},
+		"shipmentList": {
+			"shipment": [
+				{
+					"orderShipmentNbr": "1",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"sellingChannelCode": "BLCOM",
+					"giftRegistryNbr": "124354654323",
+					"giftRegistrant1": "Reg1",
+					"giftRegistrant2": "Reg2",
+					"fulfillmentLocationNbr": "343",
+					"fulfillmentLegacyDivisionNbr": "72",
+					"fulfillmentLegacyLocationNbr": "1",
+					"shipmentFeeSlideScaleBaseAmount": "0.0",
+					"totalAmount": "81.66",
+					"taxAmount": "6.66",
+					"retailAmount": "75.01",
+					"retailTaxAmount": "6.66",
+					"shippingChargeAmount": "0.0",
+					"shippingTaxAmount": "0.0",
+					"upChargeFeeAmount": "0.0",
+					"giftWrapFeeAmount": "0.0",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "0.0",
+					"miscellaneousTaxAmount": "0.0",
+					"giftFlag": "true",
+					"giftWrapType": "N",
+					"readyToPickUpTimestamp": "2017-08-21T15:34:14.018-04:00",
+					"readyToPickUpUtcTimestamp": "2017-08-21T19:34:14.018Z",
+					"actualPickUpTimestamp": "9999-12-31T00:00:00-05:00",
+					"pickUpScheduleCancelDate": "2018-02-28T19:34:14.018Z",
+					"pickUpCancelDate": "9999-12-31-05:00",
+					"pickUpBarCode": "441131285001",
+					"pickUpInstructionText": "BCOM BOPS Pickup Instruction",
+					"deliveryType": "5",
+					"deliveryTypeDescription": "BOPS",
+					"estimatedArrivalDate": "9999-12-31-05:00",
+					"expectedShipDate": "2017-09-06",
+					"expectedShipTime": "11:00:00-04:00",
+					"holdDate": "2017-09-05-04:00",
+					"actualShipDate": "2017-09-05-04:00",
+					"partnerCustomerServicePhone": "1-800-777-0000",
+					"partnerCustomerServiceHours": "HAVE QUESTIONS? WE'RE HERE 24/7!",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Monday-Saturday 9am-10pm, Sunday 9am-7pm",
+					"partnerCustomerServiceName": "Bloomingdales.com",
+					"currentShipmentIndicator": "C",
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "81.66",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "81.66",
+								"authorizationPlanType": "529151",
+								"authorizationDate": "2017-09-05-04:00",
+								"authorizationExpiredDate": "2017-09-12-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "65281326",
+							"firstName": "HARI",
+							"lastName": "HARI",
+							"addressLine1": "1000 3RD AVE",
+							"addressLine2": "59TH STREET AND LEXINGTON AVE",
+							"cityName": "NEW YORK",
+							"stateName": "NY",
+							"zipCode": "10022-1230",
+							"isoCountryCode": "USA",
+							"addressType": "Commercial",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"emailId": "V.A.HARINATH@GMAIL.COM"
+						}
+					},
+					"pickupPerson": {
+						"customerDetail": {
+							"customerId": "65278216",
+							"firstName": "HARI",
+							"lastName": "HARI",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"smsPhoneNbr": "510-770-4064",
+							"sendSmsMessageFlag": "true",
+							"emailId": "V.A.HARINATH@GMAIL.COM"
+						}
+					},
+					"giftWrapFlag": "false"
+				}
+			]
+		},
+		"inventoryDeltaList": {
+			"inventoryDelta": [
+				{
+					"orderID": "442757450",
+					"shipmentNbr": "1",
+					"inventoryDeltaActionCode": "SHIPPED",
+					"lineItemNbr": "1",
+					"orderManagementSenderCode": "FIL",
+					"inventoryDeltaDateTime": "2017-09-05T17:52:50.843-04:00",
+					"inventoryDeltaUtcDateTime": "2017-09-05T21:52:50.843Z",
+					"mediaDate": "2017-09-05-04:00",
+					"processName": "SCF",
+					"racfID": "72000101",
+					"locationNbr": "343",
+					"itemDepartmentNbr": "354",
+					"itemSkuUpc": "3145891074505",
+					"quantityAmount": "1"
+				}
+			]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [
+				{
+					"mailSourceId": "EOD_MailSourceID",
+					"mailTypeCode": "264",
+					"mailSubtypeCode": "14R",
+					"partyType": "B"
+				}
+			]
+		},
+		"orderFraudInformation": {
+			
+		}
+	}
+}

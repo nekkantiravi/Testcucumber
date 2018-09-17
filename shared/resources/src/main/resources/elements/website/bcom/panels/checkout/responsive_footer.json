@@ -1,0 +1,9 @@
+{
+  "footer_container": "id, rc-footer-inner",
+  "contact_us": "id, rc-customer-service",
+  "bag_id": "class, bagIdValue",
+  "privacy_policy": "linkText, Privacy Policy",
+  "shipping_policy": "linkText, Shipping Policy",
+  "return_policy": "linkText, Return Policy",
+  "copyright_copy": "id, rc-footerDisclaimer"
+}

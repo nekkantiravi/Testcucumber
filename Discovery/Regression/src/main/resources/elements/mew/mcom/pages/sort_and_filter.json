@@ -1,0 +1,13 @@
+{
+  "filter_by_pickup_instore":"id,m-facet-accordion-UPC_BOPS_PURCHASABLE",
+  "search_box":"id,mb-bops-address",
+  "search":"id,mb-bops-search",
+  "stores":"xpath,//div[@class='display-name']",
+  "spinner_present":"//div[@id='mb-facet-bops-results' and contains(@class,'spinner')]",
+  "clear_all_btn":"xpath,//button[contains(text(),'Clear All')]",
+  "brand_facet": "id, m-facet-accordion-BRAND",
+  "brand_1": "xpath, //*[@id='m-accordion-brand-search']/li[1]/label",
+  "brand_2": "xpath, //*[@id='m-accordion-brand-search']/li[2]/label",
+  "apply_button": "id, m-mobile-facet-apply-btn ||id, m-tablet-facet-apply-btn",
+  "shop_local_Store":"id,shopLocalStore"
+}

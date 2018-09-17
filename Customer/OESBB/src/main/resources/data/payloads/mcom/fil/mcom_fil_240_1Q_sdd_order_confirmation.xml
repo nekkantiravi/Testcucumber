@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>2785635</reservationNumber>
+	<internetOrderNumber>240_1Q_MCOM</internetOrderNumber>
+	<orderDate>05/27/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>69.98</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>5.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>5.70</taxAmt>
+	<orderTotal>80.68</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>0000000000000000</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>80.68</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>6148389212345</pickupBarcode>
+		<pickupReadyDate>05/27/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>34.99</shipRetailAmt>
+		<shipTaxAmt>5.70</shipTaxAmt>
+		<shipFilLoc>5243</shipFilLoc>
+		<shipPhone>702-499-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@YAHOO.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Long-Sleeve Open-Front Cardiga</description>
+			<price>34.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>35.99</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>SAMEDAY</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>INC International Concepts</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Long-Sleeve Open-Front style</description>
+			<price>34.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>34.99</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>SAMEDAY</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>INC International Concepts</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,504 @@
+{
+  "category_splash": {
+    "site": {
+      "OTHERS": {
+        "AD": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "COPY_BLOCK": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH"
+        },
+        "WIDGET": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "RECENTLY_REVIEWED": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "HOME"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON": {
+          "104": "HOME -> Dining & Entertaining",
+          "105": "HOME -> Dining & Entertaining",
+          "106": "HOME -> Dining & Entertaining"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH"
+        },
+        "BANNER_MACHINE": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME -> Dining & Entertaining",
+          "102": "HOME -> Dining & Entertaining",
+          "103": "HOME -> Dining & Entertaining"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining"
+        }
+      }
+    },
+    "registry": {
+      "OTHERS": {
+        "AD": {
+          "101": "DINING"
+        },
+        "SLIDESHOW": {
+          "101": "CLEANING & ORGANIZING"
+        },
+        "COPY_BLOCK": {
+          "101": "DINING"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH"
+        },
+        "RECENTLY_REVIEWED": {
+          "101": "DINING"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME DECOR"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "DINING"
+        },
+        "TEXT": {
+          "101": "DINING"
+        },
+        "CATEGORY_ICON": {
+          "104": "DINING",
+          "106": "BED & BATH"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH"
+        },
+        "BANNER_MACHINE": {
+          "101": "DINING"
+        }
+      }
+    },
+    "iship": {
+      "OTHERS": {
+        "AD": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "COPY_BLOCK": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH"
+        },
+        "WIDGET": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON": {
+          "104": "HOME -> Dining & Entertaining",
+          "105": "HOME -> Dining & Entertaining",
+          "106": "HOME -> Dining & Entertaining"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH"
+        },
+        "BANNER_MACHINE": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME -> Dining & Entertaining",
+          "102": "HOME -> Dining & Entertaining",
+          "103": "HOME -> Dining & Entertaining"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining"
+        }
+      }
+    }
+  },
+  "sub_splash": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Activewear"
+      },
+      "MEN": {
+        "category1": "MEN -> Activewear"
+      },
+      "HOME": {
+        "category1": "HOME -> Kitchen -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "0": "WOMEN -> Activewear",
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "COPY_BLOCK": {
+          "101": "MEN -> Activewear"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Activewear"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "WIDGET": {
+          "101": "MEN -> Activewear"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "MEN -> Activewear"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "MEDIA_ADS": {
+          "101": "MEN -> Sports Fan Shop By Lids"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "MEN -> Activewear"
+        },
+        "TEXT": {
+          "101": "MEN -> Activewear"
+        },
+        "JSP": {
+          "101": "MEN -> Activewear"
+        },
+        "CATEGORY_ICON": {
+          "104": "MEN -> Activewear",
+          "105": "MEN -> Activewear",
+          "106": "MEN -> Activewear"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH -> Bath Towels"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH -> Bath Towels"
+        },
+        "AD|TEXT|CATEGORY_ICON": {
+          "6": "BED & BATH -> Bath Towels",
+          "8": "BED & BATH -> Bath Towels"
+        },
+        "BANNER_MACHINE": {
+          "0": "MEN -> Activewear",
+          "101": "MEN -> Activewear",
+          "102": "MEN -> Activewear",
+          "103": "MEN -> Activewear"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "MEN -> Activewear"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "KITCHEN -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "KITCHEN -> Anolon"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "KITCHEN -> Anolon"
+        }
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> Activewear"
+      },
+      "MEN": {
+        "category1": "MEN -> Activewear"
+      },
+      "HOME": {
+        "category1": "HOME -> Kitchen -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "0": "WOMEN -> Activewear",
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "COPY_BLOCK": {
+          "101": "MEN -> Activewear"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Activewear"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "WIDGET": {
+          "101": "MEN -> Activewear"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "MEN -> Activewear"
+        },
+        "MEDIA_ADS": {
+          "101": "MEN -> Sports Fan Shop By Lids"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "MEN -> Activewear"
+        },
+        "TEXT": {
+          "101": "MEN -> Activewear"
+        },
+        "JSP": {
+          "101": "MEN -> Activewear"
+        },
+        "CATEGORY_ICON": {
+          "104": "MEN -> Activewear",
+          "105": "MEN -> Activewear",
+          "106": "MEN -> Activewear"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH -> Bath Towels"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH -> Bath Towels"
+        },
+        "AD|TEXT|CATEGORY_ICON": {
+          "6": "BED & BATH -> Bath Towels",
+          "8": "BED & BATH -> Bath Towels"
+        },
+        "BANNER_MACHINE": {
+          "0": "MEN -> Activewear",
+          "101": "MEN -> Activewear",
+          "102": "MEN -> Activewear",
+          "103": "MEN -> Activewear"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "MEN -> Activewear"
+        }
+      }
+    }
+  },
+  "browse": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Maternity",
+        "category2": "WOMEN -> Leggings",
+        "category3": "WOMEN -> All Plus Sizes"
+      },
+      "MEN": {
+        "category1": "MEN -> Sweaters",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Dress Shoes"
+      },
+      "OTHERS": {
+        "AD": {
+          "0": "MEN -> Guys",
+          "101": "HANDBAGS -> Lauren Ralph Lauren"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "COPY_BLOCK": {
+          "101": "MEN -> Guys"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Guys"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH -> Bath Towels"
+        },
+        "WIDGET": {
+          "101": "MEN -> Guys"
+        },
+        "MEDIA_ADS": {
+          "101": "MEN -> Cologne & Grooming"
+        },
+        "RECENTLY_REVIEWED": {
+          "101": "MEN -> Guys"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Outdoor & Camping"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "HANDBAGS -> Belts"
+        },
+        "TEXT": {
+          "101": "MEN -> Guys"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "MEN -> Guys"
+        },
+        "CATEGORY_ICON": {
+          "104": "MEN -> Guys",
+          "105": "HOME -> Dining & Entertaining -> Dinnerware",
+          "106": "MEN -> Guys"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH -> Bath Towels"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH -> Bath Towels"
+        },
+        "BANNER_MACHINE": {
+          "0": "MEN -> Guys",
+          "101": "HOME -> Dining & Entertaining -> Dinnerware",
+          "102": "MEN -> Guys",
+          "103": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Electrics",
+        "category2": "KITCHEN -> Cookware & Cookware Sets",
+        "category3": "KITCHEN -> Food Processors",
+        "category4": "KITCHEN -> KitchenAid",
+        "category5": "KITCHEN -> Bakeware"
+      },
+      "OTHERS": {
+        "AD": {
+          "0": "KITCHEN -> Calphalon",
+          "101": "KITCHEN -> Calphalon"
+        },
+        "SLIDESHOW": {
+          "101": "KITCHEN -> Calphalon"
+        },
+        "COPY_BLOCK": {
+          "101": "DINING -> Lenox"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "KITCHEN -> Calphalon"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH -> All Bath"
+        },
+        "WIDGET": {
+          "101": "DINING -> Dinnerware"
+        },
+        "MEDIA_ADS": {
+          "101": "BED & BATH -> Mattress Pads & Toppers"
+        },
+        "TEXT": {
+          "101": "KITCHEN -> Calphalon"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "DINING -> Dinnerware"
+        },
+        "CATEGORY_ICON": {
+          "104": "MEN -> Activewear",
+          "106": "MEN -> Activewear"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH -> Bath Towels"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH -> Bath Towels"
+        },
+        "BANNER_MACHINE": {
+          "0": "DINING -> Dinnerware",
+          "101": "DINING -> Dinnerware",
+          "102": "DINING -> Dinnerware",
+          "103": "DINING -> Dinnerware"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "DINING -> Dinnerware"
+        }
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> All Maternity",
+        "category2": "WOMEN -> Leggings",
+        "category3": "WOMEN -> All Plus Sizes"
+      },
+      "MEN": {
+        "category1": "MEN -> Sweaters",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Dress Shoes"
+      },
+      "OTHERS": {
+        "AD": {
+          "0": "MEN -> Guys",
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "MEN -> Guys"
+        },
+        "COPY_BLOCK": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Guys"
+        },
+        "MEDIA_ADS": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "IMAGE_MAP": {
+          "101": "BED & BATH -> Bath Towels"
+        },
+        "WIDGET": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Outdoor & Camping"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "CATEGORY_ICON": {
+          "104": "HOME -> Dining & Entertaining -> Dinnerware",
+          "106": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "AD|AD|AD": {
+          "2": "BED & BATH -> Bath Towels"
+        },
+        "AD|AD|AD|AD": {
+          "4": "BED & BATH -> Bath Towels"
+        },
+        "BANNER_MACHINE": {
+          "0": "MEN -> Guys",
+          "101": "HOME -> Dining & Entertaining -> Dinnerware",
+          "102": "MEN -> Guys",
+          "103": "MEN -> Guys"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "url": "/account/profile",
+  "verify_page": "id, addressVB.firstName||id, mb-j-accountProfile-firstname",
+
+  "first_name": "id, addressVB.firstName||id, mb-j-accountProfile-firstname",
+  "last_name": "id, addressVB.lastName||id, mb-j-accountProfile-lastname",
+  "address_line_1": "id, addressVB.addressLine1||id, mb-j-accountProfile-address-line1",
+  "address_line_2": "id, addressVB.addressLine2||id, mb-j-accountProfile-address-line2",
+  "address_city": "id, addressVB.city||id, mb-j-accountProfile-city",
+  "address_state": "id, addressVB.state||id, mb-j-accountProfile-state",
+  "address_zip_code": "id, addressVB.postalCode||id, mb-j-accountProfile-zip-code",
+  "update_profile_button": "id, updateProfileBtn||id, mb-j-accountProfile-submit"
+}

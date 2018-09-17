@@ -1,0 +1,35 @@
+{
+    "include": [
+        "panel.header_and_footer",
+        "panel.left_navigation_category",
+        "panel.category_splash",
+        "panel.browse_preview"
+    ],
+
+    "country":                  "id, shippingCountry",
+    "country_options":          "id, headerCountryFlag",
+    "country_list":             "id, shippingCountry",
+    "currency":                 "id, shippingCurrency",
+    "currency_options":         "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(2)>.current",
+    "currency_list":            "cssSelector, #iContextContainer>div.custom.dropdown:nth-of-type(2)>ul>li",
+    "save_continue":            "id, saveNContinueBtn",
+    "ship_to_us_address":       "id, shipToUs",
+    "us_billing_address":       "id, iShip_addressRequired",
+    "us_billing_container":     "id, addressRequiredContainer",
+    "iship_container":          "className, iShip_contextPageContainer",
+    "close_billingPanel":       "className, container-close",
+    "stores_events":            "id, href_StoresEvents",
+    "search_box":               "xpath, //div[@class='search-input-wrapper form-group']/input",
+    "search_button":            "class, search-button",
+    "select_store":             "xpath, //div[@class='location']//a[contains(text(),'59th')]",
+    "CustomersAlsoViewed":      "id, ProsZoneAv",
+    "addtobag_button":          "id, ADDTOBAG_BUTTON",
+    "addtobag_buttonn":         "xpath, //div[@class='pdp_add_to_bag row collapse']/button",
+    "addToBagPanel":            "id, addToBagPanel",
+    "prosRecommendation":       "id, ProsATBzA",
+    "select_recommendation_product":  "xpath, //div[@id='ProsATBzA']/div[@id='ItemsWrapper']/div[2]/div/ul/li[1]/div/div/div[1]",
+    "checkout_Button":          "id, pdp_atb_checkout",
+    "web_id":                   "xpath, //li[@id='productWebID']",
+    "web_id_on_checkout":       "xpath,//span[contains(text(),'$$$')]"
+
+}

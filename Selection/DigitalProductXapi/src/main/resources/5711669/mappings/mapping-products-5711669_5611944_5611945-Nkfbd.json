@@ -1,0 +1,22 @@
+{
+  "id" : "e30239c6-811b-359e-850b-5741b36838df",
+  "request" : {
+    "url" : "/api/catalog/v2/products/5711669,5611944,5611945?_fields=id,name,brand,defaultCategoryId,upcs,shipping,price,finalPrice,giftWrappable,giftWrapId,externalHostURL,typeName,maxQuantity,comparable,productGroup,productStartDays,clearanceStartDays,isNew,active,archived,attributes,primaryImage,primaryPortraitSource,additionalImageSource,editorsPick,thumbnailCallout,domainValuesMap,additionalImages,colorwayImages,syndicateId,reviewStatistics,eligibleForPreOrder,canonicalProductUrl,rebatesAvailable,colormap&sdpGrid=primary&currencyCode=USD&includeFinalPrice=true",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-products-5711669_5611944_5611945-Nkfbd.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "2bd125a9-5de0-4be6-807c-4c8430ff1ec3",
+      "Content-Type" : "application/json",
+      "Date" : "Tue, 06 Feb 2018 22:45:44 GMT"
+    }
+  },
+  "uuid" : "e30239c6-811b-359e-850b-5741b36838df"
+}

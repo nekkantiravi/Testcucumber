@@ -1,0 +1,6 @@
+{
+
+    "quickViewOverlay":                   "className, quickViewMainContainer",
+    "colorSwatch":                       "className, color-swatch",
+    "quickViewPrice":                     "className, priceList"
+}

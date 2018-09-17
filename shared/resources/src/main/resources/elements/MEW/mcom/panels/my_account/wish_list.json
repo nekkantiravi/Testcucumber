@@ -1,0 +1,29 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer",
+    "panel.search",
+    "panel.add_to_bag",
+    "panel.wish_list_manage"
+    ],
+
+  "url": "/wishlist/mylist",
+
+  "verify_page": "id, m-list-name",
+  "sign_in_button": "cssSelector, .m-list-sign.expand",
+  "add_to_bag_btn": "cssSelector, .m-list-add",
+  "item_links": "cssSelector, .m-list-title",
+  "wishlist_title": "id, m-list-name",
+  "remove": "cssSelector, .m-list-move.m-list-links",
+  "item_delete_button": "cssSelector, .m-list-del.m-list-links",
+  "manage_list": "cssSelector, .icon-ui-list-settings-grey-huge||id, m-list-manage",
+  "select_delete_button": "cssSelector, #m-set-del",
+  "delete_confirm_button": "cssSelector, #m-confirm-del",
+  "delete_confirm_message": "cssSelector, #m-set-confirm",
+  "see_full_product_details": "cssSelector, #m-detail-pdp",
+  "add_to_bag_dialog": "cssSelector, #m-view-overlay",
+  "list_item_count": "id, m-list-count",
+  "item_delete_link": "linkText, delete",
+  "error_tooltip": "cssSelector, .error-tooltip",
+  "manage_wish_list_close": "cssSelector, .mb-j-overlay-close"
+}

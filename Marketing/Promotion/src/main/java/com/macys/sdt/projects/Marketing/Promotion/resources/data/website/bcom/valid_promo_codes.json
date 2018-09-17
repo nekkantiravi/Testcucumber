@@ -1,0 +1,49 @@
+{
+  "bcom": [
+    {
+      "promo_type": "percent_off",
+      "badge_text": "BUY MORE, SAVE MORE WITH CODE: SAVEMORE DETAILS",
+      "promo_code": "SAVEMORE",
+      "global"    : "false",
+      "promo_description": "",
+      "eligible_product": "2424948",
+      "qty_trigger": "3"
+    },
+    {
+      "promo_type": "percent_off",
+      "badge_text": "BUY MORE, SAVE MORE WITH CODE: SAVEMORE DETAILS",
+      "promo_code": "SAVEMORE",
+      "global"    : "false",
+      "promo_description": "",
+      "eligible_product": "2424948",
+      "qty_trigger": "3"
+    },
+    {
+      "promo_type": "GWP",
+      "badge_text": "",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "",
+      "eligible_product": "2754459",
+      "qty_trigger": "1"
+    },
+    {
+      "promo_type": "cumulative_pricing",
+      "badge_text": "Buy 2 Yummie Flora High-Waist Panties for $58",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "Buy 2 Yummie Flora High-Waist Panties for $58",
+      "eligible_product": "1778968",
+      "qty_trigger": "2"
+    },
+    {
+      "promo_type": "cumulative_pricing",
+      "badge_text": "Buy 2 HUE Tights for $30",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "Buy 2 HUE Tights for $30",
+      "eligible_product": "1067745",
+      "qty_trigger": "2"
+    }
+  ]
+}

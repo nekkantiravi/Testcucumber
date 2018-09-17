@@ -1,0 +1,24 @@
+{
+    "include": [
+        "panel.navigation",
+        "panel.header_and_footer"
+    ],
+    "url": "/service/easyreturn",
+    "verify_page": "xpath, //div[@class='easyreturnSteps']/h1",
+    "international_returns_text": "xpath, //div[@class='columns small-15']/h5",
+    "international_returns_policy_link": "xpath, //div[@class='columns small-15']/a",
+    "sign_in_link": "id, srSignIn",
+    "error_message": "id, erErrorMsg",
+    "view_order_details": "id, loViewOrderBtn",
+    "zip_code": "id, loZipCode",
+    "phone_number": "id, loPhoneidentity",
+    "order_number": "id, loOrderNumber",
+    "email": "id, loEmailID",
+    "yes_radio_button": "id, loGiftLookupFlagYes",
+    "phone_area_code": "id, loAreaCode",
+    "phone_exchange": "id, loExchangeNumber",
+    "phone_subscriber": "id, loSubscriberNumber",
+    "easy_returns_link": "linkText, Easy Returns: How can I process my return online?",
+    "gift_return_section": "id,  loGiftOrderText"
+}
+

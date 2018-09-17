@@ -1,0 +1,6 @@
+{
+  "url": "/loyallist/enrollment",
+  "verify_page": "className, b-loyallist-enrollment-confirmation-number",
+
+  "loyalty_number": "className, b-loyallist-enrollment-confirmation-number"
+}

@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>05/05/2016</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>1776.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>106.56</taxAmt>
+	<orderTotal>1882.56</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0055</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>0490596960</ltyIdUsl>
+	<billingDetail>
+		<title>MS</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 RIDGEGATE DR</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3>NR NISUM</addressLine3>
+		<city>PEACHTREE CORNERS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30097</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>1882.56</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>008</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 RIDGEGATE DR</addressLine1>
+		<addressLine2>PC SCR</addressLine2>
+		<addressLine3>NR 123</addressLine3>
+		<city>PEACHTREE CORNERS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30097</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>ORGANZA-CEREAL</description>
+			<price>48.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>576.00</totalAmount>
+			<expectedDate>07/07/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate>07/07/2016</delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor>BERNARDAUD</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328001799</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>ORGANZA-CEREAL</description>
+			<price>48.00</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>576.00</totalAmount>
+			<expectedDate>07/07/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate>07/07/2016</delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor>BERNARDAUD</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328007890</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

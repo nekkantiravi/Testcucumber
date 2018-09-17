@@ -1,0 +1,18 @@
+{
+    "back_button": 	                "xpath, //div[@class='mb-j-modalHeader-left m-back']",
+    "quick_bag":                    "xpath, //a[@id='m-bag-count-anchor']",
+    "Dinnerware_view_category":     "xpath, //h1[text()='Dinnerware']",
+    "Bakeware_view_category":       "xpath, //h1[text()='Bakeware']",
+    "availability_title":           "css, #m-product-availability-msg-393916 > span",
+    "pickup_in_store_text":         "xpath, //*[text()='Pick up in-store']",
+    "pickup_in_store_link":         "xpath, //*[@class='m-link bops-store-lookup bops-update']",
+    "pickup_in_other_store_link":   "xpath, //*[@class='m-link bops-store-lookup change']",
+    "select_pickup_in_store_checkbox": "xpath, //div[@class='bops-pickup-radio-container']/span",
+    "availability_check_zip":       "id, mb-bops-address",
+    "availability_check_search_btn":"id, mb-bops-nearme",
+    "select_Store":                 "xpath, //*[@id='m-bops-available']/article[1]/button",
+    "bops_Section":                 "id, m-bag-bops-module",
+    "bops_error": "id, m-bops-all-unavailable",
+    "checkout_button":"xpath, //*[text()='checkout']"
+
+}

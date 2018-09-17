@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate></orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title />
+		<firstName></firstName>
+		<middleName />
+		<lastName>Test</lastName>
+		<attnLine />
+		<addressLine1>1234 BEDFORD CT</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>EVANS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30809</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType></paymentType>
+		<accountNumber></accountNumber>
+		<amount>58.75</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>1234 BEDFORD CT</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>EVANS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30809</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description></description>
+			<price></price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>47.99</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>VOIDED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId></upcId>
+			<userCancelDate>08/10/2016</userCancelDate>
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

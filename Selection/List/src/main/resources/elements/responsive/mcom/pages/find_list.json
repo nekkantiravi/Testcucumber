@@ -1,0 +1,8 @@
+{
+  "first_name_box": "xpath,.//*[@id='firstName']",
+  "last_name_box": "xpath,.//*[@id='lastName']",
+  "find_search": "xpath,.//*[@id='btnSearchList']",
+  "find_cancel": "xpath,.//*[@id='btnCancelSearchList']",
+  "find_state": "xpath,.//*[@id='profileState']",
+  "view_list_result": "xpath,.//*[@id='btnViewList']"
+}

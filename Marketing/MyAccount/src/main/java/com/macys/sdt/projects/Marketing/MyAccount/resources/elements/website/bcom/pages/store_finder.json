@@ -1,0 +1,20 @@
+{
+    "url": "/store-locator",
+    "verify_page": "class, header",
+    "store_finder": "class, header",
+    "view_all_stores": "xpath, //a[text()='View All Stores']",
+    "all_locations_dropdown": "xpath, //div[contains(@class,'search-select form-control')]",
+    "all_locations_options": "xpath, //div[contains(@class,'search-select form-control')]//ul/li",
+    "city_state_zip_search": "cssSelector, .search-input.form-control",
+    "search": "class, search-button",
+    "map_locator": "class, desktop-map",
+    "result_summary": "class, query-result-info",
+    "location_details": "cssSelector, .location-list-col .location-wrapper",
+    "location_titles": "cssSelector, .location-list-col .location-title",
+    "location_addresses": "cssSelector, .location-list-col .c-address",
+    "location_get_directions_links": "cssSelector, .location-list-col .map-it-link",
+    "location_phones": "cssSelector, .location-list-col .location-info-phone",
+    "location_view_store_details": "cssSelector,.location-list-col .location-info-store-details-link",
+    "location_registry_services": "cssSelector, .location-list-col .location-info-registry-services",
+    "location_today_hours": "xpath, //div[contains(@class,'location-list-col')]//div[starts-with(text(),'Open Today')]||cssSelector, .visible-sm .location-info-hours"
+}

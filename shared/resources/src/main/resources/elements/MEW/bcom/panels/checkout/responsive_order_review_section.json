@@ -1,0 +1,5 @@
+{
+  "edit_payment_info":    "id, rc-payment-edit",
+  "shipping_summary":     "id, rc-shipping-info || id, rc-shipping-methods-info"
+}
+

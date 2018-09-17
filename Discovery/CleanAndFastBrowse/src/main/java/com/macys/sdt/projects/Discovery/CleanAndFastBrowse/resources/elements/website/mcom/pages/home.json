@@ -1,0 +1,7 @@
+{
+    "include": [
+        "panel.header_and_footer"
+    ],
+    "url":                          "/",
+    "verify_page":                  "id, macysHomePageLogo"
+}

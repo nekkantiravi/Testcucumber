@@ -1,0 +1,12 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+
+  "url": "/service/return/returnsNotAssociatedError",
+  "verify_page": "class, notAssociatedError",
+
+  "return_error_copy":                  "class, notAssociatedError"
+
+}

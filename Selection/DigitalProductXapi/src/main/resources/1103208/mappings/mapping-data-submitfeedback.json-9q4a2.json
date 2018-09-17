@@ -1,0 +1,34 @@
+{
+  "id" : "fe3a286e-72d1-3c73-acc5-5c6aed1340c4",
+  "request" : {
+    "url" : "/data/submitfeedback.json?apiversion=5.4&passkey=vkyvvj7xwjq8cyz5hr7zqrv4&FeedbackType=inappropriate&ContentType=review&ReasonText=TEst%20test&UserId=7141a707147bf07140ee071494d0714bcc0714d9c071439f07147ca0&sdpGrid=primary&ContentId=299560&_application=SITE&_deviceType=DESKTOP&_navigationType=BROWSE&_regionCode=US&_customerExperiment=NO_EXPERIMENT&_shoppingMode=SITE",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-data-submitfeedback.json-9q4a2.json",
+    "headers" : {
+      "Date" : "Tue, 16 Jan 2018 23:46:41 GMT",
+      "Content-Type" : "application/json;charset=utf-8",
+      "Connection" : "keep-alive",
+      "Cache-Control" : "no-cache, no-store",
+      "Content-Language" : "en-US",
+      "Expires" : "Thu, 01 Jan 1970 00:00:00 GMT",
+      "Server" : "nginx",
+      "X-Bazaarvoice-Api-Version" : [ "5.4", "xmlApiVersion" ],
+      "X-Bazaarvoice-Environment" : "submit-stg",
+      "X-Bazaarvoice-Platform-Application" : "Submit",
+      "X-Bazaarvoice-Platform-Version" : "2",
+      "X-Bazaarvoice-Region" : "eu-west-1",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Bazaarvoice-QPS-Allotted" : "40",
+      "X-Bazaarvoice-QPS-Current" : "1",
+      "X-Bazaarvoice-QPM-Allotted" : "2400",
+      "X-Bazaarvoice-QPM-Current" : "2",
+      "X-Bazaarvoice-Quota-Allotted" : "1728000",
+      "X-Bazaarvoice-Quota-Current" : "0",
+      "X-Bazaarvoice-Quota-Reset" : "2018-01-17T00:00:00.000Z"
+    }
+  },
+  "uuid" : "fe3a286e-72d1-3c73-acc5-5c6aed1340c4"
+}

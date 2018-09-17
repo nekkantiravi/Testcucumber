@@ -1,0 +1,26 @@
+{
+  "url":              "",
+  "confirm_msg": 	      "id, mainTitle",
+  "day_date":             "xpath, //*[@id='datetime']/h2[1]/span",
+  "duration":             "xpath,.//*[@id='datetime']/h2[2]",
+  "timezone":             "cssSelector,.dijitCalendarYearLabel",
+  "location_font":        "xpath,.//*[@id='location']/tbody/tr/th",
+  "programtype_font":    "xpath,.//*[@id='appointment-type-group']/tbody/tr/th",
+  "app_type_font":        "xpath,.//*[@id='appointment-type']/tbody/tr/th",
+  "contactinfo_font":      "xpath,.//*[@id='attendee']/tbody/tr/th",
+  "location_content":        "xpath,.//*[@id='location']/tbody/tr/td[1]",
+  "programtype_content":    "xpath,.//*[@id='appointment-type-group']/tbody/tr/td[1]",
+  "app_type_content":         "xpath,.//*[@id='appointment-type']/tbody/tr/td[1]",
+  "customer_name":            "xpath,.//*[@id='attendee']/tbody/tr/td[1]/ul/li[1]",
+  "customer_email":            "xpath,.//*[@id='attendee']/tbody/tr/td[1]/ul/li[2]",
+  "customer_phone":            "xpath,.//*[@id='attendee']/tbody/tr/td[1]/ul/li[3]",
+  "customer_need_font":            "xpath,.//*[@id='attendee']/tbody/tr/td[1]/ul/li[4]/ul/li/strong",
+  "customer_need":            "xpath,.//*[@id='attendee']/tbody/tr/td[1]/ul/li[4]/ul/li/span",
+  "mainTitle":                 "cssSelector, #mainTitle",
+
+  "contactInfo":                       "cssSelector, ul.list",
+  "confirmationNumber":                "cssSelector, #confirmation",
+  "appStatus":                                   "cssSelector, div#statestamp",
+  "about":                                    "cssSelector, ul.responses"
+
+}

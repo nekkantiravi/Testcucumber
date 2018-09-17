@@ -1,0 +1,20 @@
+{
+    "include": [
+        "panel.main_left_nav"
+    ],
+
+    "header_container":                 "id, mb-j-header-container",
+    "header_image":                     "id, mb-j-header-image",
+    "close_tutorial":                   "id, marketorial-close",
+    "search_suggestions_container":     "id, mb-j-autocomplete-container",
+    "search_suggestions":               "cssSelector, #mb-j-autocomplete-container #autosuggest>li>a || xpath, //ul[@class='mb-autocomplete-container']/li/a",
+    "my_bag":                           "cssSelector, .mcom-bag-icon-wrapper>a || id, m-bag-count-anchor",
+    "browser_upgrade_prompt":           "className, ui-dialog",
+    "close_browser_upgrade":            "id, closeBtn",
+    "back":                             "className, m-back",
+    "close_app_banner":                 "id, m-ctrl-close-app-banner || id, m-close-app-banner",
+    "bag_count":                        "id, bagCount",
+    "clear_search":                     "id, mb-j-search-clear",
+    "autocomplete_container":           "id, ui-id-1||id,autosuggest",
+    "suggestions_list":                 "className, suggestion||class, mb-select-autocomplete"
+}

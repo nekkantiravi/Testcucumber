@@ -1,0 +1,6 @@
+{
+  "loading_mask":                           "class, rc-start-loader",
+  "paypal_icon":                            "xpath, //img[@alt='Paypal']",
+  "payment_section":                        "id, rc-payment-info",
+  "paypal_radio_button":                    "id, rc-paypal"
+}

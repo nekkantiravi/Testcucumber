@@ -1,0 +1,6 @@
+{
+  "last_act_text_pdp": "xpath, //div[contains(text(),'LAST ACT')]",
+  "rating_pdp": "class,m-rating-stars",
+  "reviews_pdp":"class,m-rating-count",
+  "write_review":"xpath,//a[contains(text(),'write a review')]"
+}

@@ -1,0 +1,119 @@
+<mailMessagePayload>
+  <reservationNumber>1111112</reservationNumber>
+  <internetOrderNumber>FIL_245_5C_BLCOM</internetOrderNumber>
+  <orderDate>11/26/2012</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>193.37</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>193.37</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+  <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************7791</accountNumber>
+    <amount>100.37</amount>
+    <paymentCategoryFlag>C</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>12/01/2012</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName>JEAN</firstName>
+    <middleName />
+    <lastName>ZHENG</lastName>
+    <attnLine />
+    <addressLine1>9 SPENCER LN</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>WARREN</city>
+    <state>NJ</state>
+    <country>USA</country>
+    <zipcode>07059</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>Gold Imperial 3-Piece Serving Set</description>
+      <price>121.33</price>
+      <requestedQuantity>002</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>121.33</totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>000000492031403361</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+	 <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>Gold Imperial 3-Piece Serving Set</description>
+      <price>121.33</price>
+      <requestedQuantity>002</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>121.33</totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

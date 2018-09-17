@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>616618287</reservationNumber>
+	<internetOrderNumber>920945820</internetOrderNumber>
+	<orderDate>11/16/2012</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>124.32</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>10.39</taxAmt>
+	<orderTotal>134.71</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>KAYE</firstName>
+		<middleName />
+		<lastName>TRUONG</lastName>
+		<attnLine />
+		<addressLine1>1205 S CYPRESS PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>BROKEN ARROW</city>
+		<state>OK</state>
+		<country>USA</country>
+		<zipcode>74012</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************3084</accountNumber>
+		<amount>30.68</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>11/27/2012</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>KAYE</firstName>
+		<middleName />
+		<lastName>TRUONG</lastName>
+		<attnLine />
+		<addressLine1>1205 S CYPRESS PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>BROKEN ARROW</city>
+		<state>OK</state>
+		<country>USA</country>
+		<zipcode>74012</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Shoes, Bastille Booties</description>
+			<price>28.32</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>28.32</totalAmount>
+			<expectedDate>11/27/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>Rampage</vendor>
+			<cancelledQuantity />
+			<upcId>735991467265</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>6M</size>
+			<color>Brown</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

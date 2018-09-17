@@ -1,0 +1,114 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>264_14I_BWEDD_ShipmentWithSRItem</internetOrderNumber>
+	<orderDate>05/25/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>125.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>10.00</taxAmt>
+	<orderTotal>135.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 GROVER AVE</addressLine1>
+		<addressLine2>apt 55</addressLine2>
+		<addressLine3></addressLine3>
+		<city>PRINCETON</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08540</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>PAYPAL</paymentType>
+		<accountNumber></accountNumber>
+		<amount>135.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>05/26/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 JUNIPER ST NE</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>ATLANTA</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30309</zipcode>
+		<greetingMessage>Best wishes for a wonderful life together!</greetingMessage>
+		<closingMessage>Jonathan and Diana</closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800064998699</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1>KATHRYN</giftRegistrant1>
+		<giftRegistrant2>RICHARD</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<trackingDetail>
+			<trackingNumber>843116920123456</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>FEDEXH</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>006</lineNumber>
+			<description>WICKFORD</description>
+			<price>125.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>125.00</totalAmount>
+			<expectedDate>05/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328001799</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,13 @@
+{
+    "menu_button":              "id, globalNavButton",
+    "left_items":               "className, UIACollectionCell",
+    "tier_1_categories":        "className, UIATableCell",
+    "tier_2_items":             "UIAutomator, tableViews()[0].cells()",
+    "shop":                     "id, GlobalNavShop",
+    "account":                  "id, GlobalNavAccount",
+    "offers":                   "id, GlobalNavOffers",
+    "lists":                    "id, GlobalNavLists",
+    "registry":                 "id, GlobalNavRegistry",
+    "stores":                   "id, GlobalNavStores",
+    "store_market_popup_close": "id, storeHubMarketorialCloseClick"
+}

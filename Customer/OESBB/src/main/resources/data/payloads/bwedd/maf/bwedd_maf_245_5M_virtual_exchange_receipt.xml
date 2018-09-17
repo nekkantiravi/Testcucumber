@@ -1,0 +1,56 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>JS123456789</internetOrderNumber>
+	<orderDate>04/11/2016</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	 <paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************0605</accountNumber>
+		<amount>224.98</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+    </paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>8</shipmentNumber>
+		<shipRetailAmt>76.11</shipRetailAmt>
+		<shipTaxAmt>4.12</shipTaxAmt>
+		<returnSubmittedDate>06/19/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>10</lineNumber>
+			<description>Night and Day Dinner Plate</description>
+			<price>23.92</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>23.92</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Wedgwood</vendor>
+			<upcNumber>8058328007890</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>07/17/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>06/21/2016</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>10</lineNumber>
+			<description>Night and Day Dinner Plate</description>
+			<price>23.92</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>23.92</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Wedgwood</vendor>
+			<upcNumber>190089164219</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>07/17/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>06/21/2016</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

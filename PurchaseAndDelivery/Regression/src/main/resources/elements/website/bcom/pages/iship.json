@@ -1,0 +1,9 @@
+{
+  "my_account_container": "id, bl_nav_myAcct",
+  "browse_prices":"xpath, //div[@class='prices'] || className, regular",
+  "checkout_total_sale_price":"xpath, //div[contains(@class,'right-rail')]//tr[@id='order-total']/td || xpath, //div[contains(@class,'orderTotalItemValueTotal')]",
+  "overlay_price":"xpath, //div[contains(@class,'item-price')]//div[contains(text(),'Price')]/following-sibling::div",
+  "overlay_total_price":"xpath, //div[contains(@class,'item-price')]//div[contains(text(),'Total')]/following-sibling::div",
+  "overlay_subtotal_price":"xpath, //div[contains(@class,'item-price')]//div[contains(text(),'Brown Bag')]/following-sibling::div"
+
+}

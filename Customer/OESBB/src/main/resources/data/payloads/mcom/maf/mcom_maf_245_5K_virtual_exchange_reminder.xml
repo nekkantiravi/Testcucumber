@@ -1,0 +1,58 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>03/17/2016</orderDate>
+	<ltyIdUsl>3104171372421234</ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MACYS EMPLOYEE CARD</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>226.07</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>63.48</shipRetailAmt>
+		<shipTaxAmt>11.00</shipTaxAmt>
+		<returnSubmittedDate>03/31/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>Kensington Stone 16-Piece Dinn</description>
+			<price>31.74</price>
+			<requestedQuantity>3</requestedQuantity>
+			<shippedQuantity>2</shippedQuantity>
+			<totalAmount>63.48</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Thomson Pottery</vendor>
+			<upcNumber>721074333213</upcNumber>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>3</shipmentNumber>
+		<shipRetailAmt>63.48</shipRetailAmt>
+		<shipTaxAmt>0</shipTaxAmt>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Kensington Stone 16-Piece Dinn</description>
+			<price>31.74</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>63.48</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Thomson Pottery</vendor>
+			<upcNumber>86269036356</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/28/2017</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

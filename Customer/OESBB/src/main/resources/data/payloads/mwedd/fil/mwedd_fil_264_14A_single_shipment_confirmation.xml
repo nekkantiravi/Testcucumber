@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>729632085</reservationNumber>
+	<internetOrderNumber>fil_264_14A_mwedd</internetOrderNumber>
+	<orderDate>04/06/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>10.00</orderSubtotalAmt>
+	<baseShippingAmt>2.00</baseShippingAmt>
+	<addtShipAddAmt>1.23</addtShipAddAmt>
+	<shipUpgradeAmt>1.11</shipUpgradeAmt>
+	<giftWrapAmt>2.00</giftWrapAmt>
+	<taxAmt>1.51</taxAmt>
+	<orderTotal>15.51</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Mon - Sat 9am to 10pm, Sun 9am to 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>310417076123456</ltyIdUsl>
+	<munTaxAmt>0.04</munTaxAmt>
+	<miscTaxAmt>1.47</miscTaxAmt>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1881</accountNumber>
+		<amount>21.74</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/06/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title>Mr.</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>123456789</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>dummay@qa12.com</giftReceipientEmail>
+		<giftRegistrant1>ESP</giftRegistrant1>
+		<giftRegistrant2>MIGRATION</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<trackingDetail>
+			<trackingNumber>1Z12345678901246</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPS Ground</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Teacup SaucerDessert Boat 7x</description>
+			<price>10.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>10.00</totalAmount>
+			<expectedDate>04/13/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>Villeroy Boch</vendor>
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+			<returnStatus />
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnReasonDescription />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Teacup SaucerDessert Boat</description>
+			<price>20.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>10.00</totalAmount>
+			<expectedDate>04/13/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>Villeroy Boch</vendor>
+			<cancelledQuantity />
+			<upcId>735991085247</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+			<returnStatus />
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnReasonDescription />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

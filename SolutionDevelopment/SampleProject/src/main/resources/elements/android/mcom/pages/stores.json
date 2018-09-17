@@ -1,0 +1,5 @@
+{
+    "search_bar":               "id, search_src_text",
+
+    "stores":                   "id, ll_store_info"
+}

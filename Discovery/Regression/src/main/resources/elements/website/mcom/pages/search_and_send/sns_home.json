@@ -1,0 +1,11 @@
+{
+  "url": "/posTest.html",
+  "verify_page": "name, Keyword",
+  "search_term": "name,  Keyword",
+  "upc_term": "name,  upc",
+  "division_id": "name,  divisionId",
+  "store_id": "name,  storeId",
+  "store_zip": "name,  storeZip",
+  "search": "value,  Search",
+  "view_item_details": "value,  View Item Details"
+}

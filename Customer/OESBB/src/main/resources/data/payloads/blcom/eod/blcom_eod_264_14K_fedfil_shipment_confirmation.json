@@ -1,0 +1,228 @@
+{
+   "fulfillmentOrder": {
+      "orderHeader": {
+         "orderID": "442658120",
+         "orderStatusCode": "6",
+         "orderStatusDescription": "IN_PROCESS",
+         "orderConfirmTimestamp": "2017-09-03T18:54:34.993-04:00",
+         "orderConfirmUtcTimestamp": "2017-09-03T22:54:34.993Z",
+         "sellingChannelCode": "BLCOM",
+         "sellLegacyDivisionNbr": "72",
+         "sellLegacyLocationNbr": "139",
+         "salesAssociateId": "72000101",
+         "messageCreateTimestamp": "2017-08-31T16:35:04.102-04:00",
+         "messageCreateUtcTimestamp": "2017-08-31T20:35:04.102Z",
+         "eventType": "SHPSCF",
+         "eventTimestamp": "2017-08-31T16:34:15.484-04:00",
+         "eventUtcTimestamp": "2017-08-31T20:34:15.484Z",
+         "partnerRefList": {
+            "partnerRef": [
+               {
+                  "partnerOrderId": "EOD_264_14K_BCOM"
+               }
+            ]
+         },
+         "billingAddress": {
+            "customerDetail": {
+               "customerId": "65278216",
+               "firstName": "billingFirstName",
+               "lastName": "billingLastName",
+               "addressLine1": "RKL 767",
+               "addressLine2": "NEW STREET",
+			   "addressLine3": "NEW STREET3",
+               "cityName": "CALIFORNIA",
+               "stateName": "SA",
+               "zipCode": "94536-4444",
+               "isoCountryCode": "USA",
+               "dayTimePhoneNbr": "510-770-4064",
+               "homePhoneNbr": "510-770-4064",
+               "alternatePhoneNbr": "510-770-4064",
+               "smsPhoneNbr": "510-770-4064",
+               "sendSmsMessageFlag": "true",
+               "emailId": "oes.macys@gmail.com"
+            }
+         },
+         "orderManagementApplicationCode": "FIL"
+      },
+      "lineItemList": {
+         "lineItem": [
+            {
+               "orderLineItemNbr": "1",
+               "originalLineItemNbr": "1",
+               "lineItemCrossReferenceNbr": "1",
+               "orderShipmentNbr": "1",
+               "lineItemStatusCode": "7",
+               "lineItemStatusDescription": "SHIPPED",
+               "fulfillmentChannelCode": "STR1",
+               "fulfillmentLegacyDivisionNbr": "72",
+               "fulfillmentLegacyLocationNbr": "1",
+               "salesCreditLegacyDivisionNbr": "72",
+               "salesCreditLegacyStoreNbr": "1",
+               "itemSkuUpc": "91709210890",
+               "productGroupCode": "ELECT2",
+               "itemDepartmentNbr": "691",
+               "itemQuantity": "2",
+               "itemOriginalQuantity": "0",
+               "itemAdjustedQuantity": "1",
+               "purchasePriceAmount": "51.99",
+               "originalPriceAmount": "52.99",
+               "retailPriceAmount": "59.999",
+               "surchargeAmount": "5.0",
+               "deliveryType": "2",
+               "deliveryPromotionType": "N",
+               "expectedShipDate": "2017-08-31-04:00"
+            }
+         ]
+      },
+      "shipmentList": {
+         "shipment": [
+            {
+               "orderShipmentNbr": "1",
+               "shipStatusCode": "7",
+               "shipStatusDescription": "SHIPPED",
+               "shipmentType": "1",
+               "shipmentTypeDescription": "SHIPMENT",
+			   "sellingChannelCode": "BLCOM",
+               "fulfillmentLocationNbr": "343",
+               "fulfillmentLegacyDivisionNbr": "72",
+               "fulfillmentLegacyLocationNbr": "1",
+               "shipmentFeeSlideScaleBaseAmount": "0",
+               "totalAmount": "65.31",
+               "taxAmount": "5.32",
+               "retailAmount": "59.99",
+               "retailTaxAmount": "5.32",
+               "shippingChargeAmount": "2.01",
+               "shippingTaxAmount": "3.01",
+               "upChargeFeeAmount": "4.01",
+               "giftWrapFeeAmount": "5.01",
+               "giftWrapTaxAmount": "6.01",
+               "additionalAddressFeeAmount": "7.01",
+               "miscellaneousTaxAmount": "8.01",
+               "giftFlag": "true",
+               "giftWrapType": "Y",
+			   "giftMessageGreetingText" : "geetingMessage",
+			   "giftCloseDescription" : "closing message",
+			   "giftSignDescription" : "Signature",
+               "readyToPickUpTimestamp": "2017-08-31T16:29:20.611-04:00",
+               "readyToPickUpUtcTimestamp": "2017-08-31T20:29:20.611Z",
+               "actualPickUpTimestamp": "9999-12-31T00:00:00-05:00",
+               "pickUpScheduleCancelDate": "2017-09-07-04:00",
+               "pickUpCancelDate": "9999-12-31-05:00",
+               "pickUpBarCode": "442658120001",
+               "pickUpInstructionText": "BCOM BOPS Pickup Instruction",
+               "deliveryType": "2",
+               "deliveryTypeDescription": "PREMIUM",
+               "estimatedArrivalDate": "9999-12-31-05:00",
+               "expectedShipDate": "2017-08-31",
+               "expectedShipTime": "11:00:00-04:00",
+               "holdDate": "2017-08-31-04:00",
+               "actualShipDate": "2017-08-31-04:00",
+               "partnerCustomerServicePhone": "1-800-777-0000",
+               "partnerCustomerServiceHours": "HAVE QUESTIONS? WE'RE HERE 24/7!",
+               "partnerCustomerServiceFraudPhone": "1-866-282-8977",
+               "partnerCustomerServiceFraudHours": "Monday-Saturday 9am-10pm, Sunday 9am-7pm",
+               "partnerCustomerServiceName": "Bloomingdales.com",
+               "currentShipmentIndicator": "C",
+               "deliveryTrkList": {
+                  "deliveryTrk": [
+                     {
+                        "deliveryTrackingNbr": "2434567890122208",
+                        "deliveryCarrierName": "UPS Ground"
+                     }
+                  ]
+               },
+               "tenderList": {
+                  "tender": [
+                     {
+								"tenderType": "Electronic Gift Card",
+								"tenderAmount": "1358.68",
+								"accountNbr": "853197011718063",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "E",
+								"accountTypeDescription": "Electronic Gift Card",
+								"paymentTransactionType": "D",
+								"egcCertificateType": "85",
+								"authorizationAmount": "1358.68",
+								"authorizationPlanType": "03000000",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "3000-01-01-05:00"
+							}
+                  ]
+               },
+               "shippingAddress": {
+                  "customerDetail": {
+                     "customerId": "65281326",
+                    "firstName": "ShippingFirstName",
+					"lastName": "ShippingLastName",
+					"addressLine1": "919 MOWRY AVE",
+					"addressLine2": "APT 9",
+					"addressLine3": "APT 16",
+					"cityName": "FREMONT",
+					"stateName": "CA",
+					"zipCode": "94536-4139",
+					 "isoCountryCode": "USA",
+					 "addressType": "Commercial",
+					 "dayTimePhoneNbr": "510-770-4064",
+					 "homePhoneNbr": "510-770-4064",
+					 "emailId": "oes.nisum.test@gmail.com"
+                  }
+               
+               },
+			   
+               "giftWrapFlag": "true"
+            }
+            
+			
+         ]
+      },
+      "inventoryDeltaList": {
+         "inventoryDelta": [
+            {
+               "orderID": "442658120",
+               "shipmentNbr": "2",
+               "inventoryDeltaActionCode": "SHIPPED",
+               "lineItemNbr": "2",
+               "orderManagementSenderCode": "FIL",
+               "inventoryDeltaDateTime": "2017-08-31T16:34:14.943-04:00",
+               "inventoryDeltaUtcDateTime": "2017-08-31T20:34:14.943Z",
+               "mediaDate": "2017-08-31-04:00",
+               "processName": "SCF",
+               "racfID": "72000101",
+               "locationNbr": "6274",
+               "itemDepartmentNbr": "650",
+               "itemSkuUpc": "5450102344871",
+               "quantityAmount": "1"
+            },
+            {
+               "orderID": "442658120",
+               "shipmentNbr": "2",
+               "inventoryDeltaActionCode": "SHIPPED",
+               "lineItemNbr": "3",
+               "orderManagementSenderCode": "FIL",
+               "inventoryDeltaDateTime": "2017-08-31T16:34:14.943-04:00",
+               "inventoryDeltaUtcDateTime": "2017-08-31T20:34:14.943Z",
+               "mediaDate": "2017-08-31-04:00",
+               "processName": "SCF",
+               "racfID": "72000101",
+               "locationNbr": "6274",
+               "itemDepartmentNbr": "319",
+               "itemSkuUpc": "8672251027",
+               "quantityAmount": "1"
+            }
+         ]
+      },
+      "customerCommunicationList": {
+         "customerCommunication": [
+            {
+               "mailSourceId": "EOD_MailSourceID",
+               "mailTypeCode": "264",
+               "mailSubtypeCode": "14K",
+               "partyType": "B"
+            }
+         ]
+      },
+      "orderFraudInformation": {}
+   }
+   
+}

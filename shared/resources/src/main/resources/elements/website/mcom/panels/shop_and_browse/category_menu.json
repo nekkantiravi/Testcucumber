@@ -1,0 +1,11 @@
+{
+    "category_menu_container": "id, globalMastheadCategoryMenu || id, mainNavigation",
+    "category": "xpath, //*[@id='mainNavigation']/ul/li/a || xpath, //*[@id='globalMastheadCategoryMenu']/ul/li/a||xpath, //ul[@id='mainNavigationFobs']/li/a/span",
+    "flex_link_container": "class, flexLabelLinksContainer",
+    "flyout_menu": "class, flyout-on||||xpath, //*[@id='mainNavigationFlyouts']/div[contains(@class,'selected-flyout')]",
+    "goto_selected_category": "xpath, //li[@class='globalMastheadCategorySelected']/a || xpath, //div[@id='mainNavigation']//ul/li[contains(@class,'selected')]",
+    "flyout_links": "id, globalFlyouts||xpath, //*[@id='mainNavigationFlyouts']/div[contains(@class,'selected-flyout')]//a",
+    "grid_layout_links": "class, gridLayout",
+    "goto_wishlist": "id, wishListHref||linkText, LISTS",
+    "fob_menu_list": "className, fob"
+}

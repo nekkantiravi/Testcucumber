@@ -1,0 +1,8 @@
+{
+  "url": "RSnextgen/svc/launch",
+  "verify_page": "id, paperless52 || name, paperless",
+
+  "paperless": "id, paperless52 || name, paperless",
+
+  "submit": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all"
+}

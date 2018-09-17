@@ -1,0 +1,16 @@
+{
+  "url": "RSnextgen/svc/launch",
+  "verify_page": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all",
+
+  "select_que1": "xpath, //h3[contains(text(),'Select Question 1')]",
+  "que1": "cssSelector, .ui-link.active",
+  "answer1": "id, security_answer1_30 || name, securityAnswer1",
+  "select_que2": "xpath, //h3[contains(text(),'Select Question 2')]",
+  "que2": "cssSelector, .ui-link.active",
+  "answer2": "id, security_answer2_31 || name, securityAnswer2",
+  "select_que3": "xpath, //h3[contains(text(),'Select Question 3')]",
+  "que3": "cssSelector, .ui-link.active",
+  "answer3": "id, security_answer3_32 || name, securityAnswer3",
+
+  "submit": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all"
+}

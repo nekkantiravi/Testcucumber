@@ -1,0 +1,34 @@
+{
+  "url": "/",
+ 
+  "myclients_radiobutton":				"id, myBook",
+  "allclients_radiobutton":				"id, myCust",
+  "telephone_radiobutton":				"id, telephoneSearch",
+  "firstnamezip_radiobutton":			"id,lastZipSearch",
+  "loyalty_radiobutton":				"id, loyallistSearch",
+  "telephone_textbox":					"id, srTele",
+  "firstName_textbox":					"id, srFirstName",
+  "lastName_textbox":					"id, srlastName",
+  "zip_textbox":						"id, srzip",
+  "loyalty_textbox":					"id, loyaltyID",
+  "search_button":						"id, seaSubmit",
+  "clear_button":						"id, seaReset",
+  "news_link":                      	"id, news",
+  "memos_link":                      	"id, memos",
+  "texts_link":                      	"id, messaging",
+  "email_link":                      	"id, email",
+  "divisional_logo":				    "id, logo",
+  "client_search_section":              "class, clientSearch",
+  "communication_center":               "class, leftConTitle"
+  
+}
+
+
+
+
+
+
+
+
+
+

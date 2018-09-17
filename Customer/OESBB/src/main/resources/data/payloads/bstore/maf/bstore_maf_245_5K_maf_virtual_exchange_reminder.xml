@@ -1,0 +1,58 @@
+<mailMessagePayload>
+	<reservationNumber>test_245_5K_bstore</reservationNumber>
+	<internetOrderNumber>test_245_5K_bstore</internetOrderNumber>
+	<orderDate>07/27/2017</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************0605</accountNumber>
+		<amount>224.98</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>41.12</shipRetailAmt>
+		<shipTaxAmt>3.64</shipTaxAmt>
+		<returnSubmittedDate>07/28/2017</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>9</lineNumber>
+			<description>MAC Prep Prime Natural R</description>
+			<price>41.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>41.0</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>MAC</vendor>
+			<upcNumber>5052376910532</upcNumber>
+			<size></size>
+			<color>Radiant Pink</color>
+		</itemDetail>		
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>4</shipmentNumber>
+		<shipRetailAmt>41.12</shipRetailAmt>
+		<shipTaxAmt>3.64</shipTaxAmt>
+		<itemDetail>
+			<lineNumber>8</lineNumber>
+			<description>MAC Prep Prime Natural R</description>
+			<price>41.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>41.0</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>MAC</vendor>
+			<upcNumber>190089164219</upcNumber>
+			<size></size>
+			<color>Radiant Pink</color>
+			<returnExpectedBackDate>12/20/2017</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

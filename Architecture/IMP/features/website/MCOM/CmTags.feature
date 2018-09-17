@@ -1,0 +1,1 @@
+Feature: Verify the canonical tag in all Navapp pages

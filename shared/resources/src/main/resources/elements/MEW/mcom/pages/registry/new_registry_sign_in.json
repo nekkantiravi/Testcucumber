@@ -1,0 +1,11 @@
+{
+    "url":                              "/wgl-api/products/registry/signin||/wgl/registry/signin||/account/signin",
+    "verify_page":                      "id, createRegistry||id, registry-sign-up",
+    "claim_registry_button":            "id, claimRegistry",
+    "email":                            "id, email",
+    "password":                         "id, password||id, pw-input",
+    "sign_in_button":                   "id, signInBtn||id, sign-in",
+    "create_registry_button":           "id, goToCreate||id, createRegistry||id, registry-sign-up",
+    "forgot_password":                  "id, forgotPassword",
+    "error_message":                    "className, global-error-container||id, ul-page-error"
+}

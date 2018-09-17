@@ -1,0 +1,23 @@
+{
+  "url": "/service/repayment",
+  "format_url": "/service/repayment",
+  "declined_message": "id, declinedMessage",
+  "declined_card_number": "xpath, (//*[contains(@class, 'highlight-red')])[2]",
+  "add_new_card": "id, addNewCard",
+  "card_type": "id, selectCard",
+  "month": "id, expMonth",
+  "year": "id, expYear",
+  "card_number": "id, cardNumber",
+  "security_code": "id, securityCodeField",
+  "first_name": "id, firstName",
+  "last_name": "id, lastName",
+  "address_line1": "id, addressL1",
+  "address_line2": "id, addressL2",
+  "city": "id, city",
+  "state": "id, state",
+  "zip_code": "id, zipCode",
+  "phone_number": "id, phone",
+  "email": "id, emailAddress",
+  "retry_payment": "id, retryPayment",
+  "order_total": "xpath, (//*[contains(@class, 'order-summary')]//*[contains(@class, 'row repayment-font-bold')]/div)[2]"
+}

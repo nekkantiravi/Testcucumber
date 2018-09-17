@@ -1,0 +1,19 @@
+{
+    "include": [
+        "panel.product_thumbnails"
+    ],
+    "thumbnail_wrapper":                    "className, rviProductThumbnail || id, recentlyViewedContainerNew",
+    "description":                          "className, rviDescription",
+    "item":                                 "cssSelector, ol#rviProductList div.rviProductThumbnail > a||cssSelector, div.carouselWrapper ul#carousel > li",
+    "header":                               "className, rviLabel",
+    "edit_button":                          "id, rviEditButtonSpan || className, editDoneRvi",
+    "scroll_left":                          "xpath, //*[@id='yui-gen0']  || xpath, //*[@id='recentlyViewedContainerNew']/span[1]/button/span",
+    "rvi_thumbnails_new":                   "className, thumb || className, rviProductThumbnail",
+    "rvi_review":                           "className, pdpreviews",
+    "scroll_right":                         "xpath, //*[@id='yui-gen1'] || xpath, //*[@id='recentlyViewedContainerNew']/span[2]/button/span",
+    "remove_button":                        "className, rviRemoveBtn || className, rviRemoveButton",
+    "rrvi_container":                       "id, carousel",
+    "rvi_currentset":                       "className, wrapper  || id, rviProductList"
+
+
+}

@@ -1,0 +1,6 @@
+{
+  "social_icon_facebook":       "id, mb-share-facebook||className, icon-overlay-share-facebook",
+  "social_icon_twitter":        "id, mb-share-twitter||className, icon-overlay-share-twitter",
+  "social_icon_pinterest":      "id, mb-share-pinterest||className, icon-overlay-share-pinterest",
+  "social_icon_email":          "id, mb-share-email||className, icon-overlay-share-email"
+}

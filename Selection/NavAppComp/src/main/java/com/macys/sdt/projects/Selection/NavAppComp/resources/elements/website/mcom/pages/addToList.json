@@ -1,0 +1,13 @@
+
+{
+"wishListTitle":                "cssSelector, div#wishListTitle",
+"deleteListBtn":                   "cssSelector, a[id^=deleteWishList]",
+"manageListArrow":                 "cssSelector, span.arrow.alignOnRight.arrow-down",
+"confirmDeleteBtn":             "cssSelector, div.uidialog div#bt1",
+"productNameLink":             "cssSelector, a#href_productName",
+"productPrice":                "cssSelector, div.wlColorwayPrice>div",
+"productPriceNow":                "cssSelector, div.wlColorwayPrice>div.now"
+
+
+
+}

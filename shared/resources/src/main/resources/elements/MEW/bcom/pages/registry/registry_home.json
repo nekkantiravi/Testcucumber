@@ -1,0 +1,22 @@
+{
+    "include": [
+        "panel.header",
+        "panel.footer"
+    ],
+    "url": "/registry/wedding/registryhome||/wedding-registry",
+    "verify_page": "className, b-header-logo || id, mb-j-header-image",
+
+    "goto_create_registry": "id, registryHomePageCreateRegBtn",
+    "sign_in_button": "id, registryHomeSigninBtn",
+    "find_button": "id, regSearchNameBtn",
+    "search_registry_button": "id, regSearchNameBtn",
+    "sign_in_email": "id, registryHomeEmail",
+    "sign_in_password": "id, registryHomePassword",
+    "search_first_name": "id, searchFirstName",
+    "search_last_name": "id, searchLastName",
+    "goto_start_here": "id, b-registry-claim-link",
+
+    "benefits_and_perks_link": "id, registry-benefitAndPerks-link",
+    "vow_to_wow_link":   "id, registry-vowToWow-link",
+    "where_to_start_link": "id, registry-whereToStart-link"
+}

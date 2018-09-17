@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19B_MWEDD</reservationNumber>
+	<internetOrderNumber>274_19B_MWEDD</internetOrderNumber>
+	<orderDate>10/24/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.01</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.01</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0232</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>AABRIDAL</firstName>
+		<middleName />
+		<lastName>AABONUS</lastName>
+		<attnLine>ATTN: LINDA RICHMOND</attnLine>
+		<addressLine1>7 W 7TH ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CINCINNATI</city>
+		<state>OH</state>
+		<country>USA</country>
+		<zipcode>45202</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************4962</accountNumber>
+		<amount>0.01</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>BRITTANY</firstName>
+		<middleName />
+		<lastName>PETERSON</lastName>
+		<attnLine />
+		<addressLine1>3895 SUNSET DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SPRING PARK</city>
+		<state>MN</state>
+		<country>USA</country>
+		<zipcode>55384</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage>TABLETOP COMPLETION BONUS GIFT FROM MACY'S</signatureMessage>
+		<giftRegistryNumber>2800006885995</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>brittanyelizabethpeterson@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>BRITTANY</giftRegistrant1>
+		<giftRegistrant2>ERIC</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>FAIR HARBOR</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/19/2016</expectedDate>
+			<newExpectedDate>01/01/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>KATE SPADE</vendor>
+			<cancelledQuantity />
+			<upcId>000000882864292391</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>SERVE BOWL</size>
+			<color>WHT TRUFFL</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

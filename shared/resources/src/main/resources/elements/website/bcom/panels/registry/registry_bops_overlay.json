@@ -1,0 +1,12 @@
+{
+  "zip_code":                 "id, bopsCX-storeLookup-searchField || className, bvr-gvr-zip-input",
+  "distance_dropdown":        "id, bopsCX-storeLookup-distance",
+  "search_button":            "id, bopsCX-storeLookup-doSearch || className, bvr-gvr-search",
+  "qty_bops_dropdown":        "className, bvr-gvr qty-dropdown",
+  "result_available_stores":  "xpath, //div[@id='bopsCX-storeLookup-availableStores']/div",
+  "search_results_section":   "id, bopsCX-storeLookup-storeList",
+  "bops_atb_button":          "className, add-to-bag",
+  "bops_overlay_box":         "id, bopsCX-storeLookup-overlay",
+  "store_radio_button":       "xpath, //div[@id='bopsCX-storeLookup-availableStores']//input[@type='radio']"
+
+}

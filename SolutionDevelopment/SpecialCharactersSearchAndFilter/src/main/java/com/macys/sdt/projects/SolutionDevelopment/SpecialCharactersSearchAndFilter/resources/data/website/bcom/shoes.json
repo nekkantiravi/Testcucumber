@@ -1,0 +1,149 @@
+{
+  "data": [{
+    "Search Term": "Shoes",
+    "Cat ID": "17411",
+    "Refinements": {
+      "FOB": ["Shoes"]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Department > Shoes"
+  },
+    {
+      "Search Term": "Booties",
+      "Cat ID": "1000692",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Boots",
+      "Cat ID": "19212",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Sandals",
+      "Cat ID": "17398",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Flats",
+      "Cat ID": "16963",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Sneakers",
+      "Cat ID": "17400",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Slippers",
+      "Cat ID": "17399",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Pumps",
+      "Cat ID": "17397",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Over the Knee Boots",
+      "Cat ID": "1005937",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Vince Shoes",
+      "Cat ID": "1004125",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Burberry Shoes",
+      "Cat ID": "1002729",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Dolce Vita Shoes",
+      "Cat ID": "1003993",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Gucci Shoes",
+      "Cat ID": "1004008",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Ferragamo Shoes",
+      "Cat ID": "19210",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Tom Shoes",
+      "Cat ID": "1003690",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Shoes"
+    },
+    {
+      "Search Term": "Denim Shoes",
+      "Cat ID": "1021659",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department> Shoes"
+    },
+    {
+      "Search Term": "Velvet Shoes",
+      "Cat ID": "1006969",
+      "Refinements": {
+        "FOB": ["Shoes"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department> Shoes"
+    }]
+}

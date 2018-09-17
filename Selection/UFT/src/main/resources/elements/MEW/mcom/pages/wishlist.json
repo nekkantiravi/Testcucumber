@@ -1,0 +1,3 @@
+{
+  "last_act_text_wishlist": "xpath, //p[contains(text(),'LAST ACT')]"
+}

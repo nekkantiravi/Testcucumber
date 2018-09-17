@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>264_14A_BWEDD</internetOrderNumber>
+	<orderDate>01/13/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>39.98</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>2.80</taxAmt>
+	<orderTotal>42.78</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>275.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>01/18/2016</shippedDate>
+		<mailFlag>C</mailFlag>
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800022811234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@YAHOO.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<trackingDetail>
+			<trackingNumber>1Z6WA984YW01612345</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPS SurePost 1</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>US EXCLUSIVE CROSSBODY</description>
+			<price>420.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>420.00</totalAmount>
+			<expectedDate>01/19/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>01/18/2016</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800022811234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@YAHOO.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<trackingDetail>
+			<trackingNumber>1Z6WA984YW01612345</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPS SurePost 1</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>US EXCLUSIVE CROSSBODY</description>
+			<price>420.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>420.00</totalAmount>
+			<expectedDate>01/19/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>01/18/2016</shippedDate>
+		<mailFlag>P</mailFlag>
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800022811234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@YAHOO.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>US EXCLUSIVE CROSSBODY</description>
+			<price>420.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>420.00</totalAmount>
+			<expectedDate>01/19/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>004</shipmentNumber>
+		<shippedDate>01/18/2016</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800022811234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@YAHOO.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>US EXCLUSIVE CROSSBODY</description>
+			<price>420.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>420.00</totalAmount>
+			<expectedDate>01/19/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag />
+			<status>VOIDED</status>
+			<vendor />
+			<cancelledQuantity>009</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,6 @@
+{
+  "firstname": 	      "name,attendee_person_firstName",
+  "lastname":     "name,attendee_person_lastName",
+  "email":        "id,attendee_email",
+  "phone":        "id,attendee_mobile_phoneNumber"
+}

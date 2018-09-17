@@ -1,0 +1,268 @@
+@objects
+
+    pdpHeader                           css     [class='headerPDP ']
+    pdpContent                          css     [id='mainContent']
+    productTitle                        css     [data-auto='product-title']
+    brandName                           css     [data-auto='product-brand']
+    productName                         css     [data-auto='product-name']
+    mainImage                           css     [data-auto='main-image']
+    addToBagBtn                         css     [data-auto='add-to-bag']
+    addToListBtn                        css     [data-auto='add-to-list']
+    addToRegistryLink                   css     [data-auto='add-to-registry']
+    quantitySection                     css     [data-auto='quantity-section']
+    qtyIncrementBtn                     css     [data-auto='increment-button']
+    qtyDecrementBtn                     css     [data-auto='decrement-button']
+    availabilitySection                 css     [data-auto='availability-section']
+
+
+= Member PDP Layout =
+    = Elements =
+        @on desktop
+            pdpHeader:
+                width  ~ 1400px
+                height ~ 220px
+
+            productTitle:
+                inside pdpContent ${productTitle.position.desktop}
+                above quantitySection ~ 235px
+                width ~ 583px
+                height ~ 45px
+
+            brandName:
+                inside pdpContent ${brandName.position.desktop}
+                above quantitySection ~ 260px
+                above productName ~ 0px
+                width ~ 50px
+                height ~ 22px
+
+            productName:
+                inside pdpContent ${productName.position.desktop}
+                above quantitySection ~ 235px
+                below brandName ~ 0px
+                width ~ 583px
+                height ~ 25px
+
+            mainImage:
+                inside pdpContent ${mainImage.position.desktop}
+                left-of addToBagBtn ~ 65px
+                width ~ 420px
+                height ~ 515px
+
+            quantitySection:
+                inside pdpContent ${quantitySection.position.desktop}
+                right-of mainImage ~ 65px
+                above addToBagBtn ~ 77px
+                width ~ 585px
+                height ~ 40px
+
+            qtyIncrementBtn:
+                inside pdpContent ${qtyIncrementBtn.position.desktop}
+                right-of mainImage ~ 210px
+                above addToBagBtn ~ 86px
+                width ~ 20px
+                height ~ 20px
+
+            qtyDecrementBtn:
+                inside pdpContent ${qtyDecrementBtn.position.desktop}
+                right-of mainImage ~ 150px
+                above addToBagBtn ~ 86px
+                width ~ 20px
+                height ~ 20px
+
+            addToBagBtn:
+                inside pdpContent ${addToBagBtn.position.desktop}
+                right-of mainImage ~ 65px
+                left-of addToListBtn ~ 10px
+                below quantitySection ~ 77px
+                width ~ 285px
+                height ~ 49px
+
+            addToListBtn:
+                inside pdpContent ${addToListBtn.position.desktop}
+                right-of mainImage ~ 365px
+                right-of addToBagBtn ~ 10px
+                below quantitySection ~ 77px
+                width ~ 285px
+                height ~ 49px
+
+            addToRegistryLink:
+                inside pdpContent ${addToRegistryLink.position.desktop}
+                right-of mainImage ~ 302px
+                below addToBagBtn ~ 30px
+                width ~ 115px
+                height ~ 20px
+
+            availabilitySection:
+                inside pdpContent ${availabilitySection.position.desktop}
+                right-of mainImage ~ 65px
+                below addToBagBtn ~ 60px
+                width ~ 583px
+                height ~ 140px
+
+
+    = Elements =
+        @on mobile
+            pdpHeader:
+                width  ~ 400px
+                height ~ 220px
+
+            productTitle:
+                inside pdpContent ${productTitle.position.mobile}
+                above quantitySection ~ 610px
+                width ~ 380px
+                height ~ 45px
+
+            brandName:
+                inside pdpContent ${brandName.position.mobile}
+                above quantitySection ~ 632px
+                above productName ~ 0px
+                width ~ 50px
+                height ~ 22px
+
+            productName:
+                inside pdpContent ${productName.position.mobile}
+                above quantitySection ~ 610px
+                below brandName ~ 0px
+                width ~ 380px
+                height ~ 25px
+
+            mainImage:
+                inside pdpContent ${mainImage.position.mobile}
+                above addToBagBtn ~ 185px
+                width ~ 380px
+                height ~ 465px
+
+            quantitySection:
+                inside pdpContent ${quantitySection.position.mobile}
+                below mainImage ~ 70px
+                above addToBagBtn ~ 77px
+                width ~ 380px
+                height ~ 40px
+
+            qtyIncrementBtn:
+                inside pdpContent ${qtyIncrementBtn.position.mobile}
+                below mainImage ~ 80px
+                above addToBagBtn ~ 85px
+                width ~ 20px
+                height ~ 20px
+
+            qtyDecrementBtn:
+                inside pdpContent ${qtyDecrementBtn.position.mobile}
+                below mainImage ~ 80px
+                above addToBagBtn ~ 85px
+                width ~ 20px
+                height ~ 20px
+
+            addToBagBtn:
+                inside pdpContent ${addToBagBtn.position.mobile}
+                below mainImage ~ 185px
+                above addToListBtn ~ 10px
+                below quantitySection ~ 77px
+                width ~ 380px
+                height ~ 50px
+
+            addToListBtn:
+                inside pdpContent ${addToListBtn.position.mobile}
+                below mainImage ~ 245px
+                below addToBagBtn ~ 10px
+                below quantitySection ~ 135px
+                width ~ 380px
+                height ~ 50px
+
+            addToRegistryLink:
+                inside pdpContent ${addToRegistryLink.position.mobile}
+                below mainImage ~ 325px
+                below addToBagBtn ~ 90px
+                width ~ 115px
+                height ~ 20px
+
+            availabilitySection:
+                inside pdpContent ${availabilitySection.position.mobile}
+                below mainImage ~ 355px
+                below addToBagBtn ~ 120px
+                width ~ 380px
+                height ~ 160px
+
+
+    = Elements =
+        @on tablet
+            pdpHeader:
+                width  ~ 870px
+                height ~ 220px
+
+            productTitle:
+                inside pdpContent ${productTitle.position.desktop}
+                above quantitySection ~ 610px
+                width ~ 380px
+                height ~ 45px
+
+            brandName:
+                inside pdpContent ${brandName.position.desktop}
+                above quantitySection ~ 632px
+                above productName ~ 0px
+                width ~ 50px
+                height ~ 22px
+
+            productName:
+                inside pdpContent ${productName.position.desktop}
+                above quantitySection ~ 235px
+                below brandName ~ 0px
+                width ~ 583px
+                height ~ 25px
+
+            mainImage:
+                inside pdpContent ${mainImage.position.desktop}
+                left-of addToBagBtn ~ 65px
+                width ~ 420px
+                height ~ 515px
+
+            quantitySection:
+                inside pdpContent ${quantitySection.position.desktop}
+                right-of mainImage ~ 65px
+                above addToBagBtn ~ 77px
+                width ~ 585px
+                height ~ 40px
+
+            qtyIncrementBtn:
+                inside pdpContent ${qtyIncrementBtn.position.desktop}
+                right-of mainImage ~ 210px
+                above addToBagBtn ~ 86px
+                width ~ 20px
+                height ~ 20px
+
+            qtyDecrementBtn:
+                inside pdpContent ${qtyDecrementBtn.position.desktop}
+                right-of mainImage ~ 150px
+                above addToBagBtn ~ 86px
+                width ~ 20px
+                height ~ 20px
+
+            addToBagBtn:
+                inside pdpContent ${addToBagBtn.position.desktop}
+                right-of mainImage ~ 65px
+                left-of addToListBtn ~ 10px
+                below quantitySection ~ 77px
+                width ~ 285px
+                height ~ 49px
+
+            addToListBtn:
+                inside pdpContent ${addToListBtn.position.desktop}
+                right-of mainImage ~ 365px
+                right-of addToBagBtn ~ 10px
+                below quantitySection ~ 77px
+                width ~ 285px
+                height ~ 49px
+
+            addToRegistryLink:
+                inside pdpContent ${addToRegistryLink.position.desktop}
+                right-of mainImage ~ 302px
+                below addToBagBtn ~ 30px
+                width ~ 115px
+                height ~ 20px
+
+            availabilitySection:
+                inside pdpContent ${availabilitySection.position.desktop}
+                right-of mainImage ~ 65px
+                below addToBagBtn ~ 60px
+                width ~ 583px
+                height ~ 140px

@@ -1,0 +1,8 @@
+<mailMessagePayload>
+	<maskedRewardCardNumber>XXXXXXXXXXXX1234</maskedRewardCardNumber>
+	<amountRewardsCard>25.58</amountRewardsCard>
+	<rewardCardEffectiveDate>04/14/2015</rewardCardEffectiveDate>
+	<rewardCardExpirationDate>10/10/2018</rewardCardExpirationDate>
+	<linkPrintRewardCard>https://www.bloomingdales.com/account/printreward?cg=1234abc</linkPrintRewardCard>
+	<linkToWallet>https://www.bloomingdales.com/account/wallet?ocwallet=true/account/wallet?ocwallet=true</linkToWallet>
+</mailMessagePayload>

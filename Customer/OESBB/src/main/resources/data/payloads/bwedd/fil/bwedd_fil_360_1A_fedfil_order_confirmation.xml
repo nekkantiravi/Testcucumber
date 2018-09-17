@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>519358702</reservationNumber>
+	<internetOrderNumber>360_1A_BWEDD</internetOrderNumber>
+	<orderDate>04/26/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>110.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>10.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0016</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>166.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>06/06/2016</shippedDate>
+		<returnSubmittedDate>06/03/2016</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>HAPPY BIRTHDAY SWEETY</greetingMessage>
+		<closingMessage>THANK YOU</closingMessage>
+		<signatureMessage>AAA</signatureMessage>
+		<giftRegistryNumber>2800065123456</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>LEXI</giftRegistrant1>
+		<giftRegistrant2>DOUG</giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>004</lineNumber>
+			<description>WICKFORD</description>
+			<price>14.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>14.00</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>EXCHANGE</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>KATE SPADE</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>2</returnStatus>
+			<returnReasonDescription>Item Not Received</returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>WICKFORD</description>
+			<price>14.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>14.00</totalAmount>
+			<expectedDate>06/06/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>KATE SPADE</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>190089164219</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

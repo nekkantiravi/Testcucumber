@@ -1,0 +1,9 @@
+{
+  "url":              "/",
+  "create_List_name": 	"id, newListName",
+  "list_searchable_chkbox":    "id,listSearchable",
+  "searchable_info": "cssSelector,.whatIsSearchableLink",
+  "btn_createlist": "id,btnCreateList",
+  "btn_cancel": "id,btnCancelCreateList",
+  "btn_close": "xpath,html/body/div[5]/div[1]/button"
+}

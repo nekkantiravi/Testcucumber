@@ -1,0 +1,6 @@
+{
+  "cancel_yes":                     "className, js-cancel-yes",
+  "cancel_no":                      "className, js-cancel-no",
+  "cancel_overlay_title":           "className, returnitem-overlay-title-section",
+  "cancel_overlay_content":         "className, overlay-content"
+}

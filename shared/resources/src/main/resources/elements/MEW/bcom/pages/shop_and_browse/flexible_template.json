@@ -1,0 +1,6 @@
+{
+  "copy_block": "className, b-copy-block",
+  "copy_block_more_link": "className, b-more-toggle",
+  "copy_block_less_link": "className, b-less-toggle",
+  "copy_block_header":"className, copyblock_heading"
+}

@@ -1,0 +1,7 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url": "/app/answers/",
+  "verify_page": "id, rn_SimpleSearch_21_SearchField"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>1234567890</reservationNumber>
+   <internetOrderNumber>1234567890</internetOrderNumber>
+   <orderDate>03/31/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>309.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>6.00</giftWrapAmt>
+   <taxAmt>27.56</taxAmt>
+   <orderTotal>342.56</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>Y</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>Test</lastName>
+      <attnLine />
+      <addressLine1>123 CARDWELL CT</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>NAPA</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94559</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************123</accountNumber>
+      <amount>342.56</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag />
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>Test</lastName>
+      <attnLine />
+      <addressLine1>123 HANCOCK ST</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>SAN FRANCISCO</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94114</zipcode>
+      <greetingMessage>Oes and Esp,</greetingMessage>
+      <closingMessage>Warmest wishes for a lifetime of love &amp; joy.</closingMessage>
+      <signatureMessage>Denise and Joe</signatureMessage>
+      <giftRegistryNumber>2800064312345</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+      <giftRegistrant1>OES</giftRegistrant1>
+      <giftRegistrant2>ESP</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber>002</lineNumber>
+         <description>ROCK FTD CAKE</description>
+         <price>250.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>250.00</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000790824596826</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>003</lineNumber>
+         <description>ROCK COCKTAIL</description>
+         <price>59.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>59.00</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000790824597120</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

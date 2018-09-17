@@ -1,0 +1,8 @@
+{
+  "url":  "/shop/popup",
+  "verify_page": "className, bl_pop_header",
+  
+  "close_btn":      "className, bl_pop_header",
+  "free_shipping_for_loyallists_header":     "className, bl_pop_header",
+  "free_shipping_disclaimer":     "className, pop_DisclaimerText"
+}

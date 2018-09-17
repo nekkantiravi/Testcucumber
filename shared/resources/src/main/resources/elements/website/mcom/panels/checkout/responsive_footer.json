@@ -1,0 +1,12 @@
+{
+  "footer_container": "id, footer-container",
+  "contact_us": "class, rc-contact-us",
+  "bag_id": "cssSelector, #rc-policy-links li:nth-child(1)",
+  "privacy_policy": "linkText, Privacy Policy",
+  "shipping_policy": "linkText, Shipping Policy",
+  "return_policy": "linkText, Return Policy",
+  "copyright_copy": "cssSelector, #footer-container p",
+  "tux_phone_number_message": "id, phone-tux",
+  "tux_reservation_number": "id, tux-reservation-no",
+  "macys_phone_number_message": "id, phone-macys"
+}

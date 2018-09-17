@@ -1,0 +1,7 @@
+{
+  "firstname": 	   "cssSelector, dd#attendee_person_firstName-element>input",
+  "lastname":     "cssSelector, dd#attendee_person_lastName-element>input",
+  "email":        "cssSelector, dd#attendee_email-element>input",
+  "phone":        "cssSelector, dd#attendee_mobile_phoneNumber-element>input",
+  "about":        "cssSelector, dd#attendee_customField1-element>textarea"
+}

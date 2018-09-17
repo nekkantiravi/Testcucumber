@@ -1,0 +1,30 @@
+{
+  "www.macys.com": {
+    "ComponentizedSnB": [
+      {
+        "id": "2244",
+        "weight": 0,
+        "name": "OldSearchControl",
+        "type": "Control",
+        "pageScript": "",
+        "desc": "Old Search Flow - Control"
+      },
+      {
+        "id": "2245",
+        "weight": 100,
+        "name": "NewSearch",
+        "type": "Treatment",
+        "pageScript": "",
+        "desc": "New Search Flow"
+      },
+      {
+        "id": "2412",
+        "weight": 0,
+        "name": "OldSearchHoldOut",
+        "type": "Control Hold Out",
+        "pageScript": "",
+        "desc": "Old Search Flow - Hold Out"
+      }
+    ]
+  }
+}

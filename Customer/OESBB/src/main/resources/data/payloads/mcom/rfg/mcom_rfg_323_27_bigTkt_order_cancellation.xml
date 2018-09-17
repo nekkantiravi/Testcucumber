@@ -1,0 +1,76 @@
+<mailMessagePayload>
+   <reservationNumber>99864218</reservationNumber>
+   <internetOrderNumber>120039186</internetOrderNumber>
+   <thirdPartyOrderNumber>552755</thirdPartyOrderNumber>
+   <orderDate>07/14/2017</orderDate>
+   <shopAt>MACYS.COM</shopAt>
+   <orderSubtotalAmt>2000.25</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>200.00</taxAmt>
+   <orderTotal>2200.25</orderTotal>
+   <divisionCode>71</divisionCode>
+   <locationCode>139</locationCode>
+   <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <munTaxAmt>200.00</munTaxAmt>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>Y</ltyFlag>
+   <billingDetail>
+      <title>Mr.</title>
+      <firstName>Test</firstName>
+      <middleName></middleName>
+      <lastName>QA</lastName>
+      <addressLine1>4714 Bentham Drive</addressLine1>
+      <addressLine2>Apt 209</addressLine2>
+      <addressLine3>Bethel &amp; Henderson</addressLine3>
+      <city>Ohio</city>
+      <state>OH</state>
+      <country>USA</country>
+      <zipcode>43220</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>MACYS EMPLOYEE CARD</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>2200.25</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+      <egcCertificateType>99</egcCertificateType>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>27448079</shipmentNumber>
+      <mailFlag>N</mailFlag>
+      <firstName>Test</firstName>
+      <middleName></middleName>
+      <lastName>QA</lastName>
+      <addressLine1>3939 Bidwell Drive</addressLine1>
+      <addressLine2>Appt# 122</addressLine2>
+      <addressLine3>Fremont blvd. &amp; Sundale</addressLine3>
+      <city>Fremont</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94538</zipcode>
+      <giftRegistryNumber>2</giftRegistryNumber>
+      <pickupBarcode>001336606732</pickupBarcode>
+      <shipRetailAmt>2000.25</shipRetailAmt>
+      <shipTaxAmt>200.00</shipTaxAmt>
+      <shipPhone>6784000109</shipPhone>
+      <itemDetail>
+         <lineNumber>1</lineNumber>
+         <description>Sofa</description>
+         <price>2000.25</price>
+         <requestedQuantity>2</requestedQuantity>
+         <availableQuantity>2</availableQuantity>
+         <shippedQuantity>0</shippedQuantity>
+         <totalAmount>2000.25</totalAmount>
+         <shipmentType>PICKUP</shipmentType>
+         <status>VOID</status>
+         <vendor>GAP</vendor>
+         <cancelledQuantity>0</cancelledQuantity>
+         <upcId>2008894</upcId>
+         <color>blue</color>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

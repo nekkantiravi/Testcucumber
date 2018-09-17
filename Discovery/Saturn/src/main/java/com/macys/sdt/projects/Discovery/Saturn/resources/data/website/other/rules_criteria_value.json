@@ -1,0 +1,208 @@
+{
+"keyword_pattern_all_criteria_values": {
+    "Brand": "50 cent,tempur-pedic",
+    "Customer Service": "cd player,multi-purpose pot",
+    "Material": "leather,wood",
+    "Occasion": "back to school/fall,evening",
+    "Product Noun": "food processor,makeup-brushes",
+    "Style": "wall clock,t shirt"
+  },
+
+  "keyword_pattern_criteria_value": {
+    "Brand": "50 cent,tempur-pedic",
+    "Product Noun": "food processor,makeup-brushes"
+  },
+
+  "result_count_criteria_values": {
+    "Less Than": "2000",
+    "Greater Than": "1000"
+  },
+
+  "result_set_criteria": {
+    "result_set_criteria_one": "Brand",
+    "result_set_criteria_two": "Department",
+    "result_set_criteria_Three": "Normal Color",
+    "result_set_criteria_Four": "Price Type",
+    "result_set_criteria_Five": "Product Type",
+    "result_set_criteria_six": "Promo ID"
+  },
+
+  "result_set_criteria_values": {
+    "Brand": "adidas,<,75",
+    "Department":"Clothing,>,75",
+    "Normal Color": "Blue,<,75",
+  },
+
+  "facet_refinement_criteria_values": {
+    "Brand": "moda,mogu",
+    "Material": "leather,wood",
+    "Occasion": "evening,formal",
+    "Product Color": "gold,green"
+  },
+
+  "PDP Redirect": {
+    "PPID1": "4199",
+    "PPID2": "93005",
+    "Invalid":"1234"
+
+  },
+
+  "Modify Result Set MCOM": {
+    "ProductId": "4199",
+    "SavedQueryId": "1873430",
+    "SavedSet":"2654208"
+  },
+
+  "Modify Result Set BCOM": {
+    "ProductId": "129",
+    "SavedQueryId": "415631",
+    "SavedSet":"416512",
+    "Invalid":"@123456"
+  },
+
+  "Category Redirect": {
+    "Category Id mcom": "121",
+    "Category Id bcom": "1043659"
+  },
+
+  "URL Redirect": {
+    "url": "http://www.google.com",
+    "invalid url":"http:///?macys/./com.com"
+  },
+
+  "Display Message": {
+    "message": "Sorry Not available"
+  },
+
+  "Page Title": {
+    "rule_page": "Rules",
+    "trigger_group_page": "Trigger Group"
+  },
+
+  "Trigger Error Messages": {
+    "Category Error Message": "Please fill the fields with category IDs.",
+    "Facet Error Message": "Please select the Facet to save the Trigger.",
+    "Keyword Error Message": "Please input the keyword values to save the trigger.",
+    "Keyword Group Error Message": "Please select the keyword pattern group type to save the Trigger.",
+    "Result Count Error Message": "The value inserted is not a number. Value must be a whole number.",
+    "Result Set Error Message": "Please select the attribute to save the Trigger.",
+    "All Search Error Message One": "The All Search",
+    "All Search Error Message Two":"trigger may apply specified action(s) to every user search.Continue with Save?",
+    "Percentage":"You must select percentage"
+  },
+
+  "Trigger Group Error Messages": {
+    "Duplicate Error Message": "2(or more) of the same Trigger Groups cannot exist in a single rule. Remove duplicate Trigger Group",
+    "Duplicate Trigger Group Error Message": "Duplicate trigger group name",
+    "Duplicate Rule Message":"Duplicate rule name"
+  },
+
+  "keyword_pattern_criteria_repeat": {
+    "error_message_one": "The group type ",
+    "error_message_two": " is already selected. Each group type must be selected only once."
+  },
+
+  "show_media": {
+    "Canvas Id": "419986",
+    "Banners Id":"49490"
+  },
+
+  "Invalid Trigger Value": {
+    "Invalid Category Id": "abc",
+    "Invalid Result Count Value": "0",
+    "Invalid facet refinement value":"123"
+  },
+
+  "Invalid Trigger Values Errors": {
+    "Invalid Category Id": "IDs should be numbers separated by space and/or commas.",
+    "Invalid Result Count Value": "0 (zero) is not a valid value. Value must be 1 or greater.",
+    "Invalid Facet Refinement Value":"is incorrect value for Brand, please enter valid value to save the Trigger",
+    "Invalid Result Set Value":"is incorrect value for Normal Color, please enter valid value to save the Trigger"
+  },
+
+  "rdpp_algorithm_error": {
+    "duplication": "Edit the RDPP action dates or context details to avoid duplication"
+  },
+
+  "trigger_compatibility_error":{
+    "Trigger And":"The AND relationship is incompatible with at least one trigger combination. Please check trigger compatibility and update"
+  },
+
+  "Manage feature Facet":
+  {
+    "value":"100"
+  },
+
+  "Context Alert":
+  {
+    "Same Context":"You are selecting same context/s for same action type, please select a different context or action type to save the action"
+  },
+
+  "Multiple Trigger":
+  {
+    "Error":"Only one All Search trigger per rule allowed"
+  },
+
+  "Input Data Error Message":
+  {
+    "Error1":"Please input the keyword values to save the trigger.",
+    "Error2":"Please select the keyword pattern group type to save the Trigger."
+  },
+
+  "Execute New Search Compatibility Alert":
+  {
+    "Error":"This action is not compatible with the Execute New Search action already existing in this rule."
+  },
+
+  "Modify Result Set Operator": {
+    "Boost":"BST",
+    "Add":"ADD",
+    "Boost Attribute Values":"XBST",
+    "Remove":"RMV",
+    "Replace":"RPL"
+  },
+
+  "facet_refinement_criteria_values_mcom": {
+    "Brand": "adidas",
+    "Material": "leather,wood",
+    "Occasion": "evening",
+    "Product Color": "gold,green"
+  },
+
+  "facet_refinement_criteria_values_bcom": {
+    "Brand": "adidas",
+    "Material": "Leather,wood",
+    "Occasion": "Evening & Formal",
+    "Product Color": "Gold,green"
+  },
+
+  "Duplicate Criteria Error":
+  {
+    "Duplicate Brand Error":"The group type Brand is already selected. Each group type must be selected only once."
+  },
+
+  "RDPP Error Messages":
+  {
+    "Effective Date":"Please enter effective date and expiration date to save the action",
+    "Expiration Date":"Please enter effective date and expiration date to save the action",
+    "RDPP Algorithm":"Please select a RDPP Algorithm before saving the action."
+  },
+
+  "Result Set Alert Messages":
+  {
+    "Percentage":"You must select percentage"
+  },
+
+  "Modify Result Set Messages":
+  {
+    "Duplicate Saved Set Id Saved Query Id":"The following saved set ids were entered more than once",
+    "Invalid Saved Set Id Saved Query Id":"The following saved set ids are invalid:"
+  },
+  "Modify Result Set Invalid Values":
+  {
+    "Numeric Saved Set Id Saved Query Id":"1111,4444",
+    "Non Numeric Saved Set Id Saved Query Id":"@123,@334"
+  }
+
+
+}

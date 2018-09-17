@@ -1,0 +1,8 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url": "ce/creditservice/marketing/main",
+  "verify_page": "xpath,//div[contains(@class,'row collapse hero_desktop') or contains(@class,'learnApply_desktop_hero_copy')]//button[text()='Apply now']"
+}
+

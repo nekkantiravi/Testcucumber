@@ -1,0 +1,12 @@
+{
+    "test_element": 	"id, macysHomePageLogo",
+    "main_image":       "className, mainImage",
+    "image_enlarge_container": "className, hoverZoomImageContainer",
+    "alternate_image_container": "className, altImagesContent",
+    "shopping_page_vertical_panel": "className, thumb",
+    "top_nav_gift_link":    "id, giftsLink",
+    "top_nav_gift_dropdown":   "className, dropdown-list dropdown-list-align-left ",
+    "top_nav_gift_options": "className, dropdown-item",
+    "quick_bag_icon": "id, checkoutLink",
+    "signup_for_email": "className,email"
+}

@@ -1,0 +1,13 @@
+{
+  "url":                    "/#/app/health/infrastructure/serverlist",
+  "verify_page":            "class, page-title",
+  "page_title":             "class, page-title",
+
+  "dca_button":             "xpath, //*[@id='content']//section/div/div/div/div[3]/button",
+  "dca_dropdown_values":    "xpath, //*[@id='content']//section/div/div/div/div[3]//li",
+  "site_button":            "xpath, //*[@id='content']//section/div/div/div/div[2]/button",
+  "site_dropdown_values":   "xpath, //*[@id='content']//section/div/div/div/div[2]//li",
+  "submit_button":          "xpath, //*[@id='content']//section/div/div/div/div[6]/button",
+  "per_page_count_buttons": "xpath, //td[contains(@colspan, '12')]//a",
+  "server_list_table_descriptions": "cssSelector, #content .widget .table-responsive .table tbody tr td"
+}

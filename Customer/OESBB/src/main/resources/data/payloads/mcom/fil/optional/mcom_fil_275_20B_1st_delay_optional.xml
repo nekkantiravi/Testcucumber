@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate>11/28/2015</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt></orderSubtotalAmt>
+	<baseShippingAmt></baseShippingAmt>
+	<addtShipAddAmt></addtShipAddAmt>
+	<shipUpgradeAmt></shipUpgradeAmt>
+	<giftWrapAmt></giftWrapAmt>
+	<taxAmt></taxAmt>
+	<orderTotal></orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>310417084123456</ltyIdUsl>
+	<billingDetail>
+		<title />
+		<firstName></firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 BEAUMONT CANYON DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SAN JOSE</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>95138</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>154.29</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 BEAUMONT CANYON DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SAN JOSE</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>95138</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description></description>
+			<price />
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate></expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor></vendor>
+			<cancelledQuantity />
+			<upcId></upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

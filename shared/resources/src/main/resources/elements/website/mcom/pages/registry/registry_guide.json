@@ -1,0 +1,6 @@
+{
+     "url"          : "/shop/wedding-registry",
+     "verify_page"  : "linkText, Registry Guide",
+
+     "create_a_registry" : "linkText, Create A Registry"
+}

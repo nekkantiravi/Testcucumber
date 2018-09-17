@@ -1,0 +1,78 @@
+{
+  "data":[{
+    "Search Term": "Bucket Bags",
+    "Cat ID": "1004824",
+    "Refinements": "N/A",
+    "Exclusions": "N/A",
+    "Refinements Display": "N/A"
+  },
+    {
+      "Search Term": "clutches",
+      "Cat ID": "17309",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Crossbody Bags",
+      "Cat ID": "17310",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Saddle Bags",
+      "Cat ID": "1005056",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Satchels",
+      "Cat ID": "17312",
+      "Refinements": {
+        "FOB": ["Handbags"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "FOB > Handbags"
+    },
+    {
+      "Search Term": "Totes",
+      "Cat ID": "19993",
+      "Refinements": {
+        "FOB": ["Handbags"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "FOB > Handbags"
+    },
+    {
+      "Search Term": "Handbags",
+      "Cat ID": "17316",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Cosmetics Bags",
+      "Cat ID": "1000415",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "Velvet",
+      "Cat ID": "1006976",
+      "Refinements": {
+        "FOB": ["Handbags"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "FOB > Handbags"
+    },
+    {
+      "Search Term": "Camera Bags",
+      "Cat ID": "1006982",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    }]
+}

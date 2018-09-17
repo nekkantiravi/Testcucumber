@@ -1,0 +1,5 @@
+{
+    "ads_by_google_section":                       "id, googleAdsense",
+    "google_ad_links":                             "className, test_domainLink",
+    "google_iframe":                               "id, master-1"
+}

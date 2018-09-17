@@ -1,0 +1,26 @@
+{
+    "include": [
+        "panel.header_and_footer"
+    ],
+    "url":                              "/registrycaptureemail||/registry/wedding/registrysignin||/account/signin?&registrycaptureemail=true&fromRegistry=true",
+    "verify_page":                      "id, existingEmail||id, signInVB.email||id, signinBtn||id, sign-in",
+
+    "existing_user_email":              "id, existingEmail||id, signInVB.email||id, email",
+    "existing_user_password":           "id, existingPassword||id, signInVB.password||id, pw-input",
+    "new_user_email":                   "id, newUserEmail||id, signInVB.profile.email",
+    "new_user_password":                "id, newUserPassword||id, signInVB.profile.password",
+    "new_user_email_verify":            "id, verifyEmail||id, signInVB.profile.confirmEmail",
+    "new_user_password_verify":         "id, verifyPassword||id, signInVB.profile.confirmPassword",
+    "existing_user_continue_button":    "id, existingUserBtn||id, accountSignInBtn",
+    "new_user_continue_button":         "id, newUserBtn||id, continue",
+    "error_message":                    "id, searchErrorMsg||className, b_errorMessage||className, alert error",
+    "email_err_msg":                    "id, ul-login-error||id, email-error",
+    "pwd_err_msg":                      "id, pw-error||className, alert errorMessageInline error",
+    "forgot_password_link":             "linkText, Forgot Your Password?||id, forgotPassword",
+    "reg_sign_in_button":               "id, sign-in",
+    "pwd_show_button":                  "id, show-pw",
+    "learn_more":                       "id, ul-learn-more",
+    "access_instore_registry_button":   "class, create-regi-at-store",
+    "create_registry_button":           "id, createRegistryBtn",
+    "get_started":                      "id, create-registry-sign-up"
+}

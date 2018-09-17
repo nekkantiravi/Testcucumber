@@ -1,0 +1,7 @@
+{
+  "keyword_with_whitelist_and_less_than_three_assortments": "/shop/featured/10x13%20multi%20animal%20prints%20rugs",
+  "keyword_with_whitelist_and_more_than_three_assortments": "/shop/featured/22%22%20green%20softside%20hardside",
+  "keyword_with_whitelist_and_three_assortments": "/shop/featured/30%22%20&%20up%20red%20lightweight%20spinner",
+  "keyword_with_blacklist_and_more_than_three_assortments": "/shop/featured/jeans",
+  "keyword_with_blacklist_and_zero_assortments":"/shop/featured/xyz0"
+}

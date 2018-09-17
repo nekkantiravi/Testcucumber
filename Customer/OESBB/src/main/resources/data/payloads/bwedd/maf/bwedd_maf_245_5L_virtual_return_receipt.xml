@@ -1,0 +1,56 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>MAF_245_5L_BWEDD</internetOrderNumber>
+	<orderDate>05/06/2016</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>EGC</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>345.68</amount>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>0</shipRetailAmt>
+		<shipTaxAmt>0</shipTaxAmt>
+		<returnSubmittedDate>06/02/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>La Classica 5-Piece Place Sett</description>
+			<price>28.80</price>
+			<requestedQuantity>12</requestedQuantity>
+			<shippedQuantity>12</shippedQuantity>
+			<totalAmount>345.6</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Villeroy Boch</vendor>
+			<upcNumber>5052376910532</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>06/30/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>06/14/2016</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>La Classica 5-Piece Place Sett</description>
+			<price>28.80</price>
+			<requestedQuantity>12</requestedQuantity>
+			<shippedQuantity>12</shippedQuantity>
+			<totalAmount>345.6</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Villeroy Boch</vendor>
+			<upcNumber>8058328001799</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>06/30/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>06/14/2016</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

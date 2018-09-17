@@ -1,0 +1,20 @@
+{
+  "login_email": "id, mb-j-signup-email",
+  "login_pass": "id, mb-j-signup-password",
+  "category_dining":"xpath, //*[text()='Dining']",
+  "the_registry_page":"xpath, //*[@id='r_nav_top_logo']/a",
+  "the_registry": "id, registry",
+  "add_to_registry":   "xpath, //A[@id='m-mobile-reg']",
+  "registry_email": "id, email",
+  "registry_pass": "id, password",
+  "registry_signIn":"xpath, //BUTTON[@id='mb-j-signin-button']",
+  "registry_page":"xpath, (//SPAN[text()='Sign in'])[1]",
+  "registry_managelink":"id, m-j-manage-reg",
+  "registry_manager":"xpath, //span[text()='Registry Manager']",
+  "selct_registrycategory":"xpath, //DIV[contains(text(),'Dining ')][1]",
+  "select_productt":"xpath, //li[@class='m-image-banner'][2]/div/div/a/img",
+  "add_registry":"xpath, (//BUTTON[@id=''][text()='add to registry'][text()='add to registry'])[1] || id, m-mobile-reg",
+  "registry_wedding_button":"xpath,//li[@id='registry']/a",
+  "select_product":"xpath, //img[contains(@alt,'Marquis By Waterford Markham Drinkware Collection')] || xpath,(//img)[1] || xpath,(//div[@class='m-browse-name m-product-grid-name truncated'])[1]",
+  "registry_categoryList":"xpath, //div[@id='bl_nav_top_menu']//a"
+}

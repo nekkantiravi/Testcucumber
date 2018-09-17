@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>275_20C_MWEDD</reservationNumber>
+	<internetOrderNumber>275_20C_MWEDD</internetOrderNumber>
+	<orderDate>09/04/2017</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>460.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>28.75</taxAmt>
+	<orderTotal>488.75</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>PAMELA</firstName>
+		<middleName />
+		<lastName>EARLE</lastName>
+		<attnLine />
+		<addressLine1>365 WALMER RD.</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>TORONTO</city>
+		<state>ON</state>
+		<country>CAN</country>
+		<zipcode>M5R2Y</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************2337</accountNumber>
+		<amount>488.75</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>LAURA</firstName>
+		<middleName />
+		<lastName>WARREN</lastName>
+		<attnLine />
+		<addressLine1>71 PARKMAN ST #3</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>BROOKLINE</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02446</zipcode>
+		<greetingMessage>Congratulations!</greetingMessage>
+		<closingMessage>Best Wishes and Lots of Love!</closingMessage>
+		<signatureMessage>Pam and Richard.</signatureMessage>
+		<giftRegistryNumber>2800007403266</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>laura.e.warren@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>LAURA</giftRegistrant1>
+		<giftRegistrant2>MEG</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>Gilded Weave Oval Platter, 1</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>11/06/2017</expectedDate>
+			<newExpectedDate>11/28/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>Vera Wang</vendor>
+			<cancelledQuantity />
+			<upcId>000000091574095486</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,12 @@
+{
+  "url":              "/registry/wedding/registrysignin?perfectProxy=true",
+  "verify_page":      "id, signinBtn",
+
+  "email":            "id, email",
+  "password":         "id, password",
+  "sign_in_button":   "id, signinBtn",
+  "create_new_registry_button":   "id, createRegistryBtn",
+  "registry_manage":"id, registryHomeSigninBtn"
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "tag_cloud":                              "className, mktTagCloudTitle",
+  "tag_cloud_links":                        "cssSelector, .mktTagCloudLinks a",
+  "popular_search_before_footer":           "xpath, //div[contains(@id,'tagCloud')]/following::div[contains(@id,'b-footer-links')]",
+  "copy_block_before_popular_search":       "xpath, //div[contains(@class,'b-copy-block b-more-toggle')]/following::h4[contains(@class,'mktTagCloudTitle')]",
+  "copy_block_container":                   "id, mkt-copy-block-container",
+  "seo_product":                            "id, productMktData",
+  "new_element_only_tag_cloud":              "id, tagCloud"
+}

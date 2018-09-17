@@ -1,0 +1,5 @@
+{
+  "new_pdp_mkt_section":              "className, pdpMktSection",
+  "new_product_mkt_data":             "id, productMktData",
+  "new_product_mkt_container":        "className, pdpMktSectionContainer"
+}

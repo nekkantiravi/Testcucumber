@@ -1,0 +1,16 @@
+{
+  "url":         "",
+  "verify_page": "id, mb-j-signin-button||id, accountSignInBtn||id, sign-in||id, sign-in-section",
+
+  "email": "id, mb-j-signup-email||id, email",
+  "password": "id, mb-j-signup-password||id, password||id, pw-input",
+  "error_message": "className, alert||className, b-input-error||className, b-error-text||className, errorMsgText",
+  "create_account": "id, standard-sign-up || id, mb-j-signup-button||cssSelector, .signUpblock>a",
+  "sign_in_button": "id, mb-j-signin-button||id, sign-in",
+  "sign_in_header": "xpath,//h1[contains(text(), 'Sign In')]",
+  "email_address":"id, email-label",
+  "password_label":"id, pw-label",
+  "forgot_password":"xpath, //*[@id='sub-pw-box']//a",
+  "secure_text":"id,secure-text",
+  "close_incomplete_information":"xpath,//*[contains(@class,'overlay-close-btn')]"
+}

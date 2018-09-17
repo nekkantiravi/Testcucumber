@@ -1,0 +1,12 @@
+{
+  "shoppingbagId":                   "xpath, .//*[@id='shoppingBagId']",
+  "shoppingbagWebId":                "class, valWebId",
+  "productImage":                    "cssSelector, .productImage",
+  "removeBtn":                       "xpath, .//*[@class='secondary linkOverride removeLink']",
+  "errorMsg":                        "cssSelector, .errorMsg",
+  "itemRemovedMsg":                  "cssSelector, #msg_generalmessage",
+  "shoppingbagGWP_Msg":              "cssSelector, #gwpItem_6",
+  "estimatedShippingTotal":          "cssSelector, #bagEstimatedShippingTotal",
+  "iShipBagErrorMsg":                "xpath, .//*[@class='bagErrorMsg']/img",
+  "iShipHeaderErrorMsg":             "xpath, .//*[@id='unavailableHeaderMsg'] || cssSelector, .errorMsg"
+}

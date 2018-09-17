@@ -1,0 +1,202 @@
+<mailMessagePayload>
+	<reservationNumber>FIL_240_1A_MSTORE</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>05/28/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>160.00</orderSubtotalAmt>
+	<baseShippingAmt>8.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>20.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>12.11</taxAmt>
+	<orderTotal>185.11</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0322</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170719812345</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>ELECTRONIC GIFT CARD</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>90.56</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+		<egcCertificateType>97</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>6168781123456</pickupBarcode>
+		<pickupReadyDate>05/28/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>25.49</shipRetailAmt>
+		<shipTaxAmt>6.12</shipTaxAmt>
+		<shipFilLoc>6230</shipFilLoc>
+		<shipPhone>248-842-1234</shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>VILLAGE PEONY</description>
+			<price>25.49</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>25.49</totalAmount>
+			<expectedDate>06/02/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MARTHA STEWART</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>VILLAGE PEONY DRESS</description>
+			<price>25.49</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>02</shippedQuantity>
+			<totalAmount>25.49</totalAmount>
+			<expectedDate>06/02/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MARTHA STEWART</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>781910666011</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag>N</mailFlag>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>TESTING</middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>ESPMIGRATION@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>635341392002</pickupBarcode>
+		<pickupReadyDate>06/06/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>28.99</shipRetailAmt>
+		<shipTaxAmt>0.00</shipTaxAmt>
+		<shipFilLoc>0566</shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>VILLAGE PEONY</description>
+			<price>25.49</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>25.49</totalAmount>
+			<expectedDate>06/02/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MARTHA STEWART</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>000000478000231111</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,6 @@
+{
+    "menu_button":              "id, up",
+    "left_items":               "id, tv_menu_title",
+    "tier_1_categories":        "id, lst_elements",
+    "tier_2_items":             "id, txt_tier2item",
+}

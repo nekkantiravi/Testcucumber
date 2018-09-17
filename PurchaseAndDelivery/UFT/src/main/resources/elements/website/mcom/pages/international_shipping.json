@@ -1,0 +1,13 @@
+{
+  "include": [
+    "panel.header_and_footer",
+    "panel.left_navigation_category",
+    "panel.category_splash",
+    "panel.browse_preview"
+  ],
+
+  "url":                                  "/international/context",
+
+  "goto_exclusions_apply": "xpath, //area[@alt='exclusions apply']",
+  "sign_up_for_emails_image": "xpath, //img[@alt='Stay Connected!']"
+}

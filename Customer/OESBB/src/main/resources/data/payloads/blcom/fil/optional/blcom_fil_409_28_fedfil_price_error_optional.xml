@@ -1,0 +1,36 @@
+<mailMessagePayload>
+    <reservationNumber>273499251</reservationNumber>
+    <internetOrderNumber>12345678</internetOrderNumber>
+    <thirdPartyOrderNumber />
+    <orderDate></orderDate>
+    <shopAt></shopAt>
+    <explanationText />
+    <orderSubtotalAmt>122.00</orderSubtotalAmt>
+    <baseShippingAmt>13.00</baseShippingAmt>
+    <addtShipAddAmt>10.00</addtShipAddAmt>
+    <shipUpgradeAmt>20.00</shipUpgradeAmt>
+    <giftWrapAmt>30.00</giftWrapAmt>
+    <taxAmt>8.10</taxAmt>
+    <orderTotal>143.10</orderTotal>
+    <divisionCode>072</divisionCode>
+    <locationCode>0139</locationCode>
+    <adhocText>fedfil price error</adhocText>
+    <phoneNbrCS></phoneNbrCS>
+    <hoursCS></hoursCS>
+    <phoneNbrFP></phoneNbrFP>
+    <hoursFP></hoursFP>
+    <billingDetail>
+        <title />
+        <firstName></firstName>
+        <middleName />
+        <lastName></lastName>
+        <attnLine />
+        <addressLine1></addressLine1>
+        <addressLine2 />
+        <addressLine3 />
+        <city></city>
+        <state></state>
+        <country></country>
+        <zipcode></zipcode>
+    </billingDetail>
+</mailMessagePayload>

@@ -1,0 +1,10 @@
+{
+    "globalSearchBox":                            "cssSelector, [id='globalSearchInputField']",
+    "browseCatName":                              "cssSelector, .categoryBreadCrumb",
+    "catSplashCatName":                           "cssSelector, .categoryBreadCrumb",
+
+    "browsePageThumbnails":                       "xpath, .//*[contains(@class,'productDescLink')][not(@alt)]",
+    "searchPageOrigPrice":                        "cssSelector, .//*[@class='prices']//*[@class='first-range ']",
+    "searchPageNavHeaders":                       "xpath, .//*[@id='categoryTree']/ul/li/span",
+    "searchPageNavLinks":                         "xpath, .//*[@id='categoryTree']/ul/li/ul/li/a"
+}

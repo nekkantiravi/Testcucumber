@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>10/03/2015</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>130.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>11.54</taxAmt>
+	<orderTotal>141.54</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 PALMETTO ST</addressLine1>
+		<addressLine2>APT 222</addressLine2>
+		<addressLine3></addressLine3>
+		<city>RIDGEWOOD</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11385</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>148.54</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>005</shipmentNumber>
+		<shippedDate>04/21/2016</shippedDate>
+		<returnSubmittedDate>09/21/2017</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MR</title>
+		<firstName>John</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 PALMETTO ST</addressLine1>
+		<addressLine2>APT 555</addressLine2>
+		<addressLine3></addressLine3>
+		<city>RIDGEWOOD</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11385</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>010</lineNumber>
+			<description>K BUTTE II</description>
+			<price>130.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>130.00</totalAmount>
+			<expectedDate>04/21/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>RETURN</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328001799</upcId>
+			<returnExpectedDate>12/19/2017</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription>Wrong Item Sent</returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

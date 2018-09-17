@@ -1,0 +1,20 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer"
+  ],
+
+  "url": "/registry/wedding/registrysearch",
+  "verify_page": "id, registrySearchContainer||className, find_top_banner",
+
+  "search_first_name": "id, registrySearchBean.firstName||id, searchCriteria.firstName",
+  "search_last_name": "id, registrySearchBean.lastName||id, searchCriteria.lastName",
+  "event_month": "id, registrySearchBean.eventMonth",
+  "event_year": "id, registrySearchBean.eventYear",
+  "search_registry_button": "className, regSearchBtn||className, mvButton",
+  "registrant_name": "className, registrant-name||cssSelector, td[headers='yui-dt0-th-rName '] a",
+  "coregistrant_name": "className, coregistrant-name||cssSelector, td[headers='yui-dt0-th-crName '] a",
+  "search_results_items": "className, search-results-row||className, registry-box",
+  "view_registry_button": "linkText, View registry",
+  "show_all_results": "className, show-all"
+}

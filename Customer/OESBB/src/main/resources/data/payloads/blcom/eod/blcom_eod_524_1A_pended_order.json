@@ -1,0 +1,61 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "441569336",
+			"dataCenterCode": "RTP",
+			"orderStatusCode": "3",
+			"orderStatusDescription": "CONFIRMED",
+			"orderConfirmTimestamp": "2017-07-06T11:25:10.54-04:00",
+			"orderConfirmUtcTimestamp": "2017-07-06T15:25:10.54Z",
+			"sellingChannelCode": "BLCOM",
+			"sellLegacyDivisionNbr": "72",
+			"sellLegacyLocationNbr": "139",
+			"messageCreateTimestamp": "2017-07-06T11:25:11.726-04:00",
+			"messageCreateUtcTimestamp": "2017-07-06T15:25:11.726Z",
+			"eventType": "ORDPNDFRD",
+			"eventTimestamp": "2017-07-06T11:25:11.726-04:00",
+			"eventUtcTimestamp": "2017-07-06T15:25:11.726Z",
+			"partnerRefList": {
+				"partnerRef": [{
+					"partnerOrderId": "1000000390656"
+				}]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"firstName": "DSADA",
+					"lastName": "WASDAS",
+					"addressLine1": "3242 FOSASM ST",
+					"addressLine2": "SUITE 11B 30",
+					"cityName": "SAN FRANCISCO",
+					"stateName": "GA",
+					"zipCode": "30092",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "415-600-4434",
+					"smsPhoneNbr": "1234567890",
+					"sendSmsMessageFlag": "false",
+					"emailId": "oes.macys@gmail.com",
+					"fraudPhoneNbr": "1234567890"
+				}
+			}
+		},
+		"shipmentList": {
+			"shipment": [{
+				"giftRegistryNbr": "0",
+				"currentShipmentIndicator": "C"
+			}]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [{
+				"mailSourceId": "EOD_MailSourceID",
+				"mailTypeCode": "524",
+				"mailSubtypeCode": "1A",
+				"partyType": "B"
+			}]
+		},
+		"orderFraudInformation": {
+			"fraudCustomerPhoneCalled": "2312",
+			"customerCallbackDeadlineDateTime": "2017-08-10T11:28:08.538-04:00",
+			"customerCallbackDeadlineUtcDateTime": "2017-08-10T15:28:08.538Z"
+		}
+	}
+}

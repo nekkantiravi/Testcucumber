@@ -1,0 +1,10 @@
+{
+  "review_headline":"class,reviewHeadline",
+  "review_texts":"class,myReviewsText",
+  "review_nickname":"class,myReviewsNickname",
+  "review_yes":"xpath,//input[@class='mb-j-toggleselect-value'][@value='yes']",
+  "review_no":"xpath,//input[@class='mb-j-toggleselect-value'][@value='no']",
+  "review_submit":"xpath,//button[contains(text(),'SUBMIT')] ",
+  "review_rating":"xpath,(//div[@class='mb-j-ratingselect-item'])[3]",
+  "review_submitted":"xpath,//div[@class='toggleHideSubmitted showOneTitle']/p[@class='bold']"
+}

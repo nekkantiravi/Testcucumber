@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber />
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/03/2016</orderDate>
+	<shopAt />
+	<explanationText />
+	<orderSubtotalAmt>174.24</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt />
+	<shipUpgradeAmt />
+	<giftWrapAmt />
+	<taxAmt />
+	<orderTotal>189.49</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0022</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag />
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1 />
+		<addressLine2 />
+		<addressLine3 />
+		<city />
+		<state />
+		<country />
+		<zipcode />
+	</billingDetail>
+	<paymentDetail>
+		<paymentType />
+		<accountNumber />
+		<amount />
+		<paymentCategoryFlag />
+		</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber />
+		<shippedDate />
+		<returnSubmittedDate />
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 RAMSELL ST.</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country />
+		<zipcode>94132</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber />
+		<giftWrapFlag />
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description />
+			<price>24.48</price>
+			<requestedQuantity />
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate />
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>IN PROCESS</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5450102344871</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+			<returnStatus />
+			<returnExpectedDate />
+			<returnReasonDescription />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

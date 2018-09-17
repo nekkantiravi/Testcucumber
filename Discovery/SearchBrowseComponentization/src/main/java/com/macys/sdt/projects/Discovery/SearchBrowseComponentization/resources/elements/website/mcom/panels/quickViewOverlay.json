@@ -1,0 +1,8 @@
+{
+
+    "quickViewOverlay":                   "id, qvOverlay||id, quickView",
+    "colorSwatch":                       "className, color-swatch",
+    "starRating":                         "className, redStar",
+    "quickViewPrice":                     "className, qvProductPrices",
+    "starRatingContainer":                  "className,redStarContainer"
+}

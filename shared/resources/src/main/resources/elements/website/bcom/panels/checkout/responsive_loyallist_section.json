@@ -1,0 +1,10 @@
+{
+  "loyallist_section_cancel": "id, rc-loyallist-change-cancel",
+  "loyallist_section_header": "class, rc-loyallist-header",
+  "loyallist": "id, rc-loyallist || id, loyallistContent",
+  "loyallist_number_text_field": "id, loyaltyNumber || id, loyaltyAccountInfo.loyaltyNumber",
+  "loyallist_last_name_text_field": "id, loyaltyAccountInfo.lastName",
+  "loyallist_zip_code_text_field": "id, loyaltyAccountInfo.zipCode",
+  "expand_loyallist_section": "xpath, .//*[@id='rc-loyallist']/div/div/a/div/div/div[2]/span || xpath, .//*[@id='loyallistContent']/a/div/div/div/div[2]/p",
+  "apply_loyallist_button": "id, rc-apply-loyallist-points"
+  }

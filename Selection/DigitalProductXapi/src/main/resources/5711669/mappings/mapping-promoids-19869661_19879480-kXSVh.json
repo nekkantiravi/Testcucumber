@@ -1,0 +1,21 @@
+{
+  "id" : "9d75129d-668c-399b-af67-eb1ad08613f2",
+  "request" : {
+    "url" : "/api/order/v1/promotions/promoids/19869661,19879858,19879857,19879859,19879856,19879476,19879486,19879478,19879488,19879499,19879851,19878273,19879472,19879482,19879493,19879474,19879484,19879495,19879480?sdpGrid=primary",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-promoids-19869661_19879480-kXSVh.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "X-Macys-Log" : "SDPT='0' UCT='0' SCT='0' GUID='' UID='' TOKEN='GUEST'",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "922eaec2-a4bc-46bd-8fe7-1bc26ad84aa8",
+      "Content-Type" : "application/json",
+      "Date" : "Tue, 06 Feb 2018 22:45:29 GMT"
+    }
+  },
+  "uuid" : "9d75129d-668c-399b-af67-eb1ad08613f2"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "/service/repayment",
+  "verify_page": "cssSelector, .async-order-confirmation .order-number span",
+
+  "order_number": "cssSelector, .async-order-confirmation .order-number span"
+}

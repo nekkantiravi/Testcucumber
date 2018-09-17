@@ -1,0 +1,17 @@
+{
+  "url":              "",
+  "test_element": 	 "id, logo",
+  "test_home":        "id,wishListHref",
+  "sub_status":        "id,subscriptionMgmt",
+  "sub_history":       "id,orderHxCarouselContent",
+  "book_now":           "cssSelector, .book-now",
+  "header_store_dropdown":                   "cssSelector, li.dropDown",
+  "header_bookAnAppointment":           "cssSelector, a.bookAnAppointment",
+  "header_findAStore":                  "cssSelector, a[href^='/shop/store/search']",
+  "header_findAnEvent":                  "cssSelector, a[href$='find_an_event']",
+  "timetrade-container-frame":                "cssSelector, .m-appointment-scheduling-timetrade-container",
+  "header_stores_link":                        "cssSelector, li.stores>a",
+  "store_page_banner":                        "cssSelector, a#book_an_appointement>img",
+  "wedding_registry_link":                     "cssSelector, #globalMastheadFeatureMenuWeddingRegistry",
+  "wedding_registry_app_link":                 "cssSelector, #book_an_appointement>a"
+}

@@ -1,0 +1,10 @@
+{
+    "over_threshold_promos": "className, overThresholdPromos",
+    "items_final_total_copy": "className, finalTotalCopy",
+    "items_totals": "className, itemsInfoTotal",
+    "items_final_total": "className, finalTotal",
+    "items_promo_tooltip": "className, promo-tooltip",
+    "promo_tooltip_content": "id, promo-tooltip-content",
+    "promo_tooltip_content_promo_title": "className, promo-title",
+    "promo_tooltip_content_promo_info": "className, promo-info"
+}

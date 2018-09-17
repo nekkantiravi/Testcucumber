@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>123456789</reservationNumber>
+   <internetOrderNumber>123456789</internetOrderNumber>
+   <orderDate>04/19/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>1379.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>96.53</taxAmt>
+   <orderTotal>1475.53</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0004</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>Y</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>OES</firstName>
+      <middleName />
+      <lastName>TESTING</lastName>
+      <attnLine />
+      <addressLine1>12 PONDEROSA LN</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>MELVILLE</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>11747</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Bloomingdales</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>1475.53</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>005</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag />
+      <title />
+      <firstName>ESP</firstName>
+      <middleName />
+      <lastName>MIGRATION</lastName>
+      <attnLine />
+      <addressLine1>12 JARED CT</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>WATCHUNG</city>
+      <state>NJ</state>
+      <country>USA</country>
+      <zipcode>07069</zipcode>
+      <greetingMessage>All of our love as you start your life</greetingMessage>
+      <closingMessage>together. Congratulations, Barbara,</closingMessage>
+      <signatureMessage>Richard, and Rebecca</signatureMessage>
+      <giftRegistryNumber>280002212345</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber />
+         <description>LOFT</description>
+         <price />
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity />
+         <shippedQuantity />
+         <totalAmount />
+         <expectedDate>06/08/2016</expectedDate>
+         <newExpectedDate>07/13/2016</newExpectedDate>
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate>07/08/2016</systemCancelDate>
+         <shipmentType />
+         <splitShipmentFlag />
+         <status>BACKORDERED</status>
+         <vendor>BERNARDAUD</vendor>
+         <cancelledQuantity />
+         <upcId>000000091709396242</upcId>
+         <returnExpectedDate />
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>COFFEE POT</size>
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

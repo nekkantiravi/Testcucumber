@@ -1,0 +1,15 @@
+{
+    "url": "/store/about",
+    "verify_page": "class, head",
+    "about_us_header": "class, head",
+    "macys_milestones": "xpath, //a[contains(text(),'Milestones')]",
+    "career_opportunities": "xpath, //a[text()='Career Opportunities']",
+    "visitor_services": "xpath, //a[text()='Visitor Services']",
+    "community_relations": "xpath, //a[text()='Community Relations']",
+    "press_room": "xpath, //p//a[@data-winname='PressRoom']",
+    "macys_inc": "xpath, //a[@data-winname='MacysINC'][contains(text(),'Inc.')]",
+    "affiliate_program": "xpath, //a[text()='Affiliate Program']",
+    "diversity": "xpath, //a[text()='Diversity']",
+    "breadcrumb": "cssSelector, .main-head .columns"
+
+}

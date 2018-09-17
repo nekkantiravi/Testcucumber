@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.domain>PurchaseAndDelivery</project.domain>
+        <project.name>ResponsiveBag</project.name>
+    </properties>
+
+    <parent>
+        <artifactId>SDT</artifactId>
+        <groupId>com.macys.sdt</groupId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>sdt-${project.domain}-${project.name}</artifactId>
+    <version>2.2.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-PurchaseAndDelivery-Common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

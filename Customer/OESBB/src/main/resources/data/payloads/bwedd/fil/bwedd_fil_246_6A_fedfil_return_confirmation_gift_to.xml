@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>3333338</reservationNumber>
+	<internetOrderNumber>BWEDD2466A</internetOrderNumber>
+	<orderDate>03/30/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>399.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>36.00</taxAmt>
+	<orderTotal>435.99</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 S GRAND AVE</addressLine1>
+		<addressLine2>STE 4567</addressLine2>
+		<addressLine3></addressLine3>
+		<city>LOS ANGELES</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>90071</zipcode>
+	</billingDetail>
+	 <paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************0605</accountNumber>
+		<amount>224.98</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+    </paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>04/10/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 PECK DR</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>LOS ANGELES</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>90035</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800064511234</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1>ESP</giftRegistrant1>
+		<giftRegistrant2>PAHSE4</giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>SWASH EXPRESS CL SYS</description>
+			<price>399.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>399.99</totalAmount>
+			<expectedDate>04/10/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>000000492031403361</upcId>
+			<returnExpectedDate>05/08/2016</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+			<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>SWASH EXPRESS CL SYS</description>
+			<price>399.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>399.99</totalAmount>
+			<expectedDate>04/10/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328007890</upcId>
+			<returnExpectedDate>05/08/2016</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

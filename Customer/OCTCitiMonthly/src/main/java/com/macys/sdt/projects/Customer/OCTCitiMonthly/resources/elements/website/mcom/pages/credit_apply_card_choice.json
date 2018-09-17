@@ -1,0 +1,9 @@
+{
+  "url": "#cardChoice",
+  "verify_page": "id, creditCard",
+
+  "propCard": "id, creditCard",
+  "amexCard": "id, visaCard",
+  "propYesOverlay": "id, confirmCreditCard",
+  "amexYesOverlay": "id, confirmVisaCard"
+}

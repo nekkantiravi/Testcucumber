@@ -1,0 +1,7 @@
+{
+  "header": "id, b-modalHeader-title",
+  "offer_details_modal": "className, b-deals-and-promotion-offer-detail-content",
+  "shop_now":  "id, mb-j-deals-and-promotion-offer-shopNow",
+  "share":     "id, mb-j-deals-and-promotion-offer-share",
+  "details_disclaimer": "className, b-deals-and-promotion-disclaimer"
+}

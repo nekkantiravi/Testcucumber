@@ -1,0 +1,17 @@
+{
+  "url": "/account/signin?fromCheckout=fromCheckout||/account/signin",
+  "verify_page": "id, isWithoutProfile||id, sign-in",
+  "email": "id, emailAddr||id, email",
+  "password": "id, password||id, pw-input",
+  "forgot_password_link": "id, frgtPwd||id, forgot-password",
+  "error_message": "id, ul-page-error",
+  "email_err_msg": "id, ul-page-error||className, error_msg",
+  "pwd_err_msg": "cssSelector, div#pw-input-wrapper small.error_msg",
+  "checkout_as_guest": "id, guest-checkout||id, isWithoutProfile",
+  "checkout_button": "id, isnormalcheckout||id, sign-in",
+  "continue_checkout_guest_button": "id, isWithoutProfile||id, guest-checkout",
+  "pwd_show_button": "id, show-pw",
+  "no_account_yet": "id, sign-up-title",
+  "tagged_user_error": "id, generalErrorMsg"
+
+}

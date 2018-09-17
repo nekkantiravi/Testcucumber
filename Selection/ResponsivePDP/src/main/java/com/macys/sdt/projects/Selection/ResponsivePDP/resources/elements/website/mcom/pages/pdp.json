@@ -1,0 +1,122 @@
+{
+  "productTitle":                               "cssSelector, [data-auto='product-title']",
+  "productBrand":                               "cssSelector, [data-auto='product-brand']",
+  "productName":                                "cssSelector, [data-auto='product-name']",
+
+  "mainImage":                                  "cssSelector, [data-auto='main-image']",
+  "productMainImg":                             "cssSelector, [data-auto='main-image']>ul>li>img",
+  "productAltImages":                           "xpath, .//*[@data-auto='alternate-images']//img",
+  "mobileAltImages":                            "xpath, .//*[@data-auto='alternate-images']//ul/li",
+  "selectedAltImg":                             "xpath, .//*[@data-auto='alternate-images']//li[contains(@class,'alternate-image selected')]",
+  "AltImagesDownArrow":                         "cssSelector, .icon-ui-chevron-down-bk-huge",
+  "AltImagesUpArrow":                           "cssSelector, .icon-ui-chevron-up-bk-huge",
+
+  "quantity":                                   "cssSelector, [data-auto='quantity-section']",
+  "qtyLabel":                                   "cssSelector, [data-auto='qty-label']",
+  "qtyValue":                                   "cssSelector, [data-auto='qty-value']",
+  "qtyIncrementBtn":                            "cssSelector, [data-auto='increment-button']",
+  "qtyDecrementBtn":                            "cssSelector, [data-auto='decrement-button']",
+
+  "addToBagBtn":                                "cssSelector, [data-auto='add-to-bag']",
+  "continueShoppingBtn":                        "cssSelector, [data-auto='continue-shopping']",
+  "errorMsg":                                   "cssSelector, .message.notification-error>div>p",
+  "errorMsgClose":                              "cssSelector, .right.close-small",
+
+  "addToListBtn":                               "cssSelector, [data-auto='add-to-list']",
+  "A2LSuccessMsg":                              "cssSelector, .message.notification-valid",
+  "guestListLink":                              "cssSelector, .notification-body>a",
+
+  "addToRegistryLink":                          "cssSelector, [data-auto='add-to-registry']",
+
+  "productDetailsSection":                      "cssSelector, [data-auto='product-details-section']",
+  "productDetailsHeader":                       "cssSelector, [data-auto='product-details-header']",
+  "productDetailsBtn":                          "cssSelector, [data-auto='product-details-btn']",
+  "productDescription":                         "cssSelector, [data-auto='product-description']",
+  "productDescriptionBullets":                  "cssSelector, [data-auto='product-description-bullets']>li",
+
+  "priceDetails":                               "cssSelector, [data-auto='main-price']",
+  "salePrice":                                  "cssSelector, [data-auto='sale-price']",
+  "priceDetailsSection":                        "cssSelector, [data-auto='price-details-section']",
+  "priceDetailsHeader":                         "cssSelector, [data-auto='price-details-header']",
+  "priceDetailsBtn":                            "cssSelector, [data-auto='price-details-btn']",
+
+  "specialOffersSection":                       "cssSelector, [data-auto='special-offers-section']",
+  "specialOffersHeader":                        "cssSelector, [data-auto='special-offers-header']",
+  "specialOffersBtn":                           "cssSelector, [data-auto='special-offers-btn']",
+
+  "shippingReturnsSection":                     "cssSelector, [data-auto='shipping-returns-section']",
+  "shippingReturnsHeader":                      "cssSelector, [data-auto='shipping-returns-header']",
+  "shippingReturnsBullets":                     "cssSelector, [data-auto='shipping-returns-bullets']",
+  "shippingReturnsBtn":                         "cssSelector, [data-auto='shipping-returns-btn']",
+  "exclusionsDetailsLink":                      "cssSelector, [data-auto='exclusions-details-link']",
+  "shippingPolicyLink":                         "cssSelector, [data-auto='shipping-policy-link']",
+  "shippingNreturnPolicyReg":                   "cssSelector, .rn_Summary",
+  "returnPolicyLink":                           "cssSelector, [data-auto='return-policy-link']",
+  "freeShippingMsg":                            "cssSelector, [data-auto='shipping-returns-bullets']>li>span",
+
+  "badgeHeader":                                "cssSelector, [data-auto='badge-header']",
+  "promoBadge":                                 "cssSelector, [data-auto='promo-badge']",
+  "badgeTitle":                                 "cssSelector, [data-auto='badge-title']",
+
+  "colorSection":                               "cssSelector, [data-auto='color-section']",
+  "colorHeader":                                "cssSelector, [data-auto='color-header']",
+  "selectedColor":                              "cssSelector, [data-auto='selected-color']",
+  "viewMoreColors":                             "cssSelector, [data-auto='view-more-colors']",
+  "availableColors":                            "xpath, .//*[@data-auto='color-section']//ul/li/div[not(contains(@class,'unavailable'))]",
+  "unavailableColors":                          "xpath, .//*[@data-auto='color-section']//ul/li/div[contains(@class,'unavailable')]",
+
+  "sizeSection":                                "cssSelector, [data-auto='size-section']",
+  "sizeHeader":                                 "cssSelector, [data-auto='size-header']",
+  "selectedSize":                               "cssSelector, [data-auto='selected-size']",
+  "viewMoreSizes":                              "cssSelector, [data-auto='view-more-sizes']",
+  "allSizes":                                   "xpath, .//*[@data-auto='size-section']//ul/li",
+  "availableSizes":                             "xpath, .//*[@data-auto='size-section']//ul/li[not(contains(@class,'unavailable'))]",
+  "unavailableSizes":                           "xpath, .//*[@data-auto='size-section']//ul/li[contains(@class,'unavailable')]",
+  "memberFirstAvailSize":                       "xpath, .//*[@data-auto='size-section']//ul/li[not(contains(@class,'unavailable'))]",
+
+  "typeSection":                                "cssSelector, [data-auto='type-section']",
+  "typeHeader":                                 "cssSelector, [data-auto='type-header']",
+  "selectedType":                               "cssSelector, [data-auto='selected-type']",
+  "viewMoreTypes":                              "cssSelector, [data-auto='view-more-types']",
+  "availableTypes":                             "xpath, .//*[@data-auto='type-section']//ul/li",
+
+  "availabilitySection":                        "cssSelector, [data-auto='availability-section']",
+  "shipItSection":                              "cssSelector, [data-auto='ship-it']",
+  "shipItLabel":                                "cssSelector, [data-auto='ship-it-label']",
+  "shipItRadioBtn":                             "cssSelector, [data-auto='ship-it-btn']",
+  "availabilityMsg":                            "cssSelector, [data-auto='availability-message']",
+  "availability":                               "xpath, .//*[@data-auto='ship-it']//label",
+  "NotAvailableBtnLabel":                       "xpath, .//*[@data-auto='availability-section']//input",
+  "shippingMsg":                                "cssSelector, [data-auto='shipping-message']",
+  "pickUpInStoreRadioBtn":                      "cssSelector, [data-auto='pick-up-in-store-btn']",
+  "pickUpInStoreLabel":                         "cssSelector, [data-auto='pick-up-in-store-label']",
+  "storeAvailabilityLink":                      "cssSelector, [data-auto='availability-link']",
+
+  "FOB_Tabs":                                   "cssSelector, #mainNavigation",
+  "FOBs":                                       "cssSelector, #mainNavigationFobs>li",
+  "FOB_Links":                                  "cssSelector, .flexLabelLinksContainer>li>a",
+
+  "pricePolicyOverlay":                         "cssSelector, [class='overlay-content']",
+  "pricePolicyOverlayHeader":                   "cssSelector, .overlay-header>h1",
+
+  "emailIcon":                                  "cssSelector, [data-auto='social-icon-email']",
+  "pinterestIcon":                              "cssSelector, [data-auto='social-icon-pinterest']",
+  "pinterestOverlay":                           "cssSelector, .DenzelReactBridge.Module>div>div||cssSelector, .FullPageModal__scroller>div>div>div",
+  "pinterestTitle":                             "cssSelector, .title",
+  "pinterestUserEmail":                         "xpath, .//*[contains(@autocomplete, 'username')] || id,email",
+  "pinterestUserPwd":                           "xpath, .//*[contains(@autocomplete, 'current-password')] || id, password",
+  "pinterestContinueBtn":                       "cssSelector, .red.SignupButton.active",
+
+  "reviewCountLink":                            "cssSelector, [data-auto='review-count']",
+  "ratingPercentage":                           "cssSelector, .red-star",
+  "reviewStars":                                "cssSelector, .red-star || cssSelector, .grey-star",
+
+  "trueFitSection":                             "cssSelector, [data-auto='truefit-section']",
+  "trueFitLabel":                               "cssSelector, .truefit-section",
+  "trueFitLink":                                "cssSelector, .truefit-link",
+  "trueFitFrame":                               "cssSelector, iframe[src*='truefitcorp']",
+  "trueFitHeightFeet":                          "cssSelector, iframe[src*='truefitcorp'].tfc-cfg-input",
+  "trueFitHeightInch":                          "cssSelector, iframe[src*='truefitcorp'].user-measurement-in.tfc-cfg-input",
+
+  "topCategoryLinks":                           "xpath, .//*[@data-auto='breadcrumb-links']/a"
+}

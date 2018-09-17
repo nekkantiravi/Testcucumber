@@ -1,0 +1,365 @@
+{
+  "priceTypesMap": {
+    "Ticket": {
+      "WithColorWay": {
+        "MEMBER": "71192",
+        "MASTER": "2602304",
+        "STANDARD": "478653"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "4301",
+        "MASTER": "8156",
+        "STANDARD": "43062"
+      }
+    },
+    "EveryDay Value": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Markup": {
+      "WithColorWay": {
+        "MEMBER": "44627",
+        "MASTER": "41822",
+        "STANDARD": "125972"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "4630",
+        "MASTER": "8154",
+        "STANDARD": "43067"
+      }
+    },
+    "Revalue": {
+      "WithColorWay": {
+        "MEMBER": "70820",
+        "MASTER": "5865",
+        "STANDARD": "461340"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "106453",
+        "MASTER": "29447",
+        "STANDARD": "63265"
+      }
+    },
+    "Promo Percent Off": {
+      "WithColorWay": {
+        "MEMBER": "3039",
+        "MASTER": "3076",
+        "STANDARD": "6956"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2632",
+        "MASTER": "3077",
+        "STANDARD": "2629"
+      }
+    },
+    "Promo Sale Price": {
+      "WithColorWay": {
+        "MEMBER": "20487",
+        "MASTER": "20476",
+        "STANDARD": "120226"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2633",
+        "MASTER": "3077",
+        "STANDARD": "2630"
+      }
+    },
+    "Promo Event Price": {
+      "WithColorWay": {
+        "MEMBER": "20493",
+        "MASTER": "20476",
+        "STANDARD": "120292"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2679",
+        "MASTER": "4110",
+        "STANDARD": "2665"
+      }
+    },
+    "Promo Event Tiered": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Promo Event2 Price": {
+      "WithColorWay": {
+        "MEMBER": "20499",
+        "MASTER": "20476",
+        "STANDARD": "120294"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2680",
+        "MASTER": "4110",
+        "STANDARD": "10978"
+      }
+    },
+    "Promo Event2 Price Tiered": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Price Break Tiered": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "LPOS": {
+      "WithColorWay": {
+        "MEMBER": "20500",
+        "MASTER": "20476",
+        "STANDARD": "125972"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2681",
+        "MASTER": "4112",
+        "STANDARD": "11491"
+      }
+    },
+    "LPOS Tiered": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Special Savings": {
+      "WithColorWay": {
+        "MEMBER": "24750",
+        "MASTER": "75662",
+        "STANDARD": "125973"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3050",
+        "MASTER": "3077",
+        "STANDARD": "15391"
+      }
+    },
+    "Special Savings Tiered": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Web Buster": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Deal of the Day Type A": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Deal of the Day Type B": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Limited-Time Special Type A": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Limited-Time Special Type B": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Black Friday Special Type A": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Black Friday Special Type B": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Cyber Monday Special": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Additional Off promo": {
+      "WithColorWay": {
+        "MEMBER": "3043",
+        "MASTER": "3076",
+        "STANDARD": "12574"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3053",
+        "MASTER": "3077",
+        "STANDARD": "24139"
+      }
+    },
+    "Additional Off Perm": {
+      "WithColorWay": {
+        "MEMBER": "9984",
+        "MASTER": "8535",
+        "STANDARD": "70786"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3054",
+        "MASTER": "3077",
+        "STANDARD": "24585"
+      }
+    },
+    "Additional Off Closeout": {
+      "WithColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "NA",
+        "MASTER": "NA",
+        "STANDARD": "NA"
+      }
+    },
+    "Permanent Markdown": {
+      "WithColorWay": {
+        "MEMBER": "9985",
+        "MASTER": "8535",
+        "STANDARD": "96849"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3057",
+        "MASTER": "3077",
+        "STANDARD": "29443"
+      }
+    },
+    "Clearance Markdown": {
+      "WithColorWay": {
+        "MEMBER": "9993",
+        "MASTER": "8536",
+        "STANDARD": "96850"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3058",
+        "MASTER": "3077",
+        "STANDARD": "41210"
+      }
+    },
+    "Closeout": {
+      "WithColorWay": {
+        "MEMBER": "9999",
+        "MASTER": "8536",
+        "STANDARD": "104950"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3060",
+        "MASTER": "3077",
+        "STANDARD": "41211"
+      }
+    },
+    "Markdown Cancel": {
+      "WithColorWay": {
+        "MEMBER": "16739",
+        "MASTER": "11661",
+        "STANDARD": "104953"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "3061",
+        "MASTER": "3077",
+        "STANDARD": "41213"
+      }
+    }
+  }
+}
+

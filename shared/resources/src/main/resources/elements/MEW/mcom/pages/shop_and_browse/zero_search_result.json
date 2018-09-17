@@ -1,0 +1,11 @@
+{
+  "verify_page": "cssSelector, #m-search-invalid-message-text",
+  "url": "/shop/search||/shop/registry/wedding/search",
+  "search_results": "cssSelector, #m-search-results",
+  "invalid_search_message_text": "cssSelector, #m-search-invalid-message-text",
+  "empty_message": "cssSelector, #m-search-no-results-invalid",
+  "search_container": "cssSelector, #m-search-container",
+  "no_results": "cssSelector, #m-search-results-categories",
+  "nsr_pros_container": "cssSelector, #mb-j-product-recommendations-container",
+  "featured_categories": "css, #m-search-results-categories"
+}

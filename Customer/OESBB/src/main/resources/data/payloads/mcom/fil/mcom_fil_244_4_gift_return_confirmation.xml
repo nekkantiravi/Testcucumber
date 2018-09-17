@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<internetOrderNumber>244_4_MCOM</internetOrderNumber>
+	<reservationNumber>2756313</reservationNumber>
+	<orderDate>12/26/2015</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>20.01</orderSubtotalAmt>
+	<baseShippingAmt>10.23</baseShippingAmt>
+	<addtShipAddAmt>2.00</addtShipAddAmt>
+	<shipUpgradeAmt>1.00</shipUpgradeAmt>
+	<giftWrapAmt>2.00</giftWrapAmt>
+	<taxAmt>5.00</taxAmt>
+	<orderTotal>57.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText>Hii</adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>L920002761777</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>160.38</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>01/23/2016</shippedDate>
+		<mailFlag>Y</mailFlag>
+		<title>Mr.</title>
+		<firstName>MARVIN</firstName>
+		<middleName>Holy</middleName>
+		<lastName>SUGGS</lastName>
+		<attnLine />
+		<addressLine1>123 OVERVIEW DR</addressLine1>
+		<addressLine2>SFO</addressLine2>
+		<addressLine3>CA</addressLine3>
+		<city>BUFFALO GROVE</city>
+		<state>IL</state>
+		<country>USA</country>
+		<zipcode>60089</zipcode>
+		<greetingMessage>Welcome</greetingMessage>
+		<closingMessage>Happy year end</closingMessage>
+		<signatureMessage>Shereen</signatureMessage>
+		<giftRegistryNumber>123456789</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Macys E-Gift Card</description>
+			<price>160.38</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>160.38</totalAmount>
+			<expectedDate>01/23/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>Calvin Klein</vendor>
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color>White</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

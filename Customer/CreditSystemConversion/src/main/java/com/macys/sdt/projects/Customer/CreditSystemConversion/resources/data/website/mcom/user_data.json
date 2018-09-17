@@ -1,0 +1,210 @@
+{
+  "macys": {
+    "new_prop_user": {
+      "email": "test2_newcamp@mcom.com",
+      "password": "testpassword"
+    },
+    "multi_card_user": {
+      "email": "testauth_prop@macys.com",
+      "password": "test123"
+    },
+    "dual_amex_user": {
+      "email": "test.dual@mcom.com",
+      "password": "testpassword"
+    },
+    "single_line_amex_user": {
+      "email": "model2_sinlge_amex@macys.com",
+      "password": "test123"
+    },
+    "authorized_user": {
+      "email": "test.auth2@mcom.com",
+      "password": "testpassword"
+    },
+    "amex_lessthan_14days": {
+      "email": "testcvv90021@nisum.com",
+      "password": "Password@123"
+    },
+    "amex_morethan_14days": {
+      "email": "testcvv90028@nisum.com",
+      "password": "Password@123"
+    },
+    "amex_more_than_14days_2": {
+      "email": "nocvv@gmail.com",
+      "password": "Password@123"
+    },
+    "amex_equal_14days": {
+      "email": "testcvv90027@nisum.com",
+      "password": "Password@123"
+    },
+    "approval_data_old":{
+      "firstname" :"venkat",
+      "lastname" :"ch",
+      "email": "ch.ven@gmail.com",
+      "address":"30 Folsom street",
+      "city":"San Francisco",
+      "state":"CA",
+      "ZIPcode":"94016",
+      "phone":"7894567894",
+      "phonetype":"Home",
+      "rent":"800",
+      "residencestatus":"Rent",
+      "annualincome":"145000",
+      "SSN":"768123456",
+      "DOB":"03021984"
+
+    },
+    "approval_data":{
+      "firstname" :"MICHEAL",
+      "lastname" :"BARKSDALE",
+      "email": "rajeev.thanaraj@citi.com",
+      "address":"10635 WILSHIRE BLVD",
+      "city":"LOS ANGELES",
+      "state":"CA",
+      "ZIPcode":"90024",
+      "phone":"7819992620",
+      "phonetype":"Home",
+      "rent":"10",
+      "residencestatus":"Own",
+      "annualincome":"89000",
+      "SSN":"666900021",
+      "DOB":"09081935"
+
+    },
+    "usercard_profile": {
+      "email": "sampleamex@mcom.com",
+      "password": "test123"
+    },
+    "usercard_profile_wallet_offer": {
+      "email": "testprimary11@mcom.com",
+      "password": "test123"
+    },
+    "usercard_profile_wallet": {
+      "email": "sampleamex@mcom.com",
+      "password": "test123"
+    },
+    "tra3_msg_eligible": {
+      "email": "test_tra3@mcom.com",
+      "password": "test123"
+    },
+    "trb3_msg_eligible": {
+      "email": "test_trb3@mcom.com",
+      "password": "test123"
+    },
+    "tra1_msg_eligible": {
+      "email": "test_tra1@mcom.com",
+      "password": "test123"
+    },
+    "trb1_msg_eligible": {
+      "email": "test_trb1@mcom.com",
+      "password": "test123"
+    },
+    "tra2_msg_eligible": {
+      "email": "test1_optin@mcom.com",
+      "password": "testpassword"
+    },
+    "trb2_msg_eligible": {
+      "email": "test1_campd_optout@mcom.com",
+      "password": "testpassword"
+    },
+    "tra2_msg_expire": {
+      "email": "tra2_expire@mcom.com",
+      "password": "test123"
+    },
+    "trb2_msg_expire": {
+      "email": "trb2_expire@mcom.com",
+      "password": "test123"
+    },
+    "cobrand_multiple": {
+      "email": "cobrand_multiple@mcom.com",
+      "password": "test123"
+    },
+    "new_prop_user1": {
+      "email": "test_amex@mcom.com",
+      "password": "test123"
+    },
+    "single_card_ss":{
+      "email": "single_sp_ss@mcom.com",
+      "password": "test123"
+    },
+    "single_card_ms":{
+      "email": "single_sp_ms@mcom.com",
+      "password": "test123"
+    },
+    "single_card_ps":{
+      "email": "single_sp_ps@mcom.com",
+      "password": "test123"
+    },
+    "multi_default_ss":{
+      "email": "multi_ss_first@mcom.com",
+      "password": "test123"
+    },
+    "single_card_n":{
+      "email": "single_sp_n@mcom.com",
+      "password": "test123"
+    },
+    "multi_card_ms_all":{
+      "email": "multi_ms_all@mcom.com",
+      "password": "test123"
+    },
+    "multi_card_ss_all":{
+      "email": "multi_ss_all@mcom.com",
+      "password": "test123"
+    },
+    "multi_ss_ms_mixed":{
+      "email": "multi_ss_ms_mixed@mcom.com",
+      "password": "test123"
+    },
+    "single_sa_sb":{
+      "email":"single_sa_sb@mcom.com",
+      "password":"test123"
+    },
+    "single_sa_mpd":{
+      "email":"single_sa_mpd@mcom.com",
+      "password":"test123"
+    },
+    "single_sa_mpd_fixed":{
+      "email":"single_sa_mpd_fixed@mcom.com",
+      "password":"test123"
+    },
+    "single_sa_oa":{
+      "email":"single_sa_oa@mcom.com",
+      "password":"test123"
+    },
+    "single_sa_known":{
+      "email":"single_sa_known@mcom.com",
+      "password":"test123"
+    },
+    "single_ma_unknown":{
+      "email":"single_ma_unknown@mcom.com",
+      "password":"test123"
+    },
+    "single_ma_unknown_desc_null":{
+      "email":"single_ma_unknown_desc_null@mcom.com",
+      "password":"test123"
+    },
+    "single_ma_known":{
+      "email":"single_ma_known@mcom.com",
+      "password":"test123"
+    },
+    "single_ma_known_desc_null":{
+      "email":"single_ma_known_desc_null@mcom.com",
+      "password":"test123"
+    },
+    "single_pa":{
+      "email":"single_pa@mcom.com",
+      "password":"test123"
+    },
+    "dual_ss_both": {
+      "email": "dual_ss_both@mcom.com",
+      "password": "test123"
+    },
+    "otp_eligible":{
+      "email":"mock_otp_y@bcom.com",
+      "password":"test123"
+    },
+    "otp_eligible_multi":{
+      "email":"amex_otp_y@mcom.com",
+      "password":"test123"
+    }
+  }
+}

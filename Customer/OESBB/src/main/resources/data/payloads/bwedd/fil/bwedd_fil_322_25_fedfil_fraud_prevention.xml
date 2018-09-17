@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>1234567890</reservationNumber>
+   <internetOrderNumber>KT1234567890</internetOrderNumber>
+   <orderDate>03/31/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>1417.13</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>5.00</giftWrapAmt>
+   <taxAmt>113.77</taxAmt>
+   <orderTotal>1535.90</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>N</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>Testing</lastName>
+      <attnLine />
+      <addressLine1>1234 CHENEY RIDGE RD</addressLine1>
+      <addressLine2>APT 123</addressLine2>
+      <addressLine3 />
+      <city>LINCOLN</city>
+      <state>NE</state>
+      <country>USA</country>
+      <zipcode>68516</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Discover</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>1535.90</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag />
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>Testing</lastName>
+      <attnLine />
+      <addressLine1>123 SENTINEL PL</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>ALISO VIEJO</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>92656</zipcode>
+      <greetingMessage>TO MR. &amp; MRS.ESP MIGRATION</greetingMessage>
+      <closingMessage>JUST PART OF YOUR GIFT....MORE TO COME :)</closingMessage>
+      <signatureMessage>LOVE, DAD &amp; MOM</signatureMessage>
+      <giftRegistryNumber>2800022791234</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber>001</lineNumber>
+         <description>GOUTTES SILVER</description>
+         <price>112.50</price>
+         <requestedQuantity>004</requestedQuantity>
+         <availableQuantity>004</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>450.00</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000003543634174336</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>002</lineNumber>
+         <description>GOUTTES SILVER</description>
+         <price>206.25</price>
+         <requestedQuantity>004</requestedQuantity>
+         <availableQuantity>004</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>825.00</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000003543634174770</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>003</lineNumber>
+         <description>"O" STEMLESS S/2</description>
+         <price>22.13</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>22.13</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000009006206522538</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>004</lineNumber>
+         <description>CHARLOTTE ST NORTH</description>
+         <price>60.00</price>
+         <requestedQuantity>002</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>120.00</totalAmount>
+         <expectedDate>04/04/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000882864485021</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

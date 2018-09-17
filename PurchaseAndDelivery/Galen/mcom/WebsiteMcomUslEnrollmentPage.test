@@ -1,0 +1,4 @@
+Enrollment page on desktop
+	"${pageUrl}/account/signin?program=usl" 1024x768
+		run UslGuestEnrollment.js
+		check WebsiteMcomUslEnrollmentPage.spec

@@ -1,0 +1,10 @@
+{
+  "url": "chkout/rcsignedin",
+
+  "go_to_loyalist_signed_user":           "xpath, //img[@class='dog']",
+  "go_to_loyalist_number_signed_user":    "id, loyaltyNumber",
+  "go_to_loyalist_last_name_singed_user": "id, lastName",
+  "go_to_loyalist_zip_code_signed_user":  "id, zipCode",
+  "go_to_apply_signed_user":              "id, rc-loyallist-apply",
+  "loyalty_err_msg":                      "id, rc-globalErrors"
+}

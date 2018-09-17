@@ -1,0 +1,314 @@
+{
+  "category_splash": {
+    "site": {
+      "OTHERS": {
+        "AD": {
+          "101": "HANDBAGS"
+        },
+        "SLIDESHOW": {
+          "101": "HANDBAGS"
+        },
+        "VIDEO": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS"
+        },
+        "WIDGET": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_POOL": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_NA": {
+          "101": "HANDBAGS"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN"
+        },
+        "JSP": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "TEXT": {
+          "101": "MEN"
+        },
+        "CATEGORY_ICON": {
+          "102": "HANDBAGS",
+          "103": "HANDBAGS",
+          "104": "HANDBAGS",
+          "105": "HANDBAGS",
+          "106": "HANDBAGS"
+        },
+        "MULTI_SLIDESHOW": {
+          "101": "HANDBAGS"
+        },
+        "SINGLE_SLIDESHOW": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "BANNER_MACHINE": {
+          "0": "HANDBAGS",
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "JEWELRY & ACCESSORIES"
+        }
+      }
+    },
+    "iship": {
+      "OTHERS": {
+        "AD": {
+          "101": "HANDBAGS"
+        },
+        "SLIDESHOW": {
+          "101": "HANDBAGS"
+        },
+        "VIDEO": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS"
+        },
+        "WIDGET": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_POOL": {
+          "101": "HANDBAGS"
+        },
+        "PRODUCT_PANEL_NA": {
+          "101": "HANDBAGS"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN"
+        },
+        "JSP": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "TEXT": {
+          "101": "MEN"
+        },
+        "CATEGORY_ICON": {
+          "102": "HANDBAGS",
+          "103": "HANDBAGS",
+          "104": "HANDBAGS",
+          "105": "HANDBAGS",
+          "106": "HANDBAGS"
+        },
+        "MULTI_SLIDESHOW": {
+          "101": "HANDBAGS"
+        },
+        "SINGLE_SLIDESHOW": {
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "BANNER_MACHINE": {
+          "0": "HANDBAGS",
+          "101": "JEWELRY & ACCESSORIES"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "JEWELRY & ACCESSORIES"
+        }
+      }
+    }
+  },
+  "browse": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Dresses",
+        "category2": "WOMEN -> Lingerie, Bras & Panties",
+        "category3": "WOMEN -> Ralph Lauren"
+      },
+      "MEN": {
+        "category1": "MEN -> Pants",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Slippers"
+      },
+      "BEAUTY": {
+        "category1": "BEAUTY -> All Makeup",
+        "category2": "BEAUTY -> Clinique",
+        "category3": "BEAUTY -> Shop By Concern"
+      },
+      "HOME": {
+        "category1": "HOME -> Electrics",
+        "category2": "HOME -> Towels"
+      },
+      "JEWELRY & ACCESSORIES": {
+        "category1": "JEWELRY & ACCESSORIES -> PANDORA",
+        "category2": "JEWELRY & ACCESSORIES -> Earrings"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "HOME -> All Bath"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> All Bath"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "HOME -> All Bath"
+        },
+        "WIDGET": {
+          "101": "HOME -> All Bath"
+        },
+        "MEDIA_ADS": {
+          "101": "HOME -> All Bath"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME -> All Bath"
+        },
+        "TEXT": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_CATEGORY": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_POOL": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_NA": {
+          "101": "HOME -> All Bath"
+        },
+        "MULTI_SLIDESHOW": {
+          "101": "HOME -> All Bath"
+        },
+        "SINGLE_SLIDESHOW": {
+          "101": "WOMEN -> Skirts"
+        },
+        "BANNER_MACHINE": {
+          "0": "HOME -> All Bath",
+          "101": "WOMEN -> Skirts"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "WOMEN -> Skirts"
+        },
+        "CATEGORY_LEVEL": {
+          "4": "KIDS -> Baby Boy (0-24 months) -> Coats & Jackets",
+          "3": "KIDS -> Baby Girl (0-24 months)"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Electrics",
+        "category2": "KITCHEN -> Cookware",
+        "category3": "KITCHEN -> Bakeware",
+        "category4": "KITCHEN -> Gadgets & Tools"
+      },
+      "HOME DECOR": {
+        "category1": "HOME DECOR -> Picture Frames",
+        "category2": "HOME DECOR -> Home Accents"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "SLIDESHOW": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "PRODUCT_PANEL_CATEGORY":{
+          "101": "DINING & ENTERTAINING"
+        },
+        "MEDIA_ADS": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "TEXT": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "MULTI_SLIDESHOW": {
+          "101": "DINING & ENTERTAINING"
+        },
+        "BANNER_MACHINE": {
+          "0": "DINING & ENTERTAINING",
+          "101": "DINING & ENTERTAINING -> Serveware"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "DINING & ENTERTAINING -> Serveware"
+        },
+        "CATEGORY_LEVEL": {
+          "4": "BED & BATH -> Bedding -> Sheets",
+          "3": "KITCHEN -> Bakeware"
+        }
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> Dresses",
+        "category2": "WOMEN -> Lingerie, Bras & Panties",
+        "category3": "WOMEN -> Ralph Lauren"
+      },
+      "MEN": {
+        "category1": "MEN -> Pants",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Slippers"
+      },
+      "HOME": {
+        "category1": "HOME -> Electrics",
+        "category2": "HOME -> Towels"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "HOME -> All Bath"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> All Bath"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "HOME -> All Bath"
+        },
+        "VIDEO": {
+          "101": "WOMEN -> Skirts"
+        },
+        "IMAGE_MAP": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_CATEGORY":{
+          "101": "HOME -> All Bath"
+        },
+        "WIDGET": {
+          "101": "HOME -> All Bath"
+        },
+        "MEDIA_ADS": {
+          "101": "HOME -> All Bath"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME -> All Bath"
+        },
+        "JSP": {
+          "101": "WOMEN -> Skirts"
+        },
+        "TEXT": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_POOL": {
+          "101": "HOME -> All Bath"
+        },
+        "PRODUCT_PANEL_NA": {
+          "101": "HOME -> All Bath"
+        },
+        "MULTI_SLIDESHOW": {
+          "101": "HOME -> All Bath"
+        },
+        "BANNER_MACHINE": {
+          "0": "HOME -> All Bath",
+          "101": "WOMEN -> Skirts"
+        },
+        "BANNER_MACHINE_SLIDESHOW": {
+          "101": "WOMEN -> Skirts"
+        },
+        "CATEGORY_LEVEL": {
+          "4": "KIDS -> Baby Boy (0-24 months) -> Coats & Jackets",
+          "3": "KIDS -> Baby Girl (0-24 months)"
+        }
+      }
+    }
+  }
+}

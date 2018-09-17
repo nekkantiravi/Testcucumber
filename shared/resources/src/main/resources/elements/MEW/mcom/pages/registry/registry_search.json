@@ -1,0 +1,19 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer"
+  ],
+
+  "url": "/registry/wedding/registrysearch",
+  "verify_page": "id, m-registry-search",
+
+  "search_first_name": "id, mb-j-registry-firstname",
+  "search_last_name": "id, mb-j-registry-lastname",
+  "event_month": "id, mb-j-registry-month",
+  "event_year": "id, mb-j-registry-year",
+  "search_registry_button": "id, mb-j-registry-search",
+  "search_results_items": "className,m-registry-results-item",
+  "registrant_name": "xpath,div[contains(@class,m-registry-tile-line)][1]/div",
+  "coregistrant_name": "xpath,div[contains(@class,m-registry-tile-line)][2]/div",
+  "view_registry_button": "linkText, VIEW REGISTRY"
+}

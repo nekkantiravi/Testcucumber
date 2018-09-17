@@ -1,0 +1,32 @@
+{
+  "bloomingdales": [
+    {
+      "id": 399242,
+      "store_location_nbr": 343,
+      "name": "3.5-Quart Programmable Slow Cooke",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 1435698,
+      "store_location_nbr": 343,
+      "name": "6-Quart Pressure Cooker",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 67858,
+      "store_location_nbr": 343,
+      "name": "5 Piece Place Setting",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 3048,
+      "store_location_nbr": 343,
+      "name": "Fleurence Creamer",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    }
+  ]
+}

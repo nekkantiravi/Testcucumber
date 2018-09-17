@@ -1,0 +1,29 @@
+{
+  "include": [
+    "panel.header",
+    "panel.main_left_nav",
+    "panel.footer"
+  ],
+  "url": "/account/myaccount||/myaccount/home",
+  "verify_page": "id, myacct_boxMyProfileWelcome||className, b-acct-box||id, account-info",
+
+  "one_time_add_card_overlay": "id, add_card_overlay",
+  "add_card_overlay_add_card_button": "className, csrToCiti",
+  "add_card_overlay_close_button": "className, container-close || linkText, Close",
+  "add_card_overlay_no_thanks_button": "className, not_now || className, button not_now || linkText, NOT NOW",
+  "mywallet_link": "id, myacct_mybwallet_walletLink||id, b-account-mywallet-view-wallet",
+  "my_profile": "linkText, My Profile",
+  "my_address_book": "linkText, My Address Book",
+  "goto_my_profile": "linkText, My Profile",
+  "add_my_card_button": "className, addCard",
+  "card_apply_now_button": "className, learnAndApply",
+  "become_a_loyallist": "linkText, BECOME A LOYALLIST||cssSelector,.myacct_linkWrapper a[href*=\"enrollment\"]",
+  "view_my_loyalllist_account": "id, myacct_boxLoyallistViewMyAcctLink",
+  "goto_my_loyallist": "id, myAcct_loyallistAddNowLink||cssSelector, .myacct_loyallist_addNow>a || linkText, ADD MY LOYALLIST ACCOUNT",
+  "myPreferencesLink" : "xpath, //*[@id='myacct_boxMyProfileBody']/div[3]/div[2]/div[2]/a || linkText, My Preferences",
+  "myPreferredStoreHeader": "id, myacct_myPreferredStoreHeader",
+  "myPreferredStoreBox": "id, myacct_box_myPreferredStore",
+  "citi_service_down_message": "className, reminderInformation",
+  "back_to_home": "class, b-modalHeader-left",
+  "profile_panel": "id, profile-panel"
+}

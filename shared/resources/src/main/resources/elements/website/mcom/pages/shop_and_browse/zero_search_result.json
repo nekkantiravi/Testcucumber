@@ -1,0 +1,19 @@
+{
+
+    "url": 								"/shop/featured||/shop/registry/wedding/search",
+    "verify_page": 						"className, zsrContainer|| className, zeroResults",
+    "recommendationPanel":              "id, horizontalZSRProsCarousel||className, carousel",
+    "headerLabel":                      "id, shopByCat_Shop by || className, textComponent",
+    "categoryIcons":                    "className, adCatIcon",
+    "categoryRows":                     "className, rowPadding",
+    "productCount":                     "id, productCount",
+    "searchPhrase":                     "id, searchPhrase",
+    "previousArrow":                    "className, prev",
+    "nextArrow":                        "className, next",
+    "productThumbnail":                 "className, productThumbnail",
+    "productThumbnailImage":            "className, productThumbnailImage",
+    "productDescription":               "className, productDescription",
+    "qvLauncher":                       "className, qvLauncher"
+
+
+}

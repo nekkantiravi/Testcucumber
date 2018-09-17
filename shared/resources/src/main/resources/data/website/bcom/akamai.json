@@ -1,0 +1,298 @@
+{
+  "bloomingdales": {
+    "www.bloomingdales.com": {
+      "site-buy": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/buy/",
+        "cp_code": "184277",
+        "ttl": "UNKNOWN"
+      },
+      "site-availabilitycheck": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/catalog/product/availabilityCheck",
+        "cp_code": "130137",
+        "ttl": "1h"
+      },
+      "site-browse-facetedmeta": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/catalog/category/facetedmeta",
+        "cp_code": "130135",
+        "ttl": "45m"
+      },
+      "site-thumbnail1": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/catalog/product/thumbnail/1",
+        "cp_code": "130136",
+        "ttl": "1d"
+      },
+      "site-newthumbnail": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/catalog/product/newthumbnail/json(?=.*productId)(?=.*source=118)",
+        "cp_code": "285815",
+        "ttl": "1d"
+      },
+      "site-pdp": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/product/",
+        "cp_code": "163815",
+        "ttl": "15m"
+      },
+      "site-sns-yuicombo": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/sns/yuiCombo",
+        "cp_code": "320931",
+        "ttl": "UNKNOWN"
+      },
+      "site-spa-assets": {
+        "host": "www.bloomingdales.com",
+        "pattern": "(prob_throttle.esi|spa_probability.esi|spawaitingroom)",
+        "cp_code": "79962",
+        "ttl": "UNKNOWN"
+      },
+      "site-spa-throttled": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/.*spawaitingroom.html",
+        "cp_code": "79963",
+        "ttl": "UNKNOWN"
+      },
+      "site-registry-search": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/registry/wedding/search",
+        "cp_code": "143516",
+        "ttl": "45m"
+      },
+      "site-search": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/(search|featured)",
+        "cp_code": "224379",
+        "ttl": "45m"
+      },
+      "site-api-stores-bops-2": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?!.*productIds)(?!.*_availGroup=BOPS)",
+        "cp_code": "262050",
+        "ttl": "1d"
+      },
+      "site-api-stores-bops-3": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?=.*productIds)",
+        "cp_code": "262051",
+        "ttl": "1d"
+      },
+      "site-api-stores-bops-1": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?=.*_availGroup=BOPS)",
+        "cp_code": "262049",
+        "ttl": "1d"
+      },
+      "site-api-stores-latlong": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/api/store/v2/stores(?=.*latitude)(?=.*longitude)",
+        "cp_code": "294276",
+        "ttl": "1d"
+      },
+      "site-api-stores-address": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/api/store/v2/stores.*searchAddress",
+        "cp_code": "294277",
+        "ttl": "1d"
+      },
+      "site-category-cache": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/catalog/index.ognc",
+        "cp_code": "45865",
+        "ttl": "UNKNOWN"
+      },
+      "site-homepage": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/(index.ognc[\\?.*]?)?",
+        "cp_code": "51138",
+        "ttl": "365d"
+      },
+      "site-bcom-logo-homepage": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/.*cm_sp=NAVIGATION-_-TOP_NAV-_-TOP_BLOOMIES_ICON",
+        "cp_code": "13428",
+        "ttl": "000"
+      },
+      "site-product-cache": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/catalog/product/(index.ognc|quickview/|thumbnail/)",
+        "cp_code": "16252",
+        "ttl": "UNKNOWN"
+      },
+      "site-search-cache": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/search/(index|results).ognc",
+        "cp_code": "56545",
+        "ttl": "UNKNOWN"
+      },
+      "site-search-autocomplete": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/suggester.*prefix",
+        "cp_code": "241038",
+        "ttl": "UNKNOWN"
+      },
+      "auth-shipping": {
+        "host": "www.bloomingdales.com",
+        "pattern": "/shop/international/shipping/supportedCountry",
+        "cp_code": "103655",
+        "ttl": "UNKNOWN"
+      },
+      "site-browse": {
+        "host": "www.bloomingdales.com",
+        "pattern": "(/shop|/browse)",
+        "cp_code": "130134",
+        "ttl": "45m"
+      }
+    },
+    "assets.bloomingdales.com": {
+      "assets-default": {
+        "host": "assets.bloomingdales.com",
+        "pattern": "Default",
+        "cp_code": "31759",
+        "ttl": "365d"
+      }
+    },
+    "images.bloomingdales.com": {
+      "images-default": {
+        "host": "images.bloomingdales.com",
+        "pattern": "Default",
+        "cp_code": "13581",
+        "ttl": "365d"
+      }
+    },
+    "m.bloomingdales.com": {
+      "wssg-default": {
+        "host": "m.bloomingdales.com",
+        "pattern": "/api",
+        "cp_code": "239506",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "www1.pos.bloomingdales.com": {
+      "pos-default": {
+        "host": "www1.pos.bloomingdales.com",
+        "pattern": "Default",
+        "cp_code": "189118",
+        "ttl": "365d"
+      },
+      "pos-product-cache": {
+        "host": "www1.pos.bloomingdales.com",
+        "pattern": "(/catalog/product/index.ognc|/forceproductcachekey/|/forceupccachekey/)",
+        "cp_code": "189120",
+        "ttl": "1d"
+      },
+      "pos-search-cache": {
+        "host": "www1.pos.bloomingdales.com",
+        "pattern": "/search/index.ognc",
+        "cp_code": "189119",
+        "ttl": "365d"
+      }
+    }
+  },
+  "qa7codebloomingdales": {
+    "www.qa7codebloomingdales.fds.com": {
+      "site-availabilitycheck": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/catalog/product/availabilityCheck",
+        "cp_code": "153111",
+        "ttl": "1h"
+      },
+      "site-newthumbnail": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/shop/catalog/product/newthumbnail/json(?=.*productId)(?=.*source=118)",
+        "cp_code": "280157",
+        "ttl": "1d"
+      },
+      "site-pdp": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/shop/product/",
+        "cp_code": "162433",
+        "ttl": "15m"
+      },
+      "site-registry-search": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/shop/registry/wedding/search",
+        "cp_code": "119658",
+        "ttl": "45m"
+      },
+      "site-search": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/shop/(search|featured)",
+        "cp_code": "214361",
+        "ttl": "45m"
+      },
+      "site-homepage": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/(index.ognc[\\?.*]?)?",
+        "cp_code": "119658",
+        "ttl": "365d"
+      },
+      "site-bcom-logo-homepage": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "/.*cm_sp=NAVIGATION-_-TOP_NAV-_-TOP_BLOOMIES_ICON",
+        "cp_code": "119658",
+        "ttl": "000"
+      },
+      "site-browse": {
+        "host": "www.qa7codebloomingdales.fds.com",
+        "pattern": "(/shop|/browse)",
+        "cp_code": "153066",
+        "ttl": "45m"
+      }
+    }
+  },
+  "qa9codebloomingdales": {
+    "www.qa9codebloomingdales.fds.com": {
+      "site-availabilitycheck": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/catalog/product/availabilityCheck",
+        "cp_code": "153113",
+        "ttl": "1h"
+      },
+      "site-newthumbnail": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/shop/catalog/product/newthumbnail/json(?=.*productId)(?=.*source=118)",
+        "cp_code": "280157",
+        "ttl": "1d"
+      },
+      "site-pdp": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/shop/product/",
+        "cp_code": "162435",
+        "ttl": "15m"
+      },
+      "site-registry-search": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/shop/registry/wedding/search",
+        "cp_code": "119684",
+        "ttl": "45m"
+      },
+      "site-search": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/shop/(search|featured)",
+        "cp_code": "214361",
+        "ttl": "45m"
+      },
+      "site-homepage": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/(index.ognc[\\?.*]?)?",
+        "cp_code": "119684",
+        "ttl": "365d"
+      },
+      "site-bcom-logo-homepage": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "/.*cm_sp=NAVIGATION-_-TOP_NAV-_-TOP_BLOOMIES_ICON",
+        "cp_code": "119684",
+        "ttl": "000"
+      },
+      "site-browse": {
+        "host": "www.qa9codebloomingdales.fds.com",
+        "pattern": "(/shop|/browse)",
+        "cp_code": "153068",
+        "ttl": "45m"
+      }
+    }
+  }
+}

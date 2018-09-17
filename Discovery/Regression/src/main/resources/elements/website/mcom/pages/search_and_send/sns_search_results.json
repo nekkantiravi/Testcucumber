@@ -1,0 +1,11 @@
+{
+  "header_title": "className, header",
+  "search_result_container": "id, searchResultContentSection",
+  "results_info": "id, resultsInfo",
+  "zero_result_header": "id, rmMessage",
+  "zero_result_message": "id, rmDescription",
+  "instructional_message": "id, searchPane",
+  "search_tip": "id, searchTips",
+  "search_tip_instruction": "id, tipPane",
+  "products": "className, prodDetails"
+}

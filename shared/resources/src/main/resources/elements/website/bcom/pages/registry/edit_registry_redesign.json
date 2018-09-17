@@ -1,0 +1,78 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+
+  "url":                                          "/registry/wedding/registryeditaccount",
+
+
+  "save_button":                                  "className, edit-registry-save",
+  "back_to_reg_man_button":                       "className, edit-registry-back",
+  "back_to_reg_man_link":                         "className, back-to-manager-link",
+  "verify_page":                                  "id, registryEditAccount.registrantContactInfo.firstName",
+  "save_confirmation_overlay":                    "id, edit-registry-confimation",
+  "loader_overlay":                               "id, loader_overlay",
+
+  "first_name":                                   "id, registryEditAccount.registrantContactInfo.firstName",
+  "last_name":                                    "id, registryEditAccount.registrantContactInfo.lastName",
+  "email":                                        "id, registryEditAccount.profile.email",
+  "password":                                     "id, registryEditAccount.profile.password",
+  "verify_password":                              "id, registryEditAccount.profile.confirmPassword",
+  "security_question":                            "cssSelector, [id='registryEditAccount.profile.securityQuestion']~.custom",
+  "security_answer":                              "id, registryEditAccount.profile.securityAnswer",
+  "birth_date":                                   "id, registryEditAccount.profile.birthDate",
+  "gender":                                       "cssSelector, [id='registryEditAccount.profile.gender']~.custom",
+
+  "co_registrant_first_name":                     "id, registryEditAccount.coRegistrantFirstName",
+  "co_registrant_last_name":                      "id, registryEditAccount.coRegistrantLastName",
+  "event_type":                                   "id, registryEditAccount.registryType",
+  "event_date":                                   "id, registryEditAccount.registryEvent.date",
+  "number_of_guests":                             "id, registryEditAccount.registryEvent.noOfGuests",
+  "preferred_store":                              "id, registryEditAccount.storeId",
+  "subscribe_reg_email_checkbox":                 "xpath, //input[@id='registryEditAccount.profile.subscriptionInfo.weddingEmailSalesEvents']",
+  "subscribe_reg_email":                          "xpath, //span[@id='registryEditAccount.profile.subscriptionInfo.weddingEmailSalesEvents']",
+
+  "address_line_1":                               "id, registryEditAccount.registrantContactInfo.address.addressLine1",
+  "address_line_2":                               "id, registryEditAccount.registrantContactInfo.address.addressLine2",
+  "address_city":                                 "id, registryEditAccount.registrantContactInfo.address.city",
+  "address_state":                                "cssSelector, [id='registryEditAccount.registrantContactInfo.address.state']~.custom",
+  "address_zip_code":                             "id, registryEditAccount.registrantContactInfo.address.postalCode",
+  "address_phone_number":                         "id, registryEditAccount.registrantContactInfo.address.phoneNumber",
+
+  "co_registrant_address_line_1":                 "id, registryEditAccount.coRegistrantContactInfo.address.addressLine1",
+  "co_registrant_address_line_2":                 "id, registryEditAccount.coRegistrantContactInfo.address.addressLine2",
+  "co_registrant_address_city":                   "id, registryEditAccount.coRegistrantContactInfo.address.city",
+  "co_registrant_address_state":                  "id, registryEditAccount.coRegistrantContactInfo.address.state",
+  "co_registrant_address_state_custom":           "xpath, //*[@id='coRegistrant-address']/div/div[2]/div/div",
+  "co_registrant_address_zip_code":               "id, registryEditAccount.coRegistrantContactInfo.address.postalCode",
+  "co_registrant_address_phone":                  "id, registryEditAccount.coRegistrantContactInfo.address.phoneNumber",
+  "co_registrant_same_contact_info_checkbox":     "xpath, //input[@id='registryEditAccount.registryBasicInfo.coRegistrantAddressDiff']",
+  "co_registrant_same_contact_info":              "xpath, //span[@id='registryEditAccount.registryBasicInfo.coRegistrantAddressDiff_cover']",
+
+  "current_ship_dropdown":                        "cssSelector, [name='registryEditAccount.registryBasicInfo.shippingAddressIndicator']~.custom",
+  "current_shipping_address_line_1":              "id, registryEditAccount.shippingAddress.addressLine1",
+  "current_shipping_address_line_2":              "id, registryEditAccount.shippingAddress.addressLine2",
+  "current_shipping_address_city":                "id, registryEditAccount.shippingAddress.city",
+  "current_shipping_address_state":               "id, registryEditAccount.shippingAddress.state",
+  "current_shipping_address_state_custom":        "xpath, //*[@id='other-shipping-address']/div/div",
+  "current_shipping_address_zip_code":            "id, registryEditAccount.shippingAddress.postalCode",
+
+  "future_shipping_address_enabled_checkbox":     "xpath, //input[@id='registryEditAccount.futureAddressOpted']",
+  "future_shipping_address_enabled":              "xpath, //span[@id='registryEditAccount.futureAddressOpted_cover']",
+  "future_dropdown":                              "cssSelector, [name='registryEditAccount.registryBasicInfo.futureShippingAddressIndicator']~.custom",
+  "future_shipping_start_date":                   "id, registryEditAccount.futureAddress.dateBean.formattedDate",
+  "future_shipping_address_line_1":               "id, registryEditAccount.futureAddress.addressLine1",
+  "future_shipping_address_line_2":               "id, registryEditAccount.futureAddress.addressLine2",
+  "future_shipping_address_city":                 "id, registryEditAccount.futureAddress.city",
+  "future_shipping_address_state":                "id, registryEditAccount.futureAddress.state",
+  "future_shipping_address_state_custom":         "xpath, //*[@id='other-future-shipping-address']/div/div",
+  "future_shipping_address_zip_code":             "id, registryEditAccount.futureAddress.postalCode",
+
+  "my_account_section_header":                    "xpath, //section[@id='account-card']/button",
+  "event_details_section_header":                 "xpath, //section[@id='event-card']/button",
+  "address_section_header":                       "xpath, //section[@id='address-card']/button",
+  "shipping_section_header":                      "xpath, //section[@id='shipping-card']/button",
+
+  "error_message":                                "className, errorMsg||className, b_errorMessage"
+}

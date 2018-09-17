@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21B_MWEDD</reservationNumber>
+	<internetOrderNumber>276_21B_MWEDD</internetOrderNumber>
+	<orderDate>12/11/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>139.92</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>12.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>119.62</taxAmt>
+	<orderTotal>169.54</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0687</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>ANTHONY R</firstName>
+		<middleName />
+		<lastName>MARIMON</lastName>
+		<attnLine />
+		<addressLine1>7 RIVERWAY</addressLine1>
+		<addressLine2>UNIT 2106</addressLine2>
+		<addressLine3 />
+		<city>HOUSTON</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>77056</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************1715</accountNumber>
+		<amount>169.54</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>009</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>ANTHONY R</firstName>
+		<middleName />
+		<lastName>MARIMON</lastName>
+		<attnLine />
+		<addressLine1>7 RIVERWAY</addressLine1>
+		<addressLine2>UNIT 2106</addressLine2>
+		<addressLine3 />
+		<city>HOUSTON</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>77056</zipcode>
+		<greetingMessage>*</greetingMessage>
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2809006131033</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>macymkm@gmail.com</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>LARABEE DOT</description>
+			<price />
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/13/2016</expectedDate>
+			<newExpectedDate>03/22/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>KATE SPADE</vendor>
+			<cancelledQuantity />
+			<upcId>000000721074370836</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>5PC PL SET</size>
+			<color>STAINLESS</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

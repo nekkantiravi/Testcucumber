@@ -1,0 +1,141 @@
+<mailMessagePayload>
+	<reservationNumber>345</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/26/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>201.36</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>50.00</taxAmt>
+	<orderTotal>201.36</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0109</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<multiSiteId>123</multiSiteId>
+    <munTaxAmt>12.33</munTaxAmt>
+    <miscTaxAmt>9.00</miscTaxAmt>
+	<ltyIdUsl>0000000123456789</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>2466MSTOREVData</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine>ATTN: OES &amp; ESP TESTING</attnLine>
+		<addressLine1>123 WASHINGTON DR</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>MARLTON</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08053</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>250.00</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>05/05/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 WATSON DR</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>MOUNT LAUREL TOWNSHI</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08054</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>011</lineNumber>
+			<description>SHORT SLEEVED RIBBED COLL</description>
+			<price>67.25</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>67.12</totalAmount>
+			<expectedDate>05/05/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>LACOSTE</vendor>
+			<cancelledQuantity>05</cancelledQuantity>
+			<upcId>882864569851</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>M</size>
+			<color>031 BLACK</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>012</lineNumber>
+			<description>SHORT SLEEVED RIBBED</description>
+			<price>100.00</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>006</availableQuantity>
+			<shippedQuantity>007</shippedQuantity>
+			<totalAmount>67.00</totalAmount>
+			<expectedDate>05/05/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>LACOSTE</vendor>
+			<cancelledQuantity>08</cancelledQuantity>
+			<upcId>882864569851</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>L</size>
+			<color>S2P OCEAN</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

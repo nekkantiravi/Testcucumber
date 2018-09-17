@@ -1,0 +1,15 @@
+{
+    "qlBtn":		                    	"xpath, .//*[contains(@data-auto,'quickview')]",
+    "qlBrandName":                          "cssSelector, .brandNameLink",
+    "qlProductName":                        "cssSelector, .productName",
+    "qlProductPrice":                       "cssSelector, .tieredPrices",
+    "qlA2BBtn":		                    	"xpath, .//*[@id='quickLook']//button",
+    "qlA2RBtn":		                    	"xpath, .//*[contains(@data-auto,'addToRegistry')]",
+    "qlCheckoutNowBtn":		             	"xpath, .//*[@id='quickLook']//button",
+    "qlA2B_Msg":		                 	"cssSelector, .addToBagMessage>span",
+    "qlQuantity":	                    	"class, productQuantity",
+    "qlWebId":                              "cssSelector, #bullets>ul>li",
+    "qlPDPLink":                            "xpath, .//*[@class='see-full-product-details']",
+    "qlMainImg":                            "cssSelector, .mainImage",
+    "qlCloseBtn":                           "cssSelector, .ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close"
+}

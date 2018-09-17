@@ -1,0 +1,636 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "EOD_264_14B_MStore",
+			"dataCenterCode": "RTP",
+			"orderStatusCode": "6",
+			"orderStatusDescription": "IN_PROCESS",
+			"orderConfirmTimestamp": "2017-08-23T13:48:20.598-04:00",
+			"orderConfirmUtcTimestamp": "2017-08-23T17:48:20.598Z",
+			"sellingChannelCode": "ESEND",
+			"sellLegacyDivisionNbr": "71",
+			"sellLegacyLocationNbr": "139",
+			"salesAssociateId": "71115670",
+			"messageCreateTimestamp": "2017-08-23T15:05:31.675-04:00",
+			"messageCreateUtcTimestamp": "2017-08-23T19:05:31.675Z",
+			"eventType": "SHPSCF",
+			"eventTimestamp": "2017-08-25T15:05:12.607-04:00",
+			"eventUtcTimestamp": "2017-08-25T19:05:12.607Z",
+			"partnerRefList": {
+				"partnerRef": [
+					{
+						"partnerOrderId": "264_14B_MWEDD_Multi_NormalItem"
+					}
+				]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"customerId": "63713854",
+					"firstName": "billingFirstName",
+					"lastName": "billingLastName",
+					"addressLine1": "123 N WABASH AVE",
+					"addressLine2": "ROAD 123",
+					"addressLine3": "APT 123",
+					"cityName": "CHICAGO",
+					"stateName": "IL",
+					"zipCode": "60611-4147",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "510-770-4064",
+					"homePhoneNbr": "510-770-4064",
+					"alternatePhoneNbr": "510-770-4064",
+					"sendSmsMessageFlag": "false",
+					"emailId": "oes.macys@gmail.com"
+				}
+			},
+			"orderManagementApplicationCode": "FIL"
+		},
+		"lineItemList": {
+			"lineItem": [
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "651043023237",
+					"productGroupCode": "SCHINA",
+					"itemDepartmentNbr": "625",
+					"itemQuantity": "7",
+					"itemOriginalQuantity": "2",
+					"itemAdjustedQuantity": "5",
+					"purchasePriceAmount": "7.99",
+					"originalPriceAmount": "70.99",
+					"retailPriceAmount": "70.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "2",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-30-04:00"
+				},
+				{
+					"orderLineItemNbr": "2",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "2",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "86279016058",
+					"productGroupCode": "SCHINA",
+					"itemDepartmentNbr": "625",
+					"itemQuantity": "6",
+					"itemOriginalQuantity": "2",
+					"itemAdjustedQuantity": "4",
+					"purchasePriceAmount": "70.99",
+					"originalPriceAmount": "70.99",
+					"retailPriceAmount": "70.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "3",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-28-04:00"
+				},
+				{
+					"orderLineItemNbr": "3",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "3",
+					"lineItemStatusCode": "6",
+					"lineItemStatusDescription": "IN PROCESS",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "721074351453",
+					"productGroupCode": "SCHINA",
+					"itemDepartmentNbr": "625",
+					"itemQuantity": "8",
+					"itemOriginalQuantity": "3",
+					"itemAdjustedQuantity": "5",
+					"purchasePriceAmount": "70.99",
+					"originalPriceAmount": "70.99",
+					"retailPriceAmount": "70.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "2",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-28-04:00"
+				},
+				{
+					"orderLineItemNbr": "4",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "4",
+					"lineItemStatusCode": "9",
+					"lineItemStatusDescription": "VOIDED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "636202087435",
+					"productGroupCode": "SCHINA",
+					"itemDepartmentNbr": "625",
+					"itemQuantity": "12",
+					"itemOriginalQuantity": "4",
+					"itemAdjustedQuantity": "8",
+					"purchasePriceAmount": "70.99",
+					"originalPriceAmount": "70.99",
+					"retailPriceAmount": "70.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "2",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-28-04:00"
+				}
+			]
+		},
+		"shipmentList": {
+			"shipment": [
+				{
+					"orderShipmentNbr": "1",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"giftRegistryNbr": "0",
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "5419",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"shipmentFeeSlideScaleBaseAmount": "10.01",
+					"totalAmount": "310.23",
+					"taxAmount": "26.27",
+					"retailAmount": "283.96",
+					"retailTaxAmount": "26.27",
+					"shippingChargeAmount": "4.01",
+					"shippingTaxAmount": "3.01",
+					"upChargeFeeAmount": "10.01",
+					"giftWrapFeeAmount": "10.01",
+					"giftWrapTaxAmount": "10.01",
+					"additionalAddressFeeAmount": "2.01",
+					"miscellaneousTaxAmount": "10.01",
+					"giftFlag": "true",
+					"giftWrapType": "Y",
+					"giftMessageGreetingText": "greetingMessage",
+					"giftCloseDescription": "closingMessage",
+					"giftSignDescription": "signatureMessag",
+					"deliveryType": "2",
+					"deliveryTypeDescription": "PREMIUM",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-28-04:00",
+					"expectedShipDate": "2017-08-28",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-28-04:00",
+					"actualShipDate": "",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "C",
+					"deliveryTrkList": {
+						"deliveryTrk": [
+							{
+								"deliveryTrackingNbr": "123456789012404",
+								"deliveryCarrierName": "UPS Ground"
+							}
+						]
+					},
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "PAYPAL",
+								"tenderAmount": "87.51",
+								"accountNbr": "LDXVKUQMPDF6E",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "Q",
+								"accountTypeDescription": "PAYPAL",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "87.51",
+								"authorizationPlanType": "GXS7HM",
+								"authorizationDate": "2017-08-16-04:00",
+								"authorizationExpiredDate": "2017-08-23-04:00"
+							},
+							{
+								"tenderType": "Electronic Gift Card",
+								"tenderAmount": "1358.68",
+								"accountNbr": "853197011718063",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "E",
+								"accountTypeDescription": "Electronic Gift Card",
+								"paymentTransactionType": "D",
+								"egcCertificateType": "85",
+								"authorizationAmount": "1358.68",
+								"authorizationPlanType": "03000000",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "3000-01-01-05:00"
+							},
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "389.3",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "389.3",
+								"authorizationPlanType": "035910",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "2017-08-25-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "ShippingFirstName",
+							"lastName": "ShippingLastName",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"addressLine3": "APT 16",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "oes.macys@gmail.com@nisum.com"
+						}
+					},
+					"giftWrapFlag": "true"
+				},
+				{
+					"orderShipmentNbr": "2",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"giftRegistryNbr": "0",
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "5419",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"shipmentFeeSlideScaleBaseAmount": "10.01",
+					"totalAmount": "310.23",
+					"taxAmount": "26.27",
+					"retailAmount": "283.96",
+					"retailTaxAmount": "26.27",
+					"shippingChargeAmount": "4.01",
+					"shippingTaxAmount": "3.01",
+					"upChargeFeeAmount": "10.01",
+					"giftWrapFeeAmount": "0.0",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "2.01",
+					"miscellaneousTaxAmount": "10.01",
+					"giftFlag": "true",
+					"giftWrapType": "Y",
+					"giftMessageGreetingText": "greetingMessage",
+					"giftCloseDescription": "closingMessage",
+					"giftSignDescription": "signatureMessag",
+					"deliveryType": "2",
+					"deliveryTypeDescription": "GROUND",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-28-04:00",
+					"expectedShipDate": "2017-08-28",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-28-04:00",
+					"actualShipDate": "",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "P",
+					"deliveryTrkList": {
+						"deliveryTrk": [
+							{
+								"deliveryTrackingNbr": "123456789012404",
+								"deliveryCarrierName": "UPS Ground"
+							}
+						]
+					},
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "Electronic Gift Card",
+								"tenderAmount": "310.23",
+								"accountNbr": "657127010016929",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "E",
+								"accountTypeDescription": "Electronic Gift Card",
+								"paymentTransactionType": "D",
+								"egcCertificateType": "65",
+								"authorizationAmount": "310.23",
+								"authorizationPlanType": "03000000",
+								"authorizationDate": "2017-08-16-04:00",
+								"authorizationExpiredDate": "3000-01-01-05:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "ShippingFirstName",
+							"lastName": "ShippingLastName",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"addressLine3": "APT 16",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "oes.macys@gmail.com@nisum.com"
+						}
+					},
+					"giftWrapFlag": "true"
+				},
+				{
+					"orderShipmentNbr": "3",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"giftRegistryNbr": "0",
+					"fulfillmentLocationNbr": "5419",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"shipmentFeeSlideScaleBaseAmount": "10.01",
+					"totalAmount": "310.23",
+					"taxAmount": "26.27",
+					"retailAmount": "283.96",
+					"retailTaxAmount": "26.27",
+					"shippingChargeAmount": "4.01",
+					"shippingTaxAmount": "3.01",
+					"upChargeFeeAmount": "10.01",
+					"giftWrapFeeAmount": "0.0",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "2.01",
+					"miscellaneousTaxAmount": "10.01",
+					"giftFlag": "true",
+					"giftWrapType": "Y",
+					"giftMessageGreetingText": "greetingMessage",
+					"giftCloseDescription": "closingMessage",
+					"giftSignDescription": "signatureMessag",
+					"deliveryType": "2",
+					"deliveryTypeDescription": "PREMIUM",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-28-04:00",
+					"expectedShipDate": "2017-08-28",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-28-04:00",
+					"actualShipDate": "2017-08-28-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "N",
+					"deliveryTrkList": {
+						"deliveryTrk": [
+							{
+								"deliveryTrackingNbr": "123456789012404",
+								"deliveryCarrierName": "UPS Ground"
+							}
+						]
+					},
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "PAYPAL",
+								"tenderAmount": "87.51",
+								"accountNbr": "LDXVKUQMPDF6E",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "Q",
+								"accountTypeDescription": "PAYPAL",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "87.51",
+								"authorizationPlanType": "GXS7HM",
+								"authorizationDate": "2017-08-16-04:00",
+								"authorizationExpiredDate": "2017-08-23-04:00"
+							},
+							{
+								"tenderType": "Electronic Gift Card",
+								"tenderAmount": "1358.68",
+								"accountNbr": "853197011718063",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "E",
+								"accountTypeDescription": "Electronic Gift Card",
+								"paymentTransactionType": "D",
+								"egcCertificateType": "85",
+								"authorizationAmount": "1358.68",
+								"authorizationPlanType": "03000000",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "3000-01-01-05:00"
+							},
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "389.3",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "389.3",
+								"authorizationPlanType": "035910",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "2017-08-25-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "ShippingFirstName",
+							"lastName": "ShippingLastName",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"addressLine3": "APT 16",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "oes.macys@gmail.com@nisum.com"
+						}
+					},
+					"giftWrapFlag": "true"
+				},
+				{
+					"orderShipmentNbr": "4",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"giftRegistryNbr": "0",
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "5419",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"shipmentFeeSlideScaleBaseAmount": "10.01",
+					"totalAmount": "310.23",
+					"taxAmount": "26.27",
+					"retailAmount": "283.96",
+					"retailTaxAmount": "26.27",
+					"shippingChargeAmount": "4.01",
+					"shippingTaxAmount": "3.01",
+					"upChargeFeeAmount": "10.01",
+					"giftWrapFeeAmount": "10.0",
+					"giftWrapTaxAmount": "20.0",
+					"additionalAddressFeeAmount": "2.01",
+					"miscellaneousTaxAmount": "10.01",
+					"giftFlag": "true",
+					"giftWrapType": "Y",
+					"giftMessageGreetingText": "greetingMessage",
+					"giftCloseDescription": "closingMessage",
+					"giftSignDescription": "signatureMessag",
+					"deliveryType": "2",
+					"deliveryTypeDescription": "PREMIUM",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-28-04:00",
+					"expectedShipDate": "2017-08-28",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-28-04:00",
+					"actualShipDate": "2017-08-28-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "N",
+					"deliveryTrkList": {
+						"deliveryTrk": [
+							{
+								"deliveryTrackingNbr": "123456789012404",
+								"deliveryCarrierName": "UPS Ground"
+							}
+						]
+					},
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "PAYPAL",
+								"tenderAmount": "87.51",
+								"accountNbr": "LDXVKUQMPDF6E",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "Q",
+								"accountTypeDescription": "PAYPAL",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "87.51",
+								"authorizationPlanType": "GXS7HM",
+								"authorizationDate": "2017-08-16-04:00",
+								"authorizationExpiredDate": "2017-08-23-04:00"
+							},
+							{
+								"tenderType": "Electronic Gift Card",
+								"tenderAmount": "1358.68",
+								"accountNbr": "853197011718063",
+								"accountIndicator": "P",
+								"accountIndicatorDescription": "PAN",
+								"accountType": "E",
+								"accountTypeDescription": "Electronic Gift Card",
+								"paymentTransactionType": "D",
+								"egcCertificateType": "85",
+								"authorizationAmount": "1358.68",
+								"authorizationPlanType": "03000000",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "3000-01-01-05:00"
+							},
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "389.3",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "389.3",
+								"authorizationPlanType": "035910",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "2017-08-25-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "ShippingFirstName",
+							"lastName": "ShippingLastName",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"addressLine3": "APT 16",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "oes.macys@gmail.com@nisum.com"
+						}
+					},
+					"giftWrapFlag": "true"
+				}
+			]
+		},
+		"inventoryDeltaList": {
+			"inventoryDelta": [
+				{
+					"orderID": "441119637",
+					"shipmentNbr": "1",
+					"inventoryDeltaActionCode": "SHIPPED",
+					"lineItemNbr": "1",
+					"orderManagementSenderCode": "FIL",
+					"inventoryDeltaDateTime": "2017-08-16T15:05:12.377-04:00",
+					"inventoryDeltaUtcDateTime": "2017-08-16T19:05:12.377Z",
+					"mediaDate": "2017-08-16-04:00",
+					"processName": "SCF",
+					"racfID": "71115670",
+					"locationNbr": "5419",
+					"itemDepartmentNbr": "625",
+					"itemSkuUpc": "91709210890",
+					"quantityAmount": "4"
+				}
+			]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [
+				{
+					"mailSourceId": "EOD_MailSourceID",
+					"mailTypeCode": "264",
+					"mailSubtypeCode": "14B",
+					"partyType": "B"
+				}
+			]
+		},
+		"orderFraudInformation": {
+			
+		}
+	}
+}

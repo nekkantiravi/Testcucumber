@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url": "/app/answers/detail/a_id/40/",
+  "verify_page": "id, rn_Summary"
+}

@@ -1,0 +1,143 @@
+{
+  "QAT02": [
+    {
+      "loyallistType": "top_tier",
+      "loyaltyId": "L910004056316",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    },
+    {
+      "loyallistType": "base_tier",
+      "loyaltyId": "L910004056314",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "210047706490",
+      "securityCode": "",
+      "points": 2100,
+      "billingLastName": "DEV",
+      "billingZipCode": "94105"
+    },
+    {
+      "loyallistType": "reward",
+      "loyaltyId": "L910004056316",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    }
+  ],
+  "QAT03": [
+    {
+      "loyallistType": "top_tier",
+      "loyaltyId": "L920000139025",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    },
+    {
+      "loyallistType": "base_tier",
+      "loyaltyId": "L920000139023",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "210047706490",
+      "securityCode": "",
+      "points": 2100,
+      "billingLastName": "DEV",
+      "billingZipCode": "94105"
+    },
+    {
+      "loyallistType": "reward",
+      "loyaltyId": "L920000139025",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    }
+  ]
+,
+  "QAT04": [
+    {
+      "loyallistType": "top_tier",
+      "loyaltyId": "L920002889586",
+      "lastName": "DEV",
+      "zipCode": "94107",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    },
+    {
+      "loyallistType": "base_tier",
+      "loyaltyId": "L920002889587",
+      "lastName": "DEV",
+      "zipCode": "94107",
+      "cardNumber": "",
+      "securityCode": "",
+      "points": 2100,
+      "billingLastName": "DEV",
+      "billingZipCode": "94107"
+    },
+    {
+      "loyallistType": "reward",
+      "loyaltyId": "L920002889586",
+      "lastName": "DEV",
+      "zipCode": "94107",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    }
+  ],
+  "UAT02": [
+    {
+      "loyallistType": "top_tier",
+      "loyaltyId": "L920000139037",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    },
+    {
+      "loyallistType": "base_tier",
+      "loyaltyId": "L920000139035",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "210047706490",
+      "securityCode": "",
+      "points": 2100,
+      "billingLastName": "DEV",
+      "billingZipCode": "94105"
+    },
+    {
+      "loyallistType": "reward",
+      "loyaltyId": "L920000139037",
+      "lastName": "DEV",
+      "zipCode": "94105",
+      "cardNumber": "377481060051502",
+      "securityCode": "6351",
+      "points": 5100,
+      "billingLastName": "TEST",
+      "billingZipCode": "94107"
+    }
+  ]
+}

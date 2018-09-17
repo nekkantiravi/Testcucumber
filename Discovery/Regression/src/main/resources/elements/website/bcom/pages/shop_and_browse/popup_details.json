@@ -1,0 +1,10 @@
+{
+  "popup_links": "xpath, //*[contains(@href,'javascript:pop') and not(text()='Careers') and not(@class='gn_left_nav')]",
+  "macys_logo": "xpath, //div[@id='header-container']//img[contains(@alt,'Bloomingdale')]",
+  "header": "className, bl_pop_header",
+  "text": "className,bl_pop_subheader",
+  "disclaimer": "className, bl_pop_bold_text",
+  "close": "id, close-button",
+  "content": "id, popup-text",
+  "signup_text": "id, form-datums"
+}

@@ -1,0 +1,11 @@
+{
+  "url":                          "/",
+  "verify_page":                "className, qvProductTitle",
+  "add_to_bag":                 "id, qvAddToBag",
+  "checkout":                   "id, qvCheckoutNow",
+  "add_to_registry":            "id, qvAddToRegistry||className, qvAddToRegistry",
+  "add_to_list":                 "id, qvAddToList",
+  "add_to_list_success_msg":     "className, panelMessage||id, wishListProcessPnl",
+  "add_to_registry_valid_msg":   "className, qvValidationMessage"
+
+}

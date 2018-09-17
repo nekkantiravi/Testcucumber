@@ -1,0 +1,328 @@
+{
+  "data": [{
+    "Search Term": "Blazers",
+    "Cat ID": "1006138",
+    "Refinements": {
+      "FOB": ["Men"]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Department>Men"
+  },
+    {
+      "Search Term": "Bomber Jackets",
+      "Cat ID": "1006190",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Leather Jackets",
+      "Cat ID": "1005053",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Men"
+    },
+    {
+      "Search Term": "Quilted Jackets",
+      "Cat ID": "1005051",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Vests",
+      "Cat ID": "1006197",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Wool Coats",
+      "Cat ID": "1005055",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Dress Shirts",
+      "Cat ID": "17647",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Slim Fit Dress Shirts",
+      "Cat ID": "1006154",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Regular Fit Dress Shirts",
+      "Cat ID": "1006155",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Classic Fit Dress Shirts",
+      "Cat ID": "1006156",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Jeans",
+      "Cat ID": "10172",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Pants",
+      "Cat ID": "10189",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Casual Pants",
+      "Cat ID": "1006168",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Dress Pants",
+      "Cat ID": "1006177",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Polos",
+      "Cat ID": "1000663",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Shorts",
+      "Cat ID": "11576",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Suits",
+      "Cat ID": "1006182",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Cardigans",
+      "Cat ID": "1006184",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Pullovers",
+      "Cat ID": "1006185",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Short Sleeve T-Shirts",
+      "Cat ID": "1006187",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Long Sleeve T-Shirts",
+      "Cat ID": "1006188",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Boots",
+      "Cat ID": "1000046",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Dress Shoes",
+      "Cat ID": "1001183",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Sneakers",
+      "Cat ID": "1000054",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Backpacks",
+      "Cat ID": "1006227",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Belts",
+      "Cat ID": "1000060",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Hats",
+      "Cat ID": "1006243",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Socks",
+      "Cat ID": "1003733",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Card Cases",
+      "Cat ID": "1006239",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Money Clips",
+      "Cat ID": "1006241",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department>Men"
+    },
+    {
+      "Search Term": "Tuxedos",
+      "Cat ID": "1006183",
+      "Refinements": {
+        "PRODUCT_DEPARTMENT": ["Suits & Tuxedos"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Category> Suits & Tuxedos"
+    },
+    {
+      "Search Term": "Swim",
+      "Cat ID": "1003490",
+      "Refinements": {
+        "FOB": ["Men"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department>Men, Exclude Plus"
+    },
+    {
+      "Search Term": "Gloves",
+      "Cat ID": "1006242",
+      "Refinements": {
+        "GENDER_AGE": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Gender>Men"
+    },
+    {
+      "Search Term": "Scarves",
+      "Cat ID": "1006244",
+      "Refinements": {
+        "GENDER_AGE": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Gender>Men"
+    },
+    {
+      "Search Term": "Sunglasses",
+      "Cat ID": "1000068",
+      "Refinements": {
+        "GENDER_AGE": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Gender>Men"
+    },
+    {
+      "Search Term": "Pocket Squares",
+      "Cat ID": "1006234",
+      "Refinements": {
+        "GENDER_AGE": ["Men"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Gender>Men"
+    }]
+}

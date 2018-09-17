@@ -1,0 +1,8 @@
+{
+  "url":              "",
+  "navigation_menu": 	      "cssSelector, #mb-j-nav-button",
+  "main_menu": "cssSelector, .m-j-cm-element",
+  "stores_menu":    "id,stores",
+  "app_link_reg_page":  "xpath, //a[text()='Book An Appointment']",
+  "app_frame":        "cssSelector,iframe#m-appointment-scheduling-timetrade-container"
+}

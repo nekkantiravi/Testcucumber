@@ -1,0 +1,18 @@
+{
+  "macys": [
+    {
+      "return_order": "picked_up",
+      "order_number": "1289566903",
+      "email": "manjeetrocks@gmail.com",
+      "shipping_zip_code": "45040",
+      "carrier_tracking_nbr": "1ZA6A5859036697485"
+    },
+    {
+      "return_order": "canceled",
+      "order_number": "1307248297",
+      "email": "ORDERMOD@MACYS.COM",
+      "shipping_zip_code": "94539",
+      "carrier_tracking_nbr": "1ZA6A5859036697485"
+    }
+  ]
+}

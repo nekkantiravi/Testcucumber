@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>265_15C_bwedd</internetOrderNumber>
+	<orderDate>06/02/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>313.49</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>18.81</taxAmt>
+	<orderTotal>332.30</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 HORNBLEND ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>SAN DIEGO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>92109</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>332.30</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 E 67TH ST</addressLine1>
+		<addressLine2>APT 4C</addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10065</zipcode>
+		<greetingMessage>Congratulations Em and Chris! We wish you a</greetingMessage>
+		<closingMessage>lifetime of happiness, love, and laughter.</closingMessage>
+		<signatureMessage>Cheers! Kass, LJ, Dan, D and Kev</signatureMessage>
+		<giftRegistryNumber>280002212345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>EMILY</giftRegistrant1>
+		<giftRegistrant2>CHRIS</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>O VIOGNIER/CHARD</description>
+			<price>44.25</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>88.50</totalAmount>
+			<expectedDate>06/28/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor></vendor>
+			<cancelledQuantity>005</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

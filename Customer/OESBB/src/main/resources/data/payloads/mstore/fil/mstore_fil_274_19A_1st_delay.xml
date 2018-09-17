@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19A_MSTORE</reservationNumber>
+	<internetOrderNumber>274_19A_MSTORE</internetOrderNumber>
+	<orderDate>12/09/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.01</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.01</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0041</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>DEBORAH</firstName>
+		<middleName />
+		<lastName>MCLAUGHLIN</lastName>
+		<attnLine />
+		<addressLine1>113 BAILEY RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ANDOVER</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>01810</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************5656</accountNumber>
+		<amount>0.01</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>DEBORAH</firstName>
+		<middleName />
+		<lastName>MCLAUGHLIN</lastName>
+		<attnLine />
+		<addressLine1>113 BAILEY RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ANDOVER</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>01810</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>SOLITAIRE</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/13/2016</expectedDate>
+			<newExpectedDate>01/29/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>LENOX</vendor>
+			<cancelledQuantity />
+			<upcId>000000091709286758</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>ACCENT PL</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

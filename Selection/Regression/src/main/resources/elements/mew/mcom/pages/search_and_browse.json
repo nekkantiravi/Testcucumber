@@ -1,0 +1,5 @@
+{
+  "color_swatch_product": "xpath,(//div[@class='m-more-colors']/ancestor::li//img)[2]",
+  "beauty_product_with_color": "xpath, (//div[@class='m-more-colors' and (not(text()='1 colors'))]/ancestor::li//img)[1]",
+  "member_product": "xpath,(//*[@class='m-product-images'])[1]/div/a/img"
+}

@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>263_13C_bwedd</internetOrderNumber>
+	<orderDate>04/21/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>100.00</orderSubtotalAmt>
+	<baseShippingAmt>11.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>9.85</taxAmt>
+	<orderTotal>120.85</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 COPIAGUE ST</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>VALLEY STREAM</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11580</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>120.85</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 CASTOR PL</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>STATEN ISLAND</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10312</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800064123456</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1>LILA</giftRegistrant1>
+		<giftRegistrant2>JON</giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>SATIN GOLD</description>
+			<price>100.00</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>100.00</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate>04/25/2016</delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor></vendor>
+			<cancelledQuantity>001</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate>06/01/2016</userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

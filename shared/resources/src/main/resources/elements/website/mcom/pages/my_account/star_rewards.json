@@ -1,0 +1,8 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "url": "loyalty/starrewards",
+  "verify_page": "id, loyalty-desktop-banner"
+}

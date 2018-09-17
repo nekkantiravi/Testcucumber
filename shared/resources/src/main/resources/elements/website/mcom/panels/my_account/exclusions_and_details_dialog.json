@@ -1,0 +1,5 @@
+{
+  "exclusions_and_details_header":   "cssSelector, .ui-dialog-titlebar .ui-dialog-title",
+  "exclusions_and_details_content":   "id, detailsExclusionsOverlay",
+  "close":        "className, ui-dialog-titlebar-close"
+}

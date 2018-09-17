@@ -1,0 +1,20 @@
+{
+  "url": "/",
+
+  "switch_drop":        "xpath, //*[@id='navCust']/a",
+  "switch_button":      "xpath, //*[@id='navCustToggle']/li[6]/a",
+  "switch_back_button": "xpath, //*[@id='navCustToggle']/li[7]/a",
+  "switch_popup":       "id, switchUserForm",
+  "search_name":        "xpath, //*[@id='switchUserForm']/input[1]",
+  "search_id":          "xpath, //*[@id='switchUserForm']/input[2]",
+  "switch_text_box":    "id, switchUserTextInput",
+  "confirm_button":     "id, switchUserConfirm",
+  "switch_back":        "linkText, Switch Back",
+  "logout":             "linkText, Logout",
+  "exp_store":          "xpath, //*[@id='storeHeader_0']/div[1]/span",
+  "dm_container":       "id, dmContainer_0",
+  "dm_link":            "xpath, //*[@id='dmContainer_0']/div/div/a",
+  "sm_link":            "xpath, //*[@id='smHeader_2']/div[1]/a",
+  "no_results":         "xpath, //*[@id='switchUserForm']/div"
+
+}

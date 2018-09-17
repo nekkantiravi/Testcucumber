@@ -1,0 +1,8 @@
+{
+  "change_location":  "xpath, //a[contains(@class,'change-location')]",
+  "save":             "id, applyStore",
+  "select_store_button":     "xpath, //input[contains(@type,'radio')]",
+  "container":        "xpath, //div[contains(@class,'BOPStoreOverlay')]",
+  "miles_select":      "id, bopsStoreOverlyByMiles",
+  "store_results":    "id, bopsStores"
+}

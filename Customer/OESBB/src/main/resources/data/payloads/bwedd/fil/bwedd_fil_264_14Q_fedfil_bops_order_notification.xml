@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>264_14Q_BWEDD</internetOrderNumber>
+	<orderDate>06/02/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>40.98</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>4.20</taxAmt>
+	<orderTotal>45.18</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>Y</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>157.87</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>06/03/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title></title>
+		<firstName>John</firstName>
+		<middleName></middleName>
+		<lastName>Miller</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800063123456</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode>628539123456</pickupBarcode>
+		<pickupReadyDate>06/03/2016</pickupReadyDate>
+		<pickupCancelDate>01/10/2018</pickupCancelDate>
+		<shipRetailAmt>40.98</shipRetailAmt>
+		<shipTaxAmt>4.20</shipTaxAmt>
+		<shipFilLoc>0366</shipFilLoc>
+		<shipPhone>608-332-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@ICLOUD.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>CLASSIC SQUARE</description>
+			<price>18.99</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>18.99</totalAmount>
+			<expectedDate>06/03/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity>000</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>CLASSIC RECT CAKE</description>
+			<price>21.99</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>21.99</totalAmount>
+			<expectedDate>06/03/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity>000</cancelledQuantity>
+			<upcId>8058328001799</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

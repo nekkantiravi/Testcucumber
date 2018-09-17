@@ -1,0 +1,85 @@
+{
+  "include_category_ids_mcom": {
+    "Single Category ID": "10066",
+    "Multiple Category IDs separated by Comma": "29440,51608",
+    "Multiple Category IDs separated by Space": "29440 51608"
+  },
+  "include_category_ids_bcom": {
+    "Single Category ID": "32147",
+    "Multiple Category IDs separated by Comma": "32147,7495",
+    "Multiple Category IDs separated by Space": "32147 7495"
+  },
+  "exclude_category_ids_mcom": {
+    "Single Category ID": "66874",
+    "Multiple Category IDs separated by Comma": "59667,55728",
+    "Multiple Category IDs separated by Space": "59667 55728"
+  },
+  "exclude_category_ids_bcom": {
+    "Single Category ID": "8701",
+    "Multiple Category IDs separated by Comma": "1005025,8701",
+    "Multiple Category IDs separated by Space": "1005025 8701"
+  },
+
+  "category_redirect_mcom": {
+    "Category Id": "199"
+  },
+  "category_redirect_bcom": {
+    "Category Id": "193"
+  },
+
+  "Modify Result Set MCOM": {
+    "ProductId": "4199",
+    "SavedQueryId": "1873430"
+  },
+  "Modify Result Set BCOM": {
+    "ProductId": "2733450",
+    "SavedQueryId": "415631",
+    "SavedSet":"416512"
+  },
+
+  "pdp_redirect_mcom": {
+    "PPID1": "4199",
+    "PPID2": "93005"
+  },
+  "pdp_redirect_bcom": {
+    "PPID1": "4199",
+    "PPID2": "93005"
+  },
+
+  "url_redirect_mcom": {
+    "Entire URL": "/shop/featured/rolling-backpack",
+    "Single term from URL": "shoes",
+    "Multiple terms from URL": "customerservice macys"
+  },
+  "url_redirect_bcom": {
+    "Entire URL": "/customerservice/international.jsp",
+    "Single term from URL": "Shoes",
+    "Multiple terms from URL": "fashion handbags"
+  },
+
+  "display_message_mcom": {
+    "Entire Message": "Sorry, Nixon is not available on macys.com, but we have other products you may like.",
+    "Partial Message": "Michael Kors"
+  },
+  "display_message_bcom": {
+    "Entire Message": "For Chanel fragrances and cosmetics, please visit our full website. Chanel ready-to-wear and accessories are available at select stores.",
+    "Partial Message": "Michael Kors"
+  },
+
+  "keyword_pattern_attribute_value": {
+    "Brand value": "armani",
+    "Color value": "green",
+    "Customer Service value": "friends family",
+    "Gender	value": "women",
+    "Material value": "leather",
+    "Miscellaneous value": "wedding",
+    "Occasion value": "wedding",
+    "Product Line value": "accessories",
+    "Product Noun value": "apparel",
+    "Size value": "small",
+    "Special Size value": "long sleeve",
+    "Style value": "straight jeans"
+  }
+
+
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate>01/03/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>199.94</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>5.80</taxAmt>
+	<orderTotal>205.74</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170656123456</ltyIdUsl>
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>9 EARL RD</addressLine1>
+		<addressLine2>9th Floor</addressLine2>
+		<addressLine3 />
+		<city>MELVILLE</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11747</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>205.74</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES-ESP</firstName>
+		<middleName />
+		<lastName>TEST</lastName>
+		<attnLine />
+		<addressLine1>1234 SPRINGBRIAR DR</addressLine1>
+		<addressLine2>9th Floor</addressLine2>
+		<addressLine3 />
+		<city>CASTLE ROCK</city>
+		<state>CO</state>
+		<country>USA</country>
+		<zipcode>80109</zipcode>
+		<greetingMessage>Enjoy your shower !</greetingMessage>
+		<closingMessage>Sorry we could not be there !</closingMessage>
+		<signatureMessage>Love, Aunt Terry, Lisa and Lauren</signatureMessage>
+		<giftRegistryNumber>2800064123456</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@yahoo.com</giftReceipientEmail>
+		<giftRegistrant1>OES-ESP</giftRegistrant1>
+		<giftRegistrant2>TEST</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Lenox Monogrammed Tuscany Stem</description>
+			<price>199.94</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>205.74</totalAmount>
+			<expectedDate>01/08/2016</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>02/07/2016</systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag>N</splitShipmentFlag>
+			<status>BACKORDERED</status>
+			<vendor>Lenox</vendor>
+			<cancelledQuantity>001</cancelledQuantity>
+			<upcId>000000813063021949</upcId>
+			<userCancelDate>12/31/9999</userCancelDate>
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>KING BLKT</size>
+			<color>STEEL GRAY</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,11 @@
+{
+  "url":                          "/social/events/event/?id=<eventid>",
+  "verify_page":                  "cssSelector, div.title-wrap > h1",
+
+  "title":                        "cssSelector: div.title-wrap > h1",
+  "description":                  "cssSelector, p.event-description",
+  "rsvp_link":                    "cssSelector, a.rsvp-link",
+  "datetime_header":              "cssSelector, h2.list-header",
+  "datetime_item":                "cssSelector, tr.event-date-time",
+  "END":                          "cssSelector: body"
+}

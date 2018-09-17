@@ -1,0 +1,9 @@
+{
+  "tab_view":         "id,facetsGrayBar",
+  "store_name":       "xpath, //span[contains(@id,'bopsCX-storeLookup-selectRadio')]",
+  "overlay_title":    "xpath, //div[contains(text(),'CHOOSE A STORE')]",
+  "change_location":  "id, changeLocationNewBops",
+  "save":             "id, bopsCX-storeLookup-saveButton",
+  "miles":            "xpath, //div[@class='current']",
+  "stores":           "TBD"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "registry/wedding/guest",
+  "verify_page": "id, contentGvr||id, r_registrantHeaderInfo||className, GBVR-header-info",
+
+  "category_header": "className, mew-category-head||className, r_categoryHeader||className, cat-header-name",
+  "quantity": "id, item.quantity||className, itemQty||className, thumbnail-quantity",
+  "add_to_bag": "className, addToBag||id, r_addToBag||className, thumbnail-atb",
+  "atb_checkout": "id, checkout||id, pdp_atb_checkout"
+}

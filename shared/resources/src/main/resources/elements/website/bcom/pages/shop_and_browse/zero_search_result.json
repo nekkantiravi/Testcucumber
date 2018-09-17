@@ -1,0 +1,12 @@
+{
+
+    "url": 								"/shop/search||/shop/registry/wedding/search",
+    "verify_page": 						"id, search_zero_results||id, reg_search_zero_results ||className, zsrContainer",
+    "recommendationPanel":              "id, ProsZoneZSRZB||className, horizontalprospanel",
+    "product_badge_text":               "className, moreColors",
+    "product_big_price":                "className, priceBig",
+    "product_sale_price":               "cssSelector, span.priceSale",
+    "productThumbnail":                 "className, productThumbnail",
+    "productThumbnailImage":            "className, productImages",
+    "productDescription":               "className, shortDescription"
+}

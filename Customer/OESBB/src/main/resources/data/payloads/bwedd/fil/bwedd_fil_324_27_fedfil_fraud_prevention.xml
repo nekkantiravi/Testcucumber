@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>1234567890</reservationNumber>
+   <internetOrderNumber>SH1234567890</internetOrderNumber>
+   <orderDate>03/21/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>2029.98</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>5.00</giftWrapAmt>
+   <taxAmt>180.60</taxAmt>
+   <orderTotal>2215.58</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>N</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>Testing</lastName>
+      <attnLine />
+      <addressLine1>123 HUSTED LN</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>GREENWICH</city>
+      <state>CT</state>
+      <country>USA</country>
+      <zipcode>06830</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>2215.58</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag />
+      <title />
+      <firstName>Oes</firstName>
+      <middleName />
+      <lastName>fedfil_fraud_prevention</lastName>
+      <attnLine />
+      <addressLine1>123 RECTOR PL</addressLine1>
+      <addressLine2>APT 123</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10280</zipcode>
+      <greetingMessage>Ashley and Pat - We wish you all of the</greetingMessage>
+      <closingMessage>best. Sorry we can't make it, but let's</closingMessage>
+      <signatureMessage>have dinner NYC soon. Best, Tomoko &amp; Spencer</signatureMessage>
+      <giftRegistryNumber>2800064061234</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber>001</lineNumber>
+         <description>TARTINI - THROW 50X7</description>
+         <price>295.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>295.00</totalAmount>
+         <expectedDate>03/23/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000780870633040</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>002</lineNumber>
+         <description>CABLE CASHMERE</description>
+         <price>595.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>595.00</totalAmount>
+         <expectedDate>03/23/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000886087127294</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>003</lineNumber>
+         <description>LANGDON BORDER</description>
+         <price>279.99</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>279.99</totalAmount>
+         <expectedDate>03/23/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000886087125344</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>004</lineNumber>
+         <description>INDIGO MONTAUK</description>
+         <price>299.99</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>299.99</totalAmount>
+         <expectedDate>03/23/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000886087210224</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+   <shipmentDetail>
+      <shipmentNumber>002</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag />
+      <title />
+      <firstName>OES</firstName>
+      <middleName />
+      <lastName>TESTING</lastName>
+      <attnLine />
+      <addressLine1>123 RECTOR PL</addressLine1>
+      <addressLine2>APT 123</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10280</zipcode>
+      <greetingMessage>Ashley and Pat - We wish you all of the</greetingMessage>
+      <closingMessage>best. Sorry we can't make it, but let's</closingMessage>
+      <signatureMessage>have dinner NYC soon. Best, Tomoko &amp; Spencer</signatureMessage>
+      <giftRegistryNumber>2800064061234</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber>005</lineNumber>
+         <description>REVERE XLARGE</description>
+         <price>280.00</price>
+         <requestedQuantity>002</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>000</shippedQuantity>
+         <totalAmount>560.00</totalAmount>
+         <expectedDate>03/23/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000613580009570</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

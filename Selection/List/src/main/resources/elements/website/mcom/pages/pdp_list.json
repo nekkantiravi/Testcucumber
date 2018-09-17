@@ -1,0 +1,12 @@
+{
+  "url": "/",
+  "add_to_list": "cssSelector, div[data-action='addToList']",
+  "addToListMsgPoppup": "cssSelector,#atwMessage",
+  "addToListPopupListLink": "cssSelector,a#atwMessage",
+  "addToListOverlay": "cssSelector,#processPnl",
+  "addToListOverlayClose":"cssSelector, #pnlClose",
+  "addToListSigninlink": "cssSelector, #wishlistsignin",
+  "pdp_add_to_list" : "xpath,.//*[@id='orderPanel22805']/div/div[1]/div[3]/div",
+  "pdp_type": "xpath,.//*[@id='orderPanel4789847']/div[2]/div[2]/div[1]/ul/li[1]/div",
+  "pdp_zipcode": "id,zipCode"
+}

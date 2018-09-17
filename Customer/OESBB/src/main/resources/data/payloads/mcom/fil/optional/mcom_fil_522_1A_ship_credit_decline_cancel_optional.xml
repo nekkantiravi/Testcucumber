@@ -1,0 +1,134 @@
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<internetOrderNumber>522_1A_MCOM</internetOrderNumber>
+	<orderDate></orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt></orderSubtotalAmt>
+	<baseShippingAmt></baseShippingAmt>
+	<addtShipAddAmt></addtShipAddAmt>
+	<shipUpgradeAmt></shipUpgradeAmt>
+	<giftWrapAmt></giftWrapAmt>
+	<taxAmt></taxAmt>
+	<orderTotal></orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>3104170756412345</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+	</billingDetail>
+	<paymentDetail>
+	<paymentType>Visa</paymentType>
+		<accountNumber>************5645</accountNumber>
+		<amount>522.02</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oes.migration.test@datamaticTestmail.com</giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Medici 7 Piece California King</description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity/>
+			<shippedQuantity/>
+			<totalAmount>150.99</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType></shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor>Mytex</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId></upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size />
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description></description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity/>
+			<shippedQuantity/>
+			<totalAmount>250.10</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType></shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>ON ORDER</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId></upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

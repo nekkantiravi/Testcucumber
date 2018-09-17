@@ -1,0 +1,20 @@
+{
+  "add_trigger": "id,addTriggerBtn",
+  "keyword_patter_match_type": "id, labelKeywordPatternMatch0",
+  "result_set_trigger_operator_types": "id, dropdownResultSetTrigger0_0",
+  "trigger_group_name": "id, name",
+  "all_search_alert_Ok": "xpath, //button[contains(.,'Ok')]",
+  "all_search_alert_cancel": "xpath, //button[contains(.,'Cancel')]",
+  "category_id": "id, inputCategoryID",
+  "save_trigger_group": "id, triggerGroupSave",
+  "cancel_trigger_group": "id, triggerGroupCancel",
+  "edit_trigger_group" : "id, triggerGroupEdit",
+  "result_set_operator": "id, logicalDropdownResultSetTrigger0_0",
+  "result_set_percentage": "id, inputPercent0_0",
+  "multiple_trigger_operator_label": "id, labelGlobalOperator",
+  "multiple_trigger_operator_And": "id, triggerGlobalOperatorAnd",
+  "multiple_trigger_operator_Or": "id, triggerGlobalOperatorOr"
+
+
+
+}

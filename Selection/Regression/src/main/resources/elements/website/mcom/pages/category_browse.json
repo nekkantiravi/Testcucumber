@@ -1,0 +1,8 @@
+{
+  "product_thumbnail": "xpath, //div[@class='sortableGrid']/ul/li[1]//div[2]/div[2]/a || xpath, //div[@class='sortableGrid']/ul/li[1]//div[3]/div[2]/a || xpath, //div[@class='sortableGrid']/ul/li[1]/div/div/a",
+  "left_nav_Brand_list": "className, brand-item",
+  "sub_category": "cssSelector, .subCatList a || xpath, //div[@id='categoryTree']/ul/li",
+  "clear_all_facet_selections": "className, clearall",
+  "facetBreadcrumbs": "cssSelector, #facetItems span",
+  "product_price": "xpath, //div[@class='prices']"
+}

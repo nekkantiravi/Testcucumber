@@ -1,0 +1,16 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url":         "/account/signin?program=usl",
+  "verify_page": "title, Plenti sign in",
+
+  "join_plenti_text":                   "xpath, //div[@class='small-8 columns account-signin']/h5",
+  "email_address_label":                "xpath, //div[@class='columns small-5']/label",
+  "password_label":                     "xpath, //div[@class='columns small-5']/label[@class='accFormlabel inline right']",
+  "password_info_text":                 "id, accountCaseSensitive",
+  "create_macys_plenti_account_text":   "xpath, //div[@class='small-7 columns right create-profile-sec']/h5",
+  "privacy_practices":                  "id, privacyPolicy"
+}

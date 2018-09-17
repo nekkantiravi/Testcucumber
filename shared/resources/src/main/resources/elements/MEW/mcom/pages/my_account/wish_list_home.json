@@ -1,0 +1,13 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer",
+    "panel.search"
+  ],
+
+  "url": "/wishlist/home",
+
+  "list_item_footer": "className, m-lists-item-footer",
+  "goto_list": "className, m-lists-item-go",
+  "create_new_list": "className, m-create-new-list"
+}

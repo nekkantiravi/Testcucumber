@@ -1,0 +1,5 @@
+{
+    "wish_list_overlay":            "id, b-overlay-confirmation-btns||id, b-overlay-confirmation||className, b-overlay-content",
+    "view_list":                    "id, b-list-view-list",
+    "wish_list_close_overlay":      "id, b-overlay-icon-close"
+}

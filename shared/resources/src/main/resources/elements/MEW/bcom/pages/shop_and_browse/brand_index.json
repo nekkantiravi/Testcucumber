@@ -1,0 +1,11 @@
+{
+  "url": "/shop/wedding-registry/all-brands||/shop/all-designers",
+  "verify_page": "className, mvMenuWrap||id, b-designer-index",
+
+  "brand_alphabates": "cssSelector, div.mvMenuWrap>div.mvBloomMenuHeader",
+  "brand_links": "className, to_be_sprited-rightArrow||className, b-j-designer-link",
+  "sort_by_select": "id, mb-search-select-sortby",
+  "back_to_top": "className, back-to-top-btn",
+  "designers_label": "className, b-designers-label",
+  "products": "id, b-search-results"
+}

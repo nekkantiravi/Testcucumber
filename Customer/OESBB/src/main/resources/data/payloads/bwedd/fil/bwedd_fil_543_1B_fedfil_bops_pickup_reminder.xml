@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>123456789</reservationNumber>
+  <internetOrderNumber>123456789</internetOrderNumber>
+  <orderDate>04/01/2016</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>76.50</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>6.79</taxAmt>
+  <orderTotal>83.29</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0366</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 2ND AVE</addressLine1>
+    <addressLine2>APT 2S</addressLine2>
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10065</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>83.29</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>04/01/2016</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag>C</mailFlag>
+    <title />
+    <firstName>JOHN</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 3RD AVE</addressLine1>
+    <addressLine2>12TH STREET AND LEXINGTON AVE</addressLine2>
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10022</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>2800064051234</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>Y</giftReceiptFlag>
+    <pickupBarcode>509013351234</pickupBarcode>
+    <pickupReadyDate>04/01/2016</pickupReadyDate>
+    <pickupCancelDate>04/08/2016</pickupCancelDate>
+    <shipRetailAmt>76.50</shipRetailAmt>
+    <shipTaxAmt>6.79</shipTaxAmt>
+    <shipFilLoc>0366</shipFilLoc>
+    <shipPhone>914-844-1234</shipPhone>
+    <shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>CELINE - THROW 51X71</description>
+      <price>76.50</price>
+      <requestedQuantity>003</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>76.50</totalAmount>
+      <expectedDate>04/01/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity>000</cancelledQuantity>
+      <upcId>8058328001799</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+     <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>CELINE - THROW 51X71</description>
+      <price>76.50</price>
+      <requestedQuantity>004</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>002</shippedQuantity>
+      <totalAmount>76.50</totalAmount>
+      <expectedDate>04/01/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>VOIDED</status>
+      <vendor />
+      <cancelledQuantity>002</cancelledQuantity>
+      <upcId>5052376910532</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

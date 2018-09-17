@@ -1,0 +1,5 @@
+{
+  "add_to_registry_overlay": "id, b-atr-overlay",
+  "overlay_close": "className, mb-j-overlay-close",
+  "view_registry": "className, b-atr-view-button"
+}

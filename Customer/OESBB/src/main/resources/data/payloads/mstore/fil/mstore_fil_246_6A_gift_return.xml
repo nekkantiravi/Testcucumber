@@ -1,0 +1,141 @@
+<mailMessagePayload>
+	<reservationNumber>345</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>05/08/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>33.75</orderSubtotalAmt>
+	<baseShippingAmt>20.00</baseShippingAmt>
+	<addtShipAddAmt>40.00</addtShipAddAmt>
+	<shipUpgradeAmt>60.00</shipUpgradeAmt>
+	<giftWrapAmt>80.00</giftWrapAmt>
+	<taxAmt>2.36</taxAmt>
+	<orderTotal>36.11</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0059</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104171392041234</ltyIdUsl>
+	<multiSiteId>789</multiSiteId>
+    <munTaxAmt>100.00</munTaxAmt>
+    <miscTaxAmt>110.00</miscTaxAmt>
+	<billingDetail>
+		<title></title>
+		<firstName>2466AMSTOREVData</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 HADDON AVE</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>WESTMONT</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08108</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>999.99</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>05/06/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 N HUBERT AVE</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>TAMPA</city>
+		<state>FL</state>
+		<country>USA</country>
+		<zipcode>33609</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>PINCH WEEKENDER</description>
+			<price>33.75</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>1200.00</totalAmount>
+			<expectedDate>05/06/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>COLE HAAN</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>882864552730</upcId>
+			<returnExpectedDate>06/03/2016</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>M</size>
+			<color>DUNE SUEDE</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>PINCH WEEKENDER</description>
+			<price>45.75</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>00</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>33.75</totalAmount>
+			<expectedDate>05/06/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>COLE HAAN</vendor>
+			<cancelledQuantity>08</cancelledQuantity>
+			<upcId>882864569851</upcId>
+			<returnExpectedDate>06/03/2016</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>L</size>
+			<color>DUNE SUEDE</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

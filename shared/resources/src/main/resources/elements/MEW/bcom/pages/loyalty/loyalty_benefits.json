@@ -1,0 +1,4 @@
+{
+    "url": "/loyallist/benefits",
+    "verify_page": "className, b-loyallist-benefits-header||id, the-perks-list"
+}

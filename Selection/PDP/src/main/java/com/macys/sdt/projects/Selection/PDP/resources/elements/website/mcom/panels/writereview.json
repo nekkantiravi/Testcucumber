@@ -1,0 +1,14 @@
+{
+  "review_star_rates":		        		     "cssSelector, .rating-star",
+  "review_header":		        			     "cssSelector, .reviewTitle",
+  "review_body":        					   	 "cssSelector, .reviewDetails",
+  "review_nickname":	         			   	 "cssSelector, .reviewNickname",
+  "review_prdname":	         					 "cssSelector, .columns>a",
+  "prodid":			             				 "cssSelector, .productID",
+  "recommend_yes_btn":		            		 "cssSelector, #is_recommended_yes_{arg1}",
+  "recommend_no_btn":		         		     "cssSelector, #is_recommended_no_{arg1}",
+  "review_submit_btn":			    		     "cssSelector, .reviewSubmit",
+  "confirmation_msg":	    					 "cssSelector, .columns>p>strong",
+  "confProdImg":                                 "cssSelector, .columns.small-2>img",
+  "registryWriteReviewOverlay":                  "cssSelector, #BVLBContainerID>div>form>div.BVPageBody.BVBody"
+}

@@ -1,0 +1,56 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>245_5M_MCOM</internetOrderNumber>
+	<orderDate>04/04/2016</orderDate>
+	<ltyIdUsl>3104170850921234</ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	 <paymentDetail>
+    	<paymentType>Visa</paymentType>
+    	<accountNumber>************6594</accountNumber>
+    	<amount></amount>
+    	<paymentCategoryFlag>D</paymentCategoryFlag>
+    </paymentDetail>
+ 	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shipRetailAmt>76.59</shipRetailAmt>
+		<shipTaxAmt>3.23</shipTaxAmt>
+		<returnSubmittedDate>09/07/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Butterfly Meadow Blue 18 Pc. Set</description>
+			<price>30.0</price>
+			<requestedQuantity>001</requestedQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>30</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Lenox</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/05/2016</returnExpectedBackDate>
+			<returnReason>Wrong Item</returnReason>
+			<returnReceiptDate>09/23/2016</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>French Perle Groove Bowl</description>
+			<price>29.20</price>
+			<requestedQuantity>001</requestedQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>29.2</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Lenox</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/05/2016</returnExpectedBackDate>
+			<returnReason>Broken Item</returnReason>
+			<returnReceiptDate>09/22/2016</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

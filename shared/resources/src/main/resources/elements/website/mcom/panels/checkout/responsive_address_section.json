@@ -1,0 +1,12 @@
+{
+  "first_name": "id, rc-shipping-firstName || id, rc-bc-firstName",
+  "last_name": "id, rc-shipping-lastName || id, rc-bc-lastName",
+  "address_line1": "id, rc-shipping-line1 || id, rc-bc-line1",
+  "address_line2": "id, rc-shipping-line2 || id, rc-bc-line2",
+  "address_city": "id, rc-shipping-city || id, rc-bc-city",
+  "address_state": "id, rc-shipping-state || id, rc-bc-state",
+  "address_zip_code": "id, rc-shipping-postal-code || id, rc-bc-zipCode",
+  "phone_number": "id, rc-shipping-phone || id, rc-bc-phoneNumber",
+  "payment_email": "id, rc-shipping-email || id, rc-bc-email",
+  "address_field_errors": "cssSelector, #rc-shipping-info-form .error_msg || cssSelector, #rc-shipping-address-form .error_msg"
+}

@@ -1,0 +1,61 @@
+{
+    "element_name":                     "selector_type, selector",
+    "goto_back_to_bloomingdales": "linkText, BACK TO BLOOMINGDALES.COM",
+    "goto_aboutUs"          :  "className, bl_header_pg_img",
+    "goto_bcause"           : "className, lp_imgs_top",
+    "goto_bloomiesjobs"     : "className, page-container",
+    "waystoshop_header"     : "id, ln_abWts",
+    "online_mobile_page"    : "linkText, Online & Mobile",
+    "storesEvents_headers"  : "className, header-button-wrapper||linkText, View All Stores",
+    "outlet_page"           :  "xpath, //*[@id='nav_category']/div[6]/div/a",
+    "customer_service_header":          "linkText, CUSTOMER SERVICE",
+    "goto_visually_impaired":           "linkText, Visually Impaired Customers",
+    "social_icons":                     "xpath, //*[alt='Connect With Us']",
+
+    "visitor_service"     :             "className, bl_header_pg_img",
+    "customer_service_page_verify":"id, CS_logo",
+    "visually_impaired_page_verify":"id, howto",
+    "customer_rights_page_verify":"lintText, MACY’S",
+    "outlet_store_page_verify": "class, gn_left_nav_top",
+    "stores_and_events_page_verify":"className, header",
+    "online_and_mobile_page_verify":"class, mobile_app",
+    "ways_to_shop_page_verify": "id, ways_to_shop_header",
+    "careers_page_verify": "id, searchQuery",
+    "b_cause_page_verify": "className, bl_breadcrumb_bold",
+    "company_page_verify": "className, bl_header_pg_img",
+    "sign_up_link": "id, cmFooterSocialMediaSignUP",
+
+    "customer_service_pages_verify": "id, CS_logo",
+
+    "wishList_page_verify": "linkText, MY WISH LIST",
+
+    "face_book_page_verify":            "className, fb_logo",
+    "twitter_page_verify":              "className, Icon--bird",
+    "pinterest_page_verify":            "className, circleLogo ",
+    "instagram_page_verify":            "linkText, Instagram",
+    "mobile_page_verify":               "id, way_to_shop_Content",
+    "sign_up_page_verify":              "xpath, //*[@id='wrapper']/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr/td/form/table/tbody/tr/td[1]/table[4]/tbody/tr[2]/td/table/tbody/tr/td[2]/input",
+    "close_popup":                      "className, shq_exit",
+
+    "iship_goto_your_order":                  "linkText, YOUR ORDER",
+    "iship_goto_order_status":                  "linkText, Order Status",
+    "iship_goto_shipping_policy":                  "linkText, Shipping Policy",
+    "iship_goto_return_exchange":                  "linkText, Returns & Exchanges",
+
+    "iship_goto_customer_services":                  "linkText, CUSTOMER SERVICE",
+    "iship_goto_faqs":                  "linkText, FAQs",
+    "iship_goto_visitor_servies":                  "linkText, Visitor Services",
+    "iship_goto_domestic":                  "linkText, Domestic",
+
+    "iship_verify_customer_service":  "linkText, Who is Borderfree?",
+    "iship_verify_faqs":              "linkText, Who is Borderfree?",
+    "iship_verify_visitor_services":   "linkText, Visitor Services",
+    "iship_verify_domestic":           "id, CS_logo",
+
+    "iship_verify_your_order":         "linkText, Who is Borderfree?",
+    "iship_verify_order_status":       "id, trackOrder",
+    "iship_verify_shipping_policy":    "id, switchimg3",
+    "iship_verify_return_exchange":    "id, switchimg4"
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "url": "/account/signin?fromCheckout=fromCheckout||/bag/index.ognc",
+  "verify_page": "id, guest-checkout || className, checkout_signin_col1||id, mb-j-guest-button",
+
+  "continue_checkout_guest_button": "id, guest-checkout || linkText, GUEST CHECKOUT||id, mb-j-guest-button",
+  "email": "id, email||id, mb-j-signup-email",
+  "password": "id, password||id, mb-j-signup-password||id, pw-input",
+  "checkout_button": "id, checkout_sign_BtnImg||id, mb-j-signin-button,id, sign-in"
+}

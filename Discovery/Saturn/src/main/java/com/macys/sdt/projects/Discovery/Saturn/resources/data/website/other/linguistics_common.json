@@ -1,0 +1,14 @@
+{
+  "dictionary_error":"//div[@class='mDialog']/div/ul",
+  "ok_button":"//button[contains(.,'Ok')]",
+  "search_term":"filterTermVal",
+  "clear_filter":"id,filterTermClearLink",
+  "page_title":"//div[@id='pHeader']/div",
+  "term_search_results":"TBLterms_info",
+  "terms_data_on_terms_page":"//table[@id='TBLterms']/tbody/tr[1]/td[",
+  "add_term_popup_title": "//span[@id='ui-dialog-title-addRelationDiv']",
+  "edit_term_popup_title": "//span[@id='ui-dialog-title-editRelationDiv']",
+  "term_result":"//table[@id='TBLrelationships']/tbody/tr/td[1]",
+  "terms_filter_by": "filterOperatorList",
+  "term_search_field": "filterTermVal"
+}

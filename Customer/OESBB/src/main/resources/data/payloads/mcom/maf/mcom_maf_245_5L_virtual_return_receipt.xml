@@ -1,0 +1,60 @@
+<mailMessagePayload>
+	<reservationNumber>test_245_5L_MCOM</reservationNumber>
+	<internetOrderNumber>test_245_5L_MCOM</internetOrderNumber>
+	<orderDate>04/16/2016</orderDate>
+	<ltyIdUsl>3104170688991234</ltyIdUsl>
+	<baseShippingAmt>4.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>EGC</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>93.79</amount>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>4</shipmentNumber>
+		<shipRetailAmt>30.00</shipRetailAmt>
+		<shipTaxAmt>40.00</shipTaxAmt>
+		<returnSubmittedDate>04/20/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>5</lineNumber>
+			<description>WOMENS BOYFRIEND KAHKI LEATHE</description>
+			<price>90.04</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<totalAmount>217.58</totalAmount>
+			<expectedDate>03/22/2016</expectedDate>
+			<shippedQuantity>1</shippedQuantity>
+			<shipmentType>Return</shipmentType>
+			<vendor>COACH</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/18/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>04/22/2016</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>5</lineNumber>
+			<description>WOMENS BOYFRIEND KAHKI LEATHE</description>
+			<price>92.04</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<totalAmount>217.58</totalAmount>
+			<expectedDate>03/22/2016</expectedDate>
+			<shippedQuantity>1</shippedQuantity>
+			<shipmentType>Return</shipmentType>
+			<vendor>COACH</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/18/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>04/22/2016</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

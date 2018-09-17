@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>123456789</reservationNumber>
+   <internetOrderNumber>123456709</internetOrderNumber>
+   <orderDate>06/09/2016</orderDate>
+   <ltyIdUsl />
+   <baseShippingAmt>10.00</baseShippingAmt>
+   <billingDetail>
+      <firstName>OES</firstName>
+      <middleName>QA</middleName>
+      <lastName>TESTING</lastName>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************0605</accountNumber>
+      <amount>224.98</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>3</shipmentNumber>
+      <shipRetailAmt>60.71</shipRetailAmt>
+      <shipTaxAmt>3.12</shipTaxAmt>
+      <returnSubmittedDate>06/07/2016</returnSubmittedDate>
+      <itemDetail>
+         <lineNumber>2</lineNumber>
+         <description>Metro Backpack</description>
+         <price>245.00</price>
+         <requestedQuantity>1</requestedQuantity>
+         <shippedQuantity>1</shippedQuantity>
+         <totalAmount>245.0</totalAmount>
+         <shipmentType>Exchange</shipmentType>
+         <vendor>MZ WALLACE</vendor>
+         <upcNumber>5052376910532</upcNumber>
+         <size>M</size>
+         <color>White</color>
+         <returnExpectedBackDate>12/31/9999</returnExpectedBackDate>
+         <returnReason>Not Received by Customer with Wrong Address with Tracking</returnReason>
+         <returnReceiptDate>06/13/2016</returnReceiptDate>
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>2</lineNumber>
+         <description>Metro Backpack</description>
+         <price>245.00</price>
+         <requestedQuantity>1</requestedQuantity>
+         <shippedQuantity>1</shippedQuantity>
+         <totalAmount>245.0</totalAmount>
+         <shipmentType>Exchange</shipmentType>
+         <vendor>MZ WALLACE</vendor>
+         <upcNumber>190089164219</upcNumber>
+         <size />
+         <color />
+         <returnExpectedBackDate>12/31/9999</returnExpectedBackDate>
+         <returnReason>Not Received by Customer with Wrong Address with Tracking</returnReason>
+         <returnReceiptDate>06/13/2016</returnReceiptDate>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>
+
+

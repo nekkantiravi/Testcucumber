@@ -1,0 +1,6 @@
+{
+  "alphabet_wrapper": "class, swiper-wrapper",
+  "designers_sections": "class, b-designers-section",
+  "designer_links": "class, b-j-designer-link",
+  "scroll_top_button": "id, b-designer-index-scroll-top"
+}

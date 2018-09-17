@@ -1,0 +1,3 @@
+{
+  "rule_id": "select * from merch_rule where site_tenant='MCOM' and rownum = 1"
+}

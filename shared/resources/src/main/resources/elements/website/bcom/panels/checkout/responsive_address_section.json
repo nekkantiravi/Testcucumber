@@ -1,0 +1,13 @@
+{
+
+  "first_name"  :   "id, contact.firstName",
+  "last_name"  :   "id, contact.lastName",
+  "address_line1"  :   "id, contact.address.addressLine1 || id, address.addressLine1",
+  "address_line2"  :   "id, contact.address.addressLine2 || id, address.addressLine2",
+  "address_city"  :   "id, contact.address.city || id, address.city",
+  "address_state"  :   "cssSelector, [name='contact.address.state']~.custom || cssSelector, [name='address.state']~.custom",
+  "address_zip_code"  :   "id, contact.address.zipCode || id, address.zipCode",
+  "phone_number"  :   "id, contact.address.phoneNumber || id, address.phone",
+  "payment_email":   "id, contact.email",
+  "address_field_errors": "cssSelector, #rc-shipping-address-wrapper .errorMessageInline:not(.displayNone)||cssSelector, #rc-shipping-address-form .errorMessageInline:not(.displayNone)||cssSelector, #rc-shipping-info-form .errorMessageInline"
+}

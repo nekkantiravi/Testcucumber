@@ -1,0 +1,22 @@
+{
+  "id" : "8ec19b9c-6959-3c53-92c3-3e58063c8225",
+  "request" : {
+    "url" : "/api/catalog/v2/products/2374553,5424872?_fields=id,memberProductIds,available,lowAvailabilityMessage,countryEligible,rebatesAvailable,checkInStoreEligibility,visible,canonicalProductUrl,attributes&sdpGrid=primary&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_shoppingMode=SITE&_customerExperiment=NO_EXPERIMENT",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-products-2374553_5424872-V13c1.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "90230c45-a551-4011-ba9d-73b17d4122f3",
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 03 Jan 2018 22:07:44 GMT"
+    }
+  },
+  "uuid" : "8ec19b9c-6959-3c53-92c3-3e58063c8225"
+}

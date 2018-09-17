@@ -1,0 +1,19 @@
+{
+  "url": "/",
+
+  "associate_homepage":                     "id, CustomerAndBookValue",
+  "switch_user_input_box":                  "xpath, //label[@id='spSearchInput']/input",
+  "associate_list":                         "class, scroll-content ionic-scroll",
+  "sales_manager_homepage":                 "class, pane",
+  "switch_user_overlay":                    "class, popup",
+  "first_selling_area_in_list":             "xpath, //div[@class=‘list’]/div[1]/ion-item/i",
+  "second_selling_area_in_list":            "xpath, //div[@class=‘list’]/div[2]/ion-item/i",
+  "third_selling_area_in_list":             "xpath, //div[@class=‘list’]/div[3]/ion-item/i",
+  "forth_selling_area_in_list":             "xpath, //div[@class=‘list’]/div[4]/ion-item/i",
+  "cancel_button":                          "xpath, //button[contains(text(), 'Cancel')]",
+  "switch_button":                          "xpath, //button[contains(text(), 'Switch')]",
+
+  "associate":                              "xpath, //div[@class=‘list’]/div[2]/ion-item[2]/div[1]/div/h3"
+
+
+}

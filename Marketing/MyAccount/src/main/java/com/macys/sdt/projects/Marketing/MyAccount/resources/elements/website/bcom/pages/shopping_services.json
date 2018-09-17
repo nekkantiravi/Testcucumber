@@ -1,0 +1,10 @@
+{
+    "url": "/b/about-us/shopping/shopping-services/",
+    "verify_page": "cssSelector, [alt='Shopping Services']",
+    "shopping_services_header": "cssSelector, [alt='Shopping Services']",
+    "size_charts_left_nav": "id, about_sizeCharts",
+    "size_charts_women": "id, about_women",
+    "size_charts_men": "id, about_men",
+    "size_charts_kids": "id, about_kids",
+    "size_charts_Shoes": "id, about_shoes"
+}

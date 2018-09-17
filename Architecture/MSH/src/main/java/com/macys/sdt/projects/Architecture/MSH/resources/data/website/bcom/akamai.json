@@ -1,0 +1,39 @@
+{
+      "qa15codebloomingdales": {
+        "www.qa15codbloomingdales.fds.com": {
+          "site-shop": {
+            "host": "www.qa15codebloomingdales.fds.com",
+            "pattern": "/formshgslb"
+          }
+        }
+      },
+
+  "qa10codebloomingdales": {
+    "www.qa10bloomingdales.fds.com": {
+      "site-shop": {
+        "host": "www.qa10codebloomingdales.fds.com",
+        "pattern": "/formshgslb"
+      }
+    }
+  },
+
+  "qa11codebloomingdales": {
+    "www.qa11codebloomingdales.fds.com": {
+      "site-shop": {
+        "host": "www.qa11codebloomingdales.fds.com",
+        "pattern": "/formshgslb"
+      }
+    }
+  },
+
+  "qa21codebloomingdales": {
+    "www.qa21codebloomingdales.fds.com": {
+      "site-shop": {
+        "host": "www.qa21codebloomingdales.fds.com",
+        "pattern": "/formshgslb"
+      }
+    }
+  }
+
+}
+

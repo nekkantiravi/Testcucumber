@@ -1,0 +1,17 @@
+{
+  "container": "id, myAccountContainer",
+  "nav_menu_list": "id, mb-j-nav-menu||id, gn-menu",
+  "loading": "id, mb-j-content-container",
+  "overlay_container": "id, mb-content-overlay",
+  "registry_global_nav_visible": "className, icon-selectedMenuButton||className, mb-icon-selectedMenuButton",
+  "global_nav_visible": "className, selectedMenuButton||className, icon-selectedMenuButton||className, mb-icon-selectedMenuButton",
+  "global_nav_button": "id, mb-j-nav-button||id, mw-nav-button",
+  "global_nav_button_icon": "id, mb-j-nav-button-icon||id, mb-j-nav-button",
+  "current_nav": "cssSelector, #mb-j-nav-menu > li.child > a||cssSelector, div#content-container>li||className,mw-nav-link",
+  "current_nav_link": "cssSelector, #mb-j-nav-menu > li.child > a||cssSelector, #mw-nav-menu > li.child > a||className, mw-nav-link",
+  "global_nav_not_visible": "className, unselectedMenuButton",
+  "global_nav_child_list": "xpath, //ul[@id='mb-j-nav-menu']/li[@class='child']",
+  "gn_current_category": "class, current||class, currentRow",
+  "gn_parent_category": "class, parent",
+  "gn_child_categories": "class, child"
+}

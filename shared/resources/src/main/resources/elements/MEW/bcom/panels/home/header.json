@@ -1,0 +1,20 @@
+{
+  "header_container": "id, mb-j-header-container",
+  "header_image": "id, mb-j-header-image||class, bloomiesLogo||class,b-header-logo",
+  "shopping_bag_icon": "id, mb-j-shopping-bag-image || id, myBag ||id, bag-image||id, shopping-bag",
+  "my_bag": "id, mb-j-shopping-bag-image || id, myBag",
+  "search_suggestions": "cssSelector, a.mb-select-autocomplete",
+  "search_field": "xpath, //input[@name='keyword']",
+  "top_nav_wish_list_icon": "id, b-j-wishlist-btn || class, b-j-wishlist-btn-wrapper || id, wishlist-btn",
+  "top_nav_wish_list_icon_selected": "class, b-wishlist-added",
+  "wish_list_tool_tip": "class, b-j-msg-toast-text",
+  "bag_count": "id, b-shopping-bag-count",
+  "main_navigation_button": "id, mb-j-nav-container",
+  "navigation_menu" : "css, #mb-j-nav-menu",
+  "bloomies_logo": "id, logoContainer",
+  "registry_title": "class, registryHeader",
+  "meta_description":             "name, description",
+  "meta_keyword":                 "name, 'keywords",
+  "canonical_tag":                "css, [rel='canonical']",
+  "alternate_tag":                "css, [rel='alternate']"
+}

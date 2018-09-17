@@ -1,0 +1,6 @@
+{
+  "mcom": {
+    "pdpUrl": "/shop/product/?ID=%d",
+    "registryPdpUrl": "/shop/registry/wedding/product/?ID=%d"
+  }
+}

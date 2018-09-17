@@ -1,0 +1,7 @@
+{
+
+    "regClaimOverlay":                   "className, regClaimOverlay",
+    "registryClaim":                     "id, registryClaim",
+    "registryClaimBody":                 "className, registryClaimBody",
+    "registryClaimHeader2":              "className, registryClaimHeader2"
+}

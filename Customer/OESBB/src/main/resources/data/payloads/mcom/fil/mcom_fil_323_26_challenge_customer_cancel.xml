@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>642132915</reservationNumber>
+	<internetOrderNumber>323_26_mcom</internetOrderNumber>
+	<orderDate>11/28/2012</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>4.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>5.00</addtShipAddAmt>
+	<shipUpgradeAmt>6.00</shipUpgradeAmt>
+	<giftWrapAmt>7.00</giftWrapAmt>
+	<taxAmt>8.00</taxAmt>
+	<orderTotal>10.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<ltyIdUsl>310417076123456</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 ERWIN ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>WOODLAND HILLS</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91367</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1156</accountNumber>
+		<amount>230.99</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Hi</greetingMessage>
+		<closingMessage>Hello</closingMessage>
+		<signatureMessage>Shreen</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>SS-700 Coffee Maker, Single Se</description>
+			<price>199.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>199.99</totalAmount>
+			<expectedDate>11/29/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor>Cuisinart</vendor>
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

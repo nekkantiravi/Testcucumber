@@ -1,0 +1,7 @@
+{
+  "url":         "/buy",
+  "verify_page": "id, b-search-container",
+
+  "dlp_page_content": "id, mb-j-content-container",
+  "product_count": "class, b-browse-category-products-count"
+}

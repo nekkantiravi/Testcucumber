@@ -1,0 +1,140 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>04/26/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>59.98</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>59.98</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>Y</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170851531234</ltyIdUsl>
+	<multiSiteId>123</multiSiteId>
+    <munTaxAmt>12.3</munTaxAmt>
+    <miscTaxAmt>9.00</miscTaxAmt>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 VALENTINE AVE</addressLine1>
+		<addressLine2>APT 1B</addressLine2>
+		<addressLine3></addressLine3>
+		<city>BRONX NY</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10458</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>59.98</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/27/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title></title>
+		<firstName>John</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 W 12TH ST</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10001</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>556835912345</pickupBarcode>
+		<pickupReadyDate>04/27/2016</pickupReadyDate>
+		<pickupCancelDate>12/24/2017</pickupCancelDate>
+		<shipRetailAmt>59.98</shipRetailAmt>
+		<shipTaxAmt>0.00</shipTaxAmt>
+		<shipFilLoc>5319</shipFilLoc>
+		<shipPhone>908-943-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@HOTMAIL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Cap-Sleeve Cutout Top</description>
+			<price>22.49</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>22.49</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>INC International Concepts</vendor>
+			<cancelledQuantity>000</cancelledQuantity>
+			<upcId>781910666011</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Sequined Split-Back Top, Only</description>
+			<price>37.49</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>37.49</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>INC International Concepts</vendor>
+			<cancelledQuantity>000</cancelledQuantity>
+			<upcId>735991467265</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,6 @@
+{
+  "pdp_price": 	"class, tieredPrices",
+  "pdp_sale_price": "class, priceSale",
+  "pdp_selected_color": "class, selectedColorName",
+  "gift_card_amount":  "id, dollarval"
+}

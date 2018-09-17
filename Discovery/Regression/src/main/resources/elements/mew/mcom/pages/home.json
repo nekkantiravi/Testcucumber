@@ -1,0 +1,10 @@
+{
+  "main_ads": "xpath, //div[@class='vertical-home-banner']//a",
+  "main_nav_button": "id, mb-j-nav-button",
+  "shop_menu_loc" : "xpath, //li[@id='shop']/a",
+  "cat_menu_list_loc" : "xpath, //ul[@Id='mb-j-nav-menu']/li[@class='child']/a",
+  "registry_menu_loc" : "id, mb-j-nav-button-icon",
+  "registry_shop_loc" : "xpath, //ul[@id='mw-nav-menu']/li[@id='root']",
+  "home_featurecategories":"xpath, //div[@id='m-cat-container']//a"
+
+}

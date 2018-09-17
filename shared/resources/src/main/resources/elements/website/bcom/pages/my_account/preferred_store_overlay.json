@@ -1,0 +1,10 @@
+{
+  "store_selector": "cssSelector,.custom.dropdown",
+  "store_list": "xpath,//ul/li",
+  "store_container": "className,myacct_so_address || id, store-location-section",
+  "zip_code": "id,myacct_so_zipCode",
+  "search_button": "id,myacct_so_searchButton",
+  "select_button_store": "className,myacct_so_selectStoreLink",
+  "select_store": "xpath, (//a[@class='makeMyStoreButton'])[1]"
+
+}

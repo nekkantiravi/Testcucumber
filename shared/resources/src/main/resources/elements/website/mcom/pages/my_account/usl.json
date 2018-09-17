@@ -1,0 +1,5 @@
+{
+  "url": "/loyalty/summary",
+  "remove_plenti_link": "id, removeCard",
+  "remove_plenti_warning_yes": "id, removeUslIdBtn"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<loyaltyId>L920000138239</loyaltyId>
+	<loyaltyFirstName>Ravi</loyaltyFirstName>
+	<loyaltyMiddleName>500</loyaltyMiddleName>
+	<loyaltyLastName>Gummala</loyaltyLastName>
+	<loyaltyContract>LTYMSR001</loyaltyContract>
+	<division>71</division>
+	<tier>Platinum</tier>
+	<enrollmentConfirmation></enrollmentConfirmation>
+	<enrollmentLocation></enrollmentLocation>
+	<adhocText></adhocText>
+	<addedByApp></addedByApp>
+	<amountRewardsCard>1000</amountRewardsCard>
+	<rewardCardExpirationDate>08/09/2017</rewardCardExpirationDate>
+	<vrcBarCode>765167010004241</vrcBarCode>
+	<rewardCardEffectiveDate></rewardCardEffectiveDate>
+	<cid>4439</cid>
+	<adjustmentInformationType>
+		<reservationNumber>50000026</reservationNumber>
+		<internetOrderNumber>MSA5066780</internetOrderNumber>
+		<origTransactionDate>06/09/2017</origTransactionDate>
+		<origOrderTotal>110</origOrderTotal>
+	</adjustmentInformationType>
+	<accountSummaryType>
+		<totalRewardsEarned>1500</totalRewardsEarned>
+		<starRewards>123</starRewards>
+		<rewardsOutsideMacys>345</rewardsOutsideMacys>
+		<pendingRewards>6000</pendingRewards>
+		<totalBonusRewards>567</totalBonusRewards>
+		<totalPendingBonusRewards>950</totalPendingBonusRewards>
+		<accountStatus>Platinum</accountStatus>
+		<accountStatusReason>Many reasons</accountStatusReason>
+		<visitsRemaining>10</visitsRemaining>
+		<currentVisitCount>10</currentVisitCount>
+		<rewardCycleExpirationDate>07/31/2020</rewardCycleExpirationDate>
+		<currentPointDate>07/25/2017</currentPointDate>
+		<pendingPointDate>07/25/2017</pendingPointDate>
+	</accountSummaryType>
+</mailMessagePayload>

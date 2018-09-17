@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+<reservationNumber>273499251</reservationNumber>
+<internetOrderNumber>886004567</internetOrderNumber>
+<thirdPartyOrderNumber />
+<orderDate>5/31/2012</orderDate>
+<shopAt>macys.com</shopAt>
+<explanationText />
+<orderSubtotalAmt>80.00</orderSubtotalAmt>
+<baseShippingAmt>0.00</baseShippingAmt>
+<addtShipAddAmt>0.00</addtShipAddAmt>
+<shipUpgradeAmt>0.00</shipUpgradeAmt>
+<giftWrapAmt>0.00</giftWrapAmt>
+<taxAmt>7.00</taxAmt>
+<orderTotal>87.00</orderTotal>
+<divisionCode>072</divisionCode>
+<locationCode>0139</locationCode>
+<adhocText>Order Number: 886004567 ||Thank you for shopping at macys.com, we truly appreciate your business. | 
+|We are sorry to inform you that due to a system error macys.com incorrectly listed the price of the Villeroy Boch New Cottage Oblong 4pps during our Buy One Get One promotion. The correct price should have been $87.00. |
+|Because of the error we must cancel the affected items on your order. If you had other items on your order that were not included in the pricing error, they will not be affected. Be assured that your account will not be charged for the canceled Villeroy Boch New Cottage Oblong 4pps or that you will receive an appropriate credit or refund
+promptly, if due. We apologize for the delay in updating you on the status of your order.||As noted in our pricing policy, while we do our best to ensure our prices are accurate, errors occasionally occur, and we reserve the right to correct those errors, particularly obvious errors like the one that occurred in this case. If you would like additional information regarding our pricing policy, please visit the following link we have provided.|
+|http://www.macys.com/service/start/safeshopping/pricing.jsp|
+|For any inconvenience this has caused, we will assist you with the purchase of the Villeroy Boch New Cottage Oblong 4pps at the correct price of $87.00 and still honor the Buy One Get One promotional offer, along with FREE shipping on the replaced order. This promotion is limited to a quantity of 12 per customer. To take advantage of this offer, please contact us at the phone number provided below. | 
+|We hope you will accept our sincerest apologies for the inconvenience this error has caused. We look forward to serving you and your shopping needs in the future.|</adhocText>
+<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+<billingDetail>
+<title />
+<firstName>16C</firstName>
+<middleName />
+<lastName>SUGGS</lastName>
+<attnLine />
+<addressLine1>501 WYOMING BLVD</addressLine1>
+<addressLine2 />
+<addressLine3 />
+<city>CASPER</city>
+<state>WY</state>
+<country>USA</country>
+<zipcode>82609</zipcode>
+</billingDetail>
+<paymentDetail>
+<paymentType>Macy's</paymentType>
+<accountNumber>************1234</accountNumber>
+<amount>277.54</amount>
+<paymentCategoryFlag>D</paymentCategoryFlag>
+</paymentDetail>
+<shipmentDetail>
+<shipmentNumber>001</shipmentNumber>
+<shippedDate>12/31/9999</shippedDate>
+<mailFlag>Y</mailFlag>
+<title>Mr.</title>
+<firstName>OES</firstName>
+<middleName>Team</middleName>
+<lastName>Testing</lastName>
+<attnLine>Attn: OES</attnLine>
+<addressLine1>680 FOLSOM STREET</addressLine1>
+<addressLine2>SUIT 1200</addressLine2>
+<addressLine3>11th Floor</addressLine3>
+<city>San Francisco</city>
+<state>CA</state>
+<country>USA</country>
+<zipcode>94107</zipcode>
+<greetingMessage>Happy Birthday</greetingMessage>
+<closingMessage>Have Fun</closingMessage>
+<signatureMessage>Thank You</signatureMessage>
+<giftRegistryNumber>5664</giftRegistryNumber>
+<giftWrapFlag>N</giftWrapFlag>
+<giftReceipientEmail>oestest@fds.com</giftReceipientEmail>
+<giftRegistrant1>OES Testing</giftRegistrant1>
+<giftRegistrant2>OES Team</giftRegistrant2>
+<giftReceiptFlag>N</giftReceiptFlag>
+<pickupBarcode>1234567001</pickupBarcode>
+<pickupReadyDate>04/14/2006</pickupReadyDate>
+<pickupCancelDate>04/14/2006</pickupCancelDate>
+<shipRetailAmt>100.25</shipRetailAmt>
+<shipTaxAmt>10.25</shipTaxAmt>
+<shipFilLoc>733</shipFilLoc>
+<shipPhone>4154211111</shipPhone>
+<shipEmailAddress>oestest@gmail.com</shipEmailAddress>
+<trackingDetail>
+<trackingNumber>XA34949Z90993FG</trackingNumber>
+<numberofPackages>2</numberofPackages>
+</trackingDetail>
+</shipmentDetail>
+</mailMessagePayload>

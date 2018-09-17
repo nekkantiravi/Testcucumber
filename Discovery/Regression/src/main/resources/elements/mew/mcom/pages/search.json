@@ -1,0 +1,15 @@
+{
+  "url":            "/",
+  "first_product": "xpath,(//div[@class='mb-j-search-image m-product-grid-image']/img)[1]|| xpath,(//div[@class='mb-j-browse-image m-product-grid-image']/img)[1]",
+  "last_act_text_srp": "xpath,//div[contains(text(),'LAST ACT')]",
+  "rating_srp": "class,m-rating-stars",
+  "reviews_srp":"class,m-rating-count",
+  "all_items_count": "xpath,//button[@id='shopAll']/div/span[2]",
+  "next_button": "id, m-next-page",
+  "items_per_page": "xpath,//ul[@id='m-search-results-list']/li",
+  "breadcrumb_header1": "xpath, //section[@id='m-breadcrumbs']//span[1]/span[1]",
+  "breadcrumb_header2": "xpath, //section[@id='m-breadcrumbs']//span[2]/span[1]",
+  "products_on_page": "xpath, //*[@id='m-search-results-list']/li//following::div[@class='m-search-name m-product-grid-name truncated']",
+  "srp_header_label":"xpath,//div[@id='m-browse-header-label']/h1",
+  "menu_bar":"id, mb-j-nav-container"
+}

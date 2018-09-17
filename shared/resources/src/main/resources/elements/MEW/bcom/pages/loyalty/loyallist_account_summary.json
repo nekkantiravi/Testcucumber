@@ -1,0 +1,17 @@
+{
+  "include": [
+    "panel.header_and_footer",
+    "panel.navigation"
+  ],
+  "url": "/loyallist/accountsummary",
+  "verify_page": "className, b-loyallist-account-number",
+  "loyalty_number": "className, b-loyallist-number-wrapper",
+  "remove_button": "id, mb-j-loyallist-number-remove",
+  "lty_account_panel": "id, b-message-dialog-content",
+  "remove_confirmation_btn": "cssSelector, .b-message-dialog-button.b-black-button",
+  "reward_cards_summary": "className, b-loyallist-reward-cards-summary",
+  "reward_card_balance": "className, b-loyallist-reward-cards-total",
+  "available_points": "className, b-loyallist-available-points",
+  "required_points":  "className, b-loyallist-points-next-reward",
+  "pending_points":   "className, b-loyallist-pending-points"
+}

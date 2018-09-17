@@ -1,0 +1,4 @@
+{
+  "url":                                          "/registry/wedding/registrycreateaccount||/wedding-registry/registrant||/registry/wedding/registrymanager",
+  "verify_page":                                  "id, starter-message||className, registry-id||id, reg_mgr_registryId"
+}

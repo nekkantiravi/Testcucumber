@@ -1,0 +1,23 @@
+{
+  "url": "/chkout/rc",
+  "verify_page": "id, rc-orderConfirmation-orderNumber||id, rc-confirm-orderNumber",
+  "order_number": "id, rc-orderConfirmation-orderNumber||id, rc-confirm-orderNumber",
+  "order_total": "id, rc-orderConfirmation-orderTotal||id, rc-confirm-orderTotal",
+  "paypal_section": "id, rc-confirm-paypal",
+  "paypal_email_text": "xpath, //div[@id='rc-confirm-paypal']//p[2]",
+  "alert_message": "id, rc-confirm-orderDetailsText||className, rc-confirm-orderDetailsText",
+  "order_confirmation_message": "id, rc-confirm-orderReceived||className, rc-confirm-orderReceived",
+  "bops_shipping_section": "id, rc-shippingInfo-bopsStoreInfo",
+  "loyalty_pending_points_section": "id, rc-loyallist-confirmation||xpath, //div[./p[text()='Points pending from this order']]/p[last()]",
+  "loyalty_total_points_section": "id, rc-loyallist-points-table||xpath, //div[./h3[text()='Current available points']]/h3[last()]",
+  "normal_shipping_section": "id, rc-orderConfirmation-shippingAddress",
+  "rc_inventory_down_message": "id, rc-globalWarnings",
+  "shipping_egift_card_section": "id, rc-vgcInfo||className, rc-vgc-message",
+  "shipping_and_delivery_address": "xpath, //div[@class='summary-column']/p",
+  "back_to_bag_icon": "id, back-to-bag-section",
+  "gift_options_summary": "id, rc-at-gift-options||xpath, //*[@id='rc-gift-options-summary']/../..",
+  "bops_order_change": "id, rc-confirm-orderDetailsText",
+  "bops_sms_copy": "cssSelector, .rc-shipping-info-summary .icon-checkmark",
+  "order_confirm_email": "xpath,//div[@id='rc-confirm-orderDetailsText']/div/text()"
+
+}

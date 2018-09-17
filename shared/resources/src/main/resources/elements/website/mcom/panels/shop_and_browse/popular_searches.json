@@ -1,0 +1,5 @@
+{
+	"tag_cloud_link_section": 	"class, tagCloudLinks || class, mktTagCloudLinks",
+	"seo_tag_links": 			"xpath, //div[@class='mktTagCloudLinks']/ul/li/a || cssSelector, div.tagCloudLinks>ul>li>a",
+	"seo_tag_cloud": 			"id, seoTagCloud || id, tagCloud"
+}

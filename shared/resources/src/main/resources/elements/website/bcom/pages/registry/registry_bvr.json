@@ -1,0 +1,56 @@
+{
+  "include": [
+    "panel.bvr_qp",
+    "panel.registry_add_to_bag",
+    "panel.registry_bops_overlay",
+    "panel.header",
+    "panel.bvr_welcome_overlay"
+  ],
+  "url":                                          "/registry/wedding/registrant",
+  "verify_page":                                  "className, GBVR-header || className, GBVR-header-container",
+
+  "bvr_prod_list":        "className, card-item ||className, gvr-card-item",
+  "prod_desc":            "cssSelector, .quickV-item>strong || cssSelector, .thumbnail-upper-content>div:nth-last-child(1)",
+  "prod_price":           "cssSelector, .item-details>div>div>div:nth-child(3) || cssSelector, .thumbnail-price>h6:nth-last-child(1)",
+  "prod_reqs_qunt":       "cssSelector, .qty-requested>input || cssSelector, .thumbnail-wants-needs>h6:nth-child(1)",
+  "prod_open_qunt":       "cssSelector, input.still-needs || cssSelector, .thumbnail-wants-needs>h6:nth-child(1)",
+  "prod_sel_qunt":        "cssSelector, .item-details>div>div>div>select.quantity-select || className, thumbnail-quantity",
+  "prod_add_to_bag":      "cssSelector, .action-items>div>div>input.addToBag || className, thumbnail-atb",
+  "prod_brand":           "cssSelector, .thumbnail-upper-content>div:nth-last-child(2)",
+  "empty_registry_starter_collections_groups": "className, collection-bvr-title",
+  "empty_registry_categories":  "cssSelector, .starter-collection>a",
+  "header":                 "className, GBVR-header",
+  "header_names":             "className, GBVR-header-names",
+  "header_names_fn":           "className, GBVR-header-names>span:nth-child(1)",
+  "header_names_ln":           "className, GBVR-header-names>span:nth-child(2)",
+  "registry_info":          "className, GBVR-header-info",
+  "registry_date":          "cssSelector, .event-date>p",
+  "days_left":              "className, event-date",
+  "registry_id":            "className, registry-id>span:nth-child(2)",
+  "footer_ship_msg_one":        "className, bvrShipMsg",
+  "footer_barcode":         "id, registryBarcodeFooter",
+  "share_icon":             "class, icon_share",
+  "goto_registry_manager": "linkText, Back to Registry Manager",
+  "pencil_icon":          "className, icon_pencil",
+  "bvr_thumbnails_wants_still_needs": "className, thumbnail-wants-needs",
+  "bvr_update_success_overlay": "id, update_success_overlay",
+  "find_in_store_link":          "className, thumbnail-find-in-store",
+  "alert_make_it_public_link":   "className, alert-public-link",
+  "alert_make_it_public_banner":   "className, alert-public-container",
+  "empty_category_rec_section":    "className, BVR-category-recommendations",
+  "sort_by_dropdown":               "className, sortByDropDown",
+
+  "category_recommendation_titles": "xpath, //*[@class='cat-recs-header-title']/span",
+  "add_to_registry_button":         "className, add-to-registry-button",
+  "green_check_product_added":      "className, icon_check_circle_reverse_green",
+  "product_thumbnail":              "xpath, //*[@class='thumbnail-qp-recs']/div[@class='thumbnail-image-container']",
+
+  "edit_registry":            "xpath, //*[@id='GBVR-edit-profile']/div",
+  "completion_banner":        "cssSelector, .BVR-completion-banner",
+  "offer_overlay":            "id, BVR-offer-overlay",
+  "get_offer_link":           "cssSelector, .BVR-completion-banner>a",
+  "online_promo_code_no":     "cssSelector, .BVR-offer-code>p || xpath, //*[@id='BVR-offer-overlay']/div/div[@class='BVR-offer-code']/p",
+
+  "cta_card_section":         "cssSelector, .thumbnail-CTA"
+
+}

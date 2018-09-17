@@ -1,0 +1,18 @@
+{
+    "store_details_bread_crumb": "xpath, //div[@class='c-bread-crumbs'][.//span[text()='Stores & Events']]",
+    "store_hours_today": "xpath, //h2[contains(@class,'hours')]",
+    "store_name": "id, location-name",
+    "store_address": "class, c-address",
+    "get_directions": "class, c-get-directions-button",
+    "store_map": "xpath, //div[@class='row location-info-map-wrapper']//div[@class='gm-style-pbc']",
+    "store_phone_number": "cssSelector, .c-phone-number.c-phone-main-number",
+    "store_manager": "class, manager-wrapper",
+    "store_hours_header": "class, store-hours",
+    "store_all_hours": "class, location-all-hours",
+    "promo_banner": "class, promo-banner-width-2400",
+    "store_services_section": "class, services-wrapper",
+    "about_store_section": "class, about-wrapper",
+    "store_events_section": "cssSelector, .about-right-col .events-wrapper-wrapper",
+    "view_all_events": "cssSelector, .about-right-col .events-link-all",
+    "near_by_stores_section": "class, nearby-locations-padding"
+}

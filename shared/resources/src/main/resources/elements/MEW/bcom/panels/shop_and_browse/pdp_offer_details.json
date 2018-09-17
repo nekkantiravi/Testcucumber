@@ -1,0 +1,6 @@
+{
+  "header": "className, b-header-title",
+  "offer_details": "className, b-offers-details",
+  "offers_short_desc":   "className, b-offers-shortDesc",
+  "offers_long_desc":    "className, b-offers-longDesc"
+}

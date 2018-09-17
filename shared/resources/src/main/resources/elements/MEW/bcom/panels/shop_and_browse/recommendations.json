@@ -1,0 +1,5 @@
+{
+  "recommendations_products": "id, mb-product-recommendations-products",
+  "recommended_product": "cssSelector, .mb-product-recommendations-img-wrapper>img",
+  "horizontal_recommendations":"id, b-product-recommendations-header"
+}

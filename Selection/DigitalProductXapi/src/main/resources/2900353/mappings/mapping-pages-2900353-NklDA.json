@@ -1,0 +1,20 @@
+{
+  "id" : "859536b2-c256-346c-a2d9-30c8e5291424",
+  "request" : {
+    "url" : "/api/content/v2/PDP/pages/2900353?_expand=layout,media&sdpGrid=primary&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-pages-2900353-NklDA.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "91785c10-2d7a-4fb2-86d9-539cce0574d6",
+      "Content-Type" : "application/json",
+      "Date" : "Thu, 04 Jan 2018 00:41:44 GMT"
+    }
+  },
+  "uuid" : "859536b2-c256-346c-a2d9-30c8e5291424"
+}

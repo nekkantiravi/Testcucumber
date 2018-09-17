@@ -1,0 +1,12 @@
+{
+  "url": "RSnextgen/svc/launch",
+  "verify_page": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all",
+
+  "cardNumber": "id, card_number_1 || name, cardNumber",
+  "name": "id, card_name_1 || name, cardName",
+  "cvv": "id, cvv_2 || name, cvv",
+  "ssn": "id, ssn_last4_3 || name, ssnLast4",
+  "addToWallet": "id, add_to_wallet_3 || name, addToWallet",
+  "verify": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all",
+  "loading": "cssSelector, .ui-icon-loading"
+}

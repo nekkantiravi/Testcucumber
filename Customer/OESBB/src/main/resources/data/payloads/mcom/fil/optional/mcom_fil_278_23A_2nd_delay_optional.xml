@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<internetOrderNumber>278_23A_MCOM</internetOrderNumber>
+	<orderDate></orderDate>
+	<shopAt></shopAt>
+	<explanationText />
+	<orderSubtotalAmt></orderSubtotalAmt>
+	<baseShippingAmt></baseShippingAmt>
+	<addtShipAddAmt></addtShipAddAmt>
+	<shipUpgradeAmt></shipUpgradeAmt>
+	<giftWrapAmt></giftWrapAmt>
+	<taxAmt></taxAmt>
+	<orderTotal></orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag></smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType></paymentType>
+		<accountNumber></accountNumber>
+		<amount></amount>
+		<paymentCategoryFlag></paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber></shipmentNumber>
+		<shippedDate></shippedDate>
+		<mailFlag />
+		<title />
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber></giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description></description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate></expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate></systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status></status>
+			<vendor></vendor>
+			<cancelledQuantity />
+			<upcId></upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

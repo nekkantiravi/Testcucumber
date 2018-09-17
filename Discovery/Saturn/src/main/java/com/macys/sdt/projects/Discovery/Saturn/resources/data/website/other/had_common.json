@@ -1,0 +1,21 @@
+{
+  "had_arrtibute_search_results":"//*[@id='findContainer']/div[1]/div[1]/label",
+  "holistic_page": "//div[@id='divHolistic']/div[1]/span",
+  "find_had_search_filter_type":  "//div[@id='divFind']/div[2]/select",
+  "find_attribute":"//div[@id='findContainer']/div/div[1]",
+  "find_match":"//div[@id='find-input-container']/select",
+  "had_enabled_elements":"//div[@id='alphabeticPaginationContainer']/ul/li[not(contains(@class,'disabled'))]/span",
+  "search_result":"//td[@id='table_att_value']",
+  "search_result_count":"//div[@id='divFindContainer']/div[1]",
+  "page_class":"had_pag hadPagDisabled",
+  "filter_value_one":"(//table[@class='fht-table']/tbody/tr/td[",
+  "filter_value_two":"])[1]",
+  "filter_index_value":"(//td[@id='table_index_as']/input)[2]",
+  "filter_composite_value":"//td[@id='table_composite']/select",
+  "new_attribute_value_one":"//div[@id='newAttContainter']/div[",
+  "new_attribute_value_two":"]/div[1]/label",
+  "new_attribute_total_value":"//div[@id='newAttContainter']/div",
+
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "pick_up_in_store_facet_name": "id, UPC_BOPS_PURCHASABLE",
+  "change_location": "id, bopsLocation",
+  "searched_zipcode": "id, bopsLocation",
+  "zipcode_field": "id, input_postal_code",
+  "search_by_zipcode": "id, input_postal_code_go",
+  "miles_select": "id, bopsByMiles",
+  "pick_up_in_store_option": "cssSelector, #bops_store_data li"
+}

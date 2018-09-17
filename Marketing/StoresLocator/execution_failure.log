@@ -1,0 +1,380 @@
+Testing started at 3:20 PM ...
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/java -Dorg.jetbrains.run.directory=/Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65369:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar:/Users/yc98js1/workspace/SDT/Marketing/StoresLocator/classes/classes:/Users/yc98js1/.m2/repository/com/macys/sdt/sdt-framework/0.0.662/sdt-framework-0.0.662-jar-with-dependencies.jar:/Users/yc98js1/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/yc98js1/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/yc98js1/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/yc98js1/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-java/3.0.1/selenium-java-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.0.1/selenium-chrome-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-api/3.0.1/selenium-api-3.0.1.jar:/Users/yc98js1/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yc98js1/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/yc98js1/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.0.1/selenium-edge-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.0.1/selenium-firefox-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.0.1/selenium-ie-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.0.1/selenium-opera-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.0.1/selenium-safari-driver-3.0.1.jar:/Users/yc98js1/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/yc98js1/.m2/repository/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1.jar:/Users/yc98js1/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.23/htmlunit-2.23.jar:/Users/yc98js1/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/yc98js1/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/yc98js1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/yc98js1/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.23/htmlunit-core-js-2.23.jar:/Users/yc98js1/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.23/neko-htmlunit-2.23.jar:/Users/yc98js1/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.20/cssparser-0.9.20.jar:/Users/yc98js1/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/yc98js1/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/yc98js1/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/yc98js1/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/yc98js1/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/yc98js1/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/yc98js1/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/yc98js1/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/yc98js1/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/Users/yc98js1/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/yc98js1/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/Users/yc98js1/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/yc98js1/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/Users/yc98js1/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/yc98js1/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/yc98js1/.m2/repository/info/cukes/cucumber-java/1.2.4.1/cucumber-java-1.2.4.1.jar:/Users/yc98js1/.m2/repository/info/cukes/cucumber-core/1.2.4.3/cucumber-core-1.2.4.3.jar:/Users/yc98js1/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/yc98js1/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/yc98js1/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/yc98js1/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/yc98js1/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/yc98js1/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/yc98js1/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.5/jackson-dataformat-xml-2.8.5.jar:/Users/yc98js1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/yc98js1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/yc98js1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/yc98js1/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.5/jackson-module-jaxb-annotations-2.8.5.jar:/Users/yc98js1/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/Users/yc98js1/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar:/Users/yc98js1/.m2/repository/io/appium/java-client/4.1.2/java-client-4.1.2.jar:/Users/yc98js1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/yc98js1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/yc98js1/.m2/repository/commons-validator/commons-validator/1.5.1/commons-validator-1.5.1.jar:/Users/yc98js1/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/yc98js1/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/yc98js1/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/yc98js1/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/yc98js1/.m2/repository/org/springframework/spring-context/2.5.6.SEC01/spring-context-2.5.6.SEC01.jar:/Users/yc98js1/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yc98js1/.m2/repository/org/springframework/spring-beans/2.5.6.SEC01/spring-beans-2.5.6.SEC01.jar:/Users/yc98js1/.m2/repository/org/springframework/spring-core/2.5.6.SEC01/spring-core-2.5.6.SEC01.jar:/Users/yc98js1/.m2/repository/org/aspectj/aspectjweaver/1.6.1/aspectjweaver-1.6.1.jar:/Users/yc98js1/.m2/repository/org/json/json/20160810/json-20160810.jar:/Users/yc98js1/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/yc98js1/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/bundles/jaxrs-ri/2.23.1/jaxrs-ri-2.23.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/core/jersey-common/2.23.1/jersey-common-2.23.1.jar:/Users/yc98js1/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/yc98js1/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar:/Users/yc98js1/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/yc98js1/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.23.1/jersey-media-jaxb-2.23.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/core/jersey-client/2.23.1/jersey-client-2.23.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/core/jersey-server/2.23.1/jersey-server-2.23.1.jar:/Users/yc98js1/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.23.1/jersey-container-servlet-core-2.23.1.jar:/Users/yc98js1/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.23.1/jersey-container-servlet-2.23.1.jar:/Users/yc98js1/.m2/repository/net/lightbody/bmp/browsermob-core/2.1.4/browsermob-core-2.1.4.jar:/Users/yc98js1/.m2/repository/net/lightbody/bmp/littleproxy/1.1.0-beta-bmp-15/littleproxy-1.1.0-beta-bmp-15.jar:/Users/yc98js1/.m2/repository/dnsjava/dnsjava/2.1.7/dnsjava-2.1.7.jar:/Users/yc98js1/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar:/Users/yc98js1/.m2/repository/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final.jar:/Users/yc98js1/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar:/Users/yc98js1/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar:/Users/yc98js1/.m2/repository/net/lightbody/bmp/mitm/2.1.4/mitm-2.1.4.jar:/Users/yc98js1/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/yc98js1/.m2/repository/com/ibm/db2/jcc/db2jcc4/10.1/db2jcc4-10.1.jar:/Users/yc98js1/.m2/repository/com/ibm/db2/db2-jcc-license-4/2.8.46/db2-jcc-license-4-2.8.46.jar:/Users/yc98js1/.m2/repository/org/postgresql/postgresql/9.4.1212/postgresql-9.4.1212.jar:/Users/yc98js1/.m2/repository/com/saucelabs/saucerest/1.0.23/saucerest-1.0.23.jar:/Users/yc98js1/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/yc98js1/.m2/repository/cn/easyproject/ojdbc7/12.1.0.2.0/ojdbc7-12.1.0.2.0.jar:/Users/yc98js1/.m2/repository/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar:/Users/yc98js1/.m2/repository/io/netty/netty-handler/4.0.37.Final/netty-handler-4.0.37.Final.jar:/Users/yc98js1/.m2/repository/io/netty/netty-buffer/4.0.37.Final/netty-buffer-4.0.37.Final.jar:/Users/yc98js1/.m2/repository/io/netty/netty-common/4.0.37.Final/netty-common-4.0.37.Final.jar:/Users/yc98js1/.m2/repository/io/netty/netty-transport/4.0.37.Final/netty-transport-4.0.37.Final.jar:/Users/yc98js1/.m2/repository/io/netty/netty-codec/4.0.37.Final/netty-codec-4.0.37.Final.jar:/Users/yc98js1/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar:/Users/yc98js1/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/Users/yc98js1/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/Users/yc98js1/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/Users/yc98js1/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/Users/yc98js1/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar:/Users/yc98js1/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar:/Users/yc98js1/.m2/repository/com/macys/sdt/sdt-framework/0.0.662/sdt-framework-0.0.662-sources.jar:/Users/yc98js1/.m2/repository/com/macys/sdt/sdt-framework/0.0.662/sdt-framework-0.0.662-javadoc.jar:/Users/yc98js1/.m2/repository/com/macys/sdt/sdt-shared-resources/1.27.0-SNAPSHOT/sdt-shared-resources-1.27.0-SNAPSHOT.jar:/Users/yc98js1/.m2/repository/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar:/Users/yc98js1/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yc98js1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yc98js1/Library/Application Support/IdeaIC2017.3/cucumber-java/lib/cucumber-jvm-formatter.jar" com.macys.sdt.framework.runner.MainRunner --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --glue com.macys.sdt.projects.SolutionDevelopment.SampleProject.steps.website --glue com.macys.sdt.shared.utils --glue com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.bcom --glue com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom --glue com.macys.sdt.shared.steps.MEW /Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom/stores_locator_test.feature
+objc[51025]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/java (0x10c2a54c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10c36d4e0). One of the two will be used. Which one is undefined.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/yc98js1/.m2/repository/com/macys/sdt/sdt-framework/0.0.662/sdt-framework-0.0.662-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/yc98js1/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[main] 15:20:20 (RunConfig.java:291) INFO - Using project: Marketing.StoresLocator
+If this does not match your project, add an env variable "sdt_project" with value "<domain>.<project>"
+[main] 15:20:20 (MainRunner.java:97) INFO - Testing http://m.qa15codemacys.fds.com on chrome 60
+[main] 15:20:20 (MainRunner.java:353) INFO - Start PageHangWatchDog: Tue Jan 30 15:20:20 PST 2018
+[main] 15:20:20 (MainRunner.java:185) INFO - AuthenticationDialog not required
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 27401
+Only local connections are allowed.
+Jan 30, 2018 3:20:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jan 30, 2018 3:20:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Cucumber] 15:20:22 (WebDriverManager.java:122) INFO - Init driver: browser window size = (1200, 1177)
+[Cucumber] 15:20:22 (Hooks.java:159) INFO - Scenario: 4 [@use_smoke, @regression, @mew_regression, @use_mew_dsv_next, @mingle-21226, @use_mew_bat] - Verify the store detail page
+[Cucumber] 15:20:22 (Hooks.java:321) INFO - Step 0: 5 - I am on stores page
+
+[Cucumber] 15:20:22 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:22 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:22 (Navigate.java:254) INFO - Loading http://m.qa15codemacys.fds.com/
+[Cucumber] 15:20:26 (PageLoadProfiler.java:36) INFO - Page load time: 3.970 Seconds
+url: https://m.qa15codemacys.fds.com/
+[Cucumber] 15:20:26 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:26 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:26 (Elements.java:424) WARN - UI: element 'home.popup_close' is not defined.
+[Cucumber] 15:20:26 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:32 (Elements.java:424) WARN - UI: element 'registry_homepage.verify_page' is not defined.
+[Cucumber] 15:20:32 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:34 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:34 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:34 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:34 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:35 (GlobalNav.java:94) INFO - Navigating to stores element in nav menu...
+[Cucumber] 15:20:35 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:35 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:37 (PageLoadProfiler.java:36) INFO - Page load time: 1.796 Seconds
+url: https://l.macys.com/stores.html?cm_sp=mew_navigation-_-menu-_-stores
+[Cucumber] 15:20:37 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:37 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:37 (StoresLocator.java:161) INFO - Navigating to stores category from main menu from global navigation
+[Cucumber] 15:20:37 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:20:37 (Hooks.java:362) INFO - Step duration: 15.269 Seconds
+
+[Cucumber] 15:20:37 (Hooks.java:321) INFO - Step 1: 6 - I enter "94105" in the search store field and search
+
+[Cucumber] 15:20:37 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:20:37 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:37 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[EnvironmentDetails] 15:20:38 (EnvironmentDetails.java:175) ERROR - Unable to get environment details from https://m.qa15codemacys.fds.com
+[Cucumber] 15:20:38 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:38 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:38 (TextBoxes.java:31) INFO - Typing: search_input = "94105"
+[Cucumber] 15:20:38 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:38 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:40 (PageLoadProfiler.java:36) INFO - Page load time: 1.387 Seconds
+url: https://l.macys.com/stores.html?q=94105
+[Cucumber] 15:20:40 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:20:40 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:20:40 (Hooks.java:362) INFO - Step duration: 2.524 Seconds
+
+[Cucumber] 15:20:40 (Hooks.java:321) INFO - Step 2: 7 - I should see stores on search results page for the given search keyword in list view
+
+[EnvironmentDetails] 15:20:53 (EnvironmentDetails.java:454) INFO - Hub Name : commchub4
+[EnvironmentDetails] 15:20:53 (EnvironmentDetails.java:190) INFO - 
+======> Environment Details <======
+
+Unable to get environment details
+
+===================================
+
+[Cucumber] 15:20:53 (StoresLocatorService.java:414) INFO - Calling StoresService: https://api.qa15codemacys.fds.com/store/v2/stores/?searchAddress=94105&radius=M25&_limit=99
+[Cucumber] 15:20:53 (StoresLocatorService.java:427) INFO - Successful call to StoresService
+[Cucumber] 15:20:53 (Hooks.java:362) INFO - Step duration: 13.395 Seconds
+
+[Cucumber] 15:20:53 (Hooks.java:321) INFO - Step 3: 8 - I navigate to "Macy's Union Square" store detail page
+
+[Cucumber] 15:20:53 (StoresLocatorService.java:414) INFO - Calling StoresService: https://api.qa15codemacys.fds.com/store/v2/stores/?searchAddress=94105&radius=M25&_limit=99
+[Cucumber] 15:20:53 (StoresLocatorService.java:427) INFO - Successful call to StoresService
+SessionId at(navigateToStoreDetailPage after storesDtls) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(navigateToStoreDetailPage before navigateToNthStore) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(navigateToNthStore in) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(navigationToNthStore afer storeDtls) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick entry) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick try block) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick finally block) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick after 1st Thread.sleep) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick after actions.click(Element)) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(moveToElementAndClick after 2nd Thread.sleep) : 77966c6ef231cf66715f988a1fae4fdd
+SessionId at(navigateToStoreDetailPage after navigateToNthStore) : 77966c6ef231cf66715f988a1fae4fdd
+[Cucumber] 15:21:03 (Hooks.java:362) INFO - Step duration: 9.475 Seconds
+
+[Cucumber] 15:21:03 (Hooks.java:321) INFO - Step 4: 9 - I should verify the store details
+
+[Cucumber] 15:21:03 (Elements.java:424) WARN - UI: element 'stores_details.verify_page' is not defined.
+[Cucumber] 15:21:03 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:03 (StoresLocator.java:447) INFO - TODO: Determine if more store details need to be validated here
+TODO: Determine more store details need to be validated here
+[Cucumber] 15:21:03 (Hooks.java:362) INFO - Step duration: 0.751 Seconds
+
+[Cucumber] 15:21:03 (Hooks.java:244) INFO - DURATION: 41.478 Seconds
+
+
+
+
+[Cucumber] 15:21:03 (WebDriverManager.java:184) INFO - webdriver quit successful
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 17795
+Only local connections are allowed.
+Jan 30, 2018 3:21:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jan 30, 2018 3:21:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Cucumber] 15:21:04 (WebDriverManager.java:122) INFO - Init driver: browser window size = (1200, 1177)
+[Cucumber] 15:21:04 (Hooks.java:159) INFO - Scenario: 13 [@regression, @mew_regression, @use_real_device] - Verify map view
+[Cucumber] 15:21:04 (Hooks.java:321) INFO - Step 0: 14 - I am on stores page
+
+[Cucumber] 15:21:05 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:05 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:05 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:05 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:05 (Navigate.java:254) INFO - Loading http://m.qa15codemacys.fds.com/
+[Cucumber] 15:21:09 (PageLoadProfiler.java:36) INFO - Page load time: 4.28 Seconds
+url: https://m.qa15codemacys.fds.com/
+[Cucumber] 15:21:09 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:09 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:09 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:09 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:09 (Elements.java:424) WARN - UI: element 'home.popup_close' is not defined.
+[Cucumber] 15:21:09 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:15 (Elements.java:424) WARN - UI: element 'registry_homepage.verify_page' is not defined.
+[Cucumber] 15:21:15 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:19 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:19 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:19 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:19 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:20 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:20 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:20 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:20 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:20 (GlobalNav.java:94) INFO - Navigating to stores element in nav menu...
+[Cucumber] 15:21:21 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:21 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:21 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:21 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:23 (PageLoadProfiler.java:36) INFO - Page load time: 1.790 Seconds
+url: https://l.macys.com/stores.html?cm_sp=mew_navigation-_-menu-_-stores
+[Cucumber] 15:21:23 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:23 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:23 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:23 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:23 (StoresLocator.java:161) INFO - Navigating to stores category from main menu from global navigation
+[Cucumber] 15:21:23 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:21:23 (Hooks.java:362) INFO - Step duration: 18.872 Seconds
+
+[Cucumber] 15:21:23 (Hooks.java:321) INFO - Step 1: 16 - I enter "94105" in the search store field and search
+
+[Cucumber] 15:21:23 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:21:24 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:24 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:24 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:24 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:24 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:24 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:24 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:24 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:24 (TextBoxes.java:31) INFO - Typing: search_input = "94105"
+[Cucumber] 15:21:25 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:25 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:25 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:25 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:26 (PageLoadProfiler.java:36) INFO - Page load time: 1.785 Seconds
+url: https://l.macys.com/stores.html?q=94105
+[Cucumber] 15:21:26 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:26 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:26 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:26 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:26 (Hooks.java:362) INFO - Step duration: 3.237 Seconds
+
+[Cucumber] 15:21:26 (Hooks.java:321) INFO - Step 2: 17 - I should see stores on search results page for the given search keyword in list view
+
+[Cucumber] 15:21:27 (StoresLocatorService.java:414) INFO - Calling StoresService: https://api.qa15codemacys.fds.com/store/v2/stores/?searchAddress=94105&radius=M25&_limit=99
+[Cucumber] 15:21:27 (StoresLocatorService.java:427) INFO - Successful call to StoresService
+[Cucumber] 15:21:27 (Hooks.java:362) INFO - Step duration: 0.198 Seconds
+
+[Cucumber] 15:21:27 (Hooks.java:321) INFO - Step 3: 18 - I should verify the map view
+
+[Cucumber] 15:21:27 (Hooks.java:362) INFO - Step duration: 0.232 Seconds
+
+[Cucumber] 15:21:27 (Hooks.java:244) INFO - DURATION: 22.585 Seconds
+
+
+
+
+[Cucumber] 15:21:27 (WebDriverManager.java:184) INFO - webdriver quit successful
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 43783
+Only local connections are allowed.
+Jan 30, 2018 3:21:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jan 30, 2018 3:21:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Cucumber] 15:21:28 (WebDriverManager.java:122) INFO - Init driver: browser window size = (1200, 1177)
+[Cucumber] 15:21:28 (Hooks.java:159) INFO - Scenario: 4 [@use_smoke, @regression, @mew_regression, @use_mew_dsv_next, @mingle-21226, @use_mew_bat] - Verify the store detail page
+[Cucumber] 15:21:28 (Hooks.java:321) INFO - Step 0: 5 - I am on stores page
+
+[Cucumber] 15:21:28 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:28 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:28 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:28 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:28 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:28 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:28 (Navigate.java:254) INFO - Loading http://m.qa15codemacys.fds.com/
+[Cucumber] 15:21:33 (PageLoadProfiler.java:36) INFO - Page load time: 4.708 Seconds
+url: https://m.qa15codemacys.fds.com/
+[Cucumber] 15:21:33 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:33 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:33 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:33 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:33 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:33 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:33 (Elements.java:424) WARN - UI: element 'home.popup_close' is not defined.
+[Cucumber] 15:21:33 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:39 (Elements.java:424) WARN - UI: element 'registry_homepage.verify_page' is not defined.
+[Cucumber] 15:21:39 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:45 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:45 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:45 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:45 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:45 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:45 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:46 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:46 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:46 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:46 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:46 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:46 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:46 (GlobalNav.java:94) INFO - Navigating to stores element in nav menu...
+[Cucumber] 15:21:47 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:47 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:47 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:47 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:47 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:47 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:49 (PageLoadProfiler.java:36) INFO - Page load time: 1.936 Seconds
+url: https://l.macys.com/stores.html?cm_sp=mew_navigation-_-menu-_-stores
+[Cucumber] 15:21:49 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:49 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:49 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:49 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:49 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:49 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:49 (StoresLocator.java:161) INFO - Navigating to stores category from main menu from global navigation
+[Cucumber] 15:21:49 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:21:49 (Hooks.java:362) INFO - Step duration: 21.163 Seconds
+
+[Cucumber] 15:21:49 (Hooks.java:321) INFO - Step 1: 6 - I enter "94105" in the search store field and search
+
+[Cucumber] 15:21:49 (StepUtils.java:435) INFO - On Page: stores_locator.json
+[Cucumber] 15:21:49 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:49 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:49 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:49 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:50 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:50 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:50 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:50 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:50 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:50 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:50 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:50 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:50 (TextBoxes.java:31) INFO - Typing: search_input = "94105"
+[Cucumber] 15:21:51 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:51 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:51 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:51 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:51 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:51 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:52 (PageLoadProfiler.java:36) INFO - Page load time: 1.525 Seconds
+url: https://l.macys.com/stores.html?q=94105&scrollPos=0&lat=37.786983489990234&lon=-122.40721130371094
+[Cucumber] 15:21:52 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:52 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:52 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:52 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:52 (Elements.java:424) WARN - UI: element 'need_help.close' is not defined.
+[Cucumber] 15:21:52 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:52 (Hooks.java:362) INFO - Step duration: 3.81 Seconds
+
+[Cucumber] 15:21:52 (Hooks.java:321) INFO - Step 2: 7 - I should see stores on search results page for the given search keyword in list view
+
+[Cucumber] 15:21:52 (StoresLocatorService.java:414) INFO - Calling StoresService: https://api.qa15codemacys.fds.com/store/v2/stores/?searchAddress=94105&radius=M25&_limit=99
+[Cucumber] 15:21:52 (StoresLocatorService.java:427) INFO - Successful call to StoresService
+[Cucumber] 15:21:52 (Hooks.java:362) INFO - Step duration: 0.214 Seconds
+
+[Cucumber] 15:21:52 (Hooks.java:321) INFO - Step 3: 8 - I navigate to "Macy's Union Square" store detail page
+
+[Cucumber] 15:21:52 (StoresLocatorService.java:414) INFO - Calling StoresService: https://api.qa15codemacys.fds.com/store/v2/stores/?searchAddress=94105&radius=M25&_limit=99
+[Cucumber] 15:21:53 (StoresLocatorService.java:427) INFO - Successful call to StoresService
+SessionId at(navigateToStoreDetailPage after storesDtls) : 836bd38227270e1893905d16f95a803e
+SessionId at(navigateToStoreDetailPage before navigateToNthStore) : 836bd38227270e1893905d16f95a803e
+SessionId at(navigateToNthStore in) : 836bd38227270e1893905d16f95a803e
+SessionId at(navigationToNthStore afer storeDtls) : 836bd38227270e1893905d16f95a803e
+SessionId at(moveToElementAndClick entry) : 836bd38227270e1893905d16f95a803e
+SessionId at(moveToElementAndClick try block) : 836bd38227270e1893905d16f95a803e
+SessionId at(moveToElementAndClick catch block) : 836bd38227270e1893905d16f95a803e
+Houston, we have a problem - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'a4660809', ip: '11.142.224.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+SessionId at(moveToElementAndClick finally block) : 836bd38227270e1893905d16f95a803e
+SessionId at(moveToElementAndClick after 1st Thread.sleep) : 836bd38227270e1893905d16f95a803e
+[Cucumber] 15:21:56 (SDTFormatter.java:112) INFO - run status FAILED
+[Cucumber] 15:21:56 (Utils.java:258) INFO - key generation ...
+[Cucumber] 15:21:56 (Utils.java:259) INFO - Scenario path: /Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom/stores_locator_test.feature1517354516564:5
+[Cucumber] 15:21:56 (Utils.java:260) INFO - Scenario ShaKey: b56adcc84c0297ad538bcf3d251874201aaa2bec566eb043297709a3e3e5d142
+[Cucumber] 15:21:58 (Elements.java:424) WARN - UI: element 'responsive_checkout_signed_in.verify_page' is not defined.
+[Cucumber] 15:21:58 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:58 (Hooks.java:362) INFO - Step duration: 5.314 Seconds
+
+ -->Scenario has failed, skipped all pending steps.
+[Cucumber] 15:21:58 (Hooks.java:223) ERROR - <--------------------->  FAILED SCENARIO: Verify the store detail page
+[Cucumber] 15:21:58 (Hooks.java:229) ERROR - FAILED STEP: 3: 8 - I navigate to "Macy's Union Square" store detail page
+ERROR: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'a4660809', ip: '11.142.224.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:59)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:36)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.moveToElementAndClick(StoresLocator.java:205)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.navigateToNthStore(StoresLocator.java:420)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.iNavigateToStoreDetailPage(StoresLocator.java:383)
+	at ✽.And I navigate to "Macy's Union Square" store detail page(/Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom/stores_locator_test.feature:41)
+<--------------------->
+
+
+[Cucumber] 15:21:58 (Elements.java:424) WARN - UI: element 'responsive_checkout_signed_in.verify_page' is not defined.
+[Cucumber] 15:21:58 (Elements.java:427) WARN - UI: element locator is not recognizable.
+[Cucumber] 15:21:58 (Hooks.java:244) INFO - DURATION: 30.186 Seconds
+
+
+
+
+[Cucumber] 15:21:58 (WebDriverManager.java:184) INFO - webdriver quit successful
+
+Failed scenarios:
+/Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom/stores_locator_test.feature:37 # Scenario: Verify the store detail page
+
+3 Scenarios (1 failed, 2 passed)
+13 Steps (1 failed, 12 passed)
+1m35.028s
+
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'a4660809', ip: '11.142.224.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:59)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:36)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.moveToElementAndClick(StoresLocator.java:205)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.navigateToNthStore(StoresLocator.java:420)
+	at com.macys.sdt.projects.Marketing.StoresLocator.steps.MEW.mcom.StoresLocator.iNavigateToStoreDetailPage(StoresLocator.java:383)
+	at ✽.And I navigate to "Macy's Union Square" store detail page(/Users/yc98js1/workspace/SDT/Marketing/StoresLocator/features/MEW/mcom/stores_locator_test.feature:41)
+
+
+Process finished with exit code 1
+

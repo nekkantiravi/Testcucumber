@@ -1,0 +1,6 @@
+{
+  "yes_delete":   "id, okconfirm",
+  "cancel":       "id, cancelconfirm",
+  "close":        "className, ui-dialog-titlebar-close",
+  "are_you_sure_message":  "className, confirmDesc"
+}

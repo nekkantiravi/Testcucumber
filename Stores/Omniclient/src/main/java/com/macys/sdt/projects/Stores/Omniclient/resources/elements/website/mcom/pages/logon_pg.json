@@ -1,0 +1,17 @@
+{
+  "url": "/",
+ 
+  "verify_page":                "class, mc_logo_login",
+  "omniclient_logo":			"class, mc_logo_login",
+  "signin_button": 				"id, BtnLogin",
+  "associateID_textbox":		"id, username",
+  "password_textbox":			"id, password",
+  "changepwd_link":				"id, chgpwd",
+  "forgotunlock_link":			"id, unl_acct",
+  "adminuser_checkbox":			"id, changeUserFlag",
+  "verify_changeuser_page":     "id, changeUserPage",
+  "changeuser_textbox":         "id, changeUserName",
+  "changeuser_button":          "id, changeUserBtn",
+  "8_digit_label":              "class, changeUserLabel"
+
+}

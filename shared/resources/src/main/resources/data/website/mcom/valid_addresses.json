@@ -1,0 +1,374 @@
+{
+  "addresses": [
+    {
+      "address_line_1": "1045 Ashford Avenue",
+      "address_line_2": "",
+      "address_city": "San Juan",
+      "address_state": "Puerto Rico",
+      "address_zip_code": "00907",
+      "phone_area_code": "408",
+      "country": "United States",
+      "country_code": "US",
+      "premium_ineligible": "true"
+    },
+    {
+      "address_line_1": "5100 Meadowood Mall Cir",
+      "address_line_2": "",
+      "address_city": "Reno",
+      "address_state": "NV",
+      "address_zip_code": "89502",
+      "phone_area_code": "775",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "2399 Cottman Ave",
+      "address_line_2": "",
+      "address_city": "Philadelphia",
+      "address_state": "PA",
+      "address_zip_code": "19149",
+      "phone_area_code": "484",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "6600 Menaul Blvd NE",
+      "address_line_2": "",
+      "address_city": "Albuquerque",
+      "address_state": "NM",
+      "address_zip_code": "87110",
+      "phone_area_code": "505",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "700 Friendly Center Rd",
+      "address_line_2": "",
+      "address_city": "Greensboro",
+      "address_state": "NC",
+      "address_zip_code": "27408",
+      "phone_area_code": "336",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "54 E Main St",
+      "address_line_2": "",
+      "address_city": "Walla Walla",
+      "address_state": "WA",
+      "address_zip_code": "99362",
+      "phone_area_code": "509",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "1550 St Louis Galleria St",
+      "address_line_2": "",
+      "address_city": "Saint Louis",
+      "address_state": "MO",
+      "address_zip_code": "63117",
+      "phone_area_code": "314",
+      "country": "Australia",
+      "country_code": "AU",
+      "province": ""
+    },
+    {
+      "address_line_1": "17 Quan Cheng Road",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "Jinan",
+      "address_state": "NE",
+      "address_zip_code": "250000",
+      "phone_area_code": "531",
+      "country": "China",
+      "country_code": "CN",
+      "region": ""
+    },
+    {
+      "address_line_1": "Natasha Apartments",
+      "address_line_2": "Inner Ring Road",
+      "address_line_3": "Domlur",
+      "address_city": "Bangalore",
+      "address_state": "Karnataka",
+      "address_zip_code": "560071",
+      "phone_area_code": "80",
+      "country": "India",
+      "checkout_eligible": "true",
+      "country_code": "IN",
+      "region": ""
+    },
+    {
+      "address_line_1": "27 RUE PASTEUR",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "CABOURG",
+      "address_state": "",
+      "address_zip_code": "14390",
+      "phone_area_code": "1223",
+      "country": "France",
+      "country_code": "FN",
+      "region": ""
+    },
+    {
+      "address_line_1": "Schulstrasse 4",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "Bad Oyenhausen",
+      "address_state": "",
+      "address_zip_code": "32547",
+      "phone_area_code": "32545",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": ""
+    },
+    {
+      "address_line_1": "Manor Farm Barns",
+      "address_line_2": "Fox Road",
+      "address_line_3": "",
+      "address_city": "NORWICH",
+      "address_state": "",
+      "address_zip_code": "NR14 7PZ",
+      "phone_area_code": "1603",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "region": ""
+    },
+    {
+      "address_line_1": "Super Manzana",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "CANCUN",
+      "address_state": "",
+      "address_zip_code": "77520",
+      "phone_area_code": "998",
+      "country": "MEXICO",
+      "country_code": "MX",
+      "region": ""
+    },
+    {
+      "address_line_1": "1935 Wilson Ln #204",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "MCLEAN",
+      "address_state": "VA",
+      "address_zip_code": "22102",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "checkout_eligible": "true",
+      "sdd_eligible": "true",
+      "site": "mcom",
+      "product_id": "22805,92913,574757,92895,658418,86800,136866"
+    },
+    {
+      "address_line_1": "2901 S Capital of Texas Hwy",
+      "address_line_2": "Apt 100",
+      "address_city": "Austin",
+      "address_state": "TX",
+      "address_zip_code": "78746",
+      "phone_area_code": "512",
+      "country": "United States",
+      "country_code": "US",
+      "checkout_eligible": "true",
+      "product_id": "22805,22804,78600"
+    },
+    {
+      "address_line_1": "200 Newpark Mall",
+      "address_line_2": "",
+      "address_city": "Fremont",
+      "address_state": "CA",
+      "address_zip_code": "94560",
+      "phone_area_code": "510",
+      "country": "United States",
+      "country_code": "US",
+      "checkout_eligible": "false",
+      "paypal_eligible": "true"
+    },
+    {
+      "address_line_1": "2000 walnut avenue",
+      "address_line_2": "apt 100",
+      "address_city": "Fremont",
+      "address_state": "CA",
+      "address_zip_code": "94538",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "checkout_eligible": "true",
+      "paypal_eligible": "true"
+    },
+    {
+      "address_line_1": "1501 decoto road",
+      "address_line_2": "",
+      "address_city": "Union city",
+      "address_state": "CA",
+      "address_zip_code": "94587",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "invalid_ship_address":"true"
+    },
+    {
+      "address_line_1": "9509 Destiny USA Dr",
+      "address_line_2": "",
+      "address_city": "Destiny",
+      "address_state": "NY",
+      "address_zip_code": "13204",
+      "phone_area_code": "505",
+      "country": "United States",
+      "country_code": "US"
+    },
+    {
+      "address_line_1": "1855 E Peckham Ln",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "Reno",
+      "address_state": "NE",
+      "address_zip_code": "89502",
+      "phone_area_code": "775",
+      "country": "Canada",
+      "country_code": "CD",
+      "province": "Alberta"
+    },
+    {
+      "address_line_1": "17 Quan Cheng Road",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "Jinan",
+      "address_state": "NE",
+      "address_zip_code": "250000",
+      "phone_area_code": "531",
+      "country": "China",
+      "country_code": "CN",
+      "region": ""
+    },
+    {
+      "address_line_1": "Natasha Apartments",
+      "address_line_2": "Inner Ring Road",
+      "address_line_3": "Domlur",
+      "address_city": "Bangalore",
+      "address_state": "Karnataka",
+      "address_zip_code": "560071",
+      "phone_area_code": "80",
+      "country": "India",
+      "country_code": "IN",
+      "checkout_eligible": "true",
+      "region": ""
+    },
+    {
+      "address_line_1": "27 RUE PASTEUR",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "CABOURG",
+      "address_state": "",
+      "address_zip_code": "14390",
+      "phone_area_code": "1223",
+      "country": "France",
+      "country_code": "FN",
+      "region": ""
+    },
+    {
+      "address_line_1": "Schulstrasse 4",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "Bad Oyenhausen",
+      "address_state": "",
+      "address_zip_code": "32547",
+      "phone_area_code": "32545",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": ""
+    },
+    {
+      "address_line_1": "Manor Farm Barns",
+      "address_line_2": "Fox Road",
+      "address_line_3": "",
+      "address_city": "NORWICH",
+      "address_state": "",
+      "address_zip_code": "NR14 7PZ",
+      "phone_area_code": "1603",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "region": ""
+    },
+    {
+      "address_line_1": "Super Manzana",
+      "address_line_2": "",
+      "address_line_3": "",
+      "address_city": "CANCUN",
+      "address_state": "",
+      "address_zip_code": "77520",
+      "phone_area_code": "998",
+      "country": "MEXICO",
+      "country_code": "MX",
+      "region": ""
+    },
+    {
+      "address_line_1": "548 Market St",
+      "address_line_2": "",
+      "address_city": "San Francisco",
+      "address_state": "VA",
+      "address_zip_code": "94104",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "invalid_state_name": "true"
+    },
+    {
+      "address_line_1": "548 Market St",
+      "address_line_2": "",
+      "address_city": "San Francisco",
+      "address_state": "CA",
+      "address_zip_code": "98900",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "invalid_ZIP_code": "true"
+    },
+    {
+      "address_line_1": "B7 CALLE TABONUCO STE 1105",
+      "address_line_2": "",
+      "address_city": "Guaynabo",
+      "address_state": "PR",
+      "address_zip_code": "18200",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "invalid_ZIP_code_0_prefix": "true"
+    },
+    {
+      "address_line_1": "1320 N MCQUEEN RD APT 116",
+      "address_line_2": "",
+      "address_city": "CHANDLER",
+      "address_state": "AZ",
+      "address_zip_code": "85225",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "address_with_dpv_s": "true"
+    },
+    {
+      "address_line_1": "808 River Street",
+      "address_line_2": "",
+      "address_city": "Decorah",
+      "address_state": "IA",
+      "address_zip_code": "52101",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "site": "mcom",
+      "address_with_dpv_y": "true"
+    }
+  ]
+}
+
+
+
+
+
+
+

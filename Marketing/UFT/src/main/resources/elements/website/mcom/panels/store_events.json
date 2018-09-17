@@ -1,0 +1,7 @@
+{
+  "store_events_search": "id,search-loc",
+  "search_event":        "id,search-events",
+  "store_error_msg":     "class,no-nearby-header",
+  "sort_date":           "xpath, //div[text()='Date']",
+  "store_event_list":    "css,.event-display-list-cal>p"
+}

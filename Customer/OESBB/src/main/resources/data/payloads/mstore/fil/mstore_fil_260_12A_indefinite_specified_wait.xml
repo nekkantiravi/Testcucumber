@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate>01/19/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>200.00</orderSubtotalAmt>
+	<baseShippingAmt>3.25</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>15.25</taxAmt>
+	<orderTotal>218.50</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 SAFARI CT S</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>EAGAN</city>
+		<state>MN</state>
+		<country>USA</country>
+		<zipcode>55122</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>218.75</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES ESP</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 EATON ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SAINT PAUL</city>
+		<state>MN</state>
+		<country>USA</country>
+		<zipcode>55107</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Medici Plum 7-Pc. Queen Comfor</description>
+			<price>200.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>200.00</totalAmount>
+			<expectedDate>04/07/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate>04/07/2016</delayWaitDate>
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor>Mytex</vendor>
+			<cancelledQuantity />
+			<upcId>882864552730</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>Queen</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

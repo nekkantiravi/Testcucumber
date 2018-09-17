@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate>03/13/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>0.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0177</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170743412345</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 PARK ST</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>GARDNER</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>01440</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>0</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>03/21/2016</shippedDate>
+		<returnSubmittedDate>03/20/2016</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 PARK ST</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>GARDNER</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>01440</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>PALOMA EMBOSSED</description>
+			<price>47.99</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>47.99</totalAmount>
+			<expectedDate>03/23/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>EXCHANGE</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>WHITE ELEMENTS/GIBSON</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate>08/17/2018</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription>Damaged Item</returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>PALOMA EMBOSSED</description>
+			<price>47.99</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>47.99</totalAmount>
+			<expectedDate>03/21/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>WHITE ELEMENTS/GIBSON</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991467265</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

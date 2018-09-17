@@ -1,0 +1,11 @@
+{
+
+  "search_distance": "id, mb-local-store-distance||id, mb-bops-distance",
+  "address_zip_code": "id, mb-bops-address",
+  "search_button": "id, mb-bops-nearme",
+  "select_store_button":"className, m-bops-result-name",
+  "select_store_radio_button": "cssSelector, .mb-j-bops-store .m-j-bg-item-radiobtn",
+  "loading_spinner": "cssSelector, .spinner",
+  "search_results_section": "className, mb-j-bops-result"
+
+}

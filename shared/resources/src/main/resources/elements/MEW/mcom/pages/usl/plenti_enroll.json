@@ -1,0 +1,25 @@
+{
+  "url": "loyalty/enroll",
+  "verify_page": "id, m-plenti-enroll-status-bar",
+
+  "first_name": "id, firstName",
+  "last_name": "id, lastName",
+  "address_line_1": "id, addressLine1",
+  "address_line_2": "id, addressLine2",
+  "address_city": "id, city",
+  "address_state": "id, stateCd",
+  "address_zipcode": "id, postalCd",
+  "dob_month": "id, monthOfBirth",
+  "dob_day": "id, dayOfBirth",
+  "dob_year": "id, yearOfBirth",
+  "phone_number": "id, phone",
+  "email": "id, m-j-plenti-enroll-form-email",
+  "verify_email": "id, m-j-plenti-enroll-form-verifyEmail",
+  "password": "id, password",
+  "verify_password": "id, verifyPassword",
+  "security_question": "id, hintId",
+  "security_answer": "id, hintAnswer",
+  "btn_goto_plenti": "id, plentiEnrollSubmit",
+  "btn_cancel": "id, m-j-plenti-enroll-form-cancel",
+  "page_level_error": "className, error_msg"
+}

@@ -1,0 +1,23 @@
+{
+  "bloomingdales": [
+    {
+      "id": 67858,
+      "available_bops": true,
+      "store_location_nbr": 343,
+      "master_product": false,
+      "single_upc": true,
+      "zipcode": 10022,
+      "ship_available": true,
+      "category_name": "dinnerware"
+    },
+    {
+      "id": 1656509,
+      "available_bops": true,
+      "store_location_nbr": 343,
+      "master_product": false,
+      "multiple_upc": true,
+      "zipcode": 10022,
+      "ship_available": true
+    }
+  ]
+}

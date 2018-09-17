@@ -1,0 +1,194 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "471135120",
+			"dataCenterCode": "RTP",
+			"orderStatusCode": "6",
+			"orderStatusDescription": "IN_PROCESS",
+			"orderConfirmTimestamp": "2017-08-22T16:00:39.248-04:00",
+			"orderConfirmUtcTimestamp": "2017-08-22T20:00:39.248Z",
+			"sellingChannelCode": "MCOM",
+			"sellLegacyDivisionNbr": "71",
+			"sellLegacyLocationNbr": "139",
+			"salesAssociateId": "71115670",
+			"messageCreateTimestamp": "2017-08-23T13:57:40.858-04:00",
+			"messageCreateUtcTimestamp": "2017-08-23T17:57:40.858Z",
+			"eventType": "SHPSCF",
+			"eventTimestamp": "2017-08-23T13:57:24.447-04:00",
+			"eventUtcTimestamp": "2017-08-23T17:57:24.447Z",
+			"partnerRefList": {
+				"partnerRef": [
+					{
+						"partnerOrderId": "264_14G_Mcom_Single"
+					}
+				]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"customerId": "63713854",
+					"firstName": "billingFirstName",
+					"lastName": "billingLastName",
+					"addressLine1": "123 N WABASH AVE",
+					"addressLine2":"ROAD 123",
+					"addressLine3":"APT 123",
+					"cityName": "CHICAGO",
+					"stateName": "IL",
+					"zipCode": "60611-4147",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "510-770-4064",
+					"homePhoneNbr": "510-770-4064",
+					"alternatePhoneNbr": "510-770-4064",
+					"sendSmsMessageFlag": "false",
+					"emailId": "oes.macys@gmail.com"
+				}
+			},
+			"orderManagementApplicationCode": "FIL"
+		},
+		"lineItemList": {
+			"lineItem": [
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "2",
+					"lineItemCrossReferenceNbr": "2",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "EMAIL",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "0",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "478000231029",
+					"productGroupCode": "VGC",
+					"itemDepartmentNbr": "10",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "50.01",
+					"originalPriceAmount": "50.01",
+					"retailPriceAmount": "50.01",
+					"surchargeAmount": "10.01",
+					"deliveryType": "4",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-21-04:00"
+				}
+			]
+		},
+		"shipmentList": {
+			"shipment": [
+				{
+					"orderShipmentNbr": "1",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "7",
+					"shipmentTypeDescription": "VGC",
+					
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "566",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "0",
+					"shipmentFeeSlideScaleBaseAmount": "0.00",
+					"totalAmount": "60.02",
+					"taxAmount": "10.01",
+					"retailAmount": "50.01",
+					"retailTaxAmount": "0.0",
+					"shippingChargeAmount": "0.0",
+					"shippingTaxAmount": "0.0",
+					"upChargeFeeAmount": "0.0",
+					"giftWrapFeeAmount": "0.0",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "0.0",
+					"miscellaneousTaxAmount": "0.0",
+					"giftFlag": "false",
+					"giftWrapType": "N",
+				    "giftMessageGreetingText":"greetingMessage",
+	               "giftCloseDescription":"closingMessage",
+	               "giftSignDescription":"signatureMessag",
+					"deliveryType": "4",
+					"deliveryTypeDescription": "EMAIL",
+					"estimatedArrivalDate": "9999-12-31-05:00",
+					"expectedShipDate": "9999-12-31",
+					"expectedShipTime": "23:59:00-05:00",
+					"holdDate": "2017-08-18-04:00",
+					"actualShipDate": "2017-08-18-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "C",
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "50.0",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "50.0",
+								"authorizationPlanType": "278913",
+								"authorizationDate": "2017-08-18-04:00",
+								"authorizationExpiredDate": "2017-08-25-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "HARI",
+							"lastName": "HARI",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "oes.nisum.test@gmail.com"
+						}
+					},
+					"giftRecipientEmail":"oes.macys@gmail.com",
+					"giftWrapFlag": "false"
+				}
+				
+			]
+		},
+		"inventoryDeltaList": {
+			"inventoryDelta": [
+				{
+					"orderID": "441135120",
+					"shipmentNbr": "1",
+					"inventoryDeltaActionCode": "SHIPPED",
+					"lineItemNbr": "1",
+					"orderManagementSenderCode": "FIL",
+					"inventoryDeltaDateTime": "2017-08-23T13:57:24.107-04:00",
+					"inventoryDeltaUtcDateTime": "2017-08-23T17:57:24.107Z",
+					"mediaDate": "2017-08-23-04:00",
+					"processName": "SCF",
+					"racfID": "71115670",
+					"locationNbr": "6241",
+					"itemDepartmentNbr": "870",
+					"itemSkuUpc": "86279088208",
+					"quantityAmount": "1"
+				}
+			]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [
+				{
+					"mailSourceId":"EOD_MailSourceID",
+					"mailTypeCode": "264",
+					"mailSubtypeCode": "14G",
+					"partyType": "B"
+				}
+			]
+		},
+		"orderFraudInformation": {}
+	}
+}

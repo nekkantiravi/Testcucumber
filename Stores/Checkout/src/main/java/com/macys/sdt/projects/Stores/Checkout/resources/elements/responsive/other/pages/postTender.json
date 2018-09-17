@@ -1,0 +1,9 @@
+{
+  "post_tender_screen":                 "class, postTender-page",
+  "sub_total_post_tender":              "class, qe-subtotal-label",
+  "tax_post_tender":                    "class, qe-tax-label",
+  "shipping_fee_post_tender":           "class, qe-shipping-fee-label",
+  "receipt_button":                     "id, progressButtonpostTender",
+  "add_printer_button":                 "id, postTenderAddPrinter",
+  "print_button":                       "id, postTenderButtonAuthorize"
+}

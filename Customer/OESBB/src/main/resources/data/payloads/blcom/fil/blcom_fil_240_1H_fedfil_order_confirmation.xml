@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>519358702</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/03/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>558.60</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>40.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>9.00</taxAmt>
+	<orderTotal>558.60</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>0000000000000000</ltyIdUsl>
+	<billingDetail>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 GOOSE WATCH CT.</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>LAS VEGAS</city>
+		<state>NV</state>
+		<country>USA</country>
+		<zipcode>89139</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>AMERICAN EXPRESS</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>558.60</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MS</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 GOOSE WATCH CT</addressLine1>
+		<addressLine2>NR MADHAPUR</addressLine2>
+		<addressLine3></addressLine3>
+		<city>LAS VEGAS</city>
+		<state>NV</state>
+		<country>USA</country>
+		<zipcode>89139</zipcode>
+		<greetingMessage>HELLO</greetingMessage>
+		<closingMessage>HAPPY BIRTHDAY</closingMessage>
+		<signatureMessage>BYE</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>6288768123456</pickupBarcode>
+		<pickupReadyDate>06/03/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>558.60</shipRetailAmt>
+		<shipTaxAmt>0.00</shipTaxAmt>
+		<shipFilLoc>0991</shipFilLoc>
+		<shipPhone>626-688-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>HIGHLAND</description>
+			<price>558.60</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>558.60</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>4003683109219</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

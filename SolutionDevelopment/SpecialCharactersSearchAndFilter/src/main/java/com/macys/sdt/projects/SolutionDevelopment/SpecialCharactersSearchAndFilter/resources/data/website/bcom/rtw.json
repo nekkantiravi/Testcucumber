@@ -1,0 +1,385 @@
+{
+  "data": [{
+    "Search Term": "Active",
+    "Cat ID": "11817",
+    "Refinements": {
+      "FOB": ["Women"]
+    },
+    "Exclusions": {
+      "Plus": "1000444"
+    },
+    "Refinements Display": "Department > Women, Exclude Plus"
+  },
+    {
+      "Search Term": "Blazers",
+      "Cat ID": "1005879",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Boyfriend Jeans",
+      "Cat ID": "1004902",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Coats",
+      "Cat ID": "1001520",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Cocktail Dresses",
+      "Cat ID": "1005206",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Cropped Jeans",
+      "Cat ID": "1004903",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Denim",
+      "Cat ID": "5545",
+      "Refinements": {
+        "FOB": ["Women"],
+        "PRODUCT_DEPARTMENT": ["Jeans",
+          "Shorts"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Item Type>Jeans, Item Type>Shorts, Exclude Plus, "
+    },
+    {
+      "Search Term": "Distressed Jeans",
+      "Cat ID": "1004904",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Dresses",
+      "Cat ID": "21683",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Dresses",
+      "Cat ID": "5467",
+      "Refinements": {
+        "FOB": ["Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Plus"
+    },
+    {
+      "Search Term": "Dresses",
+      "Cat ID": "1006696",
+      "Refinements": {
+        "FOB": ["Petites"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Petites"
+    },
+    {
+      "Search Term": "Evening Dresses",
+      "Cat ID": "1005210",
+      "Refinements": {
+        "FOB": ["Women"],
+        "DRESS_STYLE_M": ["Gown"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus, Dress Style > Gown"
+    },
+    {
+      "Search Term": "Jackets",
+      "Cat ID": "1001521",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Jeans",
+      "Cat ID": "5545",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Jeans",
+      "Cat ID": "5466",
+      "Refinements": {
+        "FOB": ["Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Plus"
+    },
+    {
+      "Search Term": "Jumpsuit",
+      "Cat ID": "1004898",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Lounge",
+      "Cat ID": "1021062",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Plus Clothing",
+      "Cat ID": "1000444",
+      "Refinements": {
+        "FOB": ["Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Plus"
+    },
+    {
+      "Search Term": "Rompers",
+      "Cat ID": "1004899",
+      "Refinements": "N/A",
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "N/A, Exclude Plus"
+    },
+    {
+      "Search Term": "Skinny Jeans",
+      "Cat ID": "1004906",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Skinny Pants",
+      "Cat ID": "1004862",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Skirts",
+      "Cat ID": "19951",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Sweaters",
+      "Cat ID": "12374",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Sweaters",
+      "Cat ID": "16184",
+      "Refinements": {
+        "FOB": ["Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Plus"
+    },
+    {
+      "Search Term": "Sweatpants",
+      "Cat ID": "1021567",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Sweatshirts",
+      "Cat ID": "1004922",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Sweatshirts",
+      "Cat ID": "1021566",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Tanks",
+      "Cat ID": "1004921",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Tees",
+      "Cat ID": "1004920",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Tops",
+      "Cat ID": "1004919",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "Tops",
+      "Cat ID": "1005349",
+      "Refinements": {
+        "FOB": ["Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Plus"
+    },
+    {
+      "Search Term": "T-shirts",
+      "Cat ID": "1004920",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": {
+        "Plus": "1000444"
+      },
+      "Refinements Display": "Department > Women, Exclude Plus"
+    },
+    {
+      "Search Term": "underwear",
+      "Cat ID": "5576",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Women"
+    },
+    {
+      "Search Term": "panties",
+      "Cat ID": "5576",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "socks",
+      "Cat ID": "1006098",
+      "Refinements": {
+        "FOB": ["Women"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Women"
+    },
+    {
+      "Search Term": "bras",
+      "Cat ID": "5567",
+      "Refinements": "N/A",
+      "Exclusions": "N/A",
+      "Refinements Display": "N/A"
+    },
+    {
+      "Search Term": "tights",
+      "Cat ID": "1006096",
+      "Refinements": {
+        "FOB": ["Women",
+          "Plus"]
+      },
+      "Exclusions": "N/A",
+      "Refinements Display": "Department > Women, Plus Sizes"
+    }]
+}

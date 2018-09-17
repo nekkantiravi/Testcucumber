@@ -1,0 +1,54 @@
+{
+  "women": {
+    "catagory_no.": "118",
+    "link": "/shop/womens-clothing?id=118"
+  },
+  "men": {
+    "catagory_no.": "1",
+    "link": "/shop/mens-clothing?id=1"
+  },
+  "shoes": {
+    "catagory_no.": "13247",
+    "link": "/shop/shoes?id=13247"
+  },
+  "handbags": {
+    "catagory_no.": "26846",
+    "link": "/shop/handbags-accessories?id=26846"
+  },
+  "plus sizes": {
+    "catagory_no.": "32147",
+    "link": "/shop/plus-size-clothing?id=32147"
+  },
+  "beauty": {
+    "catagory_no.": "669",
+    "link": "/shop/makeup-and-perfume?id=669"
+  },
+  "kids": {
+    "catagory_no.": "5991",
+    "link": "/shop/kids-clothes?id=5991"
+  },
+  "juniors": {
+    "catagory_no.": "16904",
+    "link": "/shop/junior-clothing?id=16904"
+  },
+  "jewelry": {
+    "catagory_no.": "544",
+    "link": "/shop/jewelry-watches?id=544"
+  },
+  "kitchen": {
+    "catagory_no.": "7497",
+    "link": "/shop/kitchen?id=7497"
+  },
+  "bed and bath": {
+    "catagory_no.": "7495",
+    "link": "/shop/bed-bath?id=7495"
+  },
+  "home": {
+    "catagory_no.": "22672",
+    "link": "/shop/for-the-home?id=22672"
+  },
+  "luggage": {
+    "catagory_no.": "16908",
+    "link": "/shop/luggage?id=16908"
+  }
+}

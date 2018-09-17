@@ -1,0 +1,18 @@
+{
+
+  "url":                         "",
+  "verify_page":               "class, logo-text",
+  "associate_number":           "id, userId",
+  "associate_password":         "id, password",
+  "sign_in":                    "id, login",
+  "hamburger_menu":             "xpath, //*[@id='Layer_1']",
+  "vendor_bonus_link":          "id,  vendorbonus",
+  "associate_header":           "id, assoc",
+  "search_icon":                "xpath, //*[(@id='Layer_1')]",
+  "create_request_link":        "id, createVendorBonusRequest",
+  "create_icon":                "id, plusIcon",
+  "vendor_bonus_title":         "id, vendorBonusTitle",
+  "create_vendor_bonus":        "id, createVendorBonusRequest",
+  "gift_registry_search":       "id, vendorBonusRegistrySearchInput"
+
+}

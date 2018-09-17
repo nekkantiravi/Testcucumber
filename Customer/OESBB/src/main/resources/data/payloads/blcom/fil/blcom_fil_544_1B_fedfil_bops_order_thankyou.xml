@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>03/27/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>83.00</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>50.00</taxAmt>
+	<orderTotal>83.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES TEAM</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 COLUMBUS PL</addressLine1>
+		<addressLine2>APT N12F</addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10019</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>PAYPAL</paymentType>
+		<accountNumber></accountNumber>
+		<amount>83.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>03/28/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title></title>
+		<firstName>OESone</firstName>
+		<middleName></middleName>
+		<lastName>TESTINGone</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 3RD AVE</addressLine1>
+		<addressLine2>12TH STREET AND LEXINGTON AVE</addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>500560871234</pickupBarcode>
+		<pickupReadyDate>03/28/2016</pickupReadyDate>
+		<pickupCancelDate>04/04/2016</pickupCancelDate>
+		<shipRetailAmt>83.00</shipRetailAmt>
+		<shipTaxAmt>10.00</shipTaxAmt>
+		<shipFilLoc>0343</shipFilLoc>
+		<shipPhone>212-262-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@AOL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>SLUBSTRIPES BOXYLS</description>
+			<price>83.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>83.00</totalAmount>
+			<expectedDate>03/28/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity>000</cancelledQuantity>
+			<upcId>000000840849150166</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

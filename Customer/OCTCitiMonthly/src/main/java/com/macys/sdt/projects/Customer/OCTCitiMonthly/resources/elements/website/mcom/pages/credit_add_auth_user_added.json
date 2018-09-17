@@ -1,0 +1,9 @@
+{
+  "url": "#addauthusers",
+  "verify_page": "xpath, //h2[contains(text(),'Added an Authorized User')]",
+
+  "sign_out": "cssSelector, li>a.sign_off",
+  "confirm_sign_off": "xpath, //*[@id='sign_off_confirmation']/*//button[@type='submit']",
+  "add_another_user": "cssSelector, .alternate.ui-btn.ui-shadow.ui-corner-all",
+  "go_to_credit_home": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all"
+}

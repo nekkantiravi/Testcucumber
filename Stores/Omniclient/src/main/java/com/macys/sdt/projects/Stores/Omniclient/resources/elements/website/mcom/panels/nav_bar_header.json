@@ -1,0 +1,16 @@
+{
+  "url": "/",
+ 
+  "date_header":						"id, navdate",
+  "logout_button":						"id, logout",
+  "homePage_link":                      "id, dashboard",
+  "myclients_link":						"id, myClient",
+  "alltodos_link":						"id, todo",
+  "createtodos_link":					"id, createMyLists",
+  "createevent_link":					"id, marketingToDos",
+  "attention_header":					"xpath, //*[@id='modalWindow']/div/div/div[3]/button[1]/span"
+  
+}
+  
+  
+  

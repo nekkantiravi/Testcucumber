@@ -1,0 +1,11 @@
+{
+  "url":                                 "/registry/wedding/registryeditaccount",
+  "verify_page":                         "className, update-registry-heading||id, m-j-card-registry-account-info",
+
+  "contact_information":                 "cssSelector, #registryInfo .greyHeader",
+  "update_button":                       "cssSelector, .pirvacy-note #updateData",
+  "co_registrant_first_name":            "name, registryEditAccount.coRegistrantFirstName||id, m-registryEditAccount-personalInfo-partnerFirstName",
+  "edit_personal_info":                  "cssSelector, #m-j-card-registry-personal-info button",
+  "save_personal_info":                  "id, m-at-registryEditAccount-personalInfo-save",
+  "error_msg":                           "class, tt-content"
+}

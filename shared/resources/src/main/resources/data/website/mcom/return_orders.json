@@ -1,0 +1,884 @@
+{
+  "macys":[
+    {
+      "dsg":[
+        {
+          "return_order":"delivered_beautybox",
+          "order_number":"100000099281",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"submitted",
+          "order_number":"15476201738",
+          "email":"TDM@MACYS.COM",
+          "shipping_zip_code":"22102",
+          "refund_method":"orignal_payment"
+        },
+        {
+          "return_order":"intransit",
+          "order_number":"15471201738",
+          "email":"TDM@MACYS.COM",
+          "carrier_tracking_nbr":"1Z7270660355047400",
+          "shipping_zip_code":"94903"
+        },
+        {
+          "return_order":"transit",
+          "order_number":"15471201738",
+          "email":"TDM@MACYS.COM",
+          "shipping_zip_code":"22102",
+          "carrier_tracking_nbr":"1Z7270660355047400"
+        },
+        {
+          "return_order":"prod_order",
+          "order_number":"1289566903",
+          "email":"manjeetrocks@gmail.com",
+          "shipping_zip_code":"45040",
+          "carrier_tracking_nbr":"1ZA6A5859036697485"
+        },
+        {
+          "return_order": "Military-FPO",
+          "order_number": "1545220171129",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "Military-APO",
+          "order_number": "1549620161129",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "return_submit",
+          "order_number": "15461201738",
+          "email": "TDM@MACYS.COM",
+          "fill_division_cd": "71",
+          "fill_store_nbr": "78"
+        },
+        {
+          "return_order":"rebuy_delivered_with_size_color",
+          "order_number":"27224697239",
+          "email":"tdm@macys.com",
+          "shipping_zip_code": "94107"
+        },
+        {
+          "return_order":"rebuy_vr_delivered",
+          "order_number":"15563201738",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_upc_available_not_available",
+          "order_number":"612000120969",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_upc_unavailable",
+          "order_number":"612000121035",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_delivered",
+          "order_number":"27233906882",
+          "email":"tdm@macys.com",
+          "shipping_zip_code":"22102",
+          "phone_number":"8056844314"
+        },
+        {
+          "return_order":"rebuy_processing",
+          "order_number":"27236881515",
+          "email":"tdm@macys.com",
+          "phone_number":"5345454545"
+        },
+        {
+          "return_order":"rebuy_gwp",
+          "order_number":"27239627164",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_vgc",
+          "order_number":"REGDSG44",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_egc",
+          "order_number":"27242736051",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_beautybox",
+          "order_number":"27230483864",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_bigticket",
+          "order_number":"119589354",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_intransit",
+          "order_number":"27236881515",
+          "email":"tdm@macys.com",
+          "phone_number":"3237346303"
+        },
+        {
+          "return_order":"rebuy_cancelled",
+          "order_number":"15561201738",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_bops_pickedup",
+          "order_number":"27227058928",
+          "email":"tdm@macys.com",
+          "phone_number":"5104827810"
+        },
+        {
+          "return_order": "multiple_buy_again_items",
+          "order_number": "27251035146",
+          "email": "tdm@macys.com",
+          "phone_number": "5307497380",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "creditcard and giftcard",
+          "order_number": "15461201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "shipping and billing same",
+          "order_number": "15467201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "pickup_eligible_location_chicago",
+          "order_number": "15476201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "60602",
+          "address_line_one": "111 N STATE ST",
+          "pickup_city": "Chicago",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "60602",
+          "phone_number": "3127814483",
+          "special_instructions": "landmark 456 market",
+          "invalid_zip_code": "94084"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_creditcard",
+          "order_number": "15467201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE CARPENTER",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "SAN RAFAEL",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_creditcard",
+          "order_number": "25936383594",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE CHINE",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_different",
+          "order_number": "15465201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "pickup_eligible_location_los_angeles",
+          "order_number": "15478201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "90048",
+          "address_line_one": "8500 BEVERLY BLVD",
+          "pickup_city": "Los Angeles",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "90048",
+          "phone_number": "3108546655",
+          "special_instructions": "please come on time",
+          "invalid_zip_code": "95391"
+        },
+        {
+          "return_order": "pickup_eligible_mixed_order",
+          "order_number": "900480258",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "94107",
+          "address_line_one": "680 FOLSOM ST",
+          "pickup_city": "SAN FRANCISCO",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "94107",
+          "phone_number": "3127814483",
+          "special_instructions": "",
+          "invalid_zip_code": "12345"
+        },
+        {
+          "return_order": "bops_with_creditcard",
+          "order_number": "15468201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI BERKELAAR",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "pickup_eligible_in_san_francisco",
+          "order_number": "15480201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "94539",
+          "address_line_one": "73",
+          "pickup_city": "Fremont",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "94539",
+          "phone_number": "4087741435",
+          "special_instructions": "please call me one hour before you reach",
+          "invalid_zip_code": "91503"
+        },
+        {
+          "return_order": "mixed_order_with_credit_card_gift_card_and_different_shipping_and_billing_address",
+          "order_number": "28360514210",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI TAKAMIYA",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "EGC",
+          "order_number": "15463201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_credit_and_giftcard",
+          "order_number": "15456201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE TRANSPORT TRUCK",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "SAN RAFAEL",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_credit_and_giftcard",
+          "order_number": "997560816",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI DELAIRI",
+          "address_line1": "651 INTERNATIONAL DR",
+          "address_line2": "TYSON'S GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_giftcard",
+          "order_number": "15463201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE MORROW",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_giftcard",
+          "order_number":  "25207594008",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE RAMOS",
+          "address_line1": "8680 MAGNOLIA TRL",
+          "address_line2": "APT 121",
+          "city": "EDEN PRAIRIE",
+          "state": "MN",
+          "zip_code": "55344",
+          "shipping_zip_code": "55344"
+        },
+        {
+          "return_order": "bops_with_giftcard",
+          "order_number": "15464201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE PEYTON",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102"
+        },
+        {
+          "return_order": "bops_with_creditcard_and_giftcard",
+          "order_number": "15486201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "TEST TESTL",
+          "address_line1": "225 EDEN BRIDGE PL",
+          "address_line2": "APT 22",
+          "city": "ALPHARETTA",
+          "state": "GA",
+          "zip_code": "30020"
+        },
+        {
+          "return_order": "mixed_order_with_creditcard_and_same_shipping_and_billing_address",
+          "order_number": "15466201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE TEMPLIER",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "mixed_order_with_creditcard_and_different_shipping_and_billing_address",
+          "order_number": "15484201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI LIU",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "mixed_order_with_giftcard_and_same_shipping_and_billing_address",
+          "order_number": "25949736930",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE PILBEAM",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "mixed_order_with_gift_card_and_different_shipping_and_billing_address",
+          "order_number": "15460201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE FERNANDO BITENCUR",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "order_with_first_name_mismatch",
+          "order_number": "15458201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "order_with_city_mismatch",
+          "order_number": "15475201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_zipcode_mismatch",
+          "order_number": "15470201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_phone_number_mismatch",
+          "order_number": "15606201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_email_address_mismatch",
+          "order_number": "15474201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "single_line_item_and_upc_available_in_db_with_fcc_response",
+          "order_number": "15613201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "multiple_line_items_and_upc_available_in_db_with_fcc_response",
+          "order_number": "15636201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "mixed_order_with_credit_card_gift_card_and_same_shipping_and_billing_address",
+          "order_number": "997560840",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "TEST TESTL",
+          "address_line1": "225 EDEN BRIDGE PL",
+          "address_line2": "APT 22",
+          "city": "ALPHARETTA",
+          "state": "GA",
+          "zip_code": "30020",
+          "shipping_zip_code": "30020"
+        },
+        {
+          "return_order": "pickup_eligible_bops",
+          "order_number": "15468201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "incorrect_order",
+          "order_number": "221"
+        },
+        {
+          "return_order": "invalid",
+          "order_number": "X"
+        }
+
+      ],
+      "s2b":[
+        {
+          "return_order": "delivered_beautybox",
+          "order_number": "100000099281",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order":"submitted",
+          "order_number":"15605201738",
+          "email":"TDM@MACYS.COM",
+          "shipping_zip_code":"94903",
+          "refund_method":"orignal_payment"
+        },
+        {
+          "return_order":"return_hierarchy",
+          "order_number":"15647201738",
+          "email":"TDM@MACYS.COM",
+          "shipping_zip_code":"22102"
+        },
+        {
+          "return_order":"intransit",
+          "order_number":"26504658954",
+          "email":"TDM@MACYS.COM",
+          "carrier_tracking_nbr":"1Z7270660355047400",
+          "shipping_zip_code":"94903"
+        },
+        {
+          "return_order":"transit",
+          "order_number":"26504787665",
+          "email":"TDM@MACYS.COM",
+          "shipping_zip_code":"94903",
+          "carrier_tracking_nbr":"1Z7270660355047400"
+        },
+        {
+          "return_order":"prod_order",
+          "order_number":"1289566903",
+          "email":"manjeetrocks@gmail.com",
+          "shipping_zip_code":"45040",
+          "carrier_tracking_nbr":"1ZA6A5859036697485"
+        },
+        {
+          "return_order": "Military-FPO",
+          "order_number": "15613201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "Military-APO",
+          "order_number": "15615201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "return_submit",
+          "order_number": "15648201738",
+          "email": "TDM@MACYS.COM",
+          "fill_division_cd": "71",
+          "fill_store_nbr": "78"
+        },
+        {
+          "return_order":"rebuy_delivered_with_size_color",
+          "order_number":"25495525008",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_vr_delivered",
+          "order_number":"15562201738",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_upc_unavailable",
+          "order_number":"23918241784",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_upc_available_not_available",
+          "order_number":"23918241784",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_delivered",
+          "order_number":"15645201738",
+          "email":"tdm@macys.com",
+          "shipping_zip_code":"22102",
+          "phone_number":"8056844314"
+        },
+        {
+          "return_order":"rebuy_processing",
+          "order_number":"2067648",
+          "email":"tdm@macys.com",
+          "phone_number":"5345454545"
+        },
+        {
+          "return_order":"rebuy_gwp",
+          "order_number":"9929835144",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_vgc",
+          "order_number":"REGDSG44",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_egc",
+          "order_number":"25522567487",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_beautybox",
+          "order_number":"25901109377",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_bigticket",
+          "order_number":"119589354",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_intransit",
+          "order_number":"2067648",
+          "email":"tdm@macys.com",
+          "phone_number":"3237346303"
+        },
+        {
+          "return_order":"rebuy_cancelled",
+          "order_number":"15561201738",
+          "email":"tdm@macys.com"
+        },
+        {
+          "return_order":"rebuy_bops_pickedup",
+          "order_number":"15607201738",
+          "email":"tdm@macys.com",
+          "phone_number":"5104827810"
+        },
+        {
+          "return_order": "multiple_buy_again_items",
+          "order_number": "15650201738",
+          "email": "tdm@macys.com",
+          "phone_number": "9989376851",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "creditcard and giftcard",
+          "order_number": "15646201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "shipping and billing same",
+          "order_number": "15643201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "pickup_eligible_location_chicago",
+          "order_number": "15604201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "60602",
+          "address_line_one": "111 N STATE ST",
+          "pickup_city": "Chicago",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "60602",
+          "phone_number": "3127814483",
+          "special_instructions": "landmark 456 market",
+          "invalid_zip_code": "94084"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_creditcard",
+          "order_number": "15643201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE CARPENTER",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "SAN RAFAEL",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "shipping_and_billing_different",
+          "order_number": "15644201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_creditcard",
+          "order_number": "15649201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE CHINE",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "pickup_eligible_location_los_angeles",
+          "order_number": "15642201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "90048",
+          "address_line_one": "8500 BEVERLY BLVD",
+          "pickup_city": "Los Angeles",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "90048",
+          "phone_number": "3108546655",
+          "special_instructions": "please come on time",
+          "invalid_zip_code": "95391"
+        },
+        {
+          "return_order": "pickup_eligible_mixed_order",
+          "order_number": "26424404048",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "94107",
+          "address_line_one": "680 FOLSOM ST",
+          "pickup_city": "SAN FRANCISCO",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "94107",
+          "phone_number": "3127814483",
+          "special_instructions": "",
+          "invalid_zip_code": "12345"
+        },
+        {
+          "return_order": "bops_with_creditcard",
+          "order_number": "15607201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI BERKELAAR",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "pickup_eligible_in_san_francisco",
+          "order_number": "15641201738",
+          "email": "tdm@macys.com",
+          "shipping_zip_code": "94539",
+          "address_line_one": "73",
+          "pickup_city": "Fremont",
+          "pickup_state": "CA",
+          "other_pickup_zipcode": "94539",
+          "phone_number": "4087741435",
+          "special_instructions": "please call me one hour before you reach",
+          "invalid_zip_code": "91503"
+        },
+        {
+          "return_order": "mixed_order_with_credit_card_gift_card_and_different_shipping_and_billing_address",
+          "order_number": "15619201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI TAKAMIYA",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "EGC",
+          "order_number": "15645201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_credit_and_giftcard",
+          "order_number": "15650201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE TRANSPORT TRUCK",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "SAN RAFAEL",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_credit_and_giftcard",
+          "order_number": "15637201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI DELAIRI",
+          "address_line1": "651 INTERNATIONAL DR",
+          "address_line2": "TYSON'S GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_different_for_giftcard",
+          "order_number": "15645201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE MORROW",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "shipping_and_billing_address_same_for_giftcard",
+          "order_number":  "15623201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE RAMOS",
+          "address_line1": "8680 MAGNOLIA TRL",
+          "address_line2": "APT 121",
+          "city": "EDEN PRAIRIE",
+          "state": "MN",
+          "zip_code": "55344",
+          "shipping_zip_code": "55344"
+        },
+        {
+          "return_order": "bops_with_giftcard",
+          "order_number": "15629201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE PEYTON",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102"
+        },
+        {
+          "return_order": "bops_with_creditcard_and_giftcard",
+          "order_number": "27164962664",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "TEST TESTL",
+          "address_line1": "225 EDEN BRIDGE PL",
+          "address_line2": "APT 22",
+          "city": "ALPHARETTA",
+          "state": "GA",
+          "zip_code": "30020"
+        },
+        {
+          "return_order": "mixed_order_with_creditcard_and_same_shipping_and_billing_address",
+          "order_number": "15608201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE TEMPLIER",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "mixed_order_with_creditcard_and_different_shipping_and_billing_address",
+          "order_number": "15484201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYTHILI LIU",
+          "address_line1": "1651 INTERNATIONAL DR",
+          "address_line2": "TYSONS GALLERIA MALL",
+          "city": "MCLEAN",
+          "state": "VA",
+          "zip_code": "22102",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "mixed_order_with_giftcard_and_same_shipping_and_billing_address",
+          "order_number": "15609201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE PILBEAM",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "mixed_order_with_gift_card_and_different_shipping_and_billing_address",
+          "order_number": "15610201738",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "MYRTLE FERNANDO BITENCUR",
+          "address_line1": "225 NOVA ALBION WAY",
+          "address_line2": "APT 22",
+          "city": "FREMONT",
+          "state": "CA",
+          "zip_code": "94903",
+          "shipping_zip_code": "22102"
+        },
+        {
+          "return_order": "order_with_first_name_mismatch",
+          "order_number": "15638201738",
+          "email": "TDM@MACYS.COM",
+          "shipping_zip_code": "94903"
+        },
+        {
+          "return_order": "order_with_city_mismatch",
+          "order_number": "15640201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_zipcode_mismatch",
+          "order_number": "15611201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_phone_number_mismatch",
+          "order_number": "15606201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "order_with_email_address_mismatch",
+          "order_number": "15605201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "single_line_item_and_upc_available_in_db_with_fcc_response",
+          "order_number": "15613201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "multiple_line_items_and_upc_available_in_db_with_fcc_response",
+          "order_number": "15636201738",
+          "email": "tdm@macys.com"
+        },
+        {
+          "return_order": "mixed_order_with_credit_card_gift_card_and_same_shipping_and_billing_address",
+          "order_number": "27164962664",
+          "email": "TDM@MACYS.COM",
+          "first_name_last_name": "TEST TESTL",
+          "address_line1": "225 EDEN BRIDGE PL",
+          "address_line2": "APT 22",
+          "city": "ALPHARETTA",
+          "state": "GA",
+          "zip_code": "30020",
+          "shipping_zip_code": "30020"
+        },
+        {
+          "return_order": "pickup_eligible_bops",
+          "order_number": "15607201738",
+          "email": "TDM@MACYS.COM"
+        },
+        {
+          "return_order": "incorrect_order",
+          "order_number": "221"
+        },
+        {
+          "return_order": "invalid",
+          "order_number": "X"
+        }
+      ]
+    }
+  ]
+}

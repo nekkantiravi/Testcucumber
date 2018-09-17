@@ -1,0 +1,34 @@
+{
+    "include": [
+        "panel.header_and_footer",
+        "panel.bcom_pages"
+    ],
+
+    "info":                             "There are no comments in JSON, so try to make your files easy to read without them",
+
+    "url":                              "http://fashion-test.bloomingdales.com/errors/",
+    "verify_page":                      "id, bcomFashion",
+    "bloomies_logo": 	                "id, bloomiesLogo",
+    "category_fob":                     "xpath, //*[@id='globalNavigation']/ul/li/a",
+    "fob_flyout_opened":                "cssSelector, div#globalFlyouts>div.subnav.flyout-on",
+    "myaccount_flyout_opened":          "id, accountContainer",
+    "bag_menu":                         "class, qb_addToBagOverlayLabel",
+    "bag_flyout_opened":                "class, qb_openedOverlayLabel",
+    "bag_flyout_closed":                "class, qb_closedOverlayLabel",
+    "modal":                            "id, modal",
+    "subcategory":                      "xpath, //*[@class='flexLabelLinksContainer']/ul/li/a",
+
+    "customer_service_page_verify":"id, CS_logo",
+    "visually_impaired_page_verify":"id, howto",
+    "customer_rights_page_verify":"lintText, MACY’S",
+    "outlet_store_page_verify": "class, gn_left_nav_top",
+    "stores_and_events_page_verify":"className, header",
+    "online_and_mobile_page_verify":"class, mobile_app",
+    "ways_to_shop_page_verify": "id, ways_to_shop_header",
+    "careers_page_verify": "id, searchQuery",
+    "b_cause_page_verify": "class, bl_breadcrumb_bold",
+    "company_page_verify": "className, bl_header_pg_img",
+    "sign_up_link": "id, cmFooterSocialMediaSignUP",
+    "wishList_page_verify": "linkText, MY WISH LIST",
+
+}

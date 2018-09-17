@@ -1,0 +1,7 @@
+{
+    "include": [
+        "panel.pagination_top"
+    ],
+
+    "items_per_page":                       "class, pppOption"
+}

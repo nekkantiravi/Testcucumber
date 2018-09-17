@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21D_MWEDD</reservationNumber>
+	<internetOrderNumber>276_21D_MWEDD</internetOrderNumber>
+	<orderDate>12/06/2017</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>161.47</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>9.69</taxAmt>
+	<orderTotal>177.16</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>TARA</firstName>
+		<middleName />
+		<lastName>COWDEN</lastName>
+		<attnLine />
+		<addressLine1>12236 BROADWATER LOOP</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>THONOTOSASSA</city>
+		<state>FL</state>
+		<country>USA</country>
+		<zipcode>33592</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************8551</accountNumber>
+		<amount>177.16</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>006</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>CORTNEY</firstName>
+		<middleName />
+		<lastName>DAVIDSON</lastName>
+		<attnLine />
+		<addressLine1>30285 FOX CLUB DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>FARMINGON HILLS</city>
+		<state>MI</state>
+		<country>USA</country>
+		<zipcode>48331</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>Snowman Platter</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/11/2017</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/10/2018</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>Ganz</vendor>
+			<cancelledQuantity />
+			<upcId>000000661371449760</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color>Snowman Platter</color>
+		</itemDetail>
+	</shipmentDetail>
+	<LoyaltyInformation>
+		<keyFobID>L900033760000</keyFobID>
+		<visitsRemaining />
+		<tier />
+		<bonusRewardBal />
+		<bonusPendRewardBal />
+		<bonusRewardEarned />
+		<bonusPendRewardEarned />
+		<rewardBal />
+		<pendRewardBal />
+		<rewardEarned />
+		<pendRewardEarned />
+		<earningLevel />
+		<lastName />
+		<firstName />
+		<email />
+		<starRewards />
+		<visaRewards />
+		<amexRewards />
+		<brierlyRewards />
+		<insiderRewards />
+		<accountStatus />
+		<accountStatusReason />
+		<pendingRewards />
+		<awardCardFlag />
+		<offerOnlyFlag />
+		<visitExpiration />
+		<errorCode />
+		<errorMsg />
+		<Offer>
+			<barCodeNum />
+			<expirationDate />
+			<headerText1 />
+			<headerText2 />
+			<exclusions />
+			<promoCode />
+		</Offer>
+		<Award>
+			<amount />
+		</Award>
+	</LoyaltyInformation>
+</mailMessagePayload>

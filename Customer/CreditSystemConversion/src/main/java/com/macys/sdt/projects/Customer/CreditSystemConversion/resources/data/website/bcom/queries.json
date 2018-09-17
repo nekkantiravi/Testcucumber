@@ -1,0 +1,17 @@
+{
+  "custom_date": "SELECT timestamp_value FROM custom_date WHERE date_name = 'CUSTOM_DATE'",
+   "Address_service":{
+    "Tax_address_details":"SELECT XML_DATA FROM TAX_ADDRESS_SERVICE_LOG WHERE user_id = '?' and SERVICE_NAME = 'ADDRESS_RESPONSE' ORDER BY LAST_UPDATED DESC FETCH FIRST 1 ROWS ONLY"
+  },
+  "user_service":{
+    "get_user_loyalty_info_using_usl": "select * from user_loyalty_info where lty_id_nbr = ?",
+    "delete_user_loyalty_info_using_usl": "delete from user_loyalty_info where lty_id_nbr = ?",
+    "update_notification":"UPDATE USER_NOTIFICATION SET SUPPRESS_FLG='N' WHERE user_id='?'"
+  },
+  "creditApp_MyWallet" :
+  {
+    "update_User_creditcard_MyWallet" : "update user_credit_card set card_status='LS' where user_id= ?",
+    "select_User_creditcard_MyWallet" : "select card_status from user_credit_card where user_id= ?",
+    "rowCount_Customer_Offer" : "select count(*) as rowCount from CUSTOMER_OFFER where user_id= ?"
+  }
+}

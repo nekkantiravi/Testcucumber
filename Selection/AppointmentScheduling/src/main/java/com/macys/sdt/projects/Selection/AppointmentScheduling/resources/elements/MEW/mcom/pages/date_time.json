@@ -1,0 +1,6 @@
+{
+  "url":              "",
+  "location": 	      "id, location",
+  "latest_date":     "xpath,.//*[@id='tt_form_ChoiceSelect_0']",
+  "continue":        "id,nextBtn"
+}

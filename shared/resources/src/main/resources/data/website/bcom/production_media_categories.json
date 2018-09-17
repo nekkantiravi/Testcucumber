@@ -1,0 +1,113 @@
+{
+  "category_splash": {
+    "site": {
+      "OTHERS": {
+        "IMAGE_MAP": {
+          "101": "HANDBAGS"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN"
+        },
+        "TEXT": {
+          "101": "MEN"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON": {
+          "102": "HANDBAGS"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "105": "HANDBAGS"
+        }
+      }
+    },
+    "iship": {
+      "OTHERS": {
+        "IMAGE_MAP": {
+          "101": "HANDBAGS"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN"
+        },
+        "TEXT": {
+          "101": "MEN"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON": {
+          "102": "HANDBAGS"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "105": "HANDBAGS"
+        }
+      }
+    }
+  },
+  "browse": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Dresses",
+        "category2": "WOMEN -> Lingerie, Bras & Panties",
+        "category3": "WOMEN -> Ralph Lauren"
+      },
+      "MEN": {
+        "category1": "MEN -> Pants",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Slippers"
+      },
+      "BEAUTY": {
+        "category1": "BEAUTY -> All Makeup",
+        "category2": "BEAUTY -> Clinique",
+        "category3": "BEAUTY -> Shop By Concern"
+      },
+      "HOME": {
+        "category1": "HOME -> Electrics",
+        "category2": "HOME -> Towels"
+      },
+      "JEWELRY & ACCESSORIES": {
+        "category1": "JEWELRY & ACCESSORIES -> PANDORA",
+        "category2": "JEWELRY & ACCESSORIES -> Earrings"
+      },
+      "OTHERS": {
+        "IMAGE_MAP": {
+          "101": "HOME -> All Bath"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "HOME -> All Bath"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Electrics",
+        "category2": "KITCHEN -> Cookware",
+        "category3": "KITCHEN -> Bakeware",
+        "category4": "KITCHEN -> Gadgets & Tools"
+      },
+      "HOME DECOR": {
+        "category1": "HOME DECOR -> Picture Frames",
+        "category2": "HOME DECOR -> Home Accents"
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> Dresses",
+        "category2": "WOMEN -> Lingerie, Bras & Panties",
+        "category3": "WOMEN -> Ralph Lauren"
+      },
+      "MEN": {
+        "category1": "MEN -> Pants",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Slippers"
+      },
+      "HOME": {
+        "category1": "HOME -> Electrics",
+        "category2": "HOME -> Towels"
+      },
+      "OTHERS": {
+        "IMAGE_MAP": {
+          "101": "HOME -> All Bath"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "HOME -> All Bath"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "login_email": "id, mb-j-signup-email || id, email || id, signInVB.email",
+  "login_pass": "id, mb-j-signup-password || id, password || id, signInVB.password",
+  "site_menu": "id, mvBDSiteMenuHeader",
+  "shop_all_product":"xpath, //div[@id='mvBDShopAllProducts']/div[@class='to_be_sprited-pluss']",
+  "category_dining":"xpath, //*[text()='Dining']",
+  "the_registry_page":"xpath, //*[@id='r_nav_top_logo']/a",
+  "the_registry": "id, registry",
+  "category":"xpath, //div[@id='bl_nav_top_menu']/div[not(@class='clearLeft')]",
+  "registry_left_link_bcom":"xpath, //ul[@id='mb-j-nav-menu']",
+  "verify_page": "id, signInBtn||id, mb-j-signin-button",
+  "registry_create_button":"id, registryHomePageCreateRegBtn",
+  "registry_header":"id, r_nav_top_logo",
+  "registry_signIn":"id, accountSignInBtn",
+  "cat_page":"xpath, //header[@id='b-browse-header']//strong[@class='breadcrumb-link'][2]",
+  "cat_sale":"xpath, //ul[@id='b-productlist']/li",
+  "cat_sale_page":"xpath, //header[@id='b-browse-header']//a[contains(text(),'Sale')] || xpath, (//strong[@class='breadcrumb-link'])[2]",
+  "manage_email":"id, registryHomeEmail",
+  "manage_Pass":"id, registryHomePassword",
+  "manage_button":"id, registryHomeSigninBtn",
+  "manage_registry": "id, manage-registry",
+  "add_gifts_to_resgistry": "xpath, //li[@id='gift-categories']/a",
+  "registry_categoryList": "xpath, //a[@class='m-j-cm-link'] || xpath, //ul[@class='nav nav-tabs nav-stacked menu']/li/a",
+  "registry_menu": "id, mb-j-nav-button-icon"
+
+}

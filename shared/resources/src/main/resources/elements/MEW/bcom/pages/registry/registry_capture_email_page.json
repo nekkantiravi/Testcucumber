@@ -1,0 +1,10 @@
+{
+  "url":                              "/registry/wedding/registrycaptureemail?perfectProxy=true",
+  "verify_page":                      "id, accountSignInBtn || id, sign-in",
+  "create_registry_button":           "id, createRegistryBtn || id, create-registry-sign-up",
+  "email":                            "id, signInVB.email || id, email",
+  "password":                         "id, signInVB.password || id, pw-input",
+  "continue_button":                  "id, accountSignInBtn || id, sign-in",
+  "forgot_password_link":             "id, forgotPassword || || xpath, //div[@id='sub-pw-box']//a",
+  "error_message":                    "id, ul-login-error"
+}

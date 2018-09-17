@@ -1,0 +1,268 @@
+{
+  "category_splash": {
+    "site": {
+      "OTHERS": {
+        "AD": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME"
+        },
+        "COPY_BLOCK": {
+          "101": "HOME"
+        },
+        "IMAGE_MAP": {
+          "101": "WATCHES"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "HOME"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "103": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "104": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "HOME"
+        }
+      }
+    },
+    "registry": {
+      "OTHERS": {
+        "AD": {
+          "101": "DINING"
+        },
+        "TEXT": {
+          "101": "DINING"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "103": "DINING"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "BED & BATH"
+        }
+      }
+    },
+    "iship": {
+      "OTHERS": {
+        "AD": {
+          "0": "HOME -> Dining & Entertaining",
+          "101": "HOME"
+        },
+        "COPY_BLOCK": {
+          "101": "HOME"
+        },
+        "IMAGE_MAP": {
+          "101": "WATCHES"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "HOME"
+        },
+        "FLEXIBLE_POOL": {
+          "101": "HOME"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "103": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "104": "HOME -> Dining & Entertaining"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "HOME"
+        }
+      }
+    }
+  },
+  "sub_splash": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Activewear"
+      },
+      "MEN": {
+        "category1": "MEN -> Activewear"
+      },
+      "HOME": {
+        "category1": "HOME -> Kitchen -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "COPY_BLOCK": {
+          "101": "MEN -> Activewear"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Activewear"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Activewear"
+        },
+        "MEDIA_ADS": {
+          "101": "MEN -> Activewear"
+        },
+        "TEXT": {
+          "101": "MEN -> Activewear"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "MEN -> Activewear"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "KITCHEN -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "KITCHEN -> Anolon"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "KITCHEN -> Anolon"
+        }
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> Activewear"
+      },
+      "MEN": {
+        "category1": "MEN -> Activewear"
+      },
+      "HOME": {
+        "category1": "HOME -> Kitchen -> Anolon"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "SLIDESHOW": {
+          "101": "HOME -> Kitchen -> Anolon"
+        },
+        "COPY_BLOCK": {
+          "101": "MEN -> Activewear"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "MEN -> Activewear"
+        },
+        "IMAGE_MAP": {
+          "101": "HANDBAGS -> MICHAEL Michael Kors"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Activewear"
+        },
+        "MEDIA_ADS": {
+          "101": "MEN -> Activewear"
+        },
+        "TEXT": {
+          "101": "MEN -> Activewear"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "MEN -> Activewear"
+        }
+      }
+    }
+  },
+  "browse": {
+    "site": {
+      "WOMEN": {
+        "category1": "WOMEN -> Maternity",
+        "category2": "WOMEN -> Leggings",
+        "category3": "WOMEN -> All Plus Sizes"
+      },
+      "MEN": {
+        "category1": "MEN -> Sweaters",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Dress Shoes"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "WOMEN -> Suits & Suit Separates"
+        },
+        "COPY_BLOCK": {
+          "101": "WOMEN -> Jackets"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "WOMEN -> Basic Clothing"
+        },
+        "IMAGE_MAP": {
+          "101": "WOMEN -> Basic Clothing"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Outdoor Shop"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "HOME -> Dining & Entertaining -> Dinnerware"
+        }
+      }
+    },
+    "registry": {
+      "KITCHEN": {
+        "category1": "KITCHEN -> Electrics",
+        "category2": "KITCHEN -> Cookware & Cookware Sets",
+        "category3": "KITCHEN -> Food Processors",
+        "category4": "KITCHEN -> KitchenAid",
+        "category5": "KITCHEN -> Bakeware"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "KITCHEN -> Calphalon"
+        }
+      }
+    },
+    "iship": {
+      "WOMEN": {
+        "category1": "WOMEN -> All Maternity",
+        "category2": "WOMEN -> Leggings",
+        "category3": "WOMEN -> All Plus Sizes"
+      },
+      "MEN": {
+        "category1": "MEN -> Sweaters",
+        "category2": "MEN -> Dress Shirts",
+        "category3": "MEN -> Dress Shoes"
+      },
+      "OTHERS": {
+        "AD": {
+          "101": "WOMEN -> Suits & Suit Separates"
+        },
+        "COPY_BLOCK": {
+          "101": "WOMEN -> Jackets"
+        },
+        "THUMBNAIL_GRID": {
+          "101": "WOMEN -> Basic Clothing"
+        },
+        "IMAGE_MAP": {
+          "101": "WOMEN -> Basic Clothing"
+        },
+        "HORIZONTAL_RULE": {
+          "101": "MEN -> Outdoor Shop"
+        },
+        "TEXT": {
+          "101": "HOME -> Dining & Entertaining -> Dinnerware"
+        },
+        "CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON|CATEGORY_ICON": {
+          "106": "HOME -> Dining & Entertaining -> Dinnerware"
+        }
+      }
+    }
+  }
+}

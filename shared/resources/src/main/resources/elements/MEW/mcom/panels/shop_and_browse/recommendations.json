@@ -1,0 +1,3 @@
+{
+   "horizontal_recommendations":       "id,b-product-recommendations||id,m-product-recommended-swiper-wrapper || cssSelector, div#horizontalProsCarousel img.recommendationImage||cssSelector, div#horizontalATBProsCarousel a.recommendationLink||cssSelector, ul#carousel div.title||className, product-pool-media-container||cssSelector, #prosPanel .productThumbnail"
+}

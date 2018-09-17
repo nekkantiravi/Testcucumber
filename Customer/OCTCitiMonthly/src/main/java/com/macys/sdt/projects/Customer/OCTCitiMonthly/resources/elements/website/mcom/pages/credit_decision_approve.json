@@ -1,0 +1,14 @@
+{
+  "url": "#decisionApprove",
+  "verify_page": "id, partner_link",
+
+  "decisionTitle": "class, decisionTitle",
+  "decisionApproveReturn": "id, partner_link",
+
+  "addToWallet": "id, add_card_to_wallet",
+  "addCardToWallet": "xpath, //span[contains(text(),'Add this card to My Wallet to use it online immediately!')] || xpath, //span[contains(text(),'Add this card to My bWallet to be able to use it immediately online')]",
+  "accNumber": "xpath, //*[@data-acclist='accNum']/span",
+
+  "partnerPopupLabel": "id, partnerPopupLabel1",
+  "continueOverlay": "id, goto-partner"
+}

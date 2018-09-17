@@ -1,0 +1,5 @@
+{
+  "shipping_to_united_states_container":    "id, iShip_switchToDomesticModeOverlay",
+  "continue_checkout":                      "id, ch_signin_overlayContinueLink",
+  "return_to_the_international_site":       "id, ch_signin_overlayInternationalSiteLink"
+}

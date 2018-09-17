@@ -1,0 +1,11 @@
+{
+  "f_first_name"          : "id,firstName",
+  "l_last_name"           : "id,lastName",
+  "email_id"              : "id,email",
+  "mcom_password"         : "id,password",
+  "month_dropdown"        : "id,month",
+  "day_dropdown"          : "id,day",
+  "year_dropdown"         : "id,year",
+  "create_profile_btn"    :"id,createProfileBtn",
+  "session_expired"       :"xpath,//*[@id='ul-page-error']"
+}

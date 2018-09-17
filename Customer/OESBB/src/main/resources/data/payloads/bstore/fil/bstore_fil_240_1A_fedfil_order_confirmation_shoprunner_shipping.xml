@@ -1,0 +1,199 @@
+<mailMessagePayload>
+	<reservationNumber>240_1A_BSTORE_MultipleItemWith_SR_Shipping</reservationNumber>
+	<internetOrderNumber>519358702</internetOrderNumber>
+	<orderDate>06/03/2016</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>174.24</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>15.25</taxAmt>
+	<orderTotal>189.49</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0022</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>948596869686969</ltyIdUsl>
+	<billingDetail>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 RAMSELL ST</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94132</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>BLOOMINGDALES</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>189.49</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 RAMSELL ST.</addressLine1>
+		<addressLine2>APT 221</addressLine2>
+		<addressLine3></addressLine3>
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94132</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>628893123456</pickupBarcode>
+		<pickupReadyDate>06/03/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>24.48</shipRetailAmt>
+		<shipTaxAmt>15.25</shipTaxAmt>
+		<shipFilLoc>6274</shipFilLoc>
+		<shipPhone>415-972-1234</shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>MD SATCHEL</description>
+			<price>125.28</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>125.28</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MICHAEL BY MICHAEL KORS</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>000000887042718670</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>MD SATCHEL</description>
+			<price>125.28</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>125.28</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MICHAEL BY MICHAEL KORS</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>5450102345076</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>MD SATCHEL</description>
+			<price>125.28</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>125.28</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MICHAEL BY MICHAEL KORS</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>000000887042718670</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>MD SATCHEL</description>
+			<price>125.28</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>125.28</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>MICHAEL BY MICHAEL KORS</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>5450102344871</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

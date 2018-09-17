@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>572269190</reservationNumber>
+	<internetOrderNumber>572269190</internetOrderNumber>
+	<orderDate>09/28/2012</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>240.66</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>15.04</taxAmt>
+	<orderTotal>255.70</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0011</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>AMY</firstName>
+		<middleName />
+		<lastName>UNANGST</lastName>
+		<attnLine />
+		<addressLine1>43 DONNYBROOK ROAD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>BRIGHTON</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02135</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************3392</accountNumber>
+		<amount>250.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<paymentDetail>
+		<paymentType>Bloomingdales</paymentType>
+		<accountNumber>************9058</accountNumber>
+		<amount>5.70</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>AMY</firstName>
+		<middleName />
+		<lastName>UNANGST</lastName>
+		<attnLine />
+		<addressLine1>43 DONNYBROOK ROAD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>BRIGHTON</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02135</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2809007771962</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>amyunangst@gmail.com</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>VUELTA WHITE PEARL</description>
+			<price />
+			<requestedQuantity>014</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>11/27/2012</expectedDate>
+			<newExpectedDate>12/10/2012</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>JARS STONEWARE</vendor>
+			<cancelledQuantity />
+			<upcId>000000091709396242</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>CEREAL BWL</size>
+			<color>WHITE</color>
+		</itemDetail>
+	</shipmentDetail>
+	<LoyaltyInformation>
+		<keyFobID />
+		<visitsRemaining />
+		<tier />
+		<bonusRewardBal />
+		<bonusPendRewardBal />
+		<bonusRewardEarned />
+		<bonusPendRewardEarned />
+		<rewardBal />
+		<pendRewardBal />
+		<rewardEarned />
+		<pendRewardEarned />
+		<earningLevel />
+		<lastName />
+		<firstName />
+		<email />
+		<starRewards />
+		<visaRewards />
+		<amexRewards />
+		<brierlyRewards />
+		<insiderRewards />
+		<accountStatus />
+		<accountStatusReason />
+		<pendingRewards />
+		<awardCardFlag />
+		<offerOnlyFlag />
+		<visitExpiration />
+		<errorCode />
+		<errorMsg />
+		<Offer>
+			<barCodeNum />
+			<expirationDate />
+			<headerText1 />
+			<headerText2 />
+			<exclusions />
+			<promoCode />
+		</Offer>
+		<Award>
+			<amount />
+		</Award>
+	</LoyaltyInformation>
+</mailMessagePayload>

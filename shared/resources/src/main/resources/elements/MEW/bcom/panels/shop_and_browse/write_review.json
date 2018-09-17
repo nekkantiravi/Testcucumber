@@ -1,0 +1,5 @@
+{
+  "write_review_rating": "id, mb-write-review-rating",
+  "write_review_text": "id, myReviewsText",
+  "review_submit_button": "id, mb-j-write-review-submit"
+}

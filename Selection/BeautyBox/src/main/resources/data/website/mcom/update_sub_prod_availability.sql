@@ -1,0 +1,1 @@
+update subs_prod_availability set SUBS_AVAILABLE_MAX_QTY = 7 where ENTITLEMENT_TYPE_UUID ='0b1829ef-b77a-42b2-bccc-d1731a1c59d8'

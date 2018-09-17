@@ -1,0 +1,12 @@
+{
+  "gvr_qp_container":             "className, quickViewMainContainer",
+  "gvr_qp_brand_name":            "id, quickViewBrandName",
+  "gvr_qp_product_name":          "id, quickViewBrandName",
+  "gvr_qp_items_requested":       "className, items_requested",
+  "gvr_qp_items_needed":          "className, items_needed",
+  "gvr_qp_details":               "className, quickViewDetails",
+  "gvr_qp_add_to_bag_button":     "id, QV_ADDTOBAG_BUTTON",
+  "gvr_qp_qty_dropdown":          "className, quickview-quantities",
+  "gvr_qp_size":                  "id, selectedSizeOption",
+  "gvr_qp_color":                 "id, selectedColorNameID"
+}

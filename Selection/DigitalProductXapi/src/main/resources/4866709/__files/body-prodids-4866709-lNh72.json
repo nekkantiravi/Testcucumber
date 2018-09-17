@@ -1,0 +1,1 @@
+{"ProductUPCPromotionResponse":{"productUPCPromotions":[{"productID":"4866709","productPromotions":{"priceTypePromotionsIDs":{"19879231":true},"nonPriceTypePromotionsIDs":{"19875817":true},"promoIDsSortedOrder":[19879231,19875817]},"upcPromotions":[{"upcId":37504753,"upcPromotionIds":[19879231]}]}]}}

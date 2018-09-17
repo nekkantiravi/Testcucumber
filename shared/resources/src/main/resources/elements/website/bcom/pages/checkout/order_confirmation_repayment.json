@@ -1,0 +1,6 @@
+{
+  "url": "/service/repayment",
+  "verify_page": "id, rc-orderConfirmation-orderNumber",
+
+  "order_number": "id, rc-orderConfirmation-orderNumber"
+}

@@ -1,0 +1,4 @@
+My Profile page on desktop
+	"${pageUrl}" 1024x768
+		run MyProfile.js
+		check WebsiteBcomMyProfilePage.spec

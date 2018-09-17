@@ -1,0 +1,3 @@
+{
+  "apply_now": "xpath,//div[contains(@class,'row collapse hero_desktop')]//button[text()='Apply now']"
+}

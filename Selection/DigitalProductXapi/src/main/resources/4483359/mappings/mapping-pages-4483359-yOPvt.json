@@ -1,0 +1,20 @@
+{
+  "id" : "d62fd038-83db-391c-9a6e-873e6583a5de",
+  "request" : {
+    "url" : "/api/content/v2/PDP/pages/4483359?_expand=layout,media&sdpGrid=primary&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-pages-4483359-yOPvt.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "8ecf4263-67ec-4c7d-9131-e40634984904",
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 03 Jan 2018 23:24:59 GMT"
+    }
+  },
+  "uuid" : "d62fd038-83db-391c-9a6e-873e6583a5de"
+}

@@ -1,0 +1,56 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>245_5J_bwedd</internetOrderNumber>
+	<orderDate>03/09/2016</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>EGC</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>102.75</amount>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>102.75</shipRetailAmt>
+		<shipTaxAmt>0</shipTaxAmt>
+		<returnSubmittedDate>06/05/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Judaica Square Matza Plate,</description>
+			<price>102.75</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>102.75</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Annieglass</vendor>
+			<upcNumber>5052376910532</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>07/03/2016</returnExpectedBackDate>
+			<returnReason>Defective</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Judaica Square Matza Plate,</description>
+			<price>102.75</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>102.75</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Annieglass</vendor>
+			<upcNumber>190089164219</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>07/03/2016</returnExpectedBackDate>
+			<returnReason>Defective</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

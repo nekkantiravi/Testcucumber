@@ -1,0 +1,13 @@
+{
+	"mew_swipe_click":				"cssSelector, #swipeIt",
+	"mew_left_notmystyle":			"cssSelector ,.notMyStyle",
+	"mew_right_mystyle":			"cssSelector, .loveIt.right",
+	"mew_swipe_mylist":				"cssSelector,.productCount>a",
+	"mew_swipe_shop_firstid0":		"xpath, .//*[@id='swipeProducts']/ul/li[1]",
+	"mew_swipe_shop_firstid1":		"xpath, .//*[@id='swipeProducts']/ul/li[1]",
+	"mew_list_element":				"cssSelector, .m-list-id",
+	"mew_add_to_bag":				"cssSelector, #m-mobile-atb",
+	"mew_back_button":				"cssSelector, .m-back",
+	"mew_pdp_info":					"cssSelector,.productInfo>a"
+	
+}

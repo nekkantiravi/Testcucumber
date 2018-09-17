@@ -1,0 +1,58 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789EA</internetOrderNumber>
+	<orderDate>05/11/2016</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MACYS EMPLOYEE CARD</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>226.07</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>4</shipmentNumber>
+		<shipRetailAmt>250.27</shipRetailAmt>
+		<shipTaxAmt>12.30</shipTaxAmt>
+		<returnSubmittedDate>05/17/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>6</lineNumber>
+			<description>Sequined Jersey Dress</description>
+			<price>250.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>250.00</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>Lauren Ralph Lauren</vendor>
+			<upcNumber>888572813156</upcNumber>
+			<size>14</size>
+			<color>Black</color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>6</shipmentNumber>
+		<shipRetailAmt>250</shipRetailAmt>
+		<shipTaxAmt>0</shipTaxAmt>
+		<itemDetail>
+			<lineNumber>5</lineNumber>
+			<description>Sequined Jersey Dress Shirt</description>
+			<price>250.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>250.00</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Lauren Ralph Lauren</vendor>
+			<upcNumber>838810015248</upcNumber>
+			<size>14</size>
+			<color>Black</color>
+			<returnExpectedBackDate>12/14/2017</returnExpectedBackDate>
+			<returnReason>Defective</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

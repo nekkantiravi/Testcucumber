@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>278_23C_MWEDD</internetOrderNumber>
+	<orderDate>10/28/2015</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>22.40</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.67</addtShipAddAmt>
+	<shipUpgradeAmt>20.60</shipUpgradeAmt>
+	<giftWrapAmt>4.50</giftWrapAmt>
+	<taxAmt>133.34</taxAmt>
+	<orderTotal>55.74</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0305</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 ERWIN ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>WOODLAND HILLS</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91367</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>51.32</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>011</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>CONGRATS</greetingMessage>
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2809022212345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1>OES</giftRegistrant1>
+		<giftRegistrant2>TEST</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description>PADOVA</description>
+			<price>2222.40</price>
+			<requestedQuantity>006</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>01/05/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate></systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>WATERFORD</vendor>
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

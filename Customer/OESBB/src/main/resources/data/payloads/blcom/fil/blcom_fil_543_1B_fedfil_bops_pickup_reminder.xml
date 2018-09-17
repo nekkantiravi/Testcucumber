@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>123456789</reservationNumber>
+  <internetOrderNumber>123456789</internetOrderNumber>
+  <orderDate>03/29/2016</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>78.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>78.00</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>N</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>1234 W COLONIAL DR</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>UPPER CHICHESTER</city>
+    <state>PA</state>
+    <country>USA</country>
+    <zipcode>19061</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>PAYPAL</paymentType>
+    <accountNumber />
+    <amount>78.00</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>03/30/2016</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag>C</mailFlag>
+    <title />
+    <firstName>JOHN</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>THE COURT AT KING OF PRUSSIA</addressLine1>
+    <addressLine2>1 RT. 123 NORTH 123 WEST DEKALB PIKE</addressLine2>
+    <addressLine3 />
+    <city>KING OF PRUSSIA</city>
+    <state>PA</state>
+    <country>USA</country>
+    <zipcode>19406</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>Y</giftReceiptFlag>
+    <pickupBarcode>505139441234</pickupBarcode>
+    <pickupReadyDate>03/30/2016</pickupReadyDate>
+    <pickupCancelDate>04/06/2016</pickupCancelDate>
+    <shipRetailAmt>78.00</shipRetailAmt>
+    <shipTaxAmt>0.00</shipTaxAmt>
+    <shipFilLoc>0366</shipFilLoc>
+    <shipPhone>610-213-1234</shipPhone>
+    <shipEmailAddress>OESTESTING@YAHOO.COM</shipEmailAddress>
+    <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>S/S OFF SHOULDER TOP</description>
+      <price>78.00</price>
+      <requestedQuantity>003</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>78.00</totalAmount>
+      <expectedDate>03/30/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity>000</cancelledQuantity>
+      <upcId>190089164219</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+     <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>S/S OFF SHOULDER TOP</description>
+      <price>78.00</price>
+      <requestedQuantity>004</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>002</shippedQuantity>
+      <totalAmount>78.00</totalAmount>
+      <expectedDate>03/30/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>VOIDED</status>
+      <vendor />
+      <cancelledQuantity>001</cancelledQuantity>
+      <upcId>5052376910532</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

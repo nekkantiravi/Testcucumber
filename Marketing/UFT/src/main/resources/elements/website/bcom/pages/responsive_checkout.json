@@ -1,0 +1,10 @@
+{
+  "url": "chkout/rc",
+
+  "go_to_loyalist":                       "xpath, //*[@class='small-8 columns text-right']/p",
+  "go_to_loyalist_number":                "id, loyaltyAccountInfo.loyaltyNumber",
+  "go_to_loyalist_last_name":             "id, loyaltyAccountInfo.lastName",
+  "go_to_loyalist_zip_code":              "id, loyaltyAccountInfo.zipCode",
+  "go_to_apply":                          "id, rc-apply-loyallist-points",
+  "loyalty_err_msg":                      "id, rc-globalErrors"
+}

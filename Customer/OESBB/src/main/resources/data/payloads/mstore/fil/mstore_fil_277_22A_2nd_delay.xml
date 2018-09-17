@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>277_22A_MSTORE</reservationNumber>
+	<internetOrderNumber>34567</internetOrderNumber>
+	<orderDate>08/29/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>344.79</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>148.37</taxAmt>
+	<orderTotal>793.16</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0003</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 ERWIN ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>WOODLAND HILLS</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91367</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>51.32</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>	
+	<shipmentDetail>
+		<shipmentNumber>009</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description>BUTTERFLY BLOOM</description>
+			<price>100.00</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>02</availableQuantity>
+			<shippedQuantity>03</shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate>06/19/2016</expectedDate>
+			<newExpectedDate>06/26/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>07/09/2016</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>WEDGWOOD</vendor>
+			<cancelledQuantity>00</cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>620994088</reservationNumber>
+	<internetOrderNumber>620994088</internetOrderNumber>
+	<orderDate>11/20/2012</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>11833.20</orderSubtotalAmt>
+	<baseShippingAmt>23.95</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>830.00</taxAmt>
+	<orderTotal>12687.15</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0003</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>EVELYN</firstName>
+		<middleName />
+		<lastName>DAHDAH</lastName>
+		<attnLine />
+		<addressLine1>3301 NE 183RD ST</addressLine1>
+		<addressLine2>UNIT 2109</addressLine2>
+		<addressLine3 />
+		<city>AVENTURA</city>
+		<state>FL</state>
+		<country>USA</country>
+		<zipcode>33160</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************1005</accountNumber>
+		<amount>12687.15</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>005</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>EVELYN</firstName>
+		<middleName />
+		<lastName>DAHDAH</lastName>
+		<attnLine />
+		<addressLine1>3301 NE 183RD ST</addressLine1>
+		<addressLine2>UNIT 2109</addressLine2>
+		<addressLine3 />
+		<city>AVENTURA</city>
+		<state>FL</state>
+		<country>USA</country>
+		<zipcode>33160</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>ECUME WHITE</description>
+			<price />
+			<requestedQuantity>012</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>11/28/2012</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>BERNARDAUD</vendor>
+			<cancelledQuantity />
+			<upcId>000000091709396242</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>COFFEE CUP</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<LoyaltyInformation>
+		<keyFobID />
+		<visitsRemaining />
+		<tier />
+		<bonusRewardBal />
+		<bonusPendRewardBal />
+		<bonusRewardEarned />
+		<bonusPendRewardEarned />
+		<rewardBal />
+		<pendRewardBal />
+		<rewardEarned />
+		<pendRewardEarned />
+		<earningLevel />
+		<lastName />
+		<firstName />
+		<email />
+		<starRewards />
+		<visaRewards />
+		<amexRewards />
+		<brierlyRewards />
+		<insiderRewards />
+		<accountStatus />
+		<accountStatusReason />
+		<pendingRewards />
+		<awardCardFlag />
+		<offerOnlyFlag />
+		<visitExpiration />
+		<errorCode />
+		<errorMsg />
+		<Offer>
+			<barCodeNum />
+			<expirationDate />
+			<headerText1 />
+			<headerText2 />
+			<exclusions />
+			<promoCode />
+		</Offer>
+		<Award>
+			<amount />
+		</Award>
+	</LoyaltyInformation>
+</mailMessagePayload>

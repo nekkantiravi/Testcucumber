@@ -1,0 +1,365 @@
+{
+  "priceTypesMap": {
+    "Ticket": {
+      "WithColorWay": {
+        "MEMBER": "2361270",
+        "MASTER": "2386769",
+        "STANDARD": "3143339"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2573615",
+        "MASTER": "2585188",
+        "STANDARD": "3003657"
+      }
+    },
+    "EveryDay Value": {
+      "WithColorWay": {
+        "MEMBER": "2573494",
+        "MASTER": "2585184",
+        "STANDARD": "3019576"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2573590",
+        "MASTER": "2585187",
+        "STANDARD": "3019573"
+      }
+    },
+    "Markup": {
+      "WithColorWay": {
+        "MEMBER": "2515414",
+        "MASTER": "2516531",
+        "STANDARD": "3003635"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1791727",
+        "MASTER": "2473829",
+        "STANDARD": "3000575"
+      }
+    },
+    "Revalue": {
+      "WithColorWay": {
+        "MEMBER": "2376177",
+        "MASTER": "2372931",
+        "STANDARD": "2987832"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2463891",
+        "MASTER": "2466873",
+        "STANDARD": "3000557"
+      }
+    },
+    "Promo Percent Off": {
+      "WithColorWay": {
+        "MEMBER": "1991093",
+        "MASTER": "2036114",
+        "STANDARD": "4398432"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1791682",
+        "MASTER": "1821345",
+        "STANDARD": "4398409"
+      }
+    },
+    "Promo Sale Price": {
+      "WithColorWay": {
+        "MEMBER": "482868",
+        "MASTER": "2032226",
+        "STANDARD": "4398410"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1792846",
+        "MASTER": "1793441",
+        "STANDARD": "4398407"
+      }
+    },
+    "Promo Event Price": {
+      "WithColorWay": {
+        "MEMBER": "1840209",
+        "MASTER": "1793090",
+        "STANDARD": "4398362"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1792837",
+        "MASTER": "1793440",
+        "STANDARD": "4398390"
+      }
+    },
+    "Promo Event Tiered": {
+      "WithColorWay": {
+        "MEMBER": "1792901",
+        "MASTER": "1793087",
+        "STANDARD": "4398360"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1792879",
+        "MASTER": "1793089",
+        "STANDARD": "4398361"
+      }
+    },
+    "Promo Event2 Price": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Promo Event2 Price Tiered": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Price Break Tiered": {
+      "WithColorWay": {
+        "MEMBER": "1791930",
+        "MASTER": "1791981",
+        "STANDARD": "4398348"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1792265",
+        "MASTER": "1792279",
+        "STANDARD": "4398349"
+      }
+    },
+    "LPOS": {
+      "WithColorWay": {
+        "MEMBER": "1791679",
+        "MASTER": "1791703",
+        "STANDARD": "4398341"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1791798",
+        "MASTER": "1791898",
+        "STANDARD": "4398344"
+      }
+    },
+    "LPOS Tiered": {
+      "WithColorWay": {
+        "MEMBER": "1740943",
+        "MASTER": "1740960",
+        "STANDARD": "4364923"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1741010",
+        "MASTER": "1741014",
+        "STANDARD": "4364924"
+      }
+    },
+    "Special Savings": {
+      "WithColorWay": {
+        "MEMBER": "1496104",
+        "MASTER": "1503435",
+        "STANDARD": "4364832"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1740939",
+        "MASTER": "1740959",
+        "STANDARD": "4364854"
+      }
+    },
+    "Special Savings Tiered": {
+      "WithColorWay": {
+        "MEMBER": "1494167",
+        "MASTER": "1494854",
+        "STANDARD": "4364707"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1494161",
+        "MASTER": "1494855",
+        "STANDARD": "4364710"
+      }
+    },
+    "Web Buster": {
+      "WithColorWay": {
+        "MEMBER": "1494170",
+        "MASTER": "1494853",
+        "STANDARD": "4364700"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1494173",
+        "MASTER": "1494851",
+        "STANDARD": "4364699"
+      }
+    },
+    "Deal of the Day Type A": {
+      "WithColorWay": {
+        "MEMBER": "1478653",
+        "MASTER": "1494853",
+        "STANDARD": "3582154"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1494164",
+        "MASTER": "1494830",
+        "STANDARD": "4362929"
+      }
+    },
+    "Deal of the Day Type B": {
+      "WithColorWay": {
+        "MEMBER": "1439499",
+        "MASTER": "1388599",
+        "STANDARD": "3542845"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1494158",
+        "MASTER": "1494241",
+        "STANDARD": "4341380"
+      }
+    },
+    "Limited-Time Special Type A": {
+      "WithColorWay": {
+        "MEMBER": "1415783",
+        "MASTER": "1494853",
+        "STANDARD": "3199326"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1473169",
+        "MASTER": "1366106",
+        "STANDARD": "3409129"
+      }
+    },
+    "Limited-Time Special Type B": {
+      "WithColorWay": {
+        "MEMBER": "1415775",
+        "MASTER": "1349523",
+        "STANDARD": "3199310"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1486947",
+        "MASTER": "1366100",
+        "STANDARD": "3199330"
+      }
+    },
+    "Black Friday Special Type A": {
+      "WithColorWay": {
+        "MEMBER": "1012232",
+        "MASTER": "953920",
+        "STANDARD": "3023775"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1439508",
+        "MASTER": "1213727",
+        "STANDARD": "3179515"
+      }
+    },
+    "Black Friday Special Type B": {
+      "WithColorWay": {
+        "MEMBER": "933190",
+        "MASTER": "925964",
+        "STANDARD": "3023760"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "1206694",
+        "MASTER": "1192085",
+        "STANDARD": "3079913"
+      }
+    },
+    "Cyber Monday Special": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Additional Off promo": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Additional Off Perm": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Additional Off Closeout": {
+      "WithColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "needinfo",
+        "MASTER": "needinfo",
+        "STANDARD": "needinfo"
+      }
+    },
+    "Permanent Markdown": {
+      "WithColorWay": {
+        "MEMBER": "2376180",
+        "MASTER": "2372928",
+        "STANDARD": "2957694"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2349617",
+        "MASTER": "2410140",
+        "STANDARD": "2957704"
+      }
+    },
+    "Clearance Markdown": {
+      "WithColorWay": {
+        "MEMBER": "2366816",
+        "MASTER": "2372927",
+        "STANDARD": "2838089"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2361890",
+        "MASTER": "2361892",
+        "STANDARD": "2838079"
+      }
+    },
+    "Closeout": {
+      "WithColorWay": {
+        "MEMBER": "2245751",
+        "MASTER": "2279429",
+        "STANDARD": "2464895"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2361702",
+        "MASTER": "2361704",
+        "STANDARD": "2838077"
+      }
+    },
+    "Markdown Cancel": {
+      "WithColorWay": {
+        "MEMBER": "800609",
+        "MASTER": "2103511",
+        "STANDARD": "2288128"
+      },
+      "WithoutColorWay": {
+        "MEMBER": "2338639",
+        "MASTER": "2338641",
+        "STANDARD": "2585623"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+{
+  "url": "#otp",
+  "verify_page": "id, request_code",
+
+  "almostDone": "class, mainTitle",
+  "answerSecureQues": "id, cmlink_link_acq_answer_ques",
+  "requestCode": "id, request_code"
+}

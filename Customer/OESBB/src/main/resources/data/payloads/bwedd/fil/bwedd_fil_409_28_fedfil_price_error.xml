@@ -1,0 +1,36 @@
+<mailMessagePayload>
+    <reservationNumber>273499251</reservationNumber>
+    <internetOrderNumber>123456789</internetOrderNumber>
+    <thirdPartyOrderNumber />
+    <orderDate>08/08/2016</orderDate>
+    <shopAt>Bloomingdales.com</shopAt>
+    <explanationText />
+    <orderSubtotalAmt>122.00</orderSubtotalAmt>
+    <baseShippingAmt>13.00</baseShippingAmt>
+    <addtShipAddAmt>10.00</addtShipAddAmt>
+    <shipUpgradeAmt>20.00</shipUpgradeAmt>
+    <giftWrapAmt>30.00</giftWrapAmt>
+    <taxAmt>8.10</taxAmt>
+    <orderTotal>143.10</orderTotal>
+    <divisionCode>072</divisionCode>
+    <locationCode>0139</locationCode>
+    <adhocText>fedfil price error</adhocText>
+    <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+    <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+    <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+    <hoursFP>Mon - Sat 9am to 10pm, Sun 9am to 7pm</hoursFP>
+    <billingDetail>
+        <title />
+        <firstName>MARVIN</firstName>
+        <middleName />
+        <lastName>SUGGS</lastName>
+        <attnLine />
+        <addressLine1>501 WYOMING BLVD</addressLine1>
+        <addressLine2 />
+        <addressLine3 />
+        <city>CASPER</city>
+        <state>WY</state>
+        <country>USA</country>
+        <zipcode>82609</zipcode>
+    </billingDetail>
+</mailMessagePayload>

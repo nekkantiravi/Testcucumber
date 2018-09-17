@@ -1,0 +1,5 @@
+{
+    "enable_push_notifications_button":           "id, btnFirst",
+    "not_now_button":                             "id, btnSecond",
+    "privacy_practices_button":                   "id, btnPrivacyPolicy"
+}

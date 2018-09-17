@@ -1,0 +1,33 @@
+{
+  "myaccount_wallet_popup_heading":"class,ui-dialog-title",
+  "credit_card_type": "id,profile_creditCardType",
+  "card_number": "id, profile_card_number",
+  "expiry_month": "id, month",
+  "expiry_year": "id, year",
+  "first_name": "id, profile_first_name",
+  "last_name": "id, profile_last_name",
+  "address_line_1": "id, profile_address_line1",
+  "address_line_2": "id, profile_address_line2",
+  "address_city": "id, profile_city",
+  "address_state": "id, profile_state",
+  "address_zip_code": "id, profile_zipCode",
+  "card_phone_number": "id, profile_phoneNumber",
+  "cancel": "xpath, //div[@class='wallet-modal-button-row']/input[@value='CANCEL']",
+  "close": "xpath, //div[@class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix']/button[@title='close']",
+  "save_card": "xpath, //div[@class='wallet-modal-button-row']/input[@value='SAVE CARD']",
+  "use_my_shipping_address_checkbox": "id, profile_checkbox",
+  "use_my_shipping_address_label": "id,profile_chkbox_label",
+
+  "error_credit_card_type": "xpath, //div[@class='wallet-modal-row wallet-model-top-row row columns error']/small",
+  "error_card_number": "xpath, //form[@id='addCardToWalletOverlay']/div[2]/small",
+  "error_expiry_month": "xpath, //div[@class='wallet-half-row columns row error']/small",
+  "error_expiry_year": "xpath, //div[@class='wallet-half-row wallet-modal-year columns row error']/small",
+  "error_first_name": "xpath, //form[@id='addCardToWalletOverlay']/div[5]/small",
+  "error_last_name": "xpath, //form[@id='addCardToWalletOverlay']/div[6]/small",
+  "error_address_line_1": "xpath, //form[@id='addCardToWalletOverlay']/div[8]/small",
+  "error_address_city": "xpath, //form[@id='addCardToWalletOverlay']/div[10]/small",
+  "error_address_state": "xpath, //form[@id='addCardToWalletOverlay']/div[11]/small",
+  "error_address_zip_code": "xpath, //form[@id='addCardToWalletOverlay']/div[12]/small",
+  "error_card_phone_number": "xpath, //form[@id='addCardToWalletOverlay']/div[13]/small"
+
+}

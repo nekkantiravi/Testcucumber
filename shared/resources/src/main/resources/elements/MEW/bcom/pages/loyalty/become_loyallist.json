@@ -1,0 +1,5 @@
+{
+  "url": "/account/signin?fromLoyalty=loyaltySignIn",
+  "verify_page": "id, b-signin-title||id, CreateProfileEnroll_BUTTON||id, mb-j-signup-button",
+  "create_account_enroll": "id, CreateProfileEnroll_BUTTON||id, mb-j-signup-button"
+}

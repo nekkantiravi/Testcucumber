@@ -1,0 +1,13 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer"
+  ],
+  "url": "/registry/wedding/registrymanager",
+  "verify_page": "class, m-reg-title||id, regMgrPhoto||id, m-reg-manager-eq-row",
+
+  "view_our_registry": "id, btnViewReg||linkText, VIEW REGISTRY",
+  "edit_our_registry": "id, btnEditProf||linkText, EDIT PROFILE",
+  "registry_header": "id, regMgrNames||cssSelector, .m-reg-title > h1",
+  "registry_promocode": "class, m-reg-promocode||id, onlinePromoCode"
+}

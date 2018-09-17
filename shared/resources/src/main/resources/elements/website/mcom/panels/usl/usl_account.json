@@ -1,0 +1,21 @@
+{
+  "usl_id": "id, uslId||id, plentiAccountValidation",
+  "apply_usl_id_button": "id, lookUpLoyaltyId||id, lookup-plenti-button",
+  "usl_phone_number": "id, loyaltyPhoneCC",
+  "usl_search_button": "id, lookUpLoyaltyPhoneCC",
+  "added_usl_id": "id, loyaltyMaskedNumber",
+  "usl_program_brand": "id, uslBrandIcon||cssSelector, .plenti-card-art",
+  "available_points": "id, availablePoints||cssSelector, .num-points > a",
+  "goto_my_usl_panel": "id, myUslLink",
+  "usl_error,": "className, plenti-error",
+  "usl_new_msg": "className, newPlenti",
+  "usl_cancelled_msg": "className, signUp",
+  "goto_usl_finish_enrollment": "id, finishSignup",
+  "usl_anonymous_msg,": "className, anonymous-msg",
+  "plenti_number_link":  "cssSelector, li[data-value=plenti-number] > a",
+  "phone_number_link":  "cssSelector, li[data-value=phone-number] > a",
+  "add_plenti_account": "id, lookup-plenti-button",
+  "plenti_number":  "cssSelector, [name='plenti-lookup-USLID']",
+  "phone_number": "cssSelector, [name='plenti-lookup-phone']",
+  "goto_my_plenti":"linkText, Plenti"
+}

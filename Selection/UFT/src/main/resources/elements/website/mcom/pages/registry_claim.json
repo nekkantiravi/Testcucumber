@@ -1,0 +1,6 @@
+{
+  "url": "/registry/wedding/claim",
+  "verify_page": "id, claimContinue||id,registryClaim",
+  "registry_claim_header": "cssSelector,div.instore-registry h4",
+  "registry_claim_text": "cssSelector,div.instore-registry p"
+}

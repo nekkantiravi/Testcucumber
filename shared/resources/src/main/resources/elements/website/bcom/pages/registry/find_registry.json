@@ -1,0 +1,21 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "url": "/registry/wedding/registrysearch?perfectProxy=true",
+
+  "find_registry_button": "xpath, //*[contains(@alt, 'Find a Registry')]||id,regSearchBtn",
+  "verify_page": "id, searchCriteria.firstName||id, registrySearchBean.firstName",
+  "first_name": "id, searchCriteria.firstName||id, registrySearchBean.firstName",
+  "last_name": "id, searchCriteria.lastName||id, registrySearchBean.lastName",
+  "search_results": "xpath, //div[@id='r_results']/table || xpath, //div[@class='results-container']//div || cassName, registry-results-body-container",
+  "find_registry_results": "xpath, //td[@class='yui-dt0-col-rName yui-dt-col-rName yui-dt-first']//a||cssSelector, .registrant-name || className, registry-box",
+  "registry_info":      "className,thumbnail-content",
+  "registrant_names":  "className, registrant-name",
+  "coregistrant_names":  "className, coregistrant-name",
+  "registry_date":      "registry-date",
+  "view_registry": "id, linerViewRegistry",
+  "show_all_button":  "className, show-all",
+  "select_registry": "xpath, //div[@id='registrySearchContainer']/div/div[2]/a[1]"
+}

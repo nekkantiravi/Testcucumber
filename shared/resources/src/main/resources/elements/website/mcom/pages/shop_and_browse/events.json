@@ -1,0 +1,8 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "zip_code": "id, zipCode||id, search-loc",
+  "city": "id, city",
+  "search_button": "id, eventSearch||id, search-events"
+}

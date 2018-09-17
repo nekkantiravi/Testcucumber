@@ -1,0 +1,7 @@
+{
+  "url":              "",
+  "beauty_order":     "xpath,//*[@id='orderNumber_S21345675556']",
+  "order_details":    "xpath,//*[@id='orderDetailBtn_S21345675556']",
+  "order_product_image": "xpath,//*[@id='shippingDetailsInfoDiv']/ul/li/ul/li/a[2]/img",
+  "write_a_review":       "cssSelector,.deliveredReviewLink"
+}

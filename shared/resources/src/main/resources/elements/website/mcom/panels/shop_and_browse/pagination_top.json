@@ -1,0 +1,11 @@
+{
+    "top_pagination_section":               "id, paginateTop || xpath, //div[@id='paginateTop']//a[@class='paginationSpacer']||xpath, //div[contains(@id,'filterResultsTop')]//li[contains(@class, 'pagination')]",
+    "goto_current_page_number":             "xpath, //*[@id='paginateTop']/*[contains(@class,'currentPage')] || cssSelector, #filterResultsTop .pagination li.currentPage || cssSelector, #filterResultsBottom .pagination li.currentPage",
+    "goto_previous_page_via_arrow":         "xpath, //*[@id='paginateTop']/a[contains(@class,'arrowLeft')] || cssSelector, #filterResultsTop .pagination li.prevPage div || cssSelector, #filterResultsBottom .pagination li.prevPage div",
+    "goto_next_page_via_arrow":             "xpath, //*[@id='paginateTop']/a[contains(@class,'arrowRight')] || cssSelector, #filterResultsTop .pagination li.nextPage div || cssSelector, #filterResultsBottom .pagination li.nextPage div",
+    "goto_previous_page_via_link":          "xpath, //*[@id='paginateTop']/a[contains(@class,'previousClass')] || xpath, //*[@id='paginateTop']/a[contains(@class,'previousClass')]",
+    "goto_next_page_via_link":              "xpath, //*[@id='paginateTop']/a[contains(@class,'nextClass')] || xpath, //*[@id='paginateTop']/a[contains(@class,'nextClass')]",
+    "goto_each_number_link":                "xpath, //*[@id='paginateTop']/a[contains(@class,'paginationSpacer')] || xpath, //*[@id='paginateTop']/a || cssSelector, #filterResultsTop .pagination li || cssSelector, #filterResultsBottom .pagination li",
+    "pages":                                "cssSelector, div#paginateTop>a.paginationSpacer:not(.currentPage)||xpath, //*[@id='filterResultsTop']//*[contains(@class,'currentPage')]",
+    "show_all_items":                       "class, showAllItems||class, showingAll"
+}

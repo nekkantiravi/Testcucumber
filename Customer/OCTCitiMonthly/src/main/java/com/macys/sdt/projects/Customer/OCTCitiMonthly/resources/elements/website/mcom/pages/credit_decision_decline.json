@@ -1,0 +1,7 @@
+{
+  "url": "#decisionDecline",
+  "verify_page": "id, partner_link",
+
+  "decisionTitle": "class, decisionTitle",
+  "continueOverlay": "id, goto-partner"
+}

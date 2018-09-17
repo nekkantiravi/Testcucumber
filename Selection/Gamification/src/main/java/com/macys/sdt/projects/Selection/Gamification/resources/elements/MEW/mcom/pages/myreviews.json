@@ -1,0 +1,15 @@
+{
+"mew_write_review":			"cssSelector, .button.tertiary.expand",
+"mew_write_a_review_btn":	"cssSelector,.button.secondary.expand",
+"mew_write_review_xpath":	"xpath, .//*[@id='m-product-reviews-summary']/div[3]/a",
+"mew_write_review_xpath2":	"xpath, .//*[@id='m-product-reviews-summary']/div[2]/a",
+"mew_write_review_xpath3":	"xpath,.//*[@id='m-product-reviews-summary-lean']/div[4]/a",
+"mew_review_star":			"cssSelector, .mb-j-ratingselect-item",
+"mew_reviewtitle":			"cssSelector, .reviewHeadline",
+"mew_reviewbody":			"cssSelector, .myReviewsText",
+"mew_reviewnick_name":		"cssSelector, .myReviewsNickname",
+"mew_submit_review":		"cssSelector, .mb-j-write-review-submit.m-button",
+"mew_review_confirmation":	"cssSelector, div.toggleHideName>p",
+"mew_review_submit_back":	"cssSelector, .mb-j-modalHeader-left.m-back",
+"mew_afterback_addtobag":	"cssSelector, #m-tablet-atb",
+}

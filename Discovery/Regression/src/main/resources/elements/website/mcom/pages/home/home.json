@@ -1,0 +1,7 @@
+{
+  "free_shipping_banner": "className, redesign-header-media-content",
+  "free_shipping_text": "xpath, //span[@class='redesign-header-media-content']//span[contains(@data-cm-href,'left-hand')]",
+  "free_shipping_exclusion": "xpath, //span[contains(@data-cm-href,'left-hand')]/a",
+  "Macys_present_text": "xpath, //span[@class='redesign-header-media-content']//span[contains(@data-cm-href,'right-hand')]/strong",
+  "Macys_present_check_it_out": "xpath, //span[contains(@data-cm-href,'right-hand')]/a"
+}

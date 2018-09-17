@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>264_14P_BSTORE_MailFlagCwithSR_email_standard</reservationNumber>
+	<internetOrderNumber>273499251</internetOrderNumber>
+	<orderDate>11/11/2009</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>41.00</orderSubtotalAmt>
+	<baseShippingAmt>4.36</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>2.72</taxAmt>
+	<orderTotal>48.08</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Mon - Sat 9am to 10pm, Sun 9am to 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>1234567890123456</ltyIdUsl>
+	<billingDetail>
+		<title />
+		<firstName>JOHN</firstName>
+		<middleName />
+		<lastName>SUGGS</lastName>
+		<attnLine />
+		<addressLine1>501 WYOMING BLVD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CASPER</city>
+		<state>WY</state>
+		<country>USA</country>
+		<zipcode>82609</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************0007</accountNumber>
+		<amount>48.08</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>11/11/2009</shippedDate>
+		<mailFlag>C</mailFlag>
+		<title>MS.</title>
+		<firstName>LORIE</firstName>
+		<middleName />
+		<lastName>THOMAS</lastName>
+		<attnLine />
+		<addressLine1>5985 STATE BRIDGE ROAD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>DULUTH</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30097</zipcode>
+		<greetingMessage>CONGRATULATIONS</greetingMessage>
+		<closingMessage>YOURS TRULY</closingMessage>
+		<signatureMessage>SUE</signatureMessage>
+		<giftRegistryNumber>2800018830754</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1>LORIE</giftRegistrant1>
+		<giftRegistrant2>JOHN</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>843116984674933</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>FEDEX</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>GAL ROY TEA SCR</description>
+			<price>41.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>41.00</totalAmount>
+			<expectedDate>11/16/2009</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>8058328001799</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+    <shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>11/11/2009</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title>MS.</title>
+		<firstName>LORIE</firstName>
+		<middleName />
+		<lastName>THOMAS</lastName>
+		<attnLine />
+		<addressLine1>5985 STATE BRIDGE ROAD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>DULUTH</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30097</zipcode>
+		<greetingMessage>CONGRATULATIONS</greetingMessage>
+		<closingMessage>YOURS TRULY</closingMessage>
+		<signatureMessage>SUE</signatureMessage>
+		<giftRegistryNumber>2800018830754</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1>LORIE</giftRegistrant1>
+		<giftRegistrant2>JOHN</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>GAL ROY TEA SCR</description>
+			<price>41.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>41.00</totalAmount>
+			<expectedDate>11/16/2009</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<lineItemFdInd>N</lineItemFdInd>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>190089164219</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate></shippedDate>
+		<mailFlag>P</mailFlag>
+		<title></title>
+		<firstName></firstName>
+		<middleName />
+		<lastName></lastName>
+		<attnLine />
+		<addressLine1></addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber></giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>GAL ROY TEA SCR</description>
+			<price>41.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>41.00</totalAmount>
+			<expectedDate>11/16/2009</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<lineItemFdInd>N</lineItemFdInd>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>478000232033</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	</mailMessagePayload>

@@ -1,0 +1,13 @@
+{
+    "my_button":                 "id, button",
+    "company_page":              "id, titleImage",
+    "popup_content":             "id, popup-text",
+    "social_icon":               "xpath, //div[@class='socialLinks']/a",
+    "face_book_page":            "xpath, //*[@title='FACEBOOK']",
+    "twitter_page":              "xpath, //*[@title='TWITTER']",
+    "pinterest_page":            "xpath, //*[@title='PINTEREST']",
+    "instagram_page":            "xpath, //*[@title='INSTAGRAM']",
+    "mobile_page":               "xpath, //*[@title='APP']",
+    "tumblr_page":               "xpath, //*[@title='TUMBLR']",
+    "snapchat_page":             "xpath, //*[@title='SNAPCHAT']"
+}

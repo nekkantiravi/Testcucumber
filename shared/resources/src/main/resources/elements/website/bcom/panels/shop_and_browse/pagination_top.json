@@ -1,0 +1,13 @@
+{
+    "pagination_container":             "id, paginateTop || id, paginationColumn",
+    "goto_current_page_number":         "cssSelector, .newPagination>.custom.dropdown>.current||id, paginateByTop",
+    "goto_previous_page_via_arrow":     "xpath, //*[@id='paginationColumn']/*/*[contains(@class,'prevArrow')] || xpath, //*[@id='filterResultsTop']/*/*/*[contains(@class,'prevArrow')]",
+    "goto_next_page_via_arrow":         "xpath, //*[@id='paginationColumn']/*/*[contains(@class,'nextArrow')] || xpath, //*[@id='filterResultsTop']/*/*/*[contains(@class,'nextArrow')]",
+    "last_page_number":                 "xpath, //*[@id='paginationColumn']/*/*[contains(@class,'lastPage')]",
+    "goto_previous_page_via_link":      "xpath, //*[@id='paginateTop']/a[contains(@class,'previousClass')]",
+    "goto_next_page_via_link":          "xpath, //*[@id='paginateTop']/a[contains(@class,'nextClass')]",
+    "show_all_items":                   "class, howAllItems",
+    "all_pages":                        "cssSelector,.paginationTop.columns>.newPagination>.custom.dropdown>.current || cssSelector, .paginationTop.columns>.newPagination>.paginateContainer>.newDropDown_btn",
+    "pages_list":                       "cssSelector,.paginationTop.columns>.newPagination>.custom.dropdown>ul>li:not(.selected) || cssSelector, .paginationTop.columns>.newPagination>.paginateContainer>ul>li>a:not(.selected)",
+    "filterPPP":                        "id, filterPPP"
+}

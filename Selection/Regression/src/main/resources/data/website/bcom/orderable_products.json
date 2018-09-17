@@ -1,0 +1,39 @@
+{
+    "bloomingdales": [
+        {
+            "id": 8493,
+            "click_to_call": false,
+            "gift_wrappable": false,
+            "master_product": true,
+            "available": true,
+            "prod_available": true,
+            "orderable": true,
+            "member_product": false,
+            "has_reviews": true,
+            "has_ratings": true
+        },
+        {
+            "id": 3048,
+            "master_product": false,
+            "available": true,
+            "prod_available": true,
+            "orderable": true,
+            "member_product": true,
+            "available_bops": true
+        },
+        {
+            "id": 2669938,
+            "master_product": false,
+            "available": true,
+            "prod_available": false,
+            "orderable": true,
+            "member_product": true,
+            "iship_unavailable": true
+        },
+        {
+            "id": 2816290,
+            "prod_available": true,
+            "iship_unavailable": true
+        }
+    ]
+}

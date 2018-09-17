@@ -1,0 +1,16 @@
+{
+  "prod_user": [
+    {
+      "user_type": "prod_user",
+      "email": "produser@macys.com",
+      "password": "macys123",
+      "address_line_1": "884 Walnut St"
+    },
+    {
+      "user_type": "prod_user_with_orders",
+      "email": "ordermod@macys.com",
+      "password": "macys12345",
+      "order_number": "1307248297"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>252_10_bwedd</internetOrderNumber>
+	<orderDate>04/04/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>90.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>7.20</taxAmt>
+	<orderTotal>97.20</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title>Mr.</title>
+		<firstName>OES</firstName>
+		<middleName>MIGRATION</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 BURNS ST</addressLine1>
+		<addressLine2>PARK WAY</addressLine2>
+		<addressLine3>APT 178</addressLine3>
+		<city>FOREST HILLS</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11375</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>97.20</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>Y</mailFlag>
+		<title>Mr.</title>
+		<firstName>ESP</firstName>
+		<middleName>OES</middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine>ATTN: BARTO BROWN</attnLine>
+		<addressLine1>123 E 63RD ST</addressLine1>
+		<addressLine2>APT 12</addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10065</zipcode>
+		<greetingMessage>Best Wishes! Love you dearly! Suzanne</greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800022712345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1>KAITLYN</giftRegistrant1>
+		<giftRegistrant2>BARTO</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>ARRIS</description>
+			<price>18.88</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>2</availableQuantity>
+			<shippedQuantity>2</shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate>07/08/2016</newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate>06/08/2016</systemCancelDate>
+			<shipmentType></shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>BACKORDERED</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>8058328001799</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

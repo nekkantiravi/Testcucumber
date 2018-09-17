@@ -1,0 +1,55 @@
+<mailMessagePayload>
+	<reservationNumber>test_245_5J_bstore</reservationNumber>
+	<internetOrderNumber>test_245_5J_bstore</internetOrderNumber>
+	<orderDate>04/01/2016</orderDate>
+	<ltyIdUsl></ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>ALEKS</firstName>
+		<middleName></middleName>
+		<lastName>KUNIS</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>115.76</amount>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>105</shipRetailAmt>
+		<shipTaxAmt>10.76</shipTaxAmt>
+		<returnSubmittedDate>04/07/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Twist Coasters Set of 6</description>
+			<price>105.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>105.0</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Nambe</vendor>
+			<upcNumber>5052376910532</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/05/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Twist Coasters Set of 6</description>
+			<price>105.00</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>105.0</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Nambe</vendor>
+			<upcNumber>190089164219</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/05/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Sufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

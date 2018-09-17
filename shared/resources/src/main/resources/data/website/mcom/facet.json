@@ -1,0 +1,11 @@
+{
+  "NON_CRAWLABLE_FACETS": {
+    "Special Offers":    "Special Offers"
+  },
+  "CRAWLABLE_FACETS":{
+    "Brand":     "Brand",
+    "Color":    "Color"
+
+  }
+
+}

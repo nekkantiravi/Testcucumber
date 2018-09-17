@@ -1,0 +1,29 @@
+{
+  "dp_close_button": "class, datepicker-x-close-button",
+  "dp_previous_month_arrow": "class, ui-datepicker-prev",
+  "dp_next_month_arrow": "class, ui-datepicker-next",
+  "dp_month_header": "class, ui-datepicker-month",
+  "dp_year_header": "class, ui-datepicker-year",
+  "dp_calendar": "class, ui-datepicker-calendar",
+  "dp_weekends": "class, ui-datepicker-week-end",
+  "dp_message": "class, datepicker-custom-msg",
+  "dp_choose_this_date_button": "class, choose-date-btn",
+  "dp_cancel_button": "css, button.custom-button.secondary",
+  "dp_todays_date": "css, a.ui-state-highlight",
+  "dp_selected_date": "css, a.ui-state-active",
+  "dp_greyed_out_dates": "css, span.ui-state-default",
+  "dp_non_greyed_out_dates": "css, a.ui-state-default"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

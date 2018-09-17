@@ -1,0 +1,32 @@
+{
+  "macys": [
+    {
+      "id": 2112827,
+      "store_location_nbr": 4570,
+      "name": "3-Pc. Nonstick Bakeware Set",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 136866,
+      "store_location_nbr": 5229,
+      "name": "07030 Griddle, Jumbo Cool Touch",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 256148,
+      "store_location_nbr": 4570,
+      "name": "CHM-3 Hand Mixer, 3 Speed",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    },
+    {
+      "id": 802011,
+      "store_location_nbr": 5488,
+      "name": "KSM75SL 4.5 Qt. Classic Plus Stand Mixer",
+      "mst_unavailable": false,
+      "sdd_ineligible": false
+    }
+  ]
+}

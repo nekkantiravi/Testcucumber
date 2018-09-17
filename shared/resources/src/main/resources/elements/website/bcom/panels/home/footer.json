@@ -1,0 +1,62 @@
+{
+    "goto_customer_service":            "id, cmFooterCustomerService",
+    "goto_our_stores":                  "linkText, Stores",
+    "footer_menu_section":              "id, bloomiesMainFooter",
+    "goto_footer_banner":               "id, footerBanner",
+    "easy_web_banner":                  "className, banne",
+    "footer_section":                   "id, cmFooterBar",
+    "global_footer":                    "xpath, //html/body/footer",
+    "footer_bottom":                    "className, footerBottom",
+    "goto_frequently_asked_questions":  "linkText, FAQs",
+    "goto_visitors_services":           "linkText, Visitor Services",
+
+    "goto_credit_services":             "linkText, MY CREDIT CARD",
+    "goto_credit_pay_bill_online":      "id, payBillOnline",
+    "goto_credit_cardholder_benefits":  "linkText, Cardholder Benefits",
+    "goto_credit_apply_now":            "linkText, Apply & Learn More || linkText, Learn More & Apply",
+
+    "goto_shipping_and_delivery":       "xpath, //*[@id='footerLinks']//*[contains(text(),'Shipping Policy')]",
+    "goto_returns":                     "xpath, //*[@id='footerLinks']//*[contains(text(),'Returns & Exchanges')]",
+    "goto_international":               "xpath, //*[@id='footerLinks']//*[contains(text(),'International')]",
+    "goto_domestic":                    "linkText, Domestic",
+    "goto_product_recall":              "linkText, Product Recall",
+        
+    "goto_my_account":                  "cssSelector, .myAccount a || linkText, MY ACCOUNT",
+    "goto_order_status":                "id, cmFooterOrderStatus||linkText, Order Status",
+    "goto_loyallist":                   "id, cmFooterMyLoyallist",
+    "goto_my_profile":                  "linkText, My Profile",
+        
+    "goto_manage_my_credit_account":    "linkText, Cardholder Benefits",
+    "goto_company":                     "linkText, COMPANY",
+    "goto_about_us":                    "linkText, About Us",
+    "goto_b_cause":                     "linkText, b.cause",
+    "goto_careers":                     "linkText, Careers",
+        
+    "goto_ways_to_shop":                "linkText, WAYS TO SHOP||xpath, //a[text()='WAYS TO SHOP']",
+    "goto_online_and_mobile":           "linkText, Online & Mobile",
+    "goto_stores":                      "linkText, Stores",
+    "goto_outlets":                     "linkText, Outlets || linkText, Pick Up In Store",
+        
+    "goto_terms_of_use":                "linkText, Terms of Use",
+    "goto_privacy":                     "linkText, Privacy",
+    "goto_ca_privacy_rights":           "linkText, CA Privacy Rights",
+    "goto_my_ca_transparency":          "linkText, CA Transparency in Supply Chains Act",
+        
+    "goto_email_sign_up":               "xpath, //div[contains(@class, 'signUp')]/a",
+    "global_footer_ad":                 "className, footerSocialMedia",
+    "customer_service_header":          "linkText, CUSTOMER SERVICE",
+        
+    "goto_visually_impaired":           "linkText, Visually Impaired Customers",
+    "social_icons":                     "xpath, //*[@alt='Connect With Us'] || className, socialLinks",
+    "verifyPage":                       "class,rn_PageTitle",
+
+    "footer_copyright":                 "class, footerBottomCopyRight",
+    "facebook_icon":                    "cssSelector, area[title=\"Facebook\"]",
+    "twitter_icon":                     "cssSelector, area[title=\"Twitter\"]",
+    "pinterest_icon":                   "cssSelector, area[title=\"Pinterest\"]",
+    "instagram_icon":                   "cssSelector, area[title=\"Instagram\"]",
+    "mobile_icon":                      "cssSelector, area[title=\"Mobile\"]||xpath, //a[@title='APP']",
+    "footer_banner":                    "xpath, //*[@id='footerBanner']/a/img||id, footerBanner",
+    "goto_new_footer_ad_pool":          "xpath,//div[@class='footerAdPool']",
+    "privacy_practices":                     "linkText, Privacy Practices"
+}

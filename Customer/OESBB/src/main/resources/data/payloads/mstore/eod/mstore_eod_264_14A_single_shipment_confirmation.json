@@ -1,0 +1,229 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "264_14A_Mstore_SingleShip",
+			"dataCenterCode": "RTP",
+			"orderStatusCode": "6",
+			"orderStatusDescription": "IN_PROCESS",
+			"orderConfirmTimestamp": "2017-08-22T16:00:39.248-04:00",
+			"orderConfirmUtcTimestamp": "2017-08-22T20:00:39.248Z",
+			"sellingChannelCode": "ESEND",
+			"sellLegacyDivisionNbr": "71",
+			"sellLegacyLocationNbr": "139",
+			"salesAssociateId": "71115670",
+			"messageCreateTimestamp": "2017-08-23T13:57:40.858-04:00",
+			"messageCreateUtcTimestamp": "2017-08-23T17:57:40.858Z",
+			"eventType": "SHPSCF",
+			"eventTimestamp": "2017-08-23T13:57:24.447-04:00",
+			"eventUtcTimestamp": "2017-08-23T17:57:24.447Z",
+			"partnerRefList": {
+				"partnerRef": [
+					{
+						"partnerOrderId": "3456794358754"
+					}
+				]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"customerId": "63713854",
+					"firstName": "billingFirstName",
+					"lastName": "billingLastName",
+					"addressLine1": "123 N WABASH AVE",
+					"addressLine2": "ROAD 123",
+					"addressLine3": "APT 123",
+					"cityName": "CHICAGO",
+					"stateName": "IL",
+					"zipCode": "60611-4147",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "510-770-4064",
+					"homePhoneNbr": "510-770-4064",
+					"alternatePhoneNbr": "510-770-4064",
+					"sendSmsMessageFlag": "false",
+					"emailId": "oes.macys@gmail.com"
+				}
+			},
+			"orderManagementApplicationCode": "FIL"
+		},
+		"lineItemList": {
+			"lineItem": [
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "POOL",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "846",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "86279088208",
+					"productGroupCode": "COOK",
+					"itemDepartmentNbr": "870",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "85.01",
+					"originalPriceAmount": "85.0",
+					"retailPriceAmount": "85.01",
+					"surchargeAmount": "0.0",
+					"deliveryType": "3",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-23-04:00"
+				},
+				{
+					"orderLineItemNbr": "2",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "9",
+					"lineItemStatusDescription": "VOIDED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "730",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "636202087435",
+					"productGroupCode": "SCHINA",
+					"itemDepartmentNbr": "625",
+					"itemQuantity": "12",
+					"itemOriginalQuantity": "4",
+					"itemAdjustedQuantity": "8",
+					"purchasePriceAmount": "70.99",
+					"originalPriceAmount": "70.99",
+					"retailPriceAmount": "70.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "3",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-28-04:00"
+				}
+			]
+		},
+		"shipmentList": {
+			"shipment": [
+				{
+					"orderShipmentNbr": "1",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "6057",
+					"fulfillmentLegacyDivisionNbr": "88",
+					"fulfillmentLegacyLocationNbr": "44",
+					"shipmentFeeSlideScaleBaseAmount": "9.95",
+					"totalAmount": "142.96",
+					"taxAmount": "7.86",
+					"retailAmount": "85.01",
+					"retailTaxAmount": "7.86",
+					"shippingChargeAmount": "29.95",
+					"shippingTaxAmount": "0.0",
+					"upChargeFeeAmount": "20.01",
+					"giftWrapFeeAmount": "10.12",
+					"giftWrapTaxAmount": "0.00",
+					"additionalAddressFeeAmount": "10.01",
+					"miscellaneousTaxAmount": "0.0",
+					"giftFlag": "true",
+					"giftWrapType": "Y",
+					"giftMessageGreetingText" : "greetingMessage",
+					"giftCloseDescription" : "closingMessage",
+					"giftSignDescription" : "signatureMessag",
+					"deliveryType": "3",
+					"deliveryTypeDescription": "GROUND",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-24-04:00",
+					"expectedShipDate": "2017-08-23",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-23-04:00",
+					"actualShipDate": "2017-08-23-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "C",
+					"deliveryTrkList": {
+						"deliveryTrk": [
+							{
+								"deliveryTrackingNbr": "1234567890122138",
+								"deliveryCarrierName": "UPS Ground"
+							}
+						]
+					},
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "VISA",
+								"tenderAmount": "1358.68",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "1358.68",
+								"authorizationPlanType": "050729",
+								"authorizationDate": "2017-08-22-04:00",
+								"authorizationExpiredDate": "2017-08-29-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "ShippingFirstName",
+							"lastName": "ShippigLastName",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"addressLine3": "APT 123",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "abc@gmail.com"
+						}
+					},
+					"giftWrapFlag": "false"
+				}
+			]
+		},
+		"inventoryDeltaList": {
+			"inventoryDelta": [
+				{
+					"orderID": "441135120",
+					"shipmentNbr": "1",
+					"inventoryDeltaActionCode": "SHIPPED",
+					"lineItemNbr": "1",
+					"orderManagementSenderCode": "FIL",
+					"inventoryDeltaDateTime": "2017-08-23T13:57:24.107-04:00",
+					"inventoryDeltaUtcDateTime": "2017-08-23T17:57:24.107Z",
+					"mediaDate": "2017-08-23-04:00",
+					"processName": "SCF",
+					"racfID": "71115670",
+					"locationNbr": "6241",
+					"itemDepartmentNbr": "870",
+					"itemSkuUpc": "86279088208",
+					"quantityAmount": "1"
+				}
+			]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [
+				{
+					"mailSourceId":"EOD_MailSourceID",
+					"mailTypeCode": "264",
+					"mailSubtypeCode": "14A",
+					"partyType": "B"
+				}
+			]
+		},
+		"orderFraudInformation": {
+			
+		}
+	}
+}

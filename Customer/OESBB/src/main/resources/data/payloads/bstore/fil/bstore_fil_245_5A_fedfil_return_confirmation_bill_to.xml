@@ -1,0 +1,131 @@
+<mailMessagePayload>
+  <reservationNumber>1111112</reservationNumber>
+  <internetOrderNumber>FIL_245_5A_BSTORE</internetOrderNumber>
+  <orderDate>04/03/2016</orderDate>
+  <shopAt>Bloomingdales</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>141.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>141.00</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0004</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>41.00</amount>
+    <paymentCategoryFlag>C</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>003</shipmentNumber>
+    <shippedDate>04/12/2016</shippedDate>
+    <returnSubmittedDate>04/12/2016</returnSubmittedDate>
+    <mailFlag />
+    <title />
+    <firstName>OES_SHIPPING</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>1234 OREGON ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>EASTON</city>
+    <state>PA</state>
+    <country>USA</country>
+    <zipcode>18045</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>003</lineNumber>
+      <description>Eternal Gold Goblet</description>
+      <price>141.00</price>
+      <requestedQuantity>002</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>141.00</totalAmount>
+      <expectedDate>04/12/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>AQUA</vendor>
+      <cancelledQuantity />
+      <upcId>000000492031403361</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+	<itemDetail>
+      <lineNumber>003</lineNumber>
+      <description>Eternal Gold Goblet</description>
+      <price>141.00</price>
+      <requestedQuantity>002</requestedQuantity>
+      <availableQuantity>003</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>141.00</totalAmount>
+      <expectedDate>04/12/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>AQUA</vendor>
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

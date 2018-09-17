@@ -1,0 +1,12 @@
+{
+  "url": "RSnextgen/svc/registration",
+  "verify_page": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all",
+
+  "cardNumber": "id, card_number_0 || name, cardNumber",
+  "name": "id, card_name_0 || name, cardName",
+  "cvv": "id, cvv_1 || name, cvv",
+  "ssn": "id, ssn_last4_2 || name, ssnLast4",
+  "addToWallet": "id, add_to_wallet_2 || name, addToWallet",
+  "verify": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all"
+
+}

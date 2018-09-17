@@ -1,0 +1,17 @@
+{
+  "product_thumbnail_link": "cssSelector, div.mb-j-search-image",
+  "search_results_thumbnail_wrapper": "id, m-search-results-list||cssSelector, #m-search-results-list .m-product-grid-list-item",
+  "product_thumbnail_list": "cssSelector, ul#m-search-results-list li",
+  "product_thumbnail_with_review": "cssSelector, .m-rating",
+  "result_list" : "className, m-search-product-anchor || className, m-browse-product-anchor",
+  "toggle_dropdown": "className, show-toggle-dropdown",
+  "product_thumbnail": "xpath, //*[@id='m-search-results-list']/li ||xpath, //*[@id='m-browse-results-list']/li",
+  "thumbnail_grid": "className, m-simple-canvas",
+  "prices_grid": "className, m-product-grid-prices",
+  "product_prices": "className, m-product-grid-price-label",
+  "product_listview": "className, m-product-list-view-results",
+  "product_galleryview": "className, m-product-gallery-view-results",
+  "add_to_bag_button": "className, m-search-add-product||class, m-browse-add-product",
+  "add_to_bag_overlay": "className, m-product-addToBag-Overlay",
+  "price": "id, m-search-price-regular"
+}

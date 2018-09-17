@@ -1,0 +1,192 @@
+{
+  "bloomingdales": {
+    "new_prop_user": {
+      "email": "test2_prop@bcom.com",
+      "password": "testpassword"
+    },
+    "dual_amex_user": {
+      "email": "test1_dual@bcom.com",
+      "password": "testpassword"
+    },
+    "dual_user": {
+      "email": "test_prop_amex@bloomies.com",
+      "password": "test123"
+    },
+    "dual_primary_user": {
+      "email": "dual_primary7@bloomies.com",
+      "password": "test123"
+    },
+    "single_line_amex_user": {
+      "email": "test3_amex@bcom.com",
+      "password": "testpassword"
+    },
+    "amex_lessthan_14days": {
+      "email": "testcvv70021@nisum.com",
+      "password": "Password@123"
+    },
+    "amex_morethan_14days": {
+      "email": "testcvv70028@nisum.com",
+      "password": "Password@123"
+    },
+    "amex_morethan_14days_2": {
+      "email": "nocvv@gmail.com",
+      "password": "Password@123"
+    },
+    "amex_equal_14days": {
+      "email": "testcvv70027@nisum.com",
+      "password": "Password@123"
+    },
+    "approval_data": {
+      "firstname": "MICHEAL",
+      "lastname": "BARKSDALE",
+      "email": "rajeev.thanaraj@citi.com",
+      "address": "10635 WILSHIRE BLVD",
+      "city": "LOS ANGELES",
+      "state": "CA",
+      "ZIPcode": "90024",
+      "phone": "7819992620",
+      "phonetype": "Home",
+      "rent": "10",
+      "residencestatus": "Own",
+      "annualincome": "89000",
+      "SSN": "666900021",
+      "DOB": "09081935"
+    },
+    "usercard_profile": {
+      "email": "testprimary11@bcom.com",
+      "password": "test123"
+    },
+    "usercard_profile_wallet_offer": {
+      "email": "testprimary12@bcom.com",
+      "password": "test123"
+    },
+    "usercard_profile_wallet": {
+      "email": "testprimary13@bcom.com",
+      "password": "test123"
+    },
+    "primary_account": {
+      "email": "primary2@bcom.com",
+      "password": "test123"
+    },
+    "authorized_account": {
+      "email": "auth@bcom.com",
+      "password": "test123"
+    },
+    "tra3_msg_eligible": {
+      "email": "test_tra3@bcom.com",
+      "password": "test123"
+    },
+    "trb3_msg_eligible": {
+      "email": "test_trb3@bcom.com",
+      "password": "test123"
+    },
+    "multi_card_user": {
+      "email": "test1_multi@bcom.com",
+      "password": "testpassword"
+    },
+    "authorized_user": {
+      "email": "test1_auth@bcom.com",
+      "password": "test123"
+    },
+    "single_card_ss": {
+      "email": "single_sp_ss@bcom.com",
+      "password": "test123"
+    },
+    "single_card_ms": {
+      "email": "single_sp_ms@bcom.com",
+      "password": "test123"
+    },
+    "single_card_ps": {
+      "email": "single_sp_ps@bcom.com",
+      "password": "test123"
+    },
+    "single_card_n":{
+      "email": "single_sp_n@bcom.com",
+      "password": "test123"
+    },
+    "multi_card_ms_all":{
+      "email": "multi_ms_all@bcom.com",
+      "password": "test123"
+    },
+    "multi_card_ss_all":{
+      "email": "multi_ss_all@bcom.com",
+      "password": "test123"
+    },
+    "multi_ss_ms_mixed":{
+      "email": "multi_ss_ms_mixed@bcom.com",
+      "password": "test123"
+    },
+    "multi_default_ss":{
+      "email": "multi_ss_first@bcom.com",
+      "password": "test123"
+    },
+    "single_sa_sb":{
+      "email":"single_sa_sb@bcom.com",
+      "password":"test123"
+    },
+    "single_sa_mpd":{
+      "email":"single_sa_mpd@bcom.com",
+      "password":"test123"
+    },
+    "single_sa_mpd_fixed":{
+      "email":"single_sa_mpd_fixed@bcom.com",
+      "password":"test123"
+    },
+    "single_sa_oa":{
+      "email":"single_sa_oa@bcom.com",
+      "password":"test123"
+    },
+    "single_sa_known":{
+      "email":"single_sa_known@bcom.com",
+      "password":"test123"
+    },
+    "single_ma_unknown":{
+      "email":"single_ma_unknown@bcom.com",
+      "password":"test123"
+    },
+    "single_ma_unknown_desc_null":{
+      "email":"single_ma_unknown_desc_null@bcom.com",
+      "password":"test123"
+    },
+    "single_ma_known":{
+      "email":"single_ma_known@bcom.com",
+      "password":"test123"
+    },
+    "single_ma_known_desc_null":{
+      "email":"single_ma_known_desc_null@bcom.com",
+      "password":"test123"
+    },
+    "single_pa":{
+      "email":"single_pa@bcom.com",
+      "password":"test123"
+    },
+    "otp_eligible":{
+      "email":"single_sp_n@bcom.com",
+      "password":"test123"
+    },
+    "otp_eligible_multi":{
+      "email":"amex_otp_y@bcom.com",
+      "password":"test123"
+    },
+    "dual_child_ss": {
+      "email":"dual_ss_prop@bcom.com",
+      "password":"test123"
+    },
+    "dual_ms_both": {
+      "email":"dual_ms_both@bcom.com",
+      "password":"test123"
+    },
+    "dual_ss_both": {
+      "email":"dual_ss_both@bcom.com",
+      "password":"test123"
+    },
+    "dual_ss_ms_mixed": {
+      "email":"dual_ss_prop_ms_amex@bcom.com",
+      "password":"test123"
+    },
+    "otp_in_eligible": {
+      "email": "test_otp_ineligible@bcom.com",
+      "password":"test123"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>08/28/2015</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>23.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>1.11</taxAmt>
+	<orderTotal>25.10</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<multiSiteId>123</multiSiteId>
+    <munTaxAmt>12.30</munTaxAmt>
+    <miscTaxAmt>9.00</miscTaxAmt>
+	<ltyIdUsl>0000000123456789</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 SPINNEY RD</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>EAST QUOGUE</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11942</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>25.10</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>006</shipmentNumber>
+		<shippedDate>04/30/2016</shippedDate>
+		<returnSubmittedDate>04/30/2016</returnSubmittedDate>
+		<mailFlag>Y</mailFlag>
+		<title>Mr.</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine>Attn: OES</attnLine>
+		<addressLine1>123 SPINNEY RD</addressLine1>
+		<addressLine2>SUIT 1200</addressLine2>
+		<addressLine3>11th Floor</addressLine3>
+		<city>EAST QUOGUE</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11942</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+        <closingMessage>Have Fun</closingMessage>
+        <signatureMessage>Thank You</signatureMessage>
+		<giftRegistryNumber>5664</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestest@fds.com</giftReceipientEmail>
+		<giftRegistrant1>OES Testing</giftRegistrant1>
+		<giftRegistrant2>OES Team</giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt>150.00</shipRetailAmt>
+		<shipTaxAmt>9.70</shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>015</lineNumber>
+			<description>V-Neck Printed Top</description>
+			<price>23.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>23.99</totalAmount>
+			<expectedDate>04/30/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>Rachel Rachel Roy</vendor>
+			<cancelledQuantity>1</cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>S</size>
+			<color>Fuchsia Ocean Combo</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,31 @@
+@@ set
+    domain          digitalproductpage-rpdp-w.tbe.zeus.fds.com/shop/product/seo-friendly-name?ID=
+    url             http://${domain}
+
+@@ parameterized
+    | page   |
+    | Member |
+
+@@ parameterized
+    | device  | tags    | size     |
+    | Desktop | desktop | 1400x800 |
+    | Mobile  | mobile  | 400x700  |
+    | Tablet  | tablet  | 870x530  |
+
+@@ parameterized
+    | productId |
+    | 22805     |
+
+@@ parameterized
+    | browser |
+    | Chrome  |
+
+@@ parameterized
+    | mode |
+    | Site |
+
+
+Running on ${device} ==> ${page} PDP ${mode} mode in ${browser} browser with productID ${productId}
+    selenium ${browser} ${url}${productId} ${size}
+      run Selection/ResponsivePDP/Galen/mcom/memberPDP.js
+      check Selection/ResponsivePDP/Galen/mcom/memberPDP.spec --include ${tags}

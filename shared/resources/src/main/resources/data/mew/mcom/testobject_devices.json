@@ -1,0 +1,93 @@
+{
+  "Android": {
+    "5.1": [
+      "Motorola_Moto_E2_real_us"
+    ],
+    "5.1.1": [
+      "Samsung_Galaxy_Note_4_5_real",
+      "Samsung_Galaxy_Note_4_5_1_real",
+      "Samsung_Galaxy_S5_mini_real"
+    ],
+    "6.0": [
+      "ZTE_Blade_V7_lite_real_us",
+      "Huawei_Mate_7_real_us",
+      "LG_G_Stylo_real_us",
+      "Sony_Xperia_E5_real_us"
+    ],
+    "6.0_63": [
+      "HTC_10_real",
+      "Huawei_Honor_5X_real_us",
+      "LG_G5_real_us",
+      "HTC_One_M8_real",
+      "Huawei_Honor_8_real_us",
+      "LG_G3_real",
+      "LG_G4_real",
+      "Motorola_Moto_G_3rd_gen_real",
+      "HUAWEI_P9_real_us"
+    ],
+    "7.0_64": [
+      "Huawei_Mate_9_real_us",
+      "Huawei_Nexus_6p_8_real_us",
+      "Huawei_Honor_9_real_us",
+      "LG_v20_real_us",
+      "HTC_10_real_us",
+      "Sony_Z5_Premium_real_us",
+      "LG_G6_real_us",
+      "Motorola_Nexus_6_real",
+      "OnePlus_5_real_us"
+    ],
+    "8.0.0_64": [
+      "Google_Pixel_8_real_us",
+      "Huawei_Nexus_6p_8_real_us",
+      "Google_Pixel_2_real_us",
+      "Google_Pixel_2_XL_real_us"
+    ],
+    "TA.8.0.X": [
+      "Google_Pixel_C_8_real_us"
+    ],
+    "TA.7.1.X": [
+      "Google_Pixel_C_real"
+    ],
+    "TA.6.0.X": [
+      "Samsung_Galaxy_Tab_S_105_real_us",
+      "Samsung_Tab_E_real_us",
+      "Samsung_Galaxy_Tab_A_real",
+      "Samsung_Galaxy_Tab_S_8.4_real"
+    ]
+  },
+  "IOS": {
+    "9.3": [
+      "iPhone_6_Plus_9_3_real",
+      "iPhone_6S_9_3_real",
+      "iPhone_5C_9_3_real"
+    ],
+    "9.3.5": [
+      "iPhone_6S_Plus_16GB_real_2"
+    ],
+    "10.0": [
+      "iPhone_5_free",
+      "iPhone_6_Plus_10_0_real"
+    ],
+    "10.1": [
+      "iPhone_6_Plus_real_us",
+      "iPhone_5S_10_1_real",
+      "iPhone_5C_10_1_real",
+      "iPhone_5_16GB_real_us"
+
+    ],
+    "10.2": [
+      "iPhone_5C_10_2_real",
+      "iPhone_5S_16GB_real_us",
+      "iPhone_6S_10_2_real"
+    ],
+    "11.0": [
+      "iPhone_8_real_us",
+      "iPhone_8_Plus_real_us",
+      "iPhone_8_Plus_us2",
+      "iPhone_8_real_us2"
+    ],
+    "11.1.1": [
+      "iPhone_6_11_1_real_us"
+    ]
+  }
+}

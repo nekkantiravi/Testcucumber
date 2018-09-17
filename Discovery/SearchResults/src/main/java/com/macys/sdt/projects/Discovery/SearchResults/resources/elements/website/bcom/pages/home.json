@@ -1,0 +1,4 @@
+{
+  "goto_sign_in_link":   "id, bl_nav_myAcct",
+  "category":            "xpath, //*[@id='globalNavigation']/ul/li/a"
+}

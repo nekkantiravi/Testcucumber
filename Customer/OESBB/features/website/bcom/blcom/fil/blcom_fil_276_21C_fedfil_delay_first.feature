@@ -1,0 +1,43 @@
+Feature: Verify BCOM 276 fedfil delay first email content
+
+  @regression @blcom_fil_276_21C_fedfil_delay_first
+  Scenario: Verify email content for template blcom_fil_276_21C_fedfil_delay_first
+    Given i trigger "blcom_fil_276_21C_fedfil_delay_first" input through csp testemail
+    And i have an enhanced payload sent to email provider
+    When i navigate to view the email page
+    And i should see preheader:
+      """
+      Important information about your order.
+      """
+    And i should see bloomingdales logo
+    And i should see freeshipping image
+    Then i should see header:
+      """
+      WE NEED YOUR PERMISSION TO PROCEED WITH THIS ORDER
+      """
+    And i should see firstname
+    Then i should see static contents for fedfil delay first:
+      """
+      an item from your order is currently out of stock and its delivery date has been delayed. we are unable to provide an estimated shipping date at this time because we do not have a shipping date from the vendor. you will not be charged until the item ships.action requiredif you still want this item, please call customer service at 1-800-777-0000 and follow the automated prompts. if we do not hear from you by <systemCancelDate>, this item will be canceled and removed from your order. you may also use this phone number if you wish to cancel your order. view instructions
+      """
+    And i should see "ORDER DETAILS" text
+    And i should see order number
+    And i should see order capture date
+    And i should see "ITEM DETAILS" text
+    And i should see product details
+    And i should see shop now button
+    Then i should see static contents for com template:
+      """
+      Thank you,
+      Bloomingdale's Customer Service
+      Call us at any time:1-800-777-0000
+      We're available 24hours, 7 days a week.
+      customerservice@bloomingdales.com
+      """
+    And i should see "CUSTOMER SERVICE" link
+
+  @optional
+  Scenario: Verify optional fields empty scenario for template blcom_fil_276_21C_fedfil_delay_first
+    Given i trigger "blcom_fil_276_21C_fedfil_delay_first_optional" input through csp testemail
+    When i navigate to view the email page
+    And i should see bloomingdales logo

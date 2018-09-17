@@ -1,0 +1,12 @@
+{
+  "url": "/shop/feedback",
+
+  "verify_page": "id, feedbacktxt",
+
+  "macysHomePageLogo": "id, macysHomePageLogo",
+  "feedback": "id, feedbacktxt",
+  "feedback_form": "id, fdbkForm",
+  "submit_feedback": "id, submitfdbk",
+  "cancel": "xpath, //button[text()='Cancel']",
+  "success_message": "id, successMsg"
+}

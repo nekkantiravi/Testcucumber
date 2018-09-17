@@ -1,0 +1,12 @@
+{
+    "category_menu_container":   "id, globalNavigation",
+    "category":                  "xpath, //*[@id='globalNavigation']/ul/li/a || cssSelector, .Header-nav a",
+    "flex_link_container":       "className, flexLabelLinksContainer",
+    "flyout_menu":               "className, flyout-on",
+    "goto_selected_category":    "xpath, //a[@class='selectedFOB']",
+    "flyout_links":              "id, 'globalFlyouts",
+    "grid_layout_links":         "className, gridLayout",
+    "feature_menu_container":    "id, 'globalNavigation",
+    "all_links":                "cssSelector, .flyoutCol>.flexLabelLinksContainer>ul>li>a",
+    "sales_and_promotions_links": "xpath,//label[text()='SALES & OFFERS']/parent::*/following-sibling::li/a"
+}

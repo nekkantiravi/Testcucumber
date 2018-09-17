@@ -1,0 +1,6 @@
+{
+  "place_order":          "id, rc-place-order",
+  "bops_shipping":        "id, rc-orderSummary-pickupInStore",
+  "normal_shipping":      "id, rc-orderSummary-shippingCost",
+  "bmoney_estimated_earn_amount": "id, rc-orderSummary-bMoneyEarned"
+}

@@ -1,0 +1,30 @@
+{
+  "had_values_common": {
+    "attribute_name": "occasion",
+    "attribute_value": "Casual",
+    "invalid_attribute_value": "123abc",
+    "attribute_with_more_than_15_values": "Color Family",
+    "dest_attribute_name": "shoe_style",
+    "index_value_as": "test",
+    "autocomplete_term": "baking dishes",
+    "composite": "search_brand"
+  },
+
+  "had_values_mcom": {
+    "attribute with 15 or less values": "Powder Type",
+    "attribute with more than 15 values": "Body Type"
+  },
+
+  "had_values_bcom": {
+    "attribute_with_15_or_less_values": "Body Type"
+  },
+"holistic_page_title":{
+  "title":"Holistic Attribute Data"
+},
+  "invalid_holistic_attribute":
+  {
+    "value":"1234"
+  }
+
+
+}

@@ -1,0 +1,28 @@
+{
+  "include": [
+    "panel.sample_panel"
+  ],
+
+  "info":                             "There are no comments in JSON, so try to make your files easy to read without them",
+
+  "url":                              "/",
+  "verify_page":                      "selector_type, selector",
+  "webId":                            "xpath, .//*[@id='m-j-product-details']//li[contains(text(),'WEB ID:')]",
+  "iShipLink":                        "cssSelector, #m-j-goto-us-button",
+  "breadCrumbs":                      "cssSelector, .breadcrumbs>a",
+  "rating_pdp":                       "cssSelector, .m-rating-stars",
+  "rating_count":                     "cssSelector, .m-rating-count",
+  "productListBrowsePg":              "cssSelector, .m-browse-product-anchor.m-product-grid-anchor",
+  "header_search_field":               "cssSelector, #globalSearchInputField",
+  "header_search_btn":                  "cssSelector, #searchSubmit",
+  "search_result_list":                 "cssSelector, ul#m-search-results-list>li || cssSelector,ul#m-browse-results-list>li",
+  "pdp_write_review_btn":               "cssSelector, a[href*='myReviews']",
+  "write_review_star":                  "cssSelector, div.mb-j-ratingselect-item",
+  "write_review_confirm":             "cssSelector, div.toggleHideSubmitted.showOneTitle",
+  "review_articles":                  "cssSelector, .m-j-product-review",
+  "media_player_link":               "cssSelector, span.m-video-icon",
+  "media_player_play":               "cssSelector, div.vjs-big-play-button",
+  "media_track_display":             "cssSelector, div.vjs-text-track-display",
+  "media_current_time":                "cssSelector, div.vjs-current-time-display"
+
+}

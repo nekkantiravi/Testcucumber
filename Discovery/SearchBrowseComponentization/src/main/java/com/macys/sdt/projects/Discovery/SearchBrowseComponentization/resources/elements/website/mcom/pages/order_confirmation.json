@@ -1,0 +1,4 @@
+{
+  "url":                       "/chkout/rc",
+  "verify_page":                "id, rc-at-order-number"
+}

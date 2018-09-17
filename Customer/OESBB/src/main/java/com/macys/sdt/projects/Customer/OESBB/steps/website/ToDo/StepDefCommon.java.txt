@@ -1,0 +1,457 @@
+package com.macys.sdt.projects.Customer.OESBB.steps.website.common;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.macys.sdt.framework.utils.StepUtils;
+import com.macys.sdt.projects.Customer.OESBB.steps.website.bcommon.BCommonEmailStepDefs;
+import com.macys.sdt.projects.Customer.OESBB.steps.website.mcommon.MCommonEmailStepDefs;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import org.junit.Assert;
+
+import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.List;
+
+public class StepDefCommon extends StepUtils {
+    protected Object commonStepsDefs = macys() ?  MCommonEmailStepDefs.getInstance() : BCommonEmailStepDefs.getInstance();
+	
+	@Then("^i sould see subject as$")
+	public void i_sould_see_subject_as() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		// TODO
+		throw new PendingException();
+	}
+
+	@Then("^i should see link \"([^\"]*)\" above logo$")
+	public void i_should_see_link_above_logo(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see text:$")
+	public void i_should_see_text(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see feature help topic (\\d+)$")
+	public void i_should_see_feature_help_topic(int arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see more\\.\\.\\.$")
+	public void i_should_see_more() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i shold see contact info:$")
+	public void i_shold_see_contact_info(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see pinterest$")
+	public void i_should_see_pinterest() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see twitter$")
+	public void i_should_see_twitter() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see facebook$")
+	public void i_should_see_facebook() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^i should see youtube$")
+	public void i_should_see_youtube() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@When("^i should see return completed date$")
+	public void i_should_see_return_completed_date() throws Throwable {
+        if (macys())
+            ((MCommonEmailStepDefs)commonStepsDefs).i_should_see_return_completed_date();
+        else
+            ((BCommonEmailStepDefs)commonStepsDefs).i_should_see_return_completed_date();
+	}
+
+	@Then("^i should see static content for mobile number change notification as:$")
+	public void i_should_see_static_content_for_mobile_number_change_notification(String text) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_static_content_for_mobile_number_change_notification(text);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_static_content_for_mobile_number_change_notification(text);
+	}
+
+	@And("^i should see note section:$")
+	public void i_should_see_note_section(String noteText) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_note_section(noteText);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_note_section(noteText);
+	}
+
+	@Then("^i should see refund amount$")
+	public void i_should_see_refund_amount() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_refund_amount();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_refund_amount();
+	}
+
+	@Then("^i should see product requested quantity$")
+	public void i_should_see_product_requested_quantity() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_product_requested_quantity();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_product_requested_quantity();
+	}
+
+	@Then("^i should see zone name in the email$")
+	public void i_should_see_zone_name_in_the_email() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_zone_name_in_the_email();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_zone_name_in_the_email();
+	}
+
+	@Then("^i should see multiple tracking urls text at shipment detail level$")
+	public void i_should_see_multiple_tracking_urls_text_at_shipment_detail_level() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_multiple_tracking_urls_text_at_shipment_detail_level();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_multiple_tracking_urls_text_at_shipment_detail_level();
+	}
+
+	@Then("^i should see estimated refund$")
+	public void i_should_see_estimated_refund() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_estimated_refund();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_estimated_refund();
+	}
+
+	@And("^i should see store tomorrow's hours$")
+	public void i_should_see_store_tomorrows_hours() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_store_tomorrows_hours();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_store_tomorrows_hours();
+	}
+
+	@Then("^i should see order number$")
+	public void i_should_see_order_number() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_order_number();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_order_number();
+	}
+
+	@Then("^i should see reason for replacement$")
+	public void i_should_see_reason_for_replacement() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_reason_for_replacement();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_reason_for_replacement();
+	}
+
+	@And("^i should see body text for offer share:$")
+	public void i_should_see_body_text_for_offer_share(String bodytext)
+			throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_body_text_for_offer_share(bodytext);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_body_text_for_offer_share(bodytext);
+	}
+
+	@Then("^i should see body text for bops pickup reminder:$")
+	public void i_should_body_text_for_bops_pickup_reminder(String bodyText) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_body_text_for_bops_pickup_reminder(bodyText);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_body_text_for_bops_pickup_reminder(bodyText);
+	}
+
+	@Then("^i should see original payment$")
+	public void i_should_see_return_original_payment() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_original_payment();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_return_original_payment();
+	}
+
+	@Then("^i should see \"([^\"]*)\" text$")
+	public void i_should_see_certain_text(String strText) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_text(strText);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_text(strText);
+	}
+
+	@Then("^i should see static contents:$")
+	public void i_should_see_static_contents(String statictext)
+			throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_static_contents(statictext);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_static_contents(statictext);
+	}
+
+	@Then("^i should see product name url valid$")
+	public void i_should_see_product_name_url_valid() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_product_name_url_valid();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_product_name_url_valid();
+	}
+
+	@And("^i should see store today's hours$")
+	public void i_should_see_store_todays_hours() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_store_todays_hours();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_store_todays_hours();
+	}
+
+	@Then("^i should see replacement date$")
+	public void i_should_see_replacement_date() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_replacement_date();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_replacement_date();
+	}
+
+
+	@Given("^i trigger \"([^\"]*)\" input through csp testemail$")
+	public void i_trigger_input_through_csp_testemail(String tempalteName)
+			throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_trigger_input_through_csp_testemail(tempalteName);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_trigger_input_through_csp_testemail(tempalteName);
+	}
+
+	@When("^i navigate to view the email page$")
+	public void i_navigate_to_view_the_email_page() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_navigate_to_view_the_email_page();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_navigate_to_view_the_email_page();
+	}
+
+	@And("^i should see body text for virtual return confirmation:$")
+	public void i_should_see_body_text_for_virtual_return_reminder(
+			String bodytext) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_body_text_for_virtual_return_confirmation(bodytext);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_body_text_for_virtual_return_confirmation(bodytext);
+	}
+
+	@Given("^i have an enhanced payload sent to email provider$")
+	public void i_have_enhaced_payload_sent_to_email_provider() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_have_enhaced_payload_sent_to_email_provider();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_have_enhaced_payload_sent_to_email_provider();
+	}
+
+	@Then("^i should see loyalty section in the email$")
+	public void i_should_see_loyalty_section_in_the_email() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_loyalty_section_in_the_email();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_loyalty_section_in_the_email();
+	}
+
+	@And("^i should see item name$")
+	public void i_should_see_item_name() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_item_name();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_item_name();
+	}
+
+	@Then("^i should see estimated ship date$")
+	public void i_should_see_estimated_ship_date() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_estimated_ship_date();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_estimated_ship_date();
+	}
+
+	@Then("^i should see \"([^\"]*)\" button$")
+	public void i_should_see_button(String buttonName) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_button(buttonName);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_button(buttonName);
+	}
+
+	@And("^i should see body text:$")
+	public void i_should_body_text(String bodyText) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_body_text(bodyText);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_body_text(bodyText);
+	}
+
+	@Then("^i should see order capture date$")
+	public void i_should_see_order_capture_date() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_order_capture_date();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_order_capture_date();
+	}
+
+
+	@Then("^i should see firstname$")
+	public void i_should_see_firstname() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_firstname();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_firstname();
+	}
+
+	@And("^i should see billing address$")
+	public void i_should_see_billing_address() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_billing_address();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_billing_address();
+	}
+
+	@And("^i should see shipping method$")
+	public void i_should_see_shipping_method() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_shipping_method();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_shipping_method();
+	}
+
+	@And("^i should see gift message$")
+	public void i_should_see_gift_message() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_gift_message();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_gift_message();
+	}
+
+	@Then("^i should see credit card type$")
+	public void i_should_see_credit_card_type() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_credit_card_type();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_credit_card_type();
+	}
+
+	@Then("^i should see product name$")
+	public void i_should_see_product_name() throws JsonParseException, JsonMappingException, IOException {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_product_name();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_product_name();
+	}
+
+	@Then("^i should see multiple tracking urls text at product level$")
+	public void i_should_see_multiple_tracking_urls_text_at_product_level() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_multiple_tracking_urls_text_at_product_level();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_multiple_tracking_urls_text_at_product_level();
+	}
+
+	@Then("^i should see item image url valid$")
+	public void i_shoud_see_item_image_url_valid() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_shoud_see_item_image_url_valid();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_shoud_see_item_image_url_valid();
+	}
+
+	@Then("^i should see button as \"([^\"]*)\"$")
+	public void i_should_see_button_as(String buttonName) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_button_as(buttonName);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_button_as(buttonName);
+	}
+
+	@Then("^i should see default categories:$")
+	public void i_should_see_default_categories(String categories) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_default_categories(categories);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_default_categories(categories);
+	}
+
+	@Then("^i should see preheader:$")
+	public void i_should_see_preheader(String preHeader) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_preheader(preHeader);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_preheader(preHeader);
+	}
+
+	@When("^i should see reason for return$")
+	public void i_should_see_reason_for_return() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_reason_for_return();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_reason_for_return();
+	}
+
+	@Then("^i should see pick up location:$")
+	public void i_should_see_pick_up_location(String expectedPickupLocation) throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_pick_up_location(expectedPickupLocation);
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_pick_up_location(expectedPickupLocation);
+	}
+
+	@And("^i should see pickup barcode$")
+	public void i_should_see_pickup_barcode() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_pickup_barcode();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_pickup_barcode();
+	}
+
+	@Then("^i should see shipment firstname$")
+	public void i_should_see_shipment_firstname() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_shipment_firstname();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_shipment_firstname();
+	}
+
+	@And("^i should see billing first name$")
+	public void i_should_see_billing_first_name() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_should_see_billing_first_name();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_should_see_billing_first_name();
+	}
+
+	@Given("^i wait for enhanced payload to be sent to email provider$")
+	public void i_wait_for_enhanced_payload_to_be_sent_to_email_provider() throws Throwable {
+		if (macys())
+			((MCommonEmailStepDefs)commonStepsDefs).i_wait_for_enhanced_payload_to_be_sent_to_email_provider();
+		else
+			((BCommonEmailStepDefs)commonStepsDefs).i_wait_for_enhanced_payload_to_be_sent_to_email_provider();
+	}
+}

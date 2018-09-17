@@ -1,0 +1,9 @@
+{
+  "url": "/bag/index.ognc||/account/signin?fromCheckout=fromCheckout",
+  "verify_page": "id, mb-j-signin-create-account-button||id, sign-in || xpath, //h1[text()='SIGN IN']",
+  "continue_checkout_guest_button": "id, mb-j-bag-checkout-button||id, guest-checkout||cssSelector, a#mb-j-signin-create-account-button",
+  "email": "id, emailAddr||id, mb-j-signup-email||id, email",
+  "password": "id, password||id, mb-j-signup-password||id, pw-input",
+  "checkout_button": "id, isnormalcheckout||id, mb-j-signin-button||id, sign-in",
+  "error_message": "cssSelector, .error-tooltip .tt-content"
+}

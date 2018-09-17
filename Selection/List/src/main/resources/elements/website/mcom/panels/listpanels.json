@@ -1,0 +1,7 @@
+{
+  "url": "/",
+  "popup_atb": "xpath, .//*[@id='confirmTitle']/div",
+  "btn_viewcheckout": "id,btnBagViewBagCheckout",
+  "btn_backtolist": "id,btnBagContinueShopping",
+  "lnk_yourbag":  "id,lnkYourBag"
+}

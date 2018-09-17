@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<loyaltyId>1234901239</loyaltyId>
+	<loyaltyFirstName>OES</loyaltyFirstName>
+	<loyaltyLastName>TESTING</loyaltyLastName>
+	<loyaltyContract>LTYSAC001</loyaltyContract>
+	<division>100</division>
+	<tier>Golden</tier>
+	<enrollmentConfirmation>PYT</enrollmentConfirmation>
+	<enrollmentLocation>100</enrollmentLocation>
+	<adhocText>sample message</adhocText>
+	<addedByApp>LTY</addedByApp>
+	<amountRewardsCard>123.45</amountRewardsCard>
+	<rewardCardExpirationDate>12/31/2020</rewardCardExpirationDate>
+	<vrcBarCode>1234567890123456</vrcBarCode>
+	<rewardCardEffectiveDate>01/01/2010</rewardCardEffectiveDate>
+	<cid>1234</cid>
+	<adjustmentInformationType>
+		<adjRequestDate>03/18/2006</adjRequestDate>
+		<adjProcessDate>03/18/2006</adjProcessDate>
+		<origvrcBarCode>1234567890123456</origvrcBarCode>
+		<reservationNumber>R79894</reservationNumber>
+		<internetOrderNumber>I345</internetOrderNumber>
+		<sPOSTransactionNumber>1345</sPOSTransactionNumber>
+		<sPOSStoreNumber>1345</sPOSStoreNumber>
+		<sPOSRegNumber>1345</sPOSRegNumber>
+		<esendreservationNumber>R79894</esendreservationNumber>
+		<origTransactionDate>03/18/2006</origTransactionDate>
+		<origOrderTotal>108.25</origOrderTotal>
+		<adjRewardsEarned>1000</adjRewardsEarned>
+		<adjEarningLevel>125</adjEarningLevel>
+		<adjBonusRewards>1232323</adjBonusRewards>
+		<adjPendingBonusRewards>1232323</adjPendingBonusRewards>
+		<adjPendingRewards>1232323</adjPendingRewards>
+	</adjustmentInformationType>
+	<accountSummaryType>
+		<totalRewardsEarned>1500</totalRewardsEarned>
+		<starRewards>1212123</starRewards>
+		<rewardsOutsideMacys>123123123</rewardsOutsideMacys>
+		<pendingRewards>1232323</pendingRewards>
+		<totalBonusRewards>1232323</totalBonusRewards>
+		<totalPendingBonusRewards>1232323</totalPendingBonusRewards>
+		<accountStatus>Good</accountStatus>
+		<accountStatusReason>Many reasons</accountStatusReason>
+		<visitsRemaining>10</visitsRemaining>
+		<currentVisitCount>10</currentVisitCount>
+		<rewardCycleExpirationDate>12/31/2020</rewardCycleExpirationDate>
+	</accountSummaryType>
+</mailMessagePayload> 

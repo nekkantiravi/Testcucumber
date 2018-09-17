@@ -1,0 +1,18 @@
+{
+  "footer_sign_in_link_mew":   "fds.com",
+  "header_sign_in_link_mew":   "fds.com",
+  "my_account_sign_in_link_mew":  "/account/signin?cm_sp=NAVIGATION_MEW-_-SIDE_NAV-_-MYACCOUNT-n-n",
+  "cc_sign_in_link_mew":  "/my-credit/gateway",
+  "bwallet_sign_in_link_mew":  "/my-credit/gateway",
+  "wishlist_sign_in_link_mew":  "/wishlist/mylist?cm_sp=NAVIGATION_MEW-_-SIDE_NAV-_-WISHLIST-n-n",
+  "the_registry_sign_in_link_mew": "",
+  "create_registry_sign_in_link_mew": "/wedding-registry/registrant?perfectProxy=true",
+  "left_create_registry_sign_in_link_mew": "/registry/wedding/registrymanager",
+  "view_registry_sign_in_link_mew": "/wedding-registry/registrant?perfectProxy=true&cm_sp=NAVIGATION_MEW-_-SIDE_NAV-_-Manage_Registry_splash-viewRegistry-View_Registry",
+  "chckout_registry_sign_in_link_mew": "/shop/product/",
+  "chkout_sign_in_mew": "/chkout/rcsignedin?perfectProxy=true",
+  "checkout_sign_in_mew":  "/chkout/rc?perfectProxy=true",
+  "loyallist_account_summary_mew": "/loyallist/accountsummary",
+  "loyalty_enrollment_mew": "/loyallist/enrollment",
+  "loyalty_association_mew": "/loyallist/accountassociation"
+}

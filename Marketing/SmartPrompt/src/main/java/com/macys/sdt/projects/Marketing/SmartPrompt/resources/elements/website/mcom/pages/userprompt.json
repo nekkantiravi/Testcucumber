@@ -1,0 +1,11 @@
+{
+  "userprompt_submit_button": "id, update-email-btn",
+  "userprompt_cancel_x_button": "cssSelector, a[class^='overlay-close-btn']",
+  "userprompt_content": "id, smart-prompt-content",
+  "userprompt_overlay_popup": "id, smart-prompt-content",
+  "userprompt_email_textfield": "id, prompt-email",
+  "userprompt_text_display": "id, prompt_text",
+  "userprompt_popup_headertext": "id,text ",
+  "userprompt_background_freezed":   "id, smart-prompt",
+  "populated_email_address": "id, prompt-email"
+}

@@ -1,0 +1,13 @@
+{
+  "url": "/loyalty/enroll?program=usl&fromPage=uslSignin||/account/signin?program=usl",
+  "verify_page": "id, m-plenti-top-banner||className, m-plenti-logo",
+
+  "email": "id, mb-j-signup-email",
+  "password": "id, mb-j-signup-password",
+  "forgot_password_link": "id, m-forgot-password-label",
+  "sign_in_button": "id, mb-j-signin-button",
+  "goto_create_profile": "id, mb-j-signin-create-account-button",
+  "join_plenti_account_msg":     "xpath, //div[@id='m-signin-have-profile']/div",
+  "create_plenti_account_msg":   "xpath, //div[@id='m-signin-no-profile']/div",
+  "privacy_practises":           "class, m-j-login-modal-benefits-account"
+}

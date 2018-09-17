@@ -1,0 +1,15 @@
+{
+  "product_title_domestic": "xpath, //div[@class='productTitle']",
+  "product_title": "className,productTitle",
+  "product_image": "xpath,//div[contains(@class,'mainImages')] || id, mainView_1",
+  "price_box_domestic": "xpath, //div[@class='priceBox']",
+  "price_box": "className, priceInfo || xpath,//section[contains(@class,'priceInfo')]",
+  "add_to_list_domestic": "xpath, //label[text()='Add to List']",
+  "add_to_list_registry": "xpath, //a[contains(@class,'addToWishlistBtn')]",
+  "add_to_registry": "xpath,//img[contains(@id,'ADDTOREGISTRY') or @alt='add to registry']",
+  "expand_special_offers_domestic": "id,product-offers-header || id,specialOfferPDPTab",
+  "expand_special_offers": "xpath, //a[@href='#pdpoffers']/em[text()='Special Offers']",
+  "expand_shipping_and_returns": "id,product-shipping-returns-header || id,pdpShippingTabHeader",
+  "add_to_bag_button": "xpath, //*[contains(@class,'addToBagButton')]"
+}
+

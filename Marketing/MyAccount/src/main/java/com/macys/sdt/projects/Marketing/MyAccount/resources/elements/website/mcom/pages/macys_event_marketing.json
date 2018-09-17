@@ -1,0 +1,7 @@
+{
+    "url": "store/marketing",
+    "verify_page": "class, head",
+    "about_us_header": "class, head",
+    "breadcrumb": "cssSelector, .main-head .columns"
+
+}

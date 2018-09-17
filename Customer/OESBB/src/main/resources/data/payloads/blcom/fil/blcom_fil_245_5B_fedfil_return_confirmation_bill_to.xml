@@ -1,0 +1,130 @@
+<mailMessagePayload>
+  <reservationNumber>1111112</reservationNumber>
+  <internetOrderNumber>FIL_245_5B_BLCOM</internetOrderNumber>
+  <orderDate>11/11/2015</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>115.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>10.21</taxAmt>
+  <orderTotal>125.21</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************0605</accountNumber>
+    <amount>125.21</amount>
+    <paymentCategoryFlag></paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>11/26/2015</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName>OES_SHIPPING</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 1ST ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>BROOKLYN</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>11215</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>Gold Imperial 3-Piece Serving Set</description>
+      <price>115.00</price>
+      <requestedQuantity>0</requestedQuantity>
+      <availableQuantity>0</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>115.00</totalAmount>
+      <expectedDate>11/26/2015</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>000000492031403361</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+	   <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>Gold Imperial 3-Piece Serving Set</description>
+      <price>115.00</price>
+      <requestedQuantity>0</requestedQuantity>
+      <availableQuantity>0</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>115.00</totalAmount>
+      <expectedDate>11/26/2015</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

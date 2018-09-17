@@ -1,0 +1,11 @@
+{
+    "url": "/store/service",
+    "verify_page": "xpath, //h4[text()='shopping services']",
+    "personal_shoppers": "xpath, //p/a[text()='PERSONAL SHOPPERS']",
+    "the_bridal_salon": "xpath, //p/a[contains(text(),'THE BRIDAL SALON AT')]",
+    "corporate_sales": "xpath, //p/a[text()='CORPORATE SALES']",
+    "visitor_services": "xpath, //p/a[text()=' VISITOR SERVICES ']",
+    "custom_shop_at_home_services": "xpath, //p/a[text()='CUSTOM SHOP AT HOME SERVICES']",
+    "travel_services": "xpath, //p/a[text()='TRAVEL SERVICES ']",
+    "breadcrumb": "class, bread-crumb"
+}

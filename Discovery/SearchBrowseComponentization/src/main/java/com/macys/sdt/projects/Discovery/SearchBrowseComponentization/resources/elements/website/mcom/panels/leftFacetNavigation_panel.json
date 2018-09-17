@@ -1,0 +1,13 @@
+{
+  "include": [
+    "panel.pagination_top"
+  ],
+  "facetPanelLabel"           : "id, facet_nav",
+  "facet_breadcrumb_container": "id, facetItems",
+  "facetBreadcrumbs"          : "className, facetbreadcrumb",
+  "facet_item"                : "className, item",
+  "facetRemoveBreadcrumb"     : "className, removeFacet",
+  "leftNavigationContainer"   : "xpath,//div[@id='categoryTree'] ||xpath,//div[@id='slpContent']",
+  "slpHeader"                 : "className, slpCategory"
+
+}

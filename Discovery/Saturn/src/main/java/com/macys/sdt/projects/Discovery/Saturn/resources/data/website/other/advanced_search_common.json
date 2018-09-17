@@ -1,0 +1,16 @@
+{
+  "trigger_type":                    "triggerTypesMenu",
+  "action_type":                     "actionTypesMenu",
+
+  "include_category_ids":            "categoryIds",
+  "keyword_pattern_list":            "dropdownKeywordPatternCriteria_0",
+
+  "manage_facet_operator_type":      "//div[@id='actionManageFacets']//select",
+  "manage_featured_facet_operator":  "manageFeaturedFacetTypeSelect",
+  "modify_result_set_operator":      "modifyResultSetSelect",
+
+  "total_number_of_rules":           "totalFilteredValues",
+
+  "show_entries":                    "rulesTable_length"
+
+}

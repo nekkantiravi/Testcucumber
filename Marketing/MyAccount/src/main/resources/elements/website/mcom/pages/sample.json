@@ -1,0 +1,12 @@
+{
+    "url":                          "/account/wallet?ocwallet=true",
+    "credit_cards_section":         "xpath, //div[@class='row credit-card-list-view']//following::li[@class='odd-color' or @class='even-color']",
+    "add_credit_card_expire_mon":    "id, expMonthCreditCardSelect",
+    "add_credit_card_expire_year":  "id, expYearCreditCardSelect",
+    "changes_saved_text":           "xpath, //*[@id='pageLevelMsgs']//following::ul",
+    "all_promotions_in_wallet":     "xpath, //div[@id='offers-container']//following::div[@class='offers-Content public-offer']",
+    "promo_code":                   "xpath, //*[@id='offers-list']/li/div/div/div[1]/div/span[2]",
+    "deals_promotions_sub_header":  "id, dealsPromotionHref",
+    "add_to_wallet_promos":         "xpath, //button[starts-with(@id, 'atwBtn')]",
+    "redeemed_expired_offer_message": "xpath, //div[@class='redeemed-info-line']"
+}

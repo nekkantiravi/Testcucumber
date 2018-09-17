@@ -1,0 +1,33 @@
+{
+  "url": "CRS/acq/launch",
+  "verify_page": "id, apply_submit",
+
+  "firstName": "id, apply_firstname",
+  "lastName": "id, apply_lastname",
+  "emailFld": "id, emailField",
+  "email": "id, apply_email",
+  "addressFld": "id, addressField",
+  "address": "id, apply_address",
+  "city": "id, apply_city",
+  "state": "id, apply_state",
+  "zip": "id, apply_zipcode",
+  "phoneFld": "id, phoneField",
+  "phone": "id, apply_phone",
+  "phoneType": "id, apply_phonetypebill",
+  "financeFld": "id, annualIncomeField",
+  "mortgage": "id, apply_monthlymortgage",
+  "mortgageMasked": "id, apply_monthlymortgage-masked",
+  "residenceStatus": "id, apply_residencestatus",
+  "income": "id, apply_annualincome",
+  "ssnFld": "id, ssnField",
+  "ssn": "id, apply_ssn",
+  "ssnMasked": "id, apply_ssn-masked",
+  "dobFld": "id, dobField",
+  "dob": "id, apply_dob",
+  "dobMasked": "id, apply_dob-masked",
+  "tnc": "id, apply_tncCommon",
+  "submit": "id, apply_submit",
+
+  "pleaseWait": "xpath, //span[contains(text(),'Please Wait')]"
+
+}

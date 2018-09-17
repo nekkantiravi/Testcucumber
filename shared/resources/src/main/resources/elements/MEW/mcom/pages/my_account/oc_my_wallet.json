@@ -1,0 +1,28 @@
+{
+
+  "include": [
+    "panel.header",
+    "panel.footer",
+    "panel.credit_card",
+    "panel.add_offers"
+  ],
+
+  "url": "/account/wallet",
+  "verify_page": "id, mb-j-add-credit-card",
+  "add_credit_card": "id, mb-j-add-credit-card||linkText, ADD MACY'S CARD",
+  "cc_container": "className, mb-wallet-credit-cards",
+  "credit_cards": "className, m-wallet-credit-cards-icon",
+  "available_offers": "className, m-wallet-offers-data",
+  "add_offer_btn": "id, mb-j-add-offers",
+  "offers_list": "cssSelector, ul.mb-wallet-offers>li",
+  "view_all_saved_offers": "className, mb-wallet-view-all-offers",
+  "edit_credit_cards": "className, tool-tip",
+  "goto_edit_card": "xpath, //ul[@class='mb-wallet-credit-cards']/li",
+  "edit_credit_card_heading": "id, m-add-card-title",
+  "cobrand_message_notification": "class,creditMessageItem",
+  "cobrand_msg_close": "class,creditMessageClose",
+  "cobrand_msg_learn_more_link":"cssSelector, .creditMessageItem a",
+  "add_credit_card_modal": "id, mb-j-wallet-credit-card-modal-container",
+  "your_wallet_entry_was_successfully_saved": "id, mb-wallet-credit-cards-added-message",
+  "credit_card_data": "class, m-wallet-credit-cards-data"
+}

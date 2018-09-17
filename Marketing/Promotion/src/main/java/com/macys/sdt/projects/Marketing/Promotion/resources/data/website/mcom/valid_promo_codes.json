@@ -1,0 +1,76 @@
+{
+  "macys": [
+    {
+      "promo_type": "promotional_pricing",
+      "badge_text": "3 FOR $18",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "Enjoy extra savings when you buy 3 select Hue Socks",
+      "eligible_product": "471851",
+      "qty_trigger": "3"
+    },
+    {
+      "promo_type": "promotional_pricing",
+      "badge_text": "3 FOR $21",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "Enjoy extra savings when you buy 3 select Hue Socks",
+      "eligible_product": "4986084",
+      "qty_trigger": "3"
+    },
+    {
+      "promo_type": "percent_off",
+      "badge_text": "",
+      "promo_code": "BUY2",
+      "global"    : "false",
+      "promo_description": "",
+      "eligible_product": "4747201",
+      "qty_trigger": "2"
+    },
+    {
+      "promo_type": "percent_off",
+      "badge_text": "",
+      "promo_code": "SHINE",
+      "global"    : "false",
+      "promo_description": "",
+      "eligible_product": "4747201",
+      "qty_trigger": "1"
+    },
+    {
+      "promo_type": "dollar_off",
+      "badge_text": "",
+      "promo_code": "VALPAK10",
+      "global"    : "false",
+      "promo_description": "",
+      "eligible_product": "5015964",
+      "qty_trigger": "2"
+    },
+    {
+      "promo_type": "GWP",
+      "badge_text": "FREE GIFT WITH PURCHASE",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "",
+      "eligible_product": "4315561",
+      "qty_trigger": "1"
+    },
+    {
+      "promo_type": "GWP",
+      "badge_text": "FREE GIFT WITH PURCHASE",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "",
+      "eligible_product": "4986582",
+      "qty_trigger": "1"
+    },
+    {
+      "promo_type": "PWP",
+      "badge_text": "BONUS OFFER WITH PURCHASE",
+      "promo_code": "",
+      "global"    : "true",
+      "promo_description": "",
+      "eligible_product": "4618809",
+      "qty_trigger": "1"
+    }
+  ]
+}

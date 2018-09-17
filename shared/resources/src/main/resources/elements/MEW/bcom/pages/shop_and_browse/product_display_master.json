@@ -1,0 +1,9 @@
+{
+    "url":                                  "/shop/product/",
+
+    "choose_member_items":                  "cssSelector, div.b-j-product-member-details-buy-button || className, memberShortDesc||className, b-shop-the-collection-label",
+    "member_prod_list":                     "id, b-product-members-of-master",
+    "add_member_to_bag":                    "className, b-j-product-add-bag",
+    "member_products":                      "className, b-product-member-of-master",
+    "expand_member_details":                "cssSelector, .b-product-member-details-buy>div>span"
+}

@@ -1,0 +1,27 @@
+{
+    "include": [
+        "panels.sample_panel"
+    ],
+
+    "url":              "/",
+    "test_element": 	"id, macysHomePageLogo",
+    "search_field":     "id, globalSearchInputField",
+    "search_submit":    "id, subnavSearchSubmit",
+    "search_result":    "id, weFoundMsg",
+    "product_count":    "id, productCount",
+    "pagination":       "id, paginateTop",
+    "pagination_count":         "class, paginationSpacer",
+    "facet_name":               "class, facet_name",
+    "autocomplete_flyout":      "id, ui-id-1",
+    "last_searches":            "class, lastSearch",
+    "recent_search_title":      "class, suggestion",
+    "recent_searches_symbol":   "class,icon-gen-search-gr-medium",
+    "autocomplete_suggestions": "class,suggestion",
+    "apr_panel":                "id,product-recommendations",
+    "apr_panel_title":          "class,autocomplete-product-recommendation-title",
+    "apr_panel_products":       "class,autocomplete-product-recommendation",
+    "my_account":               "id,href_myAccountHeader",
+    "myaccount_dropdown":       "class,guest-nav-dropdown",
+    "order_history":            "linkText, My Order History"
+
+}

@@ -1,0 +1,7 @@
+{
+  "contact_info_section": "id, rc-contact-info",
+  "phone": "id, rc-contact-phoneNumber",
+  "save": "id, rc-contact-save",
+  "change": "id, rc-contact-change",
+  "cancel": "id, rc-contact-change-cancel"
+}

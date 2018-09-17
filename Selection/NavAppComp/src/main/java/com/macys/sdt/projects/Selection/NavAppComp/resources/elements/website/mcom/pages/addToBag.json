@@ -1,0 +1,15 @@
+{
+
+  "added_to_bag_confirm_msg":                   "cssSelector, div#atbTopMessage>a",
+  "quantity":                                   "cssSelector, div.atbPageBagTotalQty",
+  "totalPrice":                                 "cssSelector, div.atbPageBagSubtotalPrice",
+  "productDescription":                         "cssSelector, div.addToBagPageLineItemName>a",
+  "productImage":                               "cssSelector, img.productImage",
+  "color":                                      "cssSelector, div.addToBagPageProductFeatureValue",
+  "price":                                      "cssSelector, div.addToBagPageLineItemPrice",
+  "giftCardProductTitle":                       "cssSelector, div.addToBagPageLineItemName>a",
+  "giftCardAmount":                             "cssSelector, div.addToBagPageLineItemPrice>div",
+  "giftCardSubtotal":                           "cssSelector, div.atbPageBagSubtotalPrice"
+
+
+}

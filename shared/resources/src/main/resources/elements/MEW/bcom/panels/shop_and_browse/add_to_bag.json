@@ -1,0 +1,7 @@
+{
+    "verify_page": "id, b-atb-overlay",
+
+    "checkout": "className, b-atb-checkout-button",
+    "add_to_bag_dialog": "id, b-atb-overlay",
+    "overlay_close": "className, icon-overlay-close"
+}

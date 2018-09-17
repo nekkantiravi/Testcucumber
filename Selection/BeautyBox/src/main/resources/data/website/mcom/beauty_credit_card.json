@@ -1,0 +1,124 @@
+{
+  "macys": {
+    "visa":{
+      "card_type"  :"V",
+      "card_number":"4445222299990007",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "master":{
+      "card_type"  :"M",
+      "card_number":"5444009999222205",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "amex":{
+      "card_type"  :"A",
+      "card_number":"341111597242000",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "discover":{
+      "card_type"  :"O",
+      "card_number":"6011000990911111",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "visa_mastercard":{
+      "card_type"  :"V",
+      "card_number":"5444009999222205",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "master_visacard":{
+      "card_type"  :"M",
+      "card_number":"4445222299990007",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "amex_discovercard":{
+      "card_type"  :"A",
+      "card_number":"6011000990911111",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "discover_amexcard":{
+      "card_type"  :"O",
+      "card_number":"341111597242000",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "expiredvisacard":{
+      "card_type"  :"V",
+      "card_number":"4445222299990007",
+      "expiration_date":"12",
+      "expiration_year":"2015"
+    },
+    "expiredmastercard":{
+      "card_type"  :"M",
+      "card_number":"5444009999222205",
+      "expiration_date":"12",
+      "expiration_year":"2015"
+    },
+    "expiredamexcard":{
+      "card_type"  :"A",
+      "card_number":"341111597242000",
+      "expiration_date":"12",
+      "expiration_year":"2015"
+    },
+    "expireddiscovercard":{
+      "card_type"  :"O",
+      "card_number":"6011000990911111",
+      "expiration_date":"12",
+      "expiration_year":"2015"
+    },
+    "visacardwithlessnumber":{
+      "card_type"  :"V",
+      "card_number":"444522220007",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "mastercardwithlessnumber":{
+      "card_type"  :"M",
+      "card_number":"544400999925",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "amexcardwithlessnumber":{
+      "card_type"  :"A",
+      "card_number":"34111159700",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "discovercardwithlessnumber":{
+      "card_type"  :"O",
+      "card_number":"6011000990911",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "visacardwithnonumber":{
+      "card_type"  :"V",
+      "card_number":"",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "mastercardwithnonumber":{
+      "card_type"  :"M",
+      "card_number":"",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "amexcardwithnonumber":{
+      "card_type"  :"A",
+      "card_number":"",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    },
+    "discovercardwithnonumber":{
+      "card_type"  :"O",
+      "card_number":"",
+      "expiration_date":"12",
+      "expiration_year":"2018"
+    }
+  }
+}

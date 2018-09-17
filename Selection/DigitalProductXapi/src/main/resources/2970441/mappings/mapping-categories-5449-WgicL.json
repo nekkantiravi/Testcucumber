@@ -1,0 +1,22 @@
+{
+  "id" : "ea247200-71a0-310f-a22d-f45d76db550c",
+  "request" : {
+    "url" : "/api/catalog/v2/categories/5449?_expand=id%2Clive%2CcountryEligible%2CsubCategories%28name%2Cleaf%29.depth%3D2%2CparentCategory%28live%29.depth%3D2147483647&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&sdpGrid=primary&_fields=id%2Cname%2CparentCategoryId%2CexternalHostUrl%2Cattributes%2Cleaf%2CcanvasIds&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-categories-5449-WgicL.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "85768a71-4cae-4e16-9650-92373e6782ff",
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 03 Jan 2018 23:20:15 GMT"
+    }
+  },
+  "uuid" : "ea247200-71a0-310f-a22d-f45d76db550c"
+}

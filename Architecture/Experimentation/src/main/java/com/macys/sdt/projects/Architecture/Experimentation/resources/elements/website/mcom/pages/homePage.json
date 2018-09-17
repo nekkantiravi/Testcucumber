@@ -1,0 +1,32 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.add_credit_card_dialog",
+    "panel.usl_account"
+  ],
+  "Dresses_Sub_Category": "xpath, //div[@class='current cat']//*[contains(text(),'{arg1}')]",
+  "Welcome_Text": "id, globalMastheadUserSalutation",
+  "Create_Profile_Button": "id, createProfileContainer",
+  "SearchBox": "xpath, //div[@id='clearable_globalSearchInputField']/input",
+  "Search_Product_Count": "xpath, //*[@id='productCount']",
+  "Search_Search_Keyword": "xpath, //*[@id='SearchKeyword']",
+  "quick_view_button":      		      "xpath, (//button[@id='quickViewLauncher'])[1]",
+  "quick_view_product":                   "xpath,(//img[@name='CATimage'])[3]",
+  "quick_view_add_to_bag":                 "id,qvAddToBag",
+  "quick_view_add_to_list":                "id,qvAddToList",
+  "quick_view_see_full_details": "xpath, //div[@class='qvProductDetails qvSpacingLarge right']//a[@id='productLinkButtonText']/span",
+  "Promo_Code_Products": "xpath, //div[@class='Adobe_finalPrice' and(../following-sibling::div/span)]/preceding-sibling::span[1]",
+  "Promo_Code_WithOffer":  "xpath, //div[@class='Adobe_finalPrice' and(..//span[contains(text(), '{arg1}')])]",
+  "Promo_Code_Sale": "xpath, //div[contains(text(), '{arg1}') and (./preceding-sibling::span[contains(text(), '{arg2}')])]/ancestor::div[3]//div[@class='prices']//span[@class='first-range priceSale']",
+  "Promo_Code_Selected_Product": "xpath, //div[contains(text(), '{arg1}') and (./preceding-sibling::span[contains(text(), '{arg2}')]) and(..//ancestor::div[2]/div[@class='prices']//span[contains(text(), '{arg3}')])]/ancestor::div[3]//div[@class='prices']//span[@class='first-range priceSale']//ancestor::div[2]//a",
+  "quick_view_name_hover": "xpath, //*[contains(text(), '{arg1}')]//ancestor::div[@class='innerWrapper']/div[@class='fullColorOverlayOff']/a",
+  "quick_view_product_name": "class, productHeaderPDPLink",
+  "quick_view_image_hover": "xpath, //*[contains(text(), '{arg1}')]/parent::a",
+  "quick_view_image":  "id, mainImage1",
+  "quick_view_final_cost_hover": "xpath, //*[contains(text(), '{arg1}') and not(../span[@class='colorway-price']/span[@class='first-range priceSale'])]//ancestor::div[3]/div[@class='fullColorOverlayOff']/a",
+  "quick_view_final_price": "class, qvPrice",
+  "quick_view_sale_price_hover": "xpath, //*[@class='first-range priceSale']",
+  "quick_view_sale_price_hover_Image": "xpath, //*[@class='first-range priceSale' and contains(text(), '{arg1}')]//ancestor::div[3]/div[@class='fullColorOverlayOff']/a",
+  "quick_view_sale_price": "class, qvSalePrice"
+}

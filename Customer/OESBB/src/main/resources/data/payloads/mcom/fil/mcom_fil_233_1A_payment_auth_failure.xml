@@ -1,0 +1,116 @@
+<mailMessagePayload>
+   <reservationNumber>885199706</reservationNumber>
+   <internetOrderNumber>9900153</internetOrderNumber>
+   <thirdPartyOrderNumber />
+   <orderDate>2017-03-01</orderDate>
+   <shopAt>macys.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>50.00</orderSubtotalAmt>
+   <baseShippingAmt>9.95</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>5.32</taxAmt>
+   <orderTotal>65.27</orderTotal>
+   <divisionCode>071</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag />
+   <ltyIdUsl>0000000000000000</ltyIdUsl>
+   <munTaxAmt />
+   <miscTaxAmt />
+   <orderCancelTime>03/02/2017 01:22</orderCancelTime>
+   <billingDetail>
+      <title />
+      <firstName>TEST</firstName>
+      <middleName />
+      <lastName>QA</lastName>
+      <attnLine />
+      <addressLine1>245 E 54TH ST</addressLine1>
+      <addressLine2>APT 19S</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10022</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>MASTERCARD</paymentType>
+      <accountNumber>************2205</accountNumber>
+      <amount>65.27</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+      <egcCertificateType />
+      <commercialCode />
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <returnSubmittedDate />
+      <mailFlag />
+      <title />
+      <firstName>TEST</firstName>
+      <middleName />
+      <lastName>QA</lastName>
+      <attnLine />
+      <addressLine1>245 E 54TH ST</addressLine1>
+      <addressLine2>APT 19S</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10022</zipcode>
+      <greetingMessage />
+      <closingMessage />
+      <signatureMessage />
+      <giftRegistryNumber>0000000000000</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <pickupBarcode>885199706001</pickupBarcode>
+      <pickupReadyDate>03/01/2017</pickupReadyDate>
+      <pickupCancelDate>12/31/9999</pickupCancelDate>
+      <shipRetailAmt>50.00</shipRetailAmt>
+      <shipTaxAmt>4.44</shipTaxAmt>
+      <shipFilLoc>0991</shipFilLoc>
+      <shipPhone>917-780-8080</shipPhone>
+      <shipEmailAddress>BCOMPROFILE@GMAIL.COM</shipEmailAddress>
+      <itemDetail>
+         <lineNumber>001</lineNumber>
+         <description>Federal Platinum Accent Plat</description>
+         <price>50.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>0</shippedQuantity>
+         <totalAmount>50.00</totalAmount>
+         <expectedDate>02/28/2017</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>IN PROCESS</status>
+         <vendor>Lenox</vendor>
+         <cancelledQuantity />
+         <upcId>000000091709286925</upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+         <returnStatus />
+         <returnExpectedDate />
+         <returnReasonDescription />
+         <lineItemDeliveryDate />
+         <lineItemFdInd />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

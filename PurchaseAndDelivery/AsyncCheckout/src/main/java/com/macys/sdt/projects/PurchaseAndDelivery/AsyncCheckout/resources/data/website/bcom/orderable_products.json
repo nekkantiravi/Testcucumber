@@ -1,0 +1,11 @@
+{
+  "bloomingdales": [
+    {
+      "id": 2631,
+      "master_product": false,
+      "single_upc": true,
+      "ship_available": true,
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fob_selector" : "cssSelector, ul#mainNavigationFobs>li",
+  "global_container" : "id, globalContentContainer",
+  "product_count": "cssSelector, span#productCount",
+  "feature_category" : "xpath, //span[contains(text(),'Featured categories')] ||xpath, //span[contains(text(),'featured categories')] || xpath, //span[contains(text(),'Gift cards for the holidays')] || xpath, //span[contains(text(),'shop by category')] || xpath, //span[contains(text(),'featured products')] || xpath, //h1[@id='resultsFoundMessage']",
+  "brand_page" : "xpath, //h2[@class='heading' and contains(text(),'FEATURED BRANDS')]",
+  "facet_container":"id, facetsContainer|| id, facet_container || id, localNavigationContainer",
+  "content_container" : "id, localContentContainer",
+  "chanel_logo":"xpath, //div[@id='chanelGlobalBanner']/a/img[@alt='CHANEL']"
+}

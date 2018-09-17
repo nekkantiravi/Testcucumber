@@ -1,0 +1,11 @@
+{
+  "pick_up_in_store_facet_name": "id, UPC_BOPS_PURCHASABLE",
+  "change_location": "id, bopsLocation",
+  "searched_zipcode": "className, bopsSearchedAddress",
+  "zipcode_field": "id, input_address_text",
+  "search_by_zipcode": "id, input_address_text_go",
+  "miles_select": "id, radius_sort_by",
+  "available_miles": "className, sortByMiles",
+  "error_message": "id, bopsError",
+  "pick_up_in_store_option": "cssSelector, #UPC_BOPS_PURCHASABLE .facetsOuterWrapper li"
+}

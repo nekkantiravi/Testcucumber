@@ -1,0 +1,17 @@
+{
+  "header_schedule_delivery": "id, rc-header-scheduledelivery",
+  "schedule_later": "className, rc-schedule-later",
+  "rc_schedule_delivery_section": "id, scheduledelivery-wrapper",
+  "rc_bt_items_details_header": "className, rc-header-itemdelivery-section",
+  "rc_schedule_item_label": "id, rc-reschedule-delivery-title",
+  "rc_bt_delivery_items": "className,rc-itemdelivery-section-content",
+  "rc_bt_schedule_delivery_header": "className, rc-header-scheduledelivery-section",
+  "rc_bt_schedule_delivery": "id, rc-default-schedule||className, rc-scheduledelivery-section-summery-content",
+  "rc_schedule_month": "id, rc-available-month",
+  "rc_schedule_date": "id, rc-available-date",
+  "rc_schedule_delivery_submit_btn": "id, rc-scheduledelivery-continue",
+  "delivery_section_active_message": "className, rc-delivery-section-active-message||id, rc-default-schedule-ksoff",
+  "edit_schedule_delivery": "id, rc-scheduledelivery-edit",
+  "rc_schedule_delivery_summary": "cssSelector, .rc-scheduledelivery-section-summery>div>b"
+}
+

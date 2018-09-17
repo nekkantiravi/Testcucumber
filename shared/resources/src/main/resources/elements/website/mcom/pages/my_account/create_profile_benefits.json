@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url": "/account/signin",
+  "verify_page": "id, signInBtn"
+}

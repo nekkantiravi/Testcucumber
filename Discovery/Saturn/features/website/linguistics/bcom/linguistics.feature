@@ -1,0 +1,1 @@
+Feature: Linguistics Functional tests on BCOM

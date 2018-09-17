@@ -1,0 +1,10 @@
+{
+  "tag_cloud":                                 "className,  mktTagCloudTitle",
+  "tag_cloud_links":                           "cssSelector, .mktTagCloudLinks ul li a",
+  "popular_search_before_footer":              "xpath, //div[contains(@class,'mktTagCloudTitle')]/following::div[contains(@id,'m-buttonlinks')]",
+  "new_element_copy_block_container":          "id, mkt-copy-block-container",
+  "new_element_styles_toggle":                 "className, override-mkt-styles-toggle",
+  "new_element_mkt_reverse_position_parent":   "className, mkt-reverse-position-parent",
+  "new_element_product_mkt_data":              "id, productMktData",
+  "copyblock_higher_up":                        "xpath, //section[@id='m-copy-block-placeholder']/following::section[@id='m-search-results']"
+}

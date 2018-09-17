@@ -1,0 +1,100 @@
+{
+  "active_accordion": "xpath, //div[@class='accordion active']",
+  "accordion_body_wrapper": "class, accordion-body-wrapper",
+  "accordion_primary_text": "class, c-margin-1v",
+  "accordion_secondary_text": "class, reset-font",
+  "accordion_body": "class, accordion-body",
+  "accordion_header": "class, accordion-header",
+  "accordion_wrapper": "class, accordion-body-wrapper",
+
+  "product_details_bullets": "cssSelector, [data-auto='product-description-bullets']",
+
+  "warranty_link": "cssSelector, [data-link-type='WARRANTY']",
+  "link_type_text": "class, rn_Summary",
+  "customer_service_text": "id, rn_customer_service",
+
+  "worrynomore_popup_text2": "id, Mattress-Protection-Plan",
+  "worrynomore_popup_text1": "id, Furniture-Protection-Plan",
+
+  "static_link": "cssSelector, [data-link-type='STATIC']",
+
+  "shipping_returns_accordion": "cssSelector, [data-section='shipping-returns']",
+  "shipping_returns_bullets": "cssSelector, [data-auto='shipping-returns-bullets']",
+  "shipping_return_policy": "class, shipping-and-return-policies",
+  "shipping_link": "id, linkShip",
+  "return_link": "id, linkReturns",
+
+  "pinterest_icon": "class, icon-share-pinterest",
+  "facebook_icon": "class, icon-share-facebook",
+  "twitter_icon": "class, icon-share-twitter",
+
+  "pinterest_email": "cssSelector, [name='id']",
+  "pinterest_password": "cssSelector, [name='password']",
+  "pinterest_continue": "cssSelector, [data-reactid='34']",
+
+  "facebook_email": "id, email",
+  "facebook_password": "id, pass",
+  "facebook_login": "cssSelector, [name='login']",
+
+  "twitter_share": "class, action-information",
+  "twitter_email": "class, user",
+  "twitter_password": "class, password",
+  "twitter_login": "class, submit",
+
+  "color_swatches": "class, color-swatch",
+  "color_swatches_name": "name, swatch",
+  "color_label": "class, color-display-name",
+  "color_swatch_wrapper": "class, color-swatch-wrapper",
+  "color_swatch_label": "class, color-swatch-label",
+  "color_dropdown": "id, colorDropdown",
+  "available_colors": "cssSelector, label.color-swatch-label:not(.unavailable)",
+
+  "size_dropdown": "id, size-dropdown",
+  "qty_dropdown": "id, qty-dropdown",
+
+  "product_images": "class, product-details-feature",
+  "main_image_container": "class, main-image-container",
+  "slick_list": "class, slick-list",
+  "product_main_img": "cssSelector, [data-auto='main-image']>ul>li>img",
+  "alt_image_label": "class, alt-image-label",
+  "AltImages_DownArrow": "xpath, //div[@class='arrow down']",
+  "AltImages_UpArrow": "xpath, //div[@class='arrow up']",
+  "alt_images_container": "cssSelector, [data-el='alternate-images']",
+  "current_image": "xpath, //div[@class='slick-slide slick-current slick-active']//div//li",
+  "alt_image_dots": "class, main-image-dot-radio",
+  "zoom_in_button": "class, zoom-in",
+  "zoom_out_button": "class, zoom-out",
+  "image_overlay": "class, image-overlay",
+  "image_overlay_close_btn": "class, overlay-header-close-button",
+  "image_overlay_open": "xpath, //div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front bcom-overlay image-overlay open']",
+
+  "promo_header": "cssSelector, [data-auto='badge-header']",
+  "offer_list": "id, offer-list",
+
+  "on_sale": "class, on-sale",
+  "price_holder": "class, cw_price_holder",
+  "price_general": "class, cw_general",
+  "sale_price": "id, salePrice",
+  "general_price_container": "class, cw_general",
+
+  "product_mainImg": "cssSelector, li[class='main-image']>img",
+  "product_title":   "cssSelector, [data-auto='product-title']",
+  "product_brand":   "cssSelector, [data-auto='product-brand']",
+  "product_name":    "cssSelector, [data-auto='product-name']",
+  "product_description": "cssSelector, [data-auto='product-description']",
+  "product_quantity": "cssSelector, [data-auto='quantity-section']",
+
+  "ship_radio_btn": "cssSelector, [data-auto='ship-this-item-btn']",
+  "availability_message": "cssSelector, [data-auto='availability-message']",
+  "shipping_message": "cssSelector, [data-auto='shipping-message']",
+  "ship_it_label": "cssSelector, [data-auto='ship-it-label']",
+  "pick_up_label": "cssSelector, [for='pick-up-in-store-btn']",
+
+  "addToBag_button":    "cssSelector, [data-auto='add-to-bag']",
+  "wishlist_button":    "cssSelector, [data-auto='add-to-list']",
+  "checkout_button":    "cssSelector, [data-auto='checkout']",
+  "contShopping_button":    "cssSelector, [data-auto='continue-shopping']",
+
+  "back_to_top": "class, back-to-top-button"
+
+}

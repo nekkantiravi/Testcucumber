@@ -1,0 +1,33 @@
+{
+  "include": [
+    "panel.gvr_qp",
+    "panel.registry_add_to_bag",
+    "panel.registry_bops_overlay",
+    "panel.header"
+  ],
+  "url":                  "/registry/wedding/guest/?perfectProxy=true",
+  "verify_page":          "className, GBVR-header-container",
+
+  "gvr_prod_list":        "className, gvr-card-item",
+  "prod_desc":            "cssSelector, .thumbnail-upper-content>div:nth-last-child(1)",
+  "prod_price":           "cssSelector, .thumbnail-price>h6:nth-last-child(1)",
+  "prod_reqs_qunt":       "cssSelector, .thumbnail-wants-needs>h6:nth-child(1)",
+  "prod_open_qunt":       "ccssSelector, .thumbnail-wants-needs>h6:nth-child(1)",
+  "prod_sel_qunt":        "className, thumbnail-quantity",
+  "prod_add_to_bag":      "className, thumbnail-atb",
+  "prod_brand":           "cssSelector, .thumbnail-upper-content>div:nth-last-child(2)",
+  "header":                 "className, GBVR-header",
+  "header_names_fn":           "className, GBVR-header-names>span:nth-child(1) || xpath, //h1[@class='GBVR-header-names']/span[1]",
+  "header_names_ln":           "className, GBVR-header-names>span:nth-child(2) || xpath, //h1[@class='GBVR-header-names']/span[2]",
+  "registry_info":          "className, GBVR-header-info",
+  "registry_date":          "cssSelector, .event-date>p",
+  "days_left":              "className, event-date",
+  "registry_id":            "className, registry-id>span:nth-child(2)",
+  "footer_barcode":         "id, registryBarcodeFooter",
+  "qp_icon":                "className, thumbnail-QP-icon-container",
+  "gvr_empty_message":      "id, emptyRegistryHeader",
+  "gvr_empty_shop_gifts_link": "id, emptyRegistryLinkShop",
+  "gvr_empty_shop_gifts_image": "id, emptyRegistryImgLink",
+  "thumbnail_upper_content":      "className, thumbnail-qp",
+  "find_in_store_link":          "className, thumbnail-find-in-store"
+}

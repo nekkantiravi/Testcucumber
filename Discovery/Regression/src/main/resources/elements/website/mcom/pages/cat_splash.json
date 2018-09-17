@@ -1,0 +1,5 @@
+{
+  "beauty_subAd_section":"xpath, //li[@id='row6_column1' or @id='row8_column1']//img",
+  "subAdd_links_verify" : "xpath, //area[contains(@href,'plentiexclusions')]/ancestor::div[contains(@id,'row')]/preceding-sibling::div//img[contains(@class,'img-adaptive') and not(@data-blzexdl='1') or contains(@usemap,'adMap')]",
+  "verify_subAdd_links_verify" : "xpath, //img[contains(@class,'img-adaptive')  or contains(@usemap,'adMap')]"
+}

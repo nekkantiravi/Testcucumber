@@ -1,0 +1,13 @@
+{
+  "Go_Button": "id, btnKeepShopping",
+  "Bag_Page": "id, atbTopMessage",
+  "Checkout_Button": "id, btnCheckout",
+  "Product_Name": "class, productName",
+  "PleaseSelectSizeBox": "xpath, //div[@class='close-grey-tiny']",
+  "PDP_Image": "xpath, //img[@class='mainImage']",
+  "PDP_Image_Zoom": "xpath, //div[@class='hoverZoomImageContainer']",
+  "product_Final_Cost": "class, singlePrice",
+  "Promo_Code": "xpath, (//span[@class='badgeText'])[1]",
+  "Sale_Price": "xpath, //span[@class='priceSale']",
+  "With_Offer_Price": "xpath, //div[@class='Adobe_finalPrice']"
+}

@@ -1,0 +1,13 @@
+{
+  "include": [
+    "header_and_footer"
+  ],
+  "url": "/shop/store/search||/stores",
+  "verify_page": "id, mb-j-location-input||className, search-button",
+  "header": "className, m-header-title||className, title-wrapper",
+  "store_container": "className, storeContainer",
+  "search_box": "id, searchField",
+  "search_button": "id, searchStore",
+  "more": "className, store-more",
+  "directions": "className, direction"
+}

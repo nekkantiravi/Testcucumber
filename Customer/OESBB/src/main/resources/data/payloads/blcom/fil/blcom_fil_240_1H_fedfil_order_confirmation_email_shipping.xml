@@ -1,0 +1,104 @@
+<mailMessagePayload>
+	<reservationNumber>519358702</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/03/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>558.60</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>40.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>9.00</taxAmt>
+	<orderTotal>558.60</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>0000000000000000</ltyIdUsl>
+	<billingDetail>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 GOOSE WATCH CT.</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>LAS VEGAS</city>
+		<state>NV</state>
+		<country>USA</country>
+		<zipcode>89139</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>AMERICAN EXPRESS</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>558.60</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>004</shipmentNumber>
+		<shippedDate>01/09/2016</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 COIT RD</addressLine1>
+		<addressLine2>APT 3234M</addressLine2>
+		<addressLine3 />
+		<city>DALLAS</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>75251</zipcode>
+		<greetingMessage>hi</greetingMessage>
+		<closingMessage>hi</closingMessage>
+		<signatureMessage>hi</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>OESTESTING@GMAILLLLL.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>VIRTUAL GIFT CARD</description>
+			<price>100.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>100.00</totalAmount>
+			<expectedDate>01/11/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5450102344871</upcId>
+			<userCancelDate />
+			<vgcNumber>850270010925953</vgcNumber>
+			<vgcCidNumber>4787</vgcCidNumber>
+			<expiryDate>01/08/2023</expiryDate>
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

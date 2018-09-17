@@ -1,0 +1,15 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+
+
+  "url":   "/gift-guide/",
+  "verify_page":                  "id, macysHomePageLogo||id, logo",
+
+
+
+  "quick_view_final_price": "class, qvPrice",
+  "Shop_by_price": "linkText, STORES"
+
+}

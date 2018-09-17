@@ -1,0 +1,6 @@
+{
+  "email_to_a_friend":   "className, emailFriendTitle",
+  "send":   "id, sendEmailToFriend",
+  "cancel":       "id, cancelEmailToFriend",
+  "close":        "className, container-close"
+}

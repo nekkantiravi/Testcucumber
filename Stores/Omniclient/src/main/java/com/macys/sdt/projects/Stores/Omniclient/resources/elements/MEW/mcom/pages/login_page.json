@@ -1,0 +1,11 @@
+{
+  "url": "/",
+
+  "verify_page":            "id, loginForm",
+  "associateID_textbox":    "id, user.userId",
+  "password_textbox":       "id, user.password",
+  "login_button":           "id, submit"
+
+
+
+}

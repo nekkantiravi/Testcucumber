@@ -1,0 +1,10 @@
+{
+    "get_started_button":       "id, btnSecond",
+    "not_now_button":           "id, btnSecond",
+
+    "search_field":             "id, edit_home_screen_search",
+    "banner":                   "id, gallery_ad_banners",
+
+    "menu_button":              "id, up",
+    "come_see_us_message":     "id, txt_home_screen_welcome_nearest_store"
+}

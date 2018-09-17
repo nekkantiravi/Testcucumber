@@ -1,0 +1,19 @@
+{
+  "url": "",
+  "verify_page": "id, appName",
+  "login_button": "cssSelector, input[name=login]",
+  "iframe_login": "xpath, //*[@id='loginDiv']/iframe",
+  "parms_login": "cssSelector, input[name=input_username]",
+  "parms_password": "cssSelector, input[name=j_password]",
+  "macys_image": "id, divisionSelectorME",
+  "backstage_image": "id, divisionSelectorMB",
+  "blm_image": "id, divisionSelectorBL",
+  "blm_outlet_image": "id, divisionSelectorBO",
+  "refund_table": "xpath, /html/body/table/tbody/tr/td[2]/table/tbody/tr[15]/td/a",
+  "pending_return": "xpath, //*[@id='pndRtrnNbrUnreceiptedReturnFlag']",
+  "tracking_number": "id, pndTrckngNbrUnreceiptedReturnFlag",
+  "iframe_home": "xpath, //*[@id='contentFrame']",
+  "RF1_table" : "xpath, /html/body/table/tbody/tr[1]/td"
+
+
+}

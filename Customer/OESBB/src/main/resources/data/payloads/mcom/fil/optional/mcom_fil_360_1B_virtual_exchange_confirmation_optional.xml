@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate></orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>25.00</orderSubtotalAmt>
+	<baseShippingAmt>2.00</baseShippingAmt>
+	<addtShipAddAmt>0.90</addtShipAddAmt>
+	<shipUpgradeAmt>1.00</shipUpgradeAmt>
+	<giftWrapAmt>1.20</giftWrapAmt>
+	<taxAmt>2.00</taxAmt>
+	<orderTotal>178.00</orderTotal>
+	<mailingLabelURL>https://www.macys.com/service/return/printMailingLabel?token=12_3IzkPEcwRJfckLRvOnqj+coZT1zwt2KxYN87uFymZS497sGIANrwven2TNRIad7UM3S5ZPCgOHNwQ==</mailingLabelURL>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170743412345</ltyIdUsl>
+	<billingDetail>
+		<title>Mr.</title>
+		<firstName></firstName>
+		<middleName>MIGRATION</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 CENTRAL AVE</addressLine1>
+		<addressLine2>APT 18C</addressLine2>
+		<addressLine3>WALNUT AVE</addressLine3>
+		<city>RIDGEFIELD PARK</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07660</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount></amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>03/21/2016</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag>Y</mailFlag>
+		<title>Mr.</title>
+		<firstName></firstName>
+		<middleName>MIGRATION</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 CENTRAL AVE</addressLine1>
+		<addressLine2>APT 18C</addressLine2>
+		<addressLine3></addressLine3>
+		<city>RIDGEFIELD PARK</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07660</zipcode>
+		<greetingMessage>WELCOME</greetingMessage>
+		<closingMessage>THANK YOU</closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description></description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>131.24</totalAmount>
+			<expectedDate>03/23/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>EXCHANGE</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Calvin Klein</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId></upcId>
+			<returnExpectedDate>08/17/2017</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description></description>
+			<price>131.24</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>131.24</totalAmount>
+			<expectedDate>03/21/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Calvin Klein</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId></upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

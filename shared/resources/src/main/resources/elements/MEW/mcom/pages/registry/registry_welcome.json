@@ -1,0 +1,4 @@
+{
+  "url":                                          "/wgl/registry/welcome",
+  "verify_page":                                  "id, welcome || xpath, //h1[text()='Congrats on creating\n                your registry!']"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>268_17A_mstore</reservationNumber>
+	<internetOrderNumber>567305710</internetOrderNumber>
+	<orderDate>09/23/2012</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>67.50</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>5.82</taxAmt>
+	<orderTotal>73.32</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0053</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>CHRISTINE</firstName>
+		<middleName />
+		<lastName>VIGNOLA</lastName>
+		<attnLine />
+		<addressLine1>141 MARGARET BLVD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>MERRICK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11566</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************6376</accountNumber>
+		<amount>73.32</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>CHRISTINE</firstName>
+		<middleName />
+		<lastName>VIGNOLA</lastName>
+		<attnLine />
+		<addressLine1>141 MARGARET BLVD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>MERRICK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11566</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>TURNING POINT</description>
+			<price>22.50</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>45.00</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor>NORITAKE</vendor>
+			<cancelledQuantity>002</cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>TURNING POINT 1</description>
+			<price>22.50</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>45.00</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor>NORITAKE</vendor>
+			<cancelledQuantity>002</cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

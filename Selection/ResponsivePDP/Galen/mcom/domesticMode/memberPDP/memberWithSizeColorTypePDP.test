@@ -1,0 +1,27 @@
+@@ set
+    url             https://www.rpdp-17z.tbe.zeus.fds.com/shop/product/lenox-eternal-gold-3-piece-serving-set?ID=
+    key             &experience=responsive
+
+@@ parameterized
+    | devices | tags    | size     |
+    | Desktop | desktop | 1400x800 |
+    | Mobile  | mobile  | 400x700  |
+
+@@ parameterized
+    | productType     | pId   |
+    | MemberWithColor | 77589 |
+
+@@ parameterized
+    | browser |
+    | Chrome  |
+
+@@ parameterized
+    | mode |
+    | Site |
+
+
+${devices} ${productType} PDP ${mode} mode on ${browser} browser with PID == ${pId}
+    selenium ${browser} ${url}${pId}${key} ${size}
+      run Selection/ResponsivePDP/Galen/mcom/domesticMode/memberPDP/memberWithColorPDP.js
+      properties Selection/ResponsivePDP/Galen/mcom/domesticMode/memberPDP/memberWithColorPDP.properties
+      check Selection/ResponsivePDP/Galen/mcom/domesticMode/memberPDP/memberWithColorPDP.gspec --include ${tags}

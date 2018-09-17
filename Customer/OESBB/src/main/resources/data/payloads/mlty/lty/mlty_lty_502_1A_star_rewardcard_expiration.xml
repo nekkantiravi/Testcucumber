@@ -1,0 +1,32 @@
+<mailMessagePayload>
+	<loyaltyId>L920000146008</loyaltyId>
+	<loyaltyFirstName>Donald</loyaltyFirstName>
+	<loyaltyMiddleName></loyaltyMiddleName>
+	<loyaltyLastName>Ssmith</loyaltyLastName>
+	<loyaltyContract>LTYMCY001</loyaltyContract>
+	<division>71</division>
+	<tier>Platinum</tier>
+	<enrollmentConfirmation></enrollmentConfirmation>
+	<enrollmentLocation></enrollmentLocation>
+	<adhocText></adhocText>
+	<addedByApp></addedByApp>
+	<amountRewardsCard>10</amountRewardsCard>
+	<rewardCardExpirationDate>11/29/2017</rewardCardExpirationDate>
+	<vrcBarCode>762196010039017</vrcBarCode>
+	<rewardCardEffectiveDate></rewardCardEffectiveDate>
+	<cid></cid>
+	<accountSummaryType>
+		<totalRewardsEarned>812</totalRewardsEarned>
+		<rewardsOutsideMacys></rewardsOutsideMacys>
+		<pendingRewards>0</pendingRewards>
+		<totalBonusRewards></totalBonusRewards>
+		<totalPendingBonusRewards>0</totalPendingBonusRewards>
+		<accountStatus></accountStatus>
+		<accountStatusReason></accountStatusReason>
+		<visitsRemaining></visitsRemaining>
+		<currentVisitCount></currentVisitCount>
+		<rewardCycleExpirationDate></rewardCycleExpirationDate>
+		<currentPointDate>11/14/2017</currentPointDate>
+		<pendingPointDate>11/14/2017</pendingPointDate>
+	</accountSummaryType>
+</mailMessagePayload>

@@ -1,0 +1,7 @@
+{
+  "url":            "/",
+  "first_product": "xpath,(//div[@class='mb-j-search-image m-product-grid-image']/img)[1]|| xpath,(//div[@class='mb-j-browse-image m-product-grid-image']/img)[1]",
+  "last_act_text_srp": "xpath,//div[contains(text(),'LAST ACT')]",
+  "rating_srp": "class,m-rating-stars",
+  "reviews_srp":"class,m-rating-count"
+}

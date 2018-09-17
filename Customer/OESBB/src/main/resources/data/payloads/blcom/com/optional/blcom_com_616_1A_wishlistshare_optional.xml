@@ -1,0 +1,59 @@
+<mailMessagePayload>
+    <reservationNumber></reservationNumber>
+    <explanationText>A note from OES: thoughts on the below? I figured id give her 2 or 3</explanationText>
+    <replyToEmailAddress>oesesptesting@gmail.com</replyToEmailAddress>
+    <replyToDisplayName>OES TESTING</replyToDisplayName>
+    <mailingLabelURL>http://www.bloomingdales.com/wishlist/guest?wid=f5157b65-1e40-4e83-880e-6ce06869b886&amp;cm_mmc=EML2-_-wishlist_share-_-BODY-_-View_Wish_List</mailingLabelURL>
+    <shipmentDetail>
+        <firstName>OES</firstName>
+        <giftRegistryNumber></giftRegistryNumber>
+        <itemDetail>
+            <lineNumber></lineNumber>
+            <description>Alex and Ani Ode to the Owl Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity></requestedQuantity>
+            <availableQuantity></availableQuantity>
+            <upcNumber></upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl></lineProductUrl>
+            <lineImageType></lineImageType>
+            <linePrimaryImageUrl></linePrimaryImageUrl>
+        </itemDetail>
+             <itemDetail>
+            <lineNumber></lineNumber>
+            <description>Alex and Ani Ode to the Owl Expandable Wire Bangle,Charity by Design Collection1</description>
+            <requestedQuantity></requestedQuantity>
+            <availableQuantity></availableQuantity>
+            <upcNumber></upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl></lineProductUrl>
+            <lineImageType></lineImageType>
+            <linePrimaryImageUrl></linePrimaryImageUrl>
+        </itemDetail>
+          <itemDetail>
+            <lineNumber></lineNumber>
+            <description>Alex and Ani Ode to the Owl Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity></requestedQuantity>
+            <availableQuantity></availableQuantity>
+            <upcNumber></upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl></lineProductUrl>
+            <lineImageType></lineImageType>
+            <linePrimaryImageUrl></linePrimaryImageUrl>
+        </itemDetail>
+        <itemDetail>
+            <lineNumber></lineNumber>
+            <description>Alex and Ani Ode to the Owl Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity></requestedQuantity>
+            <availableQuantity></availableQuantity>
+            <upcNumber></upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl></lineProductUrl>
+            <lineImageType></lineImageType>
+            <linePrimaryImageUrl></linePrimaryImageUrl>
+        </itemDetail>
+    </shipmentDetail>
+</mailMessagePayload>

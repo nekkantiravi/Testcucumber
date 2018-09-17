@@ -1,0 +1,7 @@
+{
+  "brand":"cssSelector,.b-bag-item-detail.b-bag-item-description",
+  "size":"cssSelector,.b-j-bag-item-config-container.b-j-bag-item-size-container>span",
+  "color":"cssSelector,.b-j-bag-item-config-container.b-j-bag-item-color-container>span",
+  "price":"cssSelector,.b-bag-item-prices>div>.b-bag-item-details-value",
+  "qty":"cssSelector,.b-bag-item-qty"
+}

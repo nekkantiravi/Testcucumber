@@ -1,0 +1,21 @@
+{
+    "include": [
+        "panel.header_and_footer"
+    ],
+
+    "url":                           "/shop/store/",
+    "verify_page":                   "xpath, //li[@class='search-field']",
+
+    "breadcrumb_path":               "id, depthpathContainer",
+    "store_locator_search_box":      "id, q",
+    "store_search_button":           "xpath, //button[text()='Search']",
+    "stores":                        "class, storeContainer",
+    "filter_by":                     "id, filterBy",
+    "filter_by_option":              "id, storeFeatures",
+    "error_message":                 "class, error",
+    "map_direction_link":            "css, .map-store-footer > a:nth-child(1)",
+    "map_store_info":                "class, gm-style-iw",
+    "visit_site":                    "cssSelector, a.location-page-link",
+    "list_more_info_section":        "class, more-details",
+    "store_hours":                   "id, store-hours"
+}

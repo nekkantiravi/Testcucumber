@@ -1,0 +1,20 @@
+{
+  "close_popup": "className, shq_exit",
+  "master_reviews_tab": "id, pdpRatings",
+  "review": "id, BVRRDisplayContentBodyID",
+  "rating": "className, BVRRRatingNormalImage",
+  "pdp_product_image": "xpath, //img[@class='product-main-image']",
+  "product_image_zoom": "xpath,//img[@class='product-main-image zoomed-in']",
+  "product_thumbnail": "xpath, //li[@class='thumbnailItem'][1]//div[contains(@id,'productThumbnailLink')]//img",
+  "recommendation_products": "xpath,//div[@class='ItemsContainer']//ul//li//a[contains(@id,'prodLink')]",
+  "show_more": "xpath,//div[text()='Show More']",
+  "web_id": "xpath,//ul[@class='product-details-bullet-list']//li[@id='productWebID']",
+  "share_toggle": "id,PDPShareToggle",
+  "pinterest": "id,pinterestShareLink",
+  "pinterest_login": "xpath,//button[text()='Log in']",
+  "facebook": "id,facebookShareLink",
+  "facebook_login": "xpath,//input[@name='login']",
+  "twitter": "id,twitterShareLink",
+  "twitter_login": "xpath,//input[@value='Log in and Tweet']",
+  "item_error_message": "className, pdp_errorText"
+}

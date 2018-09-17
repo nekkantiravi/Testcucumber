@@ -1,0 +1,15 @@
+{
+  "loyallist": [{
+    "user_id": 123456789,
+    "id": 920000112167,
+    "reward_card_balance": 25,
+    "points_balance": 1029,
+    "points_balance_to_next_reward_card": 3971
+  }, {
+    "user_id": 111111111,
+    "id": 920000112168,
+    "reward_card_balance": 25,
+    "points_balance": 1029,
+    "points_balance_to_next_reward_card": 3971
+  }]
+}

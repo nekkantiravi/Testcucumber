@@ -1,0 +1,51 @@
+{
+    "include": [
+        "panel.responsive_shipping_options",
+        "panel.responsive_payment_guest_section",
+        "panel.responsive_shipping_section",
+        "panel.apply_my_plenti",
+        "panel.responsive_order_summary",
+        "panel.responsive_schedule_delivery_section",
+        "panel.responsive_service_fees_section"
+    ],
+
+    "url":                      "/chkout/rc",
+    "verify_page":              "id, rc-mixed-header",
+
+    "place_order":              "id, rc-place-order",
+    "error_ok":                 "id, rc-overlay-action",
+    "error_message":            "class, rc-error-message",
+    "3d_secure_reviewIframe":   "id, reviewIframe",
+    "3d_secure_authIframe":     "id, authWindow",
+    "3d_secure_password":       "name, external.field.password",
+    "3d_secure_submit":         "name, UsernamePasswordEntry",
+    "gift_option_set":          "id, rc-gift-option-set",
+    "plenti_logo":          "id, rc-usl-heading",
+    "plenti_remove_link":   "id, rc-usl-remove",
+    "masked_plenti_id":     "id, rc-usl-masked-uslid",
+    "plenti_label":         "id, rc-usl-heading",
+    "expand_plenti_section":"xpath, //h6[@id='rc-usl-heading']/span[2]",
+    "plenti_text_field":    "id, rc-usl-lookup-value",
+    "plenti_search_button":  "id, rc-usl-lookup",
+    "plenti_lookup_error":   "css, div.rc-error-message.small-14.small-offset-1.columns.end",
+    "plenti_lookup_byId_radiobutton": "id, rc-usl-uslid",
+    "plenti_lookup_byCC_radiobutton": "id, rc-usl-cc",
+    "plenti_finish_signup_msg": "css, span.rc-error-message",
+    "plenti_cancel": "id, rc-usl-cancel",
+    "plenti_redeem_button": "id, rc-use-plenti",
+    "redeem_amount_field": "id, rc-plenti-redeem-value",
+    "plenti_redeem_pin": "id, rc-plenti-redeem-pin",
+    "plenti_redeem_apply_button": "id, rc-apply-plenti-points",
+    "plenti_points_remove": "id, rc-plenti-remove-from-order",
+    "plenti_edit_button": "id, rc-edit-plenti-points",
+
+    "create_profile_checkbox":"xpath,//div[@id='rc-ca-toggle-form']//input[@id='rc-ca-toggle']",
+    "create_profile_email_exist_error":"xpath,//input[@id='rc-payment-email']/following-sibling::small",
+    "create_profile_pwd_error":"xpath,//input[@id='rc-ca-password']/following-sibling::small",
+    "create_profile_pwd":"id,rc-ca-password",
+    "create_profile_email":"name,billingContact.email",
+    "create_profile_day":"id,rc-ca-day",
+    "create_profile_month":"id,rc-ca-month",
+    "create_profile_year":"id,rc-ca-year"
+
+}

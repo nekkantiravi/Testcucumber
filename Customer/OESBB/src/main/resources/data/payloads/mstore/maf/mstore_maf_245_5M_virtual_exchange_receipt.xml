@@ -1,0 +1,56 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>05/08/2016</orderDate>
+	<ltyIdUsl>3104171202992986</ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	 <paymentDetail>
+    	<paymentType>Visa</paymentType>
+    	<accountNumber>************6594</accountNumber>
+    	<amount></amount>
+    	<paymentCategoryFlag>D</paymentCategoryFlag>
+    </paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>76.59</shipRetailAmt>
+		<shipTaxAmt>3.23</shipTaxAmt>
+		<returnSubmittedDate>05/13/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>14k Gold and Sterling Silver P</description>
+			<price>165.40</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>165.4</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>LIBERTY COLLECTIONS</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>06/10/2016</returnExpectedBackDate>
+			<returnReason>Defective</returnReason>
+			<returnReceiptDate>06/07/2016</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>14k Gold and Sterling Silver P1</description>
+			<price>165.40</price>
+			<requestedQuantity>1</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>165.4</totalAmount>
+			<shipmentType>Exchange</shipmentType>
+			<vendor>LIBERTY COLLECTIONS</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>06/10/2016</returnExpectedBackDate>
+			<returnReason>Defective</returnReason>
+			<returnReceiptDate>06/07/2016</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

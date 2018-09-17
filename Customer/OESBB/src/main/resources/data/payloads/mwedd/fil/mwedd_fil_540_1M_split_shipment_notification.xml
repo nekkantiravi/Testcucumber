@@ -1,0 +1,230 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>04/27/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>160.00</orderSubtotalAmt>
+	<baseShippingAmt>8.00</baseShippingAmt>
+	<addtShipAddAmt>25.00</addtShipAddAmt>
+	<shipUpgradeAmt>5.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>12.11</taxAmt>
+	<orderTotal>185.11</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170927112345</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 SOUTH BLVD</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3>Near SuperMarket</addressLine3>
+		<city>CHARLOTTE</city>
+		<state>NC</state>
+		<country>USA</country>
+		<zipcode>28203</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MasterCard</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>185.11</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 JAY CT</addressLine1>
+		<addressLine2>StreetNo23</addressLine2>
+		<addressLine3>Shipaddr3</addressLine3>
+		<city>NEW YORK</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>97000</zipcode>
+		<greetingMessage>Esp and Aaron,</greetingMessage>
+		<closingMessage>Congratulations on your wedding!</closingMessage>
+		<signatureMessage>I am so happy to be a part of your day.</signatureMessage>
+		<giftRegistryNumber>2800022712345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>ESP</giftRegistrant1>
+		<giftRegistrant2>AARON</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Porcelain Stockholm Vegetable</description>
+			<price>19.49</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>19.49</totalAmount>
+			<expectedDate>04/29/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Martha Stewart Collection</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>Pizza Stone Set, 15</description>
+			<price>14.99</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>14.99</totalAmount>
+			<expectedDate>04/29/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Laroma</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991467265</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 JAY CT</addressLine1>
+		<addressLine2>StreetNo23</addressLine2>
+		<addressLine3>Shipaddr3</addressLine3>
+		<city>NEW YORK</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>97000</zipcode>
+		<greetingMessage>Esp and Aaron,</greetingMessage>
+		<closingMessage>Congratulations on your wedding!</closingMessage>
+		<signatureMessage>I am so happy to be a part of your day.</signatureMessage>
+		<giftRegistryNumber>2800022712345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>ESP</giftRegistrant1>
+		<giftRegistrant2>AARON</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>French White 13 Piece Bakeware</description>
+			<price>37.49</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>37.49</totalAmount>
+			<expectedDate>04/29/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Corningware</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>Pizza Stone Set, 16</description>
+			<price>14.99</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>14.99</totalAmount>
+			<expectedDate>04/29/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Laroma</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>610836202136</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

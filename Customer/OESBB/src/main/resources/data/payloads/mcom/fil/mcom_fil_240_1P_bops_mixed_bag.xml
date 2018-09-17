@@ -1,0 +1,172 @@
+<mailMessagePayload>
+ 	<reservationNumber>2785635</reservationNumber>
+ 	<internetOrderNumber>123456789</internetOrderNumber>
+ 	<orderDate>05/27/2016</orderDate>
+ 	<shopAt>macys.com</shopAt>
+ 	<explanationText>explanationText</explanationText>
+ 	<orderSubtotalAmt>90.48</orderSubtotalAmt>
+ 	<baseShippingAmt>0.00</baseShippingAmt>
+ 	<addtShipAddAmt>2.22</addtShipAddAmt>
+ 	<shipUpgradeAmt>3.33</shipUpgradeAmt>
+ 	<giftWrapAmt>4.44</giftWrapAmt>
+ 	<taxAmt>1.53</taxAmt>
+ 	<orderTotal>92.01</orderTotal>
+ 	<divisionCode>071</divisionCode>
+ 	<locationCode>0139</locationCode>
+ 	<adhocText></adhocText>
+ 	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+ 	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+ 	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+ 	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+ 	<smsFlag>N</smsFlag>
+ 	<ltyFlag>Y</ltyFlag>
+ 	<ltyIdUsl>0000000000000000</ltyIdUsl>
+ 	<billingDetail>
+ 		<title>Mr.</title>
+ 		<firstName>OES</firstName>
+ 		<middleName>middleName</middleName>
+ 		<lastName>TESTING</lastName>
+ 		<attnLine></attnLine>
+ 		<addressLine1>123 S. MOLE ST.</addressLine1>
+ 		<addressLine2>9th Floor</addressLine2>
+ 		<addressLine3>addressLine3</addressLine3>
+ 		<city>PHILADELPHIA</city>
+ 		<state>PA</state>
+ 		<country>USA</country>
+ 		<zipcode>19146</zipcode>
+ 	</billingDetail>
+ 	<paymentDetail>
+ 		<paymentType>AMERICAN EXPRESS</paymentType>
+ 		<accountNumber>************1234</accountNumber>
+ 		<amount>92.01</amount>
+ 		<paymentCategoryFlag>D</paymentCategoryFlag>
+ 	</paymentDetail>
+ 	<shipmentDetail>
+ 		<shipmentNumber>001</shipmentNumber>
+ 		<shippedDate>12/31/9999</shippedDate>
+ 		<returnSubmittedDate></returnSubmittedDate>
+ 		<mailFlag>Y</mailFlag>
+ 		<title>Mr.</title>
+ 		<firstName>OES</firstName>
+ 		<middleName>MIGRATION</middleName>
+ 		<lastName>TESTING</lastName>
+ 		<attnLine></attnLine>
+ 		<addressLine1>1234 RT. 12; SUITE 123</addressLine1>
+ 		<addressLine2>CHERRY HILL MALL</addressLine2>
+ 		<addressLine3>addressLine3</addressLine3>
+ 		<city>CHERRY HILL</city>
+ 		<state>NJ</state>
+ 		<country>USA</country>
+ 		<zipcode>08002</zipcode>
+ 		<greetingMessage>Hi</greetingMessage>
+ 		<closingMessage>Bye</closingMessage>
+ 		<signatureMessage>Hello</signatureMessage>
+ 		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+ 		<giftWrapFlag>N</giftWrapFlag>
+ 		<giftReceipientEmail>oestest@hotmail.com</giftReceipientEmail>
+ 		<giftRegistrant1>Stacey</giftRegistrant1>
+ 		<giftRegistrant2>Mikael</giftRegistrant2>
+ 		<giftReceiptFlag>Y</giftReceiptFlag>
+ 		<pickupBarcode>615014931234</pickupBarcode>
+ 		<pickupReadyDate>05/27/2016</pickupReadyDate>
+ 		<pickupCancelDate>12/31/9999</pickupCancelDate>
+ 		<shipRetailAmt>64.99</shipRetailAmt>
+ 		<shipTaxAmt>0.00</shipTaxAmt>
+ 		<shipFilLoc>0073</shipFilLoc>
+ 		<shipPhone>610-715-1234</shipPhone>
+ 		<shipEmailAddress>OESTETING@GMAIL.COM</shipEmailAddress>
+ 		<itemDetail>
+ 			<lineNumber>004</lineNumber>
+ 			<description>Petite Izzy Ankle Jeans</description>
+ 			<price>64.99</price>
+ 			<requestedQuantity>001</requestedQuantity>
+ 			<availableQuantity>001</availableQuantity>
+ 			<shippedQuantity>0</shippedQuantity>
+ 			<totalAmount>64.99</totalAmount>
+ 			<expectedDate>05/27/2016</expectedDate>
+ 			<newExpectedDate></newExpectedDate>
+ 			<delaySentDate></delaySentDate>
+ 			<delayWaitDate></delayWaitDate>
+ 			<systemCancelDate></systemCancelDate>
+ 			<shipmentType>PICKUP</shipmentType>
+ 			<splitShipmentFlag></splitShipmentFlag>
+ 			<status>IN PROCESS</status>
+ 			<vendor>Michael Kors</vendor>
+ 			<cancelledQuantity></cancelledQuantity>
+ 			<upcId>000000190049585856</upcId>
+ 			<returnExpectedDate></returnExpectedDate>
+ 			<returnStatus></returnStatus>
+ 			<returnReasonDescription></returnReasonDescription>
+ 			<userCancelDate></userCancelDate>
+ 			<vgcNumber></vgcNumber>
+ 			<vgcCidNumber></vgcCidNumber>
+ 			<expiryDate></expiryDate>
+ 			<size>2P</size>
+ 			<color>White</color>
+ 		</itemDetail>
+ 	</shipmentDetail>
+ 	<shipmentDetail>
+ 		<shipmentNumber>002</shipmentNumber>
+ 		<shippedDate>12/31/9999</shippedDate>
+ 		<returnSubmittedDate></returnSubmittedDate>
+ 		<mailFlag>Y</mailFlag>
+ 		<title>Mr.</title>
+ 		<firstName>OES</firstName>
+ 		<middleName>ESP</middleName>
+ 		<lastName>MIGRATION</lastName>
+ 		<attnLine></attnLine>
+ 		<addressLine1>123 LINDALE AVE</addressLine1>
+ 		<addressLine2>addressLine2</addressLine2>
+ 		<addressLine3>addressLine3</addressLine3>
+ 		<city>DREXEL HILL</city>
+ 		<state>PA</state>
+ 		<country>USA</country>
+ 		<zipcode>19026</zipcode>
+ 		<greetingMessage>Christine &amp; Dave, Here's to many years and</greetingMessage>
+ 		<closingMessage>lots of delicious, stinky French cheese</closingMessage>
+ 		<signatureMessage>together! Congrats!! love, Liz &amp; Dan</signatureMessage>
+ 		<giftRegistryNumber>2800022712345</giftRegistryNumber>
+ 		<giftWrapFlag>N</giftWrapFlag>
+ 		<giftReceipientEmail>Shereen.idnani@macys.com</giftReceipientEmail>
+ 		<giftRegistrant1>CHRISTINE</giftRegistrant1>
+ 		<giftRegistrant2>DAVID</giftRegistrant2>
+ 		<giftReceiptFlag>Y</giftReceiptFlag>
+ 		<pickupBarcode>615014912345</pickupBarcode>
+ 		<pickupReadyDate>05/27/2016</pickupReadyDate>
+ 		<pickupCancelDate>12/31/9999</pickupCancelDate>
+ 		<shipRetailAmt>90.48</shipRetailAmt>
+ 		<shipTaxAmt>1.53</shipTaxAmt>
+ 		<shipFilLoc>6293</shipFilLoc>
+ 		<shipPhone>000-000-0000</shipPhone>
+ 		<shipEmailAddress></shipEmailAddress>
+ 		<itemDetail>
+ 			<lineNumber>001</lineNumber>
+ 			<description>International Cheese Knives an</description>
+ 			<price>25.49</price>
+ 			<requestedQuantity>001</requestedQuantity>
+ 			<availableQuantity>001</availableQuantity>
+ 			<shippedQuantity>0</shippedQuantity>
+ 			<totalAmount>25.49</totalAmount>
+ 			<expectedDate>06/01/2016</expectedDate>
+ 			<newExpectedDate></newExpectedDate>
+ 			<delaySentDate></delaySentDate>
+ 			<delayWaitDate></delayWaitDate>
+ 			<systemCancelDate></systemCancelDate>
+ 			<shipmentType>STANDARD</shipmentType>
+ 			<splitShipmentFlag></splitShipmentFlag>
+ 			<status>IN PROCESS</status>
+ 			<vendor>J.A. Henckels</vendor>
+ 			<cancelledQuantity></cancelledQuantity>
+ 			<upcId>000000035886307790</upcId>
+ 			<returnExpectedDate></returnExpectedDate>
+ 			<returnStatus></returnStatus>
+ 			<returnReasonDescription></returnReasonDescription>
+ 			<userCancelDate></userCancelDate>
+ 			<vgcNumber></vgcNumber>
+ 			<vgcCidNumber></vgcCidNumber>
+ 			<expiryDate></expiryDate>
+ 			<size></size>
+ 			<color>Brown</color>
+ 		</itemDetail>
+ 	</shipmentDetail>
+ </mailMessagePayload>

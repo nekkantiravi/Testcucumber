@@ -1,0 +1,16 @@
+{
+  "my_account": "/myaccount/home?cm_sp=NAVIGATION-_-TOP_NAV-_-MY_ACCOUNT-n-n||/myaccount/home?cm_sp=FOOTER-_-BOTTOM_NAV-_-MY_ACCOUNT",
+  "credit_service_gateway_signedin": "/my-credit/gateway",
+  "loyalty_home": "/loyallist/enrollment?FromSignin=true",
+  "wish_list": "/wishlist/mylist?cm_sp=NAVIGATION-_-TOP_NAV-_-WISH_LIST-n-n&showDefault=true",
+  "order_status": "/service/order-status",
+  "my_preferences": "/account/preferences",
+  "loyalty_association": "/loyallist/accountassociation",
+  "shopping_bag": "/bag/index.ognc?CategoryID=3865||/bag/index.ognc",
+  "product_display": "/shop/product",
+  "post_signin_link": "/chkout/rcsignedin?perfectProxy=true||/chkout/rc?perfectProxy=true",
+  "new_create_registry": "/registry/wedding/registrycreateaccount?perfectProxy=true",
+  "registry_manager": "/registry/wedding/registrymanager||/registry/wedding/registrant?perfectProxy=true",
+  "loyallist_account_summary": "/loyallist/accountsummary",
+  "loyalty_enrollment": "/loyallist/enrollment"
+}

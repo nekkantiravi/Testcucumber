@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <project.domain>Marketing</project.domain>
+        <project.name>SeoSLP</project.name>
+        <project.version>1.0-SNAPSHOT</project.version>
+    </properties>
+
+    <parent>
+        <artifactId>SDT</artifactId>
+        <groupId>com.macys.sdt</groupId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>sdt-${project.domain}-${project.name}</artifactId>
+    <version>2.2.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Architecture-MSH</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-SEOLeftNav</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Discovery-SearchBrowseComponentization</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-SEOLinkModule</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
+

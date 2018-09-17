@@ -1,0 +1,32 @@
+{
+    "url":                                  "/chkout/internationalShipping",
+    
+    "choose_language":                      "id, language",
+
+    "shipping_iFrame":                      "id, envoyId",
+    "payment_iFrame":                       "id, cc-frame",
+
+    "shipping_first_name":                  "id, shipping-first-name",
+    "shipping_last_name":                   "id, shipping-last-name",
+    "shipping_address_line_1":              "id, shipping-address-line1",
+    "shipping_address_line_2":              "id, shipping-address-line2",
+    "shipping_address_line_3":              "id, shipping-address-line3",
+    "shipping_address_city":                "id, shipping-city",
+    "shipping_address_region":              "id, shipping-region",
+    "shipping_address_country":             "id, shipping-country",
+    "shipping_address_postal_code":         "id, shipping-postal-code",
+    "shipping_phone_number":                "id, shipping-tel",
+    "shipping_alternate_phone_number":      "id, shipping-tel-alternate",
+    "shipping_email_address":               "id, shipping-email",
+    "shipping_address_province":            "id, shipping-province",
+
+    "card_payment_method":                  "id, payment-method-cc",
+    "card_same_billing_addr":               "id, same-billing-address",
+    "pay_pal_payment_method":               "id, payPalPayment",
+    "card_number":                          "id, cc-num",
+    "expiry_month":                         "id, cc-exp-month",
+    "expiry_year":                          "id, cc-exp-year",
+    "security_code":                        "id, cc-sec-num",
+
+    "submit_order_button":                  "id, submit-order-btn"
+}

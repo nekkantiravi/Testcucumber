@@ -1,0 +1,63 @@
+{
+  "url": "/",
+
+  "create_list_dashboard":                                  "id, listLeft",
+  "create_list_title":                                      "id, leftHeader",
+  "preview_pane_new_list":                                  "id, previewContent",
+
+  "new_list_dashboard":                                     "cssSelector, .new-list",
+  "new_list_button":                                        "id, newListBtn",
+  "list_name_header":                                       "id, new-list-input-label",
+  "list_name_input_field":                                  "id, new-list-input-name",
+
+  "first_section_chevron":                                  "id, createListCevron1",
+  "second_section_chevron":                                 "id, createListCevron2",
+  "third_section_chevron":                                  "id, createListCevron3",
+
+  "first_section_new_list_view":                            "id, createListSection1",
+  "second_section_new_list_view":                           "id, createListSection2",
+  "third_section_new_list_view":                            "id, createListSection3",
+
+  "first_section_first_subsection":                         "id, createListOption1_1",
+  "first_section_second_subsection":                        "id, createListOption1_2",
+  "first_section_third_subsection":                         "id, createListOption1_3",
+
+  "second_section_first_subsection":                         "id, createListOption2_1",
+  "second_section_second_subsection":                        "id, createListOption2_2",
+  "second_section_third_subsection":                         "id, createListOption2_3",
+
+  "third_section_first_subsection":                         "id, createListOption3_1",
+  "third_section_second_subsection":                        "id, createListOption3_2",
+
+  "first_section_first_subsection_first_filter_option":     "id, createListFilter1_1_1",
+  "first_section_second_subsection_first_filter_option":    "id, createListFilter1_2_1",
+
+  "second_section_first_subsection_first_filter_option":    "id, createListFilter2_1_1",
+  "second_section_second_subsection_first_filter_option":   "id, createListFilter2_2_1",
+  "second_section_third_subsection_first_filter_option":    "id, createListFilter2_3_1",
+
+  "third_section_first_subsection_first_filter_option":     "id, createListFilter3_1_1",
+  "third_section_second_subsection_first_filter_option":    "id, createListFilter3_2_1",
+
+  "close_first_section_first_subsection_first_filter_option":     "xpath, //*[@id='createListFilter1_1_1']/span",
+  "close_first_section_second_subsection_first_filter_option":    "xpath, //*[@id='createListFilter1_2_1']/span",
+
+  "close_second_section_first_subsection_first_filter_option":    "xpath, //*[@id='createListFilter2_1_1']/span",
+  "close_second_section_second_subsection_first_filter_option":   "xpath, //*[@id='createListFilter2_2_1']/span",
+  "close_second_section_third_subsection_first_filter_option":    "xpath, //*[@id='createListFilter2_3_1']/span",
+
+  "close_third_section_first_subsection_first_filter_option":     "xpath, //*[@id='createListFilter3_1_1']/span",
+  "close_third_section_second_subsection_first_filter_option":    "xpath, //*[@id='createListFilter3_2_1']/span",
+
+  "top_list_customers_create_list":                    "id, description4",
+  "top_list_customers_count":                          "id, count4",
+
+  "back_button_create_list":                               "cssSelector, [ng-click='back()']"
+
+
+
+
+
+}
+
+

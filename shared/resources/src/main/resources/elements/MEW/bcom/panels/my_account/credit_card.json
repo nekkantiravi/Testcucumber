@@ -1,0 +1,21 @@
+{
+  "card_type": "id, mb-j-wallet-credit-card-type",
+  "card_number": "id, mb-j-wallet-credit-card-number",
+  "expiry_month": "id, mb-j-wallet-credit-card-expiration-month",
+  "expiry_year": "id, mb-j-wallet-credit-card-expiration-year",
+  "first_name": "id, mb-j-wallet-credit-card-firstName",
+  "last_name": "id, mb-j-wallet-credit-card-lastName",
+  "address_line_1": "id, mb-j-wallet-credit-card-addressLine1",
+  "address_line_2": "id, mb-j-wallet-credit-card-addressLine2",
+  "address_city": "id, mb-j-wallet-credit-card-city",
+  "address_state": "id, mb-j-wallet-credit-card-state",
+  "address_zip_code": "id, mb-j-wallet-credit-card-zipCode",
+  "card_phone_area_code": "id, mb-j-wallet-credit-card-phone-area-code",
+  "card_phone_exchange": "id, mb-j-wallet-credit-card-phone-central-office-code",
+  "card_phone_subscriber": "id, mb-j-wallet-credit-card-phone-subscriber-number",
+  "payment_email": "id, mb-j-wallet-credit-card-email",
+  "save_card": "id, mb-j-wallet-save-credit-card",
+  "delete_card": "id, mb-j-wallet-delete-credit-card",
+  "confirmation_yes_button": "id, mb-j-message-dialog-button-continue",
+  "credit_card_section": "id, mb-wallet-credit-cards-section"
+}

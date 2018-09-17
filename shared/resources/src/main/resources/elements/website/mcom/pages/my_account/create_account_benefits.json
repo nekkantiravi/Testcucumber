@@ -1,0 +1,8 @@
+{
+  "url": "/sns/content/benefits",
+  "verify_page": "id, popupBannerTop",
+
+  "pop_up_banner_header": "id, popupBannerTop",
+  "pop_up_banner_desc": "id, popupBannerDic",
+  "pop_up__banner_content": "class, popupBannercontent"
+}

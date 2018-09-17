@@ -1,0 +1,197 @@
+<mailMessagePayload>
+	<reservationNumber>193451029</reservationNumber>
+	<internetOrderNumber>S2BMCOMOES01</internetOrderNumber>
+	<orderDate>07/10/2012</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>160.00</orderSubtotalAmt>
+	<baseShippingAmt>8.00</baseShippingAmt>
+	<addtShipAddAmt>25.00</addtShipAddAmt>
+	<shipUpgradeAmt>5.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>12.11</taxAmt>
+	<orderTotal>185.11</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+   <paymentDetail>
+      <paymentType>MasterCard</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>54.98</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>ALANA</description>
+			<price>30.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>60.00</totalAmount>
+			<expectedDate>07/13/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>IN PROCESS</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>ALANA CUP</description>
+			<price>10.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>20.00</totalAmount>
+			<expectedDate>07/13/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>IN PROCESS</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>610836202136</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag/>
+		<title/>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail/>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>ALANA MUG</description>
+			<price>30.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>60.00</totalAmount>
+			<expectedDate>08/24/2015</expectedDate>
+			<newExpectedDate/>
+			<delaySentDate/>
+			<delayWaitDate/>
+			<systemCancelDate/>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag/>
+			<status>IN PROCESS</status>
+			<vendor/>
+			<cancelledQuantity/>
+			<upcId>735991085247</upcId>
+			<userCancelDate/>
+			<vgcNumber/>
+			<vgcCidNumber/>
+			<expiryDate/>
+			<size/>
+			<color/>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>ALANA DRESS</description>
+			<price>40.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>80.00</totalAmount>
+			<expectedDate>08/24/2015</expectedDate>
+			<newExpectedDate/>
+			<delaySentDate/>
+			<delayWaitDate/>
+			<systemCancelDate/>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag/>
+			<status>IN PROCESS</status>
+			<vendor/>
+			<cancelledQuantity/>
+			<upcId>781910666011</upcId>
+			<userCancelDate/>
+			<vgcNumber/>
+			<vgcCidNumber/>
+			<expiryDate/>
+			<size/>
+			<color/>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

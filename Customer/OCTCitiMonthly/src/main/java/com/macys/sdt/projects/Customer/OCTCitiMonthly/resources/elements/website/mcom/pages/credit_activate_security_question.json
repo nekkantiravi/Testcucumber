@@ -1,0 +1,12 @@
+{
+  "url": "#iqa",
+  "verify_page": "id, apply_submit",
+
+  "almostDone": "class, mainTitle",
+
+  "que1": "id, kiq_optionsRadios05",
+  "que2": "id, kiq_optionsRadios15",
+  "que3": "id, kiq_optionsRadios25",
+  "submit": "id, apply_submit"
+
+}

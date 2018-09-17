@@ -1,0 +1,10 @@
+{
+  "include": [
+    "panel.footer"
+  ],
+  "url": "/account/signin?fromLoyalty=loyaltySignIn",
+  "verify_page": "class, b-loyalty-signin-header-image",
+  "create_profile_enroll_button": "id, mb-j-signup-button||id, b-j-create-account-button",
+  "become_a_loyallist_button": "id, b-j-become-loyallist-button",
+  "already_a_loyallist_sign_in_button": "id, b-j-sign-in-button"
+}

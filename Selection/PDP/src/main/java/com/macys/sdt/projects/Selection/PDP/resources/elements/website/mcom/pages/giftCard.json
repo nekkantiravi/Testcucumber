@@ -1,0 +1,14 @@
+{
+  "GiftsArrowLink":	      					 "cssSelector, .dropdown-caret.icon-ui-carrot-down-bk-small",
+  "giftLinks":	    		     			 "xpath, .//*[@id='link-rail']//div//li[4]/ul//li",
+  "giftCardLinks":	    					 "xpath, .//*[@id='categoryTree']/ul/li/span",
+  "navTitle":                                "xpath, .//*[@id='nav_title']",
+  "leftNavCat":                              "cssSelector, #categoryTree",
+  "navTitleHeader":                          "cssSelector, .primary>a",
+  "subCatHeaders":                           "xpath, .//*[@id='firstNavSubCat']/li/span",
+  "subCatList":                              "xpath, .//*[@id='categoryTree']/ul/li/ul/li/a",
+  "giftCardsTitle":                          "xpath, .//*[@id='GCTitle']/strong",
+  "giftCardPanel":                           "xpath, .//*[@id='divtext']",
+  "giftCards":                               "xpath, .//*[@id='divtext']//img",
+  "eGiftCards":                              "xpath, .//*[@class='productThumbnailImage']/a"
+}

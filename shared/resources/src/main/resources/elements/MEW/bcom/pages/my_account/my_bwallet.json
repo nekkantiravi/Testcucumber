@@ -1,0 +1,13 @@
+{
+  "url": "/account/wallet",
+  "verify_page": "className, b-wallet-header",
+
+  "add_offer_btn": "id, mb-j-add-offers",
+  "offers_container": "className, mb-j-wallet-offer",
+  "goto_edit_card": "cssSelector, .mb-wallet-credit-cards",
+  "edit_credit_card_heading": "xpath, //div[contains(text(),'Edit a Credit Card')]",
+  "cobrand_message_notification":"id, b-wallet-info-messages",
+  "cobrand_msg_learn_more_link": "css, .infoMessages .body a",
+  "cobrand_msg_close":"class,close-button",
+  "add_credit_card_btn": "id, mb-j-add-credit-card"
+}

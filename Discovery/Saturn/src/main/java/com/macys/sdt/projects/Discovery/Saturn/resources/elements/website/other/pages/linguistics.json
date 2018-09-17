@@ -1,0 +1,45 @@
+{
+  "dictionary_tab": "xpath, //div[@id='pHeader']/div[1]",
+  "add": "xpath,//button[contains(.,'Add')]",
+  "add_dictionary_window": "xpath, //span[@id='ui-dialog-title-addDictFormDiv']",
+  "dictionary_name": "id,name",
+  "dictionary_type": "id,typelist",
+  "dictionary_save": "xpath, //button[contains(.,'Save')]",
+  "dictionary_edit": "xpath,//button[contains(.,'Edit')]",
+  "term_relationship_delete": "xpath,//a[contains(.,'Delete')]",
+  "dictionary_type_on_term_popup": "id, dictType",
+  "dictionary_name_on_term_popup": "id, dictName",
+  "dictionary_term_1": "id, term1",
+  "dictionary_term_2": "id, term2",
+  "dictionary_term_relationship": "id, operatorList",
+  "comments": "id, comments",
+  "term_relationship_save": "xpath, //button[contains(.,'Save')]",
+  "term_relationship_cancel": "xpath, //button[contains(.,'Cancel')]",
+  "term_relationship_edit": "xpath, //a[contains(.,'Edit')]",
+  "term_search_go": "id, filterTermBtn",
+  "term_result_dictionary_name": "xpath, //table[@id='TBLterms']//tr[1]/td[1]",
+  "term_result_type": "xpath, //table[@id='TBLterms']//tr[1]/td[2]",
+  "term_result_term_1": "xpath, //table[@id='TBLterms']//tr[1]/td[3]",
+  "term_result_relationship": "xpath, //table[@id='TBLterms']//tr[1]/td[4]",
+  "term_result_term_2": "xpath, //table[@id='TBLterms']//tr[1]/td[5]",
+  "edit_term_on_terms_page": "xpath, //table[@id='TBLterms']//tr[1]//a[1]",
+  "dictionary_term_one":"xpath,//table[@id='TBLrelationships']/tbody/tr/td[1]",
+  "dictionary_term_two":"xpath,//table[@id='TBLrelationships']/tbody/tr/td[2]",
+  "dictionary_term_three":"xpath,//table[@id='TBLrelationships']/tbody/tr/td[3]",
+  "linguistics_alert_popup_message": "xpath, //div[@id='msgDialog']/div/ul",
+  "linguistics_alert_ok": "xpath, //button[contains(.,'Ok')]",
+  "add_term_popup_dictionary_label": "xpath, //div[@id='dictionaryTypeDiv']/label",
+  "dictionary_results_last": "xpath, //span[@id='TBLdictionaries_last']",
+  "dictionary_view_details": "linkText, View Details",
+  "edit_term_on_dictionary_detail_page": "xpath, //table[@id='TBLrelationships']//tr[1]//a[1]",
+  "add_button_on_dictionary_detail_page": "xpath, //button[contains(.,'Add') or @title='Add Relationship/Designation']",
+  "dictionary_name_on_dictionary_detail_page": "id, typelist",
+  "dictionary_detail_page_term_result_term_1": "xpath,//table[@id='TBLrelationships']//tr[1]/td[1]",
+  "dictionary_detail_page_term_result_relationship": "xpath, //table[@id='TBLrelationships']//tr[1]/td[2]",
+  "dictionary_detail_page_term_result_term_2": "xpath, //table[@id='TBLrelationships']//tr[1]/td[3]"
+
+
+}
+
+
+

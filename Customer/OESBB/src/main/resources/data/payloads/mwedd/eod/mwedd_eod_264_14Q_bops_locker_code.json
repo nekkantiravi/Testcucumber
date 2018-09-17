@@ -1,0 +1,314 @@
+{
+	"fulfillmentOrder": {
+		"orderHeader": {
+			"orderID": "441131285",
+			"dataCenterCode": "RTP",
+			"orderStatusCode": "6",
+			"orderStatusDescription": "IN_PROCESS",
+			"orderConfirmTimestamp": "2017-08-21T14:31:34.001-04:00",
+			"orderConfirmUtcTimestamp": "2017-08-21T18:31:34.001Z",
+			"sellingChannelCode": "MCOM",
+			"sellLegacyDivisionNbr": "71",
+			"sellLegacyLocationNbr": "139",
+			"salesAssociateId": "71115670",
+			"messageCreateTimestamp": "2017-08-21T15:36:45.909-04:00",
+			"messageCreateUtcTimestamp": "2017-08-21T19:36:45.909Z",
+			"eventType": "SHPSCF",
+			"eventTimestamp": "2017-08-21T15:36:27.801-04:00",
+			"eventUtcTimestamp": "2017-08-21T19:36:27.801Z",
+			"partnerRefList": {
+				"partnerRef": [
+					{
+						"partnerOrderId": "30169713"
+					}
+				]
+			},
+			"billingAddress": {
+				"customerDetail": {
+					"customerId": "63713854",
+					"firstName": "HARI",
+					"lastName": "HARI",
+					"addressLine1": "919 MOWRY AVE",
+					"addressLine2":"ROAD 13",
+					"addressLine3":"APT 123",
+					"cityName": "FREMONT",
+					"stateName": "CA",
+					"zipCode": "94536-4139",
+					"isoCountryCode": "USA",
+					"dayTimePhoneNbr": "510-770-4064",
+					"homePhoneNbr": "510-770-4064",
+					"alternatePhoneNbr": "510-770-4064",
+					"sendSmsMessageFlag": "true",
+					"emailId":"oes.macys@gmail.com"
+				}
+			},
+			"orderManagementApplicationCode": "FIL"
+		},
+		"lineItemList": {
+			"lineItem": [
+				{
+					"orderLineItemNbr": "1",
+					"originalLineItemNbr": "1",
+					"lineItemCrossReferenceNbr": "1",
+					"orderShipmentNbr": "1",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "STR1",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "23",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "23",
+					"itemSkuUpc": "21614055606",
+					"productGroupCode": "ELECT2",
+					"itemDepartmentNbr": "691",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "179.99",
+					"originalPriceAmount": "179.99",
+					"retailPriceAmount": "179.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "5",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-21-04:00"
+				},
+				{
+					"orderLineItemNbr": "2",
+					"originalLineItemNbr": "2",
+					"lineItemCrossReferenceNbr": "2",
+					"orderShipmentNbr": "2",
+					"lineItemStatusCode": "7",
+					"lineItemStatusDescription": "SHIPPED",
+					"fulfillmentChannelCode": "POOL",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "858",
+					"salesCreditLegacyDivisionNbr": "71",
+					"salesCreditLegacyStoreNbr": "129",
+					"itemSkuUpc": "11644896683",
+					"productGroupCode": "COOK3",
+					"itemDepartmentNbr": "873",
+					"itemQuantity": "1",
+					"itemOriginalQuantity": "0",
+					"itemAdjustedQuantity": "1",
+					"purchasePriceAmount": "799.99",
+					"originalPriceAmount": "799.99",
+					"retailPriceAmount": "799.99",
+					"surchargeAmount": "0.0",
+					"deliveryType": "3",
+					"deliveryPromotionType": "N",
+					"expectedShipDate": "2017-08-23-04:00"
+				}
+			]
+		},
+		"shipmentList": {
+			"shipment": [
+				{
+					"orderShipmentNbr": "1",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"giftRegistryNbr":"2800014815502",
+					"giftRegistrant1":"ANNE",
+             		"giftRegistrant2":"SAM",
+					"sellingChannelCode": "MCOM",
+					"lockerAccessCode": "123456",
+					"fulfillmentLocationNbr": "2450",
+					"fulfillmentLegacyDivisionNbr": "71",
+					"fulfillmentLegacyLocationNbr": "23",
+					"shipmentFeeSlideScaleBaseAmount": "0.0",
+					"totalAmount": "190.79",
+					"taxAmount": "10.01",
+					"retailAmount": "179.99",
+					"retailTaxAmount": "10.08",
+					"shippingChargeAmount": "0.0",
+					"shippingTaxAmount": "0.0",
+					"upChargeFeeAmount":"5.01",
+               		"giftWrapFeeAmount":"0.01",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "10.01",
+					"miscellaneousTaxAmount": "0.0",
+					"giftFlag": "true",
+					"giftWrapType": "N",
+					"readyToPickUpTimestamp": "2017-08-21T15:34:14.018-04:00",
+					"readyToPickUpUtcTimestamp": "2017-08-21T19:34:14.018Z",
+					"actualPickUpTimestamp": "9999-12-31T00:00:00-05:00",
+					"pickUpScheduleCancelDate": "2018-02-28T19:34:14.018Z",
+					"pickUpCancelDate": "9999-12-31-05:00",
+					"pickUpBarCode": "441131285001",
+					"pickUpInstructionText": "MCOM BOPS Pickup Instruction",
+					"deliveryType": "5",
+					"deliveryTypeDescription": "BOPS",
+					"estimatedArrivalDate": "9999-12-31-05:00",
+					"expectedShipDate": "2017-08-21",
+					"expectedShipTime": "18:29:35.966-04:00",
+					"holdDate": "2017-08-21-04:00",
+					"actualShipDate": "2017-08-21-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "C",
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "190.79",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "190.79",
+								"authorizationPlanType": "338790",
+								"authorizationDate": "2017-08-21-04:00",
+								"authorizationExpiredDate": "2017-08-28-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713895",
+							"firstName": "HEY",
+							"lastName": "HEY",
+							"addressLine1": "8000 TYSONS CORNER CTR",
+							"cityName": "MCLEAN",
+							"stateName": "VA",
+							"zipCode": "22102-4504",
+							"isoCountryCode": "USA",
+							"addressType": "Commercial",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"emailId": "HVILAYANNUR@NISUM.COM"
+						}
+					},
+					"alternatePickupPerson": {
+						"customerDetail": {
+							"customerId": "63713895",
+							"firstName": "HEY",
+							"lastName": "HEY",
+							"addressLine1": "8000 TYSONS CORNER CTR",
+							"cityName": "MCLEAN",
+							"stateName": "VA",
+							"zipCode": "22102-4504",
+							"isoCountryCode": "USA",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"emailId": "TEST_EMAIL@ABC.COM"
+						}
+					},
+					"giftWrapFlag": "false"
+				},
+				{
+					"orderShipmentNbr": "2",
+					"shipStatusCode": "7",
+					"shipStatusDescription": "SHIPPED",
+					"shipmentType": "1",
+					"shipmentTypeDescription": "SHIPMENT",
+					"sellingChannelCode": "MCOM",
+					"fulfillmentLocationNbr": "4421",
+					"fulfillmentLegacyDivisionNbr": "88",
+					"fulfillmentLegacyLocationNbr": "64",
+					"shipmentFeeSlideScaleBaseAmount": "0.0",
+					"totalAmount": "873.99",
+					"taxAmount": "74.01",
+					"retailAmount": "799.99",
+					"retailTaxAmount": "74.0",
+					"shippingChargeAmount": "0.0",
+					"shippingTaxAmount": "0.0",
+					"upChargeFeeAmount": "0.0",
+					"giftWrapFeeAmount": "0.0",
+					"giftWrapTaxAmount": "0.0",
+					"additionalAddressFeeAmount": "0.0",
+					"miscellaneousTaxAmount": "0.0",
+					"giftFlag": "true",
+					"giftWrapType": "N",
+					"deliveryType": "3",
+					"deliveryTypeDescription": "GROUND",
+					"deliveryPromotionType": "N",
+					"estimatedArrivalDate": "2017-08-30-04:00",
+					"expectedShipDate": "2017-08-23",
+					"expectedShipTime": "23:59:00-04:00",
+					"holdDate": "2017-08-21-04:00",
+					"actualShipDate": "2017-08-21-04:00",
+					"partnerCustomerServicePhone": "1-800-289-6229",
+					"partnerCustomerServiceHours": "Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm",
+					"partnerCustomerServiceFraudPhone": "1-866-282-8977",
+					"partnerCustomerServiceFraudHours": "Mon - Fri 9am to 9pm, Sat & Sun 9am to 7pm",
+					"partnerCustomerServiceName": "macys.com",
+					"currentShipmentIndicator": "P",
+					"tenderList": {
+						"tender": [
+							{
+								"tenderType": "Visa",
+								"tenderAmount": "873.99",
+								"accountNbr": "4445220000000000",
+								"accountIndicator": "I",
+								"accountIndicatorDescription": "IRN",
+								"accountType": "V",
+								"accountTypeDescription": "Visa",
+								"paymentTransactionType": "D",
+								"authorizationAmount": "873.99",
+								"authorizationPlanType": "338790",
+								"authorizationDate": "2017-08-21-04:00",
+								"authorizationExpiredDate": "2017-08-28-04:00"
+							}
+						]
+					},
+					"shippingAddress": {
+						"customerDetail": {
+							"customerId": "63713854",
+							"firstName": "HARI",
+							"lastName": "HARI",
+							"addressLine1": "919 MOWRY AVE",
+							"addressLine2": "APT 9",
+							"cityName": "FREMONT",
+							"stateName": "CA",
+							"zipCode": "94536-4139",
+							"isoCountryCode": "USA",
+							"addressType": "Residence",
+							"dayTimePhoneNbr": "510-770-4064",
+							"homePhoneNbr": "510-770-4064",
+							"alternatePhoneNbr": "510-770-4064",
+							"emailId": "V.A.HARINATH@GMAIL.COM"
+						}
+					},
+					"giftWrapFlag": "false"
+				}
+			]
+		},
+		"inventoryDeltaList": {
+			"inventoryDelta": [
+				{
+					"orderID": "441131285",
+					"shipmentNbr": "1",
+					"inventoryDeltaActionCode": "SHIPPED",
+					"lineItemNbr": "1",
+					"orderManagementSenderCode": "FIL",
+					"inventoryDeltaDateTime": "2017-08-21T15:36:27.789-04:00",
+					"inventoryDeltaUtcDateTime": "2017-08-21T19:36:27.789Z",
+					"mediaDate": "2017-08-21-04:00",
+					"processName": "SCF",
+					"racfID": "71115670",
+					"locationNbr": "2450",
+					"itemDepartmentNbr": "691",
+					"itemSkuUpc": "21614055606",
+					"quantityAmount": "1"
+				}
+			]
+		},
+		"customerCommunicationList": {
+			"customerCommunication": [
+				{
+					"mailSourceId":"EOD_MailSourceID",
+					"mailTypeCode": "264",
+					"mailSubtypeCode": "14Q",
+					"partyType": "B"
+				}
+			]
+		},
+		"orderFraudInformation": {}
+	}
+}

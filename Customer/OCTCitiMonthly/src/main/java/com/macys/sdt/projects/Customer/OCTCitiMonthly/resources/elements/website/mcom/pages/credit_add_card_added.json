@@ -1,0 +1,7 @@
+{
+  "url": "RSnextgen/svc/launch",
+  "verify_page": "cssSelector, .default.ui-link.ui-btn.ui-shadow.ui-corner-all",
+
+  "return": "cssSelector, .default.ui-link.ui-btn.ui-shadow.ui-corner-all",
+  "continueOverlay": "xpath, //*[@id='speedbump']/section/a"
+}

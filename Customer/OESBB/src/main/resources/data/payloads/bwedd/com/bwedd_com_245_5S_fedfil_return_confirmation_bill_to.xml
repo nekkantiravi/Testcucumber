@@ -1,0 +1,94 @@
+<mailMessagePayload>
+  <reservationNumber>601412472</reservationNumber>
+  <internetOrderNumber>COM_245_5S_BWEDD</internetOrderNumber>
+  <orderDate>11/13/2012</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>231.99</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>14.50</taxAmt>
+  <orderTotal>231.99</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0011</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+  <billingDetail>
+    <title />
+    <firstName>MARIE</firstName>
+    <middleName />
+    <lastName>RYAN</lastName>
+    <attnLine />
+    <addressLine1>538 GREEN ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>CAMBRIDGE</city>
+    <state>MA</state>
+    <country>USA</country>
+    <zipcode>02139</zipcode>
+  </billingDetail>
+  <paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************0605</accountNumber>
+		<amount>231.99</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>002</shipmentNumber>
+    <shippedDate>12/01/2012</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName>MARIE</firstName>
+    <middleName />
+    <lastName>RYAN</lastName>
+    <attnLine />
+    <addressLine1>538 GREEN ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>CAMBRIDGE</city>
+    <state>MA</state>
+    <country>USA</country>
+    <zipcode>02139</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>OVAL COCOTTE</description>
+      <price>231.99</price>
+      <requestedQuantity>004</requestedQuantity>
+      <availableQuantity></availableQuantity>
+      <shippedQuantity></shippedQuantity>
+      <totalAmount>231.99</totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>STAUB USA INC</vendor>
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+	  <returnReason>Wrong Item</returnReason>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

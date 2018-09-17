@@ -1,0 +1,4 @@
+{
+  "url": "/CRS/acq/launch||/ce/creditservice/marketing/main",
+  "verify_page": "id, apply_form||cssSelector, .damnButton||cssSelector, .lower-btn"
+}

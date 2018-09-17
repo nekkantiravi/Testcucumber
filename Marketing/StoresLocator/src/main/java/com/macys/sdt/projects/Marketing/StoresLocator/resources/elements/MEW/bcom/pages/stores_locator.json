@@ -1,0 +1,28 @@
+{
+  "url":                          "/store-locator",
+  "verify_page":                  "cssSelector, button.search-button",
+
+  "container":                    "cssSelector, .search-content-container",
+  "search_title":                 "cssSelector, h1.main-title",
+  "search_input":                 "cssSelector, input.search-input",
+  "search_button":                "cssSelector, button.search-button",
+  "search_near_me":               "cssSelector, img.LocationList-geolocateIcon",
+  "search_filters":               "cssSelector, select.search-select.form-control.full-width",
+  "search_all":                   "cssSelector, a.no-results-link",
+  "search_error_msg":             "cssSelector, div.no-results-wrapper.Text--locatorText",
+
+  "map_view_show":                "cssSelector, button.CollapseSection-button",
+  "map_view_hide":                "cssSelector, button.CollapseSection-button isExpanded",
+  "map_container":                "cssSelector, #mobile-map",
+
+  "store_list":                   "cssSelector, ol.ResultList",
+  "store_list_entry":             "cssSelector, li.ResultList-item.js-location-result.ResultList-item--ordered",
+  "store_title":                  "cssSelector, h3.Teaser-title.Heading",
+  "store_hours":                  "cssSelector, span.c-location-hours-today-day-hours-intervals-instance-close",
+  "store_address":                "cssSelector, address.c-address",
+  "store_phone_number":           "cssSelector, div.c-phone-number.c-phone-main-number",
+  "store_directions":             "cssSelector, a[data-ya-track=drivingdirection]",
+  "store_website":                "cssSelector, a[data-ya-track=visit_page]",
+
+  "END":                          "name, envOfDefinition"
+}

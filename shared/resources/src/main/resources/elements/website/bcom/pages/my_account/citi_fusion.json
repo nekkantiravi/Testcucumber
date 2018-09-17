@@ -1,0 +1,4 @@
+{
+  "url":                "/RSnextgen/svc/launch/",
+  "verify_page":        "css,div.wrapper h1"
+}

@@ -1,0 +1,9 @@
+{
+    "include": [
+        "panel.header_and_footer"
+    ],
+    "bloomingdalesLogo":                          "xpath, //*[@id='bloomiesLogo']//a",
+    "globalSearchInputField":                     "class, aboveNavSearchBox",
+    "iShipFlagLink":                              "id, headerCountryFlag",
+    "backToUS":                                   "id, shipToUs"
+}

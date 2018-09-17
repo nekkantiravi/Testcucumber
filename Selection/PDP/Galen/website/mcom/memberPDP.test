@@ -1,0 +1,24 @@
+@@ set
+    domain          www1.qa12codemacys.fds.com/shop/product/ralph-lauren-hagan-stripe-standard-pillowcase?CategoryID=7554&ID=
+    pdp_url         http://${domain}
+
+@@ parameterized
+
+    | deviceName | tags      | size      |
+    | Desktop    | desktop   | 1280x800  |
+
+@@ parameterized
+
+    | productId |
+    | 77589     |
+
+@@ parameterized
+
+    | browser |
+    | Chrome  |
+
+
+Member PDP ${productId} on ${deviceName} in ${browser}
+    selenium ${browser} ${pdp_url}${productId} ${size}
+      run Selection/PDP/Galen/website/mcom/memberPDP.js
+      check Selection/PDP/Galen/website/mcom/memberPDP.gspec --include ${tags}

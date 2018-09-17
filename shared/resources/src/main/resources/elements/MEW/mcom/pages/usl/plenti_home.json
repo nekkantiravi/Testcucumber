@@ -1,0 +1,7 @@
+{
+  "url": "m/campaign/loyalty/",
+  "btn_about_plenti": "xpath, //a[text()='about Plenti']",
+  "btn_join_free": "xpath, //a[text()='Join for free']||linkText, JOIN FOR FREE",
+  "btn_already_member": "xpath, //a[text()='already a member?']",
+  "learn_more": "linkText, Learn More About Plenti||linkText, learn more"
+}

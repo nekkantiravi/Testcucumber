@@ -1,0 +1,29 @@
+{
+  "plenti_points_text": "xpath,//*[contains(text(),'Plenti Points')]",
+  "gift_plenti_reward_cards":     "id, rc-at-gift-rewards-cards",
+  "gift_plenti_reward_values":    "id, rc-at-gift-rewards-cards-value",
+  "gift_wrap_cost":               "id, rc-at-gift-cost-total",
+
+  "mmoney_earn_logo":             "cssSelector, .rc-reward-card-logo",
+  "mmoney_estimated_earn_text":   "id, rc-at-money-reward",
+  "mmoney_estimated_earn_amount": "id, rc-mmoney-reward",
+  "mmoney_hint_icon":             "id, rc-reward-hint",
+  "mmoney_hint_overlay":          "id, rc-overlay-content",
+  "mmoney_hint_overlay_close":    "className, rc-close-btn",
+
+  "bops_shipping":                "id, rc-at-bops-cost||id, rc-at-bops",
+  "normal_shipping":              "id, rc-at-shipping-cost",
+  "shipping_fee":               "id, rc-at-shipping-cost-value",
+  "rental_damage_label":      "id,rc-at-rental-damage-label",
+  "rental_damage_value":        "id, rc-at-rental-damage-value",
+  "rc_order_summary": "css, #rc-order-subtotal-container li",
+
+    "rc_bigticket_white_glove_delivery_label":       "id, rc-at-white-glove-delivery-cost",
+    "rc_bigticket_white_glove_delivery_fees":        "id, rc-at-white-glove-delivery-value",
+    "rc_bt_wnm_label":                               "id, rc-at-worry-no-more-cost",
+    "rc_bt_wnm_fee":                                 "id, rc-at-worry-no-more-value",
+    "rc_bt_recycle_label":                           "id, rc-at-mattress-recycling-fee",
+    "rc_bt_recycle_fee":                             "id, rc-at-mattress-recycling-fee-value",
+
+    "place_order":                  "id, rc-place-order"
+}

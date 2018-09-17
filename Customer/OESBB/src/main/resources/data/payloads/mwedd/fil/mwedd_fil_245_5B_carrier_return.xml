@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>010924117</reservationNumber>
+  <internetOrderNumber>TEST</internetOrderNumber>
+  <thirdPartyOrderNumber />
+  <orderDate>01/05/2015</orderDate>
+  <shopAt>Macy's Wedding and Gift Regist</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>30.12</orderSubtotalAmt>
+   <baseShippingAmt>10.34</baseShippingAmt>
+   <addtShipAddAmt>20.56</addtShipAddAmt>
+   <shipUpgradeAmt>30.78</shipUpgradeAmt>
+   <giftWrapAmt>40.91</giftWrapAmt>
+   <taxAmt>5.23</taxAmt>
+   <orderTotal>100.45</orderTotal>
+   <divisionCode>071</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <multiSiteId>123</multiSiteId>
+   <munTaxAmt>12.23</munTaxAmt>
+   <miscTaxAmt>99.00</miscTaxAmt>
+   <smsFlag>Y</smsFlag>
+   <ltyFlag>Y</ltyFlag>
+   <ltyIdUsl>1234567890123456</ltyIdUsl>
+   <billingDetail>
+      <title>Mr.</title>
+      <firstName>Migration</firstName>
+      <middleName>Esp</middleName>
+      <lastName>Testing</lastName>
+      <attnLine />
+      <addressLine1>123 RIDGEWOOD DR</addressLine1>
+      <addressLine2>416 WATER ST</addressLine2>
+      <addressLine3>STREET NO 46</addressLine3>
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10002</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************4455</accountNumber>
+      <amount>899.02</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>014</shipmentNumber>
+      <shippedDate>11/27/2016</shippedDate>
+      <mailFlag />
+      <title />
+      <firstName>TEST-Shipping</firstName>
+      <middleName />
+      <lastName>ONE</lastName>
+      <attnLine />
+      <addressLine1>450 BANK ST</addressLine1>
+      <addressLine2>10th FLOOR</addressLine2>
+      <addressLine3>STREET NO 78</addressLine3>
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10002</zipcode>
+      <greetingMessage>Happy Birthday</greetingMessage>
+      <closingMessage>Have Fun</closingMessage>
+      <signatureMessage>Thank You</signatureMessage>
+      <giftRegistryNumber>5664</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftRegistrant1>OES Testing</giftRegistrant1>
+      <giftRegistrant2>OES Team</giftRegistrant2>
+      <giftRegistrant2 />
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <returnSubmittedDate>12/31/2016</returnSubmittedDate>
+      <trackingDetail>
+         <trackingNumber>xy33393asd1</trackingNumber>
+         <numberofPackages>1</numberofPackages>
+         <shipmentCarrier>Fedex</shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber>014</lineNumber>
+         <description>Lenox Tuscany</description>
+         <price>17.59</price>
+         <requestedQuantity>003</requestedQuantity>
+         <availableQuantity>003</availableQuantity>
+         <shippedQuantity>003</shippedQuantity>
+         <totalAmount>17.59</totalAmount>
+         <expectedDate>11/27/2015</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor>STYLE &amp; CO</vendor>
+         <cancelledQuantity></cancelledQuantity>
+         <upcId>882864391223</upcId>
+         <userCancelDate>04/06/2015</userCancelDate>
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+         <returnStatus>RT</returnStatus>
+         <returnExpectedDate>04/07/2015</returnExpectedDate>
+         <returnReasonDescription>Reason Description</returnReasonDescription>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

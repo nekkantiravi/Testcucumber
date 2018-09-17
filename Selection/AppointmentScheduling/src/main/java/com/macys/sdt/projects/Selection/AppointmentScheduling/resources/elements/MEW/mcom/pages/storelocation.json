@@ -1,0 +1,6 @@
+{
+  "url":              "",
+  "location": 	      "id, location",
+  "select_store":     "cssSelector,ul#locationId li:nth-of-type(1)",
+  "continue":        "id,nextBtn"
+}

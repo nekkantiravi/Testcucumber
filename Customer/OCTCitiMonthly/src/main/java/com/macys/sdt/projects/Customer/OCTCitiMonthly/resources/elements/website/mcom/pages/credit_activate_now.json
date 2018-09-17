@@ -1,0 +1,6 @@
+{
+  "url": "#registration",
+  "verify_page": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all",
+
+  "activateNow": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all"
+}

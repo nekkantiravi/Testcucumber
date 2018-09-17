@@ -1,0 +1,39 @@
+{
+  "billFirstName": "BillFirst",
+  "billLastName": "BillLastName",
+  "billAddressLine1": "testBillAdd1",
+  "billAddressLine2": "testBillAdd2",
+  "billCity": "billCity",
+  "billState": "billState",
+  "billZip": "94103",
+  "shipments": [
+    {
+      "shipFirstName": "Srikanth-ShipName1",
+      "shipLastName": "Bharadwaja-ShipLastName1",
+      "shipAddrLine1": "testShipAdd1",
+      "shipAddrLine2": "testShipAdd2",
+      "shipCity": "testShipCity1",
+      "shipState": "testShipState1",
+      "shipZip": "94103"
+    },
+    {
+      "shipFirstName": "ShipFirstName2",
+      "shipLastName": "ShipLastName2",
+      "shipAddrLine1": "testShipAdd3",
+      "shipAddrLine2": "testShipAdd4",
+      "shipCity": "testShipCity2",
+      "shipState": "testShipState2",
+      "shipZip": "94105"
+    }
+  ],
+  "payments": [
+    {
+      "cardType": "VISA",
+      "cardNumber": "1234"
+    },
+    {
+      "cardType": "Master",
+      "cardNumber": "5678"
+    }
+  ]
+}

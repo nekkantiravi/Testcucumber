@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>123456789</reservationNumber>
+  <internetOrderNumber>987654321</internetOrderNumber>
+  <orderDate>03/24/2016</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>34.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>3.02</taxAmt>
+  <orderTotal>37.02</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>Y</smsFlag>
+  <ltyFlag>N</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 MORGAN ST</addressLine1>
+    <addressLine2>APT 3407</addressLine2>
+    <addressLine3 />
+    <city>JERSEY CITY</city>
+    <state>NJ</state>
+    <country>USA</country>
+    <zipcode>07302</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>37.02</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>03/24/2016</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag>C</mailFlag>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 BROADWAY</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10012</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>2800065341234</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>Y</giftReceiptFlag>
+    <pickupBarcode>495335701234</pickupBarcode>
+    <pickupReadyDate>03/24/2016</pickupReadyDate>
+    <pickupCancelDate>03/31/2016</pickupCancelDate>
+    <shipRetailAmt>34.00</shipRetailAmt>
+    <shipTaxAmt>3.02</shipTaxAmt>
+    <shipFilLoc>1456</shipFilLoc>
+    <shipPhone>310-918-1234</shipPhone>
+	<shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>CASA PAC DIFFUSER</description>
+			<price>34.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>34.00</totalAmount>
+			<expectedDate>03/24/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity>004</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>04/04/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>N</mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 BROADWAY</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10012</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800065341234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>CASA PAC DIFFUSER</description>
+			<price>34.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>34.00</totalAmount>
+			<expectedDate>04/04/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor></vendor>
+			<cancelledQuantity>004</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

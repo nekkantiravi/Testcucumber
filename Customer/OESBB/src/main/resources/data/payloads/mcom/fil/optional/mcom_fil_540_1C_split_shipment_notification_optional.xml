@@ -1,0 +1,197 @@
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<internetOrderNumber>540_1C_MCOM</internetOrderNumber>
+	<orderDate>07/10/2012</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>160.00</orderSubtotalAmt>
+	<baseShippingAmt>8.00</baseShippingAmt>
+	<addtShipAddAmt></addtShipAddAmt>
+	<shipUpgradeAmt></shipUpgradeAmt>
+	<giftWrapAmt></giftWrapAmt>
+	<taxAmt></taxAmt>
+	<orderTotal>185.11</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType></paymentType>
+		<accountNumber></accountNumber>
+		<amount></amount>
+		<paymentCategoryFlag></paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber></shipmentNumber>
+		<shippedDate></shippedDate>
+		<mailFlag />
+		<title />
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description>ALANA MUG</description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate></expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>781910666011</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description>ALANA MUG</description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate></expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>781910666011</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber></shipmentNumber>
+		<shippedDate></shippedDate>
+		<mailFlag />
+		<title />
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description>ALANA MUG</description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate></expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>781910666011</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description>ALANA MUG</description>
+			<price></price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount></totalAmount>
+			<expectedDate></expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status></status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>781910666011</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

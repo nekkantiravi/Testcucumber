@@ -1,0 +1,14 @@
+{
+  "keyword_pattern_value_data": "Test",
+  "multiple_triggers_label_text": "Please select 'AND' or 'OR' between multiple triggers:",
+
+  "alert_message":"//div[@id='msgDialog']//ul/li",
+  "trigger_sequence":"dropdownTriggerType",
+  "save_trigger":"buttonSaveTrigger",
+  "category_id":"inputCategoryID",
+  "keyword_pattern_dropdown":"dropdownKeywordPatternCriteria",
+  "div_val":"_1",
+  "trigger_criteria":"//div[@id='divCriteriaA",
+  "keyword_pattern_value": "']//span[2]/input[contains(@id, 'tagBox-input')]"
+}
+

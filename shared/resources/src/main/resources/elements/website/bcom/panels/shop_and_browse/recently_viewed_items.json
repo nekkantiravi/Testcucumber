@@ -1,0 +1,12 @@
+{
+    "include": [
+        "panel.product_thumbnails"
+    ],
+    "thumbnail_wrapper":                    "id, rvItemsContainer",
+    "item":                                 "cssSelector, div#rvItemsContainer ul[data-page-index=\"0\"]",
+    "header":                               "className, recentlyViewed",
+    "edit_button":                          "className, rviEditButton",
+    "scroll_left":                          "id, rvArrowsLT",
+    "scroll_right":                         "id, rvArrowsRT",
+	"pdp_rvi_container":                    "id, recentlyViewed"
+}

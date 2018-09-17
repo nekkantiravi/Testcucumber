@@ -1,0 +1,28 @@
+{
+  "url": "/loyallist/enrollment",
+  "verify_page": "id, mb-j-loyallist-enrollment-first-name",
+
+  "first_name": "id, mb-j-loyallist-enrollment-first-name",
+  "last_name": "id, mb-j-loyallist-enrollment-last-name",
+  "address_line_1": "id, mb-j-loyallist-enrollment-address-line1",
+  "address_line_2": "id, mb-j-loyallist-enrollment-address-line2",
+  "address_city": "id, mb-j-loyallist-enrollment-city",
+  "address_state": "id, mb-j-loyallist-enrollment-state",
+  "address_zip_code": "id, mb-j-loyallist-enrollment-postal-code",
+  "phone_number": "id, mb-j-loyallist-enrollment-phone-number",
+  "dob_month": "id, mb-j-loyallist-enrollment-birth-month",
+  "dob_day": "id, mb-j-loyallist-enrollment-birth-day",
+  "dob_year": "id, mb-j-loyallist-enrollment-birth-year",
+  "email": "id, mb-j-loyallist-enrollment-email",
+  "verify_email": "id, mb-j-loyallist-enrollment-confirm-email",
+  "goto_terms_and_conditions": "id, mb-j-loyallist-enrollment-terms-and-conditions",
+  "accept_terms_and_conditions": "id, mb-j-loyallist-terms-and-conditions-buttons-accept",
+  "terms_and_conditions_status": "id, b-j-loyallist-enrollment-terms-and-conditions-status",
+  "submit_btn": "id, mb-j-loyallist-enrollment-save",
+  "password": "id, mb-j-loyallist-enrollment-password",
+  "verify_password": "id, mb-j-loyallist-enrollment-confirm-password",
+  "security_question": "id, mb-j-loyallist-enrollment-security-question",
+  "security_answer": "id, mb-j-loyallist-enrollment-security-question-answer",
+  "terms_conditions": "id, b-j-loyallist-enrollment-terms-and-conditions-status",
+  "accept_terms_conditions": "id, mb-j-loyallist-terms-and-conditions-buttons-accept"
+}

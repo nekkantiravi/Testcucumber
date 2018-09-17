@@ -1,0 +1,22 @@
+{
+    "product_thumbnail_link":           "cssSelector, div.productThumbnail div.productImages > a || cssSelector, div.productThumbnail div.productThumbnailImage > a",
+    "thumbnail_wrapper":                "class, productThumbnail",
+    "product_thumbnail_with_review":    "xpath, //div[@class='customerRating']/../div[contains(@class, productImages)]/a||xpath, //div[@class='b-pdp-rating']/../div[contains(@class,'productImages')]/a||xpath, //div[@class='productReviews']/span[@class='rating']/../../a",
+    "color_swatch":                     "className, thumbnailSwatchesList",
+    "color_swatches":                   "className, color-swatch",
+    "product_short_description":        "cssSelector, .shortDescription>div>a",
+    "chanel_product_brand":             "cssSelector, .thumbnails #chanelBrand",
+    "chanel_product_name":              "cssSelector, .thumbnails #chanelProductName",
+    "price":                            "className, prices",
+    "priceThumbnail":                   "cssSelector, div[id^=priceSaleThumbnails] || className, priceInfo",
+    "product_price_pdp":                "className, cw_price_holder",
+    "badgeHeader":                      "className, badgeHeader",
+    "product_names":                    "id,prodName",
+    "description":                      "className, shortDescription ||className, productDescLink",
+    "brand_name":                       "id, brandName || className, brand",
+    "product_thumbnails":               "className, productThumbnail",
+    "thumbnail_grid":                   "id, macysGlobalLayout || class, sortableGrid",
+    "chanel_more_colors_button":        "className, more-button",
+    "chanel_color_swatch_container":    "className, thumbnailSwatchesList",
+    "chanel_color_swatch":              "className, colorSwatch"
+}

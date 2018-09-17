@@ -1,0 +1,12 @@
+{
+  "bloomingdales": [
+    {
+      "card_type": "Visa",
+      "card_number": "4111111111111111",
+      "security_code": "123",
+      "expiry_month": "June",
+      "expiry_month_index": "06",
+      "expiry_year": "2019"
+    }
+  ]
+}

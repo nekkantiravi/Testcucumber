@@ -1,0 +1,4 @@
+{
+  "url": "faq",
+  "verify_page": "xpath, //*[contains(text(),'Loyallist program')]"
+}

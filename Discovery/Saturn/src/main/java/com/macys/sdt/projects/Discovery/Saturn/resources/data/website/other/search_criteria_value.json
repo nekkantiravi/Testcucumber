@@ -1,0 +1,69 @@
+{
+  "filter_key_values": {
+    "Creator": "creator_search_results",
+    "Modifier": "modifier_search_results",
+    "Created Date": "created_search_results",
+    "Effective Date": "effective_date_search_results",
+    "Expiry Date": "expiry_date_search_results",
+    "FOB": "fob_search_results",
+    "Modified Date": "modified_search_results",
+    "Rule Name": "rule_name_search_results",
+    "Publish Filter": "published_search_results",
+    "Trigger Group Name": "trigger_group_name_search_results",
+    "Description": "trigger_group_name_search_results",
+    "Trigger Group Name For Group": "trigger_group_name_search_results",
+    "Dictionary Terms": "dictionary_term_search_results",
+    "Dictionary Names": "dictionary_search_results"
+  },
+  "filter_search_value": {
+    "Creator": "SuperBAUser",
+    "Modifier": "MMUser",
+    "Rule Name": "test",
+    "Publish Filter": "On",
+    "Trigger Group Name": "group",
+    "Trigger Group Name For Group": "group",
+    "Description": "test"
+  },
+  "simple_search_values": {
+    "Dictionary Names": "dictionary",
+    "Rule Name": "rule",
+    "Dictionary Terms": "dining",
+    "FOB": "kids",
+    "Rule Description": "shoe",
+    "Invalid Rule Name":"@$%!^@&"
+  },
+  "simple_search_key_values": {
+    "Dictionary Names": "dictionary_search_results_count",
+    "Rule Name": "rule_name_search_results_count",
+    "Dictionary Terms": "dictionary_term_search_results_count",
+    "FOB": "rule_name_search_results_count"
+  },
+  "Invalid_search_result_text":  {
+    "Invalid Rule Name Message":"No results found for rule name"
+  },
+
+  "category_ids_mcom": {
+    "Single Category ID": "10066",
+    "Multiple Category IDs separated by Comma": "29440,51608",
+    "Multiple Category IDs separated by Space": "29440 51608"
+  },
+  "category_ids_bcom": {
+    "Single Category ID": "1003334",
+    "Multiple Category IDs separated by Comma": "3949,1002993",
+    "Multiple Category IDs separated by Space": "3949 1002993"
+  },
+  "category_id_invalid_data": {
+    "Letters": "abcxy",
+    "Special Characters": "@$#&*;%",
+    "Letters and Special Characters": "@$#&*ab"
+  },
+  "rule_id_invalid_data": {
+    "Letters": "abcxy",
+    "Special Characters": "@$#&*;%",
+    "Letters and Special Characters": "@$#&*ab"
+  }
+
+
+
+
+}

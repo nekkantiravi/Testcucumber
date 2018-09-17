@@ -1,0 +1,13 @@
+{
+  "bops_slide_in": "id, mb-bagBopsModal-container",
+  "slide_in_zipcode": "id, mb-bops-address",
+  "slide_in_storeresults": "xpath, //*[@class='m-bops-stores-list']",
+  "slide_in_radiobutton": "name, bopsStore",
+  "bopsbag_pickup_radiobutton": "css, input[id*='pick-up']",
+  "bops_title": "class, m-bag-bops-title",
+  "greyed_out": "id, m-bops-unavailable",
+  "shopping_bag_wait": "id, m-bag-item-container",
+  "bops-address": "id, mb-bops-address",
+  "clear-button": "class, mb-bops-search-clear-icon",
+  "radius-selection": "id, mb-bops-distance"
+}

@@ -1,0 +1,18 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url": "/shop/coupons-deals",
+  "verify_page": "class, offersMain||id, offers-section",
+
+  "offers_container":"id, macys-offers",
+  "all_available_offers":"class, offer-actions-section",
+  "facebook_button":":id, facebook-share",
+  "twitter_button":":id, twitter-share",
+  "google_button":":id, gplus-shar'",
+  "shop_now":" :class, shop-now",
+  "error_add_to_wallet": "xpath, //div[@id='panelBodyPopIn']",
+  "wallet_image": "xpath, //div[@class='myWalletImg']",
+  "wallet_desc": "id, savingsOffers"
+
+}

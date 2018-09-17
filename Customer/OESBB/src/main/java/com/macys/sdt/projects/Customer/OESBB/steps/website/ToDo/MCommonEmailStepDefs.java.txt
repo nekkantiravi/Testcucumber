@@ -1,0 +1,3103 @@
+package com.macys.sdt.projects.Customer.OESBB.steps.website.mcommon;
+
+import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Date;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import com.macys.sdt.projects.Customer.OESBB.utils.model.Loyalty;
+import com.macys.sdt.projects.Customer.OESBB.utils.model.OptionalDatum;
+import org.apache.commons.lang3.StringUtils;
+import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.macys.sdt.projects.Customer.OESBB.utils.runner.MCOMBaseTest;
+import com.macys.sdt.projects.Customer.OESBB.utils.Utilities;
+import com.macys.sdt.projects.Customer.OESBB.utils.webdriver.Browser;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class MCommonEmailStepDefs extends MCOMBaseTest {
+	private static final MCommonEmailStepDefs mCommonEmailStepDefs = new MCommonEmailStepDefs();
+
+	private MCommonEmailStepDefs() {}
+
+	public static MCommonEmailStepDefs getInstance() {
+		return mCommonEmailStepDefs;
+	}
+
+	@Then("^i should see pre header:$")
+	public void i_should_pre_header(String preHeader) throws Throwable {
+		Assert.assertTrue("pre header  \" " + preHeader + " \" not exists",
+				StringUtils.contains(preHeader, mcomemailpage.getPreHeader().trim()));
+	}
+
+	@Then("^i should see pre header for bops ready for pick up:$")
+	public void i_should_pre_header_for_bops_ready_for_pick_up(String preHeader) throws Throwable {
+		preHeader = preHeader.replaceAll("<pickupCancelDate>",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getPickupCancelDate());
+		Assert.assertTrue("pre header  \" " + preHeader + " \" not exists",
+				StringUtils.contains(preHeader, mcomemailpage.getPreHeader()));
+
+	}
+
+	@And("^i should see body text for 240_mwedd:$")
+	public void i_should_body_text_for_240_1I_mwedd(String bodyText) throws Throwable {
+
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		bodyTextLines = bodyTextLines.replaceAll("[^a-zA-Z0-9,. (')]", "");
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists",
+				bodyTextLines.contains(bodyText.toLowerCase().trim()));
+	}
+
+	@And("^i should see body text for 264_14R:$")
+	public void i_should_body_text_for_264_14R(String bodyText) throws Throwable {
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		bodyText = bodyText.replaceAll("\n", "");
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists",
+				bodyTextLines.contains(bodyText.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see body text for 264_14S and 14T:$")
+	public void i_should_body_text_for_264_14S_and_14T(String bodyText) throws Throwable {
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		bodyText = bodyText.replaceAll("<billingAddr.firstName>",
+				enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName());
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists",
+				bodyTextLines.contains(bodyText.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see static contents in note section:$")
+	public void i_should_see_static_contents_in_note_section(String statictext) throws Throwable {
+		Assert.assertTrue("Static note text \" " + statictext + " \" not exists",
+				StringUtils.contains(statictext, mcomemailpage.getstaticNoteMessage()));
+	}
+
+	@And("^i should see mail body text for list share:$")
+	public void i_should_mail_body_text(String expectedbodyText) throws Throwable {
+
+		expectedbodyText = expectedbodyText.replaceAll("<shipmentFirstNameFromEp>",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName().toLowerCase());
+		Assert.assertEquals("Expected mail Body text not found in user email", expectedbodyText,
+				mcomemailpage.getBodyText().trim());
+	}
+
+	@And("^i should see body text for 543_1B bops pickup reminder:$")
+	public void i_should_see_body_text_for_543_1B_bops_pickup_reminder(String bodyText)
+			throws JsonParseException, JsonMappingException, IOException, InterruptedException {
+
+		try {
+			bodyText = bodyText
+					.replaceAll("<storeName>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName())
+					.replaceAll("<billingFirstName>",
+							enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName())
+					.replaceAll("<pickupCancelDate>", enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+							.get(0).getPickupCancelDate())
+					.toLowerCase().trim();
+
+			Assert.assertTrue(
+					"Expected mail Body text " + bodyText + "not found in user email. Actual body text:"
+							+ mcomemailpage.getBodyText().trim(),
+					StringUtils.contains(mcomemailpage.getBodyText().toLowerCase().replaceAll("\n", "").trim(),
+							bodyText));
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@And("^i should see body text for virtual return reminder:$")
+	public void i_should_see_body_text_for_virtual_return_reminder(String bodytext) throws Throwable {
+		String dateInitiated = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+				.getReturnSubmittedDate();
+		bodytext = bodytext.replaceAll("<returnSubmittedDate>", dateInitiated);
+
+		Assert.assertTrue(
+				"Expected mail Body text " + bodytext + "not found in user email. Actual body text:"
+						+ mcomemailpage.getBodyText().trim(),
+				StringUtils.contains(mcomemailpage.getBodyText().trim(), bodytext));
+
+	}
+
+	@And("^i should see body text for virtual exchange reminder:$")
+	public void i_should_see_body_text_for_virtual_exchange_reminder(String bodytext) throws Throwable {
+
+		bodytext = bodytext.replaceAll("<returnSubmittedDate>",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate());
+
+		String returnExpectedBackDate = null;
+
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				returnExpectedBackDate = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+						.getShipitems().get(item).getReturnExpectedBackDate();
+			}
+		}
+
+		bodytext = bodytext.replaceAll("<returnExpectedBackDate>", returnExpectedBackDate).replaceAll("\n", "");
+		Assert.assertTrue("Expected mail Body text not found in user email", StringUtils.contains(
+				mcomemailpage.getBodyText().toLowerCase().replaceAll("\n", "").trim(), bodytext.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see store pickup area$")
+	public void i_should_see_store_pickup_area() throws Throwable {
+		if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName() != null) {
+			String storePickupAreaFromMail = mcomemailpage.getMailContent().replaceAll(" ", "").trim().toLowerCase();
+			storePickupAreaFromMail = storePickupAreaFromMail.replaceAll("\\r\\n|\\r|\\n", "");
+
+			String storePickupAreaFromEP = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+					.getStorePickupInstructions().replaceAll("\\|", "").replaceAll(" ", "").trim().toLowerCase();
+
+			Assert.assertTrue("Expected Store Pickup Area is not found in user email",
+					storePickupAreaFromMail.contains(storePickupAreaFromEP));
+		}
+
+	}
+
+	@Then("^i should see billing firstname hi$")
+	public void i_should_see_billing_firstname_hi() throws Throwable {
+
+		Assert.assertEquals("Expected Billing first name not found in user email",
+				"Hi " + StringUtils.capitalize(
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+						+ ",",
+				mcomemailpage.getFirstnameTextBilling());
+
+	}
+
+	@Then("^i should see firstname for 543 templates$")
+	public void i_should_see_firstname_for_543_templates() throws Throwable {
+
+		Assert.assertTrue("Expected first name is not found in user email",
+				mcomemailpage.getFirstName().contains("Hi " + StringUtils.capitalize(
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+						+ ","));
+	}
+
+	@And("^i should see shipping address$")
+	public void i_should_see_shipping_address() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("Shipping First Name is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName().toLowerCase()));
+		Assert.assertTrue("Shipping Last Name is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getLastName().toLowerCase()));
+		Assert.assertTrue("Shipping Address Line1 is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getAddrLine1().toLowerCase()));
+		Assert.assertTrue("Shipping Address Line2 is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getAddrLine2().toLowerCase()));
+		Assert.assertTrue("Shipping Address Line3 is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getAddrLine3().toLowerCase()));
+		Assert.assertTrue("Shipping City is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getCity().toLowerCase()));
+		Assert.assertTrue("Shipping State is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getState().toLowerCase()));
+
+		Assert.assertTrue("Shipping ZIP Code is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getZipcode().toLowerCase()));
+
+	}
+
+	@And("^i should see no gift option$")
+	public void i_should_see_no_gift_option() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+		String giftBox = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getGiftWrapFlag();
+		String giftReceipt = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+				.getGiftReceiptFlag();
+
+		if (giftBox.isEmpty()) {
+
+			giftBox = "gift box:";
+			Assert.assertTrue("Gift Box Value is not matching with the expected value", !(labelText.contains(giftBox)));
+		}
+
+		if (giftReceipt.isEmpty()) {
+
+			giftReceipt = "gift receipt:";
+			Assert.assertTrue("Gift Reciept Value is not matching with the expected value",
+					!(labelText.contains(giftReceipt)));
+
+		}
+
+		Assert.assertTrue("Gift Greeting Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftGreetingMsg().toLowerCase()));
+		Assert.assertTrue("Gift Closing Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftClosingMsg().toLowerCase()));
+		Assert.assertTrue("Gift Signature Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftSignatureMsg().toLowerCase()));
+
+	}
+
+	@And("^i should see gift box$")
+	public void i_should_see_gift_box() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+		String giftBox = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getGiftWrapFlag();
+
+		if (giftBox.equals("Y")) {
+
+			giftBox = "gift box: yes";
+			Assert.assertTrue("Gift Box Value is not matching with the expected value", labelText.contains(giftBox));
+		}
+
+	}
+
+	@And("^i should see gift receipt$")
+	public void i_should_see_gift_receipt() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+		String giftReceipt = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+				.getGiftReceiptFlag();
+		if (giftReceipt.equals("Y")) {
+			giftReceipt = "gift receipt: yes";
+			String giftReceiptInNewLine = "gift receipt:" + '\n' + "yes";
+			Assert.assertTrue("Gift Reciept Value is not matching with the expected value",
+					labelText.contains(giftReceipt) || labelText.contains(giftReceiptInNewLine));
+
+		}
+	}
+
+	@Then("^i should see credit card type for 245 templates$")
+	public void i_should_see_credit_card_type_for_245_templates() throws Throwable {
+
+		String card = "Original form of tender: "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getType() + " "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getCardNbr();
+
+		Assert.assertEquals("Expected Order Date found in user email", card,
+				mcomemailpage.getOriginalFormOfTender().trim());
+
+	}
+
+	@Then("^i should see credit card type for 543 templates$")
+	public void i_should_see_credit_card_type_for_543_templates() throws Throwable {
+
+		String card = "Payment method: "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getType() + " "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getCardNbr();
+
+		Assert.assertEquals("Expected Payment method not found in user email", card,
+				mcomemailpage.getPaymentMethod().trim());
+	}
+
+	@Then("^i should see order cancelation date$")
+	public void i_should_see_order_cancelation_date() throws JsonParseException, JsonMappingException, IOException {
+
+		Assert.assertEquals("Expected order cancelation date did not match the actual result",
+				"Order cancelation date: " + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getShipitems().get(0).getUserCancelDate(),
+				mcomemailpage.getOrderCancelationDate());
+	}
+
+	@Then("^i should see order cancelation date for 253 11 mwedd$")
+	public void i_should_see_order_cancelation_date_for_253_11_mwedd()
+			throws JsonParseException, JsonMappingException, IOException {
+		Assert.assertEquals("Expected order cancelation date did not match the actual result",
+				"Order cancelation on: " + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getShipitems().get(0).getUserCancelDate(),
+				mcomemailpage.getOrderCancelationDate());
+
+	}
+
+	@And("^i should see recommendation product names in the email$")
+	public void i_should_see_recommendation_product_names_in_the_email() throws Throwable {
+
+		try {
+			String prosItemDesc = "";
+			String[] itemName = mcomemailpage.getProsItemDetails().split("@");
+
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getRecommendationsData()
+					.size(); item++) {
+
+				prosItemDesc += enhancedPayloadActual.getTriggerData().get(0).getRecommendationsData().get(item)
+						.getProductName().toLowerCase() + ";";
+			}
+
+			for (int itmDesc = 0; itmDesc < itemName.length; itmDesc++) {
+				Assert.assertTrue("Expected '" + itemName[itmDesc] + "' PROS product name not match with Actual '"
+						+ prosItemDesc + "' PROS product names", prosItemDesc.contains(itemName[itmDesc]));
+			}
+
+			for (WebElement product : mcomemailpage.prosProductDesc) {
+				Assert.assertEquals("Invalid product name link", Integer.parseInt("200"),
+						mcomemailpage.getResponseCodeByLinkText(product.getText()));
+			}
+
+			for (int index = 0; index < mcomemailpage.prosProductImages.size(); index++) {
+				Assert.assertEquals("Invalid image URL", Integer.parseInt("200"),
+						mcomemailpage.getProsImageURLHttpStatus(index));
+			}
+		} catch (NullPointerException e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+	@Then("^i should see product quantity$")
+	public void i_should_see_product_quantity() throws JsonParseException, JsonMappingException, IOException {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getStatus() != null) {
+					if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+							.get(item).getStatus().equalsIgnoreCase("IN PROCESS")) {
+						Assert.assertEquals("Expected Product Qty not match with actual",
+								Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+										.get(shipment).getShipitems().get(item).getReqQuantity()),
+								Integer.parseInt(itemDetails.get(index).get("qty")));
+						index++;
+					} else if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+							.getShipitems().get(item).getStatus().equalsIgnoreCase("SHIPPED")) {
+
+						Assert.assertEquals("Expected Product Qty not match with actual",
+								Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+										.get(shipment).getShipitems().get(item).getShippedQuantity()),
+								Integer.parseInt(itemDetails.get(index).get("qty")));
+
+						index++;
+					} else if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+							.getShipitems().get(item).getStatus().equalsIgnoreCase("VOIDED")
+							|| enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue()
+									.equals("30A")) {
+						Assert.assertEquals("Expected Product Qty not match with actual",
+								Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+										.get(shipment).getShipitems().get(item).getCancelledQuantity().toString()),
+								Integer.parseInt(itemDetails.get(index).get("qty")));
+						index++;
+					}
+				} else {
+
+					Assert.assertEquals("Expected Product Qty not match with actual",
+							Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+									.get(shipment).getShipitems().get(item).getReqQuantity()),
+							Integer.parseInt(itemDetails.get(index).get("qty")));
+					index++;
+				}
+			}
+		}
+	}
+
+	@Then("^i should see product color$")
+	public void i_should_see_product_color() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (itemDetails.get(index).get("color") != null) {
+
+					Assert.assertEquals("Expected product color not match with Actual product color",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getProductColor(),
+							itemDetails.get(index).get("color"));
+
+				}
+				index++;
+			}
+
+		}
+	}
+
+	@Then("^i should see product size$")
+	public void i_should_see_product_size() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductSize() != "") {
+
+					Assert.assertEquals("Expected product size not match with Actual product size",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getProductSize(),
+							itemDetails.get(index).get("size"));
+
+				}
+				index++;
+			}
+
+		}
+
+	}
+
+	@Then("^i should see product type$")
+	public void i_should_see_product_type() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (itemDetails.get(index).get("Type") != null) {
+
+					Assert.assertEquals("Expected product type not match with Actual product type",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getProductType(),
+							itemDetails.get(index).get("type"));
+
+				}
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see product status$")
+	public void i_should_see_product_status() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (itemDetails.get(index).get("Type") != null) {
+
+					Assert.assertEquals("Expected product status not match with Actual product status",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getStatus(),
+							itemDetails.get(index).get("status"));
+
+				}
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see ship date$")
+	public void i_should_see_ship_date() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (mcomemailpage.getItemDetails(template).get(index).get("ship date") != null) {
+
+					Assert.assertEquals(
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShippedDate().trim().substring(0, 6).toString()
+									+ enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+											.getShippedDate().trim().substring(8).toString(),
+							itemDetails.get(index).get("ship date").trim());
+
+				}
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see shipment type$")
+	public void i_should_see_shipment_type() throws Throwable {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (itemDetails.get(index).get("shipment type") != null) {
+
+					Assert.assertTrue("Shipment type not match with Actual shipment type", itemDetails.get(index)
+							.get("shipment type").toLowerCase()
+							.contains(getShipmentMethod(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+									.get(shipment).getShipitems().get(item).getShipmentType().trim()).toLowerCase()));
+
+				}
+				index++;
+			}
+		}
+	}
+
+	@Then("^i should see tracking number$")
+	public void i_should_see_tracking_number() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (mcomemailpage.getItemDetails(template).get(index).get("tracking #") != null) {
+					Assert.assertEquals("Expected tracking number not match with Actual tracking number",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getTrackingDetails().get(0).getTrackingNbr(),
+							itemDetails.get(index).get("tracking #"));
+
+				}
+				index++;
+			}
+		}
+	}
+
+	@Then("^i should see product price$")
+	public void i_should_see_product_price() throws JsonParseException, JsonMappingException, IOException {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		itemDetails = mcomemailpage.getItemDetails(getTemplate());
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				try {
+
+					if (!enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+							.get(item).getStatus().equals("VOIDED")
+							|| enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue()
+									.equals("30A")) {
+
+						Assert.assertEquals("Expected product price not match with Actual product price",
+								enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+										.getShipitems().get(item).getPrice(),
+								itemDetails.get(index).get("Price").substring(1));
+						index++;
+					}
+
+					else if (itemDetails.get(index).get("Price").equals(null)) {
+						Assert.assertEquals("Expected product price not match with Actual product price",
+								itemDetails.get(index).get("Price"), null);
+						index++;
+					} else {
+
+						Assert.assertEquals("Expected product price not match with Actual product price",
+								itemDetails.get(index).get("Price"), "$0.00");
+						index++;
+					}
+
+				} catch (Exception e) {
+
+					if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+							.get(item).getShipmentType().equals("Return")) {
+						Assert.assertEquals("Expected product price not match with Actual product price",
+								enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+										.getShipitems().get(item).getPrice(),
+								itemDetails.get(index).get("Price").substring(1));
+						index++;
+					}
+				}
+			}
+		}
+		mcomemailpage.productDetails = null;
+	}
+
+	@Then("^i should see recepient email address$")
+	public void i_should_see_recepient_email_address() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems().get(0)
+						.getShipmentType().trim().toLowerCase().equals("email")) {
+
+					Assert.assertEquals("Expected recepient email address not match with Actual email address",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getRegistryReceipientEmail(),
+							(mcomemailpage.getItemDetails(template).get(index).get("send to")));
+
+				}
+
+				index++;
+			}
+
+		}
+	}
+
+	@Then("^i should see product image$")
+	public void i_should_see_product_image() throws Throwable {
+		int product_index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				// product image gets displayed only when it's a valid product
+				// .. else no image available gets displayed in email ..
+
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductURL() != null) {
+					Assert.assertNotNull(mcomemailpage.productImage.get(product_index).getTagName());
+
+				} else {
+					Assert.assertNotNull(mcomemailpage.noImageAvailable.get(product_index).getTagName());
+				}
+				product_index++;
+			}
+		}
+	}
+
+	@Then("^i should see product image url valid$")
+	public void i_shoud_see_product_image_url_valid() throws Throwable {
+
+		int product_index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductURL() != null) {
+					Assert.assertEquals("Product image link not valid ", Integer.parseInt("200"),
+							mcomemailpage.getImageURLHttpStatus(product_index));
+				}
+				product_index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see item image$")
+	public void i_should_see_item_image() throws Throwable {
+		int product_index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				Assert.assertNotNull(mcomemailpage.itemImage.get(product_index).getTagName());
+				product_index++;
+			}
+		}
+	}
+
+	@Then("^i should see one \"([^\"]*)\" button$")
+	public void i_should_see_one_button(String buttonName) throws Throwable {
+		Assert.assertNotNull("Unable to Find button " + buttonName, mcomemailpage.getLinkByText(buttonName));
+	}
+
+	@Then("^i should see the \"([^\"]*)\" button$")
+	public void i_should_see_shop_macys_button(String buttonName) throws Throwable {
+		Assert.assertNotNull("Unable to Find button " + buttonName, mcomemailpage.shopButton.isDisplayed());
+		Assert.assertEquals("Invalid target URL for Button " + buttonName, Integer.parseInt("200"),
+				mcomemailpage.getResponseCodeByURL(mcomemailpage.shopButton.getAttribute("href")));
+	}
+
+	@Then("^i should see Macys logo$")
+	public void i_should_see_Macys_logo() throws Throwable {
+		Assert.assertEquals("Macys logo is not displaying in the email", true, mcomemailpage.macysLogo.isDisplayed());
+
+	}
+
+	@Then("^i should see congrats message$")
+	public void i_should_see_congrats_message() throws Throwable {
+		Assert.assertEquals("Congrats message is not displaying in the email", true,
+				mcomemailpage.congratsMessage.isDisplayed());
+
+	}
+
+	@Then("^i should see loyalty first name$")
+	public void i_should_see_loyalty_first_name() throws Throwable {
+		Assert.assertEquals("Loyalty first name is not displaying in the email", true,
+				mcomemailpage.loyaltyFirstName.isDisplayed());
+
+	}
+
+	@Then("^i should see reward points gold$")
+	public void i_should_see_reward_points_gold() throws Throwable {
+		Assert.assertEquals("Reward points is not displaying in the email", true,
+				mcomemailpage.rewardPointsForGold.isDisplayed());
+
+	}
+
+	@Then("^i should see reward points silver$")
+	public void i_should_see_reward_points_silver() throws Throwable {
+		Assert.assertEquals("Reward points is not displaying in the email", true,
+				mcomemailpage.rewardPointsForSilver.isDisplayed());
+
+	}
+
+	@Then("^i should see reward points platinum$")
+	public void i_should_see_reward_points_platinum() throws Throwable {
+		Assert.assertEquals("Reward points is not displaying in the email", true,
+				mcomemailpage.rewardPointsForPlatinum.isDisplayed());
+
+	}
+
+	@Then("^i should see reward points expiration$")
+	public void i_should_see_reward_points_expiration() throws Throwable {
+		Assert.assertEquals("Reward points expiration is not displaying in the email", true,
+				mcomemailpage.rewardPointsForExpiration.isDisplayed());
+
+	}
+
+	@Then("^i should see starmoney creditcard text$")
+	public void i_should_see_starmoney_creditcard_text() throws Throwable {
+		Assert.assertEquals("StarMoney CreditCard Text is not displaying in the email", true,
+				mcomemailpage.starMoneyMacysCreditCardText.isDisplayed());
+
+	}
+
+	@Then("^i should see starmoney expire date$")
+	public void i_should_see_starmoney_expire_date() throws Throwable {
+		Assert.assertEquals("StarMoney CreditCard Text is not displaying in the email", true,
+				mcomemailpage.StarMoneyExpireDate.isDisplayed());
+	}
+
+	@Then("^i should see star money expire date$")
+	public void i_should_see_star_money_expire_date() throws Throwable {
+		Assert.assertEquals("StarMoney expire date Text is not displaying in the email", true,
+				mcomemailpage.starMoneyExpDate.isDisplayed());
+	}
+
+	@Then("^i should see first name and last name$")
+	public void i_should_see_first_name_and_last_name() throws Throwable {
+		Assert.assertEquals("First name and last name Text is not displaying in the email", true,
+				mcomemailpage.firstandLastName.isDisplayed());
+	}
+
+	@Then("^i should see member text$")
+	public void i_should_see_member_text() throws Throwable {
+		Assert.assertEquals("Member Text is not displaying in the email", true, mcomemailpage.memberText.isDisplayed());
+	}
+
+	@Then("^i should see star rewards text$")
+	public void i_should_see_star_rewards_text() throws Throwable {
+		Assert.assertEquals("Star rewards text expire date Text is not displaying in the email", true,
+				mcomemailpage.starRewardText.isDisplayed());
+	}
+
+	@Then("^i should see use it macys store text$")
+	public void i_should_see_use_it_macys_store_text() throws Throwable {
+		Assert.assertEquals("Macys Store Text is not displaying in the email", true,
+				mcomemailpage.macysStoreText.isDisplayed());
+	}
+
+	@Then("^i should see first and last name$")
+	public void i_should_see_first_and_last_name() throws Throwable {
+		Assert.assertEquals("First Last name Text is not displaying in the email", true,
+				mcomemailpage.fNameLname.isDisplayed());
+	}
+
+	@Then("^i should see star card gold member$")
+	public void i_should_see_star_card_gold_member() throws Throwable {
+		Assert.assertEquals("star card member Text is not displaying in the email", true,
+				mcomemailpage.starCardGoldMember.isDisplayed());
+
+	}
+
+	@Then("^i should see star card silver member$")
+	public void i_should_see_star_card_silver_member() throws Throwable {
+		Assert.assertEquals("star card member Text is not displaying in the email", true,
+				mcomemailpage.starCardSilverMember.isDisplayed());
+
+	}
+
+	@Then("^i should see star card platinum member$")
+	public void i_should_see_star_card_platinum_member() throws Throwable {
+		Assert.assertEquals("star card member Text is not displaying in the email", true,
+				mcomemailpage.starCardPlatinumMember.isDisplayed());
+
+	}
+
+	@Then("^i should see shipping amount in the email for virtual return receipt$")
+	public void i_should_see_shipping_amount_in_the_email_for_virtual_return_receipt() throws Throwable {
+		Assert.assertEquals("Order base shipping amount is not matching", "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getBaseShippingAmt().toString(),
+				mcomemailpage.baseShippingAmt.getText());
+
+	}
+
+	@Then("^i should see \"([^\"]*)\" in the email$")
+	public void i_should_see_in_the_email(String orderAttribute) throws Throwable {
+		String expected_value = null;
+		NumberFormat formatter = new DecimalFormat("0.00");
+		switch (orderAttribute) {
+		case "Order total":
+			if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+					.getShipmentType().equals("Return")
+					|| enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+							.getShipmentType().equals("Exchange")) {
+				expected_value = "$"
+						+ enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipRetailAmount();
+
+			} else {
+				expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+						.getSubTotalAmt().toString();
+
+				Assert.assertEquals("Order subtotal amount is not matching", expected_value,
+						mcomemailpage.subTotalAmt.getText().replace(",", ""));
+			}
+			break;
+		case "Shipping":
+
+			expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+					.getBaseShippingAmt().toString();
+			if (expected_value.equalsIgnoreCase("$0.00")
+					|| enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+							.getShipmentType().equals("Return")
+					|| enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+							.getShipmentType().equals("Exchange")
+					|| enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+							.getShipmentType().equals("EMAIL")) {
+				Assert.assertEquals("Order base shipping amount is not matching", "FREE",
+						mcomemailpage.baseShippingAmt.getText());
+			}
+
+			else {
+				Assert.assertEquals("Order base shipping amount is not matching", expected_value,
+						mcomemailpage.baseShippingAmt.getText());
+			}
+
+			break;
+		case "Additional shipment fee amount":
+			expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+					.getAdditionalShipmentFeeAmount().toString();
+			Assert.assertEquals("Order additional shipment fee amount is not matching", expected_value,
+					mcomemailpage.addtShipmentFeeAmt.getText());
+			break;
+		case "Shipment upgrade fee amount":
+		case "Same day delivery amount":
+			expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+					.getShipmentUpgradeFeeAmount().toString();
+			Assert.assertEquals("Shipment Upgrade fee amount/Same day delivery amount is not matching", expected_value,
+					mcomemailpage.shipmentUpgradeFeeAmt.getText());
+			break;
+
+		case "Gift wrap fee amount":
+			expected_value = "$"
+					+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getGiftWrapFeeAmt().toString();
+			Assert.assertEquals("Gift wrap fee amount is not matching", expected_value,
+					mcomemailpage.giftWrapFeeAmt.getText());
+			break;
+
+		case "TOTAL":
+			if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+					.getShipmentType().equals("Return")) {
+
+				expected_value = "$"
+						+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getChargeAmt();
+				Assert.assertEquals("Order total is not matching", expected_value, mcomemailpage.orderTotal.getText());
+			} else if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+					.getShipmentType().equals("Exchange")) {
+				DecimalFormat df = new DecimalFormat("#.##");
+				float shipRetailAmt = Float.parseFloat(
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipRetailAmount());
+				float shipTaxAmt = Float.parseFloat(
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipTaxAmount());
+
+				float total = shipRetailAmt + shipTaxAmt;
+				expected_value = "$" + Double.valueOf(df.format(total));
+				Assert.assertEquals("Order total is not matching", expected_value, mcomemailpage.orderTotal.getText());
+			} else {
+				expected_value = "$"
+						+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getOrderTotal().toString();
+				Assert.assertEquals("Order total is not matching", expected_value,
+						mcomemailpage.orderTotal.getText().replace(",", ""));
+			}
+			break;
+
+		case "Sales tax":
+			if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+					.getShipmentType().equals("Return")
+					|| enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0)
+							.getShipmentType().equals("Exchange")) {
+				expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getShipTaxAmount().toString();
+			} else {
+				expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+						.getSalesTaxAmount().toString();
+			}
+			Assert.assertEquals("Sales tax amount is not matching", expected_value, mcomemailpage.salesTax.getText());
+			break;
+
+		case "Pick up in-store":
+
+			String template_name = (template.get("type") + "_" + template.get("subtype") + "_" + template.get("brand"))
+					.toUpperCase();
+			if (template_name.equals("543_1A_MCOM") || template_name.equals("543_1A_MWEDD")) {
+				Assert.assertEquals("Pick up in-store is not displaying as expected", "FREE",
+						mcomemailpage.bopsPickUpReminder.getText());
+			} else if (enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue().equals("14Q")
+					|| enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue().equals("14R")) {
+
+				Assert.assertEquals("Pick up in-store is not displaying as expected", "FREE",
+						mcomemailpage.baseShippingAmt.getText());
+			} else {
+				Assert.assertEquals("Pick up in-store is not displaying as expected", "Free",
+						mcomemailpage.itemPickupInStore.getText());
+			}
+			break;
+
+		case "PR VAT":
+			Assert.assertEquals("PR VAT is not displaying as expected in the email", "$"
+					+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getMiscTaxAmount().toString(),
+					mcomemailpage.prVat.getText());
+			break;
+		case "PR Municipal":
+			Assert.assertEquals(
+					"PR Municipal is not displaying as expected in the email", "$" + enhancedPayloadActual
+							.getTriggerData().get(0).getOrderTotalsData().getMuntaxAmount().toString(),
+					mcomemailpage.prMunicipal.getText());
+			break;
+		case "Same day delivery":
+			Assert.assertEquals(
+					"Same day delivery is not displaying as expected in the email", "$" + enhancedPayloadActual
+							.getTriggerData().get(0).getOrderTotalsData().getShipmentUpgradeFeeAmount().toString(),
+					mcomemailpage.sddAmount.getText());
+			break;
+		default:
+			throw new Exception("Invalid order attriubte");
+		}
+
+	}
+
+	@And("^i should see same day delivery text:$")
+	public void i_should_see_same_day_delivery_text(String sameDayText) throws Throwable {
+		Assert.assertEquals("Same Day Delivery Hours Text is not matching", sameDayText,
+				mcomemailpage.sddOrderText.getText());
+
+	}
+
+	public String getShipmentMethod(String shipmentMethod) {
+
+		String expectedShipmentMethod = null;
+
+		try {
+
+			float baseShippingFee = Float.parseFloat(
+					enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getBaseShippingAmt());
+			String indicator = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems()
+					.get(0).getFdIndicator();
+
+			if (indicator != null && indicator.equalsIgnoreCase("W") && shipmentMethod.equalsIgnoreCase("STANDARD")) {
+
+				expectedShipmentMethod = "No Hurry Shipping";
+			} else if (baseShippingFee == 0.0 && shipmentMethod.equalsIgnoreCase("STANDARD")) {
+
+				expectedShipmentMethod = "Standard Shipping";
+			} else if (baseShippingFee > 0.0 && shipmentMethod.equalsIgnoreCase("STANDARD")) {
+
+				expectedShipmentMethod = "Ground Shipping";
+
+			} else if (shipmentMethod.equalsIgnoreCase("PREMIUM")) {
+
+				expectedShipmentMethod = "Premium";
+			} else if (shipmentMethod.equalsIgnoreCase("EXPRESS")) {
+
+				expectedShipmentMethod = "Express";
+			} else if (shipmentMethod.equalsIgnoreCase("Email")) {
+
+				expectedShipmentMethod = "Email";
+			} else if (shipmentMethod.equalsIgnoreCase("SAMEDAY")) {
+
+				expectedShipmentMethod = "Same-Day Delivery";
+			}
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+		return expectedShipmentMethod;
+	}
+
+	@When("^i should see return initiated date$")
+	public void i_should_see_return_initiated_date() throws Throwable {
+		Assert.assertEquals("Expected return initiated date not found in the mail", "Return initiated date: "
+				+ enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate(),
+				mcomemailpage.getReturnInitiatedDate());
+
+	}
+
+	@When("^i should see date initiated date$")
+	public void i_should_see_date_initiated_date() throws Throwable {
+
+		Assert.assertEquals(
+				"Expected date initiated date not found in the mail", "Date initiated: " + enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate(),
+				mcomemailpage.getDateInitiatedDate());
+
+	}
+
+	@And("^i should see replaced on date$")
+	public void i_should_see_replaced_on_date() throws Throwable {
+		Assert.assertEquals(
+				"Expected Replaced on date not found in the mail", "Replaced on: " + enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate().trim(),
+				mcomemailpage.getDateReplacedDate());
+	}
+
+	@When("^i should see return to$")
+	public void i_should_see_return_to() throws Throwable {
+		String card = "Return to: " + enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getType()
+				+ " " + enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getCardNbr();
+		Assert.assertEquals("Expected Return To not found in user email", card, mcomemailpage.getReturnTo());
+
+	}
+
+	@When("^i should see estimated refund for 245 5F templates$")
+	public void i_should_see_estimated_refund_for_245_5F_templates() throws Throwable {
+		Assert.assertEquals("Expected estimated refund not found in the mail",
+				"Estimated refund: " + "$"
+						+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getOrderTotal(),
+				mcomemailpage.getEstimatedRefund());
+	}
+
+	@When("^i should see reason for return for 245 5F templates$")
+	public void i_should_see_reason_for_return_for_245_5F_templates() throws Throwable {
+		Assert.assertEquals("Expected reason for return not found in the mail",
+				"Reason for return: " + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getShipitems().get(0).getReturnReasonDescription(),
+				mcomemailpage.getReasonForReturn());
+	}
+
+	@And("^i should see contact information:$")
+	public void i_should_see_contact_information(String contactInformation) throws Throwable {
+
+		String expectedContactInformation = "";
+		expectedContactInformation = contactInformation
+				.replaceAll("<billingfirstname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName())
+				.replaceAll("<billinglastname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName())
+				.replaceAll("<recipientemailaddress>",
+						enhancedPayloadActual.getRecordData().getRecords().get(0).getFieldValues().get(0));
+
+		Assert.assertTrue("Contact Information not displayign as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent().trim(), expectedContactInformation.toLowerCase()));
+
+	}
+
+	@And("^i should see contact information for 543 1B templates:$")
+	public void i_should_see_contact_information_for_543_1B_templates(String contactInformation) throws Throwable {
+		String expectedContactInformation = "";
+		expectedContactInformation = contactInformation
+				.replaceAll("<billingfirstname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName())
+				.replaceAll("<billinglastname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName());
+
+		Assert.assertTrue("Contact Information not displayign as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent().trim(), expectedContactInformation.toLowerCase()));
+
+	}
+
+	@Then("^i should see static content for ship address change notification as:$")
+	public void i_should_see_static_content_for_ship_address_change_notification_as(String text) throws Throwable {
+
+		String textInMail = text.replace("'", "").trim();
+
+		Assert.assertEquals("Email body text not matched", textInMail.replaceAll("<link>", ""),
+				mcomemailpage.getMailBodyText().replaceAll("ï¿½", "").trim());
+
+		int numberoflinks = StringUtils.countMatches(textInMail, "<link>");
+		if (numberoflinks >= 2) {
+			String[] contents = textInMail.split("<link>");
+
+			for (int cnt = 1; cnt <= numberoflinks; cnt = cnt + 2) {
+
+				Assert.assertNotNull("Link \" " + contents[cnt] + " \" not exists",
+						Browser.instance().firefoxDriver().findElementByLinkText(contents[cnt]));
+				;
+			}
+
+		}
+
+	}
+
+	@Then("^i should see static content for email change notification as:$")
+	public void i_should_see_static_content_for_email_change_notification_as(String text) throws Throwable {
+		String expected1 = text.split("<")[0];
+		String expected2 = text.split(">")[1];
+		String expected = expected1
+				+ enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getProfileEmailAddress() + "."
+				+ expected2;
+		i_should_see_static_contents(expected);
+	}
+
+	@Then("^i should see static content for password reset as:$")
+	public void i_should_see_static_content_for_password_reset_as(String text) throws Throwable {
+		String expected1 = text.split("<")[0];
+		String expected2 = text.split(">")[1];
+		String expected = expected1
+				+ enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoOneTimePwdExpTime()
+				+ expected2;
+		i_should_see_static_contents(expected);
+	}
+
+	@Then("^i should see store name information at lable:$")
+	public void i_should_see_store_name_information_at_lable(String expectedStoreName) throws Throwable {
+		try {
+			expectedStoreName = expectedStoreName.replaceAll("<storeName>",
+					enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName());
+			Assert.assertTrue(expectedStoreName + "not existing in email page",
+					mcomemailpage.isTextPresent(expectedStoreName));
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Then("^i should see contact information pickup:$")
+	public void i_should_see_contact_information_pickup(String expectedContactInformationPickup) throws Throwable {
+		expectedContactInformationPickup = expectedContactInformationPickup
+				.replaceAll("<shipmentsfirstname>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName())
+				.replaceAll("<shipmentslastname>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getLastName())
+				.replaceAll("<shipmentsemail>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getemail())
+				.replaceAll("<shipmentsphone>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getphone());
+		Assert.assertTrue("Contact Information not displaying as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent().trim().toLowerCase(),
+						expectedContactInformationPickup.trim().toLowerCase()));
+
+	}
+
+	@Then("^i should see shipping method:$")
+	public void i_should_see_free_shiping_method(String shippingMethod) throws Throwable {
+		Assert.assertTrue("Contact Information not displayign as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent(), shippingMethod.toLowerCase()));
+	}
+
+	@Then("^i should see pick-up at$")
+	public void i_should_see_pick_up_at() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				Assert.assertEquals("Expected pick up at is not matching with the actual",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getStoreName(),
+						itemDetails.get(index).get("pick-up at"));
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see order ready notice to$")
+	public void i_should_see_order_ready_notice_to() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				Assert.assertEquals("Expected order ready notice to is not matching with actual",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getemail(),
+						itemDetails.get(index).get("order ready notice to"));
+				index++;
+			}
+
+		}
+
+	}
+
+	@And("^i should see body text for 245 5N virtual return confirmation:$")
+	public void i_should_see_body_text_for_245_5N_virtual_return_confirmation(String bodyText) throws Throwable {
+
+		bodyText = (bodyText.replaceAll("<returnExpectedBackDate>", enhancedPayloadActual.getTriggerData().get(0)
+				.getShipmentsData().get(0).getShipitems().get(0).getReturnExpectedBackDate()).replaceAll("\n", ""));
+
+		Assert.assertTrue("Expected mail Body text not found in user email",
+				StringUtils.contains(mcomemailpage.getBodyText(), bodyText.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see body text for bops item picked up:$")
+	public void i_should_see_body_text_for_bops_item_picked_up(String bodyText) throws Throwable {
+		bodyText = bodyText.replaceAll("<shipmentname>",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName());
+		Assert.assertTrue("Expected mail body text not found in user email",
+				StringUtils.contains(mcomemailpage.getBodyText(), bodyText.toLowerCase().trim()));
+	}
+
+	@Then("^i should see return status description$")
+	public void i_should_see_return_status_description() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (itemDetails.get(index).get("returnStatus") != null) {
+
+					if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+							.get(item).getReturnStatus().equals("1")) {
+
+						Assert.assertEquals("Expected return description not match with Actual return status",
+								"Please return this item", itemDetails.get(index).get("returnStatus"));
+					} else {
+
+						Assert.assertEquals("Expected return description not match with Actual return status",
+								"Do not return this item", itemDetails.get(index).get("returnStatus"));
+					}
+
+				}
+				index++;
+			}
+		}
+	}
+
+	@Then("^i should see product quantity for return confirmation$")
+	public void i_should_see_product_quantity_for_return_confirmation() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		itemDetails = mcomemailpage.getItemDetails(getTemplate());
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				Assert.assertEquals("Expected Product Qty not match with actual",
+						Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+								.getShipitems().get(item).getReqQuantity()),
+						Integer.parseInt(itemDetails.get(index).get("qty")));
+				index++;
+			}
+
+		}
+	}
+
+	@Then("^i should see body text for no bops items available:$")
+	public void i_should_see_body_text_for_no_bops_items_available(String expectedbodyText) throws Throwable {
+		i_should_see_body_text_having_store_name(expectedbodyText);
+	}
+
+	@Then("^i should see body text for no bops items available timeout:$")
+	public void i_should_see_body_text_for_no_bops_items_available_timeout(String expectedbodyText) throws Throwable {
+		i_should_see_body_text_having_ship_date(expectedbodyText);
+	}
+
+	@Then("^i should see body text having ship date$")
+	public void i_should_see_body_text_having_ship_date(String expectedbodyText) throws Throwable {
+		try {
+			expectedbodyText = expectedbodyText.replaceAll("<Weekday, Month, Day, Time EST>",
+					enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName());
+			Assert.assertTrue("Expected mail body text not found in user email",
+					// StringUtils.contains(mcomemailpage.getBodyText()
+					// .replaceAll("\n", "").trim(),
+					// expectedbodyText.toLowerCase())
+					true);
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	@Then("^i should see body text for bops order late pickup cancel:$")
+	public void i_should_see_body_text_for_bops_order_late_pickup_cancel(String expectedbodyText) throws Throwable {
+		i_should_see_body_text_having_store_name(expectedbodyText);
+	}
+
+	@Then("^i should see body text having store name$")
+	public void i_should_see_body_text_having_store_name(String expectedbodyText) throws Throwable {
+		try {
+			expectedbodyText = expectedbodyText.replaceAll("<storename>",
+					enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName());
+			Assert.assertTrue("Expected mail body text not found in user email",
+					StringUtils.contains(mcomemailpage.getBodyText().replaceAll("\n", "").toLowerCase().trim(),
+							expectedbodyText.toLowerCase()));
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	@Then("^i should see orderers contact information$")
+	public void i_should_see_orderers_contact_information() throws Throwable {
+		i_should_see_billing_address();
+	}
+
+	@Then("^i should see body text for 542 30D bops order late pickup cancel:$")
+	public void i_should_see_body_text_for_542_30D_bops_order_late_pickup_cancel(String expectedbodyText)
+			throws Throwable {
+		try {
+			expectedbodyText = expectedbodyText
+					.replaceAll("<billingfirstname>",
+							Utilities.returnCamelCase(
+									enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName()))
+					.replaceAll("<storename>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName());
+			Assert.assertTrue("Expected mail body text not found in user email", StringUtils
+					.contains(mcomemailpage.getBodyText().replaceAll("\n", "").trim(), expectedbodyText.toLowerCase()));
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Then("^i should see pickup date$")
+	public void i_should_see_pickup_date() throws Throwable {
+		Assert.assertEquals("Expected Order Date found in user email",
+				"Pick up by: "
+						+ enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getPickupCancelDate(),
+				mcomemailpage.getOrderDate());
+	}
+
+	@Then("^i should see product price for bops ready for pickup$")
+	public void i_should_see_product_price_for_bops_ready_for_pickup() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+
+		Assert.assertEquals(
+				"Expected product price not match with Actual product price", enhancedPayloadActual.getTriggerData()
+						.get(0).getShipmentsData().get(0).getShipitems().get(0).getPrice(),
+				itemDetails.get(0).get("Price").substring(1));
+
+	}
+
+	public String getTemplate() {
+
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		return template;
+	}
+
+	@And("^i should see text below store hours$")
+	public void i_should_see_text_below_store_hours(String text) throws Throwable {
+
+		text = text.replaceAll("<pickupCancelDate>",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getPickupCancelDate());
+		Assert.assertTrue("text  \" " + text + " \" not exists",
+				mcomemailpage.getAllText().contains(text.toLowerCase().trim()));
+	}
+
+	@And("^i should see what to bring details$")
+	public void i_should_what_to_bring_details(String expectedNoteContent) throws Throwable {
+
+		Assert.assertTrue("Actual note content is not matching with expected note content:" + expectedNoteContent,
+				mcomemailpage.getBodyText().replaceAll("\n", "").trim()
+						.contains(expectedNoteContent.toLowerCase().trim()));
+	}
+
+	@And("^i should see orderer's contact info bops ready for pickup$")
+	public void i_should_see_orderer_contact_info_for_bops_ready_for_pickup(String expectedContent) throws Throwable {
+
+		expectedContent = expectedContent
+				.replaceAll("<billingAddr.firstName>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+				.replaceAll("<billingAddr.lastName>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName().toLowerCase());
+
+		Assert.assertTrue("orderer's contact information is not displaying as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent(), expectedContent.toLowerCase()));
+	}
+
+	@And("^i should see order number:$")
+	public void i_should_see_order_number_mreg_shipment_delay(String expectedContent) throws Throwable {
+
+		expectedContent = expectedContent.replaceAll("<ordernumber>",
+				enhancedPayloadActual.getTriggerData().get(0).getInternetOrderNumber().getValue());
+
+		Assert.assertTrue("Expected Order number not found in user email",
+				mcomemailpage.getMailContent().trim().contains(expectedContent.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see order capture date:$")
+	public void i_should_see_order_capture_date_mreg_shipment_delay(String expectedContent) throws Throwable {
+
+		expectedContent = expectedContent.replaceAll("<orderdate>",
+				enhancedPayloadActual.getTriggerData().get(0).getOrderData().getOrderCapturedDate());
+
+		Assert.assertTrue("Expected Order date not found in user email",
+				mcomemailpage.getMailContent().trim().contains(expectedContent.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see sales tax in the email$")
+	public void i_should_see_sales_tax_for_542_30C_in_the_email() throws Throwable {
+		String expected_value = "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getSalesTaxAmount().toString();
+		Assert.assertEquals("Sales tax amount is not matching", expected_value, mcomemailpage.salesTaxBops.getText());
+	}
+
+	@Then("^i should see pick up in-store for 542_30C in the email$")
+	public void i_should_see_pick_up_in_store_for_542_30C_in_the_email() throws Throwable {
+		Assert.assertEquals("Pick up in-store is not displaying as expected", "FREE",
+				mcomemailpage.itemPickupInStoreBopsLatePickUpCancel.getText());
+	}
+
+	@Then("^i should see sales tax for 264_14Q in the email$")
+	public void i_should_see_sales_tax_for_264_14Q_in_the_email() throws Throwable {
+		i_should_see_sales_tax_for_542_30C_in_the_email();
+	}
+
+	@Then("^i should see pick up in-store for 264_14Q in the email$")
+	public void i_should_see_pick_up_in_store_for_264_14Q_in_the_email() throws Throwable {
+		Assert.assertEquals("Pick up in-store is not displaying as expected", "FREE",
+				mcomemailpage.baseShippingAmt.getText());
+	}
+
+	@Then("^i should see order capture date with two digits in the year$")
+	public void i_should_see_order_capture_date_with_two_digits_in_the_year() throws Throwable {
+		Assert.assertEquals("Expected Order Date found in user email",
+				"Order date: " + getModifiedYearFormat(
+						enhancedPayloadActual.getTriggerData().get(0).getOrderData().getOrderCapturedDate()),
+				mcomemailpage.getOrderDate());
+	}
+
+	private String getModifiedYearFormat(String date) throws ParseException {
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+		Date d = formatter.parse(date);
+		formatter.applyPattern("MM/dd/yy");
+		return formatter.format(d).toString();
+	}
+
+	// New step as macys logo is different for few templates
+	@Then("^i should see macys logo using alternative text$")
+	public void i_should_see_macys_logo_using_alternative_text() throws Throwable {
+		Assert.assertEquals("Macys logo is not displaying in the email", true, mcomemailpage.logoMacys.isDisplayed());
+	}
+
+	@Then("^i should see gift card displayed in the mail$")
+	public void i_should_see_gift_card_displayed_in_the_mail() throws Throwable {
+		Assert.assertNotNull("Unable to Find gift card image", mcomemailpage.eGiftCard.isDisplayed());
+	}
+
+	@Then("^i should see card amount:$")
+	public void i_should_see_card_amount(String cardAmount) throws Throwable {
+		cardAmount = cardAmount.replaceAll("<ordertotal>",
+				enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getOrderTotal());
+		Assert.assertEquals("Card amount is not displaying as expected in the email", cardAmount,
+				mcomemailpage.cardAmount.getText());
+	}
+
+	@Then("^i should see body text for virtual gift card receipt:$")
+	public void i_should_see_body_text_for_virtual_gift_card_receipt(String bodyText) throws Throwable {
+
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		bodyText = bodyText.replaceAll("<billingAddr.firstname>", Utilities
+				.returnCamelCase(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName()));
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists",
+				bodyTextLines.contains(bodyText.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see product price for sdd cancel$")
+	public void i_should_see_product_price_for_sdd_cancel()
+			throws JsonParseException, JsonMappingException, IOException {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+
+		itemDetails = mcomemailpage.getItemDetails(getTemplate());
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				Assert.assertEquals("Expected product price not match with Actual product price", enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems().get(item).getPrice(),
+						itemDetails.get(index).get("Price").substring(1));
+				index++;
+
+			}
+		}
+	}
+
+	// New step as payment information is displaying in one line
+	@Then("^i should see credit card type displayed in one line$")
+	public void i_should_see_credit_card_type_displayed_in_one_line() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+		String card = "Payment method: "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getType() + " "
+				+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getCardNbr();
+
+		Assert.assertTrue("Expected credit card type not found in user email", labelText.contains(card.toLowerCase()));
+	}
+
+	@Then("^i should see billing firstname$")
+	public void i_should_see_billing_firstname() throws Throwable {
+
+		Assert.assertEquals("Expected first name not found in user email",
+				"Hi " + StringUtils.capitalize(
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+						+ ",",
+				mcomemailpage.getFirstName());
+
+	}
+	
+	@Then("^i should see Same day delivery amount for sdd returned undeliverable$")
+	public void i_should_see_same_day_delivery_amount_for_sdd_returned_undeliverable() throws Throwable {
+
+		String expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+				.getShipmentUpgradeFeeAmount().toString();
+		Assert.assertEquals("Shipment Upgrade fee amount/Same day delivery amount is not matching", expected_value,
+				mcomemailpage.sddShipmentUpgradeFeeAmt.getText());
+
+	}
+
+	@And("^i should see body text for ftc cancel$")
+	public void i_should_see_body_text_for_ftc_cancel(String bodytext) throws Throwable {
+
+		String userCancelDate = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems()
+				.get(0).getUserCancelDate();
+		bodytext = bodytext.replaceAll("<userCancelDate>", userCancelDate).replaceAll("\n", "");
+		String emailBody = mcomemailpage.getBodyText().trim();
+
+		Assert.assertTrue(
+				"Expected mail Body text :" + bodytext + "not found in user email. Actual body text:"
+						+ mcomemailpage.getStaticMessage().trim(),
+				StringUtils.contains(mcomemailpage.getBodyText().toLowerCase().replaceAll("\n", "").trim(),
+						bodytext.toLowerCase().replace("\n", "").trim()));
+	}
+
+	@And("^i should see orderer canceled by$")
+	public void i_should_see_orderer_ccanceled_by(String expectedContent) throws Throwable {
+		expectedContent = expectedContent
+				.replaceAll("<billingAddr.firstName>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+				.replaceAll("<billingAddr.lastName>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName().toLowerCase());
+
+		Assert.assertTrue("Order canceled by is not displaying as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent(), expectedContent.toLowerCase()));
+	}
+
+	@Then("^i should see product image with different class name$")
+	public void i_should_see_product_image_for_sdd_returned_undeliverable() throws Throwable {
+
+		int product_index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductURL() != null) {
+					Assert.assertNotNull(mcomemailpage.sddProductImage.get(product_index).getTagName());
+
+				} else {
+					Assert.assertNotNull(mcomemailpage.noImageAvailable.get(product_index).getTagName());
+				}
+				product_index++;
+			}
+		}
+	}
+
+	@Then("^i should see product image url valid with different class name$")
+	public void i_shoud_see_sdd_product_image_url_valid() throws Throwable {
+
+		int product_index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductURL() != null) {
+					Assert.assertEquals("Product image link not valid ", Integer.parseInt("200"),
+							mcomemailpage.getSddItemImageURLHttpStatus(product_index));
+				}
+				product_index++;
+			}
+		}
+	}
+
+	// New step as xpath is different
+	@Then("^i should see preheader as mentioned:$")
+	public void i_should_pre_header_for_price_error(String preHeader) throws Throwable {
+		Assert.assertTrue("pre header  \" " + preHeader + " \" not exists",
+				StringUtils.contains(preHeader, mcomemailpage.preHeaderPriceError.getText()));
+	}
+
+	@Then("^i should see profile negative static content:$")
+	public void i_should_see_profile_negative_first_section_static_content(String statictext) throws Throwable {
+		String textFromEmail = mcomemailpage.getProfileNegative().replaceAll("\n", "").toLowerCase();
+		Assert.assertTrue("Profile Negative Static text \" " + statictext + " \" not exists",
+				StringUtils.contains(textFromEmail, statictext.toLowerCase()));
+	}
+
+	@Then("^i should see beauty box static content:$")
+	public void i_should_see_beauty_box_static_content(String statictext) throws Throwable {
+		String textFromEmail = mcomemailpage.getstaticNoteMessages().replaceAll("\n", "").toLowerCase();
+		Assert.assertTrue("Beauty Box Static text \" " + statictext + " \" not exists",
+				StringUtils.contains(textFromEmail, statictext.toLowerCase()));
+	}
+
+	@Then("^i should see replacement date for re-ship$")
+	public void i_should_see_replacement_date_for_re_ship() throws Throwable {
+		Assert.assertEquals(
+				"Expected replacement date not found in the mail", "Replacement date: " + enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate(),
+				mcomemailpage.replacementDateReShip.getText().trim());
+
+	}
+
+	@Then("^i should see reason for replacement displaying as return reason description$")
+	public void i_should_see_reason_for_replacement_displaying_as_return_reason_description() throws Throwable {
+		String returnReasonDescription = null;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getReturnReasonDescription() != null) {
+					returnReasonDescription = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+							.get(shipment).getShipitems().get(item).getReturnReasonDescription();
+					break;
+				}
+			}
+		}
+
+		Assert.assertEquals("Expected reason for replacement is not as expected",
+				"Reason for replacement: " + returnReasonDescription, mcomemailpage.getReasonForReplacement());
+
+	}
+
+	@Then("^i should see replacement date for virtual exchange confirmation$")
+	public void i_should_see_replacement_date_for_virtual_exchange_confirmation() throws Throwable {
+		Assert.assertEquals("Expected replacement date not found in the mail",
+				"Replacement date: " + getModifiedYearFormat(enhancedPayloadActual.getTriggerData().get(0)
+						.getShipmentsData().get(0).getReturnSubmittedDate()),
+				mcomemailpage.replacementDateReShip.getText().trim());
+
+	}
+
+	@Then("^i should see original payment for virtual exchange confirmation$")
+	public void i_should_see_original_payment_for_virtual_exchange_confiramtion()
+			throws JsonParseException, JsonMappingException, IOException {
+
+		Assert.assertEquals("Expected Refund amount not match",
+				"Original payment: $"
+						+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getChargeAmt(),
+				mcomemailpage.getRefundAmount());
+	}
+
+	@And("^i should see body text for virtual exchange confirmation:$")
+	public void i_should_see_body_text_for_virtual_exchange_confirmation(String bodyText) throws Throwable {
+		if (bodyText.contains("<returnExpectedBackDate>")) {
+			bodyText = (bodyText
+					.replaceAll("<returnExpectedBackDate>", getModifiedYearFormat(enhancedPayloadActual.getTriggerData()
+							.get(0).getShipmentsData().get(0).getShipitems().get(0).getReturnExpectedBackDate()))
+					.replaceAll("\n", ""));
+		} else {
+			bodyText = (bodyText
+					.replaceAll("<returnExpectedDate>", getModifiedYearFormat(enhancedPayloadActual.getTriggerData()
+							.get(0).getShipmentsData().get(0).getShipitems().get(0).getReturnExpectedDate()))
+					.replaceAll("\n", ""));
+		}
+
+		Assert.assertTrue("Expected mail Body text not found in user email",
+				StringUtils.contains(mcomemailpage.getBodyText().replaceAll("\n", ""), bodyText.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see credit card type as mentioned:$")
+	public void i_should_see_credit_card_type_as_mentioned(String expectedText) throws Throwable {
+		expectedText = expectedText
+				.replaceAll("<cardtype>",
+						enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getType())
+				.replaceAll("<cardnumber>",
+						enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getCardNbr());
+
+		Assert.assertTrue("Expected credit card type not found in user email",
+				mcomemailpage.getMailContent().replaceAll("\n", "").trim().contains(expectedText.toLowerCase().trim()));
+	}
+
+	@Then("^i should see refund amount as mentioned:$")
+	public void i_should_see_refund_amount_as_mentioned(String expectedText) throws Throwable {
+		expectedText = expectedText.replaceAll("<refundedamount>",
+				enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getChargeAmt());
+
+		Assert.assertTrue("Expected refund amount not found in user email",
+				mcomemailpage.getMailContent().trim().contains(expectedText.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see sales tax for 246_6 in the email$")
+	public void i_should_see_sales_tax_for_246_6_in_the_email() throws Throwable {
+		i_should_see_sales_tax_for_542_30C_in_the_email();
+	}
+
+	@Then("^i should see original ship date$")
+	public void i_should_see_original_ship_date() throws Throwable {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = getTemplate();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (mcomemailpage.getItemDetails(template).get(index).get("original ship date") != null) {
+					Assert.assertEquals("Expected ship date is not displayed as expected",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getExpectedDate(),
+							itemDetails.get(index).get("original ship date"));
+				}
+				index++;
+			}
+		}
+
+	}
+
+	/**
+	 * This step definition is to validate estimated shipdate for
+	 * 540_split_shipment_notification
+	 */
+	@Then("^i should see estimated ship dates$")
+	public void i_should_see_estimated_ship_dates() throws Throwable {
+
+		String[] estimatedShipDatesFromMail = mcomemailpage.getAllEstimatedshipdates().split(";");
+
+		for (int i = 0; i < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().size(); i++) {
+
+			Assert.assertEquals("Expected estimated date not match with Actual estimated date", enhancedPayloadActual
+							.getTriggerData().get(0).getShipmentsData().get(i).getShipitems().get(0).getExpectedDate().trim(),
+					estimatedShipDatesFromMail[i]);
+
+		}
+	}
+
+	@Then("^i should see estimated ship date as \"([^\"]*)\"$")
+	public void i_should_see_estimated_ship_date_as(String expectedValue) throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = getTemplate();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (mcomemailpage.getItemDetails(template).get(index).get("estimated ship date") != null) {
+					Assert.assertEquals("Expected ship date is not displayed as expected", expectedValue,
+							itemDetails.get(index).get("estimated ship date"));
+				}
+				index++;
+			}
+		}
+	}
+
+	@Then("^i should see contact information for sdd partial cancel:$")
+	public void i_should_see_contact_information_for_sdd_partial_cancel(String contactInformation) throws Throwable {
+
+		contactInformation = contactInformation
+				.replaceAll("<billingfirstname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName())
+				.replaceAll("<billinglastname>",
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName())
+				.replaceAll("<shipmentsemail>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getemail())
+				.replaceAll("<shipmentsphone>",
+						enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getphone());
+		Assert.assertTrue("Contact Information not displaying as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent().trim(), contactInformation.toLowerCase()));
+
+	}
+
+	@And("^i should see body text for 603_paperless:$")
+	public void i_should_see_body_text_for_603_paperless(String bodyText) throws Throwable {
+
+		String bodyTextFromEmailPage = mcomemailpage.thanksMsgInBodyText.getText().replaceAll("\n", "").toLowerCase()
+				.trim() + " " + mcomemailpage.thanksSubMsgInBodyText.getText().replaceAll("\n", "").toLowerCase().trim()
+				+ " " + mcomemailpage.getBodyText().replaceAll("\n", "").toLowerCase().trim();
+
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists",
+				bodyTextFromEmailPage.contains(bodyText.toLowerCase().trim()));
+	}
+
+	@And("^i should see promo offers for 603_paperless:$")
+	public void i_should_see_promo_offers_for_603_paperless(String promoOffers) throws Throwable {
+
+		Assert.assertTrue("Promo offers are not displaying as expected in the email",
+				StringUtils.contains(
+						mcomemailpage.getAllPromoOffersForPaperless().replaceAll("\n", " ").toLowerCase().trim() + " ",
+						promoOffers.toLowerCase()));
+	}
+
+	@And("^i should see static promo legal disclaimer for 603_paperless:$")
+	public void i_should_see_promo_legal_disclaimer_for_offer_share(String promoLegalDisclaimer) throws Throwable {
+
+		Assert.assertTrue("Expected static text not displaying in email ",
+				StringUtils.contains(
+						mcomemailpage.getAllPromoLegalDisclaimer().replaceAll("\n", "").toLowerCase().trim(),
+						promoLegalDisclaimer.replaceAll("\n", "").toLowerCase().trim()));
+	}
+
+	@And("^i should see promo headings for offer share$")
+	public void i_should_see_promo_headings_for_offer_share() throws Throwable {
+
+		String promoHeading = enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoHeading() + ": ";
+		String promoSubHeading = enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoSubHeading();
+		promoHeading += promoSubHeading;
+
+		Assert.assertTrue("Expected promo headings not displaying in email ",
+				StringUtils.contains(mcomemailpage.getAllPromoHeadings().trim(), promoHeading.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see promo description and promo sub description for offer share$")
+	public void i_should_see_promo_description_and_sub_description() throws Throwable {
+
+		String promoDescription = enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoDesc() + " ";
+		String promoSubDescription = enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoSubDesc();
+
+		promoDescription += promoSubDescription;
+
+		Assert.assertTrue("Expected promo headings not displaying in email ",
+				StringUtils.contains(mcomemailpage.getBodyText().trim(), promoDescription.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see promo code and promo expiry date for offer share$")
+	public void i_should_see_promo_code_and_promo_expiry_date() throws Throwable {
+
+		String promoCode = "Promo code: "
+				+ enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoCode() + " | ";
+		String promoExpiryDate = "Ends:"
+				+ enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoExpiryDate();
+
+		promoCode += promoExpiryDate;
+
+		Assert.assertTrue("Expected promo code and expiry date not displaying in email ",
+				StringUtils.contains(mcomemailpage.getBodyText().trim(), promoCode.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see static text below shop macys button for offer share:$")
+	public void i_should_see_static_text_below_shop_macys_button(String staticText) throws Throwable {
+
+		Assert.assertTrue("Expected static text not displaying in email ",
+				StringUtils.contains(mcomemailpage.getBodyText().trim(), staticText.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see promo legal disclaimer for offer share$")
+	public void i_should_see_promo_legal_disclaimer_for_offer_share() throws Throwable {
+
+		String promoLegalDisclaimer = "You're receiving this email because your friend forwarded it to you. "
+				+ enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getPromoLegalDisclaimer().toLowerCase()
+						.replaceAll("&amp;", "&");
+
+		Assert.assertTrue("Expected static text not displaying in email ",
+				StringUtils.contains(mcomemailpage.getAllPromoLegalDisclaimer().toLowerCase().trim(),
+						promoLegalDisclaimer.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see mmoney order details section for 16A$")
+	public void i_should_see_mmomney_order_details_section_for_16A() throws Throwable {
+
+		String orderDetails = mcomemailpage.getAllOrderDetails(mcomemailpage.mmoneyOrderDetailsSection16A);
+		ValidateMmoneyOrderDetails(orderDetails);
+
+	}
+
+	@Then("^i should see mmoney body text for 16A:$")
+	public void i_should_see_mmoney_body_text(String mmoneyBodyText) throws Throwable {
+
+		mmoneyBodyText = mmoneyBodyText
+				.replaceAll("<rewardCardEffectiveDate>",
+						getModifiedYearFormat(enhancedPayloadActual.getTriggerData().get(0).getOrderData()
+								.getRewardCardEffectiveDate()))
+				.replaceAll("<rewardCardExpirationDate>", getModifiedYearFormat(
+						enhancedPayloadActual.getTriggerData().get(0).getOrderData().getRewardCardExpirationDate()))
+				.replaceAll("\n", " ").toLowerCase().trim();
+
+		Assert.assertTrue("Expected mmoney Body text not found in user email",
+				mcomemailpage.getMMoneyBodyText().toLowerCase().trim().contains(mmoneyBodyText.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see reward card earn end date for mmomney:$")
+	public void i_should_see_reward_card_earn_date_for_mmoney(String mmoneyRewardCard) throws Throwable {
+		mmoneyRewardCard = mmoneyRewardCard.replaceAll("<rewardCardEarnEndDate>", getModifiedYearFormat(
+				enhancedPayloadActual.getTriggerData().get(0).getOrderData().getRewardCardEarnEndDate()));
+
+		Assert.assertTrue("Expected mmoney Body text not found in user email",
+				mcomemailpage.getMMoneyRewardCardEarnEndDate().replaceAll("\n", " ").toLowerCase().trim()
+						.contains(mmoneyRewardCard.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see body text for mcom price error$")
+	public void i_should_see_body_text_for_price_error() throws Throwable {
+		String actual = mcomemailpage.getStaticMessage().replace("\n", "").trim();
+		String expected = enhancedPayloadActual.getTriggerData().get(0).getOrderData().getAdhocText().replace("||", "")
+				.replace(" | ", "").replace(" |", "").replace("\n", "").replaceAll("\\|", "").replace(" || ", "")
+				.trim();
+		Assert.assertEquals("Body text not match with actual", expected, actual);
+	}
+
+	@And("^i should see mmoney order details section for 16B$")
+	public void i_should_see_mmomney_order_details_section_for_16B() throws Throwable {
+		String orderDetails = mcomemailpage.getAllOrderDetails(mcomemailpage.mmoneyOrderDetailsSection16B);
+		ValidateMmoneyOrderDetails(orderDetails);
+	}
+
+	@Then("^i should see mmoney body text for 16B:$")
+	public void i_should_see_mmoney_body_text_for_16B(String mmoneyBodyText) throws Throwable {
+
+		mmoneyBodyText = mmoneyBodyText
+				.replaceAll("<rewardCardEffectiveDate>",
+						getModifiedYearFormat(enhancedPayloadActual.getTriggerData().get(0).getOrderData()
+								.getRewardCardEffectiveDate()))
+				.replaceAll("<rewardCardExpirationDate>", getModifiedYearFormat(
+						enhancedPayloadActual.getTriggerData().get(0).getOrderData().getRewardCardExpirationDate()))
+				.replaceAll("\n", " ").toLowerCase().trim();
+		Assert.assertTrue("Expected mmoney Body text not found in user email", mcomemailpage.getMMoneyBodyText16B()
+				.toLowerCase().trim().contains(mmoneyBodyText.toLowerCase().trim()));
+
+	}
+
+	public void ValidateMmoneyOrderDetails(String orderDetails)
+			throws JsonParseException, JsonMappingException, IOException {
+		Assert.assertTrue("Order number is not matching with the expected value", orderDetails.contains(
+				"order #:" + enhancedPayloadActual.getTriggerData().get(0).getInternetOrderNumber().getValue()));
+		Assert.assertTrue("Order date is not matching with the expected value", orderDetails.contains(
+				"order date:" + enhancedPayloadActual.getTriggerData().get(0).getOrderData().getOrderCapturedDate()));
+		Assert.assertTrue("Order total is not matching with the expected value", orderDetails.contains("order total:"
+				+ "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getOrderTotal().toString()));
+
+	}
+
+	@Then("^i should see Order total in the email$")
+	public void i_should_see_Order_total_in_the_email() throws Throwable {
+		String expected_value = "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getSubTotalAmt().toString();
+		Assert.assertEquals("Order subtotal amount is not matching", expected_value,
+				mcomemailpage.subTotalAmtDelayTemplates.getText());
+	}
+
+	@Then("^i should see Shipping in the email$")
+	public void i_should_see_Shipping_in_the_email() throws Throwable {
+		String expected_value = "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getBaseShippingAmt().toString();
+
+		if (expected_value.equalsIgnoreCase("$0.00")) {
+			expected_value = "FREE";
+		}
+		Assert.assertEquals("Order base shipping amount is not matching", expected_value,
+				mcomemailpage.baseShippingAmtDelayTemplates.getText());
+	}
+
+	@Then("^i should see Additional shipment fee amount in the email$")
+	public void i_should_see_Additional_shipment_fee_amount_in_the_email() throws Throwable {
+		String expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+				.getAdditionalShipmentFeeAmount().toString();
+		Assert.assertEquals("Order additional shipment fee amount is not matching", expected_value,
+				mcomemailpage.addtShipmentFeeAmtDelayTemplates.getText());
+	}
+
+	@Then("^i should see Shipment upgrade fee amount in the email$")
+	public void i_should_see_Shipment_upgrade_fee_amount_in_the_email() throws Throwable {
+		String expected_value = "$" + enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData()
+				.getShipmentUpgradeFeeAmount().toString();
+		Assert.assertEquals("Shipment Upgrade fee amount is not matching", expected_value,
+				mcomemailpage.shipmentUpgradeFeeAmtDelayTemplates.getText());
+	}
+
+	@Then("^i should see Gift wrap fee amount in the email$")
+	public void i_should_see_Gift_wrap_fee_amount_in_the_email() throws Throwable {
+		String expected_value = "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getGiftWrapFeeAmt().toString();
+		Assert.assertEquals("Gift wrap fee amount is not matching", expected_value,
+				mcomemailpage.giftWrapFeeAmtDelayTemplates.getText());
+
+	}
+
+	@Then("^i should see Total in the email$")
+	public void i_should_see_Total_in_the_email() throws Throwable {
+		String expected_value = "$"
+				+ enhancedPayloadActual.getTriggerData().get(0).getOrderTotalsData().getOrderTotal().toString();
+		Assert.assertEquals("Order total is not matching", expected_value,
+				mcomemailpage.orderTotalDelayTemplates.getText());
+	}
+
+	@Then("^i should see product color for gift return$")
+	public void i_should_see_product_color_forZ_gift_return() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (itemDetails.get(index).get("color") != null) {
+
+					Assert.assertEquals("Expected product color not match with Actual product color",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getProductColor().replace(" ", ""),
+							itemDetails.get(index).get("color").replace(" ", ""));
+
+				}
+				index++;
+			}
+
+		}
+	}
+
+	@Then("^i should see new ship date$")
+	public void i_should_see_new_ship_date() throws Throwable {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = getTemplate();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (mcomemailpage.getItemDetails(template).get(index).get("new ship date") != null) {
+					Assert.assertEquals("Expected ship date is not displayed as expected",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getNewExpectedDate(),
+							itemDetails.get(index).get("new ship date"));
+				}
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see body text having system cancel date:$")
+	public void i_should_see_body_text_having_system_cancel_date(String expectedContent) throws Throwable {
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		expectedContent = expectedContent.replaceAll("<systemcanceldate>", enhancedPayloadActual.getTriggerData().get(0)
+				.getShipmentsData().get(0).getShipitems().get(0).getSystemCancelDate());
+
+		Assert.assertTrue("body text  \" " + expectedContent + " \" not exists",
+				bodyTextLines.contains(expectedContent.toLowerCase().trim()));
+
+	}
+
+	@Then("^i should see new ship date as delay$")
+	public void i_should_see_new_ship_date_as_delay() throws Throwable {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = getTemplate();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				if (mcomemailpage.getItemDetails(template).get(index).get("new ship date") != null) {
+					Assert.assertEquals("Expected ship date is not displayed as expected", "Delay",
+							itemDetails.get(index).get("new ship date"));
+				}
+				index++;
+			}
+		}
+
+	}
+
+	@Then("^i should see \"([^\"]*)\" button in store hours section$")
+	public void i_should_see_button_in_store_hours_section(String buttonName) throws Throwable {
+		if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName() != null) {
+			i_should_see_button(buttonName);
+		}
+	}
+
+	@And("^i should see body text with order cancel time:$")
+	public void i_should_body_text_with_order_cancel_time(String bodyText) throws Throwable {
+
+		String bodyTextLines = mcomemailpage.getMailBodyText().replaceAll("\n", "").toLowerCase().trim();
+		String orderCancelTime = enhancedPayloadActual.getTriggerData().get(0).getOrderData().getOrderCancelTime();
+		String[] dateAndTime = orderCancelTime.split(" ");
+
+		bodyText = bodyText.replaceAll("<orderCanceldate>", dateAndTime[0])
+				.replaceAll("<orderCanceltime>", dateAndTime[1]).trim();
+		bodyText = bodyText.replaceAll("\\r\\n]+\\s", "").toLowerCase().trim();
+		Assert.assertTrue("body text  \" " + bodyText + " \" not exists", bodyTextLines.contains(bodyText));
+	}
+
+	@And("^i should see update payment information button$")
+	public void i_should_see_update_payment_information_button() {
+		String actualLinkText = "update payment information";
+		String updatePaymentInfoBtn = mcomemailpage.getUpdatePaymentInfo().getText().toLowerCase().trim();
+		Assert.assertTrue("update payment information button does not exists",
+				actualLinkText.contains(updatePaymentInfoBtn));
+
+	}
+
+	@Then("^i should see the loyalty error code text in the email:$")
+	public void i_should_see_the_loyalty_error_code_text_in_the_email(String expectedText) throws Throwable {
+
+		try {
+			Assert.assertTrue("Loyalty error text  \" " + expectedText + " \" not exists",
+					mcomemailpage.getstaticNoteMessage().trim().contains(expectedText.trim()));
+		} catch (Error e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+	@Given("^i trigger \"([^\"]*)\" input through csp testemail by removing \"([^\"]*)\" section$")
+	public void i_trigger_input_through_csp_testemail_by_removing_section(String tempalteName, String sectionName)
+			throws Throwable {
+		modifyPayloadAndTriggerCsp(tempalteName, sectionName);
+	}
+
+	@Then("^i should see mmoney body text for 16C:$")
+	public void i_should_see_mmoney_body_text16c(String mmoneyBodyText) throws Throwable {
+
+		mmoneyBodyText = mmoneyBodyText
+				.replaceAll("<rewardCardEffectiveDate>",
+						getModifiedYearFormat(enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData()
+								.getRewardsCardEffectiveDate()))
+				.replaceAll("<rewardCardExpirationDate>", getModifiedYearFormat(
+						enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData().getRewardsCardExpirationDate()))
+				.replaceAll("\n", " ").toLowerCase().trim();
+
+		Assert.assertTrue("Expected mmoney Body text not found in user email", mcomemailpage.getMMoneyCampaignBodyText()
+				.toLowerCase().trim().replaceAll("\n", " ").contains(mmoneyBodyText.toLowerCase().trim()));
+
+	}
+
+	@And("^i should see mmoney order details section for 16C$")
+	public void i_should_see_mmomney_order_details_section_for_16C() throws Throwable {
+		String orderDetails = mcomemailpage.getMMoneyOrderDetailsSection16C().toLowerCase().trim();
+		Assert.assertTrue("Order number is not matching with the expected value",
+				orderDetails.contains("order #:" + enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData()
+						.getAdjustmentInternetOrderNbr().toLowerCase()));
+		Assert.assertTrue("Order date is not matching with the expected value",
+				orderDetails.contains("order date:" + enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData()
+						.getAdjustmentOrigTransactionDate().toLowerCase()));
+		Assert.assertTrue("Order total is not matching with the expected value",
+				orderDetails.contains("order total:" + "$" + enhancedPayloadActual.getTriggerData().get(0)
+						.getLoyaltyData().getAdjustmentOrigOrderTotal().toLowerCase()));
+
+	}
+
+	@And("^i shoould see \"(.*?)\" text in email$")
+	public void iShouldSeeTextInEmail(String text) throws Exception {
+		String expectedText = null, actualText = null;
+		switch (text) {
+		case "REDEEM IT FROM":
+		case "YOUR REWARD CARD NUMBER:":
+		case "CID NUMBER:":
+			expectedText = text;
+			actualText = text.contains("CID") ? mcomemailpage.getMMoneyRewardCardText()
+					: (text.contains("IT") ? mcomemailpage.getMMoneyRedeemItText()
+							: mcomemailpage.getMMoneyYourRewardCardText());
+			break;
+		case "<rewardCardEffectiveDate>-<rewardCardExpirationDate>":
+		case "EXPIRES <rewardCardExpirationDate>":
+			expectedText = text
+					.replaceAll("<rewardCardEffectiveDate>",
+							getModifiedYearFormat(enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData()
+									.getRewardsCardEffectiveDate()))
+					.replaceAll("<rewardCardExpirationDate>", getModifiedYearFormat(enhancedPayloadActual
+							.getTriggerData().get(0).getLoyaltyData().getRewardsCardExpirationDate()))
+					.replaceAll("\n", " ");
+			actualText = text.contains("EXPIRES") ? mcomemailpage.getMMoneyRewardCardExpText()
+					: mcomemailpage.getMMoneyEffAndExpDates();
+			break;
+		case "<cid>":
+		case "<rewardCardNumber>":
+			Loyalty ltyData = enhancedPayloadActual.getTriggerData().get(0).getLoyaltyData();
+			expectedText = text.replaceAll("<cid>", ltyData.getRewardsCardCid())
+					.replaceAll("<rewardCardNumber>", ltyData.getVrcBarCodeNbr()).replaceAll("\n", " ");
+			actualText = text.contains("cid") ? mcomemailpage.getMMoneyRewardCardCID()
+					: mcomemailpage.getMMoneyRewardCardNumber();
+			break;
+		default:
+			Assert.fail("Invalid option!!");
+		}
+
+		Assert.assertTrue("Expected Text " + expectedText + " is not present in email",
+				expectedText.trim().toLowerCase().contains(actualText.trim().toLowerCase()));
+	}
+
+	@And("^i should see mMoney reward card bar code image in email$")
+	public void iShouldSeeMMoneyRewardCardBarCodeImageInEmail() {
+		Assert.assertTrue("mMoney reward card bar code image not present in email",
+				mcomemailpage.isMMoneyRewardCardBarCodeImagePresent());
+	}
+
+	@And(("^i should see below mMoney disclimer text in email:$"))
+	public void iShouldSeeBelowMMoneyDisclimerTextInEmail(String text) {
+		Assert.assertTrue("mMoney disclimer text not present in email", text.toLowerCase().trim()
+				.contains(mcomemailpage.getMMoneyDeclimerText().replaceAll("\n", " ").trim().toLowerCase()));
+
+	}
+
+	@And("^I should see the delivery method:$")
+	public void iShouldSeeTheDeliveryMethod(String text) throws Throwable {
+		Assert.assertTrue("delivery method  \" " + text + " \" not exists",
+				StringUtils.contains(text, mcomemailpage.getDeliveryMethod().trim()));
+	}
+
+	@And("^I should see the delivery address$")
+	public void iShouldSeeTheDeliveryAddress() throws Throwable {
+		String labelText = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("Delivery Address Line1 is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getAddrLine1().toLowerCase()));
+
+		Assert.assertTrue("Delivery City is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getCity().toLowerCase()));
+		Assert.assertTrue("Delivery State is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getState().toLowerCase()));
+
+		Assert.assertTrue("Delivery ZIP Code is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getZipcode().toLowerCase()));
+
+		Assert.assertTrue("Phone Number is not matching with the expected value", labelText.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getphone().toLowerCase()));
+	}
+
+	@And("^i should see BT billing address$")
+	public void iShouldSeeBTBillingAddress() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("BT Billing Address Line1 is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getAddrLine1().toLowerCase()));
+
+		Assert.assertTrue("BT Billing City is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getCity().toLowerCase()));
+
+		Assert.assertTrue("BT Billing State is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getState().toLowerCase()));
+
+		Assert.assertTrue("BT Billing ZIP Code is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getZipcode().toLowerCase()));
+
+	}
+
+	@And("^i should see BT Delivery summary text$")
+	public void iShouldSeeBTDeliverySummaryText() throws Throwable {
+		Assert.assertEquals("BT Delivery Summary Text is not displaying in the email", true,
+				mcomemailpage.deliverySummaryText.isDisplayed());
+	}
+
+	@And("^i should see BT contact information$")
+	public void iShouldSeeBTContactInformation() throws Throwable {
+		String contactInfo = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("First Name in contact information is not matching with actual", contactInfo.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName().toLowerCase()));
+
+		Assert.assertTrue("Last Name in contact information is not matching with actual", contactInfo.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getLastName().toLowerCase()));
+
+		Assert.assertTrue("Expected Email Address not match with actual", contactInfo.contains(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getemail().toLowerCase()));
+	}
+
+	@Then("^i should see pickup notice text$")
+	public void ishould_see_pickup_notice_text(String smsFlagText) throws Throwable {
+
+		Assert.assertTrue("Contact Information not displayign as expected in the email",
+				StringUtils.contains(mcomemailpage.getMailContent().trim(), smsFlagText));
+
+	}
+
+	@And("^i should see bops locker bar code image in email$")
+	public void iShouldSeeBopsLockerBarCodeImageInEmail() throws Throwable {
+		Assert.assertTrue("Bops Locker bar code image not present in email",
+				mcomemailpage.isBopsLockerBarCodeImagePresent());
+	}
+
+	@And("^i should see lockerCode text$")
+
+	public void ishould_see_lockerCode_text() throws Throwable {
+
+		Assert.assertEquals("Expected locker code number not found in user email",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getLockerAccessCode(),
+				mcomemailpage.getMMoneyRewardCardNumber().trim());
+
+	}
+
+	//
+	// Static methods for common uses between mcom and bcom
+	//
+	// @When("^i should see return completed date$")
+	public void i_should_see_return_completed_date() throws Throwable {
+		Assert.assertEquals("Expected return completed date not found in the mail",
+				"Return completed date: " + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getShipitems().get(0).getReturnReceiptDate(),
+				mcomemailpage.getReturnCompletedDate());
+	}
+
+	// @Then("^i should see static content for mobile number change notification as:$")
+	public void i_should_see_static_content_for_mobile_number_change_notification(String text) throws Throwable {
+
+		String expected = text.replaceAll("<profilePhoneNumber>",
+				enhancedPayloadActual.getTriggerData().get(0).getWebsiteData().getProfileMobileNbr());
+
+		i_should_see_static_contents(expected);
+
+	}
+
+	// @And("^i should see note section:$")
+	public void i_should_note_section(String expectedNoteContent) throws Throwable {
+		String actualNoteContent = mcomemailpage.getBodyText().trim();
+
+		Assert.assertTrue("Actual note content:" + actualNoteContent + "is not matching with expected note content:"
+				+ expectedNoteContent, actualNoteContent.contains(expectedNoteContent.toLowerCase().trim()));
+	}
+
+
+	// @Then("^i should see refund amount$")
+	public void i_should_see_refund_amount() throws JsonParseException, JsonMappingException, IOException {
+		Assert.assertEquals("Expected Refund amount not match",
+				"Refunded amount: $"
+						+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getChargeAmt(),
+				mcomemailpage.getRefundAmount().replace(",", ""));
+	}
+
+
+	// @Then("^i should see product requested quantity$")
+	public void i_should_see_product_requested_quantity() throws Throwable {
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				Assert.assertEquals("Expected Product Qty not match with actual",
+						Integer.parseInt(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+								.getShipitems().get(item).getReqQuantity()),
+						Integer.parseInt(itemDetails.get(index).get("qty")));
+				index++;
+			}
+		}
+	}
+
+
+	// @And("^i should see zone name in the email$")
+	public void i_should_see_zone_name_in_the_email() throws Throwable {
+
+		String ActualZoneName = (mcomemailpage.getBodyText().trim()).toLowerCase();
+		String expectedZoneName = enhancedPayloadActual.getTriggerData().get(0).getOrderData().getZoneName();
+		try {
+			Assert.assertTrue("Actual zone name is not matching with expected zone name",
+					ActualZoneName.contains(expectedZoneName.toLowerCase()));
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+
+	// @Then("^i should see multiple tracking urls text at shipment detail level$")
+	public void i_should_see_multiple_tracking_urls_text_at_shipment_detail_level() throws Throwable {
+		Assert.assertEquals("Multiple Tracking URL text is not displayed ", "multiple tracking URLs",
+				mcomemailpage.trackingnumberAtShipment.getText().trim());
+
+		Assert.assertEquals("Invalid target URL for Multiple Tracking URL text ", Integer.parseInt("200"),
+				mcomemailpage.getResponseCodeByLinkText(mcomemailpage.trackingnumberAtShipment.getText().trim()));
+
+	}
+
+	// @When("^i should see estimated refund$")
+	public void i_should_see_estimated_refund() throws Throwable {
+		Assert.assertEquals("Expected estimated refund not found in the mail",
+				"Estimated refund: " + "$"
+						+ enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(0).getChargeAmt(),
+				mcomemailpage.getEstimatedRefund());
+	}
+
+
+	// @And("^i should see store tomorrow's hours$")
+	public void i_should_see_store_tomorrows_hours() throws Throwable {
+
+		if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName() != null) {
+			SimpleDateFormat timeFormatter = new SimpleDateFormat("h:mm a");
+
+			DateFormat formatter = new SimpleDateFormat("h:mm");
+			Date strOpentime = (Date) formatter.parse(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+					.get(0).getStoreHoursDetails().get(1).getOpenHour());
+			Date strClosetime = (Date) formatter.parse(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+					.get(0).getStoreHoursDetails().get(1).getCloseHour());
+
+			String tomorrowsHoursFromEp = "Tomorrow: " + timeFormatter.format(strOpentime) + " - "
+					+ timeFormatter.format(strClosetime);
+
+			Assert.assertTrue("Store Tomorrow's Hours is not matching with the expected value",
+					mcomemailpage.getMailContent().toLowerCase().contains(tomorrowsHoursFromEp.toLowerCase()));
+		}
+	}
+
+	// @Then("^i should see order number$")
+	public void i_should_see_order_number() throws Throwable {
+		Assert.assertEquals("Expected Order number not found in user email",
+				"Order #: " + enhancedPayloadActual.getTriggerData().get(0).getInternetOrderNumber().getValue(),
+				mcomemailpage.getOrderNumber());
+	}
+
+
+	// @Then("^i should see reason for replacement$")
+	public void i_should_see_reason_for_replacement() throws JsonParseException, JsonMappingException, IOException {
+		String returnReason = null;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getReturnReason() != null) {
+					returnReason = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+							.getShipitems().get(item).getReturnReason();
+					break;
+				}
+			}
+		}
+		Assert.assertEquals("Expected reason for replacement not match", "Reason for replacement: " + returnReason,
+				mcomemailpage.getReasonForReplacement());
+	}
+
+
+	// @And("^i should see body text for offer share:$")
+	public void i_should_see_body_text_for_offer_share(String bodytext) throws Throwable {
+
+		String replyToName = enhancedPayloadActual.getTriggerData().get(0).getReplyToName().getValue();
+		String promoPersonalMessage = enhancedPayloadActual.getTriggerData().get(0).getWebsiteData()
+				.getPromoPersonalMessage();
+		bodytext = bodytext.replaceAll("<REPLY_TO_DISPLAY_NAME>", replyToName);
+		if (promoPersonalMessage != null) {
+			bodytext = bodytext.replaceAll("<promoPersonalMessage>", promoPersonalMessage);
+		} else {
+			bodytext = bodytext.replaceAll("<promoPersonalMessage>", "");
+		}
+		Assert.assertTrue(
+				"Expected mail Body text " + bodytext + "not found in user email. Actual body text:"
+						+ mcomemailpage.getBodyText().trim(),
+				StringUtils.contains(mcomemailpage.getBodyText().trim(), bodytext.toLowerCase().trim()));
+
+	}
+
+	// @And("^i should see body text for bops pickup reminder:$")
+	public void i_should_see_body_text_for_bops_pickup_reminder(String bodyText) throws Throwable {
+
+		try {
+			bodyText = bodyText
+					.replaceAll("<storeName>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName())
+					.replaceAll("<pickupCancelDate>", enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+							.get(0).getPickupCancelDate())
+					.toLowerCase().trim();
+
+			Assert.assertTrue(
+					"Expected mail Body text " + bodyText + "not found in user email. Actual body text:"
+							+ mcomemailpage.getBodyText().trim(),
+					StringUtils.contains(mcomemailpage.getBodyText().toLowerCase().replaceAll("\n", "").trim(),
+							bodyText));
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+
+	// @Then("^i should see original payment$")
+	public void i_should_see_original_payment() throws JsonParseException, JsonMappingException, IOException {
+
+		DecimalFormat df = new DecimalFormat("#.##");
+
+		float shipRetailAmt = Float.parseFloat(
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipRetailAmount());
+		float shipTaxAmt = Float
+				.parseFloat(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipTaxAmount());
+
+		float total = shipRetailAmt + shipTaxAmt;
+
+		String originalPayment = "Original payment: $" + Double.valueOf(df.format(total));
+
+		Assert.assertEquals("Expected original payment amount not match", originalPayment,
+				mcomemailpage.getOriginalPayment());
+	}
+
+	// @Then("^i should see \"([^\"]*)\" text$")
+	public void i_should_see_text(String strText) throws Throwable {
+		Assert.assertTrue(strText + "NOT existing in email page", mcomemailpage.isTextPresent(strText));
+	}
+
+
+	// @Then("^i should see static contents:$")
+	public void i_should_see_static_contents(String statictext) throws Throwable {
+		int numberoflinks = StringUtils.countMatches(statictext, "<link>");
+		if (numberoflinks >= 2) {
+			String[] contents = statictext.split("<link>");
+			for (int cnt = 1; cnt <= numberoflinks; cnt = cnt + 2) {
+				Assert.assertNotNull("Link \" " + contents[cnt] + " \" not exists",
+						Browser.instance().firefoxDriver().findElementByLinkText(contents[cnt]));
+				;
+			}
+			for (int cnt = 0; cnt <= numberoflinks + 1; cnt = cnt + 2) {
+				Assert.assertTrue("Static text \" " + contents[cnt] + " \" not exists",
+						StringUtils.contains(statictext, contents[cnt]));
+			}
+		} else {
+
+			Assert.assertTrue("Static text \" " + statictext + " \" not exists", StringUtils.contains(statictext,
+					mcomemailpage.getStaticMessage().replaceAll("\\r\\n|\\r|\\n", "")));
+		}
+
+	}
+
+	// @Then("^i should see product name url valid$")
+	public void i_should_see_product_name_url_valid() throws Throwable {
+
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment).getShipitems()
+						.get(item).getProductURL() != null) {
+					Assert.assertEquals("Product name url not valid ", Integer.parseInt("200"),
+							mcomemailpage.getResponseCodeByLinkText(enhancedPayloadActual.getTriggerData().get(0)
+									.getShipmentsData().get(shipment).getShipitems().get(item).getProductName()));
+				}
+
+			}
+		}
+	}
+
+	// @And("^i should see store today's hours$")
+	public void i_should_see_store_todays_hours() throws Throwable {
+
+		if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName() != null) {
+			SimpleDateFormat timeFormatter = new SimpleDateFormat("h:mm a");
+
+			DateFormat formatter = new SimpleDateFormat("h:mm");
+			Date strOpentime = (Date) formatter.parse(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+					.get(0).getStoreHoursDetails().get(0).getOpenHour());
+			Date strClosetime = (Date) formatter.parse(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+					.get(0).getStoreHoursDetails().get(0).getCloseHour());
+
+			String toDayHoursFromEp = "Today: " + timeFormatter.format(strOpentime).toLowerCase() + " - "
+					+ timeFormatter.format(strClosetime).toLowerCase();
+
+			Assert.assertTrue("Store Today's Hours is not matching with the expected value",
+					mcomemailpage.getMailContent().toLowerCase().contains(toDayHoursFromEp.toLowerCase()));
+		}
+	}
+
+	//@Then("^i should see replacement date$")
+	public void i_should_see_replacement_date() throws Throwable {
+		Assert.assertEquals(
+				"Expected replacement date not found in the mail", "Replacement date: " + enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getReturnSubmittedDate(),
+				mcomemailpage.getReplacementDate().trim());
+
+	}
+
+	// @Given("^i trigger \"([^\"]*)\" input through csp testemail$")
+	public void i_trigger_input_through_csp_testemail(String tempalteName) throws Throwable {
+		triggerCSP(tempalteName);
+	}
+
+	// @When("^i navigate to view the email page$")
+	public void i_navigate_to_view_the_email_page() throws Throwable {
+		Assert.assertTrue(goToEmailPageBySourceSystemId());
+	}
+
+
+	// @And("^i should see body text for virtual return confirmation:$")
+	public void i_should_see_body_text_for_virtual_return_confirmation(String bodyText) throws Throwable {
+		bodyText = bodyText.replaceAll("<returnExpectedDate>", enhancedPayloadActual.getTriggerData().get(0)
+				.getShipmentsData().get(0).getShipitems().get(0).getReturnExpectedDate()).replaceAll("\n", "");
+
+		Assert.assertTrue(
+				"Expected mail Body text " + bodyText + "not found in user email. Actual body text:"
+						+ mcomemailpage.getBodyText().trim(),
+				StringUtils.contains(mcomemailpage.getBodyText().toLowerCase().trim(), bodyText.toLowerCase().trim()));
+	}
+
+
+	// TODO: following are duplicate code remove it later
+	//@Given("^i have an enhanced payload sent to email provider$")
+	public void i_have_enhaced_payload_sent_to_email_provider() throws Throwable {
+		waitForStatusPC(getSourceSystemID());
+		getActualPayload();
+	}
+
+
+	// @Then("^i should see loyalty section in the email$")
+	public void i_should_see_loyalty_section_in_the_email() throws Throwable {
+
+		// Verify loyalty account number
+		try {
+			Assert.assertEquals(
+					"Loyallist account number is not displaying as expected", "Plenti #: " + enhancedPayloadActual
+							.getTriggerData().get(0).getLoyaltyData().getLoyaltyPrograms().get(0).getProgramId(),
+					mcomemailpage.loyallistAccountNumber.getText());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} catch (Error e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+	// @And("^i should see item name$")
+	public void i_should_see_item_name() throws Throwable {
+
+		String[] itemName = mcomemailpage.getItemNames().split("@");
+
+		for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems()
+				.size(); item++) {
+			Assert.assertEquals(
+					"Expected product not match with Actual product name", enhancedPayloadActual.getTriggerData().get(0)
+							.getShipmentsData().get(0).getShipitems().get(item).getProductName().toLowerCase(),
+					itemName[item]);
+		}
+	}
+
+	/**
+	 * This step definition is to validate estimated shipdate for
+	 * 240_order_confirmation
+	 */
+	// @Then("^i should see estimated ship date$")
+	public void i_should_see_estimated_ship_date() throws Throwable {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if (mcomemailpage.getItemDetails(template).get(index).get("estimated shipdate") != null) {
+					Assert.assertEquals("Expected ship is not displayed as expected",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getShipitems().get(item).getExpectedDate(),
+							itemDetails.get(index).get("estimated shipdate"));
+
+				}
+				index++;
+			}
+		}
+	}
+
+	// @Then("^i should see \"([^\"]*)\" button$")
+	public void i_should_see_button(String buttonName) throws Throwable {
+		Assert.assertNotNull("Unable to Find button " + buttonName, mcomemailpage.getLinkByText(buttonName));
+		Assert.assertEquals("Invalid target URL for Button " + buttonName, Integer.parseInt("200"),
+				mcomemailpage.getResponseCodeByLinkText(buttonName));
+	}
+
+	// @And("^i should see body text:$")
+	public void i_should_body_text(String bodyText) throws Throwable {
+
+		String bodyTextLines = mcomemailpage.getBodyText().replaceAll("\n", "").trim();
+		Assert.assertTrue("body text  \" " + bodyText.trim() + " \" not exists",
+				bodyTextLines.contains(bodyText.trim()));
+	}
+
+
+	// @Then("^i should see order capture date$")
+	public void i_should_see_order_capture_date() throws Throwable {
+		Assert.assertEquals("Expected Order Date found in user email",
+				"Order date: " + enhancedPayloadActual.getTriggerData().get(0).getOrderData().getOrderCapturedDate(),
+				mcomemailpage.getOrderDate());
+	}
+
+	// @Then("^i should see firstname$")
+	public void i_should_see_firstname() throws Throwable {
+		Assert.assertTrue("Shipping First Name is not matching with the expected value",
+				mcomemailpage.getFirstName().toLowerCase().contains(
+						("hi " + enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getFirstName())
+								.toLowerCase() + ","));
+	}
+
+
+	// @And("^i should see billing address$")
+	public void i_should_see_billing_address() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("Billing First Name is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase()));
+
+		Assert.assertTrue("Billing Last Name is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getLastName().toLowerCase()));
+
+		Assert.assertTrue("Billing Address Line1 is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getAddrLine1().toLowerCase()));
+
+		Assert.assertTrue("Billing Address Line2 is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getAddrLine2().toLowerCase()));
+
+		Assert.assertTrue("Billing Address Line3 is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getAddrLine3().toLowerCase()));
+
+		Assert.assertTrue("Billing City is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getCity().toLowerCase()));
+
+		Assert.assertTrue("Billing State is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getState().toLowerCase()));
+
+		Assert.assertTrue("Billing ZIP Code is not matching with the expected value", labelText
+				.contains(enhancedPayloadActual.getTriggerData().get(0).getBillingData().getZipcode().toLowerCase()));
+
+	}
+
+	// @And("^i should see shipping method$")
+	public void i_should_see_shipping_method() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+		String[] shipmentTypes = new String[10];
+
+		String jsonShippingMethod = getShipmentMethod(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.get(0).getShipitems().get(0).getShipmentType().trim());
+
+		String firstShipmentType = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+				.getShipitems().get(0).getShipmentType();
+		int count = 0;
+		for (int shipment = 1; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			shipmentTypes[shipment] = enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().get(0).getShipmentType();
+
+			if (firstShipmentType.equals(shipmentTypes[shipment])) {
+				count++;
+			}
+
+		}
+		if (count == enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().size() - 1) {
+
+			Assert.assertTrue("Shipment method is not matching with Expected value",
+					labelText.contains(getShipmentMethod(enhancedPayloadActual.getTriggerData().get(0)
+							.getShipmentsData().get(0).getShipitems().get(0).getShipmentType()).toLowerCase()));
+
+		} else {
+			Assert.assertTrue("Shipment method is not matching with Expected value",
+					labelText.contains("multiple: see below"));
+
+		}
+
+	}
+
+	// @And("^i should see gift message$")
+	public void i_should_see_gift_message() throws Throwable {
+
+		String labelText = mcomemailpage.getMailContent();
+
+		Assert.assertTrue("Gift Greeting Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftGreetingMsg().toLowerCase()));
+		Assert.assertTrue("Gift Closing Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftClosingMsg().toLowerCase()));
+		Assert.assertTrue("Gift Signature Message is not matching with the expected value",
+				labelText.contains(enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0)
+						.getGiftSignatureMsg().toLowerCase()));
+	}
+
+	// @Then("^i should see credit card type$")
+	public void i_should_see_credit_card_type() throws Throwable {
+
+		for (int payments = 0; payments < enhancedPayloadActual.getTriggerData().get(0).getPaymentData()
+				.size(); payments++) {
+
+			String cardType = enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(payments).getType();
+
+			String cardNumber = enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(payments)
+					.getCardNbr();
+
+			String egcCerType = enhancedPayloadActual.getTriggerData().get(0).getPaymentData().get(payments)
+					.getEgcCertificateType();
+
+			OptionalDatum clientId = enhancedPayloadActual.getTriggerData().get(0).getClientID();
+
+			if (cardType.equalsIgnoreCase("PayPal")) {
+
+				Assert.assertTrue("Expected '" + cardType + "' card details not found in user email",
+						mcomemailpage.getPaymentMethod().toLowerCase().contains(cardType.toLowerCase()));
+			} else if (cardType.equalsIgnoreCase("Apple Pay")) {
+
+				Assert.assertTrue("Expected '" + cardType + "' card details not found in user email",
+						mcomemailpage.getPaymentMethod().toLowerCase().contains(cardType.toLowerCase()));
+			} else if (cardType.equalsIgnoreCase("Electronic Gift Card") && egcCerType.equalsIgnoreCase("75")) {
+
+				Assert.assertTrue("Expected 'Plenti #' card details not found in user email",
+						mcomemailpage.getPaymentMethod().toLowerCase()
+								.contains(("Plenti #" + " "
+										+ enhancedPayloadActual.getTriggerData().get(0).getOrderBaseData().getUslId())
+										.toLowerCase()));
+			} else if (clientId.getValue().equalsIgnoreCase("EOD")) {
+				Assert.assertTrue("Expected '" + cardType + "' card details not found in user email", mcomemailpage
+						.getPaymentMethod().toLowerCase().toLowerCase().contains((cardType).toLowerCase()));
+			} else {
+				Assert.assertTrue("Expected '" + cardType + "' card details not found in user email",
+						mcomemailpage.getPaymentMethod().toLowerCase().toLowerCase()
+								.contains((cardType + " " + cardNumber).toLowerCase()));
+			}
+		}
+
+	}
+
+	// @Then("^i should see product name$")
+	public void i_should_see_product_name() throws JsonParseException, JsonMappingException, IOException {
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		mcomemailpage.productDetails = null;
+
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+		itemDetails = mcomemailpage.getItemDetails(template);
+
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+				Assert.assertEquals(
+						"Expected product not match with Actual product name", enhancedPayloadActual.getTriggerData()
+								.get(0).getShipmentsData().get(shipment).getShipitems().get(item).getProductName(),
+						itemDetails.get(index).get("productName"));
+				index++;
+			}
+		}
+	}
+
+	// @Then("^i should see multiple tracking urls text at product level$")
+	public void i_should_see_multiple_tracking_urls_text_at_product_level() throws Throwable {
+
+		String[] trackingNumber = mcomemailpage.getTrackingnumberAtProduct().split("@");
+
+		List<LinkedHashMap<String, String>> itemDetails = null;
+		String template = enhancedPayloadActual.getTriggerData().get(0).getMailType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getMailSubType().getValue() + "_"
+				+ enhancedPayloadActual.getTriggerData().get(0).getBrandType().getValue();
+
+		itemDetails = mcomemailpage.getItemDetails(template);
+		int index = 0;
+		for (int shipment = 0; shipment < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData()
+				.size(); shipment++) {
+			for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+					.getShipitems().size(); item++) {
+
+				if ((mcomemailpage.getItemDetails(template).get(index).get("tracking #") != null)
+						&& enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+						.getTrackingDetails().size() > 1) {
+
+					Assert.assertEquals("Expected tracking text not match with Actual tracking text",
+							"multiple tracking URLs", itemDetails.get(index).get("tracking #"));
+
+					Assert.assertEquals("Invalid target URL for Multiple Tracking URL text", Integer.parseInt("200"),
+							mcomemailpage.getResponseCodeByLinkText(trackingNumber[index].trim()));
+
+				} else if ((mcomemailpage.getItemDetails(template).get(index).get("tracking #") != null)) {
+
+					Assert.assertEquals("Expected tracking number not match with Actual tracking number",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(shipment)
+									.getTrackingDetails().get(0).getTrackingNbr(),
+							itemDetails.get(index).get("tracking #"));
+
+					Assert.assertEquals("Invalid target URL for Multiple Tracking URL text", Integer.parseInt("200"),
+							mcomemailpage.getResponseCodeByLinkText(trackingNumber[index]));
+
+				}
+				index++;
+			}
+		}
+	}
+
+	// @Then("^i should see item image url valid$")
+	public void i_shoud_see_item_image_url_valid() throws Throwable {
+
+		int product_index = 0;
+		for (int item = 0; item < enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getShipitems()
+				.size(); item++) {
+			Assert.assertEquals("Product image link not valid ", Integer.parseInt("200"),
+					mcomemailpage.getItemImageURLHttpStatus(product_index));
+			product_index++;
+		}
+	}
+
+	// @Then("^i should see button as \"([^\"]*)\"$")
+	public void i_should_see_button_as(String buttonName) throws Throwable {
+		Assert.assertNotNull("Unable to Find button " + buttonName, mcomemailpage.getLinkByTitle(buttonName));
+		Assert.assertEquals("Invalid target URL for Button " + buttonName, Integer.parseInt("200"),
+				mcomemailpage.getResponseCodeByURL(mcomemailpage.getUrlByTitle(buttonName)));
+
+	}
+
+	// @Then("^i should see default categories:$")
+	public void i_should_see_default_categories(String categories) throws Throwable {
+		String[] categoriesArray = categories.split(",");
+		for (int i = 0; i < categoriesArray.length; i++) {
+			Assert.assertNotNull("Unable to Find button " + categoriesArray[i].trim(),
+					mcomemailpage.getLinkByText(categoriesArray[i].trim()));
+			Assert.assertEquals("Invalid target URL for Button " + categoriesArray[i], Integer.parseInt("200"),
+					mcomemailpage.getResponseCodeByElement(categoriesArray[i].trim()));
+		}
+
+	}
+
+	// @Then("^i should see preheader:$")
+	public void i_should_see_preheader(String preHeader) throws Throwable {
+		int numberoflinks = StringUtils.countMatches(preHeader, "<link>");
+		if (numberoflinks >= 2) {
+			String[] contents = preHeader.split("<link>");
+			for (int cnt = 1; cnt <= numberoflinks; cnt += 2) {
+				Assert.assertNotNull("Link \" " + contents[cnt] + " \" not exists",
+						Browser.instance().firefoxDriver().findElementByLinkText(contents[cnt]));
+			}
+			for (int cnt = 0; cnt < contents.length - 1; cnt += 2) {
+				Assert.assertTrue("Static text \" " + contents[cnt] + " \" not exists",
+						StringUtils.contains(preHeader, contents[cnt]));
+			}
+		} else {
+			Assert.assertTrue("Static text \" " + preHeader + " \" not exists",
+					StringUtils.contains(preHeader, mcomemailpage.getStaticMessage()));
+		}
+	}
+
+	// @When("^i should see reason for return$")
+	public void i_should_see_reason_for_return() throws Throwable {
+		Assert.assertEquals(
+				"Expected reason for return not found in the mail", "Reason for return: " + enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getShipitems().get(0).getReturnReason(),
+				mcomemailpage.getReasonForReturn());
+	}
+
+	// for bops order confirmation
+	// @Then("^i should see pick up location:$")
+	public void i_should_see_pick_up_location(String expectedPickupLocation) throws Throwable {
+		if (enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName() != null) {
+			expectedPickupLocation = expectedPickupLocation
+					.replaceAll("<storename>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreName())
+					.replaceAll("<shipmentsstoreaddrline1>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreAddrLine1())
+					.replaceAll("<shipmentsstorecity>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreCity())
+					.replaceAll("<shipmentsstorestate>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreState())
+					.replaceAll("<shipmentsstorezipcode>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStoreZipcode())
+					.replaceAll("<shipmentsstorephone>",
+							enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getStorePhone());
+
+			Assert.assertTrue("Pickup information is not displaying as expected in the email",
+					StringUtils.contains(mcomemailpage.getMailContent(), expectedPickupLocation.toLowerCase()));
+		}
+
+	}
+
+	// @And("^i should see pickup barcode$")
+	public void i_should_see_pickup_barcode() throws Throwable {
+		Assert.assertEquals("Expected Pickup Barcode number not found in user email",
+				enhancedPayloadActual.getTriggerData().get(0).getShipmentsData().get(0).getPickupBarcode(),
+				mcomemailpage.getpickupBarcode().trim());
+	}
+
+	// @Then("^i should see shipment firstname$")
+	public void i_should_see_shipment_firstname() throws Throwable {
+
+		Assert.assertEquals(
+				"Expected first name not found in user email", "Hi " + StringUtils.capitalize(enhancedPayloadActual
+						.getTriggerData().get(0).getShipmentsData().get(0).getFirstName().toLowerCase()) + ",",
+				mcomemailpage.getFirstName());
+
+	}
+
+	// @And("^i should see billing first name$")
+	public void i_should_see_billing_first_name() throws Throwable {
+		Assert.assertTrue("Expected first name is not found in user email",
+				mcomemailpage.getFirstName().contains("Hi " + StringUtils.capitalize(
+						enhancedPayloadActual.getTriggerData().get(0).getBillingData().getFirstName().toLowerCase())
+						+ ","));
+	}
+
+	// @Given("^i wait for enhanced payload to be sent to email provider$")
+	public void i_wait_for_enhanced_payload_to_be_sent_to_email_provider() throws Throwable {
+		Thread.sleep(60000);
+	}
+
+}

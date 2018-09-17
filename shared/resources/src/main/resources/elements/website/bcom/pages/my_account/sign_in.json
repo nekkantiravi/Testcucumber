@@ -1,0 +1,25 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "verify_page": "id, accountSignInBtn||id, sign-in",
+
+  "email": "id, email",
+  "password": "id, password||id, pw-input",
+  "pwd_show_button": "id, show-pw",
+  "forgot_password_link": "id,forgot-password-auth-web||linkText, Forgot your password?||linkText, Forgot Your Password?",
+  "error_message": "id, userGeneralMsgText || class, errorMessageInline || xpath, //div[@class='alert error']||id, error_msg",
+  "create_profile_benefits_new": "xpath,//a[contains(text(),'Learn the benefits of an online account')]||linkText, Learn the benefits of an online account",
+  "privacy_policy": "xpath,//*[contains(@class,'account_signin_rightCol')]//a[contains(text(),'Privacy')]||linkText, Privacy Practices",
+  "looking_for_gift_registry": "linkText, Looking for your gift registry?",
+  "create_profile": "id, signUpBtn||className, account_createAccountBtn||xpath, id('bl_breadCrumbAndMainContentContainer')/div[9]/div[2]/div/a||className, .button.secondary.expand||linkText, CREATE AN ACCOUNT",
+  "sign_in_button": "id, signinBtn || id, accountSignInBtn || xpath, //button[text()= 'SIGN IN']|| id, sign-in",
+  "sign_up":"id, standard-sign-up",
+  "learn_more": "linkText,Learn More",
+  "show_pwd_button":"id, show-pw",
+  "reset_pwd_tagged_link": "id, resetPwdLink",
+  "email_err_msg":"id, ul-login-error||id, email-error||id, login-error",
+  "pwd_err_msg":"id, pw-error||className, alert errorMessageInline error",
+  "close_overlay": "id, cancelForm || className, ui-dialog-titlebar-close"
+}

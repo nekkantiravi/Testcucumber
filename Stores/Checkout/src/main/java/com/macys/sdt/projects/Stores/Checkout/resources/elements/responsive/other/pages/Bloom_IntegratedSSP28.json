@@ -1,0 +1,189 @@
+{
+  "version": "1.0.0",
+  "getHalInfo": {
+    "ex": "function () { }",
+    "response": {
+      "halType": "iOS",
+      "availableFunctions": ["Camera"],
+      "amIinHal": "true",
+      "halVersion": "6.6.6"
+    }
+  },
+  "goToLandingPage": { "ex": "function () { if(document.location.pathname !== '/') { setTimeout( function(){document.location.href = 'http://bstore-uat.devops.fds.com/'; }, 1500); } }",
+    "response": {}
+  },
+  "goToProductDiscovery":{
+    "ex":"function () {}",
+    "response":{
+    }
+  },
+  "getDeviceId": {
+    "ex": "function () {}",
+    "response": {
+      "deviceId": "a4144de6-b455-4927-b739-20d4a475feef"
+    }
+  },
+  "forwardMsg": {
+    "ex": "function ( data ) { var hash = JSON.stringify(data).split('').reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0); localStorage['dataForwardMsg_'+hash] = JSON.stringify(data); Backbone.Radio.channel('Simulator').request('ForwardMessage', hash ); }",
+    "response": true
+  },
+  "queryMsgs":{
+    "ex":"function () { for(var r,o=0,n=0;r=window.localStorage.key(o);o++)'forward'===r.substring(0,7)&&n++;HAL.simulatorData.queryMsgs.response=n;}",
+    "response": ""
+  },
+
+  "saveData": {
+    "ex": "function ( data ) { if( window.crossStorageClientInst != undefined ) { return new Promise( function(resolve,reject){ window.crossStorageClientInst.onConnect().then( function() { window.crossStorageClientInst.set(data.key, JSON.stringify(data.value)).then( function(val) { resolve(); } ).catch( function(val) { console.error(val);resolve(); } ) } ).catch( function(err){console.error('unable to store data: '+err ); resolve(); } )  } ); } else { localStorage[data.key] = JSON.stringify(data.value); } }",
+    "response": true
+  },
+  "clearData": {
+    "ex": "function ( data ) { if( window.crossStorageClientInst != undefined ) { return new Promise( function(resolve,reject){ window.crossStorageClientInst.onConnect().then( function() { window.crossStorageClientInst.del(data.key).then( function(val) { resolve(); } ).catch( function(val) { console.error(val);resolve(); } ) } ).catch( function(err){console.error('unable to store data: '+err ); resolve(); } )  } ); } else { localStorage.removeItem(data.key); } }",
+    "response": true
+  },
+  "restoreData": {
+    "ex": "function (data) { if( window.crossStorageClientInst != undefined ) { return new Promise( function(resolve,reject){ window.crossStorageClientInst.onConnect().then( function() { window.crossStorageClientInst.get(data.key).then( function(val) { var resp = {}; var value = val; if( value != null ) { resp = {'key' : data.key, 'value': JSON.parse(value)} } HAL.simulatorData.restoreData.response = resp; resolve(); } ).catch( function(val) { console.error(val); HAL.simulatorData.restoreData.response = {}; resolve(); } ) } ).catch( function(err){console.error('unable to store data: '+err ); resolve(); } )  } ); } else { var resp = {}; var value = localStorage.getItem(data.key); if( value != null ) { resp = {'key' : data.key, 'value': JSON.parse(value)} } HAL.simulatorData.restoreData.response = resp; } }",
+    "response": {}
+  },
+  "getDeviceBatteryLevel": {
+    "ex": "function () {}",
+    "response": 98
+  },
+  "isFixedRegister": {
+    "ex": "function () {}",
+    "response": false
+  },
+  "getLocationInformation": {
+    "ex": "function () {}",
+    "response": {
+      "locationInformation": {
+        "divInfo": {
+          "num": "72"
+        },
+        "storeInfo": {
+          "num": "001",
+          "zipCode": "23233",
+          "locn": "343"
+        },
+        "zipCode": "23233"
+      }
+    }
+  },
+  "connectToPrinter": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disconnectFromPrinter": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getPrinterStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "printdata": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getPrinterInfo": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "hasSavedPrinter": {
+    "ex": "function () {}",
+    "response": true
+  },
+  "isSSOAuthenticated": {
+    "ex": "function () {}",
+    "response": {
+      "jwt":  "ReplaceThisJWT"  ,
+      "error": {
+        "errorCode": 0
+      },
+      "associateInfo": {
+        "clockStatus": 0,
+        "associateName": "BloomIntegratedTests",
+        "managerLevel": 9,
+        "exemptStatus": 1,
+        "exemptType": 9,
+        "associateStatus": "",
+        "clientTodo": "2000-01-01",
+        "inq28Status": 0,
+        "associateNbr": 71234561,
+        "empClass": 0
+      }
+    }
+  },
+  "lauchSSOPage": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "logoutAssociate": {
+    "ex": "function () {}",
+    "response": true
+  },
+  "getSledBatteryLevel": {
+    "ex": "function () {}",
+    "response": 95
+  },
+  "getSledStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "enableScanner": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disableScanner": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getScannerStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "enableMsr": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disableMsr": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getMsrStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "setForm" : {
+    "ex":"function () {}",
+    "response":{
+    }
+  },
+  "promptForSig": {
+    "ex":"function () {}",
+    "response":{
+    }
+  },
+  "promptYesOrNo": {
+    "ex": "function () {}",
+    "response": {
+    }
+  },
+  "getCRUInfo": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "storeAnalyticsLogs": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "initHal": {
+    "ex": "function () { return new Promise( function(resolve,reject) { !function(e){function t(e,r){r=r||{},this._id=t._generateUUID(),this._promise=r.promise||Promise,this._frameId=r.frameId||'CrossStorageClient-'+this._id,this._origin=t._getOrigin(e),this._requests={},this._connected=!1,this._closed=!1,this._count=0,this._timeout=r.timeout||5e3,this._listener=null,this._installListener();var o;r.frameId&&(o=document.getElementById(r.frameId)),o&&this._poll(),o=o||this._createFrame(e),this._hub=o.contentWindow}t.frameStyle={display:'none',position:'absolute',top:'-999px',left:'-999px'},t._getOrigin=function(e){var t,r,o;return t=document.createElement('a'),t.href=e,t.host||(t=window.location),r=t.protocol&&':'!==t.protocol?t.protocol:window.location.protocol,o=r+'//'+t.host,o=o.replace(/:80$|:443$/,'')},t._generateUUID=function(){return'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,function(e){var t=16*Math.random()|0;return('x'==e?t:3&t|8).toString(16)})},t.prototype.onConnect=function(){var e=this;return this._connected?this._promise.resolve():this._closed?this._promise.reject(new Error('CrossStorageClient has closed')):(this._requests.connect||(this._requests.connect=[]),new this._promise(function(t,r){var o=setTimeout(function(){r(new Error('CrossStorageClient could not connect'))},e._timeout);e._requests.connect.push(function(e){if(clearTimeout(o),e)return r(e);t()})}))},t.prototype.set=function(e,t){return this._request('set',{key:e,value:t})},t.prototype.get=function(e){var t=Array.prototype.slice.call(arguments);return this._request('get',{keys:t})},t.prototype.del=function(){var e=Array.prototype.slice.call(arguments);return this._request('del',{keys:e})},t.prototype.clear=function(){return this._request('clear')},t.prototype.getKeys=function(){return this._request('getKeys')},t.prototype.close=function(){var e=document.getElementById(this._frameId);e&&e.parentNode.removeChild(e),window.removeEventListener?window.removeEventListener('message',this._listener,!1):window.detachEvent('onmessage',this._listener),this._connected=!1,this._closed=!0},t.prototype._installListener=function(){var e=this;this._listener=function(t){var r,o,n;if(!e._closed&&t.data&&'string'==typeof t.data&&('null'===t.origin?'file://':t.origin)===e._origin)if('cross-storage:unavailable'!==t.data){if(-1!==t.data.indexOf('cross-storage:')&&!e._connected){if(e._connected=!0,!e._requests.connect)return;for(r=0;r<e._requests.connect.length;r++)e._requests.connect[r](o);delete e._requests.connect}if('cross-storage:ready'!==t.data){try{n=JSON.parse(t.data)}catch(e){return}n.id&&e._requests[n.id]&&e._requests[n.id](n.error,n.result)}}else{if(e._closed||e.close(),!e._requests.connect)return;for(o=new Error('Closing client. Could not access localStorage in hub.'),r=0;r<e._requests.connect.length;r++)e._requests.connect[r](o)}},window.addEventListener?window.addEventListener('message',this._listener,!1):window.attachEvent('onmessage',this._listener)},t.prototype._poll=function(){var e,t,r;r='file://'===(e=this)._origin?'*':e._origin,t=setInterval(function(){if(e._connected)return clearInterval(t);e._hub&&e._hub.postMessage('cross-storage:poll',r)},1e3)},t.prototype._createFrame=function(e){var r,o;(r=window.document.createElement('iframe')).id=this._frameId;for(o in t.frameStyle)t.frameStyle.hasOwnProperty(o)&&(r.style[o]=t.frameStyle[o]);return window.document.body.appendChild(r),r.src=e,r},t.prototype._request=function(e,t){var r,o;return this._closed?this._promise.reject(new Error('CrossStorageClient has closed')):(o=this,o._count++,r={id:this._id+':'+o._count,method:'cross-storage:'+e,params:t},new this._promise(function(e,t){var n,s,i;n=setTimeout(function(){o._requests[r.id]&&(delete o._requests[r.id],t(new Error('Timeout: could not perform '+r.method)))},o._timeout),o._requests[r.id]=function(s,i){if(clearTimeout(n),delete o._requests[r.id],s)return t(new Error(s));e(i)},Array.prototype.toJSON&&(s=Array.prototype.toJSON,Array.prototype.toJSON=null),i='file://'===o._origin?'*':o._origin,o._hub.postMessage(JSON.stringify(r),i),s&&(Array.prototype.toJSON=s)}))},'undefined'!=typeof module&&module.exports?module.exports=t:'undefined'!=typeof exports?exports.CrossStorageClient=t:'function'==typeof define&&define.amd?define([],function(){return t}):e.CrossStorageClient=t,window.CrossStorageClient=t}(this);  window.crossStorageClientInst = new window.CrossStorageClient('https://'+HAL.simulatorData.initHal.response.hostInformation.ssp+'/api/hub', { timeout: 2000 } );        window.crossStorageClientInst.onConnect().then(function(){ console.log( 'CrossStorageClient on '+HAL.simulatorData.initHal.response.hostInformation.ssp+' loaded successfully' ); resolve(); }).catch( function(err){ console.error( 'CrossStorageClient on '+HAL.simulatorData.initHal.response.hostInformation.ssp+' failed. Error: '+err ); window.crossStorageClientInst = undefined; resolve(); } );  } );   }",
+    "response": {
+      "hostInformation": {
+        "ssp": "fs028asssp01",
+        "isp": "fs001asisp01",
+        "cloud": "node1.macyslanding.c4d.devops.fds.com"
+      }
+    }
+  }
+}

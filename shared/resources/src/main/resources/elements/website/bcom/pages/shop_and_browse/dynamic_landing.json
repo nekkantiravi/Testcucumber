@@ -1,0 +1,4 @@
+{
+  "url":         "/buy",
+  "verify_page": "id, productCount||className, b-browse-category-products-count"
+}

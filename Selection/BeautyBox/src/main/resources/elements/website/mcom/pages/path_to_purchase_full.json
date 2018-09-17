@@ -1,0 +1,13 @@
+{
+  "ptp_full_products":        "cssSelector,.small-7.columns>a>img||id,box-products-list",
+  "ptp_full_products_desc":   "className,.product-title",
+  "ptp_add_to_bag":           "cssSelector,.addToBag.add-to-bag",
+  "ptp_original_price":       "cssSelector,.reg-price",
+  "ptp_fullproducts_button":  "xpath,//*[@id='beautyBoxOurBoxes']/div/div[1]/div[5]/a",
+  "ptp_monthly_box":          "cssSelector,#monthlybox > div > div:nth-child(6) > div > div.cta-bottom-bar > p:nth-child(1)",
+  "ptp_manage_link":          "id,manage-link",
+  "ptp_sub_button":           "cssSelector,#subscribe-button-bottom",
+  "ptp_wl_button":            "cssSelector,#waitlist-button-bottom",
+  "ptp_sub_full":             "xpath,//*[@id='monthlybox']/div/div[4]/div/div[2]/div",
+  "ptp_manage_error":         "id,subscription-error"
+}

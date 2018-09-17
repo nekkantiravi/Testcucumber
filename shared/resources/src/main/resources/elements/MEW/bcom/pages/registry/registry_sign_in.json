@@ -1,0 +1,14 @@
+{
+  "url": "/registry/wedding/registrycaptureemail",
+  "verify_page": "id, signInVB.profile.email || id, newUserEmail",
+
+  "new_user_email": "id, signInVB.profile.email || id, newUserEmail",
+  "new_user_email_verify": "id, signInVB.profile.confirmEmail || id, verifyEmail",
+  "new_user_password": "id, signInVB.profile.password || id, newUserPassword",
+  "new_user_password_verify": "id, signInVB.profile.confirmPassword || id, verifyPassword",
+  "new_user_continue_button": "id, continue || id, newUserBtn",
+  "existing_user_email": "id, signInVB.email || id, existingEmail",
+  "existing_user_password": "id, signInVB.password || id, existingPassword",
+  "existing_user_continue_button": "id, accountSignInBtn || id, existingUserBtn",
+  "error_message": "id, searchErrorMsg || className, b_errorMessage"
+}

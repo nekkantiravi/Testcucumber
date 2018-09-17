@@ -1,0 +1,158 @@
+{
+    "macys": [
+        {
+            "card_type": "MasterCard",
+            "card_number": "5444009999222205",
+            "security_code": "204",
+            "balance": 562,
+            "expiry_month": "June",
+            "expiry_year": "2018",
+            "expiry_month_index": "06"
+        },
+        {
+            "3d_secure": "true",
+            "card_type": "MasterCard",
+            "card_number": "5444009999222205",
+            "security_code": "204",
+            "balance": 562,
+            "expiry_month": "January",
+            "expiry_year": "2018",
+            "expiry_month_index": "01",
+            "3d_secure_password": "test1"
+        },
+        {
+            "card_type": "Macy's",
+            "card_number": "6035340399884093",
+            "security_code": "451",
+            "balance": 2500,
+            "expiry_month": "",
+            "expiry_year": "",
+            "expiry_month_index": ""
+        },
+        {
+            "card_type": "Macy's American Express",
+            "card_number": "377481500025637",
+            "security_code": "7891",
+            "balance": 500,
+            "expiry_month": "August",
+            "expiry_year": "2019",
+            "expiry_month_index": "08"
+        },
+        {
+            "card_type": "Macy's American Express",
+            "card_number": "377481599641724",
+            "security_code": "7637",
+            "balance": 500,
+            "expiry_month": "August",
+            "expiry_year": "2018",
+            "expiry_month_index": "08"
+        },
+        {
+            "card_type": "Employee Card",
+            "card_number": "6035340400061129",
+            "security_code": "",
+            "balance": 562,
+            "expiry_month": "",
+            "expiry_year": "",
+            "expiry_month_index": ""
+        },
+        {
+            "card_type": "Discover",
+            "card_number": "6221260004598744",
+            "security_code": "893",
+            "balance": 562,
+            "expiry_month": "July",
+            "expiry_year": "2018",
+            "expiry_month_index": "07"
+        },
+        {
+            "card_type": "American Express",
+            "card_number": "371449635311004",
+            "security_code": "1234",
+            "balance": 562,
+            "expiry_month": "May",
+            "expiry_year": "2018",
+            "expiry_month_index": "05"
+        },
+        {
+            "card_type": "MasterCard",
+            "card_number": "36018623456787",
+            "security_code": "456",
+            "balance": 562,
+            "expiry_month": "January",
+            "expiry_year": "2019",
+            "expiry_month_index": "01"
+        },
+        {
+            "card_type": "Discover",
+            "card_number": "3530111333300000",
+            "security_code": "345",
+            "balance": 562,
+            "expiry_month": "October",
+            "expiry_year": "2020",
+            "expiry_month_index": "10"
+        },
+        {
+            "3d_secure": "true",
+            "card_type": "Visa",
+            "card_number": "4445222299990007",
+            "security_code": "222",
+            "balance": 562,
+            "expiry_month": "January",
+            "expiry_year": "2019",
+            "expiry_month_index": "01",
+            "3d_secure_password": "test1"
+        },
+        {
+            "card_type": "Visa",
+            "card_number": "4445222299990007",
+            "security_code": "222",
+            "balance": 562,
+            "expiry_month": "January",
+            "expiry_year": "2021",
+            "expiry_month_index": "01"
+        },
+        {
+            "card_type": "American Express",
+            "card_number": "341111597242000",
+            "security_code": "1923",
+            "balance": 562,
+            "expiry_month": "August",
+            "expiry_year": "2018",
+            "expiry_month_index": "08"
+        },
+        {
+            "card_type": "Macy's",
+            "card_number": "6035340000042560",
+            "security_code": "",
+            "balance": 2500,
+            "expiry_month": "",
+            "expiry_year": "",
+            "expiry_month_index": "",
+            "tier_name": "PLATINUM",
+            "star_money_available": "available"
+        },
+        {
+            "card_type": "Employee Card",
+            "card_number": "6035340000042503",
+            "security_code": "",
+            "balance": 562,
+            "expiry_month": "",
+            "expiry_year": "",
+            "expiry_month_index": "",
+            "tier_name": "PLATINUM",
+            "star_money_available": "available"
+        },
+        {
+            "card_type": "Macy's American Express",
+            "card_number": "377481500025868",
+            "security_code": "3233",
+            "balance": 500,
+            "expiry_month": "December",
+            "expiry_year": "2018",
+            "expiry_month_index": "12",
+            "tier_name": "PLATINUM",
+            "star_money_available": "available"
+        }
+    ]
+}

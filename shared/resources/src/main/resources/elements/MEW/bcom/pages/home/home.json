@@ -1,0 +1,17 @@
+{
+  "include": [
+    "panel.header",
+    "panel.main_left_nav",
+    "panel.footer"
+  ],
+
+  "url": "/",
+  "verify_page":            "id, mb-j-header-image",
+  "search_field":           "id, search-field||id, mb-j-search-field||id, globalSearchInputField",
+  "home_asset":             "className, b-banner-img",
+  "fob_links":              "cssSelector, .b-hp-fob-name>a.b-hp-browse-link",
+  "ad_banners":             "cssSelector, #b-hp-ad-container img.b-banner-img",
+  "single_ad_banner":       "cssSelector, .b-single-banners-list img",
+  "all_designers":          "class, b-hp-browse-categories",
+  "find_a_store":           "cssSelector, a[aria-label='Find a store']"
+}

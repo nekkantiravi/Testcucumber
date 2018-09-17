@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>R123456789</reservationNumber>
+   <internetOrderNumber>I123456789</internetOrderNumber>
+   <orderDate>11/25/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>125.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>10.00</taxAmt>
+   <orderTotal>135.00</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>Y</smsFlag>
+   <ltyFlag>Y</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>oes</firstName>
+      <middleName />
+      <lastName>TESTING</lastName>
+      <attnLine />
+      <addressLine1>123 GROVER AVE</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>PRINCETON</city>
+      <state>NJ</state>
+      <country>USA</country>
+      <zipcode>08540</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>PAYPAL</paymentType>
+      <accountNumber />
+      <amount>135.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>11/26/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>C</mailFlag>
+      <title />
+      <firstName>ESP</firstName>
+      <middleName />
+      <lastName>MIGRATION</lastName>
+      <attnLine />
+      <addressLine1>123 JUNIPER ST NE</addressLine1>
+      <addressLine2>UNIT 123</addressLine2>
+      <addressLine3 />
+      <city>ATLANTA</city>
+      <state>GA</state>
+      <country>USA</country>
+      <zipcode>30309</zipcode>
+      <greetingMessage>Best wishes for a wonderful life together!</greetingMessage>
+      <closingMessage>Jonathan and Diana</closingMessage>
+      <signatureMessage />
+      <giftRegistryNumber>2800064998699</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1>KATHRYN</giftRegistrant1>
+      <giftRegistrant2>RICHARD</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <trackingDetail>
+         <trackingNumber>843116920123456</trackingNumber>
+         <numberofPackages>01</numberofPackages>
+         <shipmentCarrier>FEDEXH</shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber>006</lineNumber>
+         <description>WICKFORD</description>
+         <price>125.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>125.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000882864659538</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+   <shipmentDetail>
+      <shipmentNumber>002</shipmentNumber>
+      <shippedDate>05/25/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>P</mailFlag>
+      <title />
+      <firstName>ESP</firstName>
+      <middleName />
+      <lastName>MIGRATION</lastName>
+      <attnLine />
+      <addressLine1>123 JUNIPER ST NE</addressLine1>
+      <addressLine2>UNIT 123</addressLine2>
+      <addressLine3 />
+      <city>ATLANTA</city>
+      <state>GA</state>
+      <country>USA</country>
+      <zipcode>30309</zipcode>
+      <greetingMessage>Best wishes for a wonderful life together!</greetingMessage>
+      <closingMessage>Jonathan and Diana</closingMessage>
+      <signatureMessage />
+      <giftRegistryNumber>2800064912345</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1>KATHRYN</giftRegistrant1>
+      <giftRegistrant2>RICHARD</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <trackingDetail>
+         <trackingNumber>1Z1024950363512345</trackingNumber>
+         <numberofPackages>01</numberofPackages>
+         <shipmentCarrier>UPS GRND RES</shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber>007</lineNumber>
+         <description>MICHELANGELO MASTERP</description>
+         <price>35.00</price>
+         <requestedQuantity>002</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>002</shippedQuantity>
+         <totalAmount>70.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000032622013625</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>008</lineNumber>
+         <description>MEMORELLE FIRM</description>
+         <price>85.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>85.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000025695656233</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>009</lineNumber>
+         <description>STACKABLE BOWLS</description>
+         <price>50.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>50.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000883314072815</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+   <shipmentDetail>
+      <shipmentNumber>003</shipmentNumber>
+      <shippedDate>05/25/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>P</mailFlag>
+      <title />
+      <firstName>ESP</firstName>
+      <middleName />
+      <lastName>MIGRATION</lastName>
+      <attnLine />
+      <addressLine1>123 JUNIPER ST NE</addressLine1>
+      <addressLine2>UNIT 123</addressLine2>
+      <addressLine3 />
+      <city>ATLANTA</city>
+      <state>GA</state>
+      <country>USA</country>
+      <zipcode>30309</zipcode>
+      <greetingMessage>Best wishes for a wonderful life together!</greetingMessage>
+      <closingMessage>Jonathan and Diana</closingMessage>
+      <signatureMessage />
+      <giftRegistryNumber>2800064912345</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1>KATHRYN</giftRegistrant1>
+      <giftRegistrant2>RICHARD</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <trackingDetail>
+         <trackingNumber>1Z1024950363512345</trackingNumber>
+         <numberofPackages>01</numberofPackages>
+         <shipmentCarrier>UPS GRND RES</shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber>011</lineNumber>
+         <description>MEMORELLE FIRM</description>
+         <price>85.00</price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>85.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000025695656233</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+   <shipmentDetail>
+      <shipmentNumber>004</shipmentNumber>
+      <shippedDate>05/25/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>P</mailFlag>
+      <title />
+      <firstName>ESP</firstName>
+      <middleName />
+      <lastName>MIGRATION</lastName>
+      <attnLine />
+      <addressLine1>123 JUNIPER ST NE</addressLine1>
+      <addressLine2>UNIT 123</addressLine2>
+      <addressLine3 />
+      <city>ATLANTA</city>
+      <state>GA</state>
+      <country>USA</country>
+      <zipcode>30309</zipcode>
+      <greetingMessage>Best wishes for a wonderful life together!</greetingMessage>
+      <closingMessage>Jonathan and Diana</closingMessage>
+      <signatureMessage />
+      <giftRegistryNumber>2800064912345</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1>KATHRYN</giftRegistrant1>
+      <giftRegistrant2>RICHARD</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <trackingDetail>
+         <trackingNumber>1Z1024950363512345</trackingNumber>
+         <numberofPackages>01</numberofPackages>
+         <shipmentCarrier>UPS GRND RES</shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber>010</lineNumber>
+         <description>FESTIVE FLORAL</description>
+         <price>15.00</price>
+         <requestedQuantity>002</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>002</shippedQuantity>
+         <totalAmount>30.00</totalAmount>
+         <expectedDate>05/27/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId>000000028332598408</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size />
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

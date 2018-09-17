@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url": "/myaccount/home",
+  "verify_page": "id, account-info",
+  "address_book": "linkText,ADDRESS BOOK"
+
+}

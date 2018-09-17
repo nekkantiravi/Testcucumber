@@ -1,0 +1,20 @@
+{
+  "id" : "c0a9e7c5-d305-3ff8-8f85-7b9ca949837e",
+  "request" : {
+    "url" : "/api/content/v2/PDP/pages/1103208?_expand=layout,media&sdpGrid=primary&_deviceType=DESKTOP&_application=SITE&_regionCode=US&_navigationType=BROWSE&_shoppingMode=SITE",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-pages-1103208-ThFIX.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "2343e9e9-b0db-4bd1-922b-3d67c74c28d1",
+      "Content-Type" : "application/json",
+      "Date" : "Thu, 04 Jan 2018 00:19:47 GMT"
+    }
+  },
+  "uuid" : "c0a9e7c5-d305-3ff8-8f85-7b9ca949837e"
+}

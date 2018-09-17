@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19A_MWEDD</reservationNumber>
+	<internetOrderNumber>274_19A_MWEDD</internetOrderNumber>
+	<orderDate>12/02/2017</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>337.50</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>23.58</taxAmt>
+	<orderTotal>361.08</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0015</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title>MRS</title>
+		<firstName>KATHLEEN</firstName>
+		<middleName />
+		<lastName>VECCHIONE</lastName>
+		<attnLine />
+		<addressLine1>42 STIMIS LN</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>EAST HANOVER</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07936</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************7740</accountNumber>
+		<amount>361.13</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>KATHLEEN</firstName>
+		<middleName />
+		<lastName>VECCHIONE</lastName>
+		<attnLine />
+		<addressLine1>42 STIMIS LN</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>EAST HANOVER</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07936</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800001479113</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>REBECCA.MICHAEL.WEDDING@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>LISMORE</description>
+			<price />
+			<requestedQuantity>006</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/06/2017</expectedDate>
+			<newExpectedDate>03/22/2018</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2018</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>WATERFORD</vendor>
+			<cancelledQuantity />
+			<upcId>000000024258019812</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>GOBLET</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

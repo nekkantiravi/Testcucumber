@@ -1,0 +1,19 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+
+  "url": "/account/signin",
+  "verify_page": "id, guest-checkout || id, checkoutGuestBtn",
+  "email": "id, email",
+  "password": "id, password||id, pw-input",
+  "forgot_password_link": "linkText, Forgot your password?||linkText, Forgot Your Password?",
+  "error_message": "id, userGeneralMsgText||className, error_msg||className, alert error",
+  "email_err_msg":"id, ul-login-error||id, email-error||id, login-error",
+  "pwd_err_msg":"id, pw-error||className, alert errorMessageInline error",
+  "checkout_button": "id, checkout_sign_BtnImg||id, sign-in",
+  "continue_checkout_guest_button": "id, checkoutGuestBtn||id, guest-checkout",
+  "pwd_show_button": "id, show-pw",
+  "learn_more":  "linkText, Learn More",
+  "tagged_user_error": "id, userGeneralMsgText"
+}

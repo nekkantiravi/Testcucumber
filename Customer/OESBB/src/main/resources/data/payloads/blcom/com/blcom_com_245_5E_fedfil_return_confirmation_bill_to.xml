@@ -1,0 +1,79 @@
+<mailMessagePayload>
+  <reservationNumber>123456789</reservationNumber>
+  <internetOrderNumber>245_5E_BLCOM</internetOrderNumber>
+  <orderDate>03/23/2016</orderDate>
+  <shopAt>272</shopAt>
+  <orderSubtotalAmt>0.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>216.25</orderTotal>
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>We're available 24 hours a day, 7 days a week</hoursCS>
+  <phoneNbrFP />
+  <hoursFP />
+  <paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>216.25</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber />
+    <shippedDate />
+    <returnSubmittedDate>03/29/2016</returnSubmittedDate>
+    <mailFlag />
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1 />
+    <addressLine2 />
+    <addressLine3 />
+    <city />
+    <state />
+    <country />
+    <zipcode />
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0</giftRegistryNumber>
+    <giftWrapFlag />
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <shipRetailAmt>391.65</shipRetailAmt>
+    <shipTaxAmt>0.0</shipTaxAmt>
+    <itemDetail>
+			<lineNumber>0</lineNumber>
+			<description>Palermo Posey Notch Collar Paj</description>
+			<price>29.14</price>
+			<requestedQuantity>1</requestedQuantity>
+			<availableQuantity>0</availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>0.00</totalAmount>
+			<expectedDate></expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType></shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status></status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcNumber>5052376863012</upcNumber>
+			<returnExpectedBackDate></returnExpectedBackDate>
+			<returnReason>Found Defect in product</returnReason>
+			<lineProductUrl></lineProductUrl>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

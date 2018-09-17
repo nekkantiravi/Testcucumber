@@ -1,0 +1,36 @@
+{
+  "macys": [
+    {
+      "card_type": "Visa",
+      "card_number": "4445222299990007",
+      "security_code": "222",
+      "expiry_month": "December",
+      "expiry_month_index": "12",
+      "expiry_year": "2018"
+    },
+    {
+      "card_type": "American Express",
+      "card_number": "341111597242000",
+      "security_code": "1154",
+      "expiry_month": "December",
+      "expiry_month_index": "12",
+      "expiry_year": "2018"
+    },
+    {
+      "card_type": "Macy's American Express",
+      "card_number": "377481599649933",
+      "security_code": "7644",
+      "expiry_month": "December",
+      "expiry_month_index": "12",
+      "expiry_year": "2018"
+    },
+    {
+      "card_type": "Macy's",
+      "card_number": "6035340399893953"
+    },
+    {
+      "card_type": "Employee Card",
+      "card_number": "6035340399625892"
+    }
+  ]
+}

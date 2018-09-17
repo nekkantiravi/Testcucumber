@@ -1,0 +1,21 @@
+{
+  "id" : "bc46f611-59dd-3aa5-9085-4419e17dc344",
+  "request" : {
+    "url" : "/api/order/v1/promotions/promoids/19879284,19879410?sdpGrid=primary",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-promoids-19879284_19879410-Y3nNM.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "X-Macys-Log" : "SDPT='0' UCT='0' SCT='0' GUID='' UID='' TOKEN='GUEST'",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "749aa61a-05a4-4929-8a0b-55c1b38e01fc",
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 03 Jan 2018 23:20:16 GMT"
+    }
+  },
+  "uuid" : "bc46f611-59dd-3aa5-9085-4419e17dc344"
+}

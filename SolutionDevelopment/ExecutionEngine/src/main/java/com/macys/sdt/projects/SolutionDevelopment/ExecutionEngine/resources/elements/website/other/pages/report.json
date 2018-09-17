@@ -1,0 +1,21 @@
+{
+  "url": "/report/",
+  "verify_page": "id, report_data_table_title",
+
+  "report_info_section": "id, report_info_container",
+  "report_utils_section": "id, report_utils",
+  "report_summary_section": "id, report_summary_table",
+  "report_data_section": "id, report_data_table",
+
+  "total_scenarios_count": "id, summary_scenario",
+  "total_passed_count": "id, summary_pass",
+  "total_failed_count": "id, summary_fail",
+  "pass_percentage": "id, summary_org_pass_per",
+  "fail_percentage": "id, summary_org_fail_per",
+  "fail_count_due_to_test": "id, summary_bucket_Test",
+  "fail_count_due_to_env": "id, summary_bucket_ENV",
+  "fail_count_due_to_tbd": "id, summary_bucket_other",
+  "table_header_names": "xpath, //*[@class='dataTables_scrollHeadInner']/table/thead/tr/th || xpath, //*[@id='report_data_table']/thead/tr/th",
+  "build_rows": "xpath, //*[@id='report_data_table']/tbody/tr",
+  "build_row_values": "xpath, //*[@id='report_data_table']/tbody/tr[{arg1}]/td"
+}

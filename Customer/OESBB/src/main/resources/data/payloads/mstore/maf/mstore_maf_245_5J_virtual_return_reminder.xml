@@ -1,0 +1,55 @@
+<mailMessagePayload>
+	<reservationNumber>245_5J_MSTORE</reservationNumber>
+	<internetOrderNumber>123456789EA</internetOrderNumber>
+	<orderDate>05/20/2016</orderDate>
+	<ltyIdUsl>3104170812681234</ltyIdUsl>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>36.79</amount>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>4</shipmentNumber>
+		<shipRetailAmt>33.75</shipRetailAmt>
+		<shipTaxAmt>3.04</shipTaxAmt>
+		<returnSubmittedDate>05/24/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>6</lineNumber>
+			<description>Mens Classic-Fit Non-Iron Twi</description>
+			<price>33.75</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>33.75</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Michael Kors</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/21/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>6</lineNumber>
+			<description>Mens Classic-Fit Non-Iron Twi1</description>
+			<price>33.75</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>33.75</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Michael Kors</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/21/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

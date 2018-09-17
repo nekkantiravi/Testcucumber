@@ -1,0 +1,11 @@
+{
+  "include": [
+    "panel.header_and_footer",
+    "panel.registry_navigation",
+    "panel.flexible_template",
+    "panel.category_splash"
+  ],
+  "url": "/registry/wedding-gifts-with-registry/index",
+  "access_your_registry": "cssSelector, a[onclick*='accessyourregistry']",
+  "find_a_store": "linkText, Find A Store"
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>010924117</reservationNumber>
+  <internetOrderNumber>TEST</internetOrderNumber>
+  <thirdPartyOrderNumber />
+  <orderDate>01/05/2015</orderDate>
+  <shopAt>Macy's Wedding and Gift Regist</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>30.00</orderSubtotalAmt>
+  <baseShippingAmt>10.00</baseShippingAmt>
+  <addtShipAddAmt>0.0</addtShipAddAmt>
+  <shipUpgradeAmt>30.00</shipUpgradeAmt>
+  <giftWrapAmt>20.00</giftWrapAmt>
+  <taxAmt>40.00</taxAmt>
+  <orderTotal>100.00</orderTotal>
+  <divisionCode>071</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+  <hoursCS>Monday-Friday 9am-9pm,Sat 9am-7pm,Sun 11am-7pm</hoursCS>
+  <phoneNbrFP>1-800-289-6229</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <multiSiteId>123</multiSiteId>
+  <munTaxAmt>12.23</munTaxAmt>
+  <miscTaxAmt>99.00</miscTaxAmt>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>N</ltyFlag>
+  <ltyIdUsl>1234567890123456</ltyIdUsl>
+  <billingDetail>
+    <title />
+    <firstName>TEST</firstName>
+    <middleName />
+    <lastName>ONE</lastName>
+    <attnLine />
+    <addressLine1>416 WATER ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>NEW YOR</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10002</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>1234567890123456</accountNumber>
+    <amount>170.00</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>014</shipmentNumber>
+    <shippedDate>12/31/9999</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName>TEST</firstName>
+    <middleName />
+    <lastName>ONE</lastName>
+    <attnLine />
+    <addressLine1>416 WATER ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10002</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>N</giftReceiptFlag>
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <returnSubmittedDate>12/31/2016</returnSubmittedDate>
+    <trackingDetail>
+      <trackingNumber>xy33393asd1</trackingNumber>
+      <numberofPackages>1</numberofPackages>
+      <shipmentCarrier>Fedex</shipmentCarrier>
+    </trackingDetail>
+    <itemDetail>
+      <lineNumber>014</lineNumber>
+      <description>ELECTRONIC GIFT CARD</description>
+      <price>100.00</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>001</availableQuantity>
+      <shippedQuantity>000</shippedQuantity>
+      <totalAmount>100.00</totalAmount>
+      <expectedDate>01/08/2015</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>VOIDED</status>
+      <vendor />
+      <cancelledQuantity>001</cancelledQuantity>
+      <upcId>766360214173</upcId>
+      <userCancelDate>04/06/2015</userCancelDate>
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+      <returnStatus>RT</returnStatus>
+      <returnExpectedDate>04/07/2015</returnExpectedDate>
+      <returnReasonDescription>Reason Description</returnReasonDescription>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

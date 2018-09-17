@@ -1,0 +1,27 @@
+{
+    "include": [
+        "panel.header_and_footer"
+    ],
+
+    "url":                              "/shop",
+    "verify_page":                      "id, brandIndex",
+    "brands_container":                 "id, brandIndex",
+    "brands_menu_container":            "className, subCatList",
+    "brand_menu_items":                 "className, subCategoryElement",
+    "brand_index_container":            "id, alphabets",
+    "brand_indexes":                    "cssSelector, a.alphabet",
+    "brand_index_list":                 "cssSelector, div.brandHeader>h2",
+    "brand_box":                        "id, brand-box",
+    "brands":                           "cssSelector, div.brand-box>ul>li>a || class, brand_link",
+    "all_designers_banner":             "id, macysGlobalBanner",
+    "top_of_designer_index_page":       "id, localNavigationContainer",
+    "goto_view_all_category":           "id, categoryParent",
+    "brands_name":                      "xpath, //div[@class='brand-box']/ul/li/a",
+    "left_nav_Brand_list":              "className, brand-item",
+    "brand_as_keyword":                 "xpath, //span[@id='currentCategory']||xpath, //span[@id='SearchKeyword']",
+     "brand_index_header":              "xpath,//div[@id='brandIndexBreadCrumb']/ul/li[2]/a",
+    "brand_index_header_2":              "xpath,//div[@id='brandIndexBreadCrumb']/ul/li[3]/span",
+    "selected_category":               "xpath,//li[@class='left-nav-link-block left-nav-link-block left-nav-active-link']/a",
+   "brand_index_all_brands":           "xpath,//div[@id='brandIndexBreadCrumb']/ul/li[2]/span"
+
+}

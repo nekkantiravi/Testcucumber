@@ -1,0 +1,9 @@
+{
+  "url": "/registry/wedding/registrymanager",
+  "verify_page": "id, reg_mgr_header||id, reg_mgr_title",
+
+  "registry_header": "id, reg_mgr_title",
+  "edit_our_registry": "id, reg_mgr_editProfileBtn",
+  "registry_promocode": "id, reg_mgr_completionPanel_barCodeNum",
+  "search_results": "class, results-container"
+}

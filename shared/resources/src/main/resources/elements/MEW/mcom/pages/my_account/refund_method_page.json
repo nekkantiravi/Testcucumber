@@ -1,0 +1,21 @@
+{
+  "include": [
+    "panel.returns_cancel_popup"
+  ],
+  "url":                            "/returns/select-refund",
+  "verify_page":                    "className, page-title",
+  "original_payment":               "id, refund-method-B",
+  "gift_card_payment":              "id, refund-method-S",
+  "original_pay_verbiage":          "className, js-ref-original-txt",
+  "gift_card_pay_verbiage":         "className, js-ref-gift-card-txt",
+  "step_2of4_verbiage":             "className, small-14",
+  "cancel_refund":                  "id, js-cancel-btn",
+  "continue_refund":                "id, js-continue-btn",
+  "choose_refund":                  "className, refund-container",
+  "refund_options":                 "id, refund-options",
+  "email_error":                    "id, js-email-error",
+  "phone_error":                    "id, js-phone-error",
+  "contact_email":                  "id, js-contact-email",
+  "contact_phone":                  "id, js-contact-phone"
+
+}

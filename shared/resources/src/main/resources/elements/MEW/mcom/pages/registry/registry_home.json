@@ -1,0 +1,24 @@
+{
+    "include": [
+        "panel.header",
+        "panel.search",
+        "panel.footer"
+    ],
+    "url": "/registry/wedding/registryhome",
+    "verify_page": "id, m-reg-home-img",
+
+    "goto_create_registry": "id, m-j-create-reg||id, registry-sign-up",
+    "create_registry": "id, btnCreate",
+    "goto_manage_registry": "id, m-j-manage-reg",
+    "search_first_name": "id, searchCriteria.firstName",
+    "search_last_name": "id, searchCriteria.lastName",
+    "search_registry_button": "id, btnFind",
+    "email": "id, email",
+    "password": "id, password",
+    "sign_in_registry_button": "id, btnUpdate",
+    "nav_registry_menu_list": "id, content-container",
+    "sub_cat_list": "id, localNavigationContainer",
+    "sub_cat_details": "className, nav_cat_sub_2",
+    "find_registry_button": "id,m-j-find-reg",
+    "link_instore_registry": "id,m-j-access-reg"
+}

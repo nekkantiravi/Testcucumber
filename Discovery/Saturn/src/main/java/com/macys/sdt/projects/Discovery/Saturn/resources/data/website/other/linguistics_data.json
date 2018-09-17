@@ -1,0 +1,19 @@
+{
+  "linguistics_values": {
+    "Dictionary Type": "Brand",
+    "Term 1": "test_term_1_",
+    "Term 2": "test_term_2_",
+    "Relationship": "Hypernym",
+    "EditTerm1":"edit_term_one",
+    "EditTerm2":"edit_term_two"
+  },
+  "Duplicate Dictionary":{
+    "Error":"Duplicate dictionary name"
+  },
+
+  "simple_search_values":
+  {
+    "Dictionary Terms":"Wedding"
+
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "site_menu_title": "className, mvSiteMenuTitle",
+  "shop_all_products": "id, mvBDShopAllProducts",
+  "category_names": "className, r_nav_top_section_navigation_options_sale_enabled",
+  "order_status": "linkText, ORDER STATUS||id, viewAllOrdersLink",
+  "brand_index": "linkText, BRAND INDEX"
+}

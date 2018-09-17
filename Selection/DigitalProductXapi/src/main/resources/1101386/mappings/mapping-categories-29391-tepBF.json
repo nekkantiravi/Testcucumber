@@ -1,0 +1,22 @@
+{
+  "id" : "cbb12a01-2d53-3e20-bbe2-f31ae05e0628",
+  "request" : {
+    "url" : "/api/catalog/v2/categories/29391,29878,66330,70609,66841,70002,69949,36166,35423,35419,60313,37394,35424,35319,70003,35380,69952,70014,69953,69954,35420,80408,70004,69957,69958,69959,69960,69961,69962,35421,29445,70056,70254,70255,70005,35422,69963,71268,143542,36321,37823,70402,126442,78467,158342,71274,29875,35214,29877,36850,146456,29876,71172,31260,138942,97744,114543?_fields=id,name,externalHostUrl,attributes&sdpGrid=primary",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-categories-29391-tepBF.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "ff5d5760-ff14-4bc3-bb66-bb4c93b18f1b",
+      "Content-Type" : "application/json",
+      "Date" : "Thu, 04 Jan 2018 19:06:38 GMT"
+    }
+  },
+  "uuid" : "cbb12a01-2d53-3e20-bbe2-f31ae05e0628"
+}

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>000079608</reservationNumber>
+	<internetOrderNumber>264_14K_BLCOM</internetOrderNumber>
+	<orderDate>11/22/2016</orderDate>
+	<shopAt>BLOOMINGDALES.COM</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>19.98</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>2.22</taxAmt>
+	<orderTotal>39.19</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-866-593-2540</phoneNbrCS>
+	<hoursCS>Mon - Sat 9am to 6pm, Sunday 11am to 7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Mon - Fri 9am to 9pm, Sat &amp; Sun 9am to 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>1234567890123456</ltyIdUsl>
+	<billingDetail>
+		<title>MR.</title>
+		<firstName>oes</firstName>
+		<middleName>migration</middleName>
+		<lastName>testing</lastName>
+		<attnLine />
+		<addressLine1>680 Folsom Street</addressLine1>
+		<addressLine2>10th Floor</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>39.19</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/2016</shippedDate>
+		<mailFlag>C</mailFlag>
+		<title>MR.</title>
+		<firstName>oes</firstName>
+		<middleName>migration</middleName>
+		<lastName>testing</lastName>
+		<attnLine />
+		<addressLine1>680 Folsom Street</addressLine1>
+		<addressLine2>10th Floor</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>1Z123454556</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>MINV</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>AEGEAN MIST</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount />
+			<expectedDate>12/20/2016</expectedDate>
+			<newExpectedDate>12/25/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>09/20/2016</systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>4003683109134</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<cidNumber />
+			<expiryDate />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/2016</shippedDate>
+		<mailFlag>P</mailFlag>
+		<title>MR.</title>
+		<firstName>oes</firstName>
+		<middleName>migration</middleName>
+		<lastName>testing</lastName>
+		<attnLine />
+		<addressLine1>680 Folsom Street</addressLine1>
+		<addressLine2>10th Floor</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>1Z123454556</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>MINV</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>AEGEAN MIST</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount />
+			<expectedDate>12/20/2016</expectedDate>
+			<newExpectedDate>12/25/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>09/20/2016</systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>4003683109134</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<cidNumber />
+			<expiryDate />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>12/31/2016</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title>MR.</title>
+		<firstName>oes</firstName>
+		<middleName>migration</middleName>
+		<lastName>testing</lastName>
+		<attnLine />
+		<addressLine1>680 Folsom Street</addressLine1>
+		<addressLine2>10th Floor</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>1Z123454556</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>MINV</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>AEGEAN MIST</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount />
+			<expectedDate>12/20/2016</expectedDate>
+			<newExpectedDate>12/25/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>09/20/2016</systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>4003683109134</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<cidNumber />
+			<expiryDate />
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>004</shipmentNumber>
+		<shippedDate>12/31/2016</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title>MR.</title>
+		<firstName>oes</firstName>
+		<middleName>migration</middleName>
+		<lastName>testing</lastName>
+		<attnLine />
+		<addressLine1>680 Folsom Street</addressLine1>
+		<addressLine2>10th Floor</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>1Z123454556</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>MINV</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>AEGEAN MIST</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount />
+			<expectedDate>12/20/2016</expectedDate>
+			<newExpectedDate>12/25/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>09/20/2016</systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>VOIDED</status>
+			<vendor />
+			<cancelledQuantity>009</cancelledQuantity>
+			<upcId>4003683109134</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<cidNumber />
+			<expiryDate />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

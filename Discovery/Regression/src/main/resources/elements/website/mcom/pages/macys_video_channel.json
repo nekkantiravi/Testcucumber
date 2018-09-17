@@ -1,0 +1,3 @@
+{
+  "macys_video": "xpath, //div[@class='home_nav']/h3"
+}

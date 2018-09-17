@@ -1,0 +1,32 @@
+{
+  "id" : "3afc27b3-48ba-39f8-8d58-bdded958f561",
+  "request" : {
+    "url" : "/data/reviews.json?apiversion=5.4&passkey=86gu3wae8uvd6j8cnx764txc&Filter=isRatingsOnly%3Aeq%3Afalse&Stats=Reviews&sdpGrid=primary&Include=Products&Sort=ISFEATURED%3ADESC&ProductId=1103208&Limit=8",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-data-reviews.json-lyhBa.json",
+    "headers" : {
+      "Date" : "Wed, 10 Jan 2018 20:28:15 GMT",
+      "Content-Type" : "application/json;charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Server" : "nginx",
+      "X-Bazaarvoice-Region" : "eu-west-1",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Bazaarvoice-Api-Version" : "5.4",
+      "X-Bazaarvoice-API-Type" : "2",
+      "X-Bazaarvoice-Platform-Version" : "2",
+      "Content-Language" : "en-US",
+      "X-Bazaarvoice-QPS-Allotted" : "40",
+      "X-Bazaarvoice-QPS-Current" : "1",
+      "X-Bazaarvoice-QPM-Allotted" : "2400",
+      "X-Bazaarvoice-QPM-Current" : "1",
+      "X-Bazaarvoice-Quota-Allotted" : "1728000",
+      "X-Bazaarvoice-Quota-Current" : "0",
+      "X-Bazaarvoice-Quota-Reset" : "2018-01-10T21:00:00.000Z"
+    }
+  },
+  "uuid" : "3afc27b3-48ba-39f8-8d58-bdded958f561"
+}

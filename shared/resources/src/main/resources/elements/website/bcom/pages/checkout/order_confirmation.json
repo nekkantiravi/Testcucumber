@@ -1,0 +1,36 @@
+{
+  "url":                        "/chkout/confirm||/chkout/rc",
+  "verify_page":                "className, checkout_confirm_orderValue||id, rc-place-order",
+
+  "paypal_section":             "id, checkout_confirm_paypalSection",
+  "paypal_email_text":          "id, checkout_confirm_paypal_email",
+
+  "alert_message":              "id, checkout_confirm_sddConfirmationMailTxt",
+  "iship_order_number":         "id, order-num-perm",
+  "order_confirmation_message": "id, orderHeading",
+  "order_number":               "id, orderNumberSpan",
+
+  "bops_shipping_section":      "id, checkout_pickupInfo_section",
+  "normal_shipping_section":    "id, ch_confirm_shippingMethodSection",
+  "loyalty_pending_points_section": "id, checkout_confirm_loyaltyPendingPoints",
+  "loyalty_total_points_section": "id, checkout_confirm_totalPointsBalance",
+  "order_confirm_email": "xpath,//div[@id='rc-confirm-orderDetailsText']/div/text()",
+
+  "create_profile_email_exist_error": "id, rc-ca-response-error || id, emailExistsLabel",
+  "create_profile_pwd": "id, password",
+  "create_profile_email": "id, email",
+  "create_profile_date_list":   "xpath, //div[@class='custom dropdown']",
+  "create_profile_date_options":   "xpath, //div[@class='custom dropdown open']//ul/li",
+  "create_profile_button": "id, rc-ca-confirm-createAccountButton",
+  "create_profile_overlay_msg": "className, successOverlayText",
+  "create_profile_overlay_sign_in_btn": "xpath, //*[@class='account-success-overlay']/div/div[2]/div/a[2] || linkText, Sign In",
+  "create_profile_overlay_cont_shopping_btn": "xpath, //*[@class='account-success-overlay']/div/div[2]/div/a || linkText, Continue Shopping",
+  "sign_in_now_link_conf_msg": "id, ca-signin-link",
+  "create_profile_overlay_close_btn": "xpath, //*[@id='accountSuccessPanel']/a",
+  "create_profile_error_pwd": "id, passwordRequirements",
+  "create_profile_error_dob": "id, dobErrorMsg",
+  "create_profile_confirmation_msg": "className, successOverlayText || id, infoText",
+  "sign_in_now_link_error_msg": "linkText, SIGN IN NOW || id, ca-signin-link",
+  "invalid_pwd_error": "id, rc-ca-response-error",
+  "invalid_pwd_error_please_try_again_link": "linkText, Please try again. || id, ca-signin-link"
+}

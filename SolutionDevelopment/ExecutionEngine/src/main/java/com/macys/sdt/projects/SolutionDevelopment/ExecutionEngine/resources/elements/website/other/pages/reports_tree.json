@@ -1,0 +1,9 @@
+{
+  "url": "/",
+  "verify_page": "id, report_treeview_container",
+
+  "expand_executions": "xpath, //span[@class='fancytree-title']/b/u[text()='Executions']/../../../span[@class='fancytree-expander']",
+  "projects": "xpath, //span[@class='fancytree-title']/b/u[text()='Executions']/../../../../ul/li/span/span[@class='fancytree-title']",
+  "select": "xpath, //span[@class='fancytree-title'][text()='{arg1}']",
+  "contents": "xpath, //span[@class='fancytree-title'][text()='{arg1}']/../../ul/li/span/span[@class='fancytree-title']"
+}

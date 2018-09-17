@@ -1,0 +1,19 @@
+{
+  "qa_reg_header": "cssSelector, #BVQAHeaderID",
+  "qa_pdp_tab": "xpath, .//*[@id='bottomTabs']//h5[contains(text(), 'Product Q&A')]",
+  "atb_horz_recommendations": "id, horizontalATBProsCarouselD",
+  "recommendation_products": "className, recommendationLink",
+  "qa_reg_tab": "xpath, //div[@id='bottomTabs']//ul[@role='tablist']//li//a[text()='Product Q&A']",
+  "pdp_customer_shopped": "id, productSidebar",
+  "product_price":"xpath, //div[@class='priceBox']/div[@class='tieredPrices']/span[1]",
+  "pinterest": "className, icon-social-pinterest-large",
+  "price_browse": "xpath, //div[@class='prices']/span[1]/span || xpath, //div[@class='prices']/div[1]/span",
+  "product_price_domestic": "xpath, //div[@class='priceBox']/div/span[1]",
+  "qa_pdp_section": "xpath, //a[text()='Product Q&A']",
+  "vertical_recommendations":"xpath, //ul[@id='carousel']//li//a",
+  "web_id":"className, productID",
+  "you_might_like": "id, horizontalATBProsCarousel",
+  "total_scroll_products": "xpath, //*[@id='horizontalATBProsCarousel']//div[@class='title']//a",
+  "product_list": "xpath, //div[@class='itemName']",
+  "product_bottom_tab": "cssSelector,div.tabs-header"
+}

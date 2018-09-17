@@ -1,0 +1,7 @@
+{
+    "url": "/chkout/",
+    "verify_page":  "id, checkoutWithPayPal",
+    "email": "id, emailAddr",
+    "password": "id, password",
+    "checkout_button": "xpath, //*[@id='isnormalcheckout']/span"
+}

@@ -1,0 +1,10 @@
+{
+  "myAccountLink":               "cssSelector, #myAccountLink",
+  "macysLogo":                   "id, macysHomePageLogo",
+  "user_email":                  "id, email",
+  "user_password":               "id, password",
+  "sign_in_btn":                 "id, signInBtn",
+  "signOutLink":                 "cssSelector, a#globalMastheadSignIn",
+  "profileLink":                 "cssSelector, .profile-links>nav>a",
+  "userEmail":                   "xpath, .//span[@class='hidden']"
+}

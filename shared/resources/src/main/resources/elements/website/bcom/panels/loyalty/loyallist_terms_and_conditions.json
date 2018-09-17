@@ -1,0 +1,4 @@
+{
+  "url": "loyallist-_-member_benefits-_-terms_conditions",
+  "terms_and_conditions_header": "xpath, //h1[contains(text(),'Loyallist Program Terms and Conditions')]"
+}

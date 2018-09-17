@@ -1,0 +1,10 @@
+{
+
+  "macysLogo":                   "id, macysHomePageLogo",
+  "user_email":                    "id, email",
+  "user_password":               "id, password",
+  "sign_in_btn":                   "id, signInBtn",
+  "signOutLink":                  "cssSelector, a#globalMastheadSignIn"
+
+
+}

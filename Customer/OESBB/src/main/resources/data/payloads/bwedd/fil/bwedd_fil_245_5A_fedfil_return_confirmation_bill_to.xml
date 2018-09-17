@@ -1,0 +1,119 @@
+<mailMessagePayload>
+  <reservationNumber>1111112</reservationNumber>
+  <internetOrderNumber>FIL_245_5A_BWEDD</internetOrderNumber>
+  <orderDate>11/03/2012</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>231.99</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>14.50</taxAmt>
+  <orderTotal>246.49</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0011</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+  <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************5338</accountNumber>
+    <amount>150.09</amount>
+    <paymentCategoryFlag>C</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>002</shipmentNumber>
+    <shippedDate>12/01/2012</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName>MARIE</firstName>
+    <middleName />
+    <lastName>RYAN</lastName>
+    <attnLine />
+    <addressLine1>538 GREEN ST</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>CAMBRIDGE</city>
+    <state>MA</state>
+    <country>USA</country>
+    <zipcode>02139</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>Firelight Platinum Champagne Flute</description>
+      <price>205.49</price>
+      <requestedQuantity>003</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>205.49</totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>STAUB USA INC</vendor>
+      <cancelledQuantity />
+      <upcId>000000492031403361</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+	   <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>Firelight Platinum Champagne Flute</description>
+      <price>205.49</price>
+      <requestedQuantity>003</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>001</shippedQuantity>
+      <totalAmount>205.49</totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>STAUB USA INC</vendor>
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

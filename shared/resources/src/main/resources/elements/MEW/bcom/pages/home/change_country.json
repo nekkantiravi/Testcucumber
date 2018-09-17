@@ -1,0 +1,9 @@
+{
+  "url": "/international/context",
+  "verify_page": "id, mb-j-country-select",
+
+  "header": "id, mb-changecountry-info-header",
+  "country": "id, mb-j-country-select",
+  "currency": "id, mb-j-currency-select",
+  "change_country_btn": "id, mb-j-changecountry-button"
+}

@@ -1,0 +1,173 @@
+<mailMessagePayload>
+	<reservationNumber>533662477</reservationNumber>
+	<internetOrderNumber>240_1P_BWEDD_BopsReg_NormalRegWithSR_toprofile_addr</internetOrderNumber>
+	<orderDate>06/02/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>264.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>2.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>21.07</taxAmt>
+	<orderTotal>286.06</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>0000000000000000</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 VIA GAVILAN</addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city>PALOS VERDES ESTATES</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>90274</zipcode>
+	</billingDetail>
+  <paymentDetail>
+		<paymentType>Paypal</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>286.06</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/15/2016</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>Miss</title>
+		<firstName>OESSHIP</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 GLADES ROADAddr1</addressLine1>
+		<addressLine2>NR Addr2</addressLine2>
+		<addressLine3>StreetShip3</addressLine3>
+		<city>BOCA RATON</city>
+		<state>FL</state>
+		<country>USA</country>
+		<zipcode>33431</zipcode>
+		<greetingMessage>HAPPY BIRTHDAY SWEETY</greetingMessage>
+		<closingMessage>TAKE CARE</closingMessage>
+		<signatureMessage>PPP</signatureMessage>
+		<giftRegistryNumber>2800022123456</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1>John</giftRegistrant1>
+		<giftRegistrant2>Smith</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode>627457412345</pickupBarcode>
+		<pickupReadyDate>06/02/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>85.00</shipRetailAmt>
+		<shipTaxAmt>5.10</shipTaxAmt>
+		<shipFilLoc>0343</shipFilLoc>
+		<shipPhone>954-993-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>003</lineNumber>
+			<description>SUNDAY ROSE</description>
+			<price>85.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>85.00</totalAmount>
+			<expectedDate>06/02/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PICKUP</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>759258449078</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>M</size>
+			<color>White</color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/15/2016</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>Mr</title>
+		<firstName>ESPSHIP2</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 E 12TH Addr1</addressLine1>
+		<addressLine2>APT Addr2</addressLine2>
+		<addressLine3>StreeNo3</addressLine3>
+		<city>NEW YORK</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10065</zipcode>
+		<greetingMessage>HAPPY BIRTHDAY SWEETY</greetingMessage>
+		<closingMessage>TAKE CARE</closingMessage>
+		<signatureMessage>PPP</signatureMessage>
+		<giftRegistryNumber>2800022123456</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode>627457446002</pickupBarcode>
+		<pickupReadyDate>06/02/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>264.99</shipRetailAmt>
+		<shipTaxAmt>15.97</shipTaxAmt>
+		<shipFilLoc>0991</shipFilLoc>
+		<shipPhone>000-000-0000</shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>STAINLESS EVERYDAY</description>
+			<price>179.99</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>008</availableQuantity>
+			<shippedQuantity>0</shippedQuantity>
+			<totalAmount>179.99</totalAmount>
+			<expectedDate>06/02/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor></vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>32675984958</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>L</size>
+			<color>Red</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

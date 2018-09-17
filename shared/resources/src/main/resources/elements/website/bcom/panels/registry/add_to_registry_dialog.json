@@ -1,0 +1,8 @@
+{
+
+  "add_to_registry_dialog":                    "id, add-to-registry-modal_c||id, addToRegOvelay",
+  "add_to_bag_continue_shopping":              "id, continueShopping",
+  "add_to_bag_view_registry":                  "id, view-registry-link||id, viewRegistry",
+  "add_to_registry_close_dialog":              "className, container-close"
+
+}

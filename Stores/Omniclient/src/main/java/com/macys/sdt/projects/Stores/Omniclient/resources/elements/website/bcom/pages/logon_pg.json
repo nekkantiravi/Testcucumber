@@ -1,0 +1,8 @@
+{
+  "url": "/",
+
+  "associateID_textbox":		"id, username",
+  "password_textbox":			"id, password",
+  "signin_button": 				"id, BtnLogin"
+
+}

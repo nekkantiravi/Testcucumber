@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+    <reservationNumber>526342228</reservationNumber>
+    <internetOrderNumber>240_1I_MWEDD</internetOrderNumber>
+    <orderDate>07/26/2016</orderDate>
+    <shopAt>Macy's Wedding and Gift Regist</shopAt>
+    <explanationText></explanationText>
+    <orderSubtotalAmt>160.00</orderSubtotalAmt>
+	<baseShippingAmt>8.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>20.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>12.11</taxAmt>
+	<orderTotal>185.11</orderTotal>
+    <divisionCode>071</divisionCode>
+    <locationCode>0139</locationCode>
+    <adhocText></adhocText>
+    <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+    <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm,  Sunday 11am-7pm</hoursCS>
+    <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+    <hoursFP>Mon-Sat 9am to 10pm, Sun 9am to 7pm</hoursFP>
+    <smsFlag>N</smsFlag>
+    <ltyFlag>N</ltyFlag>
+    <ltyIdUsl>0000000000000000</ltyIdUsl>
+    <munTaxAmt></munTaxAmt>
+    <miscTaxAmt></miscTaxAmt>
+    <orderCancelTime></orderCancelTime>
+    <pickupInstructions></pickupInstructions>
+   <billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+    <paymentDetail>
+        <paymentType>VISA</paymentType>
+        <accountNumber>************0007</accountNumber>
+        <amount>81.84</amount>
+        <paymentCategoryFlag>D</paymentCategoryFlag>
+    </paymentDetail>
+    <shipmentDetail>
+        <shipmentNumber>001</shipmentNumber>
+        <shippedDate>12/31/9999</shippedDate>
+        <returnSubmittedDate></returnSubmittedDate>
+        <mailFlag></mailFlag>
+        <title></title>
+        <firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+        <giftRegistryNumber>2800018661143</giftRegistryNumber>
+        <giftWrapFlag>N</giftWrapFlag>
+        <giftReceipientEmail></giftReceipientEmail>
+        <giftRegistrant1>TESTFIRST</giftRegistrant1>
+        <giftRegistrant2>FIRST PARTNER</giftRegistrant2>
+        <giftReceiptFlag>N</giftReceiptFlag>
+        <pickupBarcode>526342228001</pickupBarcode>
+        <pickupReadyDate>07/26/2016</pickupReadyDate>
+        <pickupCancelDate>12/31/9999</pickupCancelDate>
+        <shipRetailAmt>14.00</shipRetailAmt>
+        <shipTaxAmt>3.84</shipTaxAmt>
+        <shipFilLoc>2457</shipFilLoc>
+        <shipPhone>000-000-0000</shipPhone>
+        <shipEmailAddress></shipEmailAddress>
+        <itemDetail>
+            <lineNumber>004</lineNumber>
+            <description>Classic Pima Cotton 13 Square</description>
+            <price>14.00</price>
+            <requestedQuantity>004</requestedQuantity>
+            <availableQuantity>003</availableQuantity>
+            <shippedQuantity>02</shippedQuantity>
+            <totalAmount>14.00</totalAmount>
+            <expectedDate>08/02/2016</expectedDate>
+            <newExpectedDate></newExpectedDate>
+            <delaySentDate></delaySentDate>
+            <delayWaitDate></delayWaitDate>
+            <systemCancelDate></systemCancelDate>
+            <shipmentType>STANDARD</shipmentType>
+            <splitShipmentFlag></splitShipmentFlag>
+            <status>IN PROCESS</status>
+            <vendor>Charter Club</vendor>
+            <cancelledQuantity></cancelledQuantity>
+            <upcId>735991085247</upcId>
+            <returnExpectedDate></returnExpectedDate>
+            <returnStatus></returnStatus>
+            <returnReasonDescription></returnReasonDescription>
+            <userCancelDate></userCancelDate>
+            <vgcNumber></vgcNumber>
+            <vgcCidNumber></vgcCidNumber>
+            <expiryDate></expiryDate>
+            <size></size>
+            <color></color>
+            <lineItemDeliveryDate></lineItemDeliveryDate>
+            <lineItemFdInd></lineItemFdInd>
+        </itemDetail>
+        <itemDetail>
+            <lineNumber>005</lineNumber>
+            <description>Lenox Eternal Gold 4-Piece H</description>
+            <price>50.00</price>
+            <requestedQuantity>003</requestedQuantity>
+            <availableQuantity>002</availableQuantity>
+            <shippedQuantity>01</shippedQuantity>
+            <totalAmount>50.00</totalAmount>
+            <expectedDate>08/02/2016</expectedDate>
+            <newExpectedDate></newExpectedDate>
+            <delaySentDate></delaySentDate>
+            <delayWaitDate></delayWaitDate>
+            <systemCancelDate></systemCancelDate>
+            <shipmentType>STANDARD</shipmentType>
+            <splitShipmentFlag></splitShipmentFlag>
+            <status>IN PROCESS</status>
+            <vendor>Lenox</vendor>
+            <cancelledQuantity></cancelledQuantity>
+            <upcId>735991467265</upcId>
+            <returnExpectedDate></returnExpectedDate>
+            <returnStatus></returnStatus>
+            <returnReasonDescription></returnReasonDescription>
+            <userCancelDate></userCancelDate>
+            <vgcNumber></vgcNumber>
+            <vgcCidNumber></vgcCidNumber>
+            <expiryDate></expiryDate>
+            <size></size>
+            <color></color>
+            <lineItemDeliveryDate></lineItemDeliveryDate>
+            <lineItemFdInd></lineItemFdInd>
+        </itemDetail>
+    </shipmentDetail>
+    <shipmentDetail>
+        <shipmentNumber>002</shipmentNumber>
+        <shippedDate>12/31/9999</shippedDate>
+        <returnSubmittedDate></returnSubmittedDate>
+        <mailFlag></mailFlag>
+        <title></title>
+        <firstName></firstName>
+        <middleName></middleName>
+        <lastName></lastName>
+        <attnLine></attnLine>
+        <addressLine1></addressLine1>
+        <addressLine2></addressLine2>
+        <addressLine3></addressLine3>
+        <city></city>
+        <state></state>
+        <country></country>
+        <zipcode></zipcode>
+        <greetingMessage>Happy Birthday</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+        <giftRegistryNumber>0000000000000</giftRegistryNumber>
+        <giftWrapFlag>N</giftWrapFlag>
+        <giftReceipientEmail>TESTVGC@GMAIL.COM</giftReceipientEmail>
+        <giftRegistrant1></giftRegistrant1>
+        <giftRegistrant2></giftRegistrant2>
+        <giftReceiptFlag>N</giftReceiptFlag>
+        <pickupBarcode>526342228002</pickupBarcode>
+        <pickupReadyDate>07/26/2016</pickupReadyDate>
+        <pickupCancelDate>12/31/9999</pickupCancelDate>
+        <shipRetailAmt>24.00</shipRetailAmt>
+        <shipTaxAmt>0.00</shipTaxAmt>
+        <shipFilLoc>0566</shipFilLoc>
+        <shipPhone></shipPhone>
+        <shipEmailAddress></shipEmailAddress>
+        <itemDetail>
+            <lineNumber>003</lineNumber>
+            <description>VIRTUAL GIFT CARD</description>
+            <price>10.00</price>
+            <requestedQuantity>003</requestedQuantity>
+            <availableQuantity>002</availableQuantity>
+            <shippedQuantity>01</shippedQuantity>
+            <totalAmount>10.00</totalAmount>
+            <expectedDate>08/01/2016</expectedDate>
+            <newExpectedDate></newExpectedDate>
+            <delaySentDate></delaySentDate>
+            <delayWaitDate></delayWaitDate>
+            <systemCancelDate></systemCancelDate>
+            <shipmentType>EMAIL</shipmentType>
+            <splitShipmentFlag></splitShipmentFlag>
+            <status>IN PROCESS</status>
+            <vendor></vendor>
+            <cancelledQuantity></cancelledQuantity>
+            <upcId>000000478000231111</upcId>
+            <returnExpectedDate></returnExpectedDate>
+            <returnStatus></returnStatus>
+            <returnReasonDescription></returnReasonDescription>
+            <userCancelDate></userCancelDate>
+            <vgcNumber></vgcNumber>
+            <vgcCidNumber></vgcCidNumber>
+            <expiryDate></expiryDate>
+            <size></size>
+            <color></color>
+            <lineItemDeliveryDate></lineItemDeliveryDate>
+            <lineItemFdInd></lineItemFdInd>
+        </itemDetail>
+    </shipmentDetail>
+</mailMessagePayload>

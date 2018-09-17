@@ -1,0 +1,7 @@
+{
+  "url":                        "/product/",
+  "format_url":                 "/shop/product/?ID=%d",
+  "verify_page":                "id, productTitle||className, addToBagBtn||className, orderByPhoneButton",
+  "colorSwatchContainer":       "className, colorwayDiv",
+  "colorSwatchList":            "className, pdp_colorSwatch"
+}

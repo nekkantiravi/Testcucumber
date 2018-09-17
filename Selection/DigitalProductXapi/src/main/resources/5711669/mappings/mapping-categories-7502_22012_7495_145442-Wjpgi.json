@@ -1,0 +1,22 @@
+{
+  "id" : "99a24a1c-daf7-32a3-a833-f18f50f84942",
+  "request" : {
+    "url" : "/api/catalog/v2/categories/7502,22012,7495,145442?_fields=id,name,externalHostUrl,attributes&sdpGrid=primary",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-categories-7502_22012_7495_145442-Wjpgi.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "625c66ea-bd7c-4277-a4ae-cf63f6ad1578",
+      "Content-Type" : "application/json",
+      "Date" : "Tue, 06 Feb 2018 22:45:44 GMT"
+    }
+  },
+  "uuid" : "99a24a1c-daf7-32a3-a833-f18f50f84942"
+}

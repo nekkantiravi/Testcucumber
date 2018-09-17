@@ -1,0 +1,15 @@
+{
+    "productId_element": 	"id, productWebID",
+    "productName_element":  "id, productTitle",
+    "videoPdp_element": "xpath,//aside[@class='mediaSidebar']//div[@class='videoBtn']",
+    "trueFit_element":"xpath,(//div[text()='Find Your True Fit'])[1]",
+    "registry_product_name": "id, productTitle",
+    "checkoutButton":"xpath,//*[@id='pdp_atb_checkout']",
+    "orderSubTotal_ShoppingBag":"id,orderMerchTotal",
+    "productId_ShoppingBag":"xpath,//span[@class='itemWebId']",
+    "productprice_ShoppingBag":"xpath,//span[@class='priceBig']",
+    "forgotpasswordlink_bcom": "xpath,//*[@id='forgot-password-auth-web']",
+    "accountPreferencesBcom": "xpath,//*[@id='myAccount_myPreferencesLink']",
+    "MyCreditCardBcom": "xpath,//*[@id='footerLinks']/ul/li[3]/h3/a",
+
+}

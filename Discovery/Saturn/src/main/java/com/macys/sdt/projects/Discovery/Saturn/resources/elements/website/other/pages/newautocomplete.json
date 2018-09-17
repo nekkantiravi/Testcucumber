@@ -1,0 +1,23 @@
+{
+  "table_header": "className, hText",
+  "add_override": "id, addOverrideBtn",
+  "export": "id, exportOverrideBtn",
+  "page_record_count": "id, tableOverride_info",
+  "first_page": "id, tableOverride_first",
+  "previous_page": "id, tableOverride_previous",
+  "pagination_links": "class, pagNumbers",
+  "next_page": "id, tableOverride_next",
+  "last_page": "id, tableOverride_last",
+  "table_column_headings": "xpath, //table[@class='display datatable']//th",
+  "table_ele": "xpath, //tbody",
+  "popup_title": "class, ui-dialog-title",
+  "display_phrase_text": "id, exceptionPhrase",
+  "override_type": "xpath, //*[@id='exceptionType']/option",
+  "operator_type": "xpath, ",
+  "publish_field": "id, exceptionPublish",
+  "ok_button": "xpath, //*[text()='Ok']",
+  "cancel_button": "linkText, Cancel",
+  "filter_section": "id, tblFilterBar",
+  "filter_options1": "id, exceptionsFilterType",
+  "filter_options2": "id, exceptionsFilterType"
+}

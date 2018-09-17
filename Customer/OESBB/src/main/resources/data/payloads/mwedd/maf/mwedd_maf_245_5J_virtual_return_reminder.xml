@@ -1,0 +1,55 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>245_5J_MWEDD</internetOrderNumber>
+	<orderDate>05/10/2016</orderDate>
+	<ltyIdUsl>3104170812681234</ltyIdUsl>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>54.00</amount>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>3.00</shipmentNumber>
+		<shipRetailAmt>50.00</shipRetailAmt>
+		<shipTaxAmt>4.43</shipTaxAmt>
+		<returnSubmittedDate>05/17/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>Two of a Kind His Hers Steml1</description>
+			<price>50.00</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>50.0</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>kate spade new york</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/14/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>Two of a Kind His Hers Steml</description>
+			<price>50.00</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>50.0</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>kate spade new york</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/14/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

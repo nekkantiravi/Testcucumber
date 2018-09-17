@@ -1,0 +1,131 @@
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/02/2016</orderDate>
+	<shopAt></shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt></orderSubtotalAmt>
+	<baseShippingAmt></baseShippingAmt>
+	<addtShipAddAmt></addtShipAddAmt>
+	<shipUpgradeAmt></shipUpgradeAmt>
+	<giftWrapAmt></giftWrapAmt>
+	<taxAmt></taxAmt>
+	<orderTotal></orderTotal>
+	<divisionCode></divisionCode>
+	<locationCode></locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS></phoneNbrCS>
+	<hoursCS></hoursCS>
+	<phoneNbrFP></phoneNbrFP>
+	<hoursFP></hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl></ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+  </billingDetail>
+  <paymentDetail>
+		<paymentType></paymentType>
+		<accountNumber></accountNumber>
+		<amount></amount>
+		<paymentCategoryFlag></paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber></shipmentNumber>
+		<shippedDate></shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber></giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+    <itemDetail>
+      <lineNumber></lineNumber>
+      <description></description>
+      <price></price>
+      <requestedQuantity></requestedQuantity>
+      <availableQuantity></availableQuantity>
+      <shippedQuantity></shippedQuantity>
+      <totalAmount></totalAmount>
+      <expectedDate></expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType></shipmentType>
+      <splitShipmentFlag />
+      <status></status>
+      <vendor />
+      <cancelledQuantity></cancelledQuantity>
+      <upcId></upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+     <itemDetail>
+      <lineNumber></lineNumber>
+      <description></description>
+      <price></price>
+      <requestedQuantity></requestedQuantity>
+      <availableQuantity></availableQuantity>
+      <shippedQuantity></shippedQuantity>
+      <totalAmount></totalAmount>
+      <expectedDate></expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType></shipmentType>
+      <splitShipmentFlag />
+      <status></status>
+      <vendor />
+      <cancelledQuantity></cancelledQuantity>
+      <upcId></upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

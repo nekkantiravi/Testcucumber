@@ -1,0 +1,9 @@
+{
+  "url": "/loyalty/confirm",
+  "verify_page": "id, m-plenti-id",
+
+  "congratulation_message": "className, m-confirm-content",
+  "usl_id": "id, m-plenti-id",
+  "shop_now_button": "id, m-shopnow-button",
+  "my_account_button": "id, m-mymacysaccount-button"
+}

@@ -1,0 +1,11 @@
+{
+    "url":                              "/registry/wedding/registrycaptureemail",
+    "verify_page":                      "id, createRegistryBtn",
+
+    "email":                            "id, signInVB.email",
+    "password":                         "id, signInVB.password",
+    "sign_in_button":                   "id, accountSignInBtn",
+    "create_registry_button":           "id, createRegistryBtn",
+    "forgot_password":                  "id, forgotPassword",
+    "error_message":                    "id, searchErrorMsg || className, global-error-container || className, b_errorMessage"
+}

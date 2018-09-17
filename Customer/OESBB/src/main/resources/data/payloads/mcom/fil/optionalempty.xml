@@ -1,0 +1,201 @@
+<mailMessagePayload>
+	<reservationNumber>333333333</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>06/06/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>28.99</orderSubtotalAmt>
+	<baseShippingAmt>9.95</baseShippingAmt>
+	<addtShipAddAmt>10.99</addtShipAddAmt>
+	<shipUpgradeAmt>20.50</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>2.12</taxAmt>
+	<orderTotal>47.06</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170850123456</ltyIdUsl>
+	<billingDetail>
+		<title>MS</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>1234 KITTERY AVE</addressLine1>
+		<addressLine2>APT 456</addressLine2>
+		<addressLine3></addressLine3>
+		<city>SAN RAMON</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94583</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MACYS EMPLOYEE CARD</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>47.06</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>1234 KITTERY AVE</addressLine1>
+		<addressLine2>APT566</addressLine2>
+		<addressLine3></addressLine3>
+		<city>SAN RAMON</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94583</zipcode>
+		<greetingMessage>Thank You!</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>testoes@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>JOHN</giftRegistrant1>
+		<giftRegistrant2>SMITH</giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>635341312345</pickupBarcode>
+		<pickupReadyDate>06/06/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>18.99</shipRetailAmt>
+		<shipTaxAmt>1.61</shipTaxAmt>
+		<shipFilLoc>6236</shipFilLoc>
+		<shipPhone>248-123-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Little Boys 2-Piece Mickey Mo</description>
+			<price>18.99</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>18.99</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Nannette</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>610836202136</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+			<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Little Boys 2-Piece Mickey</description>
+			<price>18.99</price>
+			<requestedQuantity>006</requestedQuantity>
+			<availableQuantity>005</availableQuantity>
+			<shippedQuantity>004</shippedQuantity>
+			<totalAmount>18.99</totalAmount>
+			<expectedDate>06/08/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Nannette</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991467265</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<returnSubmittedDate></returnSubmittedDate>
+		<mailFlag>N</mailFlag>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>TESTING</middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+		<greetingMessage>Thank You!</greetingMessage>
+		<closingMessage>Your Best Friend</closingMessage>
+		<signatureMessage>OES</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>ESPMIGRATION@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<pickupBarcode>635341392002</pickupBarcode>
+		<pickupReadyDate>06/06/2016</pickupReadyDate>
+		<pickupCancelDate>12/31/9999</pickupCancelDate>
+		<shipRetailAmt>28.99</shipRetailAmt>
+		<shipTaxAmt>0.00</shipTaxAmt>
+		<shipFilLoc>0566</shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Macys Fathers Day E-Gift Car</description>
+			<price>10.00</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>10.00</totalAmount>
+			<expectedDate>06/07/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>EMAIL</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>IN PROCESS</status>
+			<vendor>Macys</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>000000478000231098</upcId>
+			<returnExpectedDate></returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

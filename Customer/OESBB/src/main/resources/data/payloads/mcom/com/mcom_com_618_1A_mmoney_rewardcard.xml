@@ -1,0 +1,13 @@
+<mailMessagePayload>
+	<reservationNumber>123</reservationNumber>
+	<amountRewardsCard>20</amountRewardsCard>
+	<firstName>Kiran</firstName>
+	<internetOrderNumber>4173453123</internetOrderNumber>
+	<linkToWallet>https://www.macys.com/account/wallet?ocwallet=true&amp;cg=c4b06c27-eb49-4bbb-993e-1cc7a0</linkToWallet>
+	<orderDate>08/04/2015</orderDate>
+	<orderTotal>126.33</orderTotal>
+	<rewardCardEarnEndDate>06/05/2015</rewardCardEarnEndDate>
+	<rewardCardEffectiveDate>08/08/2015</rewardCardEffectiveDate>
+	<rewardCardExpirationDate>08/10/2015</rewardCardExpirationDate>
+	<userType>SIGNIN</userType>
+</mailMessagePayload>

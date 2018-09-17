@@ -1,0 +1,43 @@
+{
+  "url": "/",
+
+  "search_all_clients_btn":             "id, srch-all-btn",
+  "search_my_book_btn":                 "id, srch-mybook-btn",
+
+  "search_all_clients_page":            "cssSelector, [title*='Search All Clients']",
+  "search_by_nm_zip_btn":               "id, srch-nm-zip-btn",
+  "search_by_phone_btn":                "id, srch-phn-btn",
+  "nm_zip_search_page":                 "cssSelector, [ng-controller*='SearchCustomersLastNameZipController']",
+  "telephone_search_page":              "cssSelector, [ng-controller*='SearchCustomersPhoneController']",
+  "search_frst_nm_input":               "id, search-firstName",
+  "search_lst_nm_input":                "id, search-lastName",
+  "search_zip_input":                   "id, search-zip",
+  "search_phone_input":                 "id, phoneNumber",
+  "search_btn":                         "id, srch-btn",
+  "search_again_btn":                   "id, srch-agn-btn",
+
+  "search_results_found_hdr":           "id, result-hdr",
+  "search_results_first_client":        "id, cust-nm1",
+  "search_results_second_client":       "id, cust-nm2",
+  "search_results_addr1":               "id, addr-ln_11",
+  "search_results_addr2":               "id, addr-ln_21",
+  "search_results_state":               "id, state1",
+  "search_results_zip":                 "id, zip-cd1",
+  "search_results_city":                "id, city1",
+  "search_results_country":             "",
+  "search_results_search_box":          "class, searchBox",
+
+  "search_by_nm_btn":                       "cssSelector, [ng-click*='transitionToMyBookSearchName']",
+  "nm_search_page":                         "cssSelector, [ng-controller*='SearchMyBookNameController']",
+  "search_name_input":                      "id, search.name",
+  "search_name_btn":                        "cssSelector, [ng-click*='searchName']",
+  "search_my_book_page":                    "xpath, //h1[contains(text(), 'Search My Book')]",
+  "search_my_book_results":                 "class, totalResults",
+  "search_my_book_first_client":            "xpath, //ion-content/div[1]/div[1]",
+
+  "affiliated_with_me":                 "id, affil-me-hdr",
+  "affiliated_with_me_chkbox":          "cssSelector, [class='affiliatedToMe']",
+  "affiliated_with_others_chkbox":      "cssSelector, [class='affiliatedToOthers']"
+
+
+}

@@ -1,0 +1,13 @@
+{
+  "homepage_popup_links": "xpath, //div[@data-row-num='row_02']//area[contains(@href,'javascript:pop')][2]",
+  "popup_logo": "xpath, //div[@class='home-popup']//img[contains(@title,'Way To Shop')]",
+  "popup_close": "xpath, //div[@class='home-popup']//a[@id='popupClose']",
+  "popup_content": "id,myDynPopupDetails",
+  "popup_header": "xpath, //div[@id='myDynPopupDetails']//p[@class='header-text']",
+  "popup_subheader": "xpath, //div[@id='myDynPopupDetails']//p[@class='subHeader-text']",
+  "popup_disclaimer": "xpath, //div[@id='myDynPopupDetails']//p[@class='disclaimer-text']",
+  "main_ad": "xpath,//div[@data-row-num='row_03']/div[@class='small-16 column']/img[@width>900 and @height>500]",
+  "all_link_main_ad": "xpath,//div[@data-row-num='row_03']/div[@class='small-16 column']/img[@width>900 and @height>500]/following-sibling::map/area",
+  "image": "xpath, //div[contains(@id,'row_')]//img || xpath, //*[@id='row1_column1']//img",
+  "all_link_image": "xpath, //img[contains(@data-feo-orig-src,\"{arg1}\")]/following-sibling::map/area"
+}

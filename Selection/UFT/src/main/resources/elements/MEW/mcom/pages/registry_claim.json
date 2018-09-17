@@ -1,0 +1,6 @@
+{
+  "url":        "/registry/wedding/claim",
+  "link_registry_header": "cssSelector,div.m-registry-title h1",
+  "link_registry_header_2": "class,m-section-title",
+  "link_registry_subtitle": "class,m-section-subtitle"
+}

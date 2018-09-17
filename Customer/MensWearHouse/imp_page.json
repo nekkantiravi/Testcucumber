@@ -1,0 +1,9 @@
+{
+  "include":[
+    "panel.header_and_footer"
+  ],
+  "url":"http://social-stage.fds.com/social/tuxedo-rentals/",
+  "tux_style":"linkText, Tux Styles",
+  "manage_rentals":"linkText, Manage My Rentals",
+  "howtorent":"linkText, How to Rent"
+}

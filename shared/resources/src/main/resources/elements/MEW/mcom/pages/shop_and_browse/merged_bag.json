@@ -1,0 +1,8 @@
+{
+  "url": "/bag/index.ognc",
+  "verify_page": "id, mb-j-checkout-btn-top",
+
+  "merged_message": "id, m-bag-merged-message",
+  "add_to_current_bag": "",
+  "current_bag": ""
+}

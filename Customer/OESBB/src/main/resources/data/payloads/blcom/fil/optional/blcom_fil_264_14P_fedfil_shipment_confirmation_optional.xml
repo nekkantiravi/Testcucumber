@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber></reservationNumber>
+   <internetOrderNumber>123456789</internetOrderNumber>
+   <orderDate>12/12/2016</orderDate>
+   <shopAt></shopAt>
+   <explanationText />
+   <orderSubtotalAmt>41.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt></addtShipAddAmt>
+   <shipUpgradeAmt></shipUpgradeAmt>
+   <giftWrapAmt></giftWrapAmt>
+   <taxAmt></taxAmt>
+   <orderTotal>48.08</orderTotal>
+   <divisionCode></divisionCode>
+   <locationCode></locationCode>
+   <adhocText />
+   <phoneNbrCS></phoneNbrCS>
+   <hoursCS></hoursCS>
+   <phoneNbrFP></phoneNbrFP>
+   <hoursFP></hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>N</ltyFlag>
+   <ltyIdUsl></ltyIdUsl>
+   <billingDetail>
+      <title />
+      <firstName></firstName>
+      <middleName></middleName>
+      <lastName></lastName>
+      <attnLine />
+      <addressLine1></addressLine1>
+      <addressLine2></addressLine2>
+      <addressLine3></addressLine3>
+      <city></city>
+      <state></state>
+      <country></country>
+      <zipcode></zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType></paymentType>
+      <accountNumber></accountNumber>
+      <amount></amount>
+      <paymentCategoryFlag></paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber></shipmentNumber>
+      <shippedDate></shippedDate>
+      <mailFlag>C</mailFlag>
+      <title></title>
+      <firstName></firstName>
+      <middleName />
+      <lastName></lastName>
+      <attnLine />
+      <addressLine1></addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city></city>
+      <state></state>
+      <country></country>
+      <zipcode></zipcode>
+      <greetingMessage></greetingMessage>
+      <closingMessage></closingMessage>
+      <signatureMessage></signatureMessage>
+      <giftRegistryNumber></giftRegistryNumber>
+      <giftWrapFlag></giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1></giftRegistrant1>
+      <giftRegistrant2></giftRegistrant2>
+      <giftReceiptFlag></giftReceiptFlag>
+      <trackingDetail>
+         <trackingNumber></trackingNumber>
+         <numberofPackages></numberofPackages>
+         <shipmentCarrier></shipmentCarrier>
+      </trackingDetail>
+      <itemDetail>
+         <lineNumber></lineNumber>
+         <description>Black jeans top</description>
+         <price></price>
+         <requestedQuantity></requestedQuantity>
+         <availableQuantity></availableQuantity>
+         <shippedQuantity></shippedQuantity>
+         <totalAmount></totalAmount>
+         <expectedDate></expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType></shipmentType>
+         <splitShipmentFlag />
+         <status></status>
+         <vendor />
+         <cancelledQuantity />
+         <upcId></upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <expiryDate />
+         <size></size>
+         <color></color>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

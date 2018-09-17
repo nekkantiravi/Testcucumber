@@ -1,0 +1,8 @@
+{
+  "url": "/login",
+  "verify_page": "id, login_button",
+
+  "username": "id, username",
+  "password": "id, password",
+  "loginBtn": "id, login_button"
+}

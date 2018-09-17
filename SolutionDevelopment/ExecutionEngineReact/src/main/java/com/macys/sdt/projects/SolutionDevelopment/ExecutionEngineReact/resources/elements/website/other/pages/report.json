@@ -1,0 +1,11 @@
+{
+  "url": "/",
+  "verify_page": "name, page_menu",
+
+  "ee_instance_title": "id, ee_instance_title",
+  "main_report_tab": "id, main_report_tab",
+  "main_exection_tab": "id, main_exection_tab",
+  "main_menu": "id, main_menu",
+  "page_size": "name, page_menu",
+  "copy_table_clipboard": "cssSelector, .btn>span.glyphicon"
+}

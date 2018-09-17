@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21D_MSTORE</reservationNumber>
+	<internetOrderNumber>276_21D_MSTORE</internetOrderNumber>
+	<orderDate>12/04/2017</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>74.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>6.19</taxAmt>
+	<orderTotal>81.18</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0671</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>JERRY S</firstName>
+		<middleName />
+		<lastName>HOGUE</lastName>
+		<attnLine />
+		<addressLine1>4105 LEADVILLE PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ADDISON</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>75001</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************6376</accountNumber>
+		<amount>81.18</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>JERRY S</firstName>
+		<middleName />
+		<lastName>HOGUE</lastName>
+		<attnLine />
+		<addressLine1>4105 LEADVILLE PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ADDISON</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>75001</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>STINGRAY 2 EYE AMARE</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/11/2017</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>12/31/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>TIMBERLAND</vendor>
+			<cancelledQuantity />
+			<upcId>000000086131225062</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>100M</size>
+			<color>AMARETTO</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

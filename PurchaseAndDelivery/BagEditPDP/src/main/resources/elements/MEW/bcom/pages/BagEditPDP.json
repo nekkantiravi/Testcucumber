@@ -1,0 +1,18 @@
+{
+    "include": [
+        "page.product_display",
+        "page.shopping_bag",
+        "page.registry_sign_in",
+        "page.registry_home",
+        "panel.add_to_bag",
+        "panel.wish_list_overlay",
+        "panel.header"
+    ],
+
+    "info":                             "There are no comments in JSON, so try to make your files easy to read without them",
+    "url":                              "/",
+    "product_color_swatch":             "className, b-j-product-swatch",
+    "product_color_name":               "className, b-j-product-color-name",
+    "registry_sign_in_page" :           "className, registryCreateResponsive || id, regSigninContainer"
+
+}

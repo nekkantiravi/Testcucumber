@@ -1,0 +1,15 @@
+{
+  "prod_user": [
+    {
+      "user_type": "prod_user",
+      "email": "qaautotest27@gmail.com",
+      "password": "s@123456"
+    }
+  ],
+  "event_date": "09/12/2020",
+  "registry_id": "Registry ID: 6839290",
+  "registry_status": "Registry status: Public",
+  "address_line_1": "884 Walnut St",
+  "registrant_names": "Qaaa Test & Hayden Haydentest",
+  "location": "Burbank"
+}

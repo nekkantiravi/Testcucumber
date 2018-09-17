@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<loyaltyId>L900054212345</loyaltyId>
+	<loyaltyFirstName>OES</loyaltyFirstName>
+	<loyaltyMiddleName>L</loyaltyMiddleName>
+	<loyaltyLastName>TESTING</loyaltyLastName>
+	<loyaltyContract>LTYBLM001</loyaltyContract>
+	<division>72</division>
+	<tier></tier>
+	<enrollmentConfirmation></enrollmentConfirmation>
+	<enrollmentLocation></enrollmentLocation>
+	<adhocText></adhocText>
+	<addedByApp></addedByApp>
+	<amountRewardsCard>25</amountRewardsCard>
+	<rewardCardExpirationDate>08/14/2016</rewardCardExpirationDate>
+	<vrcBarCode>866241033921234</vrcBarCode>
+	<rewardCardEffectiveDate>02/17/2016</rewardCardEffectiveDate>
+	<cid>4733</cid>
+</mailMessagePayload>

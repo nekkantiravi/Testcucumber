@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>582102712</reservationNumber>
+   <internetOrderNumber>582102712</internetOrderNumber>
+   <orderDate>10/09/2012</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>1476.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>131.00</taxAmt>
+   <orderTotal>1607.00</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0001</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <billingDetail>
+      <title />
+      <firstName>GREGORY</firstName>
+      <middleName />
+      <lastName>FREIDUS</lastName>
+      <attnLine />
+      <addressLine1>175 W 90TH ST</addressLine1>
+      <addressLine2>APT 9F</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10024</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>American Express</paymentType>
+      <accountNumber>************1009</accountNumber>
+      <amount>1607.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <mailFlag />
+      <title />
+      <firstName>KAREN</firstName>
+      <middleName />
+      <lastName>JAMES</lastName>
+      <attnLine />
+      <addressLine1>175 W 90TH ST</addressLine1>
+      <addressLine2>APT 9F</addressLine2>
+      <addressLine3 />
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10024</zipcode>
+      <greetingMessage />
+      <closingMessage />
+      <signatureMessage>XX</signatureMessage>
+      <giftRegistryNumber>2809006223936</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail>karenandgregareengaged@gmail.com</giftReceipientEmail>
+      <giftRegistrant1>KAREN</giftRegistrant1>
+      <giftRegistrant2>GREG</giftRegistrant2>
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <itemDetail>
+         <lineNumber />
+         <description>MARGHERITA</description>
+         <price />
+         <requestedQuantity>011</requestedQuantity>
+         <availableQuantity />
+         <shippedQuantity />
+         <totalAmount />
+         <expectedDate>12/03/2012</expectedDate>
+         <newExpectedDate>12/31/9999</newExpectedDate>
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType />
+         <splitShipmentFlag />
+         <status>BACKORDERED</status>
+         <vendor>MISSONI BY RICHARD GINORI</vendor>
+         <cancelledQuantity />
+         <upcId>000000091709396242</upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>RND SV PLT</size>
+         <color>MULTI</color>
+      </itemDetail>
+   </shipmentDetail>
+   <LoyaltyInformation>
+      <keyFobID />
+      <visitsRemaining />
+      <tier />
+      <bonusRewardBal />
+      <bonusPendRewardBal />
+      <bonusRewardEarned />
+      <bonusPendRewardEarned />
+      <rewardBal />
+      <pendRewardBal />
+      <rewardEarned />
+      <pendRewardEarned />
+      <earningLevel />
+      <lastName />
+      <firstName />
+      <email />
+      <starRewards />
+      <visaRewards />
+      <amexRewards />
+      <brierlyRewards />
+      <insiderRewards />
+      <accountStatus />
+      <accountStatusReason />
+      <pendingRewards />
+      <awardCardFlag />
+      <offerOnlyFlag />
+      <visitExpiration />
+      <errorCode />
+      <errorMsg />
+      <Offer>
+         <barCodeNum />
+         <expirationDate />
+         <headerText1 />
+         <headerText2 />
+         <exclusions />
+         <promoCode />
+      </Offer>
+      <Award>
+         <amount />
+      </Award>
+   </LoyaltyInformation>
+</mailMessagePayload>

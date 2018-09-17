@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>604763087</reservationNumber>
+	<internetOrderNumber>604763087</internetOrderNumber>
+	<orderDate>11/06/2012</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0037</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>MARTINA A</firstName>
+		<middleName />
+		<lastName>HUNT</lastName>
+		<attnLine />
+		<addressLine1>19 CURVE ST</addressLine1>
+		<addressLine2>URB</addressLine2>
+		<addressLine3 />
+		<city>LEXINGTON</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02420</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************4616</accountNumber>
+		<amount>87.00</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>11/27/2012</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>MARTINA A</firstName>
+		<middleName />
+		<lastName>HUNT</lastName>
+		<attnLine />
+		<addressLine1>19 CURVE ST</addressLine1>
+		<addressLine2>URB</addressLine2>
+		<addressLine3 />
+		<city>LEXINGTON</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02420</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>OBERT 10151159 02</description>
+			<price>87.00</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>87.00</totalAmount>
+			<expectedDate>11/27/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>HUGO BOSS</vendor>
+			<cancelledQuantity />
+			<upcId>000000696964016876</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>XL</size>
+			<color>DK PRPLE</color>
+		</itemDetail>
+	</shipmentDetail>
+	<LoyaltyInformation>
+		<keyFobID>L900014826617</keyFobID>
+		<visitsRemaining />
+		<tier />
+		<bonusRewardBal />
+		<bonusPendRewardBal />
+		<bonusRewardEarned />
+		<bonusPendRewardEarned />
+		<rewardBal />
+		<pendRewardBal />
+		<rewardEarned />
+		<pendRewardEarned />
+		<earningLevel />
+		<lastName />
+		<firstName />
+		<email />
+		<starRewards />
+		<visaRewards />
+		<amexRewards />
+		<brierlyRewards />
+		<insiderRewards />
+		<accountStatus />
+		<accountStatusReason />
+		<pendingRewards />
+		<awardCardFlag />
+		<offerOnlyFlag />
+		<visitExpiration />
+		<errorCode />
+		<errorMsg />
+		<Offer>
+			<barCodeNum />
+			<expirationDate />
+			<headerText1 />
+			<headerText2 />
+			<exclusions />
+			<promoCode />
+		</Offer>
+		<Award>
+			<amount />
+		</Award>
+	</LoyaltyInformation>
+</mailMessagePayload>

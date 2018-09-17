@@ -1,0 +1,18 @@
+{
+  "bloomingdales": [
+    {
+      "id": 120456,
+      "available_bops": true,
+      "eligible_bops": true,
+      "available_in_store": true,
+      "click_to_call": false,
+      "upc": 5450102344871,
+      "store_location_nbr": 10022,
+      "master_product": false,
+      "available": true,
+      "orderable": true,
+      "available_sdd": true,
+      "prod_available": true
+    }
+  ]
+}

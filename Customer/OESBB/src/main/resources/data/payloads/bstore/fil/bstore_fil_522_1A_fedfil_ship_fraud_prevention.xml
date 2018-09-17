@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>R123456789</reservationNumber>
+  <internetOrderNumber>I123456789</internetOrderNumber>
+  <orderDate>02/14/2015</orderDate>
+  <shopAt>Bloomingdales</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>100.00</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>9.08</taxAmt>
+  <orderTotal>109.08</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>N</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 MABEL PL</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>CASTRO VALLEY</city>
+    <state>CA</state>
+    <country>USA</country>
+    <zipcode>94546</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>Electronic Gift Card</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>100.00</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+    <egcCertificateType>83</egcCertificateType>
+  </paymentDetail>
+  <paymentDetail>
+    <paymentType>Visa</paymentType>
+    <accountNumber>************56789</accountNumber>
+    <amount>9.08</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+    <egcCertificateType>75</egcCertificateType>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>002</shipmentNumber>
+    <shippedDate>12/31/9999</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag />
+    <title>MR</title>
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 MABEL PL</addressLine1>
+    <addressLine2>APT 234</addressLine2>
+    <addressLine3 />
+    <city>CASTRO VALLEY</city>
+    <state>CA</state>
+    <country>USA</country>
+    <zipcode>94546</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>N</giftReceiptFlag>
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>003</lineNumber>
+      <description>ZIRH BODY BAR</description>
+      <price>15.00</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>001</availableQuantity>
+      <shippedQuantity>000</shippedQuantity>
+      <totalAmount>15.00</totalAmount>
+      <expectedDate>12/31/9999</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>ON ORDER</status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId>000000679614360376</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+      <returnStatus />
+      <returnExpectedDate>12/31/9999</returnExpectedDate>
+      <returnReasonDescription />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

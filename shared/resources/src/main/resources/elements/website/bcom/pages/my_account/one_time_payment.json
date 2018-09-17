@@ -1,0 +1,16 @@
+{
+  "include": [
+    "panel.otp_date_picker_popup"
+  ],
+  "verify_page": "id, otp-form-other-amount-text-field",
+  "payment_due_date": "css , #otp-form>div>p",
+  "tool_tip": "id , otp-balance-tooltip",
+  "callout_box": "id , otp-tooltip-overlay",
+  "disclosure_paragraph": "class , otp-legal-message-container",
+  "more_payment_source_options": "linkText, More Payment Source Options",
+  "terms_conditions": "linkText, Terms & Conditions.",
+  "inline_copy": "xpath , .//*[@id='otp-payment-form']/div[3]/p[2]",
+  "close_button": "class , container-close",
+  "dp_payment_date_field": "id, otp-form-other-date-field",
+  "dp_date_picker_icon": "class, ui-datepicker-trigger"
+}

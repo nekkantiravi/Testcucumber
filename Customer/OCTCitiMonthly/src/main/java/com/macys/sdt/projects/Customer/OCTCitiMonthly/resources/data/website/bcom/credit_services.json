@@ -1,0 +1,107 @@
+{
+  "activateCard": {
+    "signin amex": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "guest amex": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    }
+  },
+  "addCard": {
+    "converted prop": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "amex new": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "single line amex": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "amex conv dual": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "employee prop": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "multi card02": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "email": "",
+      "ssn": ""
+    },
+    "16-digit prop": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "multi card01": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "joint single line amex": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "joint prop": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "joint dual line": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    },
+    "joint dual line child": {
+      "name": "",
+      "securityCode": "",
+      "cardNumber": "",
+      "ssn": ""
+    }
+  },
+  "applyNow": {
+    "income": "",
+    "lastName": "",
+    "zipCode": "",
+    "phoneType": "",
+    "address": "",
+    "city": "",
+    "ssn": "",
+    "firstName": "",
+    "mortgage": "",
+    "phone": "",
+    "dob": "",
+    "state": "",
+    "resStatus": "",
+    "email": ""
+  }
+}

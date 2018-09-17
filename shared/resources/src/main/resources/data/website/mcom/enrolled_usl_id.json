@@ -1,0 +1,65 @@
+[
+  {
+    "uslType" : "FULL_ENROLLED",
+    "plentiId": "3104170845024124",
+    "uslPhone": "333-222-3044",
+    "uslPin"  : "1234",
+    "uslLinkedCard": "",
+    "uslLinkedCardType": "",
+    "redeemedPlentiPoints": ""
+  },
+  {
+    "uslType" : "FULL_ENROLLED",
+    "plentiId": "3104170845024090",
+    "uslPhone": "333-222-3042",
+    "uslPin"  : "1234",
+    "uslLinkedCard": "",
+    "uslLinkedCardType": "",
+    "redeemedPlentiPoints": ""
+  },
+  {
+    "uslType" : "FULL_ENROLLED",
+    "plentiId": "3104170655072601",
+    "uslPhone": "415-399-0088",
+    "uslPin"  : "1234",
+    "uslLinkedCard": "377481599643944",
+    "uslLinkedCardType": "COBRAND",
+    "redeemedPlentiPoints": "0"
+  },
+  {
+    "uslType" : "PRE_ENROLLED",
+    "plentiId": "3104170006123418",
+    "uslPhone": "491-888-1313",
+    "uslPin"  : "1234",
+    "uslLinkedCard": "6035340000042060",
+    "uslLinkedCardType": "PROP",
+    "redeemedPlentiPoints": "0"
+  },
+  {
+    "uslType" : "ANONYMOUS",
+    "plentiId": "3104170655071538",
+    "uslPhone": "",
+    "uslPin"  : "",
+    "uslLinkedCard": "",
+    "uslLinkedCardType": "",
+    "redeemedPlentiPoints": "0"
+  },
+  {
+    "uslType" : "CANCELLED",
+    "plentiId": "3104170005000526",
+    "uslPhone": "",
+    "uslPin"  : "",
+    "uslLinkedCard": "6035340400037996",
+    "uslLinkedCardType": "",
+    "redeemedPlentiPoints": "0"
+  },
+  {
+    "uslType" : "PROD_FULL_ENROLLED",
+    "plentiId": "3104170845930122",
+    "uslPhone": "736-249-0192",
+    "uslPin"  : "",
+    "uslLinkedCard": "",
+    "uslLinkedCardType": "",
+    "redeemedPlentiPoints": "0"
+  }
+]

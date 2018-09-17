@@ -1,0 +1,6 @@
+{
+
+    "url": 								"/shop/search||/shop/registry/wedding/search",
+    "verify_page": 						"id, search_zero_results||id, reg_search_zero_results"
+
+}

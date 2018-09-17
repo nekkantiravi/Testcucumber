@@ -1,0 +1,59 @@
+<mailMessagePayload>
+    <reservationNumber>0</reservationNumber>
+    <explanationText>A note from OES: thoughts on the below? I figured id give her 2 or 3</explanationText>
+    <replyToEmailAddress>oesesptesting@gmail.com</replyToEmailAddress>
+    <replyToDisplayName>OES TESTING</replyToDisplayName>
+    <mailingLabelURL>http://www.bloomingdales.com/wishlist/guest?wid=f5157b65-1e40-4e83-880e-6ce06869b886&amp;cm_mmc=EML2-_-wishlist_share-_-BODY-_-View_Wish_List</mailingLabelURL>
+    <shipmentDetail>
+        <firstName>OES</firstName>
+        <giftRegistryNumber>0</giftRegistryNumber>
+        <itemDetail>
+            <lineNumber>1</lineNumber>
+            <description>Alex and Ani NYC Skyline II Bangle</description>
+            <requestedQuantity>0</requestedQuantity>
+            <availableQuantity>0</availableQuantity>
+            <upcNumber>650743291113</upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl>http://www.bloomingdales.com/shop/product?ID=875135&amp;cm_mmc=EML2-_-wishlist_share-_-Body-_-875135</lineProductUrl>
+            <lineImageType>primary_image</lineImageType>
+            <linePrimaryImageUrl>http://images.bloomingdales.com/is/image/BLM/products/2/optimized/8428352_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+        </itemDetail>
+        <itemDetail>
+            <lineNumber>2</lineNumber>
+            <description>Alex and Ani Ode to the Owl Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity>0</requestedQuantity>
+            <availableQuantity>0</availableQuantity>
+            <upcNumber>650743291113</upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl>http://www.bloomingdales.com/shop/product?ID=1065217&amp;cm_mmc=EML2-_-wishlist_share-_-Body-_-1065217</lineProductUrl>
+            <lineImageType>primary_image</lineImageType>
+            <linePrimaryImageUrl>http://images.bloomingdales.com/is/image/BLM/products/3/optimized/8565763_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+        </itemDetail>
+        <itemDetail>
+            <lineNumber>3</lineNumber>
+            <description>Alex and Ani Make Your Mark Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity>0</requestedQuantity>
+            <availableQuantity>0</availableQuantity>
+            <upcNumber>650743291113</upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl>http://www.bloomingdales.com/shop/product?ID=1040391&amp;cm_mmc=EML2-_-wishlist_share-_-Body-_-1040391</lineProductUrl>
+            <lineImageType>primary_image</lineImageType>
+            <linePrimaryImageUrl>http://images.bloomingdales.com/is/image/BLM/products/6/optimized/8526336_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+        </itemDetail>
+        <itemDetail>
+            <lineNumber>4</lineNumber>
+            <description>Alex and Ani New Beginnings Expandable Wire Bangle,Charity by Design Collection</description>
+            <requestedQuantity>0</requestedQuantity>
+            <availableQuantity>0</availableQuantity>
+            <upcNumber>650743291113</upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl>http://www.bloomingdales.com/shop/product?ID=1054194&amp;cm_mmc=EML2-_-wishlist_share-_-Body-_-1054194</lineProductUrl>
+            <lineImageType>primary_image</lineImageType>
+            <linePrimaryImageUrl>http://images.bloomingdales.com/is/image/BLM/products/2/optimized/8542712_fpx.tif?bgc=255,255,255&amp;wid=160&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+        </itemDetail>
+    </shipmentDetail>
+</mailMessagePayload>

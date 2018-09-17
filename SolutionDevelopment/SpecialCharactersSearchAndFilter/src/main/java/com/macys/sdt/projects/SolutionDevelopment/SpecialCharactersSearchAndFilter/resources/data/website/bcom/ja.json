@@ -1,0 +1,97 @@
+{ "data":[
+  {
+    "Search Term": "Watches",
+    "Cat ID": "20532",
+    "Refinements": {
+      "BEAUTY_GENDER": [
+        "Female"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Women"
+  },
+  {
+    "Search Term": "Watches",
+    "Cat ID": "1000066",
+    "Refinements": {
+      "BEAUTY_GENDER": [
+        "Male"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Men"
+  },
+  {
+    "Search Term": "Scarves",
+    "Cat ID": "1005369",
+    "Refinements": {
+      "GENDER_AGE": [
+        "Women"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Women"
+  },
+  {
+    "Search Term": "Hats",
+    "Cat ID": "1005370",
+    "Refinements": {
+      "FOB": [
+        "Women"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Women"
+  },
+  {
+    "Search Term": "Gloves",
+    "Cat ID": "1005371",
+    "Refinements": {
+      "GENDER_AGE": [
+        "Women"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Women"
+  },
+  {
+    "Search Term": "Sunglasses",
+    "Cat ID": "4520",
+    "Refinements": {
+      "GENDER_AGE": [
+        "Women"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Gender > Women"
+  },
+  {
+    "Search Term": "Dresses",
+    "Cat ID": "1004517",
+    "Refinements": {
+      "FOB": [
+        "Kids"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Department > Kids"
+  },
+  {
+    "Search Term": "Shoes",
+    "Cat ID": "1001238",
+    "Refinements": {
+      "FOB": [
+        "Kids"
+      ]
+    },
+    "Exclusions": "N/A",
+    "Refinements Display": "Department > Kids"
+  },
+  {
+    "Search Term": "Toys",
+    "Cat ID": "1001236",
+    "Refinements": "N/A",
+    "Exclusions": "N/A",
+    "Refinements Display": "N/A"
+  }]
+}

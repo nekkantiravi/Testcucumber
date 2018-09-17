@@ -1,0 +1,20 @@
+{
+    "subCatSkincareLink": 	               "xpath, .//*[@id='navChanelSubCats']/li[5]/a",
+    "subCatLinks": 	                       "cssSelector, #navChanelSubCats>li>a",
+    "chanelProductList": 	               "cssSelector, #thumbnails>div",
+
+    "brandLogo":                           "cssSelector, #brandLogo",
+    "brandName":                           "cssSelector, #productBrand",
+    "productDescription":                  "cssSelector, #productDescription",
+    "productQuantity": 	                   "cssSelector, #productQuantity",
+    "addToBagBtn": 	                       "class, addToBagButton",
+    "addToListBtn": 	                   "class, addToWishlistBtn",
+    "addToListOverlay": 	               "cssSelector, #processPnl",
+    "addToListOverlayClose": 	           "cssSelector, #pnlClose",
+    "mainImage": 	                       "class, main-view-holder hovered",
+    "zoomerBtn": 	                       "cssSelector, #zoomerLargerButton",
+    "zoomerCloseBtn": 	                   "cssSelector, .ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close",
+    "emailIcon": 	                       "cssSelector, .email_icon",
+    "emailFriendsOverlay": 	               "id, emailAFriendPanel",
+    "emailOverlayClose": 	               "cssSelector, .container-close"
+}

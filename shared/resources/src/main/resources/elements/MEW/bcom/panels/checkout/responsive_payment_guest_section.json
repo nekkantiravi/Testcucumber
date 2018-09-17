@@ -1,0 +1,20 @@
+{
+  "card_type": "id, creditCard.cardType.code",
+  "card_number": "id, creditCard.cardNumber",
+  "expiry_month": "id, creditCard.expMonth",
+  "expiry_year": "id, creditCard.expYear",
+  "security_code": "id, creditCard.securityCode",
+  "use_shipping_address": "id, rc-use-shipping_cover",
+  "first_name": "id, billingContact.firstName",
+  "last_name": "id, billingContact.lastName",
+  "address_line_1": "id, billingAddress.addressLine1",
+  "address_line_2": "id, billingAddress.addressLine2",
+  "address_city": "id, billingAddress.city",
+  "address_state": "id, billingAddress.state",
+  "address_zip_code": "id, billingAddress.zipCode",
+  "phone_number": "id, billingAddress.phone",
+  "payment_email": "id, billingContact.email",
+  "continue_payment_checkout_button": "id, rc-payment-continue",
+  "paypal_radio_button": "id, rc-paypal_cover",
+  "continue_with_paypal": "id, rc-paypal-continue"
+}

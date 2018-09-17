@@ -1,0 +1,13 @@
+{
+  "registry_atb_overlay":       "id, atbOverlay || id, addToBagPanel",
+  "registry_continue_shopping": "id, pdp_atb_cont_shopping || id, pdp_atb_cont_shopping",
+  "registry_checkout_button":     "id, checkout||id,btnContinueCheckout || id, pdp_atb_checkout",
+  "registry_close_overlay":     "className, container-close",
+  "registry_atb_prod_name":     "id, atb_productName",
+  "registry_atb_prod_image":    "id, atb_productImage",
+  "registry_atb_price":         "cssSelector, .item-price>div>div:nth-last-child(1)",
+  "registry_atb_qty":           "xpath, //div[@class='add_to_bag_section']/div/div/div/div[2]/div/div/div[2]/div[2]",
+  "registry_atb_total_price":    "xpath, //div[@class='add_to_bag_section']/div/div/div/div[2]/div/div/div[3]/div[2]",
+  "registry_atb_prod_color":    "id, atb_productColor",
+  "registry_atb_prod_size":     "id, atb_productSize"
+}

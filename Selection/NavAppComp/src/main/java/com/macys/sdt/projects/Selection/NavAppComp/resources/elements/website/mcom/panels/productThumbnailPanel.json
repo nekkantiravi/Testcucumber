@@ -1,0 +1,8 @@
+{
+
+  "product_thumbnails":                   "className, productThumbnail",
+  "product_price_pdp":                    "className, tieredPrices",
+  "prices":                               "className, colorway-price",
+  "productStarRatingPdp":                 "className, redStar",
+  "masterProductReview":                  "className, rating"
+}

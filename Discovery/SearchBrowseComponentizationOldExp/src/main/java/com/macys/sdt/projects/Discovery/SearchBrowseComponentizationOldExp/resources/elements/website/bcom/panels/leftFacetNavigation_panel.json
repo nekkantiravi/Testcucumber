@@ -1,0 +1,11 @@
+{
+    "currentPage":                  "className, current",
+    "pageNavigator":                "className, dropdown",
+    "facetBreadcrumbs":             "className, facetbreadcrumb",
+    "facetRemoveBreadcrumb":        "className, removeFacet",
+    "clearAllButton":               "className, clearAll",
+    "facet_item":                   "className, item",
+    "error_highlight":              "className, filter_empty_results"
+
+
+}

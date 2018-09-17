@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>451576822</reservationNumber>
+   <internetOrderNumber>888738751</internetOrderNumber>
+   <orderDate>04/20/2012</orderDate>
+   <shopAt>Macy's Wedding and Gift Regist</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>503.95</orderSubtotalAmt>
+   <baseShippingAmt>3.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>43.09</taxAmt>
+   <orderTotal>550.04</orderTotal>
+   <divisionCode>071</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-289-62291-800-289-6229 FREE</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-89771-866-282-8977 FREE</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <billingDetail>
+      <title />
+      <firstName>John</firstName>
+      <middleName />
+      <lastName>Smith</lastName>
+      <attnLine />
+      <addressLine1>4304 Canyon Glen Circle</addressLine1>
+      <addressLine2>Apt</addressLine2>
+      <addressLine3 />
+      <city>Los Angeles</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>90027</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Electronic Gift Card</paymentType>
+      <accountNumber>************3191</accountNumber>
+      <amount>50.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <paymentDetail>
+      <paymentType>Electronic Gift Card</paymentType>
+      <accountNumber>************6367</accountNumber>
+      <amount>50.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <paymentDetail>
+      <paymentType>Electronic Gift Card</paymentType>
+      <accountNumber>************8050</accountNumber>
+      <amount>25.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <paymentDetail>
+      <paymentType>Electronic Gift Card</paymentType>
+      <accountNumber>************2190</accountNumber>
+      <amount>25.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <paymentDetail>
+      <paymentType>MACYS EMPLOYEE CARD</paymentType>
+      <accountNumber>************6641</accountNumber>
+      <amount>400.04</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>002</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <mailFlag />
+      <title />
+      <firstName>John</firstName>
+      <middleName />
+      <lastName>Smith</lastName>
+      <attnLine />
+      <addressLine1>4304 Canyon Glen Circle</addressLine1>
+      <addressLine2 />
+      <addressLine3 />
+      <city>Los Angeles</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>90027</zipcode>
+      <greetingMessage />
+      <closingMessage />
+      <signatureMessage />
+      <giftRegistryNumber>2800006568058</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail>deannasophia@gmail.com</giftReceipientEmail>
+      <giftRegistrant1>John</giftRegistrant1>
+      <giftRegistrant2>CHAD</giftRegistrant2>
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <itemDetail>
+         <lineNumber />
+         <description>Ophelia European Sham</description>
+         <price />
+         <requestedQuantity>002</requestedQuantity>
+         <availableQuantity />
+         <shippedQuantity />
+         <totalAmount />
+         <expectedDate>06/04/2012</expectedDate>
+         <newExpectedDate>07/12/2012</newExpectedDate>
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate>07/04/2012</systemCancelDate>
+         <shipmentType />
+         <splitShipmentFlag />
+         <status>BACKORDERED</status>
+         <vendor>Waterford</vendor>
+         <cancelledQuantity />
+         <upcId>000000024258191389</upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <cidNumber />
+         <expiryDate />
+         <size />
+         <color>Blue Taupe</color>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

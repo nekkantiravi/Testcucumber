@@ -1,0 +1,93 @@
+<mailMessagePayload>
+  <reservationNumber>639955500</reservationNumber>
+  <internetOrderNumber>FIL_245_5C_BLCOM</internetOrderNumber>
+  <orderDate>11/26/2012</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>193.37</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>0.00</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+  <billingDetail>
+		<title></title>
+		<firstName></firstName>
+		<middleName></middleName>
+		<lastName></lastName>
+		<attnLine></attnLine>
+		<addressLine1></addressLine1>
+		<addressLine2></addressLine2>
+		<addressLine3></addressLine3>
+		<city></city>
+		<state></state>
+		<country></country>
+		<zipcode></zipcode>
+	</billingDetail>
+  <paymentDetail>
+    <paymentType></paymentType>
+    <accountNumber></accountNumber>
+    <amount></amount>
+    <paymentCategoryFlag></paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber></shipmentNumber>
+    <shippedDate>12/01/2012</shippedDate>
+    <mailFlag />
+    <title />
+    <firstName></firstName>
+    <middleName />
+    <lastName></lastName>
+    <attnLine />
+    <addressLine1></addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city></city>
+    <state></state>
+    <country></country>
+    <zipcode></zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber></giftRegistryNumber>
+    <giftWrapFlag></giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <itemDetail>
+      <lineNumber>006</lineNumber>
+      <description></description>
+      <price>121.33</price>
+      <requestedQuantity></requestedQuantity>
+      <availableQuantity></availableQuantity>
+      <shippedQuantity></shippedQuantity>
+      <totalAmount></totalAmount>
+      <expectedDate>12/01/2012</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType></shipmentType>
+      <splitShipmentFlag />
+      <status></status>
+      <vendor />
+      <cancelledQuantity />
+      <upcId></upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

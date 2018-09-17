@@ -1,0 +1,8 @@
+{
+  "debug_mode": "xpath, //a[text()='Debug Mode']",
+  "domain": "xpath, //a[text()='Domain']",
+  "re": "xpath, //a[text()='Release Engineering']",
+  "sdt": "xpath, //a[text()='SDT']",
+  "dsv": "xpath, //a[text()='DSV']",
+  "node_mgmt": "xpath, //a[text()='Node Management']"
+}

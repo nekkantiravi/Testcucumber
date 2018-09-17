@@ -1,0 +1,19 @@
+{
+  "url": "/account/addressbook",
+  "verify_page": "className, account_aBook_shippingAddressesHeader||id, mb-j-addressbook-add",
+
+  "first_name": "id, addressVB.firstName || id, contact.firstName||id, mb-j-address-firstname",
+  "last_name": "id, addressVB.lastName || id, contact.lastName||id, mb-j-address-lastname",
+  "address_line_1": "id, addressVB.addressLine1 || id, contact.address.addressLine1||id, mb-j-address-addressline1",
+  "address_line_2": "id, addressVB.addressLine2 || id, contact.address.addressLine2||id, mb-j-address-addressline2",
+  "address_city": "id, addressVB.city || id, contact.address.city||id, mb-j-address-city",
+  "address_state": "id, addressVB.state || id, contact.address.state||id, mb-j-address-state",
+  "address_zip_code": "id, addressVB.postalCode || id, contact.address.zipCode||id, mb-j-address-zipcode",
+  "phone_area_code": "id, addressVB.phoneVB.areaCode",
+  "phone_exchange": "id, addressVB.phoneVB.exchangeNumber",
+  "phone_subscriber": "id, addressVB.phoneVB.subscriberNumber",
+  "phone_number": "id, contact.address.phoneNumber||id, mb-j-address-phone",
+  "add_shipping_address_button": "id, saveAddressBtnImg || id, rc-save-new-address||id, mb-j-addressbook-save",
+  "message": "id, commonErrorMsgText",
+  "remove_link": "linkText, Delete"
+}

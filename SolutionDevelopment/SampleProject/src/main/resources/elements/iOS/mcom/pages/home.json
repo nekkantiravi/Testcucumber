@@ -1,0 +1,10 @@
+{
+    "get_started_button":           "id, get Started",
+    "not_now_button":               "id, get Started",
+
+    "search_field":                 "id, edit_home_screen_search",
+    "banner":                       "id, gallery_ad_banners",
+
+    "menu_button":                  "id, menu - closed",
+    "come_see_us_message":          "xpath, //UIAButton[contains(@name, 'RMBAutomationMCOMHomeStoreDetailsCellButton')]"
+}

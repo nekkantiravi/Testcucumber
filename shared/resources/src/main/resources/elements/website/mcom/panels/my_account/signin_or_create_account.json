@@ -1,0 +1,6 @@
+{
+
+  "signInCitiOverlay": "xpath, //span[contains(text(),'SIGNIN OR CREATE AN ACCOUNT TO CONTINUE')] || xpath, //span[contains(text(),'Sign in or create an account to continue')]",
+  "continueOverlay": "cssSelector, .button.medium.singInOverlayCloseBtn|| xpath, //*[@class='singInOverlayWidth']/a"
+
+}

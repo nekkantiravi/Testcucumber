@@ -1,0 +1,20 @@
+{
+    "include": [
+        "panels.sample_panel"
+    ],
+
+    "info":                     "There are no comments in JSON, so try to make your files easy to read without them",
+    "url":                      "/",
+    "test_element": 	        "id, bloomiesLogo",
+    "search_field":             "class, aboveNavSearchBox",
+    "search_submit":            "id, subnavSearchSubmit",
+    "search_result":            "class, searchResultsText",
+    "product_count":            "id, productCount",
+    "pagination":               "id, paginationColumn",
+    "facet_name":               "class, facet_name",
+    "autocomplete_flyout":      "id, ui-id-1",
+    "last_searches":            "class, lastSearch",
+    "recent_search_title":      "class, suggestion",
+    "autocomplete_suggestions": "class, suggestion",
+    "order_history":            "id, cmFooterOrderStatus"
+}

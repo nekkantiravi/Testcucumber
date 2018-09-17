@@ -1,0 +1,16 @@
+{
+  "productTitle":                    "cssSelector, .itemName",
+  "shoppingBagId":                   "xpath, .//*[@id='shoppingBagId']",
+  "shoppingBagWebId":                "class, valWebId",
+  "productImg":                      "cssSelector, .productImage",
+  "quantity":                        "xpath, //option[@selected='selected']",
+  "productColor":                    "class, valColor",
+  "productSize":                     "class, valSize",
+  "originalPrice":                   "cssSelector, .tieredPriceType || cssSelector, .tieredPriceWrapper",
+  "salePrice":                       "cssSelector, .bagLowestPrice",
+  "itemTotalPrice":                  "cssSelector, .itemTotal",
+  "itemLines":                       "xpath, .//*[@id='itemsContainer']/*[@class='lineItem dashedResgistryLine']",
+  "removeBtn":                       "cssSelector, .removeLink || xpath, .//*[contains(@class,'removeLink')]",
+  "itemRemovedMsg":                  "cssSelector, #msg_generalmessage",
+  "bagEmptyMsg":                     "cssSelector, .errorMsg"
+}

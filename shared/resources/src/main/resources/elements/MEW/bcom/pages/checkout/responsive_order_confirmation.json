@@ -1,0 +1,15 @@
+{
+  "url":                        "/chkout/rc",
+  "verify_page":                "id, rc-confirm-orderNumber || id, rc-orderConfirmation-orderNumber",
+
+  "order_number":               "id, rc-confirm-orderNumber || id, rc-orderConfirmation-orderNumber",
+  "loyalty_points_section":     "id, rc-loyallist-points-table",
+  "paypal_section":             "id, rc-confirm-paypal",
+  "paypal_email_text":          "xpath, //div[@id='rc-confirm-paypal']//p[2]",
+  "bops_shipping_section":      "id, rc-shippingInfo-bopsStoreInfo",
+  "normal_shipping_section":    "id, rc-confirm-shippingAddress",
+  "alert_message":              "id, rc-confirm-orderDetailsText || className, rc-confirm-orderDetailsText",
+  "shipping_method":            "id, rc-confirm-shippingMethod || id, rc-orderConfirmation-shippingMethod",
+  "shipping_egift_card_section": "id, rc-vgcInfo||className, rc-vgc-message"
+
+}

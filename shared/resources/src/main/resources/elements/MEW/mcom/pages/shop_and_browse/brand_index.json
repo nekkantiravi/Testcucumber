@@ -1,0 +1,14 @@
+{
+  "include": [
+    "panel.header"
+  ],
+  "url": "/shop/all-brands||/shop/wedding-registry/all-brands",
+  "verify_page": "className, brand-search",
+
+  "browse_cat_name": "className, m-browse-catname",
+  "brands": "class, facet-value",
+  "brand_search_results": "xpath, //*[@id='brandIndex-search-results']/li",
+  "cancel_button": "id, brand-modal-button-right",
+  "clear_icon": "class, brand-search-clear",
+  "brand_name": "className, display-name"
+}

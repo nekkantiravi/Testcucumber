@@ -1,0 +1,10 @@
+{
+  "product_thumbnail_link": "cssSelector, .b-browse-img-link",
+  "search_results_thumbnail_wrapper": "cssSelector, .mb-j-browse-image",
+  "product_thumbnail_list": "cssSelector, ul#m-search-results-list li",
+  "search_regular_price":   "cssSelector, li.b-price-regular",
+  "product_thumbnail_with_review": "cssSelector, .b-rating",
+  "product_thumbnail": "className, b-browse-product",
+  "result_list": "class, b-browse-img-link",
+  "prices_grid": "class, b-price"
+}

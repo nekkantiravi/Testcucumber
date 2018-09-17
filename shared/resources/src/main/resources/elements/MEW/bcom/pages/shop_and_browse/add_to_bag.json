@@ -1,0 +1,7 @@
+{
+  "url":                "/shop/product",
+  "verify_page":        "className, b-atb-checkout-button",
+
+  "checkout":           "className, b-atb-checkout-button",
+  "continue_shopping": "className, mb-j-overlay-continue"
+}

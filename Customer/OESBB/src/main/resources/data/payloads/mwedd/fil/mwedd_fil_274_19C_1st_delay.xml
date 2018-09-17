@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19C_MWEDD</reservationNumber>
+	<internetOrderNumber>274_19C_MWEDD</internetOrderNumber>
+	<orderDate>11/30/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>449.97</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>31.50</taxAmt>
+	<orderTotal>481.47</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0075</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>CAROL</firstName>
+		<middleName />
+		<lastName>LIOTTI</lastName>
+		<attnLine />
+		<addressLine1>260 ARGYLE PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>KEARNY</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07032</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************6834</accountNumber>
+		<amount>481.47</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>CAROL</firstName>
+		<middleName />
+		<lastName>LIOTTI</lastName>
+		<attnLine />
+		<addressLine1>260 ARGYLE PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>KEARNY</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07032</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800000473143</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>fugow@hotmail.com</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>SIGNATURE</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/07/2016</expectedDate>
+			<newExpectedDate>12/31/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>12/10/2016</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>LE CREUSET OF AMERICA INC</vendor>
+			<cancelledQuantity />
+			<upcId>000000024147929239</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>5PC SET</size>
+			<color>MARSIELLE</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

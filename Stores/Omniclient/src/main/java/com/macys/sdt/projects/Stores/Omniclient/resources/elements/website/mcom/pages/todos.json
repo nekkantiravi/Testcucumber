@@ -1,0 +1,211 @@
+{
+  "url": "/",
+
+  "create_list_dashboard":                                  "id, listLeft",
+  "create_list_title":                                      "id, leftHeader",
+  "preview_pane_new_list":                                  "id, previewContent",
+  "create_lists_header":                                    "id, selectionHeader",
+  "to_do_list_header":                                      "id, pipNav0",
+  "my_lists_header":                                        "id, pipNav1",
+  "create_to_dos_button":                                   "id, createToDosBtn",
+
+  "new_list_dashboard":                                     "cssSelector, .new-list",
+  "new_list_button":                                        "id, newListBtn",
+  "list_name_input_field":                                  "id, new-list-input-name",
+
+  "first_section_chevron":                                  "id, createListCevron1",
+  "second_section_chevron":                                 "id, createListCevron2",
+  "third_section_chevron":                                  "id, createListCevron3",
+
+  "first_section_new_list_view":                            "id, createListSection1",
+  "second_section_new_list_view":                           "id, createListSection2",
+  "third_section_new_list_view":                            "id, createListSection3",
+
+  "first_section_first_subsection":                         "id, createListOption1_1",
+  "first_section_second_subsection":                        "id, createListOption1_2",
+  "first_section_third_subsection":                         "id, createListOption1_3",
+  "first_section_fourth_subsection":                        "id, createListOption1_4",
+
+
+
+  "second_section_first_subsection":                         "id, createListOption2_1",
+  "second_section_second_subsection":                        "id, createListOption2_2",
+  "second_section_third_subsection":                         "id, createListOption2_3",
+
+  "third_section_first_subsection":                         "id, createListOption3_1",
+  "third_section_second_subsection":                        "id, createListOption3_2",
+  "third_section_third_subsection":                         "id, createListOption3_3",
+
+  "first_section_first_subsection_first_filter_option":     "id, createListFilter1_1_1",
+  "first_section_first_subsection_second_filter_option":     "id, createListFilter1_1_2",
+  "first_section_first_subsection_third_filter_option":     "id, createListFilter1_1_3",
+  "first_section_first_subsection_fourth_filter_option":     "id, createListFilter1_1_4",
+  "first_section_first_subsection_fifth_filter_option":     "id, createListFilter1_1_5",
+
+
+
+  "first_section_second_subsection_first_filter_option":    "id, createListFilter1_2_1",
+  "first_section_second_subsection_second_filter_option":    "id, createListFilter1_2_2",
+
+
+  "second_section_first_subsection_first_filter_option":    "id, createListFilter2_1_1",
+  "second_section_second_subsection_first_filter_option":   "id, createListFilter2_2_1",
+  "second_section_third_subsection_first_filter_option":    "id, createListFilter2_3_1",
+  "second_section_third_subsection_second_filter_option":   "id, createListFilter2_3_2",
+  "second_section_third_subsection_third_filter_option":    "id, createListFilter2_3_3",
+  "second_section_third_subsection_fourth_filter_option":   "id, createListFilter2_3_4",
+
+
+  "third_section_first_subsection_first_filter_option":     "id, createListFilter3_1_1",
+  "third_section_second_subsection_first_filter_option":    "id, createListFilter3_2_1",
+
+  "close_first_section_first_subsection_first_filter_option":     "xpath, //*[@id='createListFilter1_1_1']/span",
+  "close_first_section_first_subsection_second_filter_option":     "xpath, //*[@id='createListFilter1_1_2']/span",
+  "close_first_section_first_subsection_third_filter_option":     "xpath, //*[@id='createListFilter1_1_3']/span",
+  "close_first_section_first_subsection_fourth_filter_option":     "xpath, //*[@id='createListFilter1_1_4']/span",
+  "close_first_section_first_subsection_fifth_filter_option":     "xpath, //*[@id='createListFilter1_1_5']/span",
+
+
+  "close_first_section_second_subsection_first_filter_option":    "xpath, //*[@id='createListFilter1_2_1']/span",
+  "close_first_section_second_subsection_second_filter_option":     "xpath, //*[@id='createListFilter1_2_2']/span",
+
+
+
+
+  "close_second_section_first_subsection_first_filter_option":    "xpath, //*[@id='createListFilter2_1_1']/span",
+  "close_second_section_second_subsection_first_filter_option":   "xpath, //*[@id='createListFilter2_2_1']/span",
+  "close_second_section_third_subsection_first_filter_option":    "xpath, //*[@id='createListFilter2_3_1']/span",
+  "close_second_section_third_subsection_second_filter_option":   "xpath, //*[@id='createListFilter2_3_2']/span",
+
+
+  "close_third_section_first_subsection_first_filter_option":     "xpath, //*[@id='createListFilter3_1_1']/span",
+  "close_third_section_first_subsection_second_filter_option":    "xpath, //*[@id='createListFilter3_1_2']/span",
+  "close_third_section_first_subsection_third_filter_option":     "xpath, //*[@id='createListFilter3_1_3']/span",
+  "close_third_section_first_subsection_fourth_filter_option":    "xpath, //*[@id='createListFilter3_1_4']/span",
+
+  "close_third_section_second_subsection_first_filter_option":    "xpath, //*[@id='createListFilter3_2_1']/span",
+  "close_third_section_second_subsection_second_filter_option":   "xpath, //*[@id='createListFilter3_2_2']/span",
+
+
+  "back_button_create_list":                               "cssSelector, [ng-click='back()']",
+  "delete_link_create_list":                               "cssSelector, .new-list-delete-link",
+  "cancel_button_create_list":                             "cssSelector, .new-list-cancel-button",
+  "save_button_create_list":                               "cssSelector, .new-list-save-button",
+  "add_button_create_list":                                "cssSelector, [ng-click='addCustomer()']",
+  "customer_list_create_list_page":                        "id, customersList",
+  "show_all_link_create_list_page":                        "cssSelector, [ng-click='toggleShowAll()']",
+  "customer_list_scroll_create_list_page":                 "cssSelector, [class*='customerListScroll']",
+
+  "upcoming_birthdays_create_list":                        "id, description1",
+
+  "next_fourteen_days_subtitle_upcom_birth":               "xpath, //*[@id='options1_select']/option[1]",
+  "next_thirty_days_subtitle_upcom_birth":                 "xpath, //*[@id='options1_select']/option[2]",
+  "next_sixty_days_subtitle_upcom_birth":                  "xpath, //*[@id='options1_select']/option[3]",
+
+  "upcoming_birthdays_dropdown_create_list":               "id, options1_select",
+  "birthday_column_create_list":                           "cssSelector, .list-preview__customer .col-sm-3",
+  "pregenerated_list_content_create_list":                 "id, listPreview",
+  "upcoming_birthday_customers_count":                     "id, count1",
+
+  "all_columns_title_header":                              "id, headerRow",
+
+  "birthday_column_dynamic":                               "id, dynmcColHeader",
+  "visits_column_create_list":                             "id, visitsHeader",
+  "all_column_create_list":                                "id, spendAllHeader",
+  "me_column_create_list":                                 "id, spendMeHeader",
+
+  "create_todos_button_create_list_view":                  "id, createToDosBtn",
+
+  "new_credit_account_create_list":                         "id, description2",
+
+  "last_thirty_days_subtitle_new_credit_acc":               "xpath, //*[@id='options2_select']/option[1]",
+  "last_sixty_days_subtitle_new_credit_acc":                "xpath, //*[@id='options2_select']/option[2]",
+  "last_ninety_days_subtitle_new_credit_acc":               "xpath, //*[@id='options2_select']/option[3]",
+
+  "new_credit_acc_dropdown_create_list":                   "id, options2_select",
+  "account_open_date_create_list_column":                  "cssSelector, .list-preview__customer .col-sm-3",
+  "account_open_date_column_dynamic":                      "id, dynmcColHeader",
+
+  "new_credit_account_count":                              "id, count2",
+
+  "rank_column_top_clients":                               "cssSelector, .list-preview__customer .col-sm-3",
+  "rank_column_dynamic":                                   "id, dynmcColHeader",
+
+  "event_information_page_dynamic_column":                 "id, dynmcCol",
+
+  "cust_not_shopped_create_list":                         "id, description0",
+  "cust_not_shopped_dropdown_create_list":                "id, options0_select",
+  "cust_not_shopped_last_30_days_subtitle":               "xpath, //*[@id='options0_select']/option[1]",
+  "cust_not_shopped_last_60_days_subtitle":               "xpath, //*[@id='options0_select']/option[2]",
+  "cust_not_shopped_last_90_days_subtitle":               "xpath, //*[@id='options0_select']/option[3]",
+  "cust_not_shopped_last_6_months_subtitle":              "xpath, //*[@id='options0_select']/option[4]",
+  "cust_not_shopped_last_12_months_subtitle":             "xpath, //*[@id='options0_select']/option[5]",
+  "cust_not_shopped_customers_count":                     "id, count0",
+  "cust_not_shopped_dynamic_column_create_list":          "cssSelector, .list-preview__customer .col-sm-3",
+
+
+  "customer_profile_section_todos":                       "id, createListSection3",
+  "date_section_cust_profile_todos":                      "id, createListOption3_1",
+  "14_days_date_section_cust_profile_todos":              "id, createListFilter3_1_1",
+  "30_days_date_section_cust_profile_todos":              "id, createListFilter3_1_2",
+  "60_days_date_section_cust_profile_todos":              "id, createListFilter3_1_3",
+  "90_days_date_section_cust_profile_todos":              "id, createListFilter3_1_4",
+
+  "birthdays_section_cust_profile_todos":                 "id, createListOption3_2",
+  "next_15_birthdays_section_cust_profile_todos":         "id, createListFilter3_2_1",
+  "next_30_birthdays_section_cust_profile_todos":         "id, createListFilter3_2_2",
+
+  "customer_location_section_cust_profile_todos":         "id, createListOption3_3",
+  "domestic_cust_section_cust_profile_todos":             "id, createListFilter3_3_1",
+  "international_cust_section_cust_profile_todos":        "id, createListFilter3_3_2",
+
+  "domestic_cust_x_icon":                                 "xpath, //*[@id='createListFilter3_3_1']/span",
+  "international_cust_x_icon":                            "xpath, //*[@id='createListFilter3_3_2']/span",
+
+  "my_platinum_customers_create_list":                    "id, description4",
+  "my_platinum_customers_count":                          "id, count4",
+
+  "create_my_list_page":                                  "id, createToDosContainer",
+  "create_my_list_header":                                "id, infoTextToDo",
+  "create_my_list_title_field":                           "id, toDoTitle",
+  "create_my_list_title_label":                           "cssSelector, label[for='searchCustomers']",
+  "create_my_list_date_field":                            "id, createToDoDate",
+  "create_my_list_date_label":                            "cssSelector, label[for='createToDoDate']",
+  "create_my_list_desc_field":                            "id, createToDoDescription",
+  "create_my_list_desc_label":                            "cssSelector, label[for='createToDoDescription']",
+  "create_my_list_create_button":                         "cssSelector, [ng-click*='saveToDos']",
+  "create_my_list_cancel_button":                         "id, cancelToDosButton",
+  "create_my_list_req_fields_note":                       "xpath, //p[text()='* Required Fields']",
+
+  "transactions_section_todos":                           "id, createListSection2",
+  "visits_section_transactions_todos":                    "id, createListOption2_3",
+  "quick_list_wizard_no_results_msg":                     "id, emptyMessage",
+
+  "first_section_fourth_subsection_first_filter":                       "id, createListFilter1_4_1",
+  "first_section_fourth_subsection_first_filter_first_subfilter":       "id, createListFilter1_4_1_1",
+  "first_section_fourth_subsection_first_filter_second_subfilter":      "id, createListFilter1_4_1_2",
+  "first_section_fourth_subsection_first_filter_third_subfilter":       "id, createListFilter1_4_1_3",
+  "first_section_fourth_subsection_first_filter_fourth_subfilter":      "id, createListFilter1_4_1_4",
+
+  "first_section_fourth_subsection_second_filter":                      "id, createListFilter1_4_2",
+  "first_section_fourth_subsection_second_filter_first_subfilter":       "id, createListFilter1_4_2_1",
+  "first_section_fourth_subsection_second_filter_second_subfilter":      "id, createListFilter1_4_2_2",
+  "first_section_fourth_subsection_second_filter_third_subfilter":       "id, createListFilter1_4_2_3",
+  "first_section_fourth_subsection_second_filter_fourth_subfilter":      "id, createListFilter1_4_2_4",
+
+  "close_first_section_fourth_subsection_first_filter":                       "xpath, //*[@id='createListFilter1_4_1']/span",
+  "close_first_section_fourth_subsection_first_filter_first_subfilter":       "xpath, //*[@id='createListFilter1_4_1_1']/p/span",
+  "close_first_section_fourth_subsection_first_filter_second_subfilter":      "xpath, //*[@id='createListFilter1_4_1_2']/p/span",
+  "close_first_section_fourth_subsection_first_filter_third_subfilter":       "xpath, //*[@id='createListFilter1_4_1_3']/p/span",
+  "close_first_section_fourth_subsection_first_filter_fourth_subfilter":      "xpath, //*[@id='createListFilter1_4_1_4']/p/span",
+
+  "close_first_section_fourth_subsection_second_filter":                       "xpath, //*[@id='createListFilter1_4_2']/span",
+  "close_first_section_fourth_subsection_second_filter_first_subfilter":       "xpath, //*[@id='createListFilter1_4_2_1']/p/span",
+  "close_first_section_fourth_subsection_second_filter_second_subfilter":      "xpath, //*[@id='createListFilter1_4_2_2']/p/span",
+  "close_first_section_fourth_subsection_second_filter_third_subfilter":       "xpath, //*[@id='createListFilter1_4_2_3']/p/span",
+  "close_first_section_fourth_subsection_second_filter_fourth_subfilter":      "xpath, //*[@id='createListFilter1_4_2_4']/p/span",
+
+
+  "trans_gmm_query_dollars_header":                       "id, queryDolHeader"
+
+}

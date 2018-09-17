@@ -1,0 +1,9 @@
+{
+  "tag_cloud":                              "className, mktTagCloudTitle ",
+  "tag_cloud_links":                        "xpath, //div[@class='mktTagCloudLinks ']/a||cssSelector, .mktTagCloudLinks  a",
+  "popular_search_before_bloomies_footer":  "xpath, //h4[contains(@class,'mktTagCloudTitle')]/following::div[contains(@id,'bloomiesMainFooter')]",
+  "copy_block_before_popular_search":       "xpath, //div[contains(@class,'copyBlockContainer ')]/following::h4[contains(@class,'mktTagCloudTitle')]",
+  "updated_mkt_content":                    "className, mktContent",
+  "new_tag_cloud":                          "id, tagCloud",
+  "new_element_mkt_content_repositioned":   "id, mktContentRepositioned"
+}

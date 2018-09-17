@@ -1,0 +1,6 @@
+{
+  "url":                                          "/registry/wedding/registrycreateaccount",
+  "verify_page":                                  "id, prgressbar-header",
+  "manage_registry_button":                       "id, create-form-manage-registry",
+  "batch_mode_message":                           "className, registry-batch-mode"
+}

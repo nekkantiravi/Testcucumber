@@ -1,0 +1,243 @@
+<mailMessagePayload>
+	<reservationNumber>123456789</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>04/23/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText>Hello</explanationText>
+	<orderSubtotalAmt>14.99</orderSubtotalAmt>
+	<baseShippingAmt>20.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>20.00</shipUpgradeAmt>
+	<giftWrapAmt>30.00</giftWrapAmt>
+	<taxAmt>31.00</taxAmt>
+	<orderTotal>140.99</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0059</locationCode>
+	<adhocText>adhocText</adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>310417076123456</ltyIdUsl>
+	<munTaxAmt>0.04</munTaxAmt>
+    <miscTaxAmt>1.47</miscTaxAmt>
+	<billingDetail>
+		<title>Mr.</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 HILLE DR</addressLine1>
+		<addressLine2>548 Market St.</addressLine2>
+		<addressLine3></addressLine3>
+		<city>CHERRY HILL</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08003</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>14.99</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+		<egcCertificateType>65</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/25/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 HILLE DR</addressLine1>
+		<addressLine2>548 Market St.</addressLine2>
+		<addressLine3></addressLine3>
+		<city>CHERRY HILL</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08003</zipcode>
+		<greetingMessage>Hi</greetingMessage>
+		<closingMessage>Hope you have a great birthday</closingMessage>
+		<signatureMessage>Shereen</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1>Stacey</giftRegistrant1>
+		<giftRegistrant2>Mikael</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<trackingDetail>
+			<trackingNumber>9274899998829529812345</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>FEDEX SP UNDER</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>DRESS KNEE LENGTH EX</description>
+			<price>14.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>14.99</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>SWAT FAME</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>12</size>
+			<color>MINT/WHITE</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Womens Chuck Taylor Dainty Le</description>
+			<price>54.98</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>54.98</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>SWAT FAME</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>7</size>
+         	<color>WHITE</color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>04/24/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>P</mailFlag>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 HILLE DR</addressLine1>
+		<addressLine2>548 Market St.</addressLine2>
+		<addressLine3></addressLine3>
+		<city>CHERRY HILL</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08003</zipcode>
+		<greetingMessage>Hi</greetingMessage>
+		<closingMessage>Hope you have a great birthday</closingMessage>
+		<signatureMessage>Shereen</signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<trackingDetail>
+			<trackingNumber>1Z882580YW02212345</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPS SurePost 1</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>DRESS-SLEEVELESS FUL</description>
+			<price>14.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>14.99</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>BCX</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>781910666011</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>12</size>
+			<color>IVORY</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>DRESS-SLEEVELESS</description>
+			<price>15.56</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>15.56</totalAmount>
+			<expectedDate>04/27/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>PREMIUM</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>BCX</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>610836202136</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>12</size>
+			<color>IVORY</color>
+		</itemDetail>		
+	</shipmentDetail>
+</mailMessagePayload>

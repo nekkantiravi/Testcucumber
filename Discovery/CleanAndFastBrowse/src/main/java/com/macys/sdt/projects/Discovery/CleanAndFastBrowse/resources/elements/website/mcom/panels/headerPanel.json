@@ -1,0 +1,7 @@
+{
+    "include": [
+        "panel.pagination_top"
+    ],
+
+    "facetPanelLabel":                  "id, facet_nav"
+}

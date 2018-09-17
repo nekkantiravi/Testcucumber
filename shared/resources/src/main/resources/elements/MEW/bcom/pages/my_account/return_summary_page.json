@@ -1,0 +1,15 @@
+{
+  "include": [
+    "panel.returns_cancel_popup"
+  ],
+  "url":                "/my-orders/returns/submit",
+  "verify_page":        "className, page-title",
+  "submit_button":      "id, js-continue-btn",
+  "item_description":   "class, item-name",
+  "merchandise_total":  "xpath, //div[contains(text(), 'Merchandise Total')]/following-sibling::div[@class='item-value']",
+  "tax_total":          "xpath, //div[contains(text(), 'Tax Total')]/following-sibling::div[@class='item-value']",
+  "delivery_fee":       "xpath, //div[contains(text(), 'Return Delivery Fee')]/following-sibling::div[@class='item-value']",
+  "estimated_credit":   "xpath, //div[contains(text(), 'Estimated Credit')]/following-sibling::div[@class='item-value']",
+  "refund_payment":     "xpath, //div[contains(text(), 'Refund Payment')]/following-sibling::div[@class='item-value']",
+  "return_method":      "xpath, //div[contains(text(), 'Return Method')]/following-sibling::div[@class='item-value']"
+}

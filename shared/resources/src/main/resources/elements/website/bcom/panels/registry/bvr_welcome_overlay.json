@@ -1,0 +1,6 @@
+{
+  "bvr_welcome_overlay_div":  "id, BVR-marketorial-overlay",
+  "yes_button": "className, marketorial-next",
+  "no_button":  "xpath, //*[@id='BVR-marketorial-overlay']//button[@class='marketorial-close'] || className, marketorial-close",
+  "close":      "className, container-close"
+}

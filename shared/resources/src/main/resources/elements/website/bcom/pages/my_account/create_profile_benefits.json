@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url": "/app/answers/detail/a_id/402/c/30",
+  "verify_page": "id, rn_AnswerText || xpath, //div[@class='rn_RecordText rn_AnswerText']"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>274_19D_MWEDD</reservationNumber>
+	<internetOrderNumber>274_19D_MWEDD</internetOrderNumber>
+	<orderDate>12/01/2017</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>881.22</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>52.88</taxAmt>
+	<orderTotal>934.10</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0069</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>MAGGIE</firstName>
+		<middleName />
+		<lastName>SANTRY</lastName>
+		<attnLine />
+		<addressLine1>700 CHAPEL RIDGE RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>TIMONIUM</city>
+		<state>MD</state>
+		<country>USA</country>
+		<zipcode>21093</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************6090</accountNumber>
+		<amount>276.06</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************9674</accountNumber>
+		<amount>279.49</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************8128</accountNumber>
+		<amount>370.99</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************2418</accountNumber>
+		<amount>7.56</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>MAGGIE</firstName>
+		<middleName />
+		<lastName>SANTRY</lastName>
+		<attnLine />
+		<addressLine1>10214 MAPLE GLEN CT</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ELLICOTT CITY</city>
+		<state>MD</state>
+		<country>USA</country>
+		<zipcode>21042</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2809007882958</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>maggie.santry@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>MAGGIE</giftRegistrant1>
+		<giftRegistrant2>JOHN</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>SIGNATURE RD FRENCH</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/07/2017</expectedDate>
+			<newExpectedDate>12/31/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>12/10/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>LE CREUSET OF AMERICA INC</vendor>
+			<cancelledQuantity />
+			<upcId>000000024147231554</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>3.5QT OVEN</size>
+			<color>MARSEILLE</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,15 @@
+{
+  "url": "/wishlist/mylist",
+  "verify_page": "id, b-list-menu-manage || className, b-list-atb",
+
+  "add_to_bag_btn": "className, b-list-atb",
+  "add_to_bag_dialog": "className, b-overlay-buttons",
+  "item_links": "class, b-list-atb",
+  "list_items": "className, b-list-item||id, b-list-items",
+  "wishlist_title": "className, b-wislist-title",
+  "wishlist_dropdown": "className, b-select-list-drp",
+  "wishlist_overlay": "id, b-wishlist-modal-container",
+  "wishlist_button": "id,b-j-wishlist-confirm",
+  "wishlist_modal": "id, b-wishlist-modal",
+  "sizes": "id, b-j-product-size-values"
+}

@@ -1,0 +1,8 @@
+{
+  "next_button": "id, button_next",
+  "back_button": "id, button_back",
+  "marketing_checkbox": "className, contentChannel||className, checker",
+  "captcha": "id, unknown",
+  "verify_your_phone_number": "xpath, //span/input[contains(@id,'mobileNumber')]",
+  "submit_button": "id, button_next"
+}

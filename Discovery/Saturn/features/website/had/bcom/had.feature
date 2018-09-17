@@ -1,0 +1,1 @@
+Feature: HAD Functional tests on BCOM

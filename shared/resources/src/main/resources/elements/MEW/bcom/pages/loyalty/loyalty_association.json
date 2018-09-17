@@ -1,0 +1,15 @@
+{
+  "include": [
+    "panel.header_and_footer",
+    "panel.navigation"
+  ],
+  "url": "/loyallist/accountassociation",
+  "verify_page": "className, b-loyallist-account-association-title",
+
+  "loyallist_number": "id, mb-j-loyallist-account-association-loyallist-number",
+  "loyallist_last_name": "id, mb-j-loyallist-account-association-lastname",
+  "loyallist_zip_code": "id, mb-j-loyallist-account-association-zip-code",
+  "submit_id": "id, mb-j-loyallist-account-association-add-number-submit",
+  "lty_error": "id, b-error-text || className, b-error-text",
+  "association_restriction_error": "className, loyalist-association-restriction"
+}

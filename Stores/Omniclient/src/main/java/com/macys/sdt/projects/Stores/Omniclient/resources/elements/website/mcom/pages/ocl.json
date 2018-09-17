@@ -1,0 +1,13 @@
+{
+  "url": "/",
+ 
+  "verify_page":                		"class, mc_logo_login",
+  "omniclient_logo":					"class, mc_logo_login",
+  "signin_button": 						"id, BtnLogin",
+  "associateID_textbox":				"id, username",
+  "password_textbox":					"id, password",
+  "homePage_link":                      "linkText, HOMEPAGE",
+  "alltodos_tab":						"linkText, ALL TO DOS",
+  "mymacystodos_link":					"linkText, MY MACYS TO DOS",
+  "todoPage_link":						"linkText,MY TO DOS"
+}

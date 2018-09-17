@@ -1,0 +1,16 @@
+{
+    "include": [
+        "panel.product_thumbnails"
+    ],
+    "rvi_container":                        "id, recentlyViewedContainerNew || id, recentlyViewedContainer||className, recentlyViewed||className, rvi",
+    "thumbnail_wrapper":                    "className, rviProductThumbnail || className, thumbPadding || xpath, //div[@class='rvi']//li[not(@class='hide')]/div[@class='productThumbnail']||cssSelector, .rvi .productThumbnail",
+    "description":                          "className, rviDescription || className, title",
+    "item":                                 "cssSelector, .recommendationImage || cssSelector, div.carouselWrapper ul#carousel > li||cssSelector, .rvi .productThumbnailImage",
+    "header":                               "className, rviLabel || className, headerLabel",
+    "edit_button":                          "id, rviEditButtonSpan || className, editDoneRvi || className, rviEditButton|| className, editRvi",
+    "remove_button":                        "className, rviRemoveBtn||className, rviRemoveButton",
+    "scroll_left":                          "name, Previous Page||xpath, //div[@class='rvi']/div/button[1]||xpath, //div[@class='recentlyViewed']/span[1]/button||className, icon-ui-chevron-left-bk-huge",
+    "scroll_right":                         "name, Next Page|| xpath, //div[@class='recentlyViewed']/span[2]/button || xpath, //div[@class='rvi']/div/button[2]||className, icon-ui-chevron-right-bk-huge",
+    "rvi_currentset":                       "className, carousel  || id, rviProductList",
+    "rvi_edit_done":                        "className, rviEditDone"
+}

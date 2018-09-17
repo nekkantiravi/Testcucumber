@@ -1,0 +1,15 @@
+{
+  "footer_sign_in_link_mew":   "/account/signin?",
+  "header_sign_in_link_mew":   "/account/signin?",
+  "my_account_sign_in_link_mew":  "/account/signin?",
+  "cc_sign_in_link_mew":       "/account/signin",
+  "bwallet_sign_in_link_mew":   "/account/signin",
+  "wishlist_sign_in_link_mew":   "/account/signin",
+  "the_registry_sign_in_link_mew":  "/registry/wedding/registrysignin",
+  "create_registry_sign_in_link_mew": "registry/wedding/registrycaptureemail?perfectProxy=true&cm_sp=NAVIGATION_MEW-_-SIDE_NAV-_-REGISTRY-CREATE-n",
+  "left_create_registry_sign_in_link_mew": "/registry/wedding/registrycaptureemail?perfectProxy=true&cm_re=register--n--n&cm_sp=NAVIGATION_MEW-_-SIDE_NAV-_-The_Registry_splash-create-Create_Registry",
+  "view_registry_sign_in_link_mew": "/registry/wedding/registrysignin?fromView=BVR",
+  "chckout_registry_sign_in_link_mew": "/registry/wedding/registrysignin?fromView=PDP",
+  "chkout_sign_in_mew":               "/account/signin?fromCheckout=fromCheckout",
+  "loyalty_sign_in_mew": "/account/signin-loyalty?fromLoyalty=loyaltySignIn"
+}

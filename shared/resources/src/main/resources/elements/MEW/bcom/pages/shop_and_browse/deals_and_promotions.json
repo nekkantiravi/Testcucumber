@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.offer_details"
+  ],
+  "url":           "shop/coupons-sales-promotions",
+  "verify_page":   "id, b-sales-and-promotions-header",
+  "sales_and_promotions":   "className, b-sales-and-promotions-data",
+  "select_category":        "id, b-sales-category"
+}

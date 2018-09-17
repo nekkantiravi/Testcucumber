@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>639591461</reservationNumber>
+	<internetOrderNumber>418694204</internetOrderNumber>
+	<orderDate>11/26/2012</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>Oes</firstName>
+		<middleName />
+		<lastName>Test</lastName>
+		<attnLine />
+		<addressLine1>685 MARKET ST</addressLine1>
+		<addressLine2>6</addressLine2>
+		<addressLine3 />
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94105</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Bloomingdales</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>0.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>Oes</firstName>
+		<middleName />
+		<lastName>Test</lastName>
+		<attnLine />
+		<addressLine1>685 MARKET ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94105</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>CITIZ SINGLE D110</description>
+			<price>249.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>249.99</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>000000044138438885</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

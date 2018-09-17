@@ -1,0 +1,12 @@
+{
+  "include": [
+    "panel.sample_panel"
+  ],
+
+  "info":                             "There are no comments in JSON, so try to make your files easy to read without them",
+
+  "url":                              "/",
+  "verify_page":                      "selector_type, selector",
+
+  "element_name":                     "selector_type, selector"
+}

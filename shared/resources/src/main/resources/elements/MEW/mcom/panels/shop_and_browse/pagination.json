@@ -1,0 +1,10 @@
+{
+    "page_number_links": "class, m-page-number",
+    "current_page_number": "class, m-current-page",
+    "goto_next_page": "linkText, NEXT || id, m-next-page",
+    "goto_previous_page": "linkText, PREV || id, m-prev-page",
+    "loading_mask": "id, mb-j-spinner",
+    "page_number_dropdown": "css, #m-select-page-menu",
+    "last_page_number_in_pagination": "xpath, //a[@class='m-page-number'][last()]",
+    "pagination": "class, m-product-grid-paging"
+}

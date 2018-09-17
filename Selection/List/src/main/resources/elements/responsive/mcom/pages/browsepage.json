@@ -1,0 +1,8 @@
+{
+  "first_product":      "xpath,.//*[@id='m-search-results-list']/li[1]/a/div[1]/div[2]",
+  "first_product_name":      "xpath,.//*[@id='m-search-results-list']/li[1]/a/div[2]/div[1]",
+  "add_heart_confirmation":"cssSelector,.m-list-heart-product-confirmation",
+  "verify_page": "id,listsView",
+}
+
+

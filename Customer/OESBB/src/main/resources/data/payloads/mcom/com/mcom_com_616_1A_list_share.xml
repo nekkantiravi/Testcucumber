@@ -1,0 +1,47 @@
+<mailMessagePayload>
+	<reservationNumber>0</reservationNumber>
+	<explanationText>See what OES added to a Macy's list! </explanationText>
+	<replyToEmailAddress>oestesting@gmail.com</replyToEmailAddress>
+	<replyToDisplayName>OES TESTING</replyToDisplayName>
+	<mailingLabelURL>http://www.macys.com/wishlist/guest?wid=687683b0-9835-44bd-8845-4ab7d0a0249d&amp;cm_mmc=OpsEmail-_-616_list_share-_-seelist-_-MB</mailingLabelURL>
+	<shipmentDetail>
+		<firstName>OES</firstName>
+		<giftRegistryNumber>0</giftRegistryNumber>
+		<itemDetail>
+			<lineNumber>1</lineNumber>
+			<description>Calvin Klein Printed Saffiano Tote</description>
+			<requestedQuantity>0</requestedQuantity>
+			<availableQuantity>0</availableQuantity>
+			<upcNumber>788627668659</upcNumber>
+			<returnExpectedBackDate></returnExpectedBackDate>
+			<returnReason></returnReason>
+			<lineProductUrl>http://www.macys.com/shop/product?ID=2634310&amp;cm_mmc=OpsEmail-_-616_list_share-_-2634310-_-MB</lineProductUrl>
+			<lineImageType>primary_image</lineImageType>
+			<linePrimaryImageUrl>http://slimages.macys.com/is/image/MCY/products/9/optimized/3075729_fpx.tif?bgc=255,255,255&amp;wid=187&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>2</lineNumber>
+			<description>Style&amp;Co. Kenza A-Line Shopper</description>
+			<requestedQuantity>0</requestedQuantity>
+			<availableQuantity>0</availableQuantity>
+			<upcNumber>711372678574</upcNumber>
+			<returnExpectedBackDate></returnExpectedBackDate>
+			<returnReason></returnReason>
+			<lineProductUrl>http://www.macys.com/shop/product?ID=2103247&amp;cm_mmc=OpsEmail-_-616_list_share-_-2103247-_-MB</lineProductUrl>
+			<lineImageType>primary_image</lineImageType>
+			<linePrimaryImageUrl>http://slimages.macys.com/is/image/MCY/products/5/optimized/2706105_fpx.tif?bgc=255,255,255&amp;wid=187&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>Nine West Just Zip It Large Shoulder Bag</description>
+			<requestedQuantity>0</requestedQuantity>
+			<availableQuantity>0</availableQuantity>
+			<upcNumber>740349909809</upcNumber>
+			<returnExpectedBackDate></returnExpectedBackDate>
+			<returnReason></returnReason>
+			<lineProductUrl>http://www.macys.com/shop/product?ID=2468880&amp;cm_mmc=OpsEmail-_-616_list_share-_-2468880-_-MB</lineProductUrl>
+			<lineImageType>primary_image</lineImageType>
+			<linePrimaryImageUrl>http://slimages.macys.com/is/image/MCY/products/2/optimized/3372222_fpx.tif?bgc=255,255,255&amp;wid=187&amp;qlt=90&amp;layer=comp&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg</linePrimaryImageUrl>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

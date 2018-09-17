@@ -1,0 +1,15 @@
+{
+  "include": [
+    "panel.product_thumbnails",
+    "panel.header_and_footer",
+    "panel.left_facet",
+    "panel.pagination",
+    "panel.flexible_template",
+    "panel.browse_preview",
+    "panel.left_navigation_category",
+    "panel.popular_searches"
+  ],
+
+  "url":                          "/buy/",
+  "verify_page":                  "id, sortBy || className, searchKeywordContainer"
+}

@@ -1,0 +1,220 @@
+{
+    "bloomingdales": [
+        {
+            "id": 1572005,
+            "click_to_call": false,
+            "available": false
+        },
+        {
+            "id": 1548727,
+            "click_to_call": false,
+            "available_bops": true,
+            "iship_eligible": true,
+            "registrable": true,
+            "gift_wrappable": true,
+            "gift_messageable": true,
+            "master_product": false,
+            "available": true,
+            "orderable": true,
+            "free_shipping": true,
+            "single_color": true
+        },
+        {
+            "id": 67858,
+            "available_bops": true,
+            "click_to_call": false,
+            "upc": 91709396242,
+            "store_location_nbr": 343,
+            "price": 186.00,
+            "available": false,
+            "free_shipping": false
+        },
+        {
+            "id": 8493,
+            "master_product": true,
+            "prod_available": true
+        },
+        {
+            "id": 2735295,
+            "pre_order": true,
+            "store_location_nbr": 343,
+            "available": true,
+            "free_shipping": false
+        },
+        {
+            "id": 2547722,
+            "available": true,
+            "single_tier_colors": true,
+            "rare": true
+        },
+        {
+            "id": 659111,
+            "available": true,
+            "single_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 2560792,
+            "available": true,
+            "single_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 61481,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 2648507,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 2635414,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 1548727,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 1578421,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 2648507,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 2635414,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 2735160,
+            "available": true,
+            "single_color": true
+        },
+        {
+            "id": 835700,
+            "available": true,
+            "single_tier": true,
+            "carpet": true
+        },
+        {
+            "id": 2735160,
+            "available": true,
+            "single_color": true
+        },
+        {
+            "id": 2735160,
+            "available": true,
+            "single_color": true
+        },
+        {
+            "id": 2670028,
+            "available": true,
+            "sizes": true
+        },
+        {
+            "id": 785128,
+            "available": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 1055013,
+            "available": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 2571018,
+            "available": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 1762496,
+            "available": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 100601,
+            "available": true,
+            "beauty": true
+        },
+        {
+            "id": 2525259,
+            "available": true,
+            "beauty": false
+        },
+        {
+            "id": 1065094,
+            "available": true,
+            "altImages": true
+        },
+        {
+            "id": 2735295,
+            "available": true,
+            "altImages": true
+        },
+        {
+            "id": 2735160,
+            "available": true,
+            "altImages": true
+        },
+        {
+            "id": 1336580,
+            "available": true,
+            "altImages": true
+        },
+        {
+            "id": 2825245,
+            "available": true,
+            "altImages": true,
+            "promos": true
+        },
+        {
+            "id": 3048,
+            "available": true,
+            "promos": true,
+            "checkout": true
+        },
+        {
+            "id": 1643615,
+            "available": true,
+            "altImages": true,
+            "promos": true
+        },
+        {
+            "id": 1224148,
+            "available": true,
+            "promos": true
+        },
+        {
+            "id": 2621063,
+            "available": true,
+            "promos": true
+        },
+        {
+            "id": 2737373,
+            "available": true,
+            "promos": true,
+            "altImages": true
+        }
+    ]
+}

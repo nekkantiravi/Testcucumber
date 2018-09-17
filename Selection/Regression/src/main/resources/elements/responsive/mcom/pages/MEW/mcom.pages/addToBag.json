@@ -1,0 +1,37 @@
+{
+  "test_element": 	                "id, macysHomePageLogo||id, logo",
+  "add_to_bag_button":              "id, m-mobile-atb||cssSelector, div.small-6 button.m-j-product-add-bag || id, m-mobile-atb||cssSelector, .m-j-product-add-bag.expand",
+  "pdp_available_sizes":            "cssSelector, li.m-j-product-size:not(.unavailable)>div",
+  "pdp_qty_increment_button":       "cssSelector, li.m-j-product-qty-increment>button",
+  "pdp_product_name":                  "cssSelector, h1.m-product-productName",
+  "pdp_product_price":                  "cssSelector, .amount||cssSelector, .m-product-price-amt || cssSelector, .amount-with-label || cssSelector, .m-product-price.Sale .m-product-price-amt || cssSelector, .m-product-price.Now .m-product-price-amt || xpath, //li[contains(@class, 'selected')]/../../preceding-sibling::*[1][@class='m-colorway-price']",
+  "pdp_product_color":                  "cssSelector, span.m-selected-color",
+  "pdp_product_size":                  "cssSelector, span.m-selected-size-name",
+  "pdp_product_qty":                  "cssSelector, span.m-qty-value",
+  "bag_checkout_button":              "cssSelector, a.m-checkout",
+  "bag_product_name":                  "cssSelector, .m-upc-details>h6",
+  "bag_product_price":                  "cssSelector, .m-upc-details .m-product-price-amt",
+  "bag_product_price_sale":                  "cssSelector, .m-upc-details .m-product-price.Sale .m-product-price-amt",
+  "bag_product_color":                  "cssSelector, .m-upc-details>p:nth-child(2)>span:nth-child(2)",
+  "bag_product_size":                  "cssSelector, .m-upc-details>p:nth-child(3)>span:nth-child(2)",
+  "bag_product_qty":                  "cssSelector, div.m-bag-summary>p:nth-child(2)",
+  "bag_subtotal":                      "cssSelector, .item-sub-total",
+  "your_bag_link":                     "cssSelector, a.m-go-bag",
+  "bag_continue_shopping_button":      "cssSelector, .m-bag-buttons button",
+  "pdp_web_id":                         "xpath, //li[contains(text(),'WEB ID:')]",
+  "pdp_product_brand":                  "cssSelector, a#m-product-productBrandBreakout",
+  "search_result_list":                 "cssSelector, ul#m-browse-results-list>li",
+
+ "member_product_name":                 "cssSelector, #m-product-members-of-master>div:nth-child(1) h1.m-title",
+ "member_product_price":                "cssSelector, #m-product-members-of-master>div:nth-child(1) div.Now span.m-product-price-amt || cssSelector, #m-product-members-of-master>div:nth-child(1) span.single-price",
+ "member_product_color":                "cssSelector, #m-product-members-of-master>div:nth-child(1) span.m-selected-color",
+ "member_product_size_selection":       "cssSelector, #m-product-members-of-master>div:nth-child(1) ul.m-sizes-scroll>li:nth-child(1)>div",
+ "member_product_size_text":            "cssSelector, #m-product-members-of-master>div:nth-child(1) span.m-selected-size-name",
+ "member_product_qty_select":          "cssSelector, #m-product-members-of-master>div:nth-child(1) select.m-j-product-qty-values>option[value='2']",
+  "test":"cssSelector, #m-product-members-of-master>div:nth-child(1) ul.m-sizes-scroll>li",
+  "product_imge":"xpath,//*[@id='product_zoomer_wrapper']/div/div/div[2]/div",
+  "zoom_out_img":"cssSelector,.mb-j-close-overlay.icon-ui-close-gr-large"
+
+
+
+}

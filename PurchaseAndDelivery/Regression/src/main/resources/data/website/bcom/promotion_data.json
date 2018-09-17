@@ -1,0 +1,347 @@
+{
+    "promo_types":{
+        "promotional_pricing":{
+            "quantity":{
+                "promo_id":19563,
+                "has_promo_code":false,
+                "promo_code":"",
+                "checkout_description":"CD TEST promotional pricing subtotal brand 19563",
+                "offer_name_line_1":"TEST Offer Name - Line 1 - 19563",
+                "online_disclaimer":"disclaimer message TEST promotional pricing subtotal brand 19563",
+                "ot_copy":"Applied:",
+                "ut_copy":"",
+                "over_threshold":{
+                    "one_product":[
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":true,
+                            "product_color":"Green Multi",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":2,
+                            "product_price_with_offers":293.04,
+                            "product_over_threshold":true,
+                            "product_upc": 191154033096,
+                            "product_upc_id": 3495830
+                        }
+                    ],
+                    "different_products":[
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":true,
+                            "product_color":"Green Multi",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true,
+                            "product_price_with_offers":146.52,
+                            "product_upc": 191154033096,
+                            "product_upc_id": 3495830
+                        },
+                        {
+                            "product_id":2684406,
+                            "product_description":"Ash Women's Misstic Embellished Velvet Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"6.5-7 US / 37 EU",
+                            "product_has_color":true,
+                            "product_color":"Midnight/Navy",
+                            "product_brand":"ash",
+                            "product_price":158.40,
+                            "product_quantity":1,
+                            "product_price_with_offers":156.82,
+                            "product_over_threshold":true,
+                            "product_upc": 191154045877,
+                            "product_upc_id": 3657754
+                        }
+                    ],
+                    "one_product_different_upcs":[
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":true,
+                            "product_color":"Green Multi",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":1,
+                            "product_price_with_offers":146.52,
+                            "product_over_threshold":true,
+                            "product_upc": 191154033096,
+                            "product_upc_id": 3495830
+                        },
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5.5-6 US / 36 EU",
+                            "product_has_color":true,
+                            "product_color":"Green Multi",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":1,
+                            "product_price_with_offers":146.52,
+                            "product_over_threshold":true,
+                            "product_upc": 191154033102,
+                            "product_upc_id": 3495831
+                        }
+
+                    ]
+                },
+                "under_threshold_scenarios":{
+                    "one_product":[
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":2,
+                            "product_over_threshold":true
+                        }
+                    ],
+                    "different_products":[
+                        {
+                            "product_id":"2617177",
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        },
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        }
+                    ],
+                    "one_product_different_upcs":[
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        },
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5.5-6 US / 36 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        }
+                    ]
+                }
+            },
+            "quantity_bcc":{
+
+            },
+            "quantity_bcc_loyalist":{
+
+            },
+            "quantity_loyalist":{
+
+            },
+            "subtotal":{
+                "promo_id":19532,
+                "has_promo_code":false,
+                "promo_code":"",
+                "checkout_description":"CD TEST Promo Pricing + Prod + Subtotal + 19532",
+                "offer_name_line_1":"TEST Offer Name - Line 1 - 19532",
+                "online_disclaimer":"Online Legal Disclaimer TEST Promo Pricing + Prod + Subtotal + 19532",
+                "ot_copy":"Applied:",
+                "ut_copy":"",
+                "over_threshold":{
+                    "one_product":[
+                        {
+                            "product_id":2630127,
+                            "product_description":"Burberry Scoop Neck Three Quarter Sleeve Tee with Check Cuffs",
+                            "product_has_size":true,
+                            "product_size":"Medium",
+                            "product_has_color":true,
+                            "product_color":"Navy",
+                            "product_brand":"Burberry",
+                            "product_price":125.00,
+                            "product_quantity":2,
+                            "product_price_with_offers":247.50,
+                            "product_over_threshold":true,
+                            "product_upc": 5045378453183,
+                            "product_upc_id": 1771370
+                        }
+                    ],
+                    "different_products":[
+                        {
+                            "product_id":2630127,
+                            "product_description":"Burberry Scoop Neck Three Quarter Sleeve Tee with Check Cuffs",
+                            "product_has_size":true,
+                            "product_size":"Medium",
+                            "product_has_color":true,
+                            "product_color":"Navy",
+                            "product_brand":"Burberry",
+                            "product_price":125.00,
+                            "product_quantity":1,
+                            "product_price_with_offers":123.75,
+                            "product_over_threshold":true,
+                            "product_upc": 5045378453183,
+                            "product_upc_id": 1771370
+                        },
+                        {
+                            "product_id":2749548,
+                            "product_description":"Burberry Girls' Calin Drop-Waist Dress - Little Kid, Big Kid",
+                            "product_has_size":true,
+                            "product_size":"5",
+                            "product_has_color":true,
+                            "product_color":"Garnet Pink",
+                            "product_brand":"Burberry",
+                            "product_price":150.00,
+                            "product_quantity":1,
+                            "product_price_with_offers":148.50,
+                            "product_over_threshold":true,
+                            "product_upc": 5045550893455,
+                            "product_upc_id": 3705167
+                        }
+                    ],
+                    "one_product_different_upcs":[
+                        {
+                            "product_id":2416323,
+                            "product_description":"Burberry Liquid Lip Velvet",
+                            "product_has_size":false,
+                            "product_size":"",
+                            "product_has_color":true,
+                            "product_color":"No. 05 Fawn",
+                            "product_brand":"ash",
+                            "product_price":34.00,
+                            "product_quantity":2,
+                            "product_price_with_offers":67.32,
+                            "product_over_threshold":true,
+                            "product_upc": 5045497094625,
+                            "product_upc_id": 3256927
+                        },
+                        {
+                            "product_id":2416323,
+                            "product_description":"Burberry Liquid Lip Velvet",
+                            "product_has_size":false,
+                            "product_size":"",
+                            "product_has_color":true,
+                            "product_color":"No. 09 Fawn Rose",
+                            "product_brand":"Burberry",
+                            "product_price":34.00,
+                            "product_quantity":5,
+                            "product_price_with_offers":168.30,
+                            "product_over_threshold":true,
+                            "product_upc": 5045497094656,
+                            "product_upc_id": 3256928
+                        }
+                    ]
+                },
+                "under_threshold_scenarios":{
+                    "one_product":[
+                        {
+                            "product_id":2617177,
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":2,
+                            "product_over_threshold":true
+                        }
+                    ],
+                    "different_products":[
+                        {
+                            "product_id":"2617177",
+                            "product_description":"Ash Nak Arms Embellished Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":148.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        },
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        }
+                    ],
+                    "one_product_different_upcs":[
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5 US / 35 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        },
+                        {
+                            "product_id":"2617178",
+                            "product_description":"Ash Dazed Star Stud Lace Up Sneakers",
+                            "product_has_size":true,
+                            "product_size":"5.5-6 US / 36 EU",
+                            "product_has_color":false,
+                            "product_color":"",
+                            "product_brand":"ash",
+                            "product_price":180.00,
+                            "product_quantity":1,
+                            "product_over_threshold":true
+                        }
+                    ]
+                }
+            }
+        },
+        "tiered_pricing":{
+
+        },
+        "percent_off":{
+
+        },
+        "dollar_off":{
+
+        }
+    }
+}

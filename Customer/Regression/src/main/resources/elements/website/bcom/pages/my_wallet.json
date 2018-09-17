@@ -1,0 +1,3 @@
+{
+  "edit_card": "xpath, //a[contains(@class,'cardEditButton')]"
+}

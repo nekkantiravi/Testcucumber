@@ -1,0 +1,15 @@
+{
+  "url": "/service/order-status",
+  "verify_page": "id, orHist_orderLookup||id, mb-order-select-year-dropdown",
+  "order_details": "className, orStatus_orderDetails",
+  "order_date_range": "id, orHist_pastOrdersSelector||id, mb-order-select-year-dropdown",
+  "order_history_order_text": "className, orHist_box_header",
+  "order_history_order_date": "className, orderHist_orderDate",
+  "order_history_order_total": "className, orderHist_orderTotal",
+  "order_history_container": "className, orStatus_orderDetails",
+  "order_number": "className, orStatus_orderNumber||className, b-order-status-info",
+  "order_count_in_date_range": "id, mb-order-history-count",
+  "view_more_orders": "id, mb-j-order-history-view-more",
+  "order_row": "className, mb-order-details-btn",
+  "added_to_bag_message": "className, b-overlay-item-added-enhanced"
+}

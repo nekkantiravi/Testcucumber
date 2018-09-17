@@ -1,0 +1,9 @@
+{
+
+  "feature_categories_link" : "xpath, //div[@class='adCatIcon']/div/a/img || xpath, //map[@name='adMap2470829']/area",
+  "feature_category_link_text": "xpath, //div[@class='adCatIcon']/div[2]/a/div",
+  "featured_category_home_page" : "xpath, //h1 ||xpath, //div[@id='nav_title']/h1/a",
+  "featured_category_breadcrumb_header" : "xpath, //div[@class[contains(.,'pageBreadcrumbs')]]/span ||xpath,//div[@id='nav_category']/div/h1 || xpath,//div[@id='nav_category']/div/div/span",
+  "main_ad":"xpath, //li[@id='row2_column1']//img[@height >250] || xpath, //li[@id='row1_column1']//img[@height >250]",
+  "top_banner": "xpath, //li[@id='row1_column1']//img[@height < 250]"
+}

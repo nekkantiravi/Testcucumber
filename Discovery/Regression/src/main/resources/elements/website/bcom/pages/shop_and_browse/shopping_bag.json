@@ -1,0 +1,3 @@
+{
+  "pick_it_up_button": "xpath, //div[@class='bops_pickupDeliveryWrapper']/span "
+}

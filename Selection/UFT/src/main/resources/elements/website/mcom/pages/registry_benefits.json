@@ -1,0 +1,10 @@
+{
+  "include": [
+    "panel.header_and_footer",
+    "panel.registry_navigation",
+    "panel.flexible_template",
+    "panel.category_splash"
+  ],
+  "url": "/registry/top10-registry/index",
+  "access_your_registry": "cssSelector, a[onclick*='accessyourregistry']"
+}

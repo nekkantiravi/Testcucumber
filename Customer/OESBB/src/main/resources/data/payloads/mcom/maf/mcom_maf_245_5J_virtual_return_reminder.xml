@@ -1,0 +1,72 @@
+<mailMessagePayload>
+	<reservationNumber>test_111</reservationNumber>
+	<internetOrderNumber>test_245_5J_MCOM</internetOrderNumber>
+	<orderDate>04/02/2016</orderDate>
+	<ltyIdUsl>3104170812681234</ltyIdUsl>
+	<orderSubtotalAmt>11.00</orderSubtotalAmt>
+	<baseShippingAmt>12.00</baseShippingAmt>
+	<addtShipAddAmt>1.00</addtShipAddAmt>
+	<shipUpgradeAmt>1.00</shipUpgradeAmt>
+	<giftWrapAmt>1.00</giftWrapAmt>
+	<taxAmt>1.00</taxAmt>
+	<orderTotal>27.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<billingDetail>
+		<firstName>OES</firstName>
+		<middleName>MIGRATION</middleName>
+		<lastName>TESTING</lastName>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>34.02</amount>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>2</shipmentNumber>
+		<shipRetailAmt>40.74</shipRetailAmt>
+		<shippedDate>12/31/9999</shippedDate>
+		<shipTaxAmt>3.06</shipTaxAmt>
+		<returnSubmittedDate>04/07/2016</returnSubmittedDate>
+		<itemDetail>
+			<lineNumber>3</lineNumber>
+			<description>Inspirational Sterling Silver</description>
+			<price>26.99</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>26.99</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>L A ROCKS</vendor>
+			<upcNumber>610836202136</upcNumber>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnReasonDescription>Item Not Good</returnReasonDescription>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>12/12/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>4</lineNumber>
+			<description>Gold-Tone Grandma Pave Hear</description>
+			<price>13.75</price>
+			<requestedQuantity>2</requestedQuantity>
+			<shippedQuantity>1</shippedQuantity>
+			<totalAmount>13.75</totalAmount>
+			<shipmentType>Return</shipmentType>
+			<vendor>Charter Club</vendor>
+			<upcNumber>735991467265</upcNumber>
+			<size></size>
+			<color></color>
+			<returnExpectedBackDate>05/05/2016</returnExpectedBackDate>
+			<returnReason>Broken or Damaged with Insufficient Packaging</returnReason>
+			<returnReceiptDate>12/31/9999</returnReceiptDate>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

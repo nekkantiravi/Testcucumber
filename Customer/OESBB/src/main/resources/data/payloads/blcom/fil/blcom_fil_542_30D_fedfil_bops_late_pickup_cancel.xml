@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>123456789</reservationNumber>
+  <internetOrderNumber>987654321</internetOrderNumber>
+  <orderDate>04/08/2016</orderDate>
+  <shopAt>Bloomingdales.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>93.75</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>8.32</taxAmt>
+  <orderTotal>102.07</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 ESTATES DR</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>EAST HILLS</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>11576</zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType>Bloomingdales</paymentType>
+    <accountNumber>************1234</accountNumber>
+    <amount>102.07</amount>
+    <paymentCategoryFlag>D</paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>04/08/2016</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag>C</mailFlag>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 3RD AVE</addressLine1>
+    <addressLine2>12TH STREET AND LEXINGTON AVE</addressLine2>
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10022</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>Y</giftReceiptFlag>
+    <pickupBarcode>52180601234</pickupBarcode>
+    <pickupReadyDate>04/08/2016</pickupReadyDate>
+    <pickupCancelDate>04/15/2016</pickupCancelDate>
+    <shipRetailAmt>93.75</shipRetailAmt>
+    <shipTaxAmt>8.32</shipTaxAmt>
+    <shipFilLoc>0343</shipFilLoc>
+    <shipPhone>516-297-1234</shipPhone>
+    <shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>BOTANICAL PAPER</description>
+      <price>93.75</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>003</shippedQuantity>
+      <totalAmount>93.75</totalAmount>
+      <expectedDate>04/08/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity>004</cancelledQuantity>
+      <upcId>5052376910532</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+  <shipmentDetail>
+    <shipmentNumber>002</shipmentNumber>
+    <shippedDate>04/08/2016</shippedDate>
+    <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+    <mailFlag>N</mailFlag>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 3RD AVE</addressLine1>
+    <addressLine2>12TH STREET AND LEXINGTON AVE</addressLine2>
+    <addressLine3 />
+    <city>NEW YORK</city>
+    <state>NY</state>
+    <country>USA</country>
+    <zipcode>10022</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>Y</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag />
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>002</lineNumber>
+      <description>BOTANICAL PAPER</description>
+      <price>93.75</price>
+      <requestedQuantity>001</requestedQuantity>
+      <availableQuantity>002</availableQuantity>
+      <shippedQuantity>003</shippedQuantity>
+      <totalAmount>93.75</totalAmount>
+      <expectedDate>04/08/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>PICKUP</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor />
+      <cancelledQuantity>004</cancelledQuantity>
+      <upcId>5052376910532</upcId>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

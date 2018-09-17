@@ -1,0 +1,9 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url": "/registry/wedding/registrysignin",
+  "verify_page": "id, createRegistryBtn"
+}

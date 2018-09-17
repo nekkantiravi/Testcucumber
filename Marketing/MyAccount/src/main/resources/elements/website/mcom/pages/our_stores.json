@@ -1,0 +1,18 @@
+{
+    "url": "/shop/store",
+    "verify_page": "cssSelector, div#storeheader",
+    "our_stores_header": "cssSelector, div#storeheader",
+    "find_a_store_banner": "xpath, //img[contains(@src,'find_a_store')]",
+    "search_now": "id, search-nowBtn",
+    "browse_catalogs_banner": "xpath, //h3[text()='BROWSE CATALOGS']",
+    "browse_catalog_go_now": "cssSelector, a#go_now",
+    "shopping_services_banner": "xpath, //h3[text()='SHOPPING SERVICES']",
+    "shopping_services_see_services": "cssSelector, a#see_services",
+    "whats_happening_at_macys_banner": "xpath, //img[contains(@src,'whats_happening_at_macys')]",
+    "join_the_fun": "cssSelector, a#join_the_fun",
+    "find_store_events_near_you_banner": "xpath, //img[contains(@src,'local_events')]",
+    "find_an_event": "cssSelector, a#find_an_event",
+    "about_us": "cssSelector, a#about_us",
+    "macys_event_marketing": "cssSelector, a#macys_event_marketing",
+    "corporate_sales": "cssSelector, a#corporate_sales"
+}

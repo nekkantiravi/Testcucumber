@@ -1,0 +1,17 @@
+{
+  "fob_simple_search":"fobSearch",
+  "filter_value":"filterRuleVal",
+  "select_fob":"filterFOBSelect",
+  "published_filter":"filterPublishedSpan",
+  "search_first_disabled":"first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled",
+  "search_previous_disabled":"previous fg-button ui-button ui-state-default ui-state-disabled",
+  "search_next_disabled":"next fg-button ui-button ui-state-default ui-state-disabled",
+  "search_last_disabled":"last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default ui-state-disabled",
+  "first_pagination_element":"pagNumbers fg-button ui-button ui-state-default ui-state-disabled",
+  "global_search_dropdown": "globalSrchList",
+  "find_rules_page":"//div[@class='tblFilterBar']",
+  "find_trigger_groups_page":"//form[@class='tblFilterBar']",
+  "global_search_input":"//div[@id='mSearch']/input[@id='globalSrchField']",
+  "alert_message":"//div[@id='msgDialog']/div/p",
+  "rules_search_results_count": "TBLrules_info"
+}

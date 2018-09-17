@@ -1,0 +1,10 @@
+{
+  "url":                             "/",
+  "shopppingbag_id": 	             "id, shoppingBagId",
+  "continue_checkout_image":         "id, checkoutLink",
+  "wishlist_msg":                     "cssSelector, div.wishlistsuccessmsg",
+  "line_items":                       "cssSelector, #itemsContainer>.lineItem",
+
+}
+
+

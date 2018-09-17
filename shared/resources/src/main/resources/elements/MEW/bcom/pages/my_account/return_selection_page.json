@@ -1,0 +1,22 @@
+{
+  "url":                            "/my-orders/returns/select-items",
+  "verify_page":                    "className, page-title",
+  "toggle_line_item":               "className, js-or-select-status",
+  "quantity":                       "className, js-or-select-qty",
+  "reason_for_return":              "className, js-or-select-reason",
+  "error_message":                  "className, js-error-msg",
+  "continue_return":                "id, js-continue-btn",
+  "cancel_return":                  "id, js-cancel-btn",
+  "page_verbiage":                  "className, row",
+  "return_products_container":      "className, product-list-item",
+  "return_global_error":            "className, js-error-msg",
+  "reason_field_error":             "className, reason_error",
+  "product_name":                   "className, product-list-item--title",
+  "product_size":                   "className, details-size",
+  "product_color":                  "className, details-color",
+  "product_quantity":               "className, details-qty",
+  "product_price":                  "className, details-price",
+  "back_button":                    "className, back-btn",
+  "cancel_button":                  "id, js-cancel-btn",
+  "continue_button":                "id, js-continue-btn"
+}

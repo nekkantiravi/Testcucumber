@@ -1,0 +1,4 @@
+{
+  "url":                       "/shop/featured",
+  "verify_page":                "id, productCount"
+}

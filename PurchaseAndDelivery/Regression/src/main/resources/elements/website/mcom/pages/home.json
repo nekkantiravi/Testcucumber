@@ -1,0 +1,6 @@
+{
+    "checkout_button"           :"id, btnCheckout",
+    "remove_button_bag"         :"xpath, //div[@id='itemsContainer']//div[contains(@id,'remove_item')]",
+    "bag_empty"                  :"className, errorMsg",
+    "verify_store"              :"id, bopsLocation"
+}

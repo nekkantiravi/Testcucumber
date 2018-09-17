@@ -1,0 +1,23 @@
+{
+  "url": "/service/repayment",
+  "format_url": "/service/repayment",
+  "declined_message": "id, declinedMessage",
+  "declined_card_number": "cssSelector, #orderDetails .rp-important",
+  "add_new_card": "id, addNewCard",
+  "card_type": "xpath, (//*[@id='rc-payment']//*[contains(@class, 'dropdown')])[1]",
+  "month": "xpath, (//*[@id='rc-payment']//*[contains(@class, 'dropdown')])[2]",
+  "year": "xpath, (//*[@id='rc-payment']//*[contains(@class, 'dropdown')])[3]",
+  "state": "xpath, (//*[@id='rc-payment']//*[contains(@class, 'dropdown')])[4]",
+  "card_number": "id, creditCard.cardNumber",
+  "security_code": "id, creditCard.securityCode",
+  "first_name": "id, creditCard.billingContact.firstName",
+  "last_name": "id, creditCard.billingContact.lastName",
+  "address_line1": "id, creditCard.billingContact.address.addressLine1",
+  "address_line2": "id, creditCard.billingContact.address.addressLine2",
+  "city": "id, creditCard.billingContact.address.city",
+  "zip_code": "id, creditCard.billingContact.address.postalCode",
+  "phone_number": "id, creditCard.billingContact.address.phoneNumber",
+  "email": "id, creditCard.billingContact.address.email",
+  "retry_payment": "id, retryPayment",
+  "order_total": "xpath, //*[@id=\"rc-orderSummary-grandTotal\"]/div[2]"
+}

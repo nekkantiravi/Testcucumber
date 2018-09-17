@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <project.domain>Selection</project.domain>
+        <project.name>PROS</project.name>
+        <project.version>1.0-SNAPSHOT</project.version>
+    </properties>
+
+    <parent>
+        <artifactId>SDT</artifactId>
+        <groupId>com.macys.sdt</groupId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>sdt-${project.domain}-${project.name}</artifactId>
+    <version>2.2.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.yandex.qatools.htmlelements</groupId>
+            <artifactId>htmlelements-java</artifactId>
+            <version>${htmlelements.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Discovery-SearchBrowseComponentization</artifactId>
+            <version>1.20.4102</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Selection-PDP</artifactId>
+            <!--<version>1.24.4939</version>-->
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Selection-ResponsivePDP</artifactId>
+            <version>${project.version}</version>
+            <!--<version>1.24.4916</version>-->
+            <exclusions>
+                <exclusion>
+                    <groupId>com.macys.sdt</groupId>
+                    <artifactId>sdt-Selection-Regression</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+    </dependencies>
+</project>

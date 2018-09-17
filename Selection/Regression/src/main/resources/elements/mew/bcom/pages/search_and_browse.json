@@ -1,0 +1,3 @@
+{
+  "color_swatch_product": "xpath,(//div[@class='b-more-colors grid-view']//ancestor::li)[1]"
+}

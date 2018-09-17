@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+    <reservationNumber>63111630</reservationNumber>
+    <internetOrderNumber>X10129944</internetOrderNumber>
+    <orderDate>3/28/2016</orderDate>
+    <shopAt>macys.com</shopAt>
+    <orderSubtotalAmt>49.99</orderSubtotalAmt>
+    <baseShippingAmt>13.95</baseShippingAmt>
+    <shipUpgradeAmt>0.00</shipUpgradeAmt>
+    <giftWrapAmt>0.0</giftWrapAmt>
+    <taxAmt>0.0</taxAmt>
+    <orderTotal>63.94</orderTotal>
+    <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+    <hoursCS>Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm</hoursCS>
+    <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+    <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+    <billingDetail>
+        <title></title>
+        <firstName>Oes</firstName>
+		<middleName />
+		<lastName>Testing</lastName>
+        <addressLine1>292 Madison Avenue</addressLine1>
+        <addressLine2>5th Floor</addressLine2>
+        <addressLine3></addressLine3>
+        <city>New York</city>
+        <state>NY</state>
+        <country>USA </country>
+        <zipcode>10017</zipcode>
+    </billingDetail>
+    <paymentDetail>
+        <paymentType>Employee Card</paymentType>
+        <accountNumber>************6910</accountNumber>
+        <amount>0.0</amount>
+        <paymentCategoryFlag></paymentCategoryFlag>
+    </paymentDetail>
+    <shipmentDetail>
+        <shipmentNumber>1</shipmentNumber>
+        <shippedDate></shippedDate>
+        <returnSubmittedDate></returnSubmittedDate>
+        <shipRetailAmt>0.00</shipRetailAmt>
+        <shipTaxAmt>0.00</shipTaxAmt>
+        <mailFlag></mailFlag>
+        <firstName>Oes</firstName>
+		<middleName />
+		<lastName>Testing</lastName>
+        <attnLine></attnLine>
+        <addressLine1>29120 Airport Dr</addressLine1>
+        <addressLine2></addressLine2>
+        <addressLine3></addressLine3>
+        <city>Romulus</city>
+        <state>MI</state>
+        <country>USA </country>
+        <zipcode>48174</zipcode>
+        <greetingMessage></greetingMessage>
+        <closingMessage></closingMessage>
+        <signatureMessage></signatureMessage>
+        <giftRegistryNumber>0</giftRegistryNumber>
+        <giftWrapFlag>N</giftWrapFlag>
+        <giftReceipientEmail>e4x001000603953@sandboxorders.fiftyone.com</giftReceipientEmail>
+        <giftRegistrant1></giftRegistrant1>
+        <giftRegistrant2></giftRegistrant2>
+        <giftReceiptFlag>N</giftReceiptFlag>
+        <itemDetail>
+            <lineNumber>1</lineNumber>
+            <description>Lenox Vintage Jewel 5 Piece Place Setting</description>
+            <price>49.99</price>
+            <requestedQuantity>1</requestedQuantity>
+            <availableQuantity>1</availableQuantity>
+            <shippedQuantity></shippedQuantity>
+            <totalAmount>49.99</totalAmount>
+            <expectedDate></expectedDate>
+            <newExpectedDate></newExpectedDate>
+            <delaySentDate></delaySentDate>
+            <delayWaitDate></delayWaitDate>
+            <systemCancelDate></systemCancelDate>
+            <shipmentType>STANDARD</shipmentType>
+            <splitShipmentFlag></splitShipmentFlag>
+            <status>IN PROCESS</status>
+            <vendor></vendor>
+            <cancelledQuantity></cancelledQuantity>
+            <upcNumber>000000044138438885</upcNumber>
+            <returnExpectedBackDate></returnExpectedBackDate>
+            <returnReason></returnReason>
+            <lineProductUrl></lineProductUrl>
+            <vgcNumber></vgcNumber>
+            <vgcCidNumber></vgcCidNumber>
+            <expiryDate></expiryDate>
+            <size></size>
+            <color></color>
+        </itemDetail>
+    </shipmentDetail>
+</mailMessagePayload>

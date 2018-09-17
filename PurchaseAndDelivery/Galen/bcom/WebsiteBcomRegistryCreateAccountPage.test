@@ -1,0 +1,4 @@
+Registry Create Account page on desktop
+	"${pageUrl}/registry/wedding/registrycaptureemail" 1024x768
+		run RegistryCreateAccountPage.js
+		check WebsiteBcomRegistryCreateAccountPage.spec

@@ -1,0 +1,13 @@
+<mailMessagePayload>
+	<reservationNumber></reservationNumber>
+	<amountRewardsCard></amountRewardsCard>
+	<firstName></firstName>
+	<internetOrderNumber>4173453123</internetOrderNumber>
+	<linkToWallet></linkToWallet>
+	<orderDate></orderDate>
+	<orderTotal></orderTotal>
+	<rewardCardEarnEndDate></rewardCardEarnEndDate>
+	<rewardCardEffectiveDate></rewardCardEffectiveDate>
+	<rewardCardExpirationDate></rewardCardExpirationDate>
+	<userType>SIGNIN</userType>
+</mailMessagePayload>

@@ -1,0 +1,12 @@
+{
+  "bvr_qp_container":     "id, quickViewBVR",
+  "bvr_qp_brand_name":     "id, quickViewBrandName",
+  "bvr_qp_product_name":   "id, quickViewBrandName",
+  "bvr_qp_items_requested":    "className, items_requested",
+  "bvr_qp_items_needed":       "className, items_needed",
+  "bvr_qp_goto_prod_details":   "linkText, SEE FULL PRODUCT DETAILS",
+  "bvr_qp_save_button":         "className, save_item",
+  "bvr_qp_remove_button":       "className, remove_item",
+  "bvr_qp_size":                  "id, selectedSizeOption",
+  "bvr_qp_color":                 "id, selectedColorNameID"
+}

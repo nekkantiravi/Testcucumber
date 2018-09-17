@@ -1,0 +1,19 @@
+{
+  "macys":{
+  "milataryaddress": {
+    "first_name": "Jorge",
+    "last_name": "Garcia",
+    "address_line1": "585 Ave FD",
+    "sub_city": "San Juan",
+    "sub_state": "PR",
+    "zip_code": "00936",
+    "phone_no1":"610",
+    "phone_no2":"563",
+    "phone_no3":"2845"
+
+  }
+
+
+  }
+
+}

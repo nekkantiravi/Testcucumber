@@ -1,0 +1,14 @@
+{
+  "store_header": "className, header||className, main-title",
+  "store_location_dropdown": "xpath, //li[contains(@class,'search-select-option')]",
+  "store_search_box": "xpath, //input[@class='search-input form-control']||xpath, //input[@class='search-input']",
+  "store_search_button": "className, search-button||className, search-button-icon",
+  "search_results": "xpath, //div[@class='col-md-5 hidden-sm col-xs-12 location-list-col']//h4[@class='location-title']||className, Teaser-titleLink",
+  "store_location": "cssSelector, .c-location-title||className, LocationName-geo",
+  "store_hrs_details": "xpath, //table[@class='c-location-hours-details']//span[contains(@class,'c-location-hours-details-row-day')][1]",
+  "store_details_map": "id, dir-map-desktop||id, dir-map",
+  "store_hours_container": "className, c-location-hours",
+  "store_hours_weekday":"className, c-location-hours-details-row-day-weekday||xpath, //div[@class='Nap-hours-desktop']//td[@class='c-location-hours-details-row-day']",
+  "store_hours_date":"className, c-location-hours-details-row-day-date",
+  "store_details_hours":"xpath, //div[@class='Nap-hours-desktop']//td[@class='c-location-hours-details-row-intervals']"
+}

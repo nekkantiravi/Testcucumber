@@ -1,0 +1,11 @@
+## Test to verify page UI elements
+================================================================================================ 
+@objects
+	checkout_button   id	bagButtonCheckout
+	button_bar        id    button-bar
+================================================================================================
+=Verify page title=
+================================================================================================
+	checkout_button:
+		visible
+		centered all inside button_bar

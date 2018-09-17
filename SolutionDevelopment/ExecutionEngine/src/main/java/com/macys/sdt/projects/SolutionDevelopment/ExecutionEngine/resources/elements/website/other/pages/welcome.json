@@ -1,0 +1,9 @@
+{
+  "url": "/",
+  "verify_page": "id, welcome_user",
+
+  "logout": "linkText, Logout",
+  "slaves": "cssSelector, div[app='create_node_administrator'] i.app_panel_icon",
+  "test_execution": "cssSelector, div[app='create_test_execution_project_view'] i.app_panel_icon",
+  "reports": "cssSelector, div[app='create_report_view'] i.app_panel_icon"
+}

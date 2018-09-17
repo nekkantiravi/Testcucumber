@@ -1,0 +1,21 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer",
+    "panel.security_question_popup"
+  ],
+  "url":         "/account/signin",
+  "verify_page": "id, signInBtn||id, sign-in",
+
+  "Sign_in_text":                       "xpath, //div[@class='small-14 columns small-centered signin-container']/h3",
+  "have_macys_account_text":            "xpath, //div[contains(@class, 'small-8 columns account-signin')]/h3",
+  "have_macys_account_info_text":       "xpath, //div[@class='small-8 columns account-signin']/p",
+  "email_address_label":                "xpath, //div[@class= 'columns small-6']/label[@class = 'inline right']",
+  "password_label":                     "xpath, //div[@class='columns small-6']/label[@class='accFormlabel inline right']",
+  "password_info_text":                 "id, accountCaseSensitive",
+  "dont_have_macys_account_text":       "xpath, //div[@class='small-7 columns right create-profile-sec']/h3",
+  "dont_have_macys_account_info_text":  "xpath, //div[@class='small-7 columns right create-profile-sec']/p",
+  "see_all_benefits_Link":              "id, benefitsLink",
+  "privacy_practices":                  "id, privacyPolicy",
+  "keep_in_mind_text":                  "xpath, //div[@class= 'small-16 columns pass-rules']/h3"
+}

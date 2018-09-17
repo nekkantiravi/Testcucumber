@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>245_5F_MSTORE</reservationNumber>
+	<internetOrderNumber>245_5F_MSTORE</internetOrderNumber>
+	<orderDate>04/28/2017</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>63.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>5.04</taxAmt>
+	<orderTotal>168.54</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0143</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>3104170829123456</ltyIdUsl>
+	<billingDetail>
+		<title>MR</title>
+		<firstName>245_5F_MSTORE</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 CHIMNEY SWEEP LN</addressLine1>
+		<addressLine2>APT 222</addressLine2>
+		<addressLine3></addressLine3>
+		<city>ROCHESTER</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>14612</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>68.04</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>06/06/2017</shippedDate>
+		<returnSubmittedDate>06/06/2017</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MR</title>
+		<firstName>OES</firstName>
+		<middleName>QA</middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>889 Mowry Ave</addressLine1>
+		<addressLine2>APt 1234</addressLine2>
+		<addressLine3></addressLine3>
+		<city>Fremont</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94536</zipcode>
+		<greetingMessage>Hello</greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>FIESTA SAGE</description>
+			<price>21.00</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>63.00</totalAmount>
+			<expectedDate>06/06/2017</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>RETURN</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>HOMER LAUGHLIN CHINA</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>21614055606</upcId>
+			<returnExpectedDate>05/19/2018</returnExpectedDate>
+			<returnStatus>1</returnStatus>
+			<returnReasonDescription>Damaged Item</returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>FIESTA SAGE 10</description>
+			<price>21.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>63.00</totalAmount>
+			<expectedDate>06/06/2017</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>RETURN</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>HOMER LAUGHLIN CHINA</vendor>
+			<cancelledQuantity></cancelledQuantity>
+			<upcId>735991467265</upcId>
+			<returnExpectedDate>05/19/2018</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription>Damaged Item</returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>427353116</reservationNumber>
+	<internetOrderNumber>427353116</internetOrderNumber>
+	<orderDate>03/20/2012</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>1536.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>92.16</taxAmt>
+	<orderTotal>1628.16</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0055</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>SHELLEY</firstName>
+		<middleName>C</middleName>
+		<lastName>227_22B</lastName>
+		<attnLine />
+		<addressLine1>6255 GLEN OAKS LN NE</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SANDY SPRINGS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30328</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************8009</accountNumber>
+		<amount>1628.16</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>ALIZA</firstName>
+		<middleName />
+		<lastName>LIPSON</lastName>
+		<attnLine>ATTN: ALIZA LIPSON</attnLine>
+		<addressLine1>1101 JUNIPES STREET</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ATLANTA</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30309</zipcode>
+		<greetingMessage>HAPPINESS ALWAYS</greetingMessage>
+		<closingMessage>LOVE ALWAYS</closingMessage>
+		<signatureMessage>YOUR BUB</signatureMessage>
+		<giftRegistryNumber>2800006209869</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>ARLIPSON@GMAIL.COM</giftReceipientEmail>
+		<giftRegistrant1>ALIZA</giftRegistrant1>
+		<giftRegistrant2>SETH</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>FETE D'OR</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/03/2012</expectedDate>
+			<newExpectedDate>01/17/2013</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>MONIQUE LHUILLIER</vendor>
+			<cancelledQuantity />
+			<upcId>190089164219</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>FETE D'OR</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/03/2012</expectedDate>
+			<newExpectedDate>01/17/2013</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>MONIQUE LHUILLIER</vendor>
+			<cancelledQuantity />
+			<upcId>8058328001799</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	</mailMessagePayload>

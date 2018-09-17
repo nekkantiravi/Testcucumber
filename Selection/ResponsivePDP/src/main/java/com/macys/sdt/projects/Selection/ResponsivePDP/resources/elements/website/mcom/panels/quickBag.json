@@ -1,0 +1,20 @@
+{
+    "qbLink":                           "cssSelector, a#checkoutLink",
+    "quickbag":                         "id, quickBag_c",
+    "qbCount":                          "cssSelector, #m-bag-count-anchor",
+    "productTitle":                     "cssSelector, .columns.medium-9.description>a",
+    "productImg":                       "xpath, .//*[contains(@class,'columns medium-3')]/a",
+    "qbItemUPC":                        "cssSelector, .bagItemUPC",
+    "qbSizeColor":                      "cssSelector, span.sizeColorType",
+    "removeBtn":                        "xpath, .//*[contains(@class,'button secondary')]",
+    "qbZeroItemCount":                  "cssSelector, .zeroItemCount",
+    "qbItemList":                       "cssSelector, .bagItems",
+    "originalPrice":                    "cssSelector, .itemPrice || cssSelector, .pricing",
+    "salePrice":                        "cssSelector, .salePrice",
+    "totalPrice":                       "id, quickBagSubTotal",
+    "youSaved":                         "id, quickBagYouSavedTotal",
+    "qbPromo":                          "id, orderLevelPromo",
+    "qbGWPMsg":                         "cssSelector, .badges>div",
+    "qbCheckoutBtn":                    "xpath, .//*[@class='checkoutButton']/a",
+    "qbCheckoutLink":                   "cssSelector, #checkoutLink"
+}

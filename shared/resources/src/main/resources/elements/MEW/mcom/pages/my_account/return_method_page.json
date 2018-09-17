@@ -1,0 +1,20 @@
+{
+  "include": [
+    "panel.returns_cancel_popup"
+  ],
+  "url":                             "/returns/select-return",
+  "verify_page":                     "className, page-title",
+  "macys_store":                     "id, return-method-MStore",
+  "ups_dropbox":                     "id, return-method-UPS",
+  "return_pickup":                   "id, return-method-Pickup",
+  "macys_store_verbiage":            "className, js-ref-store-dropOff-txt",
+  "ups_dropbox_verbiage":            "className, js-ref-ups-dropOff-txt",
+  "return_pickup_verbiage":          "className, js-ref-pickUp-txt",
+  "return_pickup_address":           "id, js-pickup-address",
+  "check_alt_address_link":          "id, js-alternate-address",
+  "return_pickup_day":               "id, js-pickup-day",
+  "return_pickup_time":              "id, js-pickup-time",
+  "return_pickup_instruction":       "id, js-pickup-instruction",
+  "return_global_error":             "className, js-error-msg",
+  "reurn_pickup_char_limit":         "id, js-char-limit"
+}

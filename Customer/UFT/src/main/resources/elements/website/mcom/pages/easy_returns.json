@@ -1,0 +1,7 @@
+{
+  "url": "/service/easyreturn",
+  "verify_page": "xpath, //div[@class='easyreturnSteps']/h1",
+
+  "international_returns_text": "xpath, //div[@class='columns small-15']/h5",
+  "international_returns_policy_link": "xpath, //div[@class='columns small-15']/a"
+}

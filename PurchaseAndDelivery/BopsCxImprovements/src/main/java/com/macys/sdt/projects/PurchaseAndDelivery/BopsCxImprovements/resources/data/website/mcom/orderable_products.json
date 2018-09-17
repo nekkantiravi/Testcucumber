@@ -1,0 +1,60 @@
+{
+  "macys": [
+    {
+      "id": 658418,
+      "available_bops": true,
+      "eligible_bops": true,
+      "available_in_store": true,
+      "click_to_call": false,
+      "upc": 46928538645,
+      "store_location_nbr": 93,
+      "master_product": false,
+      "available": true,
+      "sdd_eligible": true,
+      "single_upc": true,
+      "ship_available": true,
+      "category_name": "Men's Watches"
+    },
+    {
+      "id": 2909248,
+      "available_bops": true,
+      "click_to_call": false,
+      "upc": 884630077720,
+      "store_location_nbr": 93,
+      "master_product": false,
+      "multiple_upc": true,
+      "ship_available": true
+    },
+    {
+      "id": 2743769,
+      "click_to_call": true,
+      "order_method": "CALLM",
+      "member_product": false
+    },
+    {
+      "id": 1518704,
+      "click_to_call": true,
+      "product_type": "FURNITURE",
+      "available": true,
+      "furniture": true,
+      "member_product": false,
+      "order_method": "CALLF"
+    },
+    {
+      "id": 609735,
+      "upc": 882864347527,
+      "str_location_nbr": 5422,
+      "order_method": "SPEC",
+      "available_bops": true,
+      "available": true
+    },
+    {
+      "id": 571300,
+      "upc": 4003686163454,
+      "str_location_nbr": 5422,
+      "order_method": "DROP",
+      "available_bops": true,
+      "available": true
+    }
+  ]
+}

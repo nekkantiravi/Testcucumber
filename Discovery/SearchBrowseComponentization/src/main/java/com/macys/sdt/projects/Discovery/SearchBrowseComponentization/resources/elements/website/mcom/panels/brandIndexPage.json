@@ -1,0 +1,27 @@
+{
+
+  "designer_homepage_fob"              : "xpath,//span[text()='BRANDS']",
+  "a_index"                            : "xpath,//div[@id='alphabets']//a[text()='A']",
+  "z_index"                            : "xpath,//div[@id='alphabets']//a[text()='Z']",
+  "c_index"                            : "xpath,//div[@id='alphabets']//a[text()='C']",
+  "c_letter_text"                      : "xpath,//div[@id='brandIndex']//a/h2[text()='C']",
+  "category_cletter_link"              : "xpath,//a[text()='Cartier'] || xpath,//a[text()='Char-Broil'] || xpath,//a[text()='Clarks']",
+  "x_index_disabled"                   : "xpath,//div[@id='alphabets']//a[24]",
+  "brandlink_A_letter"                 : "xpath,//div[@id='brandIndex']//a[text()='Alfani']",
+  "brandlink_morethanoneword_A_letter" : "xpath,//div[@id='brandIndex']//a[text()='American Tourister']",
+  "all_index"                          : "xpath,//*[@id='alphabets']/p/a",
+  "left_nav_Brand_items"               : "xpath,//*[@id='left-nav']/ul/li/a",
+  "hashletter_index"                   : "xpath,//div[@id='alphabets']//a[text()='#']",
+  "SEO_section"                        : "xpath,//div[@class='adSenseTitle']",
+  "BannerMachine_content"              : "xpath,//div[@id='bannerMachine3133604'] || xpath,//div[@id='bannerMachine3133677'] || xpath,//div[@id='bannerMachine3141774']",
+  "Dinnerware_BrowsePage"              : "xpath,//div[@id='categoryTree']//a[text()='Dinnerware']",
+  "BannerMachine_Canvas"               : "xpath,//div[contains(@id,'bannerMachine3133604')]/parent::div/parent::li/parent::ul/parent::div",
+  "BannerMachine_CanvasText_font"      : "xpath,//*[@id='bannerMachine-3829510_ROW101AD1']/div[2]/div/div[2]/div/span[1]/strong",
+  "BannerMachine_CanvasBgColor"        : "xpath,//div[@id='bannerMachine3133604']/div[2]/div",
+  "MainBanner_Canvas"                  : "xpath,(//div[@class='bm-main-wrapper bgMacysBlack'])[1]",
+  "BannerLink_Canvas"                  : "xpath,//div[@id='bannerMachine3133604']//span[@class='detailLink helvetica colorMacysWhite']/a",
+  "BannerImgLeft_Canvas"               : "xpath,//div[@id='bannerMachine3133604']/div[2]/img[1]",
+  "BannerImgRight_Canvas"              : "xpath,//div[@id='bannerMachine3141794']/div/img[1]"
+
+
+}

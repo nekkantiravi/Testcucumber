@@ -1,0 +1,33 @@
+{
+    "url": "/top-of-the-list",
+    "verify_page": "id, topofthelist",
+    "top_of_the_list_image": "xpath, //section[@class='tol-header']/img",
+    "header_title1": "cssSelector, .tol-hero-title1 img",
+    "header_text":  "class, tol-hero-text",
+    "top_of_the_list_content": "class, lty-tol-loyallist-perks",
+    "loyallist_logo": "class, lty-tol-logo",
+    "bloomingdales_credit_card_img": "class, tol-hero-bottom",
+    "legal_notice_and_disclaimer_link": "class, toggle-disclaimer-icon",
+    "legal_notice_and_disclaimer_content": "xpath, //div[contains(@class,'lty-disclaimer')][./div[@class='lty-disclaimer-header']]",
+    "terms_and_conditions": "linkText, Loyallist Terms & Conditions.",
+    "bloomingdales_shipping": "linkText, bloomingdales.com/shipping",
+
+    "header_title2": "class, tol-hero-title2",
+    "four_points_per_dollar_title": "xpath, //div[text()='4 POINTS PER DOLLAR']",
+    "four_points_per_dollar_text": "xpath, //div[text()='Use your Top of the List Bloomingdale’s Credit Card and receive four points for every dollar you spend on bloomingdales.com and at our stores and outlets.']",
+    "unlimited_complimentary_gift_wrap_title": "xpath, //div[text()='UNLIMITED COMPLIMENTARY GIFT WRAP']",
+    "unlimited_complimentary_gift_wrap_text": "xpath, //div[text()='Treat your friends and family to the best presentation for purchases made in store.']",
+    "free_shipping_every_day_title": "xpath, //div[text()='FREE SHIPPING EVERY DAY']",
+    "free_shipping_every_day_text": "xpath, //div[text()='We’ll get it to you for free—whether you’re shopping online or in store.']",
+    "exclusive_birthday_offer_title": "xpath, //div[text()='EXCLUSIVE BIRTHDAY OFFER']",
+    "exclusive_birthday_offer_text": "xpath, //div[text()='Celebrate your birthday in style with a special offer.']",
+    "personal_triple_points_day_title": "xpath, //div[text()='PERSONAL TRIPLE POINTS DAY']",
+    "personal_triple_points_day_text": "xpath, //div[contains(text(),'Triple Points on all of your purchases')]",
+    "double_points_beauty_shoes_title": "xpath, //div[text()='DOUBLE POINTS IN']",
+    "double_points_beauty_shoes_text": "xpath, //div[contains(text(),'Get 8 points for every dollar you spend on shoes, cosmetics')]",
+    "dining_club_title": "xpath, //div[text()='DINING CLUB']",
+    "dining_club_text": "xpath, //div[contains(text(),'Get an entrée and non-alcoholic beverage totaling $19 or less on the house every time you spend $100 dining at Bloomingdale’s with your Bloomingdale’s Credit Card.')]",
+    "reward_card_banner_text": "class, tol-card-banner-text",
+    "foresee_no_thanks":            "linkText, No, thanks"
+
+}

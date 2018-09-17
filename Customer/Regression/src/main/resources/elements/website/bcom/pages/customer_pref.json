@@ -1,0 +1,11 @@
+{
+  "left_nav_preferences":                         "id, myAccount_myPreferencesLink || id, preferencesLink",
+  "my_preferences_title":                         "xpath, //h1[text()='My Preferences']",
+  "add_a_store_option":                           "xpath, //a[contains(text(), 'Add a Store')] || xpath, //a[contains(text(), 'Change Store')] || className, preferredStore-actionLink || xpath, //span[contains(text(), 'Add a Store')] || xpath, //span[contains(text(), 'Change Store')]",
+  "preferred_store_title":                        "xpath, //h1[text()='Preferred Store']",
+  "zip_code_text_field":                          "id, zipCode",
+  "search_button_preferred_store":                "id, searchButton",
+  "store_results_first_store":                    "xpath, (//a[text()='Select'])[1]",
+  "store_summary_change_store_option":            "id, preferred-store-edit",
+  "store_edit_selected_store_text":               "cssSelector, a[class$='doneSelect'] strong"
+}

@@ -1,0 +1,20 @@
+{
+  "FOBS": "xpath, //div[@id='mainNavigation']/ul/li/a",
+  "main_ad": "xpath,//div[@id='row_1']//img[contains(@alt,'Sale')]",
+  "top_banner_exclusion": "xpath,//div[@id='row_0']//area[@alt='exclusions & details']",
+  "top_banner_main_ad": "xpath,//div[@id='row_1']//img[contains(@alt,'Sale')]",
+  "top_banner": "xpath,//div[@class='media-component']//a//img[contains(@alt,'percent')]",
+  "top_banner_beauty": "xpath,//div[@id='row_0']//a/img",
+  "main_ad_beauty": "xpath,//div[@id='row_1']//img[contains(@src,'BEAUTY')]",
+  "rows_elements": "cssSelector, div#catSplash>div.row||cssSelector, div#bl_hp_main>div.row",
+  "top_banner_registry": "xpath,//div[@id='row_0']//a/img",
+  "main_ad_registry": "xpath,//div[@id='row_1']//img",
+  "featured_categories_header_text": "xpath, //span[text()='Featured categories']",
+  "feature_categories_link": "xpath, //div[@class='adCatIcon']/div/a/img",
+  "feature_category_link_text": "xpath, //div[@class='adCatIcon']/div[2]/a/div",
+  "featured_category_home_page": "xpath, //h1 ||xpath, //div[@id='nav_title']/h1/a",
+  "featured_category_breadcrumb_header": "xpath, //div[@class[contains(.,'pageBreadcrumbs')]]/span",
+  "cat_pop_up_links": "xpath, //*[@id='macysGlobalLayout']//area[contains(@href,'javascript:pop')]",
+  "home_pop_up_links": "xpath, //area[contains(@href,'javascript:pop')]",
+  "pop_up_heading": "className, header-text"
+}

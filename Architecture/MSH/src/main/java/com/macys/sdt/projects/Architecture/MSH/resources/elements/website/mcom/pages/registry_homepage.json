@@ -1,0 +1,3 @@
+{
+        "goto_manage_registry": "cssSelector, area[alt='manage your registry']"
+}

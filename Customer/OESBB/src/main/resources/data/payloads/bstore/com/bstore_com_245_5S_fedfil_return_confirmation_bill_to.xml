@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber>245_5S_BSTORE</reservationNumber>
+  <internetOrderNumber>123456789</internetOrderNumber>
+  <orderDate>04/07/2016</orderDate>
+  <shopAt>Bloomingdales</shopAt>
+  <explanationText />
+  <orderSubtotalAmt>94.12</orderSubtotalAmt>
+  <baseShippingAmt>0.00</baseShippingAmt>
+  <addtShipAddAmt>0.00</addtShipAddAmt>
+  <shipUpgradeAmt>0.00</shipUpgradeAmt>
+  <giftWrapAmt>0.00</giftWrapAmt>
+  <taxAmt>0.00</taxAmt>
+  <orderTotal>263.88</orderTotal>
+  <divisionCode>072</divisionCode>
+  <locationCode>0017</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+  <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+  <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>Y</ltyFlag>
+  <ltyIdUsl />
+  <billingDetail>
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 LACLEDE DR</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>BURLINGTON</city>
+    <state>NJ</state>
+    <country>USA</country>
+    <zipcode>08016</zipcode>
+  </billingDetail>
+   <paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>263.88</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+   <shipmentDetail>
+    <shipmentNumber>001</shipmentNumber>
+    <shippedDate>04/07/2016</shippedDate>
+    <returnSubmittedDate>04/17/2016</returnSubmittedDate>
+    <mailFlag />
+    <title />
+    <firstName>OES</firstName>
+    <middleName />
+    <lastName>TESTING</lastName>
+    <attnLine />
+    <addressLine1>123 LACLEDE DR</addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city>BURLINGTON</city>
+    <state>NJ</state>
+    <country>USA</country>
+    <zipcode>08016</zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber>0000000000000</giftRegistryNumber>
+    <giftWrapFlag>N</giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag>N</giftReceiptFlag>
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <itemDetail>
+      <lineNumber>001</lineNumber>
+      <description>EXTC PTHWK COH SWAGG</description>
+      <price>263.88</price>
+      <requestedQuantity>004</requestedQuantity>
+      <availableQuantity></availableQuantity>
+      <shippedQuantity></shippedQuantity>
+      <totalAmount>263.88</totalAmount>
+      <expectedDate>04/12/2016</expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType>STANDARD</shipmentType>
+      <splitShipmentFlag />
+      <status>SHIPPED</status>
+      <vendor>COACH</vendor>
+      <cancelledQuantity />
+      <upcId>5052376863012</upcId>
+	  <returnReason>Wrong Item</returnReason>
+      <userCancelDate />
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size></size>
+      <color></color>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

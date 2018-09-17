@@ -1,0 +1,39 @@
+{
+  "url": "/",
+
+  "email_address_create_contact":           "id, email",
+  "pref_phone_number_blm":                  "id, phoneNumber",
+
+  "client_profile_page_BLM":                "cssSelector, [title*='Customer Profile']",
+
+  "edit_phone_btn_edit_client_page":        "cssSelector, [ng-click*='phone']",
+  "contact_profile_email":                  "id, emailAddress",
+  "edit_email_btn_edit_client_page":        "cssSelector, [ng-click*='email']",
+  "save_button_edit_email_page":            "cssSelector, [ng-click*='saveEmails']",
+  "cancel_button_edit_email_page":          "cssSelector, [ng-click*='cancel']",
+
+  "contact_profile_page_BLM":               "cssSelector, [title*='Contact Profile']",
+  "edit_email_page":                        "cssSelector, [ng-controller*='CustomerEditEmailController']",
+  "edit_email_input_1st":                   "cssSelector, [name*='emailAddress']",
+  "edit_email_save_btn":                    "cssSelector, [ng-click*='saveEmails']",
+  "edit_email_confirmation_ok":             "cssSelector, button[ng-click*='buttonTapped']",
+  "edit_email_first_radio":                 "xpath, //ion-content/div[1]/form/div[1]/ng-form/div[2]/div[1]/input",
+  "address_section_contact_read_only":      "id, address",
+  "address_line_1_contact_read_only":       "xpath, //*[@id='address']/span[2]",
+
+  "error_popup_client_info":                "class, popup",
+  "error_popup_client_info_ok_btn":         "cssSelector, button[ng-click*='buttonTapped']",
+
+  "customer_profile_loyallist_id":                "xpath, //li[contains(text(), 'Loyallist ID#')]",
+  "customer_profile_loyallist_icon":              "cssSelector, [class*='loyaltyIconBg']",
+  "customer_profile_manage_customer_btn":         "id, edit-btn",
+  "contact_profile_manage_customer_btn":          "cssSelector, [ng-click*='customerEdit']",
+
+  "manage_customer_page_title":                "xpath, //h1[contains(text(), 'Edit Customer')]",
+  "manage_customer_page_assoc_field":          "id, associate-title",
+  "manage_customer_page_phone_field":          "xpath, //li[contains(text(), 'Phone#')]",
+  "manage_customer_page_email_field":          "cssSelector, [ng-click*='email']",
+  "manage_customer_page_address_field":        "id, address",
+  "manage_customer_page_pref_cont_field":      "xpath, //div[contains(text(), 'Preferred Contact Method')]"
+
+}

@@ -1,0 +1,17 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "url":                              "/account/giftcardbalance",
+  "verify_page": "id, giftsAndGiftCards",
+  "service_unavailable_error": "class, errorDescription",
+  "bread_crumb": "class, bread-crumbs",
+  "gifts_gift_cards_header": "id, giftsAndGiftCards",
+  "gift_card_balance_tab": "xpath, //li[@data-id='GIFTCARD_BALANCE']",
+  "gift_boxes_messages_tab": "xpath, //li[@data-id='GIFTCARD_BOX']",
+  "terms_conditions_tab": "xpath, //li[@data-id='GIFTCARD_TC']",
+  "let_us_do_the_work_for_you": "class, giftSubHeader",
+  "gift_box_image": "cssSelector, [alt='gift box image']",
+  "tabs_content": "id, tabsContent"
+}

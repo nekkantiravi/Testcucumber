@@ -1,0 +1,14 @@
+{
+    "left_navigation_container": "id, localNavigationContainer||id, categoryTree",
+    "subcategory": "xpath, //*[@id='categoryTree']//li[contains(@class, 'children')]//a || cssSelector, .nav_cat_item_bold>ul>li>a|| cssSelector, .subCategory a||xpath, //*[@id='nav_category']//a",
+    "see_all_brands": "id, SeeAllBrands",
+    "left_nav_link": "class, facet-item",
+    "chanel_sub_cats": "id, navChanelSubCats",
+    "view_all_category": "id, viewAllInCategory",
+    "gift_card_left_nav_sub_cats": "class, nav_cat_item_bold",
+    "red_link_categories": "class, nav_cat_item_hilite || class, highlighted",
+    "top_of_left_nav_cat_section": "id, nav_title",
+    "discovery_subcategory": "xpath, //li[@class='children']/a||xpath, //li[contains(@class,'header')]/span/a",
+    "category_header": "cssSelector, .primary",
+    "category_description": "name, description"
+}

@@ -1,0 +1,14 @@
+{
+  "gift_cards_section": "id, rc-gift-cards-info",
+  "gift_cards_section_text": "cssSelector, #rc-gift-cards-head p",
+  "apply_reward_card": "className, rc-rewardcard-apply-btn",
+  "applied_gift_card": "className, rc-giftcard-item",
+  "applied_gift_card_value": "className, rc-giftcard-value",
+  "gift_card_number": "id, rc-gc-cardNumber || id, giftCard.cardNumber",
+  "gift_card_cid": "id, rc-gc-cid",
+  "gift_card_captcha": "id, rc-giftcard-captcha",
+  "apply_gift_card": "id, rc-apply-gift-cards",
+  "gc_paypal_note": "id, rc-cannot-use-gc || cssSelector, #rc-gift-cards-info p:nth-child(1)",
+  "expand_gift_card_section" : "xpath, //a[@id='rc-gift-cards-head']/div/div[2]/span || id, rc-gift-cards-head",
+  "gift_card_cancel": "id, rc-gift-cards-change-cancel"
+}

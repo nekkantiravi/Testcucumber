@@ -1,0 +1,18 @@
+{
+  "keep_shopping_button":                       "cssSelector, #btnKeepShopping",
+  "masterKeepShoppingBtn":                      "cssSelector,  .large-16.button.expand.secondary.small.continue-shopping",
+  "checkout_button":                            "cssSelector, #checkoutLink",
+  "masterCheckoutBtn":                          "cssSelector,  .large-16.button.expand.small.checkout",
+  "added_to_bag_confirm_msg":                   "cssSelector, div#atbTopMessage>a",
+  "quantity":                                   "cssSelector, div.atbPageBagTotalQty",
+  "totalPrice":                                 "cssSelector, div.atbPageBagSubtotalPrice",
+  "productDescription":                         "cssSelector, div.addToBagPageLineItemName>a",
+  "productImage":                               "cssSelector, img.productImage",
+  "color":                                      "cssSelector, div.addToBagPageProductFeatureValue",
+  "price":                                      "cssSelector, div.addToBagPageLineItemPrice",
+  "A2B_GWP_SpecialOfferMsg":                    "cssSelector, .atbPageBagSpecialOfferMsg",
+  "A2B_SpecialOfferReviewMsg":                  "cssSelector, .atbPageBagSpecialOfferReviewMsg",
+  "giftCardProductTitle":                       "cssSelector, div.addToBagPageLineItemName>a",
+  "giftCardAmount":                             "cssSelector, div.addToBagPageLineItemPrice>div",
+  "giftCardSubtotal":                           "cssSelector, div.atbPageBagSubtotalPrice"
+}

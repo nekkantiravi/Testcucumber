@@ -1,0 +1,38 @@
+  {
+
+    "find_had_search_input_field":  "class, findHadInput",
+    "find_search_result":           "xpath, //div[@id='findContainer']/div/div/label",
+    "find_search_result_count":     "xpath, //div[@class='holistic-attribute-subtitle']/span",
+    "find_match_type":              "id, matchTypeLabel",
+    "attribute_name":               "id, table_att",
+    "save_changes":                 "id, saveButton",
+    "alpha_numeric_pagination":     "id, alphabeticPaginationContainer",
+    "pagination_container":         "xpath, *//div[@id='divHolistic']//div[@id='pagination']",
+    "page_number":                  "id, pageNumber",
+    "total_pages":                  "id, totalPages",
+    "numeric_entry_field":          "id, hadJumpToPage",
+    "first":                        "id, pageFirst",
+    "previous":                     "id, pagePrev",
+    "next":                         "id, pageNext",
+    "last":                         "id, pageLast",
+    "enabled_alpha_numeric_values": "xpath, //div[@id='alphabeticPaginationContainer']/ul/li[not(contains(@class, 'disabled'))]",
+    "selected_alpha_numeric_value": "xpath, (//div[@id='alphabeticPaginationContainer']/ul/li[(contains(@class, 'active'))]/span)",
+    "had_attribute_value":          "id, table_att_value",
+    "holistic_attribute_name":      "xpath,(//table[@class='fht-table']/tbody/tr/td[3])[1]",
+    "holistic_attribute_index_value":"xpath,//table[@id='hadTable']/tbody/tr[2]/td[8]/input",
+    "holistic_attribute_index":      "xpath,//table[@id='hadTable']/tbody/tr[2]/td[7]/input",
+    "holistic_select_composite":     "xpath,//table[@id='hadTable']/tbody/tr[2]/td[9]/select",
+    "new_and_changed_value_link":      "class, menuElementSC",
+    "new_and_changed_value_name":      "xpath, //div[@id='changedValuesContainter']/div[1]/div[1]",
+    "new_and_changed_value_attribute_name":      "xpath, //div[@id='changedValuesContainter']/div[1]/div[2]",
+    "index_value_all":"xpath,//*[@id='HADIndexValueAll']",
+    "go_button":"xpath,//div[@id='goFindBtn']",
+    "page_next":"id,pageNext",
+    "page_last":"id,pageLast",
+    "page_first":"id,pageFirst",
+    "page_previous":"id,pagePrev",
+    "numeric_pagination":"id,paginationInfoContainer",
+    "page_no_text_box":"id,hadJumpToPage"
+
+  }
+

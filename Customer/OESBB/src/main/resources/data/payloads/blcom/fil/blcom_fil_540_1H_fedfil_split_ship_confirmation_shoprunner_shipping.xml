@@ -1,0 +1,147 @@
+<mailMessagePayload>
+		<reservationNumber>193451037</reservationNumber>
+		<internetOrderNumber>S2BBLCOMOES01</internetOrderNumber>
+		<orderDate>07/10/2012</orderDate>
+		<shopAt>Bloomingdales.com</shopAt>
+		<explanationText>explanationText</explanationText>
+		<orderSubtotalAmt>160.00</orderSubtotalAmt>
+		<baseShippingAmt>8.00</baseShippingAmt>
+		<addtShipAddAmt>0.00</addtShipAddAmt>
+		<shipUpgradeAmt>0.00</shipUpgradeAmt>
+		<giftWrapAmt>5.00</giftWrapAmt>
+		<taxAmt>12.11</taxAmt>
+		<orderTotal>185.11</orderTotal>
+		<divisionCode>072</divisionCode>
+		<locationCode>0139</locationCode>
+		<adhocText />
+		<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+		<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+		<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+		<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+		<billingDetail>
+			<title>Mr.</title>
+			<firstName>KIRAN</firstName>
+			<middleName>MIGRATION</middleName>
+			<lastName>GHATE</lastName>
+			<attnLine />
+			<addressLine1>5985 STATE BRIDGE RD</addressLine1>
+			<addressLine2>APT 123</addressLine2>
+			<addressLine3>5000 ROAD</addressLine3>
+			<city>DULUTH</city>
+			<state>GA</state>
+			<country>USA</country>
+			<zipcode>30097</zipcode>
+		</billingDetail>
+		<paymentDetail>
+			<paymentType>VISA</paymentType>
+			<accountNumber>************1111</accountNumber>
+			<amount>185.11</amount>
+			<paymentCategoryFlag>D</paymentCategoryFlag>
+		</paymentDetail>
+		<shipmentDetail>
+			<shipmentNumber>001</shipmentNumber>
+			<shippedDate>12/31/9999</shippedDate>
+			<mailFlag />
+			<title>Mr.</title>
+			<firstName>KIRAN</firstName>
+			<middleName>MIGRATION</middleName>
+			<lastName>GHATE</lastName>
+			<attnLine>THIS IS A TEST FOR ATTENTION LINE</attnLine>
+			<addressLine1>5985 STATE BRIDGE RD</addressLine1>
+			<addressLine2/>
+			<addressLine3/>
+			<city>DULUTH</city>
+			<state>GA</state>
+			<country>USA</country>
+			<zipcode>30097</zipcode>
+			<greetingMessage>Happy Birthday</greetingMessage>
+			<closingMessage>Your Best Friend</closingMessage>
+			<signatureMessage>JAYA S</signatureMessage>
+			<giftRegistryNumber>0000000000000</giftRegistryNumber>
+			<giftWrapFlag>Y</giftWrapFlag>
+			<giftReceipientEmail>OESTESTING@GMAIL.COM</giftReceipientEmail>
+			<giftRegistrant1>giftRegistrant1</giftRegistrant1>
+			<giftRegistrant2>giftRegistrant2</giftRegistrant2>
+			<giftReceiptFlag>Y</giftReceiptFlag>
+			<itemDetail>
+				<lineNumber>001</lineNumber>
+				<description>A FLEUR DE PEAU</description>
+				<price>50.00</price>
+				<requestedQuantity>002</requestedQuantity>
+				<availableQuantity>002</availableQuantity>
+				<shippedQuantity>0</shippedQuantity>
+				<totalAmount>100.00</totalAmount>
+				<expectedDate>08/30/2012</expectedDate>
+				<newExpectedDate />
+				<delaySentDate />
+				<delayWaitDate />
+				<systemCancelDate />
+				<shipmentType>STANDARD</shipmentType>
+				 <lineItemFdInd>N</lineItemFdInd>
+				<splitShipmentFlag />
+				<status>IN PROCESS</status>
+				<vendor />
+				<cancelledQuantity />
+				<upcId>5450102345076</upcId>
+				<userCancelDate />
+				<vgcNumber />
+				<vgcCidNumber />
+				<expiryDate />
+				<size />
+				<color />
+			</itemDetail>
+		</shipmentDetail>
+		<shipmentDetail>
+			<shipmentNumber>002</shipmentNumber>
+			<shippedDate>12/31/9999</shippedDate>
+			<mailFlag/>
+			<title/>
+			<firstName>KIRAN</firstName>
+			<middleName/>
+			<lastName>GHATE</lastName>
+			<attnLine>THIS IS A TEST FOR ATTENTION LINE</attnLine>
+			<addressLine1>5985 STATE BRIDGE RD</addressLine1>
+			<addressLine2/>
+			<addressLine3/>
+			<city>DULUTH</city>
+			<state>GA</state>
+			<country>USA</country>
+			<zipcode>30097</zipcode>
+			<greetingMessage>Happy Birthday</greetingMessage>
+			<closingMessage>Your Best Friend</closingMessage>
+			<signatureMessage>JAYA S</signatureMessage>
+			<giftRegistryNumber>0000000000000</giftRegistryNumber>
+			<giftWrapFlag>Y</giftWrapFlag>
+			<giftReceipientEmail/>
+			<giftRegistrant1>Registrant1</giftRegistrant1>
+			<giftRegistrant2>Registrant2</giftRegistrant2>
+			<giftReceiptFlag>Y</giftReceiptFlag>
+			<itemDetail>
+				<lineNumber>001</lineNumber>
+				<description>ALANA</description>
+				<price>30.00</price>
+				<requestedQuantity>002</requestedQuantity>
+				<availableQuantity>002</availableQuantity>
+				<shippedQuantity>0</shippedQuantity>
+				<totalAmount>60.00</totalAmount>
+				<expectedDate>07/13/2012</expectedDate>
+				<newExpectedDate/>
+				<delaySentDate/>
+				<delayWaitDate/>
+				<systemCancelDate/>
+				<shipmentType>PREMIUM</shipmentType>
+			    <lineItemFdInd>R</lineItemFdInd>
+				<splitShipmentFlag/>
+				<status>IN PROCESS</status>
+				<vendor/>
+				<cancelledQuantity/>
+				<upcId>32675984958</upcId>
+				<userCancelDate/>
+				<vgcNumber/>
+				<vgcCidNumber/>
+				<expiryDate/>
+				<size/>
+				<color/>
+			</itemDetail>
+		</shipmentDetail>
+</mailMessagePayload>

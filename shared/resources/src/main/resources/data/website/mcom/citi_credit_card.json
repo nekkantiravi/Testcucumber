@@ -1,0 +1,32 @@
+{
+  "macy's": {
+    "prop_card": {
+      "card_number": "5444009999222205",
+      "card_name": "Test Test Account",
+      "security_code": "204",
+      "card_ssn": "6789"
+    },
+    "single_line_amex_card": {
+      "card_number": "377481148800888",
+      "card_name": "Test Test Account",
+      "security_code": "1431",
+      "card_ssn": "6789"
+    },
+    "dual_amex_card": {
+      "card_number": "6035341068165939",
+      "card_name": "Test Test Account",
+      "security_code": "888",
+      "card_ssn": "6789"
+    },
+    "Macy's Amex": {
+      "card_number": "377481148800888",
+      "card_name": "Test Test Account",
+      "security_code": "1431",
+      "card_ssn": "6789"
+    }
+  }
+}
+
+
+
+

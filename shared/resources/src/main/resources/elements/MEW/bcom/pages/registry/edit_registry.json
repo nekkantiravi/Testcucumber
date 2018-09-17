@@ -1,0 +1,7 @@
+{
+  "url":                                 "/registry/wedding/registryeditaccount",
+  "verify_page":                         "id, editRegistryAccountBtn",
+
+  "update_button":                       "id, editRegistryAccountBtn",
+  "co_registrant_first_name":            "id, registryEditAccount.coRegistrantFirstName"
+}

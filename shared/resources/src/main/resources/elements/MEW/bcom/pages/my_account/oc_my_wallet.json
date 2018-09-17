@@ -1,0 +1,17 @@
+{
+  "include": [
+    "panel.credit_card"
+  ],
+  "url": "/account/wallet",
+  "verify_page": "className, b-wallet-header",
+
+  "add_credit_card": "id, mb-j-add-credit-card",
+  "cc_container": "className, mb-wallet-credit-cards",
+  "credit_cards":      "className, mb-j-wallet-creditcard",
+  "add_offer_btn":     "id, mb-j-add-offers",
+  "become_loyallist":  "linkText, BECOME A LOYALLIST",
+  "loyalty_points":    "className, b-wallet-loyalty-actualValue",
+  "loyallist_progress_bar": "className, b-wallet-loyallist-progressBar",
+  "loyallist_reward_text":  "className, b-wallet-loyallist-text",
+  "credit_cards_info": "className, mb-wallet-credit-cards"
+}

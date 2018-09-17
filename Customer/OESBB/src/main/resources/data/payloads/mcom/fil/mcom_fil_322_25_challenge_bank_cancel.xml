@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>638813288</reservationNumber>
+	<internetOrderNumber>322_25_MWEDD</internetOrderNumber>
+	<orderDate>06/26/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>33.92</orderSubtotalAmt>
+	<baseShippingAmt>5.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>10.00</giftWrapAmt>
+	<taxAmt>62.04</taxAmt>
+	<orderTotal>95.96</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1202</accountNumber>
+		<amount>501.00</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage>Hi</greetingMessage>
+		<closingMessage>Happy Birthday</closingMessage>
+		<signatureMessage>Oes</signatureMessage>
+		<giftRegistryNumber>2800000736224</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>hollandwedding12@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>MEGHAN</giftRegistrant1>
+		<giftRegistrant2>DAVID</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Panels 20 Square Decorative P</description>
+			<price>67.49</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>67.49</totalAmount>
+			<expectedDate>11/29/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>IN PROCESS</status>
+			<vendor>Hotel Collection</vendor>
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Panels 20 Square Decorative P</description>
+			<price>46.50</price>
+			<requestedQuantity>004</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>93.00</totalAmount>
+			<expectedDate>11/29/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>IN PROCESS</status>
+			<vendor>Hotel Collection</vendor>
+			<cancelledQuantity />
+			<upcId>735991085247</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

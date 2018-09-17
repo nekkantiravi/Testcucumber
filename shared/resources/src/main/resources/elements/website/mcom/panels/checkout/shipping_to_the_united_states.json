@@ -1,0 +1,5 @@
+{
+  "shipping_to_united_states_container":   "id, shippingToUSContainer",
+  "continue_checkout":                     "id, intlContinueCheckout",
+  "return_to_the_international_site":      "id, returnToNewIntlCheckout"
+}

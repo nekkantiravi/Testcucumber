@@ -1,0 +1,19 @@
+{
+  "event_type": [
+    "WEDDING",
+    "COMMITMENT",
+    "ANNIVERSARY"
+  ],
+  "privacy": [
+    "PUBLIC",
+    "PRIVATE"
+  ],
+  "subscribed_emails": [
+    "TRUE",
+    "FALSE"
+  ],
+  "go_green": "FALSE",
+  "future_shipping_date": "12/12/2018"
+
+
+}

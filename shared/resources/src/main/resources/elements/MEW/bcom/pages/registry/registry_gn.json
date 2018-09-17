@@ -1,0 +1,13 @@
+{
+  "url": "/wedding-registry",
+  "verify_page": "id, registry",
+
+  "find_registry": "id, find",
+  "create_registry": "id, create",
+  "manage_registry": "id, registryManager",
+  "gift_categories": "id, gift-categories",
+  "why_registry": "id, registryWhyRegistry",
+  "reg_gn_parent_category": "class, parent",
+  "reg_gn_current_category": "class, current",
+  "reg_gn_child_category": "class, child"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "/account/profile",
+  "verify_page": "id, profile.profileAddress.firstName||id, mb-j-accountCreateProfile-firstname",
+
+  "last_name": "id, profile.profileAddress.lastName||id, mb-j-accountCreateProfile-lastname",
+  "email": "id, profile.email||id, mb-j-accountCreateProfile-email",
+  "email_verify": "id, profile.createConfirmEmail",
+  "password": "id, profile.password||id, mb-j-accountCreateProfile-password",
+  "password_verify": "id, profileconfirmPassword",
+  "security_question": "id, profile.securityQuestion||id, mb-j-accountCreateProfile-security-question",
+  "security_answer": "id, profile.securityAnswer||id, mb-j-accountCreateProfile-security-answer",
+  "dob_month": "id, profile.month||id, mb-j-accountCreateProfile-birth-month",
+  "dob_day": "id, profile.date||id, mb-j-accountCreateProfile-birth-day",
+  "dob_year": "id, profile.year||id, mb-j-accountCreateProfile-birth-year",
+  "create_profile_button": "id, createProfileBtn||id, mb-j-accountCreateProfile-submit",
+  "add_card_number": "id, mma_acctNumber",
+  "ssn_number": "id, mma_cvCode"
+}

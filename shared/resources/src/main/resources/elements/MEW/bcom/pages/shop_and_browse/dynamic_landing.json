@@ -1,0 +1,6 @@
+{
+  "url":         "/buy",
+  "verify_page": "id, productCount||className, b-browse-category-products-count",
+  "tag_cloud_link": "cssSelector, div.seoTagCloudLinks a || cssSelector, div.mktTagCloudLinks a",
+  "metaName": "name, robots"
+}

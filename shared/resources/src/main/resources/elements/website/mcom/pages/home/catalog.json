@@ -1,0 +1,26 @@
+{
+    "url":                  "/flyer_selector/macys",
+    "verify_page":          "id,    postal_code_input",
+
+    "address_zip_code":     "id,    postal_code_input",
+    "submit":               "id,    submit_postal_code",
+    "store_select":         "class, submit_store_select",
+    "catalog_thumbnail":    "class, flyer-container",
+    "selection_layer":      "class, wishabi-section-layer",
+    "catalog_products":     "xpath, //div[@class='wishabi-section-layer']/div[2]/img",
+    "product_popup":        "class, flyer_item_popup",
+    "item_image":           "class, item_info_image",
+    "item_name":            "class, name",
+    "item_webid":           "class, web_id",
+    "item_price":           "class, item_price_info",
+    "item_validity":        "class, flyer_item_validity",
+    "item_disclaimer":      "class, flyer_item_disclaimer_text",
+    "shop_now":             "class, btn_green",
+    "add_item_to_list":     "id,    add_to_shopping_list",
+    "facebook":             "class, add_facebook",
+    "twitter":              "class, add_twitter",
+    "item_desc":            "class, flyer_item_description",
+    "item_size":            "class, item_info_size",
+    "item_features":        "class, prod-feature",
+    "right_arrow":          "class, wishabi-flyerview-rightarrow"
+}

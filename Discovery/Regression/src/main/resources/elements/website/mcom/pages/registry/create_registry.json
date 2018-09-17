@@ -1,0 +1,8 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "url": "/wgl/registry/create-registry || wgl/registry/signin",
+  "verify_page": "id,createRegistryForm || id, createRegistry"
+}

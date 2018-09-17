@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "getHalInfo": {
+    "ex": "function () { }",
+    "response": {
+      "halType": "iOS",
+      "availableFunctions": [
+        "Camera"
+      ],
+      "amIinHal": "true",
+      "halVersion": "6.6.6"
+    }
+  },
+  "goToLandingPage": {
+    "ex": "function () { Backbone.Radio.channel('Bag').request('GoToProduct'); }",
+    "response": {}
+  },
+  "goToProductDiscovery":{
+    "ex":"function () {}",
+    "response":{}
+  },
+  "getDeviceId": {
+    "ex": "function () {}",
+    "response": {
+      "deviceId": "7aa5e48e-9fd4-4261-a862-04461f84d92d"
+    }
+  },
+  "forwardMsg": {
+    "ex": "function ( data ) { var hash = JSON.stringify(data).split('').reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0); localStorage['dataForwardMsg_'+hash] = JSON.stringify(data); Backbone.Radio.channel('Simulator').request('ForwardMessage', hash ); }",
+    "response": true
+  },
+  "queryMsgs":{
+    "ex":"function () { for(var r,o=0,n=0;r=window.localStorage.key(o);o++)'forward'===r.substring(0,7)&&n++;HAL.simulatorData.queryMsgs.response=n;}",
+    "response": ""
+  },
+  "saveData": {
+    "ex": "function ( data ) { localStorage[data.key] = JSON.stringify(data.value); }",
+    "response": true
+  },
+  "clearData": {
+    "ex": "function ( data ) { localStorage.removeItem(data.key); }",
+    "response": true
+  },
+  "restoreData": {
+    "ex": "function (data) { var resp = {}; var value = localStorage.getItem(data.key); if( value != null ) { resp = {'key' : data.key, 'value': JSON.parse(value)} } HAL.simulatorData.restoreData.response = resp; }",
+    "response": {}
+  },
+  "getDeviceBatteryLevel": {
+    "ex": "function () {}",
+    "response": 98
+  },
+  "isFixedRegister":{
+    "ex":"function () {}",
+    "response":false
+  },
+  "getLocationInformation": {
+    "ex": "function () {}",
+    "response": {
+      "locationInformation": {
+        "divInfo": {
+          "num": "71"
+        },
+        "storeInfo": {
+          "num": "337",
+          "zipCode": "23233",
+          "locn": "5045"
+        },
+        "zipCode": "23233"
+      }
+    }
+  },
+  "connectToPrinter": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disconnectFromPrinter": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getPrinterStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "printdata": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getPrinterInfo": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "hasSavedPrinter": {
+    "ex": "function () {}",
+    "response": true
+  },
+  "isSSOAuthenticated": {
+    "ex": "function () {}",
+    "response": {
+      "jwt": " ",
+      "error": {
+        "errorCode": 0
+      },
+      "associateInfo": {
+        "clockStatus": 0,
+        "associateName": "MacysAuto10",
+        "managerLevel": 9,
+        "exemptStatus": 1,
+        "exemptType": 9,
+        "associateStatus": "",
+        "clientTodo": "2000-01-01",
+        "inq28Status": 0,
+        "associateNbr": 71234561,
+        "empClass": 0
+      }
+    }
+  },
+  "lauchSSOPage": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "logoutAssociate": {
+    "ex": "function () {}",
+    "response": true
+  },
+  "getSledBatteryLevel": {
+    "ex": "function () {}",
+    "response": 95
+  },
+  "getSledStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "enableScanner": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disableScanner": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getScannerStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getScannerInfo":{
+    "ex":"function () {}",
+    "response":{
+      "enabled": true,
+      "version": "1.0.0"
+    }
+  },
+  "enableMsr": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "disableMsr": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getMsrStatus": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "storeAnalyticsLogs": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "setForm" : {
+    "ex":"function () {}",
+    "response":{}
+  },
+  "promptForSig": {
+    "ex":"function () {}",
+    "response":{}
+  },
+  "promptYesOrNo": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "getCRUInfo": {
+    "ex": "function () {}",
+    "response": {}
+  },
+  "initHal": {
+    "ex": "function () {}",
+    "response": {
+      "hostInformation": {
+        "ssp": "fs010asssp01",
+        "isp": "fs337asisp01",
+        "cloud": "node1.macyslanding.c4d.devops.fds.com"
+      }
+    }
+  }
+}

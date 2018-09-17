@@ -1,0 +1,18 @@
+{
+  "bloomingdales": [
+    {
+      "return_order": "picked_up",
+      "order_number": "487956804",
+      "email": "manjeetrocks@gmail.com",
+      "shipping_zip_code": "94107",
+      "carrier_tracking_nbr": "1ZA6A5859036697485"
+    },
+    {
+      "return_order": "canceled",
+      "order_number": "471763276",
+      "email": "ordermod@bloomingdales.com",
+      "shipping_zip_code": "94539",
+      "carrier_tracking_nbr": "1ZA6A5859036697485"
+    }
+  ]
+}

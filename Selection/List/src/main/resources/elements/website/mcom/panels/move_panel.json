@@ -1,0 +1,8 @@
+{
+  "create_new_list":          "xpath,.//*[@id='btnCreateNewList']",
+  "default_list":             "xpath,.//*[@id='list_of_lists']/li[4]/a",
+  "list_name_text":           "xpath,.//*[@id='listName']",
+  "list_cancel":              "xpath,.//*[@id='btnCancelCreateList']",
+  "list_create":              "xpath,.//*[@id='btnCreateList']",
+  "product_description":      "xpath,.//*[@id='itemMoveDialog']/section[2]"
+}

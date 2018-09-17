@@ -1,0 +1,5 @@
+{
+  "next_button": "id, button_next",
+  "back_button": "id, button_back",
+  "marketing_checkbox": "className, contentChannel||className, checker"
+}

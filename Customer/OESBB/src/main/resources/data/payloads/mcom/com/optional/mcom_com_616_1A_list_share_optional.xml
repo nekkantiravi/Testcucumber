@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber />
+	<replyToDisplayName>OES TESTING</replyToDisplayName>
+	<replyToEmailAddress>oestesting@gmail.com</replyToEmailAddress>
+	<explanationText />
+	<mailingLabelURL />
+	<shipmentDetail>
+		<firstName />
+		<giftRegistryNumber />
+		<itemDetail>
+			<lineNumber />
+			<description />
+			<requestedQuantity />
+			<availableQuantity />
+			<upcNumber />
+			<returnExpectedBackDate />
+			<returnReason />
+			<lineProductUrl />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description></description>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<upcNumber></upcNumber>
+			<returnExpectedBackDate />
+			<returnReason />
+			<lineProductUrl></lineProductUrl>
+			<lineImageType></lineImageType>
+			<linePrimaryImageUrl></linePrimaryImageUrl>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber></lineNumber>
+			<description>Nine West Just Zip It Large Shoulder Bag</description>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<upcNumber></upcNumber>
+			<returnExpectedBackDate />
+			<returnReason />
+			<lineProductUrl></lineProductUrl>
+			<lineImageType></lineImageType>
+			<linePrimaryImageUrl></linePrimaryImageUrl>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

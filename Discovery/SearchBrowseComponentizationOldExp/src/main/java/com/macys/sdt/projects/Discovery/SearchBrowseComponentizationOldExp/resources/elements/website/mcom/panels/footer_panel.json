@@ -1,0 +1,9 @@
+{
+
+    "item_count_section_bottom":                   "id, filterPPPBottom",
+    "ads_by_google_section":                       "id,googleAdsense",
+    "recentlyViewedContainer":                     "id, recentlyViewedContainerNew",
+    "rviRemove":                                   "className, rviRemoveBtn",
+    "rviEdit":                                     "className, editRvi",
+    "rviThumbnails":                                "className, thumb"
+}

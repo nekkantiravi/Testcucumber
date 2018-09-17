@@ -1,0 +1,31 @@
+{
+    "include": [
+        "panel.pagination_top"
+    ],
+
+    "facetPanelLabel":                  "id, facet_nav",
+    "facet_breadcrumb_container":       "id, facetItems",
+    "facetBreadcrumbs":                "className, facetbreadcrumb",
+    "facet_item":                       "className, item",
+    "facetRemoveBreadcrumb":           "className, removeFacet",
+    "clearAllButton":             "xpath,//div[contains(@id,'facet_nav')]//button",
+    "facetPanelFilterByLabel":          "id, facet_nav",
+    "pagination_container":             "id, paginateTop",
+    "selected_facet_name":              "xpath,//li[contains(@class,' selected')]//ancestor::li[contains(@class,'typbox')]",
+    "displayed_facet_names":            "xpath,//h2[contains(@class,'facet_name ')]//parent::li",
+    "expand_all_brand_facet":           "cssSelector, #all_brands",
+    "featured_brand_values":            "id, featured_brands_list",
+    "all_brand_list":                   "id, all_brands_list",
+    "error_highlight":                  "className, errorHiglight",
+    "x_icon":                           "className, clearlink",
+    "custom_max_price":                 "id, toValue",
+    "custom_min_price":                 "id, fromValue",
+    "price_go":                         "id, submitCustomPrice",
+    "price_error":                      "id, customPriceError",
+    "custom_select_option":             "id, custompriceitem",
+    "customPriceFrom":                "id, fromValue",
+    "customPriceTo":                  "id, toValue",
+    "customPriceSubmit":              "id, submitCustomPrice"
+
+
+}

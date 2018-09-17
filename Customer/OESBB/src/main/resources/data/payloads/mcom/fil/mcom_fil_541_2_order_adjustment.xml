@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>98758285</reservationNumber>
+   <internetOrderNumber>123456789</internetOrderNumber>
+   <thirdPartyOrderNumber>TEST-RES-123</thirdPartyOrderNumber>
+   <orderDate>08/25/2014</orderDate>
+   <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Sat 9am-7pm, Sun 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>N</ltyFlag>
+   <ltyIdUsl>1234567890123456</ltyIdUsl>
+   <shopAt>macys.com</shopAt>
+   <explanationText>Sample explanation text for testing</explanationText>
+   <orderSubtotalAmt>259.99</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>17.55</taxAmt>
+   <orderTotal>277.54</orderTotal>
+   <divisionCode>071</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText>adhoc text for testing</adhocText>
+   <billingDetail>
+      <title>MR.</title>
+      <firstName>OES</firstName>
+      <middleName>Team</middleName>
+      <lastName>Testing</lastName>
+      <attnLine>Attention: OES</attnLine>
+      <addressLine1>680 FOLSOM STREET</addressLine1>
+      <addressLine2>SUIT 1200</addressLine2>
+      <addressLine3>11th FLOOR</addressLine3>
+      <city>San Francisco</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94107</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>277.54</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <pickupBarcode>1234567001</pickupBarcode>
+      <shippedDate>12/31/9999</shippedDate>
+      <pickupReadyDate>04/14/2006</pickupReadyDate>
+      <pickupCancelDate>04/14/2006</pickupCancelDate>
+      <shipRetailAmt>100.25</shipRetailAmt>
+      <shipTaxAmt>10.25</shipTaxAmt>
+      <shipFilLoc>733</shipFilLoc>
+      <mailFlag>Y</mailFlag>
+      <shipmentMethod>FEDEX</shipmentMethod>
+      <title>Mr.</title>
+      <firstName>OES</firstName>
+      <middleName>Team</middleName>
+      <lastName>Testing</lastName>
+      <attnLine>Attn: OES</attnLine>
+      <addressLine1>680 FOLSOM STREET</addressLine1>
+      <addressLine2>SUIT 1200</addressLine2>
+      <addressLine3>11th Floor</addressLine3>
+      <city>San Francisco</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94107</zipcode>
+      <shipPhone>4154211111</shipPhone>
+      <shipEmailAddress>oestest@gmail.com</shipEmailAddress>
+      <greetingMessage>Happy Birthday</greetingMessage>
+      <closingMessage>Have Fun</closingMessage>
+      <signatureMessage>Thank You</signatureMessage>
+      <giftRegistryNumber>5664</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail>oestest@fds.com</giftReceipientEmail>
+      <giftRegistrant1>OES Testing</giftRegistrant1>
+      <giftRegistrant2>OES Team</giftRegistrant2>
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <trackingDetail>
+         <trackingNumber>XA34949Z90993FG</trackingNumber>
+         <numberofPackages>2</numberofPackages>
+      </trackingDetail>
+      <itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>UPC 000000002691488604</description>
+			<price>0.00</price>
+			<requestedQuantity>005</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>0.00</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status />
+			<vendor />
+			<cancelledQuantity>04</cancelledQuantity>
+			<upcId>000000002691488604</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>M</size>
+			<color>W</color>
+		</itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

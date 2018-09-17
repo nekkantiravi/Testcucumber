@@ -1,0 +1,14 @@
+{
+
+  "designer_homepage_fob"              : "xpath,//a[text()='DESIGNERS']",
+  "a_index"                            : "xpath,//div[@id='brandIndex']//a[text()='A']",
+  "z_index"                            : "xpath,//div[@id='brandIndex']//a[text()='Z']",
+  "c_index"                            : "xpath,//div[@id='brandIndex']//a[text()='C']",
+  "c_letter_text"                      : "xpath,//div[@id='starting_withC']//h2[text()='C']",
+  "category_cletter_link"              : "xpath,//div[@id='starting_withC']//a[text()='Cuisinart'] || id,designer_Charles Viancin",
+  "x_index_disabled"                   : "xpath,//div[@id='brandIndex']//a[24]",
+  "all_index"                          : "xpath,//*[@id='brandIndex']/div[2]/a",
+  "left_nav_Brand_items"               : "xpath,//*[@class='categoryHeader']/li/span"
+
+
+}

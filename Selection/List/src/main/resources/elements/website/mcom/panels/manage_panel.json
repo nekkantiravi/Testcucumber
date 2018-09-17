@@ -1,0 +1,10 @@
+{
+  "settings_save":         "xpath,.//*[@id='btnListSaveSettings']",
+  "settings_cancel":       "xpath,.//*[@id='btnListCancelSettings']",
+  "settings_close":        "xpath,./html/body/div[6]/div[1]/button",
+  "list_name_box":         "xpath,.//*[@id='listName']",
+  "check_searchable":      "xpath,.//*[@id='listMakeSearchable']",
+  "check_default":         "xpath,.//*[@id='listMakeDefault']",
+  "check_alerts":          "xpath,.//*[@id='listManageSettings']/form/div[5]/div[1]/label/span"
+
+}

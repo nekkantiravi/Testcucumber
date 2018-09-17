@@ -1,0 +1,107 @@
+{
+  "addresses": [
+    {
+      "address_line_1": "219 SHEFFIELD CENTER",
+      "address_line_2": "",
+      "address_city": "LORAIN",
+      "address_state": "OH",
+      "address_zip_code": "44055",
+      "phone_area_code": "775",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "299 SW 8th STREET",
+      "address_line_2": "",
+      "address_city": "MIAMI",
+      "address_state": "FL",
+      "address_zip_code": "33130",
+      "phone_area_code": "305",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "501 Chambers Street",
+      "address_line_2": "",
+      "address_city": "TRENTON",
+      "address_state": "NJ",
+      "address_zip_code": "08609",
+      "phone_area_code": "305",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "548 Market St",
+      "address_line_2": "",
+      "address_city": "San Francisco",
+      "address_state": "CA",
+      "address_zip_code": "94104",
+      "phone_area_code": "415",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "10850 SW 68th Ave",
+      "address_line_2": "",
+      "address_city": "MIAMI",
+      "address_state": "FL",
+      "address_zip_code": "33156",
+      "phone_area_code": "786",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "10850 SW 68th Ave",
+      "address_line_2": "",
+      "address_city": "MIAMI",
+      "address_state": "FL",
+      "address_zip_code": "33156",
+      "phone_area_code": "305",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "726 Connecticut Avenue",
+      "address_line_2": "",
+      "address_city": "Norwalk",
+      "address_state": "CT",
+      "address_zip_code": "06854",
+      "phone_area_code": "203",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    },
+    {
+      "address_line_1": "343 Broad Street",
+      "address_line_2": "",
+      "address_city": "Providence",
+      "address_state": "RI",
+      "address_zip_code": "02907",
+      "phone_area_code": "401",
+      "country": "United States",
+      "country_code": "US",
+      "bigTicket": "true",
+      "checkout_eligible": "true"
+    }
+  ]
+}
+
+
+
+
+
+
+

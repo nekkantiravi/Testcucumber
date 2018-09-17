@@ -1,0 +1,26 @@
+{
+  "url": "/customer",
+
+  "include": [
+    "panel.header_and_footer",
+    "panel.flexible_template"
+  ],
+
+  "verify_page": 	"class, customer-page",
+  "findcustomer_title":     "xpath, //div[@id='content']/span/div/div/h3",
+  "customer_lookupfield":   "id, inputFieldLookup",
+  "findcustomer_button":    "class, button-large",
+  "camerascanner_title":    "xpath, //div[@id='scannerLookup']/div/div[2]/p",
+  "cardlookup_title":       "xpath, //div[@id='cardLookup']/div/div[2]/p",
+  "scanner_icon":		    "id, scan_bar_icon",
+  "creditcard_icon":        "xpath, //div[@id='Layer_1']/g/path",
+  "tooltips_icon":          "id, icon_information_circle",
+  "tooltips_popup":         "class, tool-tip-popup",
+  "tooltips_close":         "class, tooltip-close",
+  "tooltips_message":       "class, main-message",
+  "customer_action_menu":   "id, customer-action-menu"
+  
+  
+  
+
+}

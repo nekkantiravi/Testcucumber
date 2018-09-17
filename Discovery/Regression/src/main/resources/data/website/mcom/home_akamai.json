@@ -1,0 +1,280 @@
+{
+  "macys": {
+    "www.macys.com": {
+      "site-buy": {
+        "host": "www.macys.com",
+        "pattern": "/buy/",
+        "cp_code": "161838",
+        "ttl": "UNKNOWN"
+      },
+      "site-availabilitycheck": {
+        "host": "www.macys.com",
+        "pattern": "/catalog/product/availabilityCheck",
+        "cp_code": "106134",
+        "ttl": "1h"
+      },
+      "site-browse-facetedmeta": {
+        "host": "www.macys.com",
+        "pattern": "/catalog/category/facetedmeta",
+        "cp_code": "106131",
+        "ttl": "45m"
+      },
+      "site-shop": {
+        "host": "www.macys.com",
+        "pattern": "/shop/.*(?!browse)",
+        "cp_code": "106132",
+        "ttl": "1d"
+      },
+      "site-thumbnail1": {
+        "host": "www.macys.com",
+        "pattern": "/shop/catalog/product/thumbnail/1",
+        "cp_code": "106133",
+        "ttl": "1d"
+      },
+      "site-newthumbnail": {
+        "host": "www.macys.com",
+        "pattern": "/shop/catalog/product/newthumbnail/json(?=.*productId)(?=.*source=118)",
+        "cp_code": "285812",
+        "ttl": "1d"
+      },
+      "site-pdp": {
+        "host": "www.macys.com",
+        "pattern": "/shop/product/",
+        "cp_code": "165499",
+        "ttl": "15m"
+      },
+      "site-sns-yuicombo": {
+        "host": "www.macys.com",
+        "pattern": "/sns/yuiCombo",
+        "cp_code": "320929",
+        "ttl": "UNKNOWN"
+      },
+      "site-spa-assets": {
+        "host": "www.macys.com",
+        "pattern": "(prob_throttle.esi|spa_probability.esi|spawaitingroom)",
+        "cp_code": "79276",
+        "ttl": "UNKNOWN"
+      },
+      "site-spa-throttled": {
+        "host": "www.macys.com",
+        "pattern": "/.*spawaitingroom.html",
+        "cp_code": "79277",
+        "ttl": "UNKNOWN"
+      },
+      "site-registry-search": {
+        "host": "www.macys.com",
+        "pattern": "/shop/registry/wedding/search",
+        "cp_code": "227268",
+        "ttl": "45m"
+      },
+      "site-search": {
+        "host": "www.macys.com",
+        "pattern": "/shop/(search|featured)",
+        "cp_code": "227267",
+        "ttl": "45m"
+      },
+      "site-api-stores-bops-2": {
+        "host": "www.macys.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?!.*productIds)(?!.*_availGroup=BOPS)",
+        "cp_code": "262057",
+        "ttl": "1d"
+      },
+      "site-api-stores-bops-3": {
+        "host": "www.macys.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?=.*productIds)",
+        "cp_code": "262058",
+        "ttl": "1d"
+      },
+      "site-api-stores-bops-1": {
+        "host": "www.macys.com",
+        "pattern": "/api/store/v1/stores(?=.*locationNumbers)(?=.*_fields)(?=.*_availGroup=BOPS)",
+        "cp_code": "262056",
+        "ttl": "1d"
+      },
+      "site-api-stores-latlong": {
+        "host": "www.macys.com",
+        "pattern": "/api/store/v2/stores(?=.*latitude)(?=.*longitude)",
+        "cp_code": "294272",
+        "ttl": "1d"
+      },
+      "site-api-stores-address": {
+        "host": "www.macys.com",
+        "pattern": "/api/store/v2/stores.*searchAddress",
+        "cp_code": "294274",
+        "ttl": "1d"
+      },
+      "site-category-cache": {
+        "host": "www.macys.com",
+        "pattern": "/catalog/index.ognc",
+        "cp_code": "42434",
+        "ttl": "UNKNOWN"
+      },
+      "site-homepage": {
+        "host": "www.macys.com",
+        "pattern": "/(index.ognc[\\?.*]?)?",
+        "cp_code": "51114",
+        "ttl": "365d"
+      },
+      "site-mcom-logo-homepage": {
+        "host": "www.macys.com",
+        "pattern": "/\\?cm_sp=navigation-_-top_nav-_-macys_icon",
+        "cp_code": "51114",
+        "ttl": "365d"
+      },
+      "site-product-cache": {
+        "host": "www.macys.com",
+        "pattern": "/catalog/product/(index.ognc|quickview/|thumbnail/)",
+        "cp_code": "10048",
+        "ttl": "UNKNOWN"
+      },
+      "site-search-cache": {
+        "host": "www.macys.com",
+        "pattern": "/search/(index|results).ognc",
+        "cp_code": "42444",
+        "ttl": "UNKNOWN"
+      },
+      "site-search-autocomplete": {
+        "host": "www.macys.com",
+        "pattern": "/suggester.*prefix",
+        "cp_code": "241017",
+        "ttl": "UNKNOWN"
+      },
+      "auth-shipping": {
+        "host": "www.macys.com",
+        "pattern": "/shop/international/shipping/supportedCountry",
+        "cp_code": "67476",
+        "ttl": "UNKNOWN"
+      },
+      "site-browse": {
+        "host": "www.macys.com",
+        "pattern": "(/shop|/browse)",
+        "cp_code": "394324",
+        "ttl": "45m"
+      },
+      "site-navapp-componentization": {
+        "host": "www.macys.com",
+        "pattern": "/api/navigation/products/(.*)",
+        "cp_code": "392214",
+        "ttl": "UNKNOWN"
+      },
+      "site-gamify-loveit": {
+        "host": "www.macys.com",
+        "pattern": "/gamify/product/loveit",
+        "cp_code": "386555",
+        "ttl": "UNKNOWN"
+      },
+      "site-ce": {
+        "host": "www.macys.com",
+        "pattern": "/ce/",
+        "cp_code": "394357",
+        "ttl": "UNKNOWN"
+      },
+      "site-recommendations": {
+        "host": "www.macys.com",
+        "pattern": "/recommendations",
+        "cp_code": "395472",
+        "ttl": "365d"
+      },
+      "site-wgl-api": {
+        "host": "www.macys.com",
+        "pattern": "/wgl-api/products/",
+        "cp_code": "378048",
+        "ttl": "UNKNOWN"
+      },
+      "site-seo-cdn": {
+        "host": "www.macys.com",
+        "pattern": "/seo-cdn/(.*)",
+        "cp_code": "319239",
+        "ttl": "UNKNOWN"
+      },
+      "site-default": {
+        "host": "www.macys.com",
+        "pattern": "Default",
+        "cp_code": "9533",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "assets.macys.com": {
+      "assets-default": {
+        "host": "assets.macys.com",
+        "pattern": "Default",
+        "cp_code": "13097",
+        "ttl": "365d"
+      }
+    },
+    "images.macys.com": {
+      "images-default": {
+        "host": "images.macys.com",
+        "pattern": "Default",
+        "cp_code": "9532",
+        "ttl": "365d"
+      }
+    },
+    "m.macys.com": {
+      "wssg-default": {
+        "host": "m.macys.com",
+        "pattern": "/api",
+        "cp_code": "239505",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "www1.pos.macys.com": {
+      "pos-default": {
+        "host": "www1.pos.macys.com",
+        "pattern": "Default",
+        "cp_code": "55531",
+        "ttl": "365d"
+      },
+      "pos-product-cache": {
+        "host": "www1.pos.macys.com",
+        "pattern": "(/catalog/product/index.ognc|/forceproductcachekey/|/forceupccachekey/)",
+        "cp_code": "55532",
+        "ttl": "1d"
+      },
+      "pos-search-cache": {
+        "host": "www1.pos.macys.com",
+        "pattern": "/search/index.ognc",
+        "cp_code": "55533",
+        "ttl": "365d"
+      }
+    },
+    "macys.com": {
+      "site-macys.com tld": {
+        "host": "macys.com",
+        "pattern": "Default",
+        "cp_code": "226802",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "wc.slimages.macys.com": {
+      "images-wedding-channel": {
+        "host": "wc.slimages.macys.com",
+        "pattern": "Default",
+        "cp_code": "11486",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "wc.assets.macys.com": {
+      "assets-wedding-channel": {
+        "host": "wc.assets.macys.com",
+        "pattern": "Default",
+        "cp_code": "11486",
+        "ttl": "UNKNOWN"
+      }
+    },
+    "assets.macysassets.com": {
+      "assets-wgl": {
+        "host": "assets.macysassets.com",
+        "pattern": "/page/header-footer-wgl(.*)",
+        "cp_code": "13097",
+        "ttl": "1d"
+      },
+      "assets-default": {
+        "host": "assets.macysassets.com",
+        "pattern": "Default",
+        "cp_code": "13097",
+        "ttl": "365d"
+      }
+    }
+  }
+}

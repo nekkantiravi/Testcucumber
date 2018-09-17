@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>12345</reservationNumber>
+	<internetOrderNumber>277_22A_MWEDD</internetOrderNumber>
+	<orderDate>08/25/2015</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>10.01</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>30.00</addtShipAddAmt>
+	<shipUpgradeAmt>40.00</shipUpgradeAmt>
+	<giftWrapAmt>60.00</giftWrapAmt>
+	<taxAmt>60.00</taxAmt>
+	<orderTotal>200.01</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0406</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 ERWIN ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>WOODLAND HILLS</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91367</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>51.32</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>	
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage>TABLETOP BONUS GIFT FROM MACY'S</signatureMessage>
+		<giftRegistryNumber>2800061412345</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@yahoo.com</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<itemDetail>
+			<lineNumber />
+			<description>NOTTING HILL</description>
+			<price>5.00</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>06</availableQuantity>
+			<shippedQuantity>09</shippedQuantity>
+			<totalAmount>450.00</totalAmount>
+			<expectedDate>01/26/2016</expectedDate>
+			<newExpectedDate>07/31/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>05/05/2016</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>WEDGWOOD</vendor>
+			<cancelledQuantity>00</cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>		
+	</shipmentDetail>
+</mailMessagePayload>

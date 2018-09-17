@@ -1,0 +1,51 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url": "/loyallist/benefits",
+  "verify_page": "id, my-perks||cssSelector, img[alt=benefits]",
+  "info_exclusions": "id, linkInfoExclusions",
+  "loyallist_terms_and_conditions": "id, linkTermsAndConditions",
+  "apply_now": "cssSelector, [title='Apply Now!']",
+  "terms_and_conditions": "linkText, Terms & Conditions||cssSelector, [alt='Terms & Conditions'][shape='POLY']",
+  "learn_more_and_apply": "id, learn-more-and-apply-link||cssSelector, [title~=Charm]",
+  "learn_more_link": "id, learn-more-link||cssSelector, [title='Top Of The List']",
+
+
+  "great_style_should_be_rewarded_img": "class, b-cause-logo",
+  "my_perks_img": "class, img-expand",
+  "the_perks_header": "xpath, //h2[text()='THE PERKS']",
+  "all_loyallists_get": "xpath, //h3[text()='ALL LOYALLISTS GET:']",
+  "at_least_one_point_for_every_dollar_title": "xpath, //strong[text()='AT LEAST ONE POINT FOR EVERY DOLLAR']",
+  "at_least_one_point_for_every_dollar_text": "xpath, //p[text()=' spent at our stores, outlets and bloomingdales.com']",
+  "double_points_title": "xpath, //strong[text()='DOUBLE POINTS']",
+  "double_points_text": "xpath, //p[contains(text(),' on all shoe, cosmetic and fragrance purchases at ')]",
+  "a_25_reward_card_title": "xpath, //strong[text()='A $25 REWARD CARD']",
+  "a_25_reward_card_text": "xpath, //p[text()=' every time you reach 5,000 points']",
+  "a_perk_of_the_month_title": "xpath, //strong[text()='A PERK OF THE MONTH:']",
+  "a_perk_of_the_month_text": "xpath, //p[text()=' A special offer sent to your inbox each month']",
+  "free_shipping_title": "xpath, //strong[text()='FREE SHIPPING']",
+  "free_shipping_text": "xpath, //p[text()=' every day with no minimum purchase required']",
+  "faq": "linkText, FAQs",
+  "top_of_the_list_title": "xpath, //h2[text()='TOP OF THE LIST']",
+  "top_of_the_list_text": "xpath, //p[text()='The most points. The most perks.']",
+  "want_even_more_even_faster_title": "xpath, //h2[text()='WANT EVEN MORE—EVEN FASTER?']",
+  "want_even_more_even_faster_text": "xpath, //p[contains(text(),'Credit Card and get three points per dollar')]",
+  "tcs_bloomingdales_stores_only": "xpath, //p[contains(text(),'1. U.S. Bloomingdale')]",
+  "tcs_reward_cards_cannot_be_redeemed": "xpath, //p[contains(text(),'2. Reward Cards cannot be redeemed in Nespresso shops')]",
+  "tcs_must_have_an_email_address": "xpath, //p[contains(text(),'3. Must have an email address in Loyallist profile')]",
+  "tcs_purchages_must_be_made_with_your_bloomingdales": "xpath, //p[contains(text(),'4. Purchases must be made with your Bloomingdale')]",
+  "bloomingdales_loyallist_link": "xpath, //a[text()='bloomingdales.com/loyallist']",
+  "my_perks_sign_in": "linkText, SIGN IN",
+  "my_perks_create_reg": "linkText, CREATE A REGISTRY"
+
+
+
+
+
+
+
+
+
+
+}

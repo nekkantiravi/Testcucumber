@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>544557672</reservationNumber>
+	<internetOrderNumber>544557672</internetOrderNumber>
+	<orderDate>08/24/2012</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>514.25</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>45.64</taxAmt>
+	<orderTotal>559.89</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0005</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>NOAH</firstName>
+		<middleName />
+		<lastName>277_22A</lastName>
+		<attnLine />
+		<addressLine1>5676 RIVERDALE AVE</addressLine1>
+		<addressLine2>STE 103</addressLine2>
+		<addressLine3 />
+		<city>BRONX</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10471</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************2270</accountNumber>
+		<amount>559.89</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>NOAH</firstName>
+		<middleName />
+		<lastName>FALKENSTEIN</lastName>
+		<attnLine />
+		<addressLine1>5676 RIVERDALE AVE</addressLine1>
+		<addressLine2>STE 103</addressLine2>
+		<addressLine3 />
+		<city>BRONX</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10471</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2809006390973</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>leya.schwartz@gmail.com</giftReceipientEmail>
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>VUELTA OCEAN BLUE</description>
+			<price />
+			<requestedQuantity>016</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>11/30/2012</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>JARS STONEWARE</vendor>
+			<cancelledQuantity />
+			<upcId>190089164219</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>VUELTA OCEAN BLUE</description>
+			<price />
+			<requestedQuantity>016</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>11/30/2012</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>JARS STONEWARE</vendor>
+			<cancelledQuantity />
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

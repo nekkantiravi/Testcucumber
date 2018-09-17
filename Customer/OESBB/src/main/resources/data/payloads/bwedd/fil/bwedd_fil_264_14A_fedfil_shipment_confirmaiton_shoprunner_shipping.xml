@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>1234567890</reservationNumber>
+	<internetOrderNumber>1234567890</internetOrderNumber>
+	<orderDate>01/13/2016</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>39.98</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>2.80</taxAmt>
+	<orderTotal>42.78</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-800-537-0197</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl />
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 LINCOLN PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>WEEHAWKEN</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07086</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MasterCard</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>42.78</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>01/18/2016</shippedDate>
+		<mailFlag>C</mailFlag>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>123 LINCOLN PL</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>WEEHAWKEN</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07086</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>2800022811234</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<trackingDetail>
+			<trackingNumber>1Z6WA984YW01612345</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPS SurePost 1</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Acacia Plttr</description>
+			<price>19.99</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>002</shippedQuantity>
+			<totalAmount>39.98</totalAmount>
+			<expectedDate>01/18/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>800298555295</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

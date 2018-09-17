@@ -1,0 +1,137 @@
+<mailMessagePayload>
+	<reservationNumber>RES26414U015</reservationNumber>
+	<internetOrderNumber>264_14U_MCOM</internetOrderNumber>
+	<orderDate>04/26/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText>explanationText</explanationText>
+	<orderSubtotalAmt>29.99</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt>30.00</addtShipAddAmt>
+	<shipUpgradeAmt>45.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>3.58</taxAmt>
+	<orderTotal>38.57</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText>adhocText</adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>We're available 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>Y</smsFlag>
+	<ltyFlag>Y</ltyFlag>
+	<ltyIdUsl>1234567890123456</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 ERWIN ST</addressLine1>
+		<addressLine2>UNIT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>WOODLAND HILLS</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91367</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1111</accountNumber>
+		<amount>75.00</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+    </paymentDetail>   
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/26/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title>Mr.</title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>6271 Old Dominion</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>New York</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10022</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber></giftRegistryNumber>
+		<giftWrapFlag></giftWrapFlag>
+		<giftReceipientEmail></giftReceipientEmail>
+		<giftRegistrant1></giftRegistrant1>
+		<giftRegistrant2></giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode>555127771234</pickupBarcode>
+		<pickupReadyDate>04/26/2016</pickupReadyDate>
+		<pickupCancelDate>05/03/2016</pickupCancelDate>
+		<shipRetailAmt>29.99</shipRetailAmt>
+		<shipTaxAmt>3.07</shipTaxAmt>
+		<shipFilLoc>4595</shipFilLoc>
+		<shipPhone>205-243-1234</shipPhone>
+		<shipEmailAddress>OESTESTING@testing.COM</shipEmailAddress>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>Wallet, Saffiano Credit Card C</description>
+			<price>17.24</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>17.24</totalAmount>
+			<expectedDate>04/26/2016</expectedDate>
+			<newExpectedDate>05/26/2016</newExpectedDate>
+			<delaySentDate>04/29/2016</delaySentDate>
+			<delayWaitDate>04/30/2016</delayWaitDate>
+			<systemCancelDate>05/01/2016</systemCancelDate>
+			<shipmentType>SAMEDAY</shipmentType>
+			<splitShipmentFlag>Y</splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>Calvin Klein</vendor>
+			<cancelledQuantity>001</cancelledQuantity>
+			<upcId>766360214173</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>OS</size>
+			<color>BLK</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>Mens Shoes, Adam Oxfords</description>
+			<price>29.99</price>
+			<requestedQuantity>003</requestedQuantity>
+			<availableQuantity>004</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>29.99</totalAmount>
+			<expectedDate>04/26/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>SAMEDAY</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>VOIDED</status>
+			<vendor>Alfani</vendor>
+			<cancelledQuantity>004</cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus></returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>8</size>
+			<color>Black</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

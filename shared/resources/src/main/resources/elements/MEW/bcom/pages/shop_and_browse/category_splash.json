@@ -1,0 +1,16 @@
+{
+  "include": [
+    "panel.main_left_nav"
+  ],
+
+  "url":              "/shop/",
+  "verify_page":      "className, b-splash-name",
+
+  "category_name":  "className, b-splash-name",
+  "sub_categories": "cssSelector, li.b-splash-item>a.b-splash-link>img",
+  "banner_container": "id, b-splash-banner-container",
+  "splash_items_container": "id,b-cat-splash-list-icons",
+  "banner_images": "class, b-banner-img",
+  "tag_cloud":      "id, tagCloud",
+  "popular_related_searches": "xpath, //div[@id='tagCloud']/div[2]/div"
+}

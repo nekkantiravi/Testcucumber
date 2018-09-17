@@ -1,0 +1,24 @@
+{
+  "url":                          "/stores.html",
+  "verify_page":                  "cssSelector, button.search-button",
+
+  "container":                    "cssSelector, div.container.searcher-container",
+  "verify_element":               "cssSelector, input.search-input",
+  "search_input":                 "cssSelector, input.search-input",
+  "search_radius":                "cssSelector, select[name$='radius']",
+  "search_filters":               "cssSelector, select.chosen",
+  "search_button":                "cssSelector, button.search-button",
+  "search_error_msg":             "cssSelector, div.no-results-text",
+
+  "store_list":                   "cssSelector, div.location-list-results",
+  "store_list_entry":             "cssSelector, div.location",
+  "store_title":                  "cssSelector, h4.location-title",
+  "no_results_found":             "cssSelector, h4.no-results-header",
+  "search_results":               "cssSelector, p.query-result-info",
+  "search_query":                 "cssSelector, p.query-result-info-query",
+  "map_view_hide":                "cssSelector, a#mobile-map-toggle span.mobile-map-toggle-text-expanded",
+  "map_view_show":                "cssSelector, a#mobile-map-toggle span.mobile-map-toggle-text-collapsed",
+  "map_container":                "cssSelector, div#mobile-map",
+  "EOF":                          "name, EOF"
+}
+

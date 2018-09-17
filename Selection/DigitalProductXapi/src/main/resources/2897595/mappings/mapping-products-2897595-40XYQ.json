@@ -1,0 +1,22 @@
+{
+  "id" : "f34bd787-fb89-3b48-abab-fea382c3e91a",
+  "request" : {
+    "urlPath" : "/api/catalog/v2/products/2897595",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-products-2897595-40XYQ.json",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Macys-Handled-By" : "FCC",
+      "Cache-Control" : "no-transform, must-revalidate, max-age=1",
+      "Vary" : [ "Accept", "Accept-Encoding" ],
+      "X-Macys-ClientId" : "digital-product-xAPI",
+      "X-Macys-RequestId" : "56117b2e-721f-4427-aba7-e64ff7799852",
+      "Content-Type" : "application/json",
+      "Date" : "Thu, 04 Jan 2018 18:33:12 GMT"
+    }
+  },
+  "uuid" : "f34bd787-fb89-3b48-abab-fea382c3e91a"
+}

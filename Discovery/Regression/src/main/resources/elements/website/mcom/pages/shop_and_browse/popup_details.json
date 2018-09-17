@@ -1,0 +1,11 @@
+{
+  "url": "/shop/popup",
+  "verify_page": "className,home-popup",
+  "popup_links":"xpath, //*[contains(@href,'javascript:pop') and not (text()='macysJOBS') and not (text()='press room') and not (text()='investors')]",
+  "macys_logo": "xpath, //div[@class='home-popup']//img[contains(@alt,'Way To Shop') or contains(@src,'myDynamicPopupLogo')]",
+  "header": "className, header-text",
+  "text": "className,plain-text",
+  "disclaimer": "className, disclaimer-text",
+  "close": "id, popupClose",
+  "content": "id, myDynPopupDetails"
+}

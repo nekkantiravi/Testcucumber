@@ -1,0 +1,74 @@
+{
+  "Android": {
+    "5.1": [
+      "Motorola_Moto_E2_real_us"
+    ],
+    "5.1.1": [
+      "Samsung_Galaxy_Note_4_5_real",
+      "Samsung_Galaxy_Note_4_5_1_real",
+      "Samsung_Galaxy_S5_mini_real"
+    ],
+    "6.0": [
+      "HTC_One_M8_real",
+      "Huawei_Mate_7_real_us"
+    ],
+    "6.0.1": [
+      "Samsung_Galaxy_S6_Edge_Plus_real_us",
+      "Sony_Xperia_Z2_real_us",
+      "HTC_10_real",
+      "Huawei_Honor_5X_real_us",
+      "LG_G5_real_us",
+      "LG_Nexus_5_real",
+      "Motorola_Moto_X_Play_real",
+      "OnePlus_3_real_us",
+      "Samsung_Galaxy_J5_real",
+      "Samsung_Galaxy_S5_real",
+      "Samsung_Galaxy_S6_real",
+      "Sony_xz_real_us"
+       ],
+    "7.0_63": [
+      "Samsung_Galaxy_S8_plus_real_us",
+      "Samsung_Galaxy_Note_8_real_us",
+      "Samsung_Galaxy_S7_real",
+      "Samsung_Note_5_7_real_us"
+    ],
+    "TA.8.0.X": [
+      "Google_Pixel_C_8_real_us"
+    ],
+    "TA.7.1.X": [
+      "Google_Pixel_C_real"
+    ],
+    "TA.6.0.X": [
+      "Samsung_Galaxy_Tab_S_105_real_us",
+      "Samsung_Tab_E_real_us",
+      "Samsung_Galaxy_Tab_A_real",
+      "Samsung_Galaxy_Tab_S_8.4_real"
+    ]
+  },
+  "IOS": {
+    "9.3": [
+      "iPhone_6_Plus_9_3_real",
+      "iPhone_6S_9_3_real",
+      "iPhone_5C_9_3_real"
+    ],
+    "9.3.5": [
+      "iPhone_6S_Plus_16GB_real_2"
+    ],
+    "10.0": [
+      "iPhone_5_free",
+      "iPhone_6_Plus_10_0_real"
+    ],
+    "10.1": [
+      "iPhone_6_Plus_real_us",
+      "iPhone_5S_10_1_real",
+      "iPhone_5C_10_1_real",
+      "iPhone_5_16GB_real_us"
+            
+    ],
+    "10.2": [
+      "iPhone_5C_10_2_real",
+      "iPhone_5S_16GB_real_us",
+      "iPhone_6S_10_2_real"
+    ]
+  }
+}

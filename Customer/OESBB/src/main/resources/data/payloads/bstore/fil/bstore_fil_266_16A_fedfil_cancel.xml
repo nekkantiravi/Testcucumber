@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>266_16A_bstore</reservationNumber>
+	<internetOrderNumber>611360125</internetOrderNumber>
+	<orderDate>11/11/2012</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>156.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>156.00</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0006</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>ROBERTO</firstName>
+		<middleName />
+		<lastName>DEVILLA</lastName>
+		<attnLine />
+		<addressLine1>502A BLOOMFIELD AVE</addressLine1>
+		<addressLine2>APT 2D1</addressLine2>
+		<addressLine3 />
+		<city>CALDWELL</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07006</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************2637</accountNumber>
+		<amount>156.00</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>BLOOMINGDALES</firstName>
+		<middleName />
+		<lastName>ROBERTO DAVILLA</lastName>
+		<attnLine />
+		<addressLine1>1200 MORRISTKPE</addressLine1>
+		<addressLine2>ATTN MENS BURBERRY</addressLine2>
+		<addressLine3 />
+		<city>SHORT HILLS</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>07078</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>A:MU WOOL MEGA CHK:A</description>
+			<price>156.00</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>156.00</totalAmount>
+			<expectedDate>11/16/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor>BURBERRY</vendor>
+			<cancelledQuantity>005</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<userCancelDate>11/14/2012</userCancelDate>
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,41 @@
+{
+  "include": [
+    "panel.navigation",
+    "panel.header_and_footer"
+  ],
+  "url": "/account/addressbook",
+  "format_url": "/account/addressbook",
+  "verify_page": "id, firstName || id, localContentContainer",
+
+  "first_name": "id, firstName",
+  "last_name": "id, lastName",
+  "address_line_1": "id, shippingContact.address.addressLine1",
+  "address_line_2": "id, addressLine2||id, shippingContact.address.addressLine2",
+  "address_city": "id, city",
+  "address_state": "id, shippingContact.address.state",
+  "address_zip_code": "id, postalCode",
+  "phone_area_code": "id, areaCode",
+  "phone_exchange": "id, exchangeNbr",
+  "phone_subscriber": "id, subscriberNbr",
+  "add_address_button": "name, processShippingAddress",
+  "update_address": "name, processShippingAddress",
+  "primary_address": "id, primaryAddress",
+  "status_message": "id, addressBookStatusMsg",
+  "error_message": "className, generalError",
+  "breadcrumb_content": "className, bl_breadCrumbContainer",
+  "addresses": "className, myAddressBookList",
+  "addedAddressList": "id, addressesList",
+  "addedAddress_primary": "xpath, //ul[@id='addressesList']//strong",
+  "edit_first_address": "xpath, //ul[@id='address_0']//a[text()='edit']",
+  "updated_first_line": "xpath,//ul[@id='addressesList']//ul[@id='address_0']//li[3]",
+  "make_primary": "xpath, //ul[@id='addressesList']//ul[@id='address_1']//a[text()='make primary']",
+  "second_address":"xpath,//ul[@id='addressesList']//ul[@id='address_1']//li[2]",
+  "remove_first_address": "xpath, //ul[@id='addressesList']//ul[@id='address_0']//a[text()='remove']",
+  "remove_address_list":  "xpath, //a[contains(@id,'removeAddress')]",
+  "first_address_removed": "xpath, //ul[@id='addressesList']//ul",
+  "all_secondary_address": "xpath, //ul[@id='addressesList']//a[text()='make primary']",
+  "primary_address_make_primary": "xpath, //ul[@id='addressesList']//ul[@id='address_0']//a[text()='make primary']",
+  "errorMessage":     "id,generalErrorMsg",
+  "myAdressInputFields":      "xpath,//div[contains(@class,'add-edit-address-wrapper')]//div[contains(@class,'row')]//input"
+
+}

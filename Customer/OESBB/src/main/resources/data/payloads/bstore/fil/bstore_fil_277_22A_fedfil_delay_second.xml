@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>504936262</reservationNumber>
+	<internetOrderNumber>504936262</internetOrderNumber>
+	<orderDate>06/27/2012</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>1050.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>65.62</taxAmt>
+	<orderTotal>1115.62</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0011</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>VIRGINIA</firstName>
+		<middleName />
+		<lastName>ALEX</lastName>
+		<attnLine />
+		<addressLine1>9 WACHUSETT RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CHESTNUT HILL</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02467</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Bloomingdales</paymentType>
+		<accountNumber>************0719</accountNumber>
+		<amount>1115.62</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>VIRGINIA</firstName>
+		<middleName />
+		<lastName>ALEX</lastName>
+		<attnLine />
+		<addressLine1>9 WACHUSETT RD</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CHESTNUT HILL</city>
+		<state>MA</state>
+		<country>USA</country>
+		<zipcode>02467</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>FETE D'OR</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/03/2012</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>MONIQUE LHUILLIER</vendor>
+			<cancelledQuantity />
+			<upcId>8058328001799</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber />
+			<description>FETE D'OR</description>
+			<price />
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/03/2012</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>MONIQUE LHUILLIER</vendor>
+			<cancelledQuantity />
+			<upcId>8058328007890</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

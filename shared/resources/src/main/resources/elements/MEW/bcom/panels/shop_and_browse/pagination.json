@@ -1,0 +1,12 @@
+{
+    "select_page_no": "cssSelector, #b-browse-pagination",
+    "next_page": "class, right",
+    "previous_page": "class, left",
+    "goto_current_page_number": "cssSelector, #pageNumbersBottom .currentPage",
+    "goto_next_page_via_arrow": "cssSelector, #bottomRightArrow a",
+    "goto_previous_page_via_arrow": "cssSelector, #bottomLeftArrow a",
+    "loading_mask": "id, mb-loading||id, loading",
+    "last_page_number":  "xpath, //li[@id='bottomBtwnR']/following-sibling::li/div/a[@class='pageNumber']",
+    "last_page_number_in_pagination": "xpath, //select[@id='b-browse-pagination']/option[last()]",
+    "pages": "xpath, //select[@id='b-browse-pagination']"
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>000079608</reservationNumber>
+	<internetOrderNumber>264_14J_BCOM_MailflagNwithSR</internetOrderNumber>
+	<orderDate>07/14/2015</orderDate>
+	<shopAt>Bloomingdales.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>19.98</orderSubtotalAmt>
+	<baseShippingAmt>0.0</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>2.22</taxAmt>
+	<orderTotal>39.19</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-866-593-2540</phoneNbrCS>
+	<hoursCS>Mon - Sat 9am to 6pm, Sunday 11am to 7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Mon - Fri 9am to 9pm,Sun 9am to 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>1234567890123456</ltyIdUsl>
+	<billingDetail>
+		<title>MR.</title>
+		<firstName>John</firstName>
+		<middleName />
+		<lastName>test1</lastName>
+		<attnLine />
+		<addressLine1>123 market</addressLine1>
+		<addressLine2>market</addressLine2>
+		<addressLine3>LINE3</addressLine3>
+		<city>SFO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>39.19</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>06/19/2008</shippedDate>
+		<mailFlag>C</mailFlag>
+		<title />
+		<firstName>test</firstName>
+		<middleName />
+		<lastName>test1</lastName>
+		<attnLine />
+		<addressLine1>123 market</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SFO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<trackingDetail>
+			<trackingNumber>1Z123454555</trackingNumber>
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>MINV</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>TERRY LS HOODIE</description>
+			<price>61.60</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>61.60</totalAmount>
+			<expectedDate>06/20/2008</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<lineItemFdInd>N</lineItemFdInd>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>06/19/2008</shippedDate>
+		<mailFlag>N</mailFlag>
+		<title />
+		<firstName>test</firstName>
+		<middleName />
+		<lastName>test1</lastName>
+		<attnLine />
+		<addressLine1>123 market</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>SFO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94538</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>TERRY LS HOODIE</description>
+			<price>61.60</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>61.60</totalAmount>
+			<expectedDate>06/20/2008</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>PREMIUM</shipmentType>
+			<lineItemFdInd>R</lineItemFdInd>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>8058328001799</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<expiryDate />
+			<size>L</size>
+			<color>LIPSTICK</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

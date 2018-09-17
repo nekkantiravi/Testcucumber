@@ -1,0 +1,6 @@
+{
+    "search_bar":                   "xpath, //UIAElement[contains(@name, 'store search bar')]",
+
+    "stores_list":                  "id, store search table view",
+    "stores":                       "className, UIATableCell"
+}

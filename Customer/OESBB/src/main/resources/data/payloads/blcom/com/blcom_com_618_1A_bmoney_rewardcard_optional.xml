@@ -1,0 +1,8 @@
+<mailMessagePayload>
+	<maskedRewardCardNumber></maskedRewardCardNumber>
+	<amountRewardsCard>25.58</amountRewardsCard>
+	<rewardCardEffectiveDate></rewardCardEffectiveDate>
+	<rewardCardExpirationDate></rewardCardExpirationDate>
+	<linkPrintRewardCard></linkPrintRewardCard>
+	<linkToWallet></linkToWallet>
+</mailMessagePayload>

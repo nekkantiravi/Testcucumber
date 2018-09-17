@@ -1,0 +1,9 @@
+{
+  "url": "/loyalty/summary",
+  "remove_usl_id": "id, removeCard||className, m-j-remove-plenti",
+  "confirm_delete_button": "id, removeUslIdBtn||className, mb-j-overlay-confirm",
+  "added_usl_id": "id, loyaltyMaskedNumber||cssSelector, .m-plenti-remove-container>strong",
+  "goto_faq": "id, faqs||className, m-j-faqs",
+  "goto_learn_more": "id, learnMore||className, m-j-learn-more",
+  "redeem_message": "id, redeemText||cssSelector, .m-plenti-tile-container>h3"
+}

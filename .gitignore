@@ -1,0 +1,31 @@
+**/.idea
+*.iml
+/golds
+**/logs
+/workspace
+/out
+**/classes
+/temp
+/dist
+.project
+.settings/org.eclipse.m2e.core.prefs
+src/com/macys/sdt/projects/SolutionDevelopment/SampleProject/.project
+src/com/macys/sdt/projects/SolutionDevelopment/SampleProject/.settings/org.eclipse.m2e.core.prefs
+.classpath
+bin/
+runJar.jar
+debug.log
+shared/resources/framework/
+
+
+# vi/vim/gvim swap files
+*~
+*.swp
+*.swo
+tags
+
+# Backup file
+*.bak
+
+# DS_Store from Mac OS
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "zipcode": "id, zipCode||id,zip-code",
+  "search": "id, searchButton",
+  "make_this_my_store": "className, makeThisMyStoreButton",
+  "make_my_store_links": "css, .makeMyStoreButton",
+  "search_is_active": "className, darkClass"
+}

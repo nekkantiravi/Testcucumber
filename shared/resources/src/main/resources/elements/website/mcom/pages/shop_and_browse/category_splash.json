@@ -1,0 +1,37 @@
+{
+    "include": [
+        "panel.header_and_footer",
+        "panel.flexible_template",
+        "panel.left_navigation_category",
+        "panel.category_splash",
+        "panel.category_not_available",
+        "panel.browse_preview"
+    ],
+    "url":                                      "/shop",
+
+    "verify_page":                              "id, catSplash||id, localContentContainer",
+    "star_rating":                              "id, ratingImage",
+    "review_date":                              "id, reviewDate",
+    "banner_slide":                             "id, bSlide0_4",
+    "recently_viewed":                          "id, recentlyViewedContainerNew",
+    "tag_cloud":                                "className, seoContent",
+
+    "shop_by_occasion":                         "xpath, //img[contains(@alt,'Shop by Occasion!')]",
+    "shop_by_cat_gift_card":                    "xpath, //area[contains(@alt, 'Gift Cards. just choose a design')]",
+    "shop_by_cat_egift_card":                   "xpath, //area[contains(@alt, 'E-Gift Cards')",
+    "shop_by_cat_gift_card_personalize":        "xpath, //area[contains(@alt, 'Personalized gift cards')]",
+    "customer_top_rated":                       "className, reviewProductThumbnailLink",
+    "rows":                                     "cssSelector, div#catSplash>div.row||cssSelector, div#canvas>div>ul>li>div.media-component",
+    "popular_searches_container":               "id, seoTagCloud || id, tagCloud",
+    "popular_searches":                         "xpath, //div[@class='mktTagCloudLinks']/ul/li/a || cssSelector, div.tagCloudLinks>ul>li>a",
+    "subcategory":                              "cssSelector, .nav_cat_item_bold a|| cssSelector, .header a ||  xpath, //*[@class='categoryChildren']//a||xpath, //*[@id='nav_category']//a",
+    "featured_categories":                      "id, shopByCat_Featured categories",
+    "top_rated":                                "id, shopByCat_shop customers' top rated",
+
+    "description_title":                        "css, div#catalogCopyBlock>h2||css, div.catalogCopyBlock>h2",
+    "description":                              "css, div#catalogCopyBlock>p||css, div.catalogCopyBlock>p",
+    "cat_splash_container":                     "id, catSplash",
+    "local_content_container":                  "id, localContentContainer",
+    "copy_block_section":                       "className, catalogCopyBlock",
+    "gift_card_thumbnails":                     "className, carouselListPoolThumbnails || className, productThumbnail"
+  }

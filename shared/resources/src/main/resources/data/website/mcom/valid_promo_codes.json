@@ -1,0 +1,17 @@
+{
+  "macys": [
+    {
+      "promo_code": "FIT",
+      "promo_description": "EXTRA 25% OR 40% OFF"
+    },
+    {
+      "promo_code": "SUNDAY",
+      "promo_description": "EXTRA 20% OR 15% OFF"
+    },
+    {
+      "promo_code": "TESTCODE",
+      "promo_description": "TEST Offer Description - Line 1"
+    }
+
+  ]
+}

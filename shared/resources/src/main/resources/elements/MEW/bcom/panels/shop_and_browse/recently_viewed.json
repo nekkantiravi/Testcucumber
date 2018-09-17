@@ -1,0 +1,8 @@
+{
+  "recently_viewed_panel":                "id, b-product-recently-viewed",
+  "recently_viewed_header":               "id, b-product-recently-viewed-header",
+  "edit_button":                          "id, b-j-product-recently-viewed-edit",
+  "recently_viewed_product_container":    "id, b-product-recently-viewed-products||id, mb-j-product-recommendations-container",
+  "recently_viewed_products":             "xpath, //div[@id='b-product-recently-viewed-products']/div",
+  "recently_viewed_label":                "class, b-recent-activity-label"
+}

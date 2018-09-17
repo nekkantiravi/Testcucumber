@@ -1,0 +1,8 @@
+{
+  "url": "/",
+  "verify_page": "id, main_menu",
+
+  "user_name": "id, username",
+  "password": "id, password",
+  "login_Button": "class, btn-primary"
+}

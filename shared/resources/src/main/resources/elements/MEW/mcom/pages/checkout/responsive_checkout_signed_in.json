@@ -1,0 +1,38 @@
+{
+  "include": [
+    "panel.responsive_order_summary"
+  ],
+
+  "url":                                  "/chkout/rcsignedin",
+  "place_order":                          "id, rc-place-order-btn",
+  "security_code":                        "id, rc-cvv-input",
+  "change_shipping_address":              "id, rc-shipping-address-change",
+  "add_shipping_address_button":          "id, rc-shipping-address-add||id, rc-add-new-shipping-address",
+  "save_shipping_address_button":         "id, rc-save-new-address",
+  "address_edit_link":                    "linkText, Edit||linkText, EDIT",
+  "item_level_error":                     "cssSelector, div.rc-error-message>ul>li",
+  "error_container":                      "id, rc-error-list",
+  "phone_number":                         "id, rc-paypal-phoneNumber||id, rc-bc-phoneNumber",
+  "payment_email":                        "id, rc-paypal-email",
+  "paypal_radio_button":                  "id, rc-paypal",
+  "continue_with_paypal":                 "id, rc-signedin-paypal-continue",
+  "premium_shipping":                     "id, rc-shipping-method-2",
+  "express_shipping":                     "id, rc-shipping-method-O",
+  "sdd_shipping":                         "id, rc-shipping-method-S",
+  "change_shipping_method":               "id, rc-shipping-method-edit",
+  "save_shipping_method":                 "id, rc-shipping-method-use",
+  "pick_up_save":                         "id, rc-bops-pickup-save",
+  "use_shipping_address":                 "id, changeBillingAddress",
+  "first_name":                           "id, rc-bc-firstName",
+  "last_name":                            "id, rc-bc-lastName",
+  "address_line_1":                       "id, rc-bc-line1",
+  "address_line_2":                       "id, rc-bc-line2",
+  "address_city":                         "id, rc-bc-city",
+  "address_state":                        "id, rc-bc-state",
+  "address_zip_code":                     "id, rc-bc-zipCode",
+  "save_button":                          "id, rc-bc-use",
+  "update_paypal_profile_email":          "id, rc-profile-email-update",
+  "save_contact_button": "cssSelector, button#rc-save-new-address.button",
+  "shipping_egift_card_section":"className, rc-vgc-message"
+
+}

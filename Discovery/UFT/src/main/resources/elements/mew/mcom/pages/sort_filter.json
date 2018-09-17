@@ -1,0 +1,6 @@
+{
+  "special_offers": "xpath,//span[contains(text(),'Special Offers')]",
+  "last_act": "xpath,//label[@id='m-facet-accordion-label-LastAct']",
+  "facet_apply" : "id, m-facet-accordion-see-results",
+  "sales_offers": "xpath, //span[contains(text(),'Sales & Offers')]"
+}

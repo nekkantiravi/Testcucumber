@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber />
+	<internetOrderNumber>264_14P_MCOM</internetOrderNumber>
+	<orderDate>04/06/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>10.00</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt />
+	<shipUpgradeAmt />
+	<giftWrapAmt />
+	<taxAmt />
+	<orderTotal>15.51</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVEQUESTIONS?WE'REHERE24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Mon-Sat9amto10pm,Sun9amto7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<ltyIdUsl>310417076123456</ltyIdUsl>
+	<munTaxAmt />
+	<miscTaxAmt />
+	<billingDetail>
+		<title />
+		<firstName>OES</firstName>
+		<middleName />
+		<lastName>TESTING</lastName>
+		<attnLine />
+		<addressLine1>548MarketSt.</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city />
+		<state />
+		<country />
+		<zipcode />
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber />
+		<amount />
+		<paymentCategoryFlag />
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/06/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag>C</mailFlag>
+		<title />
+		<firstName />
+		<middleName />
+		<lastName />
+		<attnLine />
+		<addressLine1 />
+		<addressLine2 />
+		<addressLine3 />
+		<city />
+		<state />
+		<country />
+		<zipcode />
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag />
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<pickupBarcode />
+		<pickupReadyDate />
+		<pickupCancelDate />
+		<shipRetailAmt />
+		<shipTaxAmt />
+		<shipFilLoc />
+		<shipPhone />
+		<shipEmailAddress />
+		<trackingDetail>
+			<trackingNumber />
+			<numberofPackages>01</numberofPackages>
+			<shipmentCarrier>UPSGround</shipmentCarrier>
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber />
+			<description />
+			<price>10.00</price>
+			<requestedQuantity />
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>04/13/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status />
+			<vendor />
+			<cancelledQuantity />
+			<upcId>766360214173</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+			<returnStatus />
+			<returnExpectedDate />
+			<returnReasonDescription />
+		</itemDetail>
+		<itemDetail>
+			<lineNumber />
+			<description />
+			<price>10.00</price>
+			<requestedQuantity />
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>04/13/2016</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status />
+			<vendor />
+			<cancelledQuantity />
+			<upcId>735991085247</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+			<returnStatus />
+			<returnExpectedDate />
+			<returnReasonDescription />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

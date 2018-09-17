@@ -1,0 +1,24 @@
+{
+  "add_or_lookup_your_loyallist_number":  "xpath, //h2[contains(text(),'Add or Look Up Your Loyallist Number')]",
+  "loyallist_radio_button": "xpath, //label[text()='Loyallist Number']",
+  "bloomingdales_card_radio_button":  "id, radioCard_cover",
+  "loyallist_number": "id, loyaltyNumber||id, loyaltyAccountInfo.loyaltyNumber",
+  "bloomingdales_credit_card_number": "id, lookUpPropOrCoBrandCard||id, loyaltyAccountInfo.lookUpPropOrCoBrandCard",
+  "loyallist_last_name":  "id, lastName||id, loyaltyAccountInfo.lastName||id, loyaltyAccountInfo.lastName",
+  "loyallist_zip_code": "id, zipCode||id, loyaltyAccountInfo.zipCode||id, loyaltyAccountInfo.zipCode",
+  "save_loyallist_to_my_account": "id, loyaltyChecked_cover",
+  "apply_button": "id, rc-loyallist-apply||id, rc-apply-loyallist-points",
+  "cancel_button":  "id, rc-loyallist-change-cancel||id, rc-loyallist-cancel",
+  "error_message":  "xpath, //div[contains(@class, 'errorMessageInline') and @data-error-code]",
+
+  "loyallist_edit": "id, rc-loyallist-change||id, rc-loyallist-edit",
+  "loyallist_number_value": "xpath, //h2[contains(text(),'Loyallist Number')]||xpath, //h3[contains(text(),'Loyallist Number')]",
+  "base_points_label":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Base Points']]/p[last()-1]||xpath, //div[./p[normalize-space(text())='Base Points']]/p[last()-1]",
+  "base_points_value":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Base Points']]/p[last()]||xpath, //div[./p[normalize-space(text())='Base Points']]/p[last()]",
+  "bonus_points_label":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Bonus Points']]/p[last()-1]||xpath, //div[./p[normalize-space(text())='Bonus Points']]/p[last()-1]",
+  "bonus_points_value":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Bonus Points']]/p[last()]||xpath, //div[./p[normalize-space(text())='Bonus Points']]/p[last()]",
+  "power_points_label":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Power Points']]/p[last()-1]||xpath, //div[./p[normalize-space(text())='Power Points']]/p[last()-1]",
+  "power_points_value":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Power Points']]/p[last()]||xpath, //div[./p[normalize-space(text())='Power Points']]/p[last()]",
+  "pointes_from_this_order_label":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Points pending from this order']]/p[last()-1]||xpath, //div[./p[normalize-space(text())='Points pending from this order']]/p[last()-1]",
+  "pointes_from_this_order_value":  "xpath, //div[@id='rc-loyallist-points-table']//div[.//p[normalize-space(text())='Points pending from this order']]/p[last()]||xpath, //div[./p[normalize-space(text())='Points pending from this order']]/p[last()]"
+}

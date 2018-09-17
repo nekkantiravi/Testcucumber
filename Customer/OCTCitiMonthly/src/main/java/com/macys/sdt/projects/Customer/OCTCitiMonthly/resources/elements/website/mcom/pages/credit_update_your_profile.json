@@ -1,0 +1,8 @@
+{
+  "url": "RSnextgen/svc/launch",
+  "verify_page": "cssSelector, #email_1 ||name, email",
+
+  "email": "cssSelector, #email_1 || name, email",
+  "confirmEmail": "cssSelector, #confirm_email_1 || name, confirmEmail",
+  "submitEmail": "cssSelector, .featured.ui-btn.ui-shadow.ui-corner-all"
+}

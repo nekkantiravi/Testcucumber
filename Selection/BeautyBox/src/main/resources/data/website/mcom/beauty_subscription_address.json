@@ -1,0 +1,139 @@
+{
+  "macys": {
+    "address1": {
+      "first_name": "John",
+      "last_name": "akinson",
+      "address_line1": "680 folsom st suite A",
+      "sub_city": "san francisco",
+      "sub_state": "CA",
+      "zip_code": "94107",
+      "phone_no": "2357895678"
+    },
+    "address2": {
+      "first_name": "scott",
+      "last_name": "honda",
+      "address_line1": "1149 kingsway rd",
+      "sub_city": "west chester",
+      "sub_state": "PA",
+      "zip_code": "19382",
+      "phone_no": "6105632837"
+    },
+    "invalidAddress": {
+      "first_name": "chase",
+      "last_name": "simon",
+      "address_line1": "1150 queen dr",
+      "sub_city": "west chester",
+      "sub_state": "PA",
+      "zip_code": "19382",
+      "phone_no": "6105632838"
+    },
+    "invalidAddress_2": {
+      "first_name": "#$@%",
+      "last_name": "%^&*!~",
+      "address_line1": "1149 kingsway rd",
+      "sub_city": "west chester",
+      "sub_state": "PA",
+      "zip_code": "19382",
+      "phone_no": "6105632838"
+    },
+    "invalidAddress_3": {
+      "first_name": "william",
+      "last_name": "Henry",
+      "address_line1": "1149 k#ingsway rd",
+      "sub_city": "west chester",
+      "sub_state": "PA",
+      "zip_code": "19382",
+      "phone_no": "6105632838"
+    },
+    "invalidAddress_4": {
+      "first_name": "Tony",
+      "last_name": "stone",
+      "address_line1": "PSC 3 BOX 1463",
+      "sub_city": "APO",
+      "sub_state": "AE",
+      "zip_code": "09021",
+      "phone_no": "6105632839"
+    },
+    "invalidAddress_5": {
+      "first_name": "Chase",
+      "last_name": "Francis",
+      "address_line1": "UNIT 8400 BOX E",
+      "sub_city": "DPO",
+      "sub_state": "AE",
+      "zip_code": "09498",
+      "phone_no": "6105632841"
+    },
+    "invalidAddress_6": {
+      "first_name": "Aida",
+      "last_name": "Toma",
+      "address_line1": "100 Holomoana St",
+      "sub_city": "Honolulu",
+      "sub_state": "HI",
+      "zip_code": "96815",
+      "phone_no": "6105632842"
+    },
+    "invalidAddress_7": {
+      "first_name": "Sean",
+      "last_name": "Jones",
+      "address_line1": "19-4030 Old Volcano Hwy",
+      "sub_city": "Volcano",
+      "sub_state": "HI",
+      "zip_code": "96785",
+      "phone_no": "6105632843"
+    },
+    "invalidAddress_8": {
+      "first_name": "Abee",
+      "last_name": "Davis",
+      "address_line1": "1249 Tongass Avenue",
+      "sub_city": "Ketchikan",
+      "sub_state": "AK",
+      "zip_code": "99901",
+      "phone_no": "6105632844"
+    },
+    "invalidAddress_9": {
+      "first_name": "Mike",
+      "last_name": "Schuler",
+      "address_line1": "UNIT 100100 BOX 4120",
+      "sub_city": "FPO",
+      "sub_state": "AP",
+      "zip_code": "96691",
+      "phone_no": "6105632944"
+    },
+    "invalidAddress_10": {
+      "first_name": "Jorge",
+      "last_name": "Garcia",
+      "address_line1": "585 Ave FD",
+      "sub_city": "San Juan",
+      "sub_state": "PR",
+      "zip_code": "00936",
+      "phone_no": "6105632845"
+    },
+    "invalidAddress_11": {
+      "first_name": "Katie",
+      "last_name": "Jager",
+      "address_line1": "PO Box 159753",
+      "sub_city": "Herndon",
+      "sub_state": "VA",
+      "zip_code": "22071",
+      "phone_no": "6105632845"
+    },
+    "invalidAddress_12": {
+      "first_name": "Irina",
+      "last_name": "Epshteyn",
+      "address_line1": "680 Folsom",
+      "sub_city": "San Francisco",
+      "sub_state": "CA",
+      "zip_code": "94107",
+      "phone_no": "6105632845"
+    },
+    "invalidAddress_13": {
+    "first_name": "Robert",
+    "last_name": "Moineau",
+    "address_line1": "39640 Embarcadero Terrace",
+    "sub_city": "Fremont",
+    "sub_state": "CA",
+    "zip_code": "94518",
+    "phone_no": "6105632845"
+  }
+  }
+}

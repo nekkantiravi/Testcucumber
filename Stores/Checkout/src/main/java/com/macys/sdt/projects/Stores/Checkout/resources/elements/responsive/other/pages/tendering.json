@@ -1,0 +1,21 @@
+{
+  "tender_subtotal_label":             "class, qe-subtotal-label",
+  "tender_subtotal_amount":            "class, qe-subtotal",
+  "tender_shipping_fee_label":         "class, qe-shipping-fee-label",
+  "tender_shipping_fee_amount":        "class, qe-shipping-fee",
+  "tender_tax_amount":                 "class, qe-tax",
+  "tender_total_label":                "class, qe-total-label",
+  "tender_total_amount":               "class, qe-total",
+  "tender_first_list_item_description":"class, qe-description",
+  "tender_first_list_item_price":      "class, qe-price",
+  "signature_view":                   "class, signature-capture",
+  "accept_signature_button":          "class, qe-enterSignature-button",
+  "clear_signature_button":           "class, qe-clearSignature-button",
+  "authorize_button":                 "class, qe-enterSignature-button",
+  "authorize_overlay":                "class, modal-content",
+  "authorize_msg":                    "class, authorize-modal",
+  "page_content":                     "class, tendering-page",
+  "declined_card_text_error":         "cssSelector,#sdf-modal p",
+  "reward_toast_message":             "xpath, /html/body/div[3]/div/div/div[1]/p",
+  "calc_totals":                      "id, emptyTender"
+}

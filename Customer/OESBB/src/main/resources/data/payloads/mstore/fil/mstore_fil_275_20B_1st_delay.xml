@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>275_20B_MSTORE</reservationNumber>
+	<internetOrderNumber>275_20B_MSTORE</internetOrderNumber>
+	<orderDate>12/10/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>67.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>5.36</taxAmt>
+	<orderTotal>79.35</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0717</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>CARL W</firstName>
+		<middleName />
+		<lastName>BAYER</lastName>
+		<attnLine />
+		<addressLine1>1505 PINEY WOODS DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>FRIENDSWOOD</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>77546</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Macy's</paymentType>
+		<accountNumber>************2900</accountNumber>
+		<amount>79.35</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>CARL W</firstName>
+		<middleName />
+		<lastName>BAYER</lastName>
+		<attnLine />
+		<addressLine1>1505 PINEY WOODS DR</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>FRIENDSWOOD</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>77546</zipcode>
+		<greetingMessage>Merry Christmas From Santa!</greetingMessage>
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>WHITEWARE SCALLOPED</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/14/2016</expectedDate>
+			<newExpectedDate>12/24/2016</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>MARTHA STEWART</vendor>
+			<cancelledQuantity />
+			<upcId>000000733004935015</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>CAKE STAND</size>
+			<color>GLASS DOME</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

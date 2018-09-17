@@ -1,0 +1,30 @@
+{
+      "qa24codemacys": {
+        "www.qa24codemacys.fds.com": {
+          "site-shop": {
+            "host": "www.qa24codemacys.fds.com",
+            "pattern": "/formshgslb"
+          }
+        }
+      },
+
+  "qa21codemacys": {
+    "www.qa21codemacys.fds.com": {
+      "site-shop": {
+        "host": "www.qa21codemacys.fds.com",
+        "pattern": "/formshgslb"
+      }
+    }
+  },
+
+  "qa9codemacys": {
+    "www.qa9codemacys.fds.com": {
+      "site-shop": {
+        "host": "www.qa9codemacys.fds.com",
+        "pattern": "/formshgslb"
+      }
+    }
+  }
+
+}
+

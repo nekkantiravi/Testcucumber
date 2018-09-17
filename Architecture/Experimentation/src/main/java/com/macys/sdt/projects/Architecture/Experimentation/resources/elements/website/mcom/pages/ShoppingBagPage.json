@@ -1,0 +1,9 @@
+{
+  "Bag_Shopping_Page_Apply_Button": "id, applyPromoCode",
+  "Enter_PromoCode_TextBox": "id, promoCode",
+  "PromoCode_Message": "class, promoDesc",
+  "Shopping_Bag_Page": "id, shoppingBagHeadingDiv",
+  "Image_On_Shopping_Bag_Page":  "xpath, //img[@class='productImage'][1]",
+  "Checkout_Button": "id, continueCheckout"
+
+}

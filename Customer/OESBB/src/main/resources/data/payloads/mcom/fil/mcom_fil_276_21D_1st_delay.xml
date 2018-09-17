@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21D_MCOM</reservationNumber>
+	<internetOrderNumber>276_21D_MCOM</internetOrderNumber>
+	<orderDate>12/10/2016</orderDate>
+	<shopAt>macys.com</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>13.20</orderSubtotalAmt>
+	<baseShippingAmt>9.95</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>11.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>1.02</taxAmt>
+	<orderTotal>24.17</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>JOHN</firstName>
+		<middleName />
+		<lastName>GASTELUM</lastName>
+		<attnLine />
+		<addressLine1>27 CHARLESTON LN</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>TRABUCO CANYON</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>92679</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>MasterCard</paymentType>
+		<accountNumber>************8423</accountNumber>
+		<amount>24.17</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>JOHN</firstName>
+		<middleName />
+		<lastName>GASTELUM</lastName>
+		<attnLine />
+		<addressLine1>27 CHARLESTON LN</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>TRABUCO CANYON</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>92679</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>2016 Macys Thanksgiving Day P</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/12/2016</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/11/2013</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>Kurt Adler</vendor>
+			<cancelledQuantity />
+			<upcId>000000086131225062</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

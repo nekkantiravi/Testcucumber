@@ -1,0 +1,10 @@
+## Test to verify Cancel and Continue button UI elements are side by side
+================================================================================================
+@objects
+	cancel_button     id	sdf-overlay-cancelButton
+	continue_button   id    sdf-overlay-confirmButton
+================================================================================================
+=Verify page title=
+================================================================================================
+	cancel_button:
+		near continue_button 5 to 20px left

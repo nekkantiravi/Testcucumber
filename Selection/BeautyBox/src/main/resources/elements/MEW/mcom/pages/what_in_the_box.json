@@ -1,0 +1,8 @@
+{
+  "url":                 "",
+  "bb_home":             "xpath,.//*[@id='monthlybox']/div[1]/div/div/h3",
+  "select_bb_month":     "xpath,.//*[@id='selectMonth']",
+  "bb_product_list":     "id,box-products-list",
+  "headless_bb":         "id,mainNavigation"
+
+}

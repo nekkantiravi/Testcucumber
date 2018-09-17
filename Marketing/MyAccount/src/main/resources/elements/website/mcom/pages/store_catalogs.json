@@ -1,0 +1,7 @@
+{
+    "url": "/flyer_selector/macys?action=show&cm_sp=navigation-_-bottom_nav-_-catalogs",
+    "verify_page": "xpath, //input[@id='postal_code_input'][@tabindex='0']",
+    "enter_zip_code": "xpath, //input[@id='postal_code_input'][@tabindex='0']",
+    "search_button": "xpath, //input[@id='submit_postal_code'][@tabindex='0']",
+    "error_msg": "xpath, //div[@class='enter_postal_code'][.//input[@tabindex=0]]//div[@id='location_error']"
+}

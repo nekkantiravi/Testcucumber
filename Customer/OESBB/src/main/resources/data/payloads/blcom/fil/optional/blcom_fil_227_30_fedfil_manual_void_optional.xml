@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>123</reservationNumber>
+   <internetOrderNumber>GC1119121814D</internetOrderNumber>
+   <orderDate>01/15/2017</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>0.00</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>0.00</taxAmt>
+   <orderTotal>0.00</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <billingDetail>
+      <title />
+      <firstName></firstName>
+      <middleName>Migration</middleName>
+      <lastName>Testing</lastName>
+      <attnLine />
+      <addressLine1>685 MARKET ST</addressLine1>
+      <addressLine2>110</addressLine2>
+      <addressLine3 />
+      <city>SAN FRANCISCO</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94105</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Bloomingdales</paymentType>
+      <accountNumber>************1234</accountNumber>
+      <amount>0.00</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <mailFlag>Y</mailFlag>
+      <title />
+      <firstName>fedfilmanualvoid</firstName>
+      <middleName />
+      <lastName>Migration</lastName>
+      <attnLine />
+      <addressLine1>685 MARKET ST</addressLine1>
+      <addressLine2>APT 1P</addressLine2>
+      <addressLine3 />
+      <city>SAN FRANCISCO</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>94105</zipcode>
+      <greetingMessage />
+      <closingMessage />
+      <signatureMessage />
+      <giftRegistryNumber>0000000000000</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <itemDetail>
+         <lineNumber></lineNumber>
+         <description></description>
+         <price></price>
+         <requestedQuantity>001</requestedQuantity>
+         <availableQuantity>001</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>131.24</totalAmount>
+         <expectedDate>1/21/2017</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate>1/20/2017</systemCancelDate>
+         <shipmentType>PREMIUM</shipmentType>
+         <splitShipmentFlag>Y</splitShipmentFlag>
+         <status>IN PROCESS</status>
+         <vendor></vendor>
+         <cancelledQuantity></cancelledQuantity>
+         <upcId></upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size></size>
+         <color></color>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

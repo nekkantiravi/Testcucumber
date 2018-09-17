@@ -1,0 +1,34 @@
+{
+    "macys": [
+        {
+            "id": 77589,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 4820073,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true,
+            "sizes": true
+        },
+        {
+            "id": 4503088,
+            "available": true,
+            "two_tier_colors": true,
+            "colors": true
+        },
+        {
+            "id": 22804,
+            "available": true,
+            "single_color": true
+        },
+        {
+            "id": 1310,
+            "available": true,
+            "promos": true,
+            "altImages": true
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "verify_page": "xpath,//section[@id='b-search-no-results']/div[1]",
+  "url": "/shop/search",
+  "no_results": "css, #b-search-no-results || css, #b-reg-search-no-results ",
+  "featured_categories": "css, #b-product-latchkeys",
+  "registry_links": "css, #b-registry-links",
+  "invalid_search_message_text": "xpath,//section[@id='b-search-no-results']/div[1]"
+
+}

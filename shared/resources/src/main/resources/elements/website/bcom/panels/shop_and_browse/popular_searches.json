@@ -1,0 +1,5 @@
+{
+    "tag_cloud_link_section":   "id, macysHomePageLogo || id, seoContent || id, tagCloud",
+    "seo_tag_links":            "xpath, //div[@class='tagCloudLinks']/a || cssSelector, div.seoTagCloudLinks >div>a || cssSelector, #tagCloud a || xpath, //div[contains(@class,'mktTagCloudLinks')]/div/a",
+    "seo_tag_cloud":            "id, seoContent || id, tagCloud"
+}

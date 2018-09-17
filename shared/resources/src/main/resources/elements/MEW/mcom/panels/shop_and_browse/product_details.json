@@ -1,0 +1,9 @@
+{
+  "container": "id, mb-productDetailsModal-container",
+  "product_name": "className, m-product-productName",
+  "qty_value": "className, m-qty-value",
+  "decrement_qty": "cssSelector, li.m-j-product-qty-decrement>button",
+  "increment_qty": "cssSelector, li.m-j-product-qty-increment>button",
+  "apply_button": "className, m-j-modalHeader-apply",
+  "seo_product": "id, productSEOData"
+}

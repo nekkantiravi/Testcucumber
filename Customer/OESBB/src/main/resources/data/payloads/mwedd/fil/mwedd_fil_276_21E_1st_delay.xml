@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21E_MWEDD</reservationNumber>
+	<internetOrderNumber>276_21E_MWEDD</internetOrderNumber>
+	<orderDate>12/10/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>99.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>5.00</giftWrapAmt>
+	<taxAmt>7.42</taxAmt>
+	<orderTotal>113.41</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>MARTY</firstName>
+		<middleName />
+		<lastName>ABO</lastName>
+		<attnLine />
+		<addressLine1>307 FELLOWSHIP RD</addressLine1>
+		<addressLine2>STE 202</addressLine2>
+		<addressLine3 />
+		<city>MT. LAUREL</city>
+		<state>NJ</state>
+		<country>USA</country>
+		<zipcode>08054</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>American Express</paymentType>
+		<accountNumber>************3013</accountNumber>
+		<amount>113.41</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>002</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>LINDSEY</firstName>
+		<middleName />
+		<lastName>FORD</lastName>
+		<attnLine />
+		<addressLine1>404 E 65TH ST</addressLine1>
+		<addressLine2>APT 5F</addressLine2>
+		<addressLine3 />
+		<city>NY</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>10065</zipcode>
+		<greetingMessage>Congratulations!</greetingMessage>
+		<closingMessage>The Abos and The Hansells</closingMessage>
+		<signatureMessage />
+		<giftRegistryNumber>2800006836263</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>ljoford@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>LINDSEY</giftRegistrant1>
+		<giftRegistrant2>JOE</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>600 Thread Count Queen Fitted</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/13/2016</expectedDate>
+			<newExpectedDate>01/29/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>Hotel Collection</vendor>
+			<cancelledQuantity />
+			<upcId>000000636206515330</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color>White</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

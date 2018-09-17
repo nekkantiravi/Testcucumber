@@ -1,0 +1,13 @@
+{
+  "fob_selector" : "cssSelector, #mainNav>li>a",
+  "facet_container":"id, gn_left_nav_container",
+  "browse_facet_container":"cssSelector, .categoryTree.bcom",
+  "content_container" : "xpath, //div[contains(@class,'bl_mainContent_no_bottom_padding ')]",
+  "browse_content_container":"cssSelector, #canvasContainer",
+  "feature_category" : "xpath, //span[contains(text(),'Featured categories')]",
+  "product_count": "id, productCount",
+  "chanel_logo":"cssSelector, #chanelLogoBannerBrowse",
+  "brand_page":"cssSelector, #bl_brands_nav_title",
+  "sales_leftNav":"cssSelector, #bl_leftNavContainer",
+  "sales_ofr_content":"cssSelector, #ofr_content"
+}

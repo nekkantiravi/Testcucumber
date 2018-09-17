@@ -1,0 +1,14 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer"
+  ],
+  "url": "/registry/wedding/registrysearch?perfectProxy=true||perfectProxy=true",
+
+  "find_registry_button": "id, regSearchBtn",
+  "verify_page": "id, registrySearchBean.firstName",
+  "first_name": "id, registrySearchBean.firstName",
+  "last_name": "id, registrySearchBean.lastName",
+  "find_registry_results": "className, search-results-data",
+  "view_registry": "cssSelector, .view-reg>a"
+}

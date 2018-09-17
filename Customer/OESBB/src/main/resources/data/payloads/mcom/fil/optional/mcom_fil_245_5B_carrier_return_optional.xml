@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+  <reservationNumber></reservationNumber>
+  <internetOrderNumber>TEST</internetOrderNumber>
+  <thirdPartyOrderNumber />
+  <orderDate></orderDate>
+  <shopAt>macys.com</shopAt>
+  <explanationText />
+  <orderSubtotalAmt></orderSubtotalAmt>
+  <baseShippingAmt></baseShippingAmt>
+  <addtShipAddAmt></addtShipAddAmt>
+  <shipUpgradeAmt></shipUpgradeAmt>
+  <giftWrapAmt></giftWrapAmt>
+  <taxAmt></taxAmt>
+  <orderTotal></orderTotal>
+  <divisionCode>071</divisionCode>
+  <locationCode>0139</locationCode>
+  <adhocText />
+  <phoneNbrCS>1-800-289-6229</phoneNbrCS>
+  <hoursCS>Monday-Friday 9am-9pm,Sat 9am-7pm,Sun 11am-7pm</hoursCS>
+  <phoneNbrFP>1-800-289-6229</phoneNbrFP>
+  <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+  <multiSiteId>123</multiSiteId>
+  <munTaxAmt>12.23</munTaxAmt>
+  <miscTaxAmt>99.00</miscTaxAmt>
+  <smsFlag>N</smsFlag>
+  <ltyFlag>N</ltyFlag>
+  <ltyIdUsl>1234567890123456</ltyIdUsl>
+  <billingDetail>
+    <title />
+    <firstName></firstName>
+    <middleName />
+    <lastName></lastName>
+    <attnLine />
+    <addressLine1></addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city></city>
+    <state></state>
+    <country></country>
+    <zipcode></zipcode>
+  </billingDetail>
+  <paymentDetail>
+    <paymentType></paymentType>
+    <accountNumber></accountNumber>
+    <amount></amount>
+    <paymentCategoryFlag></paymentCategoryFlag>
+  </paymentDetail>
+  <shipmentDetail>
+    <shipmentNumber>014</shipmentNumber>
+    <shippedDate></shippedDate>
+    <mailFlag />
+    <title />
+    <firstName></firstName>
+    <middleName />
+    <lastName></lastName>
+    <attnLine />
+    <addressLine1></addressLine1>
+    <addressLine2 />
+    <addressLine3 />
+    <city></city>
+    <state></state>
+    <country></country>
+    <zipcode></zipcode>
+    <greetingMessage />
+    <closingMessage />
+    <signatureMessage />
+    <giftRegistryNumber></giftRegistryNumber>
+    <giftWrapFlag></giftWrapFlag>
+    <giftReceipientEmail />
+    <giftRegistrant1 />
+    <giftRegistrant2 />
+    <giftReceiptFlag></giftReceiptFlag>
+    <pickupBarcode />
+    <pickupReadyDate />
+    <pickupCancelDate />
+    <shipRetailAmt />
+    <shipTaxAmt />
+    <shipFilLoc />
+    <shipPhone />
+    <shipEmailAddress />
+    <returnSubmittedDate>12/31/2016</returnSubmittedDate>
+    <trackingDetail>
+      <trackingNumber>xy33393asd1</trackingNumber>
+      <numberofPackages>1</numberofPackages>
+      <shipmentCarrier>Fedex</shipmentCarrier>
+    </trackingDetail>
+    <itemDetail>
+      <lineNumber>014</lineNumber>
+      <description></description>
+      <price></price>
+      <requestedQuantity></requestedQuantity>
+      <availableQuantity>001</availableQuantity>
+      <shippedQuantity>000</shippedQuantity>
+      <totalAmount></totalAmount>
+      <expectedDate></expectedDate>
+      <newExpectedDate />
+      <delaySentDate />
+      <delayWaitDate />
+      <systemCancelDate />
+      <shipmentType></shipmentType>
+      <splitShipmentFlag />
+      <status>VOIDED</status>
+      <vendor />
+      <cancelledQuantity>001</cancelledQuantity>
+      <upcId></upcId>
+      <userCancelDate></userCancelDate>
+      <vgcNumber />
+      <vgcCidNumber />
+      <expiryDate />
+      <size />
+      <color />
+      <returnStatus>RT</returnStatus>
+      <returnExpectedDate></returnExpectedDate>
+      <returnReasonDescription></returnReasonDescription>
+    </itemDetail>
+  </shipmentDetail>
+</mailMessagePayload>

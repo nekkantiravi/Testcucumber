@@ -1,0 +1,10 @@
+{
+  "url":              "",
+  "location": 	      "id, location",
+  "latest_date":     "xpath,.//*[@id='tt_form_ChoiceSelect_0']",
+  "continue":        "id,nextBtn",
+  "calendar_drop_down_first_app":                "xpath, //select[@id='tt_form_ChoiceSelect_0']/option[2]",
+  "calendar_drop_down":                   "cssSelector, select#tt_form_ChoiceSelect_0",
+  "calendar_date":                      "xpath, //select[@id='tt_form_ChoiceSelect_0']/../../div[@class='w']",
+  "calendar_month":                     "cssSelector, table#availTable span.title"
+}

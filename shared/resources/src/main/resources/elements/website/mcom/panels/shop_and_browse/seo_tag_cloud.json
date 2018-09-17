@@ -1,0 +1,7 @@
+{
+  "tag_cloud":                              "className, mktTagCloudTitle",
+  "tag_cloud_links":                        "cssSelector, .mktTagCloudLinks ul li a",
+  "new_tag_cloud":                          "id, tagCloud",
+  "new_element_mkt_content":                "className, mktContent",
+  "new_element_mkt_content_repositioned":   "id, mktContentRepositioned"
+}

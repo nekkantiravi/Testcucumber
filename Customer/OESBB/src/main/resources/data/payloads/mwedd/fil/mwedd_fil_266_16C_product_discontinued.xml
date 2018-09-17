@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>553512725</reservationNumber>
+	<internetOrderNumber>266_16C_MWEDD</internetOrderNumber>
+	<orderDate>08/23/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>0.01</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>0.00</taxAmt>
+	<orderTotal>0.01</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0730</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<ltyIdUsl>3104170676921234</ltyIdUsl>
+	<billingDetail>
+		<title />
+		<firstName>23AUG2016</firstName>
+		<middleName />
+		<lastName>AABONUS</lastName>
+		<attnLine />
+		<addressLine1>7 W 7TH ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CINCINNATI</city>
+		<state>OH</state>
+		<country>USA</country>
+		<zipcode>45202</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>VISA</paymentType>
+		<accountNumber>************4962</accountNumber>
+		<amount>10.01</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title>MS.</title>
+		<firstName>KIM</firstName>
+		<middleName />
+		<lastName>FREISEM</lastName>
+		<attnLine>ATTN: KIM BEAL AND ALLEN FREIS</attnLine>
+		<addressLine1>1216 BELLAIRE DR NE</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ATLANTA</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30319</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage>TABLETOP COMPLETION BONUS GIFT FROM MACY'S</signatureMessage>
+		<giftRegistryNumber>2800006906225</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>kimberlylbeal@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>KIM</giftRegistrant1>
+		<giftRegistrant2>ALLEN</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber>001</lineNumber>
+			<description>FRENCH COUNTRYSIDE</description>
+			<price>0.01</price>
+			<requestedQuantity>009</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>0.01</totalAmount>
+			<expectedDate>01/02/2013</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor>MIKASA</vendor>
+			<cancelledQuantity>001</cancelledQuantity>
+			<upcId>735991085247</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,8 @@
+{
+  "monetate_lightbox": "id, monetate_lightbox",
+  "monetate_lightbox_overlay": "id, monetate_lightbox_mask",
+  "monetate_lightbox_container": "id, monetate_lightbox_content_container",
+  "monetate_lightbox_content": "id, monetate_lightbox_content",
+  "monetate_lightbox_close": "id, monetate_lightbox_contentMap",
+  "monetate_top_banner": "xpath, '//*[starts-with(@id, 'monetate_selectorBanner')]'"
+}

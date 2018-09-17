@@ -1,0 +1,8 @@
+{
+    "close_window": "id, close-button",
+    "learn_more": "linkText, LEARN MORE",
+    "free_shipping": "xpath, //span[text()='FREE SHIPPING FOR LOYALLISTS!']",
+    "free_returns": "xpath, //b[text()='FREE RETURNS']",
+    "bops": "xpath, //span[text()='BUY ONLINE, PICK UP IN STORE']"
+
+}

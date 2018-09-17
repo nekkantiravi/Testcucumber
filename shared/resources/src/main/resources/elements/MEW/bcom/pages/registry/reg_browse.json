@@ -1,0 +1,11 @@
+{
+  "include": [
+    "panel.header",
+    "panel.footer"
+  ],
+
+  "url": "/shop/wedding-registry",
+  "verify_page": "id, mb-product-list-buttons-sortby"
+
+
+}

@@ -1,0 +1,7 @@
+{
+  "registry_atb_overlay":       "id, atbOverlay||id, addToBagPanel",
+  "registry_continue_shopping": "id, pdp_atb_cont_shopping||id, pdp_atb_cont_shopping",
+  "registry_chkout_button":     "id, pdp_atb_checkout||id, pdp_atb_checkout",
+  "registry_close_overlay":     "className, container-close",
+  "add_to_registry_button":     "xpath, //div[@class='b-product-checkout-buttons']//button[text()='Add to Registry']"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "/account/signin-loyalty?fromLoyalty=loyaltySignIn",
+  "verify_page": "id, sign-in-section",
+  "email": "id, email",
+  "password": "id, pw-input",
+  "submit": "id, sign-in"
+}

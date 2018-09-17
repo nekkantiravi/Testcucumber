@@ -1,0 +1,30 @@
+{
+  "macys": [
+    {
+      "number": "733158011978519",
+      "cid": "8687",
+      "number_encoded": "13_8FMWf9Rg4hQkxTNSUZ/EZQ==",
+      "number_masked": "***********8519",
+      "total_amount": 15.00,
+      "card_status": "Active",
+      "card_type": "ICW",
+      "effective_date": "2016-11-15 00:00:00.0",
+      "expiration_date": "2018-03-04 00:00:00.0",
+      "site_id": 11,
+      "expired" : false
+    },
+    {
+      "number": "733158011978520",
+      "cid": "8688",
+      "number_encoded": "13_8FMWf9Rg4hQkxTNSUZ/EZR==",
+      "number_masked": "***********8520",
+      "total_amount": 15.00,
+      "card_status": "Active",
+      "card_type": "ICW",
+      "effective_date": "2015-11-15 00:00:00.0",
+      "expiration_date": "2016-03-04 00:00:00.0",
+      "site_id": 11,
+      "expired" : true
+    }
+  ]
+}

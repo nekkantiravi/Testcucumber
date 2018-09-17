@@ -1,0 +1,5 @@
+{
+  "url": "shop/gift-cards",
+  "verify_page": "class, m-gift-cards",
+  "e_gift_card": "class, m-e-gift-card"
+}

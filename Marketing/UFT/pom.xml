@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.domain>Marketing</project.domain>
+        <project.name>UFT</project.name>
+        <project.version>1.0-SNAPSHOT</project.version>
+    </properties>
+
+    <parent>
+        <artifactId>SDT</artifactId>
+        <groupId>com.macys.sdt</groupId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-Regression</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-OCWallet</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-SolutionDevelopment-Ruby2Java</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-Plenti</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Marketing-Tealium</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.macys.sdt</groupId>
+            <artifactId>sdt-Discovery-SearchBrowseComponentization</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <artifactId>sdt-${project.domain}-${project.name}</artifactId>
+    <version>2.2.0-SNAPSHOT</version>
+</project>

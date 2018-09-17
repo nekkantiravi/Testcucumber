@@ -1,0 +1,22 @@
+{
+  "include": [
+    "panel.header_and_footer"
+  ],
+  "url":                             "/registry/signin||/registry/wedding/regsignin",
+  "verify_page":                     "id,verifyEmail||id,registryClaim || id,signInBtn||id, registry-sign-up",
+  "existing_user_email":             "cssSelector, div.innerLeft.gainlayout input#email||cssSelector, input#email|| id, email",
+  "existing_user_password":          "cssSelector, div.innerLeft.gainlayout input#password||cssSelector, input#password|| id,pw-input",
+  "new_user_email":                  "cssSelector, fieldset#captureEmailFields input#email",
+  "new_user_password":               "cssSelector, fieldset#captureEmailFields input#password ",
+  "new_user_email_verify":           "id, verifyEmail",
+  "new_user_password_verify":        "id, verifyPassword",
+  "existing_user_continue_button":   "id, signInBtn||cssSelector, div#regLeft>input#noProfileSubmitImg||id, sign-in",
+  "reg_sign_in_button":              "id, sign-in",
+  "new_user_continue_button":        "cssSelector, div#regRight>input#noProfileSubmitImg",
+  "error_message":                   "className, generalError||id, errorMessage",
+  "forgot_password_link":            "linkText, Forgot your password?||id, forgot-password",
+  "create_new_registry_button":      "id, registry-sign-up",
+  "access_instore_registry_button":  "id, in-store||id, claim-registry",
+  "pwd_show_button":                 "id,show-pw"
+
+}

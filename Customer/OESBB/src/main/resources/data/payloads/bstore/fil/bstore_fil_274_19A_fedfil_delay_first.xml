@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>621723254</reservationNumber>
+   <internetOrderNumber>621723254</internetOrderNumber>
+   <orderDate>11/21/2012</orderDate>
+   <shopAt>Bloomingdales</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>2297.60</orderSubtotalAmt>
+   <baseShippingAmt>0.00</baseShippingAmt>
+   <addtShipAddAmt>0.00</addtShipAddAmt>
+   <shipUpgradeAmt>0.00</shipUpgradeAmt>
+   <giftWrapAmt>0.00</giftWrapAmt>
+   <taxAmt>160.83</taxAmt>
+   <orderTotal>2458.43</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0003</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+   <phoneNbrFP>1-866-282-8977</phoneNbrFP>
+   <hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+   <billingDetail>
+      <title>MS.</title>
+      <firstName>MARIA</firstName>
+      <middleName>TERESA</middleName>
+      <lastName>OLIVARES</lastName>
+      <attnLine>C/O YVONNE RIVERA/TABLETOP DEPT.</attnLine>
+      <addressLine1>19555 BISCAYNE BLVD</addressLine1>
+      <addressLine2>FL 3</addressLine2>
+      <addressLine3 />
+      <city>AVENTURA</city>
+      <state>FL</state>
+      <country>USA</country>
+      <zipcode>33160</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************7463</accountNumber>
+      <amount>2458.43</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>12/31/9999</shippedDate>
+      <mailFlag />
+      <title>MS.</title>
+      <firstName>MARIA</firstName>
+      <middleName />
+      <lastName>OLIVARES</lastName>
+      <attnLine>C/O YVONNE RIVERA/TABLETOP DEPT.</attnLine>
+      <addressLine1>19555 BISCAYNE BLVD</addressLine1>
+      <addressLine2>FL 3</addressLine2>
+      <addressLine3 />
+      <city>AVENTURA</city>
+      <state>FL</state>
+      <country>USA</country>
+      <zipcode>33160</zipcode>
+      <greetingMessage />
+      <closingMessage />
+      <signatureMessage />
+      <giftRegistryNumber>0000000000000</giftRegistryNumber>
+      <giftWrapFlag>N</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>N</giftReceiptFlag>
+      <itemDetail>
+         <lineNumber />
+         <description>ANMUT PINK ROSE</description>
+         <price />
+         <requestedQuantity>005</requestedQuantity>
+         <availableQuantity />
+         <shippedQuantity />
+         <totalAmount />
+         <expectedDate>11/30/2012</expectedDate>
+         <newExpectedDate>12/21/2012</newExpectedDate>
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType />
+         <splitShipmentFlag />
+         <status>BACKORDERED</status>
+         <vendor>VILLEROY BOCH</vendor>
+         <cancelledQuantity />
+         <upcId>000000091709396242</upcId>
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>SALAD PL</size>
+         <color />
+      </itemDetail>
+   </shipmentDetail>
+   <LoyaltyInformation>
+      <keyFobID />
+      <visitsRemaining />
+      <tier />
+      <bonusRewardBal />
+      <bonusPendRewardBal />
+      <bonusRewardEarned />
+      <bonusPendRewardEarned />
+      <rewardBal />
+      <pendRewardBal />
+      <rewardEarned />
+      <pendRewardEarned />
+      <earningLevel />
+      <lastName />
+      <firstName />
+      <email />
+      <starRewards />
+      <visaRewards />
+      <amexRewards />
+      <brierlyRewards />
+      <insiderRewards />
+      <accountStatus />
+      <accountStatusReason />
+      <pendingRewards />
+      <awardCardFlag />
+      <offerOnlyFlag />
+      <visitExpiration />
+      <errorCode />
+      <errorMsg />
+      <Offer>
+         <barCodeNum />
+         <expirationDate />
+         <headerText1 />
+         <headerText2 />
+         <exclusions />
+         <promoCode />
+      </Offer>
+      <Award>
+         <amount />
+      </Award>
+   </LoyaltyInformation>
+</mailMessagePayload>

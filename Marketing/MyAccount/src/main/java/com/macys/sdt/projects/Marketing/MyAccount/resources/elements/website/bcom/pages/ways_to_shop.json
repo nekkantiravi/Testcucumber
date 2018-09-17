@@ -1,0 +1,6 @@
+{
+    "url": "/b/about-us/store-events-ways-to-shop/",
+    "verify_page": "id, ways_to_shop_header",
+    "ways_to_shop": "id, ways_to_shop_header",
+    "shopping_services": "linkText, SHOPPING SERVICES"
+}

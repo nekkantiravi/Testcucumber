@@ -1,0 +1,33 @@
+{
+  "services_fee_section": "id, rc-header-worrynomore",
+  "rc_bigticket_protection_plan": "id, rc-protection-plan",
+  "rc_wnm_plans": "className, rc-worrynomore-endline",
+  "worry_no_mores_plans": "id,  worryNoMores_",
+  "default_worry_no_mores_plan": "id,  worryNoMores_0",
+  "rc_wnm_plans_link": "cssSelector, .small-10.medium-13.columns>a",
+  "rc_service_fees_section": "id, rc-worrynomore-section-wrapper",
+
+
+  "rc_mattress_section": "id, rc-mattress-removal-fee",
+  "mattress_removal": "id, mattress-removal",
+  "mattress_qty_drop_down": "className, rc-mattress-select",
+  "mattress_fees": "cssSelector, .rc-bedding-removeal-label.text-right>span",
+  "mattress_recycle_name": "cssSelector, .medium-offset-1.medium-10",
+  "mattress_recycle_value": "xpath, .//*[@id='rc-mattress-removal-fee']/div[3]/div[2]",
+
+
+  "special_instructions_message": "id, specialInstructionsErrorMessage",
+  "rc_bt_instructions_set": "id, rc-special-instructions",
+  "delivery_military_base": "id, rc-delivery-military-base",
+  "delivery_security_gate": "id, rc-delivery-security-gate",
+  "delivery_flight_stairs": "name, deliveryNotes.THIRDFLOOR",
+  "delivery_none": "id, rc-delivery-none",
+  "delivery_coi": "id, rc-delivery-coi",
+  "rc_service_fees_submit_btn": "id, rc-worrynomore-continue",
+
+
+  "edit_service_and_fees": "id, rc-worrynomore-edit",
+  "rc_mattress_summary_section": "className, rc-mattressfees-summery",
+  "rc_wnm_summary_section": "className, rc-worrynomore-section-summery",
+  "rc_bt_instructions_summary_section": "className, rc-furniture-section-summery,"
+}

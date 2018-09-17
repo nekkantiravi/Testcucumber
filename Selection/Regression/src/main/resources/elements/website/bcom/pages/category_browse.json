@@ -1,0 +1,3 @@
+{
+  "product_thumbnail": "className, thumbnailImage || xpath, //li[@class='thumbnailItem'][1]//div[contains(@id,'productThumbnailLink')]//img"
+}

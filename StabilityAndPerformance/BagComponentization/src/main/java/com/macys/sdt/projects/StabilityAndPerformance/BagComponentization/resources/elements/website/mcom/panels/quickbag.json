@@ -1,0 +1,13 @@
+{
+  "product_title":        "class, description",
+  "price_details":        "class, pricing",
+  "product_sale_price":   "class, salePrice",
+  "bag_items":            "class, bagItem ",
+  "quickbag_count":       "class, itemInfo",
+  "promo_desc":           "class, promoDesc",
+  "gift_badge":           "class, badges",
+  "qb_bag_level_details": "class, quickBagBottom",
+  "bag_level_promo":      "class, bagPromoDesc",
+  "bag_level_promo_price": "class, promoPrice",
+  "bag_subtotal":          "id, quickBagSubTotal"
+}

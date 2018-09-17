@@ -1,0 +1,119 @@
+<mailMessagePayload>
+	<reservationNumber>1111112</reservationNumber>
+	<internetOrderNumber>FIL_245_5C_BSTORE</internetOrderNumber>
+	<orderDate>11/27/2012</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>396.80</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>34.72</taxAmt>
+	<orderTotal>431.52</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0022</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title></title>
+		<firstName>OES</firstName>
+		<middleName></middleName>
+		<lastName>Migration</lastName>
+		<attnLine></attnLine>
+		<addressLine1>548 Market St.</addressLine1>
+		<addressLine2>Dr Mclean</addressLine2>
+		<addressLine3></addressLine3>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94104</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1212</accountNumber>
+		<amount>100.00</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/01/2012</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>COLLETTE</firstName>
+		<middleName />
+		<lastName>WIXOM</lastName>
+		<attnLine />
+		<addressLine1>20015 DOROTHY ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>CANYON COUNTRY</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>91351</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<itemDetail>
+			<lineNumber>004</lineNumber>
+			<description>Eternal Gold Goblet</description>
+			<price>238.40</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>238.40</totalAmount>
+			<expectedDate>12/01/2017</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>MARC JACOBS</vendor>
+			<cancelledQuantity />
+			<upcId>000000492031403361</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>004</lineNumber>
+			<description>Eternal Gold Goblet</description>
+			<price>238.40</price>
+			<requestedQuantity>002</requestedQuantity>
+			<availableQuantity>003</availableQuantity>
+			<shippedQuantity>001</shippedQuantity>
+			<totalAmount>238.40</totalAmount>
+			<expectedDate>12/01/2017</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>MARC JACOBS</vendor>
+			<cancelledQuantity />
+			<upcId>5052376863012</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

@@ -1,0 +1,16 @@
+{
+  "prod_user": [
+    {
+      "user_type": "prod_user",
+      "email": "qatest400@yahoo.com",
+      "password": "macys111",
+      "address_line_1": "884 Walnut St"
+    },
+    {
+      "user_type": "prod_user_with_orders",
+      "email": "ordermod@bloomingdales.com",
+      "password": "bcom12345",
+      "order_number": "471763276"
+    }
+  ]
+}

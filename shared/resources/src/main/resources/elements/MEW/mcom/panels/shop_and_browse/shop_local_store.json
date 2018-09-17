@@ -1,0 +1,20 @@
+{
+  "all_products": "id, allProductsBtn",
+  "free_pickup": "id, localMacysBtn",
+  "find_store_model": "id, m-search-local-store",
+  "find_store_zipcode": "id, mb-local-store-address",
+  "find_store_clear": "class, mb-local-store-search-clear",
+  "find_store_navigator": "id, mb-local-store-nearme",
+  "find_store_distance_dropdown": "id, mb-local-store-distance",
+  "find_store_search_button": "id, mb-local-store-search",
+  "find_store_radio_button": "name, mb-j-local-store",
+  "find_store_search_results": "id, m-local-store-results-wrapper",
+  "find_store_done_button": "id, mb-local-store-search-done",
+  "selected_store_name": "id, m-display-store-count",
+  "local_store_prdcnt": "id, localMacysBtnCount",
+  "invalid_search_results": "id, m-search-invalid-message-text",
+  "free_pickup_info":"class,shop-inactive",
+  "change_store":"id, m-display-store-count",
+  "all_iem_count":"id, allProductsBtnCount",
+  "stores_list":"xpath, //*[@id='m-local-store-results-wrapper']/li"
+}

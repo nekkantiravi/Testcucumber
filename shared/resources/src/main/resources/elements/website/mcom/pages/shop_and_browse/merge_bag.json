@@ -1,0 +1,6 @@
+{
+  "url":                 "/bag/merge||/bag/checkout/merge.ognc",
+  "verify_page": 		 "id, shoppingBagHeadingDiv",
+  "add_to_current_bag":  "id, addToCurrentBag||cssSelector, div #addToCurrentBag",
+  "current_bag":         "id, itemsContainer"
+}

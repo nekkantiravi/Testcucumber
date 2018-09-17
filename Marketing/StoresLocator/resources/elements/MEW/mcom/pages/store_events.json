@@ -1,0 +1,9 @@
+{
+  "url":                "/social/events/event/?id=<eventid>",
+  "title":              "cssSelector: div.table-cell > h1",
+  "description":        "cssSelector, div.table-row.description",
+  "rsvp_link":          "cssSelector, a.rsvp-link",
+  "datetime_header":    "cssSelector, h2.list-header",
+  "datetime_item":      "cssSelector, tr.event-date-time",
+  "END":                "cssSelector: body"
+}

@@ -1,0 +1,6 @@
+{
+  "ptp_full_products":        "cssSelector,.small-7.columns>a>img||id,box-products-list",
+  "ptp_full_products_desc":   "className,.product-title",
+  "ptp_add_to_bag":           "cssSelector,.addToBag.add-to-bag",
+  "ptp_original_price":       "cssSelector,.reg-price"
+}

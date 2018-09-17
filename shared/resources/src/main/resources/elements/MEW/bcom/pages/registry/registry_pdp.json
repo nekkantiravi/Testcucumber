@@ -1,0 +1,7 @@
+{
+  "url":      "/shop/registry/wedding/product/",
+  "verify_page": "id, productTitle || id, b-product-name",
+
+  "add_to_bag_button": "id, ADDTOBAG_BUTTON || className, b-j-product-add-bag",
+  "atb_overlay": "id, atbOverlay || id, b-atb-overlay"
+}

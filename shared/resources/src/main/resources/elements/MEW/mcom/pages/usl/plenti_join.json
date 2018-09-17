@@ -1,0 +1,7 @@
+{
+  "url": "/m/campaign/loyalty/join-today",
+  "btn_about_plenti": "xpath, //a[text()='About Plenti']",
+  "btn_already_member": "xpath, //a[text()='Already a Member?']",
+  "btn_join_now": "cssSelector, div.bottomNavBar>div.navLink>a||cssSelector, #plenti-join-hero-button>a||linkText, JOIN FOR FREE|| cssSelector, div.small-14 a button.btn_navy|| cssSelector, div.text-center a button.btn_navy",
+  "btn_proceed": "cssSelector, a.button.proceed1"
+}

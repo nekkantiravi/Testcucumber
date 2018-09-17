@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+   <reservationNumber>123456789</reservationNumber>
+   <internetOrderNumber>123456789</internetOrderNumber>
+   <orderDate>04/21/2016</orderDate>
+   <shopAt>Bloomingdales.com</shopAt>
+   <explanationText />
+   <orderSubtotalAmt>183.30</orderSubtotalAmt>
+   <baseShippingAmt>0.0</baseShippingAmt>
+   <addtShipAddAmt>11.90</addtShipAddAmt>
+   <shipUpgradeAmt>5.99</shipUpgradeAmt>
+   <giftWrapAmt>4.99</giftWrapAmt>
+   <taxAmt>10.75</taxAmt>
+   <orderTotal>188.30</orderTotal>
+   <divisionCode>072</divisionCode>
+   <locationCode>0139</locationCode>
+   <adhocText />
+   <phoneNbrCS>1-800-777-0000</phoneNbrCS>
+   <hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+   <phoneNbrFP>1-800-537-0197</phoneNbrFP>
+   <hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+   <smsFlag>N</smsFlag>
+   <ltyFlag>N</ltyFlag>
+   <ltyIdUsl />
+   <billingDetail>
+      <title />
+      <firstName>OESBILL</firstName>
+      <middleName>KU</middleName>
+      <lastName>TESTINGBILL</lastName>
+      <attnLine />
+      <addressLine1>123 RIVERSIDE DR</addressLine1>
+      <addressLine2>APT BILLADDR2</addressLine2>
+      <addressLine3>STREETBILL3</addressLine3>
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <country>USA</country>
+      <zipcode>10024</zipcode>
+   </billingDetail>
+   <paymentDetail>
+      <paymentType>Visa</paymentType>
+      <accountNumber>************0605</accountNumber>
+      <amount>224.98</amount>
+      <paymentCategoryFlag>D</paymentCategoryFlag>
+   </paymentDetail>
+   <shipmentDetail>
+      <shipmentNumber>001</shipmentNumber>
+      <shippedDate>04/22/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>C</mailFlag>
+      <title />
+      <firstName>OESSHIP</firstName>
+      <middleName />
+      <lastName>TESTINGSHIP</lastName>
+      <attnLine />
+      <addressLine1>123 JONES SHIPADDR1</addressLine1>
+      <addressLine2>APT SHIPADDR2</addressLine2>
+      <addressLine3>STREETSHIP3</addressLine3>
+      <city>CALIFORNIA</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>10081</zipcode>
+      <greetingMessage>Hii dear,</greetingMessage>
+      <closingMessage>Wishing you A Happy Birthday</closingMessage>
+      <signatureMessage>See you later</signatureMessage>
+      <giftRegistryNumber>0000000000000</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode>545540112345</pickupBarcode>
+      <pickupReadyDate>04/22/2016</pickupReadyDate>
+      <pickupCancelDate>04/29/2016</pickupCancelDate>
+      <shipRetailAmt>183.30</shipRetailAmt>
+      <shipTaxAmt>0.00</shipTaxAmt>
+      <shipFilLoc>0343</shipFilLoc>
+      <shipPhone>917-734-1234</shipPhone>
+      <shipEmailAddress>OESTESTING@GMAIL.COM</shipEmailAddress>
+      <itemDetail>
+         <lineNumber>001</lineNumber>
+         <description>LANGKAWI TOP</description>
+         <price>92.95</price>
+         <requestedQuantity>003</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>92.95</totalAmount>
+         <expectedDate>04/22/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>SAMEDAY</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity>000</cancelledQuantity>
+         <upcId>882864288455</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>M</size>
+         <color>White</color>
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>002</lineNumber>
+         <description>MAYA BANDED TANK</description>
+         <price>90.35</price>
+         <requestedQuantity>005</requestedQuantity>
+         <availableQuantity>004</availableQuantity>
+         <shippedQuantity>003</shippedQuantity>
+         <totalAmount>90.35</totalAmount>
+         <expectedDate>04/22/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>SAMEDAY</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity>000</cancelledQuantity>
+         <upcId>882864289612</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>L</size>
+         <color>RED</color>
+      </itemDetail>
+   </shipmentDetail>
+   <shipmentDetail>
+      <shipmentNumber>002</shipmentNumber>
+      <shippedDate>04/30/2016</shippedDate>
+      <returnSubmittedDate>12/31/9999</returnSubmittedDate>
+      <mailFlag>N</mailFlag>
+      <title />
+      <firstName>OESSHIP</firstName>
+      <middleName />
+      <lastName>TESTINGSHIP</lastName>
+      <attnLine />
+      <addressLine1>123 JONES SHIPADDR1</addressLine1>
+      <addressLine2>APT SHIPADDR2</addressLine2>
+      <addressLine3>STREETSHIP3</addressLine3>
+      <city>CALIFORNIA</city>
+      <state>CA</state>
+      <country>USA</country>
+      <zipcode>10081</zipcode>
+      <greetingMessage>Hii dear,</greetingMessage>
+      <closingMessage>Wishing you A Happy Birthday</closingMessage>
+      <signatureMessage>See you later</signatureMessage>
+      <giftRegistryNumber>0000000000000</giftRegistryNumber>
+      <giftWrapFlag>Y</giftWrapFlag>
+      <giftReceipientEmail />
+      <giftRegistrant1 />
+      <giftRegistrant2 />
+      <giftReceiptFlag>Y</giftReceiptFlag>
+      <pickupBarcode />
+      <pickupReadyDate />
+      <pickupCancelDate />
+      <shipRetailAmt />
+      <shipTaxAmt />
+      <shipFilLoc />
+      <shipPhone />
+      <shipEmailAddress />
+      <itemDetail>
+         <lineNumber>003</lineNumber>
+         <description>MAYA BANDED TANK</description>
+         <price>90.35</price>
+         <requestedQuantity>005</requestedQuantity>
+         <availableQuantity>004</availableQuantity>
+         <shippedQuantity>003</shippedQuantity>
+         <totalAmount>90.35</totalAmount>
+         <expectedDate>04/30/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity>000</cancelledQuantity>
+         <upcId>882864288530</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>Medium</size>
+         <color>BLUE</color>
+      </itemDetail>
+      <itemDetail>
+         <lineNumber>004</lineNumber>
+         <description>LANGKAWI TOP</description>
+         <price>92.95</price>
+         <requestedQuantity>003</requestedQuantity>
+         <availableQuantity>002</availableQuantity>
+         <shippedQuantity>001</shippedQuantity>
+         <totalAmount>92.95</totalAmount>
+         <expectedDate>04/30/2016</expectedDate>
+         <newExpectedDate />
+         <delaySentDate />
+         <delayWaitDate />
+         <systemCancelDate />
+         <shipmentType>STANDARD</shipmentType>
+         <splitShipmentFlag />
+         <status>SHIPPED</status>
+         <vendor />
+         <cancelledQuantity>000</cancelledQuantity>
+         <upcId>882864392763</upcId>
+         <returnExpectedDate>12/31/9999</returnExpectedDate>
+         <returnStatus />
+         <returnReasonDescription />
+         <userCancelDate />
+         <vgcNumber />
+         <vgcCidNumber />
+         <expiryDate />
+         <size>L</size>
+         <color>RED</color>
+      </itemDetail>
+   </shipmentDetail>
+</mailMessagePayload>

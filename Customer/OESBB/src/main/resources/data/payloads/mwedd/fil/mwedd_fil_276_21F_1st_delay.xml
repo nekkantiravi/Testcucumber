@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21F_MWEDD</reservationNumber>
+	<internetOrderNumber>276_21F_MWEDD</internetOrderNumber>
+	<orderDate>12/11/2017</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>35.99</orderSubtotalAmt>
+	<baseShippingAmt>9.95</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>10.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>3.64</taxAmt>
+	<orderTotal>55.58</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>STEPHEN</firstName>
+		<middleName />
+		<lastName>NASH</lastName>
+		<attnLine />
+		<addressLine1>3896 LAKE ST</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>MACON</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>31204</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************9283</accountNumber>
+		<amount>55.58</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>LAUREN</firstName>
+		<middleName />
+		<lastName>WINTERS</lastName>
+		<attnLine />
+		<addressLine1>425 SUNSET DRIVE</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ATHENS</city>
+		<state>GA</state>
+		<country>USA</country>
+		<zipcode>30606</zipcode>
+		<greetingMessage>Cheers to a lifetime of happiness!!</greetingMessage>
+		<closingMessage>Love, Stephen and Anna Kay</closingMessage>
+		<signatureMessage />
+		<giftRegistryNumber>2800001055799</giftRegistryNumber>
+		<giftWrapFlag>Y</giftWrapFlag>
+		<giftReceipientEmail>lwinters1115@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>LAUREN</giftRegistrant1>
+		<giftRegistrant2>JUSTIN</giftRegistrant2>
+		<giftReceiptFlag>Y</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>Christmas Tree Highball Glas</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/13/2017</expectedDate>
+			<newExpectedDate>12/31/9999</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2018</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>Spode</vendor>
+			<cancelledQuantity />
+			<upcId>000000092764339502</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+	<LoyaltyInformation>
+		<keyFobID />
+		<visitsRemaining />
+		<tier />
+		<bonusRewardBal />
+		<bonusPendRewardBal />
+		<bonusRewardEarned />
+		<bonusPendRewardEarned />
+		<rewardBal />
+		<pendRewardBal />
+		<rewardEarned />
+		<pendRewardEarned />
+		<earningLevel />
+		<lastName />
+		<firstName />
+		<email />
+		<starRewards />
+		<visaRewards />
+		<amexRewards />
+		<brierlyRewards />
+		<insiderRewards />
+		<accountStatus />
+		<accountStatusReason />
+		<pendingRewards />
+		<awardCardFlag />
+		<offerOnlyFlag />
+		<visitExpiration />
+		<errorCode />
+		<errorMsg />
+		<Offer>
+			<barCodeNum />
+			<expirationDate />
+			<headerText1 />
+			<headerText2 />
+			<exclusions />
+			<promoCode />
+		</Offer>
+		<Award>
+			<amount />
+		</Award>
+	</LoyaltyInformation>
+</mailMessagePayload>

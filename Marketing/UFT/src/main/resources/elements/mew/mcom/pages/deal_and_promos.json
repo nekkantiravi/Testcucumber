@@ -1,0 +1,4 @@
+{
+  "expiring_soon": "cssSelector,.mb-j-toggleselect-item.right.mb-j-dealsandpromotions-latchkey",
+  "promo_list":"cssSelector,.mb-dealsandpromotions-list-row"
+}

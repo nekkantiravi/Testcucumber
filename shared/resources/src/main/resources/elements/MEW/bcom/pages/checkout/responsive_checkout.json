@@ -1,0 +1,24 @@
+{
+  "include": [
+    "panel.responsive_shipping_options",
+    "panel.responsive_payment_guest_section",
+    "panel.responsive_order_review_section",
+    "panel.responsive_order_summary"
+  ],
+
+  "url":                      "/chkout/rc",
+  "shipping_egift_card_section": "id, rc-vgcInfo",
+  "verify_page":             "id, rc-order-summary-list",
+
+  "continue_shipping_checkout_button": "id, rc-shipping-continue",
+
+  "shipping_loading":        "className, loader-container",
+  "loyallist_section_header": "class, loyallistHeader||class, rc-loyallist-header",
+
+  "create_profile_email_exist_error": "xpath,//input[@id='rc-payment-email']/following-sibling::small",
+  "create_profile_pwd": "id, profile.password",
+  "create_profile_date_list":   "xpath, //div[@class='custom dropdown rc-profile-field']",
+  "create_profile_date_options":   "xpath, //div[@class='custom dropdown rc-profile-field open']//ul/li",
+  "create_profile_email": "id, billingContact.email",
+  "privacy_info": "class, rc-ca-privacy"
+}

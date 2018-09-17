@@ -1,0 +1,8 @@
+Put configuration files here. As an example, here's an environment variable configuration you could use
+to run a basic scenario in this framework.
+
+browser:        firefox
+website:        www.macys.com
+scenarios:      C:\Users\yh01542\SDT\Discovery\CleanAndFastBrowse\features\website\SearchResultPage\mcom\magicBannerChange.feature
+project:        com.macys.sdt.projects.PurchaseAndDelivery.SampleProject
+tags:           @sample_tag

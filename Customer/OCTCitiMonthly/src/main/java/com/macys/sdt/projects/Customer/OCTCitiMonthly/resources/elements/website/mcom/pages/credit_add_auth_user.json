@@ -1,0 +1,22 @@
+{
+  "url": "#addauthusers",
+  "verify_page": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all",
+
+  "first_name": "name, firstName",
+  "last_name": "name, lastName",
+  "dob": "name, birthday",
+  "same_address_check": "cssSelector, .ui-checkbox>label",
+  "address": "name, addressLine1",
+  "city": "name, city",
+  "state_options": "cssSelector, .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow",
+  "state": "name, state ||xpath, //*[@name='state'] ||id, state_7",
+  "zip": "name, zip",
+  "loading": "cssSelector, .ui-icon-loading",
+  "cancel": "cssSelector, .alternate.ui-btn.ui-shadow.ui-corner-all",
+  "add_user": "cssSelector, .default.ui-btn.ui-shadow.ui-corner-all",
+
+  "id_check_popup": "id, #security_modal-popup || cssSelector, .ui-popup-container.fade.in.ui-popup-active",
+  "auth_que_1": "name, answer_0",
+  "auth_que_2": "name, answer_1",
+  "continue_popup": "xpath, //*[@id='security_modal-popup']//*/button[1] || cssSelector, #security_modal-popup>article>div>form>section>button"
+}

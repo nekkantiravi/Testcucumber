@@ -1,0 +1,6 @@
+{
+  "url"         :          "/",
+  "show_samples": "id, show-samples",
+  "sample_grid" : "xpath,.//*[@id='smartsample']",
+  "checkout"    : "id, btnCheckout"
+}

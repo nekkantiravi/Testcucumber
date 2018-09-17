@@ -1,0 +1,32 @@
+{
+  "email" : "id, email",
+  "pass" : "id, pass",
+  "login" : "id, loginbutton",
+  "chatName" : "xpath, //*[@id='js_5']/span",
+  "convAction" : "cssSelector, [aria-label=\"Conversation actions\"]",
+  "delChat" : "className, _54nh",
+  "newMsg" : "xpath, //*[@id='u_0_0']/div/div/div[1]/div/div[1]/a",
+  "chatSelect" : "xpath, //*[@id='u_0_0']/div/div/div[2]/div[2]/div[2]/div[1]/div/div/div/span[1]/label/input",
+  "selectBot" : "xpath, //*[@id='facebook']/body/div[3]/div/div/div/div/div[1]/div/div/div/div/ul/li/a/div/div[2]/div/div",
+  "enterText" : "cssSelector, [aria-label=\"Type a message...\"]",
+
+  "sendText" : "className, _4qba",
+
+  "Customer Service" : "className, _10-e",
+  "getStarted" : "xpath, //*[@id='u_0_0']/div/div/div[2]/div[3]/div[2]/div[2]/div/a/em",
+  "Send Message" : "cssSelector, [rel=\"nofollow noopener\"]",
+  "Call them" : "className, _3cnp",
+  "Call Now" : "cssSelector, ._3cnp._3cnq",
+  "No Thanks" : "cssSelector, [href=\"No, Thanks\"]",
+  "Order Status" : "cssSelector, ._3u69._36wf._2pi9",
+  "OS Response1" : "cssSelector, .clearfix._o46._3erg._-5k._29_7.direction_ltr.text_align_ltr",
+  "OS Response Yes" : "className, _10-e",
+  "OS InProcess" : "cssSelector, ._3oh-._58nk",
+  "OS Closed" : "cssSelector, ._3oh-._58nk",
+  "OS Confirmed" : "cssSelector, ._3oh-._58nk",
+  "OS Canceled" : "cssSelector, ._3oh-._58nk",
+  "Menu Button" : "className, _3km2",
+  "CusSer Menu" : "cssSelector, [href=\"Customer Service\"]",
+  "OS Menu" : "xpath, //*[@id='facebook']/body/div[4]/div/div/div/div/ul/li[4]"
+
+}

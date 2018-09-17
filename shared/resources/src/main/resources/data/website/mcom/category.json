@@ -1,0 +1,28 @@
+{
+  "slp_category_list": {
+    "slp_parent_category_71233": {
+      "slp_child_category_Static_Browse": "71490",
+      "slp_child_category_Category_Link_Browse": "3296",
+      "slp_child_category_Browse": "74485",
+      "slp_child_category_Copy_block_Browse": "78297",
+      "slp_child_category_Left_Nav_Browse": "71408",
+      "slp_child_category_Browse_INTL": "71280",
+      "slp_child_category_Category_Splash": "71145",
+      "slp_child_category_Category_Splash_Copy_Block": "71144",
+      "slp_child_category_Sub_Splash": "71146",
+      "slp_child_category_Browse_Multiple_Copy_Blocks": "73011",
+      "slp_child_category__Left_Nav_Hidden_Browse": "71450"
+    }
+
+  },
+
+  "COPY_BLOCK_ALWAYS_EXPAND_MEW_TRUE": ["72818","71410","74485","71415","74351"],
+  "SLP_COPY_BLOCK_WITH_FACETS": ["74485"],
+  "COPY_BLOCK_ALWAYS_EXPAND_MEW_FALSE": ["71414","78297","71405","78297","74275"],
+  "BROWSE_CATEGORY": ["20640"],
+  "BROWSE_CATEGORY_WITH_10_LINKS": ["27902"],
+  "BROWSE_CATEGORY_WITH_3_LINKS": ["25915"],
+  "SUBSPLASH_CATEGORY_WITH_10_LINKS": ["3296"],
+  "SUBSPLASH_CATEGORY_WITH_3_LINKS": ["29891"],
+  "BROWSE_CATEGORY_WITH_METADESCRIPTION":["7575"]
+}

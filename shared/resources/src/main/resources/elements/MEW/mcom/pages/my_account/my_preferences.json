@@ -1,0 +1,4 @@
+{
+  "url": "/account/preferences",
+  "verify_page": "id, m-preferences-email-value||className, preferences-header"
+}

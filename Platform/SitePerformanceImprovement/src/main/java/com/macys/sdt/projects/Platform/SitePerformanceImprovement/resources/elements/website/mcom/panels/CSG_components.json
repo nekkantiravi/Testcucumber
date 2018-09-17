@@ -1,0 +1,52 @@
+{
+  "test_element": "id, Polaris_app",
+  "modal_overlay": "id, modal_overlay_comp",
+  "overlay_btn": "id, modal-btn",
+  "overlay": "id, my-single-modal",
+  "overlay_close": "className, overlay-close-btn",
+
+  "accordion_component": "id, accordion_comp",
+  "accordion_collapse": "className, icon-ui-plus-gr-small",
+  "accordian_expanded": "className, icon-ui-minus-gr-small",
+  "accordian_body": "className, accordion-body",
+
+  "tabs_component": "id, tabs_comp",
+  "tab1": "xpath, //*[@id='static']/li[1]/button",
+  "tab2": "xpath,//*[@id='static']/li[2]/button",
+  "selected_tab_text": "id, container",
+  "tabs": "className, tabs",
+
+  "drawer_compnent": "id, drawer_comp",
+  "drawer_show_btn": "id, drawer-btn-show",
+  "drawer": "className, drawer-main-wrapper",
+  "drawer_close": "className, icon-ui-chevron-left-gr-huge",
+
+  "loading_indicator_component": "id, loader_indicator_comp",
+  "loader_container": "id, container-loader",
+  "loading_indicator_add": "id, loader-add",
+  "loading_indicator_remove": "id, loader-remove",
+  "loading_indicator_hide": "id, loader-hide",
+  "loading_indicator_image": "className, has-loader",
+
+  "form_validation_component": "id, form_validation_comp",
+  "form_submit_btn": "className, submit",
+  "form_cancel_btn": "className, cancel",
+  "field_username": "id, arialabel_username",
+  "field_email": "id, arialabel_email",
+  "field_password": "id, arialabel_password",
+  "field_conPassword": "id, arialabel_confirmPassword",
+  "email_error_message": "id, profile_email-error",
+  "password_error_message": "id, profile_password-error",
+  "warning_icon": "className,icon-ui-error-f-medium",
+  "validation_icon": "className, icon-ui-validation-f-medium"
+
+
+
+
+
+
+
+
+
+
+}

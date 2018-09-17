@@ -1,0 +1,5 @@
+{
+  "enrollment_completion_message": "class, m-plenti-preferences-signedup-message",
+  "maybe_later": "id, m-plenti-option-none",
+  "continue_button": "id, plentiPreferencesSubmit"
+}

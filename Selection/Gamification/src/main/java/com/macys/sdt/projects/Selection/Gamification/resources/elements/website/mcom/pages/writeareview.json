@@ -1,0 +1,18 @@
+{
+	"write_a_review_no_reviews":			"cssSelector, #BVRRDisplayContentNoReviewsID>a",
+	"write_rev_whenexis_reviews":			"cssSelector, #BVRRRatingSummaryLinkWriteID>a",
+	"write_a_review_starrating":				"cssSelector, .rating-star",
+	"write_a_review_revhead":					"cssSelector, .reviewTitle",	
+	"write_a_review_body":						"cssSelector, .reviewDetails",
+	"write_a_review_nickname":					"cssSelector, .reviewNickname",
+	"write_a_Review_recommend_yes":				"xpath,.//*[@id='is_recommended_yes_2745239']",
+	"write_a_review_submit":					"cssSelector, .small.left.reviewSubmit",
+	"write_a_review_submit_Optional_Sliders":	"cssSelector, .reviewSubmit.right",
+	"review_confirmation":						"cssSelector, .columns>p>strong",
+	"myreview_war_prdname":						"cssSelector, .columns>a",
+	"myreview_isrecommradio":					"xpath, .//*[@id='myReviewsContainer']/ul/li/section/div[2]/div/div[4]/fieldset/div",
+	"myreview_isrecommended":					"cssSelector, .accessibilty_radio",
+	"myreviews_prodid":							"cssSelector, .productID",
+	"myreviews_isrecommended_Yes":				"cssSelector, #is_recommended_yes_{arg1}",
+	"myreviews_isrecommended_No":				"cssSelector, #is_recommended_no_{arg1}"
+}

@@ -1,0 +1,14 @@
+{
+    "product_title":                          "cssSelector, [data-auto='product-title']",
+    "product_price":                          "cssSelector, [data-auto='main-price']",
+    "product_sale_price":                      "cssSelector, [data-auto='sale-price']",
+    "product_color":                          "cssSelector, [data-auto='color']",
+    "product_size":                           "cssSelector, [data-auto='size']",
+    "product_mainImg":                        "cssSelector, [data-auto='main-image']",
+    "items_in_bag":                            "cssSelector, [data-auto='items-in-bag']",
+    "bag_qty":                                "xpath, .//*[@data-auto='items-in-bag']//div[2]",
+    "sub_total":                              "xpath, .//*[@data-auto='subtotal']/div[2]",
+    "you_saved":                              "xpath, .//*[@data-auto='you-saved']/div[2]",
+    "continue_shopping_button":                   "cssSelector, [data-auto='continue-shopping']",
+    "checkout_button":                           "cssSelector, [data-auto='checkout']"
+}

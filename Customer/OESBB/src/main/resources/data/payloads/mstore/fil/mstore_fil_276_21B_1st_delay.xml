@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>276_21B_MSTORE</reservationNumber>
+	<internetOrderNumber>276_21B_MSTORE</internetOrderNumber>
+	<orderDate>12/08/2016</orderDate>
+	<shopAt>Macy's</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>319.99</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>10.00</addtShipAddAmt>
+	<shipUpgradeAmt>2.00</shipUpgradeAmt>
+	<giftWrapAmt>6.00</giftWrapAmt>
+	<taxAmt>13.60</taxAmt>
+	<orderTotal>333.59</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0344</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>PHYLLIS</firstName>
+		<middleName />
+		<lastName>CHRISMAN</lastName>
+		<attnLine />
+		<addressLine1>6322 E RADCLIFF AVE</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ENGLEWOOD</city>
+		<state>CO</state>
+		<country>USA</country>
+		<zipcode>80111</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************4912</accountNumber>
+		<amount>333.59</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>003</shipmentNumber>
+		<shippedDate>12/31/9999</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>PHYLLIS</firstName>
+		<middleName />
+		<lastName>CHRISMAN</lastName>
+		<attnLine />
+		<addressLine1>6322 E RADCLIFF AVE</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>ENGLEWOOD</city>
+		<state>CO</state>
+		<country>USA</country>
+		<zipcode>80111</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag>N</giftReceiptFlag>
+		<itemDetail>
+			<lineNumber />
+			<description>CELESTIAL</description>
+			<price />
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity />
+			<shippedQuantity />
+			<totalAmount />
+			<expectedDate>12/13/2016</expectedDate>
+			<newExpectedDate>02/06/2017</newExpectedDate>
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate>01/12/2017</systemCancelDate>
+			<shipmentType />
+			<splitShipmentFlag />
+			<status>BACKORDERED</status>
+			<vendor>HOTEL COLLECTION</vendor>
+			<cancelledQuantity />
+			<upcId>000000762120162344</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size>KING DUVET</size>
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

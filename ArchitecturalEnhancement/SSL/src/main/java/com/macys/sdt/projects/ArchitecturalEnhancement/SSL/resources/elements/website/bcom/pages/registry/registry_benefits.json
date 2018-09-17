@@ -1,0 +1,4 @@
+{
+    "url":              "/registry/wedding/m/benefits",
+    "verify_page":      "id, reg_benefits_mainDiv"
+}

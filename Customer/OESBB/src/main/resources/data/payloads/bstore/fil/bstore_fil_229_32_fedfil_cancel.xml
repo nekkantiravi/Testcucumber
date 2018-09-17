@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailMessagePayload>
+	<reservationNumber>229_32_bstore</reservationNumber>
+	<internetOrderNumber>514086074</internetOrderNumber>
+	<orderDate>07/11/2012</orderDate>
+	<shopAt>Bloomingdales</shopAt>
+	<explanationText />
+	<orderSubtotalAmt>659.97</orderSubtotalAmt>
+	<baseShippingAmt>0.00</baseShippingAmt>
+	<addtShipAddAmt>0.00</addtShipAddAmt>
+	<shipUpgradeAmt>0.00</shipUpgradeAmt>
+	<giftWrapAmt>0.00</giftWrapAmt>
+	<taxAmt>51.15</taxAmt>
+	<orderTotal>711.12</orderTotal>
+	<divisionCode>072</divisionCode>
+	<locationCode>0062</locationCode>
+	<adhocText />
+	<phoneNbrCS>1-800-777-0000</phoneNbrCS>
+	<hoursCS>Monday-Friday 9am-9pm, Saturday 9am-7pm, Sunday 11am-7pm</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title />
+		<firstName>DALAL</firstName>
+		<middleName />
+		<lastName>SAADA</lastName>
+		<attnLine />
+		<addressLine1>401 ROCKEFELLER</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>IRVINE</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>92612</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Visa</paymentType>
+		<accountNumber>************1822</accountNumber>
+		<amount>172.39</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>008</shipmentNumber>
+		<shippedDate>10/17/2012</shippedDate>
+		<mailFlag />
+		<title />
+		<firstName>DALAL</firstName>
+		<middleName />
+		<lastName>SAADA</lastName>
+		<attnLine />
+		<addressLine1>401 ROCKEFELLER</addressLine1>
+		<addressLine2 />
+		<addressLine3 />
+		<city>IRVINE</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>92612</zipcode>
+		<greetingMessage />
+		<closingMessage />
+		<signatureMessage />
+		<giftRegistryNumber>0000000000000</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail />
+		<giftRegistrant1 />
+		<giftRegistrant2 />
+		<giftReceiptFlag />
+		<itemDetail>
+			<lineNumber>009</lineNumber>
+			<description>LUXE SILK</description>
+			<price>159.99</price>
+			<requestedQuantity></requestedQuantity>
+			<availableQuantity></availableQuantity>
+			<shippedQuantity></shippedQuantity>
+			<totalAmount>159.99</totalAmount>
+			<expectedDate>10/17/2012</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>SHIPPED</status>
+			<vendor>HUDSON PARK COLLECTION-BLM</vendor>
+			<cancelledQuantity>004</cancelledQuantity>
+			<upcId>5052376910532</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size></size>
+			<color></color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

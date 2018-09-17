@@ -1,0 +1,29 @@
+{
+  "carouselVertical": 								"cssSelector, div#pros-vertical .carousel",
+  "verticalThumbnailImage":                         "cssSelector, #verticalPros img.thumbnailImage",
+  "carouselVerticalProducts":                       "cssSelector, #verticalPros img.thumbnailImage || cssSelector, div#pros-vertical [aria-label='carousel']>li",
+  "carouselVerticalProductAll":                    "cssSelector, #verticalPros #carousel>li",
+  "carouselVerticalProductInView":                   "xpath, //section[@id='verticalPros']//div[@class='prosTrackingDiv'] || cssSelector, div#pros-vertical li[aria-hidden='false']>div",
+  "carouselVerticalPrevArrow":                        "cssSelector, #verticalPros>span.m-carousel-button.nav.prev",
+  "carouselVerticalPrevArrowDis":                  "cssSelector, #verticalPros>span.m-carousel-button.nav.prev>button.disabled",
+  "carouselVerticalPrevArrowEnable":             "cssSelector, #verticalPros>span.m-carousel-button.nav.prev>button.enabled || cssSelector, div#pros-vertical .m-carousel-button.up.enabled",
+  "carouselVerticalNextArrow":                        "cssSelector, #verticalPros>span.m-carousel-button.nav.next || cssSelector, div#pros-vertical button[aria-label='scroll carousel down']",
+  "carouselVerticalNextArrowEnable":                 "cssSelector, #verticalPros>span.m-carousel-button.nav.next>button.enabled || cssSelector, m-carousel-button down enabled",
+  "pdpProductTitle":                                     "cssSelector, .productTitle",
+
+  "carouselHorizontal": 								"cssSelector, div#horizontalProsCarousel",
+  "carouselHorizontalProducts":                       "cssSelector, div#horizontalProsCarousel #carousel>li",
+  "carouselHorizontalProductsId":                       "cssSelector, div#horizontalProsCarousel #carousel>li>div.prosTrackingDiv",
+  "carouselHorizontalLeftArrow":                        "cssSelector, #horizontalProsCarousel>span.m-carousel-button.nav.prev",
+  "carouselHorizontalRightArrow":                        "cssSelector, #horizontalProsCarousel>span.m-carousel-button.nav.next",
+
+  "carouselHorizontalRightArrowDisabled":               "cssSelector, #horizontalProsCarousel>span.m-carousel-button.nav.next [disabled=disabled]",
+  "carouselHorizontalLeftArrowDisabled":                        "cssSelector, #horizontalProsCarousel>span.m-carousel-button.nav.prev [disabled='disabled']",
+  "carouselHorizontalProductsList":                    "cssSelector, div#horizontalProsCarousel a.recommendationLink",
+  "carouselHorizontalProductsListZSR":                    "cssSelector, div.componentCarousel.horizontal div.productThumbnail",
+  "searchResultStr":                                      "cssSelector, div#resultsFound",
+  "gridProducts":                                       "cssSelector, div#mb-j-product-recommendations-container-grid div.m-product-recommended-product"
+
+
+
+}

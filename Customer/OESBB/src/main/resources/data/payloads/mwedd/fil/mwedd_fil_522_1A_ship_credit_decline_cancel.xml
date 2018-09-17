@@ -1,0 +1,98 @@
+<mailMessagePayload>
+	<reservationNumber>601398374</reservationNumber>
+	<internetOrderNumber>522_1A_MWEDD</internetOrderNumber>
+	<orderDate>11/03/2012</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText>This is 241 test</explanationText>
+	<orderSubtotalAmt>169.58</orderSubtotalAmt>
+	<baseShippingAmt>9.95</baseShippingAmt>
+    <addtShipAddAmt>1.23</addtShipAddAmt>
+    <shipUpgradeAmt>1.11</shipUpgradeAmt>
+    <giftWrapAmt>5.23</giftWrapAmt>
+	<taxAmt>14.42</taxAmt>
+	<orderTotal>184.00</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText >This is 241 test</adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>Sunday through Saturday 9:00 AM to 12:00 AM Eastern Time</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday-Saturday 9am-10pm, Sunday 9am-7pm</hoursFP>
+	<billingDetail>
+		<title>Mr.</title>
+		<firstName>KATY</firstName>
+		<middleName>John</middleName>
+		<lastName>FONG</lastName>
+		<attnLine />
+		<addressLine1>303 ARGUELLO BLVD</addressLine1>
+		<addressLine2>APT 201</addressLine2>
+		<addressLine3>A#200</addressLine3>
+		<city>SAN FRANCISCO</city>
+		<state>CA</state>
+		<country>USA</country>
+		<zipcode>94118</zipcode>
+	</billingDetail>
+	<paymentDetail>
+	<paymentType>Visa</paymentType>
+		<accountNumber>************5645</accountNumber>
+		<amount>522.02</amount>
+		<paymentCategoryFlag>D</paymentCategoryFlag>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>7648842</shipmentNumber>
+        <shippedDate>12/31/2014</shippedDate>
+        <mailFlag>N</mailFlag>
+        <title>Mr.</title>
+        <firstName>Shereen</firstName>
+        <middleName>John</middleName>
+        <lastName>Idnani</lastName>
+        <attnLine/>
+        <addressLine1>9612 REGENCY LOOP SE</addressLine1>
+        <addressLine2>9th Floor</addressLine2>
+        <addressLine3>A#200</addressLine3>
+        <city>OLYMPIA</city>
+        <state>WA</state>
+        <country>USA</country>
+        <zipcode>98513</zipcode>
+        <greetingMessage>Hello User</greetingMessage>
+        <closingMessage>Hope you have a great birthday</closingMessage>
+        <signatureMessage>Shereen</signatureMessage>
+        <giftRegistryNumber> 123456789</giftRegistryNumber>
+        <giftWrapFlag>Y</giftWrapFlag>
+        <giftReceipientEmail/>
+        <giftRegistrant1 />
+        <giftRegistrant2 />
+        <giftReceiptFlag />
+		<trackingDetail>
+			<trackingNumber />
+			<numberofPackages />
+			<shipmentCarrier />
+		</trackingDetail>
+		<itemDetail>
+			<lineNumber>002</lineNumber>
+			<description>UPC 000000002691488604</description>
+			<price>12.10</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>001</availableQuantity>
+			<shippedQuantity>000</shippedQuantity>
+			<totalAmount>12.10</totalAmount>
+			<expectedDate>12/31/9999</expectedDate>
+			<newExpectedDate />
+			<delaySentDate />
+			<delayWaitDate />
+			<systemCancelDate />
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag />
+			<status>ON ORDER</status>
+			<vendor />
+			<cancelledQuantity />
+			<upcId>000000032677719824</upcId>
+			<userCancelDate />
+			<vgcNumber />
+			<vgcCidNumber />
+			<expiryDate />
+			<size />
+			<color />
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

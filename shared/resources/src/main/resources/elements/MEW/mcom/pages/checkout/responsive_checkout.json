@@ -1,0 +1,31 @@
+{
+  "include": [
+    "panel.responsive_shipping_options",
+    "panel.responsive_payment_guest_section",
+    "panel.responsive_order_summary"
+  ],
+
+  "url":                      "/chkout/rc",
+
+  "verify_page":          "id, rc-shipping-delivery-sub-header||cssSelector, h1#rc-mixed-header",
+  "edit_payment_info":    "id, rc-payment-edit",
+  "place_order":          "id, rc-place-order",
+  "continue_payment_checkout_button": "id,rc-payment-continue",
+  "paypal_radio_button":  "id,rc-paypal",
+  "continue_with_paypal": "id,rc-paypal-continue",
+  "bops_shipping":        "id, rc-at-bops-cost||id, rc-at-bops-cost-value",
+  "loader_mask":          "className, loader-container",
+
+
+  "create_profile_checkbox":"xpath,//div[@id='rc-ca-toggle-form']//input[@id='rc-ca-toggle']",
+  "create_profile_email_exist_error":"xpath,//input[@id='rc-payment-email']/following-sibling::small",
+  "create_profile_pwd_error":"xpath,//input[@id='rc-ca-password']/following-sibling::small",
+  "create_profile_pwd":"id,rc-ca-password",
+  "create_profile_email":"name,billingContact.email",
+  "create_profile_day":"id,rc-ca-day",
+  "create_profile_month":"id,rc-ca-month",
+  "create_profile_year":"id,rc-ca-year",
+  "shipping_egift_card_section":"className, rc-vgc-message"
+
+
+}

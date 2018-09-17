@@ -1,0 +1,141 @@
+<mailMessagePayload>
+	<reservationNumber>345</reservationNumber>
+	<internetOrderNumber>123456789</internetOrderNumber>
+	<orderDate>07/28/2016</orderDate>
+	<shopAt>Macy's Wedding and Gift Regist</shopAt>
+	<explanationText></explanationText>
+	<orderSubtotalAmt>23.97</orderSubtotalAmt>
+	<baseShippingAmt>10.00</baseShippingAmt>
+	<addtShipAddAmt>20.00</addtShipAddAmt>
+	<shipUpgradeAmt>30.00</shipUpgradeAmt>
+	<giftWrapAmt>40.00</giftWrapAmt>
+	<taxAmt>1.97</taxAmt>
+	<orderTotal>25.94</orderTotal>
+	<divisionCode>071</divisionCode>
+	<locationCode>0139</locationCode>
+	<adhocText></adhocText>
+	<phoneNbrCS>1-800-289-6229</phoneNbrCS>
+	<hoursCS>HAVE QUESTIONS? WE'RE HERE 24/7!</hoursCS>
+	<phoneNbrFP>1-866-282-8977</phoneNbrFP>
+	<hoursFP>Monday - Saturday 9am - 9pm, Sunday 9am - 7pm</hoursFP>
+	<smsFlag>N</smsFlag>
+	<ltyFlag>N</ltyFlag>
+	<multiSiteId>123</multiSiteId>
+    <munTaxAmt>15.32</munTaxAmt>
+    <miscTaxAmt>9.00</miscTaxAmt>
+	<ltyIdUsl>0000000123456789</ltyIdUsl>
+	<billingDetail>
+		<title></title>
+		<firstName>2466AMWEDDVData</firstName>
+		<middleName></middleName>
+		<lastName>TESTING</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 N 4TH ST</addressLine1>
+		<addressLine2>APT 4D</addressLine2>
+		<addressLine3></addressLine3>
+		<city>BROOKLYN</city>
+		<state>NY</state>
+		<country>USA</country>
+		<zipcode>11211</zipcode>
+	</billingDetail>
+	<paymentDetail>
+		<paymentType>Electronic Gift Card</paymentType>
+		<accountNumber>************1234</accountNumber>
+		<amount>25.94</amount>
+		<paymentCategoryFlag>C</paymentCategoryFlag>
+		<egcCertificateType>83</egcCertificateType>
+	</paymentDetail>
+	<shipmentDetail>
+		<shipmentNumber>001</shipmentNumber>
+		<shippedDate>04/25/2016</shippedDate>
+		<returnSubmittedDate>12/31/9999</returnSubmittedDate>
+		<mailFlag></mailFlag>
+		<title>MS.</title>
+		<firstName>ESP</firstName>
+		<middleName></middleName>
+		<lastName>MIGRATION</lastName>
+		<attnLine></attnLine>
+		<addressLine1>123 REAGAN ST</addressLine1>
+		<addressLine2>APT 123</addressLine2>
+		<addressLine3></addressLine3>
+		<city>DALLAS</city>
+		<state>TX</state>
+		<country>USA</country>
+		<zipcode>75219</zipcode>
+		<greetingMessage></greetingMessage>
+		<closingMessage></closingMessage>
+		<signatureMessage></signatureMessage>
+		<giftRegistryNumber>2800022531234</giftRegistryNumber>
+		<giftWrapFlag>N</giftWrapFlag>
+		<giftReceipientEmail>oestesting@gmail.com</giftReceipientEmail>
+		<giftRegistrant1>MARIJA</giftRegistrant1>
+		<giftRegistrant2>WILL</giftRegistrant2>
+		<giftReceiptFlag></giftReceiptFlag>
+		<pickupBarcode></pickupBarcode>
+		<pickupReadyDate></pickupReadyDate>
+		<pickupCancelDate></pickupCancelDate>
+		<shipRetailAmt></shipRetailAmt>
+		<shipTaxAmt></shipTaxAmt>
+		<shipFilLoc></shipFilLoc>
+		<shipPhone></shipPhone>
+		<shipEmailAddress></shipEmailAddress>
+		<itemDetail>
+			<lineNumber>004</lineNumber>
+			<description>Baby Plush Elephant</description>
+			<price>12.98</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>000</availableQuantity>
+			<shippedQuantity>006</shippedQuantity>
+			<totalAmount>200.00</totalAmount>
+			<expectedDate>04/25/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>First Impressions</vendor>
+			<cancelledQuantity>10</cancelledQuantity>
+			<upcId>882864552730</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>ONE SIZE</size>
+			<color>Light Gray</color>
+		</itemDetail>
+		<itemDetail>
+			<lineNumber>005</lineNumber>
+			<description>Baby Boys or Baby Girls Hood</description>
+			<price>13.99</price>
+			<requestedQuantity>001</requestedQuantity>
+			<availableQuantity>002</availableQuantity>
+			<shippedQuantity>003</shippedQuantity>
+			<totalAmount>10.99</totalAmount>
+			<expectedDate>04/25/2016</expectedDate>
+			<newExpectedDate></newExpectedDate>
+			<delaySentDate></delaySentDate>
+			<delayWaitDate></delayWaitDate>
+			<systemCancelDate></systemCancelDate>
+			<shipmentType>STANDARD</shipmentType>
+			<splitShipmentFlag></splitShipmentFlag>
+			<status>SHIPPED</status>
+			<vendor>Carters</vendor>
+			<cancelledQuantity>04</cancelledQuantity>
+			<upcId>882864391223</upcId>
+			<returnExpectedDate>12/31/9999</returnExpectedDate>
+			<returnStatus>0</returnStatus>
+			<returnReasonDescription></returnReasonDescription>
+			<userCancelDate></userCancelDate>
+			<vgcNumber></vgcNumber>
+			<vgcCidNumber></vgcCidNumber>
+			<expiryDate></expiryDate>
+			<size>M</size>
+			<color>White</color>
+		</itemDetail>
+	</shipmentDetail>
+</mailMessagePayload>

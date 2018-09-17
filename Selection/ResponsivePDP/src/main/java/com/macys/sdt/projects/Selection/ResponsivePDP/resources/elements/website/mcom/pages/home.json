@@ -1,0 +1,10 @@
+{
+  "include": [
+     "panel.header_and_footer"
+  ],
+  "macysLogo":                                  "cssSelector, .redesign-header-logo",
+  "profileName":                                "cssSelector, .profile-name>h1",
+  "globalSearchInputField":                     "cssSelector, #globalSearchInputField",
+  "iShipFlagLink":                              "cssSelector, .//*[contains(@class,'iShipFlagLink')]",
+  "backToUS":                                   "cssSelector, #href_goToUSSite"
+}

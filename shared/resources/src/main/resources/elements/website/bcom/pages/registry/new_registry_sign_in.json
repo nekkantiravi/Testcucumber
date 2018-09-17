@@ -1,0 +1,14 @@
+{
+  "url":                                 "/registry/wedding/registrycaptureemail || /account/signin?&registrycaptureemail=true&fromRegistry=true",
+  "verify_page":                         "id, createRegistryBtn || id, continue || id, standard-sign-up",
+
+  "email":                               "id, signInVB.email || id, email",
+  "password":                            "id, signInVB.password || id, pw-input",
+  "sign_in_button":                      "id, accountSignInBtn || id, sign-in",
+  "error_message":                       "className, b_errorMessage",
+  "create_registry":                     "id, createRegistryBtn || id, continue",
+  "forgot_password":                     "id, forgotPassword || linkText, Forgot Your Password?",
+  "pwd_show_button":                     "id, show-pw",
+  "learn_more":                          "id, ul-learn-more ",
+  "create_an_account":                   "id, standard-sign-up"
+}
